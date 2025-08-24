@@ -11,6 +11,7 @@ import SystemDetail from './pages/SystemDetail';
 import Quiz from './pages/Quiz';
 import PracticeQuiz from './pages/PracticeQuiz';
 import './index.css';
+import { Analytics } from '@vercel/analytics/next';
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -20,6 +21,7 @@ function App() {
   }, [darkMode]);
 
   return (
+  <>
     <Router>
       <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-200">
         <Header darkMode={darkMode} setDarkMode={setDarkMode} />
@@ -38,6 +40,8 @@ function App() {
         <Footer />
       </div>
     </Router>
+    <Analytics />
+  </>
   );
 }
 
