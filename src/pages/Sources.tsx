@@ -13,28 +13,28 @@ const Sources: React.FC = () => {
           author: "Drake, Vogl, and Mitchell",
           description: "Comprehensive anatomical reference with clinical correlations",
           type: 'Book',
-          url: 'https://www.elsevier.com/books/grays-anatomy-for-students/drake/978-0-323-39304-7'
+          url: 'https://t.me/Medical_PAN_Bot'
         },
         {
           title: "Guyton and Hall Textbook of Medical Physiology",
           author: "John E. Hall",
           description: "Authoritative physiology textbook with clinical applications",
           type: 'Book',
-          url: 'https://www.elsevier.com/books/guyton-and-hall-textbook-of-medical-physiology/hall/978-0-323-59712-8'
+          url: 'https://t.me/Medical_PAN_Bot'
         },
         {
           title: "Robbins Basic Pathology",
           author: "Kumar, Abbas, and Aster",
           description: "Essential pathology textbook for medical students",
           type: 'Book',
-          url: 'https://www.elsevier.com/books/robbins-basic-pathology/kumar/978-0-323-35317-5'
+          url: 'https://t.me/Medical_PAN_Bot'
         },
         {
           title: "First Aid for the USMLE Step 1",
           author: "Le, Bhushan, et al.",
           description: "High-yield review for medical licensing examinations",
           type: 'Review Book',
-          url: 'https://www.mhprofessional.com/9781260462074-usa-first-aid-for-the-usmle-step-1-2021'
+          url: 'https://t.me/Medical_MhM_Robot'
         }
       ]
     },
@@ -44,11 +44,11 @@ const Sources: React.FC = () => {
       color: 'from-green-500 to-green-600',
       resources: [
         {
-          title: "Khan Academy Medicine",
-          author: "Khan Academy",
-          description: "Free video lectures on medical topics and MCAT preparation",
+          title: "Kunhub",
+          author: "Niels Hapke",
+          description: "Interactive medical learning platform offering anatomy tutorials, histology slides, and clinical case studies.",
           type: 'Video Platform',
-          url: 'https://www.khanacademy.org/science/health-and-medicine'
+          url: 'https://www.kenhub.com/'
         },
         {
           title: "Osmosis",
@@ -58,18 +58,18 @@ const Sources: React.FC = () => {
           url: 'https://www.osmosis.org/'
         },
         {
-          title: "Lecturio Medical",
-          author: "Lecturio",
-          description: "Comprehensive medical education with expert lectures",
-          type: 'Learning Platform',
-          url: 'https://www.lecturio.com/medical-education'
+          title: "Medicosis Perfectionalis",
+          author: "an Egyptian physician",
+          description: "A high-yield YouTube channel offering clear, engaging explanations across medicine, surgery, biochemistry, pathology, and more. Known for turning complex topics into digestible, memorable lessons.",
+          type: 'YouTube channel',
+          url: 'https://youtube.com/@medicosisperfectionalis?si=EpiekX2e7DSI_x2s'
         },
         {
-          title: "Physeo",
-          author: "Physeo",
-          description: "Visual learning platform for medical physiology",
-          type: 'Video Platform',
-          url: 'https://www.physeo.com/'
+          title: "Dirty Medicine",
+          author: "Dirty Medicine",
+          description: "A bold, high-impact YouTube channel focused on USMLE and medical school prep. Known for its brutally honest, high-yield breakdowns of pharmacology, biochemistry, and pathology — all delivered with humor and clarity.",
+          type: 'YouTube channel',
+          url: 'https://youtube.com/@dirtymedicine?si=84J7dnSOGdLu5cdV'
         }
       ]
     },
@@ -114,32 +114,32 @@ const Sources: React.FC = () => {
       color: 'from-orange-500 to-orange-600',
       resources: [
         {
-          title: "OpenStax Anatomy & Physiology",
-          author: "OpenStax",
-          description: "Free, peer-reviewed textbook for anatomy and physiology",
-          type: 'Free Textbook',
-          url: 'https://openstax.org/details/books/anatomy-and-physiology'
+          title: "Ninja Nerd",
+          author: "Zach Murphy",
+          description: "One of the most comprehensive medical education channels on YouTube, Ninja Nerd offers detailed, visually rich lectures on anatomy, physiology, pathology, pharmacology, and more. Their whiteboard-style teaching and clinical depth make it a favorite among medical students worldwide.",
+          type: 'YouTube channel',
+          url: 'https://youtube.com/@ninjanerdofficial?si=rxakS3pI78trg73E'
         },
         {
-          title: "MIT OpenCourseWare",
-          author: "MIT",
-          description: "Free course materials from MIT including biology courses",
-          type: 'Course Materials',
-          url: 'https://ocw.mit.edu/courses/biology/'
+          title: "Boards & Beyond",
+          author: "Dr. Jason Ryan",
+          description: "A trusted video-based learning platform designed to help medical students master foundational concepts for the USMLE and clinical rotations. With structured playlists and clear explanations, it’s ideal for reinforcing classroom material and building long-term understanding.",
+          type: 'Telegram Channel',
+          url: 'https://t.me/Boards_and_Beyond_videos_2023'
         },
         {
-          title: "WHO Guidelines",
-          author: "World Health Organization",
-          description: "Evidence-based recommendations for health interventions",
-          type: 'Guidelines',
-          url: 'https://www.who.int/publications/guidelines'
+          title: "Kaplan Medical",
+          author: "Stanley Kaplan",
+          description: "A globally recognized leader in medical exam preparation, Kaplan offers comprehensive resources for USMLE, COMLEX, NCLEX, and MCAT. Their platform includes expert-led video lectures, realistic practice exams, Qbanks, and personalized study plans tailored to every stage of medical education.",
+          type: 'Telegram Channel',
+          url: 'https://t.me/kaplanvideos'
         },
         {
-          title: "CDC Learning Resources",
-          author: "CDC",
-          description: "Public health training and educational materials",
-          type: 'Educational Resource',
-          url: 'https://www.cdc.gov/learning/'
+          title: "MedicalStudyZone",
+          author: "Muhammad Mohsin",
+          description: "A free, community-driven platform offering downloadable medical textbooks, video lectures, and exam prep materials for MBBS, FCPS, USMLE, and more.",
+          type: 'Website',
+          url: 'https://medicalstudyzone.com/'
         }
       ]
     }

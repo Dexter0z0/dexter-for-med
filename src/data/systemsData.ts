@@ -14,6 +14,10 @@ import {
   Baby, 
   Eye 
 } from 'lucide-react';
+import { FaLungs } from "react-icons/fa6";
+import { GiStomach, GiKidneys } from "react-icons/gi";
+import { IoMaleFemaleSharp } from "react-icons/io5";
+import { FaHeartbeat, FaBacterium } from "react-icons/fa";
 
 export interface Question {
   question: string;
@@ -53,7 +57,7 @@ export const systemsData: { [key: string]: SystemData } = {
       'Valvular heart disease'
     ],
     color: 'from-red-500 to-red-600',
-    icon: Heart,
+    icon: FaHeartbeat,
     categories: ['anatomy', 'physiology', 'pathology'],
     modules: {
       anatomy: {
@@ -644,7 +648,7 @@ export const systemsData: { [key: string]: SystemData } = {
       'Acid-base balance'
     ],
     color: 'from-blue-500 to-blue-600',
-    icon: Lungs,
+    icon: FaLungs,
     categories: ['anatomy', 'physiology', 'pathology'],
     modules: {
       anatomy: {
@@ -841,7 +845,7 @@ export const systemsData: { [key: string]: SystemData } = {
       'Inflammatory bowel disease'
     ],
     color: 'from-orange-500 to-orange-600',
-    icon: Stomach,
+    icon: GiStomach,
     categories: ['anatomy', 'physiology', 'pathology'],
     modules: {
       anatomy: {
@@ -1038,7 +1042,7 @@ export const systemsData: { [key: string]: SystemData } = {
       'Chronic kidney disease'
     ],
     color: 'from-yellow-500 to-yellow-600',
-    icon: Kidney,
+    icon: GiKidneys,
     categories: ['anatomy', 'physiology', 'pathology'],
     modules: {
       anatomy: {
@@ -1235,7 +1239,7 @@ export const systemsData: { [key: string]: SystemData } = {
       'Reproductive disorders'
     ],
     color: 'from-pink-500 to-pink-600',
-    icon: Baby,
+    icon: IoMaleFemaleSharp,
     categories: ['anatomy', 'physiology', 'pathology'],
     modules: {
       anatomy: {
@@ -1708,7 +1712,7 @@ export const systemsData: { [key: string]: SystemData } = {
       'Vaccination principles'
     ],
     color: 'from-indigo-500 to-indigo-600',
-    icon: Eye,
+    icon: FaBacterium,
     categories: ['general'],
     modules: {
       general: {
@@ -1945,7 +1949,7 @@ export const systemsData: { [key: string]: SystemData } = {
       'Teratogens'
     ],
     color: 'from-violet-500 to-violet-600',
-    icon: Dna,
+    icon: Baby,
     categories: ['general'],
     modules: {
       general: {

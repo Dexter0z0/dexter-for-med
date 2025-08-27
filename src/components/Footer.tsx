@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Heart, Mail, Phone, MapPin, ExternalLink } from 'lucide-react';
+import { FaFileMedicalAlt } from "react-icons/fa";
 
 const Footer: React.FC = () => {
   return (
@@ -11,7 +12,7 @@ const Footer: React.FC = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
               <div className="bg-blue-600 p-2 rounded-lg">
-                <Heart className="h-6 w-6 text-white" />
+                <FaFileMedicalAlt className="h-6 w-6 text-white" />
               </div>
               <div>
                 <h3 className="text-xl font-bold">Dexter for Med</h3>
@@ -19,7 +20,7 @@ const Footer: React.FC = () => {
               </div>
             </div>
             <p className="text-gray-300 text-sm leading-relaxed">
-              Created by Dexter, a second-year medical student at Al-Farabi Kazakh National University. 
+              Created by Abdallah, a second-year medical student at Al-Farabi Kazakh National University. 
               Providing high-quality medical MCQs with detailed explanations to help medical students excel.
             </p>
           </div>

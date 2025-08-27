@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Heart, Menu, X, Moon, Sun } from 'lucide-react';
+import { FaFileMedicalAlt } from "react-icons/fa";
 
 interface HeaderProps {
   darkMode: boolean;
@@ -31,7 +32,7 @@ const Header: React.FC<HeaderProps> = ({ darkMode, setDarkMode }) => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3 hover:opacity-80 transition-opacity">
             <div className="bg-white/10 p-2 rounded-lg">
-              <Heart className="h-8 w-8 text-white" />
+             <FaFileMedicalAlt className="h-6 w-6 text-white"/> 
             </div>
             <div>
               <h1 className="text-2xl font-bold">Dexter</h1>
