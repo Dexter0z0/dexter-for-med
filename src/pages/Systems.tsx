@@ -200,7 +200,7 @@ const Systems: React.FC = () => {
                         Questions Available
                       </span>
                       <span className="font-semibold text-gray-700 dark:text-gray-300">
-                        {system.categories.includes('general') ? '10+' : '30+'}
+                        {system.categories.includes('general') ? '100+' : '100+'}
                       </span>
                     </div>
                   </div>
