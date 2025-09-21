@@ -6638,10 +6638,9 @@ export const systemsData: { [key: string]: SystemData } = {
               "Plasma [Ca2+]: Low, Plasma [P]: High, Plasma [PTH]: High",
               "Plasma [Ca2+]: High, Plasma [P]: High, Plasma [PTH]: High",
               "Plasma [Ca2+]: High, Plasma [P]: High, Plasma [PTH]: High",
-              "Plasma [Ca2+]: High, Plasma [P]: Low, Plasma [PTH]: Low",
               "Plasma [Ca2+]: High, Plasma [P]: Low, Plasma [PTH]: Low"
             ],
-            "correct": 5,
+            "correct": 4,
             "explanation": "The patient has humoral hypercalcemia of malignancy due to PTH-rp secretion, whose action is similar to endogenous PTH. Ca2+ retention and phosphate excretion occur. Hypercalcemia suppresses PTH secretion."
           },
           {
