@@ -8492,66 +8492,7 @@ export const systemsData: { [key: string]: SystemData } = {
             correct: 2,
             explanation: "Parathyroid hormone increases calcium reabsorption, raising plasma calcium levels."
           },
-          {
-            "question": "The increase shown at point A is caused by the effect of",
-            "options": [
-              "estrogen on the anterior pituitary",
-              "progesterone on the hypothalamus",
-              "follicle-stimulating hormone (FSH) on the ovary",
-              "luteinizing hormone (LH) on the anterior pituitary",
-              "prolactin on the ovary"
-            ],
-            "correct": 1,
-            "explanation": "Curve A shows basal body temperature. The increase in temperature occurs as a result of elevated progesterone levels during the luteal (secretory) phase of the menstrual cycle. Progesterone increases the set-point temperature in the hypothalamic thermoregulatory center."
-          },
-          {
-            "question": "Blood levels of which substance are described by curve B?",
-            "options": [
-              "Estradiol",
-              "Estriol",
-              "Progesterone",
-              "Follicle-stimulating hormone (FSH)",
-              "Luteinizing hormone (LH)"
-            ],
-            "correct": 2,
-            "explanation": "Progesterone is secreted during the luteal phase of the menstrual cycle."
-          },
-          {
-            "question": "The source of the increase in concentration indicated at point C is the",
-            "options": [
-              "hypothalamus",
-              "anterior pituitary",
-              "corpus luteum",
-              "ovary",
-              "adrenal cortex"
-            ],
-            "correct": 3,
-            "explanation": "The curve shows blood levels of estradiol. The source of the increase in estradiol concentration shown at point C is the ovarian granulosa cells, which contain high concentrations of aromatase and convert testosterone to estradiol."
-          },
-          {
-            "question": "The source of the increase in concentration at point D is the",
-            "options": [
-              "ovary",
-              "adrenal cortex",
-              "corpus luteum",
-              "hypothalamus",
-              "anterior pituitary"
-            ],
-            "correct": 2,
-            "explanation": "The curve shows blood levels of estradiol. During the luteal phase of the cycle, the source of the estradiol is the corpus luteum. The corpus luteum prepares the uterus to receive a fertilized egg."
-          },
-          {
-            "question": "The cause of the sudden increase shown at point E is",
-            "options": [
-              "negative feedback of progesterone on the hypothalamus",
-              "negative feedback of estrogen on the anterior pituitary",
-              "negative feedback of follicle-stimulating hormone (FSH) on the ovary",
-              "positive feedback of FSH on the ovary",
-              "positive feedback of estrogen on the anterior pituitary"
-            ],
-            "correct": 4,
-            "explanation": "Point E shows the luteinizing hormone (LH) surge that initiates ovulation at midcycle. The LH surge is caused by increasing estrogen levels from the developing ovarian follicle. Increased estrogen, by positive feedback, stimulates the anterior pituitary to secrete LH and follicle-stimulating hormone (FSH)."
-          },
+          
           {
             "question": "A 41-year-old woman has hypocalcemia, hyperphosphatemia, and decreased urinary phosphate excretion. Injection of parathyroid hormone (PTH) causes an increase in urinary cyclic adenosine monophosphate (cAMP). The most likely diagnosis is",
             "options": [
