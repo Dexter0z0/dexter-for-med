@@ -6432,16 +6432,1918 @@ export const systemsData: { [key: string]: SystemData } = {
       physiology: {
         questions: [
           {
-            question: "Which hormone is the primary regulator of calcium homeostasis?",
-            options: [
-              "Calcitonin",
-              "Parathyroid hormone (PTH)",
-              "Vitamin D",
-              "Growth hormone"
+            "question": "Which receptor controls nitric oxide (NO) release to cause vasodilation during penile erection?",
+            "options": [
+              "Leptin receptor",
+              "Angiotensin AT1 receptor",
+              "Endothelin ETA receptor",
+              "Muscarinic receptor"
             ],
-            correct: 1,
-            explanation: "Parathyroid hormone (PTH) is the primary regulator of calcium homeostasis. It increases blood calcium by stimulating bone resorption, increasing renal calcium reabsorption, and promoting vitamin D activation, which increases intestinal calcium absorption."
+            "correct": 3,
+            "explanation": "Parasympathetic postganglionic fibers release acetylcholine that activates muscarinic receptors on endothelium to produce NO and increases cyclic guanosine monophosphate, which activates protein kinase G, causing a reduction in intracellular calcium (also increasing NO by positive feedback) and causing vasodilation."
           },
+          {
+            "question": "A stable derivative of cholesterol was synthesized as part of a drug discovery program. Which of the following properties is this new molecule most likely to have when injected into test subjects?",
+            "options": [
+              "Binds mostly to surface membrane receptors on target cells",
+              "Circulates bound to plasma proteins",
+              "Enters target cells by carrier-mediated transport",
+              "Has effects lasting a few minutes",
+              "Induces an increase in intracellular cAMP in target cells"
+            ],
+            "correct": 1,
+            "explanation": "A cholesterol derivative is most likely to behave like a steroid hormone. Steroids are usually bound to carrier proteins in blood. Classic steroid effects are long lasting; they are mediated by diffusion into cells, binding to intracellular receptors and changes in gene transcription."
+          },
+          
+          {
+            "question": "A 54-year-old woman visited her physician because of persistent headaches and blurred vision. The physician noted that the woman has very large hands and feet, a wide jaw, a large tongue, and a prominent forehead. Which of the following metabolic abnormalities would most likely be present in this patient?",
+            "options": [
+              "Decreased blood fatty acid concentration",
+              "Decreased hepatic gluconeogenesis",
+              "Decreased protein synthesis",
+              "Increased blood glucose concentration",
+              "Increased uptake of glucose in skeletal muscle"
+            ],
+            "correct": 3,
+            "explanation": "The signs and symptoms noted in this patient are classic manifestations of growth hormone excess after puberty (acromegaly). Growth hormone has diabetogenic actions that result in an increase in blood glucose concentration, including increased gluconeogenesis in the liver and inhibition of glucose uptake by muscle."
+          },
+          {
+            "question": "A 19-year-old patient produced a copious amount of dilute urine following a head injury sustained in a motor vehicle accident. Damage to which of the following sites could account for these symptoms in this patient?",
+            "options": [
+              "Anterior pituitary",
+              "Mamillary body",
+              "Median eminence",
+              "Superior hypophyseal artery",
+              "Supraoptic nucleus"
+            ],
+            "correct": 4,
+            "explanation": "Symptoms suggest loss of antidiuretic hormone (ADH) action (diabetes insipidus). Acquired central diabetes insipidus may be caused by a head injury. ADH is produced mainly in the supraoptic nucleus so damage here would compromise ADH secretion."
+          },
+          {
+            "question": "A healthy 29-year-old man was injected with thyroid-stimulating-hormone (TSH) as part of a clinical research study. Increased levels of serum thyroid hormones were detected within a few minutes. Which major form of thyroid hormone was detected in this subject?",
+            "options": [
+              "Monoiodothyronine",
+              "Diodothyronine",
+              "Triiodothyronine",
+              "Reverse triiodothyronine",
+              "Thyroxine"
+            ],
+            "correct": 4,
+            "explanation": "Ninety percent of secreted thyroid hormone is T4. T3 is the most potent form, but is produced in the tissues by the action of 5/3' deiodinase."
+          },
+          {
+            "question": "A 28-year-old woman visited her physician because of anxiety. She was perspiring heavily and complained about the high temperature of the waiting room. Physical examination showed a thin patient with notable tremor, muscle weakness, tachycardia, and an ophthalmopathy with a staring gaze. What is the most likely profile of serum thyroxine (T4) and thyroid-stimulating hormone (TSH) concentrations in this patient?",
+            "options": [
+              "Low T4, high TSH",
+              "Low T4, low TSH",
+              "High T4, low TSH",
+              "High T4, high TSH"
+            ],
+            "correct": 2,
+            "explanation": "The symptoms describing this patient indicate hyperthyroidism. Ophthalmopathy suggests Graves’ disease, in which thyroid-stimulating immunoglobulins (TSI) act as TSH agonists, driving high levels of T4 secretion. Negative feedback suppresses endogenous TSH secretion to produce low TSH levels."
+          },
+          {
+            "question": "A fine needle adrenal biopsy was performed in a 71-year-old man who had an unidentified adrenal mass. Tests performed on the sample included the expression of the enzyme aldosterone synthase. Which area of the adrenal gland would show positive staining for this enzyme?",
+            "options": [
+              "Zona glomerulosa",
+              "Zona fasciculata",
+              "Zona reticularis",
+              "Medullary chromaffin cells"
+            ],
+            "correct": 0,
+            "explanation": "The zona glomerulosa is the sole source of aldosterone because it is the only region of gland to express aldosterone synthase."
+          },
+          {
+            "question": "A 2-year-old boy is brought to a pediatrician because he has acute viral laryngitis and has developed difficulty breathing. He was previously treated for 3 days with a large dose of oral glucocorticoids to reduce inflammation of his larynx. The effects of this treatment on the child’s fasting plasma glucose and fatty acids levels would most likely be",
+            "options": [
+              "increased glucose and increased fatty acids",
+              "increased glucose and decreased fatty acids",
+              "decreased glucose and increased fatty acids",
+              "decreased glucose and decreased fatty acids"
+            ],
+            "correct": 0,
+            "explanation": "Glucocorticoids mobilize glucose, amino acids, and fatty acids."
+          },
+          {
+            "question": "Excessive licorice consumption may result in secondary hypertension due to inhibition of the enzyme 11β-hydroxysteroid dehydrogenase in renal epithelial cells. The Na+ retention that follows is due to interaction between which agonist-receptor pair?",
+            "options": [
+              "Glucocorticoids—glucocorticoid receptors",
+              "Mineralocorticoids—mineralocorticoid receptors",
+              "Mineralocorticoids—glucocorticoid receptors",
+              "Glucocorticoids—mineralocorticoid receptors"
+            ],
+            "correct": 3,
+            "explanation": "11β-Hydroxysteroid dehydrogenase modifies cortisol to prevent it from acting at the mineralocorticoid receptor. This is necessary because it is an agonist at the receptor, and it circulates at much higher concentration than aldosterone. Inhibition of 11β-hydroxysteroid dehydrogenase by licorice allows cortisol to activate the mineralocorticoid receptor, causing salt retention."
+          },
+          {
+            "question": "A 68-year-old woman became acutely ill while on holiday. She was confused and unable to give the attending physician her medical history. The physician noticed the patient had a moon face, truncal obesity, and bruising on large areas of skin on both legs. Laboratory studies showed fasting hyperglycemia and low levels of both cortisol and adrenocorticotropic hormone (ACTH). Which of the following conditions is consistent with the physical examination and laboratory data?",
+            "options": [
+              "ACTH-secreting tumor",
+              "Chronic glucocorticoid medication",
+              "Cortisol-secreting tumor",
+              "Destructive tumor of the anterior pituitary",
+              "Primary adrenocortical insufficiency"
+            ],
+            "correct": 1,
+            "explanation": "The patient’s clinical signs are characteristic of glucocorticoid excess. However, there is low cortisol and low ACTH, so physical signs can only be explained by exogenous glucocorticoid medication."
+          },
+          {
+            "question": "A 45-year-old woman suffered episodes of headache, nausea, sweating, and palpitations that were becoming more frequent and severe. One such episode occurred while she was visiting a friend in the hospital. A nurse measured her heart rate and blood pressure during the episode, which were 142 beats/min and 180/145 mm Hg, respectively. A resident suggested the differential diagnosis of pheochromocytoma. Which of the following profiles of catecholamine excretion in the urine would support this diagnosis?",
+            "options": [
+              "Vanillylmandelic acid (VMA): Low, Metanephrine: Low, Epinephrine: Low",
+              "Vanillylmandelic acid (VMA): Low, Metanephrine: Low, Epinephrine: High",
+              "Vanillylmandelic acid (VMA): Low, Metanephrine: High, Epinephrine: High",
+              "Vanillylmandelic acid (VMA): High, Metanephrine: High, Epinephrine: High",
+              "Vanillylmandelic acid (VMA): High, Metanephrine: High, Epinephrine: Low",
+              "Vanillylmandelic acid (VMA): High, Metanephrine: Low, Epinephrine: Low"
+            ],
+            "correct": 3,
+            "explanation": "Pheochromocytoma is a secretory tumor of adrenal medullary chromaffin cells. High levels of the catecholamines epinephrine and norepinephrine are excreted in the urine. Metabolism of catecholamines via catechol-O-methyltransferase (COMT) and monoamine oxidase (MAO) enzymes produce high levels of metanephrine and VMA, which are excreted in urine."
+          },
+          {
+            "question": "A 28-year-old medical resident who was accustomed to eating regular meals was forced to skip breakfast and lunch one day because of a heavy work schedule. By midafternoon, he was feeling lightheaded and very hungry. Compared to his typical day, the plasma concentration of which of the following hormones would be decreased at this time?",
+            "options": [
+              "Cortisol",
+              "Epinephrine",
+              "Glucagon",
+              "Growth hormone",
+              "Insulin"
+            ],
+            "correct": 4,
+            "explanation": "The resident is likely to be hypoglycemic due to prolonged fasting. Insulin secretion is stimulated by hyperglycemia and suppressed by hypoglycemia. All the other listed hormones are stimulated by hypoglycemia."
+          },
+          {
+            "question": "A healthy 21-year-old man was intravenously infused with a saline solution containing a mixture of amino acids, including arginine and leucine. Which pair of secretory responses in insulin and glucagon would occur in response to this challenge?",
+            "options": [
+              "Increased insulin and increased glucagon",
+              "Increased insulin and decreased glucagon",
+              "Decreased insulin and decreased glucagon",
+              "Decreased insulin and increased glucagon"
+            ],
+            "correct": 0,
+            "explanation": "Insulin increases net protein synthesis, and insulin secretion is stimulated by increased plasma amino acid concentration. To prevent hypoglycemia from developing, glucagon secretion is also stimulated by increased plasma amino acid concentration."
+          },
+          {
+            "question": "A healthy 12-year-old girl consumed a 100-g bar of chocolate. Her plasma insulin concentration increased significantly soon after eating, with only a modest increase in plasma glucose concentration. Which hormone is released by mucosal endocrine cells of the gastrointestinal tract that could help to account for these observations?",
+            "options": [
+              "Enterogastrone",
+              "Gastrin",
+              "Glucagon",
+              "Glucagon-like peptide-1",
+              "Insulin"
+            ],
+            "correct": 3,
+            "explanation": "Enteroendocrine cells release glucose-dependent insulinotropic polypeptide (GIP) and glucagon-like peptide-1 in response to a carbohydrate-rich meal. These incretins stimulate insulin release by pancreatic β cells as an 'anticipatory' response to an impending glucose load."
+          },
+          {
+            "question": "A 19-year-old woman visited her physician complaining of frequent urination and of being thirsty all the time. On physical examination, the woman appeared extremely malnourished. Plasma analysis showed high concentrations of both glucose and ketones. Which hormone is most responsible for the presence of high ketone concentrations in this patient?",
+            "options": [
+              "Cortisol",
+              "Epinephrine",
+              "Glucagon",
+              "Growth hormone",
+              "Insulin"
+            ],
+            "correct": 2,
+            "explanation": "The patient has type 1 diabetes mellitus. Lack of insulin prevents proper oxidation of fatty acids. High levels of glucagon direct hepatic formation of ketones from acetyl CoA instead."
+          },
+          {
+            "question": "A healthy 34-year-old woman runs 5 miles at a fast pace, resulting in a large increase in the rate of glucose oxidation in her muscles. Which pair of hormones is most important to minimize the decrease in plasma glucose concentration during her run?",
+            "options": [
+              "Cortisol and growth hormone",
+              "Cortisol and insulin",
+              "Epinephrine and insulin",
+              "Glucagon and epinephrine",
+              "Glucagon and thyroxine",
+              "Growth hormone and thyroxine"
+            ],
+            "correct": 3,
+            "explanation": "Glucagon and epinephrine stimulate gluconeogenesis by the liver and increase the supply of glucose precursors from muscle to the liver. Other effects include increased release of fatty acids from adipose tissue and the increased rate of glycogen breakdown in liver and muscle."
+          },
+          {
+            "question": "A 23-year-old medical student ingests several liters of cola in an effort to stay awake over a 24-hour period of studying. This ingestion of cola represents a large intake of phosphate ions, which results in increased urinary phosphate excretion. Which hormone is most responsible for stimulating phosphate excretion in this case?",
+            "options": [
+              "Calcitonin",
+              "Ergocalciferol",
+              "Parathyroid hormone",
+              "1,25-(OH)2 Vitamin D3"
+            ],
+            "correct": 2,
+            "explanation": "Urine phosphate excretion is controlled by parathyroid hormone, which inhibits tubular phosphate reabsorption."
+          },
+          {
+            "question": "A 46-year-old man with bone cancer is found to have high plasma levels of parathyroid hormone-related peptide (PTH-rp). Which of the following profiles for plasma Ca2+, phosphate (P), and parathyroid hormone (PTH) concentration would be expected in this patient?",
+            "options": [
+              "Plasma [Ca2+]: Low, Plasma [P]: Low, Plasma [PTH]: Low",
+              "Plasma [Ca2+]: Low, Plasma [P]: High, Plasma [PTH]: High",
+              "Plasma [Ca2+]: High, Plasma [P]: High, Plasma [PTH]: High",
+              "Plasma [Ca2+]: High, Plasma [P]: High, Plasma [PTH]: High",
+              "Plasma [Ca2+]: High, Plasma [P]: Low, Plasma [PTH]: Low",
+              "Plasma [Ca2+]: High, Plasma [P]: Low, Plasma [PTH]: Low"
+            ],
+            "correct": 5,
+            "explanation": "The patient has humoral hypercalcemia of malignancy due to PTH-rp secretion, whose action is similar to endogenous PTH. Ca2+ retention and phosphate excretion occur. Hypercalcemia suppresses PTH secretion."
+          },
+          {
+            "question": "A 17-year-old girl visited her physician because she had never had a menstrual period. Physical examination revealed a tall female with a short, blind-ended vagina and no palpable cervix. Ultrasound showed the absence of a uterus and no ovaries and the presence of undescended testes. Deficiency of which enzyme, hormone, or receptor is most likely to account for these findings?",
+            "options": [
+              "Androgen receptors",
+              "Aromatase",
+              "Estrogen receptors",
+              "21α-Hydroxylase",
+              "Müllerian-inhibiting substance",
+              "Progesterone",
+              "5α-Reductase"
+            ],
+            "correct": 0,
+            "explanation": "The patient has complete androgen insensitivity (testicular feminization). Androgen-induced development of the mesonephric duct fails. Sertoli cells continue to secrete müllerian-inhibiting substance, so female internal reproductive organs also fail to develop."
+          },
+          
+          {
+            "question": "A 37-year old-woman who is breast-feeding her 4-month-old son is taking the train to see her mother who lives several hours away. When the woman hears the cry of another infant, she notices that milk has been expressed from both her breasts. The release of which hormone can account for this response?",
+            "options": [
+              "Estrogen",
+              "Inhibin",
+              "Oxytocin",
+              "Progesterone",
+              "Prolactin"
+            ],
+            "correct": 2,
+            "explanation": "The lactation reflex occurs in response to a baby suckling, which produces a surge of oxytocin secretion and milk ejection. This reflex can be conditioned by stimuli such as the sound of a baby crying."
+          },
+          {
+            "question": "A 36-year-old woman who is pregnant with her third child is in labor. Her serum oxytocin levels were measured at regular intervals over a 24-hour period. Measurements were taken at the onset when the woman began having low back pains 1 day before delivery and ended 3 hours after delivery of the infant, just before the woman was to begin breast-feeding the infant. A normal vaginal delivery was completed without medical intervention. At what time was the oxytocin concentration in maternal blood most likely to be highest?",
+            "options": [
+              "Before labor",
+              "At the onset of back pain",
+              "Uterine contractions 20 minutes apart",
+              "During the expulsive stages of labor",
+              "Three hours after delivery"
+            ],
+            "correct": 3,
+            "explanation": "Oxytocin secretion increases in a positive feedback fashion as the cervix dilates, resulting in high concentrations about the time of birth, which produce powerful uterine contractions."
+          },
+          
+          {
+            "question": "The luteinizing hormone surge measured during the ovulatory phase of the menstrual cycle results from positive feedback exerted by which of the following hormones?",
+            "options": [
+              "Estrogen",
+              "Follicle-stimulating hormone",
+              "Gonadotropin-releasing hormone",
+              "Inhibin",
+              "Progesterone"
+            ],
+            "correct": 0,
+            "explanation": "A sustained high estrogen concentration produces positive feedback stimulation of luteinizing hormone secretion by sensitizing gonadotropes to gonadotropin-releasing hormone."
+          },
+         
+          {
+            "question": "A child born with ambiguous genitalia was found to have a 46XY karyotype. Testes were present at birth, and there was a small phallus with a urethral opening at its mid point. The child entered puberty late, but masculinization was evident. Which deficiency could account for these findings?",
+            "options": [
+              "Aromatase",
+              "21α-Hydroxylase",
+              "Luteinizing hormone receptor",
+              "5α-Reductase",
+              "Testosterone"
+            ],
+            "correct": 3,
+            "explanation": "In this child, there is failure of male external genitalia to develop correctly with a normal XY karyotype. External genitalia require dihydrotestosterone for development, which is synthesized in the tissues from testosterone via the enzyme 5α-reductase. Testosterone is produced normally by the testes, allowing masculinization at puberty."
+          },
+          
+          {
+            "question": "An 18-year-old man visited his physician because he was concerned about his height. He is 152 cm tall (5 ft). He described himself when he was in elementary school as being self-conscious because he was taller than his peers. He also recalled developing pubic and axillary hair at about age 7 or 8. Physical examination showed a healthy male of short stature with normal genitalia and male secondary sexual development. Which endocrine abnormality best explains the findings in this patient?",
+            "options": [
+              "Early maturation of the hypothalamic-pituitary-gonadal axis",
+              "Failure of pulsatile gonadotrophin-releasing hormone secretion at puberty",
+              "Growth hormone excess in early childhood",
+              "Insulin-like growth factor-1 deficiency",
+              "Panhypopituitarism"
+            ],
+            "correct": 0,
+            "explanation": "This is a case of true precocious puberty in which normal puberty has occurred, but too early. A pubertal growth spurt caused the patient to be tall as a child. Early production of sex steroids caused early closure of epiphyseal growth plates, resulting in short adult height."
+          },
+          {
+            "question": "Which statement about antidiuretic hormone (ADH) is true?",
+            "options": [
+              "It is synthesized in the posterior pituitary gland",
+              "It increases salt and water reabsorption in the collecting tubules and ducts",
+              "It stimulates thirst",
+              "It has opposite effects on urine and plasma osmolality"
+            ],
+            "correct": 3,
+            "explanation": "ADH increases the permeability of the collecting tubules and ducts to water, but not to sodium, which in turn increases water reabsorption and decreases water excretion. As a result, urine concentration increases and the retained water dilutes the plasma. ADH is synthesized in the supraoptic and paraventricular nuclei of the hypothalamus and has no direct effect on the thirst center."
+          },
+          {
+            "question": "Analogues of guanosine triphosphate (GTP) such as GTP-γ-S can be used to activate G proteins in isolated cells. Which of the following signaling molecules would NOT be produced in response to GTP-γ-S?",
+            "options": [
+              "Arachidonic acid",
+              "Cyclic adenosine monophosphate (cAMP)",
+              "Diacylglycerol (DAG)",
+              "Inositol 1,4,5-triphosphate (IP3)",
+              "Tyrosine kinase"
+            ],
+            "correct": 4,
+            "explanation": "Tyrosine kinases do not couple to G proteins; all other choices are second messengers that are produced through activation of G-protein-coupled receptors."
+          },
+          {
+            "question": "A 28-year-old woman suffered severe trauma to the head in a horseback riding accident that resulted in the complete transection of the pituitary stalk. The plasma levels of which hormone would be expected to increase as a result of this accident?",
+            "options": [
+              "Adrenocorticotropic hormone",
+              "Follicle-stimulating hormone",
+              "Growth hormone",
+              "Luteinizing hormone",
+              "Oxytocin",
+              "Prolactin",
+              "Thyroid-stimulating hormone",
+              "Vasopressin"
+            ],
+            "correct": 5,
+            "explanation": "Prolactin is the only hormone under primarily negative control from the hypothalamus, via dopamine release. Sectioning of the pituitary stalk therefore increases prolactin secretion, due to loss of dopamine action on lactotrope cells of the anterior pituitary."
+          },
+          {
+            "question": "A 4-year-old boy was diagnosed with visual disturbances due to a pituitary tumor secreting excess growth hormone. Which of the following conditions would this boy most likely develop without treatment?",
+            "options": [
+              "Acromegaly due directly to excess growth hormone",
+              "Acromegaly due to excess insulin-like growth factor (IGF)-1 production",
+              "Dwarfism due directly to excess growth hormone",
+              "Dwarfism due to excess IGF-1 production",
+              "Gigantism due directly to excess growth hormone",
+              "Gigantism due to excess IGF-1 production"
+            ],
+            "correct": 5,
+            "explanation": "Excess growth hormone produces gigantism in prepubertal children because the epiphyseal growth plates in long bones have not closed. The effects of growth hormone on linear growth are mediated via IGF-1."
+          },
+          {
+            "question": "A 58-year-old woman complained of lethargy and weight gain over the past year. Further investigation revealed a painless goiter, thick coarse skin, peripheral edema, and low iodine levels. Which of the following most likely describes this patient’s diagnosis and plasma thyroid-stimulating hormone (TSH) level?",
+            "options": [
+              "Primary hyperthyroidism, high TSH",
+              "Primary hyperthyroidism, normal TSH",
+              "Primary hyperthyroidism, low TSH",
+              "Primary hypothyroidism, high TSH",
+              "Primary hypothyroidism, normal TSH",
+              "Primary hypothyroidism, low TSH"
+            ],
+            "correct": 3,
+            "explanation": "Iodine deficiency prevents normal production of thyroid hormone by the thyroid gland, producing primary hypothyroidism. Lack of negative feedback inhibition by thyroid hormone on the hypothalamus and pituitary results in high TSH levels."
+          },
+          {
+            "question": "A 42-year-old man visited his physician with a complaint that he was always tired. He described craving salty foods and feeling lightheaded after missing lunch. Physical examination shows a blood pressure of 100/70 mm Hg. Laboratory studies show a decreased plasma [Na+], increased plasma [K+], and decreased fasting plasma [glucose]. Over the past several months, he said that his skin had become tanned despite avoiding sun exposure. The physician suspected that the patient’s adrenal gland was not functioning properly. Which profile of cortisol and adrenocorticotropic hormone (ACTH) levels are consistent with the symptoms described?",
+            "options": [
+              "High cortisol, high ACTH",
+              "High cortisol, low ACTH",
+              "Low cortisol, high ACTH",
+              "Low cortisol, low ACTH"
+            ],
+            "correct": 2,
+            "explanation": "The symptoms describe adrenal insufficiency, with Na wasting, volume depletion, and K retention due to low aldosterone levels. Fasting hypoglycemia and fatigue are due to low cortisol levels. Increased pigmentation suggests high levels of ACTH. High ACTH would occur in primary adrenal insufficiency due to a lack of negative feedback from cortisol."
+          },
+          {
+            "question": "A genetically female infant was born with ambiguous genitalia. She remained in the hospital because of continual urinary salt and water losses during the first week of life. The differential diagnosis of 21α-hydroxylase deficiency would be supported by determining which of the following hormonal plasma profiles?",
+            "options": [
+              "Cortisol: Low, Aldosterone: Low, Adrenal Androgens: Low, ACTH: Low",
+              "Cortisol: Low, Aldosterone: Low, Adrenal Androgens: High, ACTH: High",
+              "Cortisol: High, Aldosterone: High, Adrenal Androgens: Low, ACTH: Low",
+              "Cortisol: High, Aldosterone: High, Adrenal Androgens: High, ACTH: High",
+              "Cortisol: Low, Aldosterone: Low, Adrenal Androgens: Low, ACTH: Low",
+              "Cortisol: High, Aldosterone: High, Adrenal Androgens: High, ACTH: Low"
+            ],
+            "correct": 1,
+            "explanation": "The enzyme 21-hydroxylase is required for cortisol and aldosterone synthesis. Low levels of cortisol result in high levels of ACTH due to loss of negative feedback. Build up of steroid precursors in adrenal cortex is shunted toward the formation of excess adrenal androgens, which causes virilization."
+          },
+          {
+            "question": "A 22-year-old man was treated with a selective β2-adrenoceptor agonist. Which of the following effects is expected to occur?",
+            "options": [
+              "Generalized vasoconstriction",
+              "Increased gut motility",
+              "Increased heart rate",
+              "Reduced airway resistance",
+              "Penile erection"
+            ],
+            "correct": 3,
+            "explanation": "β2 receptors mediate relaxation of bronchioles to reduce airway resistance. Vasodilation of skeletal muscle arterioles and mobilization of glucose and fatty acids in the liver also occur through activation of β2 receptors."
+          },
+          {
+            "question": "A 28-year-old man with type 1 diabetes mellitus self-administered his routine insulin injection. Which of the following effects on plasma concentrations of glucose, fatty acids, and ketones would be expected 1 hour after insulin treatment compared with 1 hour before insulin treatment?",
+            "options": [
+              "↑ glucose, ↑ fatty acids, ↑ ketones",
+              "↑ glucose, ↓ fatty acids, ↑ ketones",
+              "↑ glucose, ↓ fatty acids, ↓ ketones",
+              "↓ glucose, ↑ fatty acids, ↑ ketones",
+              "↓ glucose, ↓ fatty acids, ↑ ketones",
+              "↓ glucose, ↓ fatty acids, ↓ ketones"
+            ],
+            "correct": 5,
+            "explanation": "Insulin directs increased uptake, use, and storage glucose, and increased storage of fatty acids as triglycerides. Ketone production in the liver is increased by glucagon and suppressed by insulin."
+          },
+          {
+            "question": "A 58-year-old man presented to his physician feeling generally unwell and complaining of excessive urination and thirst. He was morbidly obese. The urinalysis showed glycosuria and proteinuria but no ketonuria. Which of the following conditions is most consistent with these findings?",
+            "options": [
+              "Acromegaly",
+              "Central diabetes insipidus",
+              "Nephrogenic diabetes insipidus",
+              "Primary hypothyroidism",
+              "Type 1 diabetes mellitus",
+              "Type 2 diabetes mellitus"
+            ],
+            "correct": 5,
+            "explanation": "Glycosuria indicates diabetes mellitus. Mature onset and obesity are most likely to be associated with type 2 diabetes mellitus; the absence of ketonuria suggests type 2 rather than type 1 diabetes. Polyuria is due to osmotic diuresis from hyperglycemia. Proteinuria may indicate renal damage as a result of diabetes mellitus."
+          },
+          {
+            "question": "A patient is found to have a rare genetic defect in a G protein that causes tissue resistance to parathyroid hormone (PTH) in kidney and bone. Which of the following profiles for plasma Ca2+, phosphate (P), and PTH concentration would be expected in this patient?",
+            "options": [
+              "Plasma [Ca2+]: Low, Plasma [P]: Low, Plasma PTH: Low",
+              "Plasma [Ca2+]: Low, Plasma [P]: Low, Plasma PTH: High",
+              "Plasma [Ca2+]: Low, Plasma [P]: High, Plasma PTH: High",
+              "Plasma [Ca2+]: High, Plasma [P]: High, Plasma PTH: Low",
+              "Plasma [Ca2+]: High, Plasma [P]: Low, Plasma PTH: Low",
+              "Plasma [Ca2+]: High, Plasma [P]: Low, Plasma PTH: Low"
+            ],
+            "correct": 2,
+            "explanation": "If PTH is ineffective due to tissue resistance, there is inadequate renal Ca2+ retention and failure to produce enough 1,25-(OH)2 D3, in turn resulting in low dietary Ca2+ uptake. With ineffective PTH, there is low Ca2+ mobilization from bone. Urine phosphate excretion is inadequate. Low Ca2+ and high phosphate stimulate PTH secretion."
+          },
+          {
+            "question": "After menopause, hormone replacement therapy with estrogen-like compounds is effective in preventing the progression of osteoporosis. What is the mechanism of their protective effect?",
+            "options": [
+              "They stimulate the activity of osteoblasts",
+              "They increase absorption of calcium from the gastrointestinal tract",
+              "They stimulate calcium reabsorption by the renal tubules",
+              "They stimulate parathyroid hormone (PTH) secretion by the parathyroid gland"
+            ],
+            "correct": 0,
+            "explanation": "Estrogen compounds are believed to have an osteoblast-stimulating effect. When the amount of estrogen in the blood falls to very low levels after menopause, the balance between the bone-building activity of the osteoblasts and the bone-degrading activity of the osteoclasts is tipped toward bone degradation. When estrogen compounds are added as part of hormone replacement therapy, the bone-building activity of the osteoblasts is increased to balance the osteoclastic activity."
+          },
+          {
+            "question": "A patient has nephrogenic diabetes insipidus. Of the following options, which outcome would be expected or which intervention would be suggested?",
+            "options": [
+              "Expected outcome: decreased plasma sodium concentration",
+              "Expected outcome: increased secretion of ADH from the supraoptic and paraventricular nuclei",
+              "Expected outcome: high urine osmolality",
+              "Suggested intervention: water restriction",
+              "Suggested intervention: ADH antagonists (vaptans)"
+            ],
+            "correct": 1,
+            "explanation": "In nephrogenic diabetes insipidus, the kidneys cannot respond to ADH. Consequently, dilute urine and loss of water from the extracellular fluid occurs, resulting in hypernatremia. Hypernatremia stimulates thirst, which attenuates the severity of hypernatremia, whereas water restriction exacerbates hypernatremia. Hypernatremia also stimulates ADH secretion from the magnocellular neurons in the hypothalamus."
+          },
+        
+          {
+            "question": "Which hormones antagonize the effect of NO and cause the penis to become flaccid after orgasm?",
+            "options": [
+              "Endothelin and norepinephrine",
+              "Estrogen and progesterone",
+              "Luteinizing hormone (LH) and follicle-stimulating hormone (FSH)",
+              "Progesterone and LH"
+            ],
+            "correct": 0,
+            "explanation": "Norepinephrine is released from the nerve terminals and endothelin is released from endothelial cells in the vasculature, causing vasoconstriction of the vasculature."
+          },
+          {
+            "question": "Thecal cells in the follicle are not able to produce what sex steroid?",
+            "options": [
+              "Estradiol",
+              "Testosterone",
+              "Progesterone",
+              "Dihydrotestosterone"
+            ],
+            "correct": 0,
+            "explanation": "Thecal cells do not have the capacity to produce estradiol because they lack aromatase."
+          },
+          {
+            "question": "A baby is born with a penis, a scrotum with no testes, no vagina, and XX chromosomes. This condition is referred to as hermaphroditism. What could cause this abnormality?",
+            "options": [
+              "Abnormally high levels of human chorionic gonadotropin (HCG) production by the trophoblast cells",
+              "The presence of a testosterone-secreting tumor in the mother’s right adrenal gland",
+              "Abnormally high levels of LH in the maternal blood",
+              "Abnormally low levels of testosterone in the maternal blood",
+              "Abnormally low rates of estrogen production by the placenta"
+            ],
+            "correct": 1,
+            "explanation": "A very high concentration of testosterone in a female embryo will induce formation of male genitalia. An adrenal tumor in the mother that synthesizes testosterone at a high, uncontrolled rate could produce the masculinizing effect."
+          },
+          {
+            "question": "A young woman is given daily injections of a substance beginning on the sixteenth day of her normal menstrual cycle and continuing for 3 weeks. As long as the injections continue, she does not menstruate. The injected substance could be which of the following?",
+            "options": [
+              "Testosterone",
+              "FSH",
+              "An inhibitor of progesterone’s actions",
+              "A PGE2 inhibitor",
+              "HCG"
+            ],
+            "correct": 4,
+            "explanation": "HCG has the same stimulatory effect as LH on the corpus luteum. Administration of HCG would cause the corpus luteum to continue to secrete estrogen and progesterone, preventing degradation of the endometrium and the onset of menstruation."
+          },
+          {
+            "question": "Which of the following increases secretion of GH?",
+            "options": [
+              "Senescence",
+              "Insulin-like growth factor-1 (IGF-1)",
+              "Somatostatin",
+              "Hypoglycemia",
+              "Exogenous GH administration"
+            ],
+            "correct": 3,
+            "explanation": "Hypoglycemia is a potent stimulus for GH. GH decreases with aging and in response to the hypothalamic inhibitory hormone somatostatin. GH secretion would decrease in response to both exogenous GH administration and IGF-1 as a result of negative feedback inhibition."
+          },
+          {
+            "question": "Which of the following could inhibit the initiation of labor?",
+            "options": [
+              "Administration of an antagonist of the actions of progesterone",
+              "Administration of LH",
+              "Administration of an antagonist of PGE2 effects",
+              "Mechanically dilating and stimulating the cervix",
+              "Administration of oxytocin"
+            ],
+            "correct": 2,
+            "explanation": "Antagonism of progesterone’s effects, dilation of the cervix, and oxytocin all increase uterine smooth muscle excitability and facilitate contractions and the onset of labor. LH would have no effect. Prostaglandin E2 strongly stimulates uterine smooth muscle contraction and is formed at an increasing rate by the placenta late in gestation."
+          },
+          {
+            "question": "Exposure to ultraviolet light directly facilitates which of the following?",
+            "options": [
+              "Conversion of cholesterol to 25-hydroxycholicalciferol",
+              "Conversion of 25-hydroxycholicalciferol to 1,25-dihydroxycholicalciferol",
+              "Transport of calcium into the extracellular fluid",
+              "Formation of calcium-binding protein",
+              "Storage of vitamin D3 in the liver"
+            ],
+            "correct": 0,
+            "explanation": "Ultraviolet light absorbed by the skin directly facilitates conversion of cholesterol to 25-hydroxycholesterol."
+          },
+          
+          {
+            "question": "Which of the following is both synthesized and stored in the hypothalamus?",
+            "options": [
+              "ADH",
+              "Thyroid-stimulating hormone (TSH)",
+              "LH",
+              "Somatostatin",
+              "Somatomedin"
+            ],
+            "correct": 3,
+            "explanation": "The inhibitory hormone somatostatin is both synthesized and stored in the hypothalamus. Both TSH and LH are synthesized and stored in the anterior pituitary gland. ADH is synthesized in the hypothalamus but is stored in the posterior pituitary gland. Somatomectin (IGF-1) is synthesized in the liver."
+          },
+          {
+            "question": "If a radioimmunoassay is properly conducted and the amount of radioactive hormone bound to antibody is low, what would this result indicate?",
+            "options": [
+              "Plasma levels of endogenous hormone are high",
+              "Plasma levels of endogenous hormone are low",
+              "More antibody is needed",
+              "Less radioactive hormone is needed"
+            ],
+            "correct": 0,
+            "explanation": "In a radioimmunoassay, there is too little antibody to completely bind the radioactively tagged hormone and the hormone in the fluid (plasma) to be assayed. Thus, there is competition between the labeled and endogenous hormone for binding sites on the antibody. Consequently, if the amount of radioactive hormone bound to antibody is low, this finding would indicate that plasma levels of endogenous hormone are high."
+          },
+          {
+            "question": "By which mechanism do LH and FSH return to baseline levels?",
+            "options": [
+              "LH surge",
+              "Negative feedback on gonadotropin-releasing hormone (GnRH) by progesterone",
+              "Negative feedback on GnRH by estradiol",
+              "Negative feedback on GnRH from testosterone"
+            ],
+            "correct": 2,
+            "explanation": "Just before the LH surge, estradiol levels increase, which causes negative feedback on GnRH to stop producing LH and FSH, resulting in the decrease in their levels."
+          },
+          {
+            "question": "Spermatogenesis is regulated by a negative feedback control system in which FSH stimulates the steps in sperm cell formation. Which negative feedback signal associated with sperm cell production inhibits pituitary formation of FSH?",
+            "options": [
+              "Testosterone",
+              "Inhibin",
+              "Estrogen",
+              "LH"
+            ],
+            "correct": 1,
+            "explanation": "The Sertoli cells of the seminiferous tubules secrete inhibin at a rate proportional to the rate of production of sperm cells. Inhibin has a direct inhibitory effect on anterior pituitary secretion of FSH. FSH binds to specific receptors on the Sertoli cells, causing the cells to grow and secrete substances that stimulate sperm cell production. The secretion of inhibin thereby provides the negative feedback control signal from the seminiferous tubules to the pituitary gland."
+          },
+          {
+            "question": "Which of the following is true during the 12-hour period preceding ovulation?",
+            "options": [
+              "A surge of LH is secreted from the pituitary",
+              "The surge occurs immediately after the formation of the corpus luteum",
+              "The surge is followed immediately by a fall in the plasma concentration of progesterone",
+              "The number of developing follicles is increasing"
+            ],
+            "correct": 0,
+            "explanation": "Ovulation will not take place unless a surge of LH precedes it. Immediately prior to ovulation, the number of follicles is decreasing due to normal attrition of all but one follicle, and consequently estrogen synthesis by the ovary is decreasing. Progesterone synthesis is stimulated by the LH surge."
+          },
+          
+          {
+            "question": "Some cells secrete chemicals into the extracellular fluid that act on cells in the same tissue. Which of the following refers to this type of regulation?",
+            "options": [
+              "Neural",
+              "Endocrine",
+              "Neuroendocrine",
+              "Paracrine",
+              "Autocrine"
+            ],
+            "correct": 3,
+            "explanation": "Paracrine communication refers to cell secretions that diffuse into the extracellular fluid to affect neighboring cells."
+          },
+         
+          {
+            "question": "A professional athlete in her mid-20s has not had a menstrual cycle for 5 years, although a bone density scan revealed normal skeletal mineralization. Which fact may explain these observations?",
+            "options": [
+              "She consumes a high-carbohydrate diet",
+              "Her grandmother sustained a hip fracture at age 79 years",
+              "Her blood pressure is higher than normal",
+              "Her plasma estrogen concentration is very low",
+              "She has been taking anabolic steroid supplements for 5 years"
+            ],
+            "correct": 4,
+            "explanation": "Anabolic steroids bind to testosterone receptors in the hypothalamus, providing feedback inhibition of normal ovarian cycling and preventing menstrual cycling as well as stimulation of osteoblastic activity in the bones."
+          },
+          {
+            "question": "What is the nongenomic effect of testosterone on vascular smooth muscle?",
+            "options": [
+              "Vasodilation",
+              "Vasoconstriction",
+              "Increase in prostaglandins",
+              "Increase in estrogen receptors"
+            ],
+            "correct": 0,
+            "explanation": "Testosterone causes vasodilation by inhibiting L-type calcium channels to inhibit calcium influx into the cells, thus causing vasodilation."
+          },
+          
+          {
+            "question": "Which enzyme in the cytochrome P450 steroid synthesis cascade is directly responsible for estradiol synthesis?",
+            "options": [
+              "17-beta-hydroxysteroid dehydrogenase",
+              "5-alpha reductase",
+              "Aromatase",
+              "Side chain cleavage enzyme"
+            ],
+            "correct": 2,
+            "explanation": "Aromatase causes conversion of testosterone to estradiol."
+          },
+          
+          {
+            "question": "PTH does what directly?",
+            "options": [
+              "Controls the rate of 25-hydroxycholicalciferol formation",
+              "Controls the rate of calcium transport in the mucosa of the small intestine",
+              "Controls the rate of formation of calcium-binding protein",
+              "Controls the rate of formation of 1,25-dihydroxycholicalciferol",
+              "Stimulates renal tubular phosphate reabsorption"
+            ],
+            "correct": 3,
+            "explanation": "Parathyroid hormone acts in the renal cortex to stimulate the reaction forming 1,25-dihydroxycholic calciferol from 25-hydroxycholicalciferol. It has no effects on other the other reactions."
+          },
+          {
+            "question": "Which substances are most likely to produce the greatest increase in insulin secretion?",
+            "options": [
+              "Amino acids",
+              "Amino acids and glucose",
+              "Amino acids and somatostatin",
+              "Glucose and somatostatin"
+            ],
+            "correct": 1,
+            "explanation": "Both amino acids and glucose stimulate insulin secretion. Furthermore, amino acids strongly potentiate the glucose stimulus for insulin secretion. Somatostatin inhibits insulin secretion."
+          },
+          {
+            "question": "Which of the following would be expected in a child with dwarfism due to pituitary dysfunction?",
+            "options": [
+              "Plasma [IGF-1] ↑, Growth-Hormone-Releasing Hormone Secretion ↑, Fasting Plasma [Glucose] ↓",
+              "Plasma [IGF-1] ↑, Growth-Hormone-Releasing Hormone Secretion ↑, Fasting Plasma [Glucose] ↑",
+              "Plasma [IGF-1] ↑, Growth-Hormone-Releasing Hormone Secretion ↓, Fasting Plasma [Glucose] ↓",
+              "Plasma [IGF-1] ↓, Growth-Hormone-Releasing Hormone Secretion ↓, Fasting Plasma [Glucose] ↑",
+              "Plasma [IGF-1] ↓, Growth-Hormone-Releasing Hormone Secretion ↓, Fasting Plasma [Glucose] ↓",
+              "Plasma [IGF-1] ↓, Growth-Hormone-Releasing Hormone Secretion ↑, Fasting Plasma [Glucose] ↓"
+            ],
+            "correct": 5,
+            "explanation": "In this form of dwarfism, there is decreased synthesis and secretion of GH into the circulation. As a result, stimulation of hepatic IGF-1 secretion is decreased and secretion of hypothalamic GnRH is increased due to diminished negative feedback. GH has several actions to increase blood levels of glucose, and when blood levels of GH are inappropriately low, fasting blood glucose concentration tends to fall."
+          },
+          {
+            "question": "For male differentiation to occur during embryonic development, testosterone must be secreted from the testes. What stimulates the secretion of testosterone during embryonic development?",
+            "options": [
+              "LH from the maternal pituitary gland",
+              "HCG",
+              "Inhibin from the corpus luteum",
+              "GnRH from the embryo’s hypothalamus"
+            ],
+            "correct": 1,
+            "explanation": "HCG also binds to LH receptors on the interstitial cells of the testes of the male fetus, resulting in the production of testosterone in male fetuses up to the time of birth. This small secretion of testosterone is what causes the fetus to develop male sex organs instead of female sex organs."
+          },
+          {
+            "question": "A patient has an elevated plasma thyroxine (T4) concentration, a low plasma TSH concentration, and her thyroid gland is smaller than normal. What is the most likely explanation for these findings?",
+            "options": [
+              "A lesion in the anterior pituitary that prevents TSH secretion",
+              "The patient is taking propylthiouracil",
+              "The patient is taking thyroid extract",
+              "The patient is consuming large amounts of iodine",
+              "Graves’ disease"
+            ],
+            "correct": 2,
+            "explanation": "If a subject took sufficient amounts of exogenous thyroid extract to increase plasma levels of T4 above normal, feedback would cause the secretion of TSH to decrease. Low plasma levels of TSH would result in atrophy of the thyroid gland. In a person with Graves’ disease, the same changes in plasma levels of T4 and TSH would be present, but the thyroid gland would not be atrophied. In fact, goiter is often present in patients with Graves’ disease. A lesion in the anterior pituitary that prevents TSH secretion or the taking of proplythiouracil or large amounts of iodine would be associated with low plasma levels of T4."
+          },
+          
+          {
+            "question": "A 30-year-old woman reports to the clinic for a routine physical examination. The examination reveals she is pregnant. Her plasma levels of TSH are high, but her total thyroid hormone concentration is normal. Which of the following best reflects the patient’s clinical state?",
+            "options": [
+              "Graves’ disease",
+              "Hashimoto’s disease",
+              "A pituitary tumor secreting TSH",
+              "A hypothalamic tumor secreting thyrotropin-releasing hormone (TRH)",
+              "The patient is taking thyroid extract"
+            ],
+            "correct": 1,
+            "explanation": "As a result of negative feedback, plasma levels of TSH are a sensitive index of circulating levels of unbound (free) thyroid hormones. High plasma levels of TSH indicate inappropriately low levels of free thyroid hormones in the circulation, such as are present with autoimmune destruction of the thyroid gland in persons with Hashimoto’s disease. However, because elevated plasma levels of estrogen in pregnancy increase hepatic production of TBG, the total amount (bound + free) of thyroid hormones in the circulation is elevated. Plasma levels of thyroid hormones are elevated in persons with Graves’ disease and in patients with a pituitary TSH-secreting tumor, as well in patients given thyroid extract for therapy."
+          },
+          {
+            "question": "Which anterior pituitary hormone plays a major role in the regulation of a nonendocrine target gland?",
+            "options": [
+              "ACTH",
+              "TSH",
+              "Prolactin",
+              "FSH",
+              "LH"
+            ],
+            "correct": 2,
+            "explanation": "The major target tissue for prolactin is the breast, where it stimulates the secretion of milk. The other anterior pituitary hormones (ACTH, TSH, FSH, and LH) stimulate hormones from endocrine glands."
+          },
+          {
+            "question": "A female athlete who took testosterone-like steroids for several months stopped having normal menstrual cycles. What is the best explanation for this observation?",
+            "options": [
+              "Testosterone stimulates inhibin production from the corpus luteum",
+              "Testosterone binds to receptors in the endometrium, resulting in the failure of the endometrium to develop during the normal cycle",
+              "Testosterone binds to receptors in the anterior pituitary that stimulate the secretion of FSH and LH",
+              "Testosterone inhibits the hypothalamic secretion of GnRH and the pituitary secretion of LH and FSH"
+            ],
+            "correct": 3,
+            "explanation": "The cells of the anterior pituitary that secrete LH and FSH, along with the cells of the hypothalamus that secrete GnRH, are inhibited by both estrogen and testosterone. The steroids taken by the woman caused sufficient inhibition to result in cessation of the monthly menstrual cycle."
+          },
+          
+          {
+            "question": "Which of the following decreases the resistance in the arteries leading to the sinuses of the penis?",
+            "options": [
+              "Stimulation of the sympathetic nerves innervating the arteries",
+              "NO",
+              "Inhibition of activity of the parasympathetic nerves leading to the arteries",
+              "All the above"
+            ],
+            "correct": 1,
+            "explanation": "NO is the vasodilator that is normally released, causing vasodilation in these arteries."
+          },
+          {
+            "question": "A patient has a goiter associated with high plasma levels of both TRH and TSH. Her heart rate is elevated. This patient most likely has which condition?",
+            "options": [
+              "An endemic goiter",
+              "A hypothalamic tumor secreting large amounts of TRH",
+              "A pituitary tumor secreting large amounts of TSH",
+              "Graves’ disease"
+            ],
+            "correct": 1,
+            "explanation": "A hypothalamic tumor secreting large amounts of TRH would stimulate the pituitary gland to secrete increased amounts of TSH. As a result, the secretion of thyroid hormones would increase, which would result in an elevated heart rate. In comparison, a patient with either a pituitary tumor secreting large amounts of TSH or Graves’ disease would have low plasma levels of TRH because of feedback. Both TRH and TSH levels would be elevated in an endemic goiter, but the heart rate would be depressed because of the low rate of T4 secretion."
+          },
+          {
+            "question": "A man eats a low-carbohydrate meal that is rich in proteins containing the amino acids that stimulate insulin secretion. Which response accounts for the absence of hypoglycemia?",
+            "options": [
+              "Suppression of GH",
+              "Suppression of somatomedin C secretion",
+              "Stimulation of cortisol secretion",
+              "Stimulation of glucagon secretion",
+              "Stimulation of epinephrine secretion"
+            ],
+            "correct": 3,
+            "explanation": "Consumption of amino acids stimulates both GH and glucagon secretion. Increased glucagon secretion tends to increase blood glucose concentration and thus opposes the effects of insulin to cause hypoglycemia."
+          },
+          {
+            "question": "A 46-year-old man has “puffy” skin and is lethargic. His plasma TSH concentration is low and increases markedly when he is given TRH. What is the most likely diagnosis?",
+            "options": [
+              "Hyperthyroidism due to a thyroid tumor",
+              "Hyperthyroidism due to an abnormality in the hypothalamus",
+              "Hypothyroidism due to an abnormality in the thyroid",
+              "Hypothyroidism due to an abnormality in the hypothalamus",
+              "Hypothyroidism due to an abnormality in the pituitary"
+            ],
+            "correct": 3,
+            "explanation": "Lethargy and myxedema are signs of hypothyroidism. Low plasma levels of TSH indicate that the abnormality is in either the hypothalamus or the pituitary gland. The responsiveness of the pituitary to the administration of TRH suggests that pituitary function is normal and that the hypothalamus is producing insufficient amounts of TRH."
+          },
+          {
+            "question": "Negative feedback on FSH release from the anterior pituitary in men that results in a reduction in estradiol production is due to which hormone?",
+            "options": [
+              "Progesterone",
+              "Estradiol",
+              "Testosterone",
+              "Inhibin"
+            ],
+            "correct": 3,
+            "explanation": "Inhibin prevents FSH release from the anterior pituitary, preventing Sertoli cells from causing aromatization to produce estradiol."
+          },
+          {
+            "question": "During the first few years after menopause, FSH levels are normally extremely high. A 56-year-old woman completed menopause 3 years ago. However, she is found to have low levels of FSH in her blood. What is the best explanation for this finding?",
+            "options": [
+              "She has been receiving hormone replacement therapy with estrogen and progesterone since she completed menopause",
+              "Her adrenal glands continue to produce estrogen",
+              "Her ovaries continue to secrete estrogen",
+              "She took birth control pills for 20 years before menopause"
+            ],
+            "correct": 0,
+            "explanation": "After menopause, the absence of feedback inhibition by estrogen and progesterone results in extremely high rates of FSH secretion. Women taking estrogen as part of hormone replacement therapy for symptoms associated with postmenopausal conditions have suppressed levels of FSH as a result of the inhibitory effect of estrogen."
+          },
+          {
+            "question": "Blockade of what receptors will prolong erection in the male?",
+            "options": [
+              "Estrogen receptors",
+              "Cholesterol receptors",
+              "Muscarinic receptors",
+              "Phosphodiesterase-5 receptors"
+            ],
+            "correct": 3,
+            "explanation": "Phosphodiesterase-5 receptors prevent hydrolysis of cyclic guanosine monophosphate, thus keeping the levels high and maintaining vasodilation."
+          },
+          {
+            "question": "Which of the following pairs of hormones and the corresponding action is incorrect?",
+            "options": [
+              "Glucagon—increased glycogenolysis in liver",
+              "Glucagon—increased glycogenolysis in skeletal muscle",
+              "Glucagon—increased gluconeogenesis",
+              "Cortisol—increased gluconeogenesis",
+              "Cortisol—decreased glucose uptake in muscle"
+            ],
+            "correct": 1,
+            "explanation": "Glucagon stimulates glycogenolysis in the liver, but it has no physiological effects in muscle. Both glucagon and cortisol increase gluconeogenesis, and cortisol impairs glucose uptake by muscle."
+          },
+          {
+            "question": "A large dose of insulin is administered intravenously to a patient. Which set of hormonal changes is most likely to occur in the plasma in response to the insulin injection?",
+            "options": [
+              "Growth Hormone: ↑, Glucagon: ↓, Epinephrine: ↔",
+              "Growth Hormone: ↔, Glucagon: ↑, Epinephrine: ↑",
+              "Growth Hormone: ↑, Glucagon: ↑, Epinephrine: ↑",
+              "Growth Hormone: ↓, Glucagon: ↑, Epinephrine: ↑",
+              "Growth Hormone: ↓, Glucagon: ↓, Epinephrine: ↔"
+            ],
+            "correct": 2,
+            "explanation": "Injection of insulin leads to a decrease in blood glucose concentration. Hypoglycemia stimulates the secretion of GH, glucagon, and epinephrine, all of which have counter-regulatory effects to increase glucose levels in the blood."
+          },
+          {
+            "question": "What is a frequent cause of delayed breathing at birth?",
+            "options": [
+              "Fetal hypoxia during the birth process",
+              "Maternal hypoxia during the birth process",
+              "Fetal hypercapnia",
+              "Maternal hypercapnia"
+            ],
+            "correct": 0,
+            "explanation": "Prolonged fetal hypoxia during delivery can cause serious depression of the respiratory center. Hypoxia may occur during delivery because of compression of the umbilical cord, premature separation of the placenta, excessive contraction of the uterus, or excessive anesthesia of the mother."
+          },
+          {
+            "question": "Which hormone is largely unbound to plasma proteins?",
+            "options": [
+              "Cortisol",
+              "T4",
+              "ADH",
+              "Estradiol",
+              "Progesterone"
+            ],
+            "correct": 2,
+            "explanation": "In general, peptide hormones are water soluble and are not highly bound by plasma proteins. ADH, a neurohypophysial peptide hormone, is virtually unbound by plasma proteins. In contrast, steroid and thyroid hormones are highly bound to plasma proteins."
+          },
+          {
+            "question": "What is the mechanism by which the zona pellucida becomes “hardened” after penetration of a sperm cell to prevent a second sperm from penetrating?",
+            "options": [
+              "A reduction in estradiol",
+              "The proteins released from the acrosome of the sperm",
+              "An increase in intracellular calcium in the oocyte",
+              "An increase in testosterone that affects the sperm"
+            ],
+            "correct": 2,
+            "explanation": "The rise in intracellular calcium in the oocyte triggers the cortical reaction in which granules that previously lay at the base of the plasma membrane undergo exocytosis. That process leads to the release of enzymes that \"harden\" the zona pellucida and prevent other sperm from penetrating."
+          },
+          {
+            "question": "Why is milk produced by a woman only after delivery, not before?",
+            "options": [
+              "Levels of LH and FSH are too low during pregnancy to support milk production",
+              "High levels of progesterone and estrogen during pregnancy suppress milk production",
+              "The alveolar cells of the breast do not reach maturity until after delivery",
+              "High levels of oxytocin are required for milk production to begin, and oxytocin is not secreted until the baby stimulates the nipple"
+            ],
+            "correct": 1,
+            "explanation": "Although estrogen and progesterone are essential for the physical development of the breast during pregnancy, a specific effect of both these hormones is to inhibit the actual secretion of milk. Even though prolactin levels are increased 10- to 20-fold at the end of pregnancy, the suppressive effects of estrogen and progesterone prevent milk production until after the baby is born. Immediately after birth, the sudden loss of both estrogen and progesterone secretion from the placenta allows the lactogenic effect of prolactin to promote milk production."
+          },
+          {
+            "question": "Which of the following increases the rate of excretion of calcium ions by the kidney?",
+            "options": [
+              "A decrease in calcitonin concentration in the plasma",
+              "An increase in phosphate ion concentration in the plasma",
+              "A decrease in the plasma level of PTH",
+              "Metabolic alkalosis"
+            ],
+            "correct": 2,
+            "explanation": "The concentration of PTH strongly regulates the absorption of calcium ion from the renal tubular fluid. A reduction in hormone concentration reduces calcium reabsorption and increases the rate of calcium excretion in the urine. The other choices either have little effect on or decrease calcium excretion."
+          },
+          {
+            "question": "A patient has hyperthyroidism due to a pituitary tumor. Which set of physiological changes would be expected?",
+            "options": [
+              "Thyroglobulin Synthesis: ↑, Heart Rate: ↑, Exophthalmos: +",
+              "Thyroglobulin Synthesis: ↑, Heart Rate: ↑, Exophthalmos: –",
+              "Thyroglobulin Synthesis: ↑, Heart Rate: ↓, Exophthalmos: +",
+              "Thyroglobulin Synthesis: ↓, Heart Rate: ↓, Exophthalmos: +",
+              "Thyroglobulin Synthesis: ↓, Heart Rate: ↓, Exophthalmos: –",
+              "Thyroglobulin Synthesis: ↓, Heart Rate: ↑, Exophthalmos: –"
+            ],
+            "correct": 1,
+            "explanation": "A pituitary tumor secreting increased amounts of TSH would be expected to stimulate the thyroid gland to secrete increased amounts of thyroid hormones. TSH stimulates several steps in the synthesis of thyroid hormones, including the synthesis of thyroglobulin. Increased heart rate is among the many physiological responses to high plasma levels of thyroid hormones. However, high plasma levels of thyroid hormones do not cause exophthalmos. Immunoglobulins cause exophthalmos in Graves’ disease, the most common form of hyperthyroidism."
+          },
+          {
+            "question": "A 25-year-old man is severely injured when hit by a speeding vehicle and loses 20 percent of his blood volume. Which set of physiological changes would be expected to occur in response to the hemorrhage?",
+            "options": [
+              "Atrial Stretch Receptor Activity: ↓, Arterial Baroreceptor Activity: ↓, ADH Secretion: ↑",
+              "Atrial Stretch Receptor Activity: ↓, Arterial Baroreceptor Activity: ↓, ADH Secretion: ↓",
+              "Atrial Stretch Receptor Activity: ↔, Arterial Baroreceptor Activity: ↑, ADH Secretion: ↑",
+              "Atrial Stretch Receptor Activity: ↑, Arterial Baroreceptor Activity: ↑, ADH Secretion: ↑",
+              "Atrial Stretch Receptor Activity: ↑, Arterial Baroreceptor Activity: ↑, ADH Secretion: ↓"
+            ],
+            "correct": 0,
+            "explanation": "Hemorrhage decreases the activation of stretch receptors in the atria and arterial baroreceptors. Decreased activation of these receptors increases ADH secretion."
+          },
+          {
+            "question": "If a woman has a tumor that is secreting large amounts of estrogen from the adrenal gland, which of the following will occur?",
+            "options": [
+              "Progesterone levels in the blood will be very low",
+              "Her LH secretion rate will be totally suppressed",
+              "She will not have normal menstrual cycles",
+              "Her bones will be normally calcified",
+              "All the above"
+            ],
+            "correct": 4,
+            "explanation": "Choices A to D are true: LH secretion will be suppressed by the negative feedback effect of the estrogen from the tumor; consequently, she will not have menstrual cycles, and because she will not have normal cycles, no corpus luteae will develop, so no progesterone will be formed. The high levels of estrogen produced by the tumor will provide stimulation of osteoblastic activity to maintain normal bone activity."
+          },
+          {
+            "question": "When compared with the postabsorptive state, which set of metabolic changes would most likely occur during the postprandial state?",
+            "options": [
+              "Hepatic Glucose Uptake: ↑, Muscle Glucose Uptake: ↑, Hormone-Sensitive Lipase Activity: ↑",
+              "Hepatic Glucose Uptake: ↑, Muscle Glucose Uptake: ↓, Hormone-Sensitive Lipase Activity: ↑",
+              "Hepatic Glucose Uptake: ↓, Muscle Glucose Uptake: ↑, Hormone-Sensitive Lipase Activity: ↓",
+              "Hepatic Glucose Uptake: ↑, Muscle Glucose Uptake: ↑, Hormone-Sensitive Lipase Activity: ↓",
+              "Hepatic Glucose Uptake: ↓, Muscle Glucose Uptake: ↑, Hormone-Sensitive Lipase Activity: ↑"
+            ],
+            "correct": 3,
+            "explanation": "After eating a meal, insulin secretion is increased. As a result, there is an increased rate of glucose uptake by both the liver and muscle. Insulin also inhibits hormone-sensitive lipase, which decreases hydrolysis of triglycerides in fat cells."
+          },
+          {
+            "question": "Very early in embryonic development, testosterone is formed within the male embryo. What is the function of this hormone at this stage of development?",
+            "options": [
+              "Stimulation of bone growth",
+              "Stimulation of development of male sex organs",
+              "Stimulation of development of skeletal muscle",
+              "Inhibition of LH secretion"
+            ],
+            "correct": 1,
+            "explanation": "The primary function of testosterone in the embryonic development of males is to stimulate formation of the male sex organs."
+          },
+          {
+            "question": "Which change would be expected to occur with increased binding of a hormone to plasma proteins?",
+            "options": [
+              "Increase in plasma clearance of the hormone",
+              "Decrease in half-life of the hormone",
+              "Increase in hormone activity",
+              "Increase in degree of negative feedback exerted by the hormone",
+              "Increase in plasma reservoir for rapid replenishment of free hormone"
+            ],
+            "correct": 4,
+            "explanation": "Protein-bound hormones are biologically inactive and cannot be metabolized. Thus, an increase in protein binding would tend to decrease hormone activity and plasma clearance and increase the half-life of the hormone. Free hormone is also responsible for negative feedback inhibition of hormone secretion. Therefore, a sudden increase in hormone binding to plasma proteins would decrease negative feedback. Protein binding of hormones does, however, provide a reservoir for the rapid replacement of free hormone."
+          },
+          {
+            "question": "A patient arrives in the emergency department apparently in cardiogenic shock due to a massive heart attack. His initial arterial blood sample reveals the following concentrations of ions and pH level: Sodium 137 mmol/L, Bicarbonate 14 mmol/L, Free calcium 2.8 mmol/L, Potassium 4.8 mmol/L, pH 7.16. To correct the acidosis, the attending physician begins an infusion of sodium bicarbonate and after 1 hour obtains another blood sample, which reveals the following values: Sodium 138 mmol/L, Bicarbonate 22 mmol/L, Free calcium 2.3 mmol/L, Potassium 4.5 mmol/L, pH 7.34. What is the cause of the decrease in calcium ion concentration?",
+            "options": [
+              "The increase in arterial pH resulting from the sodium bicarbonate infusion inhibited PTH secretion",
+              "The increase in pH resulted in the stimulation of osteoblasts, which removed calcium from the circulation",
+              "The increase in pH resulted in an elevation in the concentration of HPO4-, which shifted the equilibrium between HPO4- and Ca++ toward CaHPO4",
+              "The increase in arterial pH stimulated the formation of 1,25-dihydroxycholecalciferol, which resulted in an increased rate of absorption of calcium from the gastrointestinal tract"
+            ],
+            "correct": 2,
+            "explanation": "The reduction in hydrogen ion indicated by the elevation in pH increases the concentration of negatively charged phosphate ion species available for ionic combination with calcium ions. Consequently, the free calcium ion concentration is reduced."
+          },
+          {
+            "question": "A patient presents with tachycardia and heat intolerance. You suspect Graves’ disease. Which of the following is not consistent with your diagnosis?",
+            "options": [
+              "Increased total and free T4",
+              "Suppressed plasma [TSH]",
+              "Exophthalmos",
+              "Goiter",
+              "Decreased thyroid radioactive iodine uptake"
+            ],
+            "correct": 4,
+            "explanation": "In Graves’ disease, antibodies against the TSH receptor in the thyroid gland stimulate many of the steps in the synthesis of thyroid hormones, including increased iodine uptake. Due to excessive stimulation of the gland, the thyroid gland hypertrophies and secretes increased amounts of thyroid hormones. High circulating levels of thyroid hormones inhibit TSH secretion due to negative feedback inhibition. The antibodies present in Graves’ disease also cause pathological changes in the tissue surrounding the eyes, leading to protrusion of the eyeballs."
+          },
+          {
+            "question": "A 30-year-old woman is breastfeeding her infant. During suckling, which hormonal response is expected in the woman?",
+            "options": [
+              "Increased secretion of ADH from the supraoptic nuclei",
+              "Increased secretion of ADH from the paraventricular nuclei",
+              "Increased secretion of oxytocin from the paraventricular nuclei",
+              "Decreased secretion of neurophysin",
+              "Increased plasma levels of both oxytocin and ADH"
+            ],
+            "correct": 2,
+            "explanation": "During suckling, stimulation of receptors on the nipples increases neural input to both the supraoptic and paraventricular nuclei. Activation of these nuclei leads to the release of oxytocin and neurophysin from secretion granules in the posterior pituitary gland. Suckling does not stimulate the secretion of appreciable amounts of ADH."
+          },
+          {
+            "question": "A 30-year-old man has Conn’s syndrome. Which set of physiological changes is most likely to occur in this patient compared with a healthy person?",
+            "options": [
+              "Arterial Pressure: →, Extracellular Fluid Volume: →, Sodium Excretion: →",
+              "Arterial Pressure: ↑, Extracellular Fluid Volume: →, Sodium Excretion: →",
+              "Arterial Pressure: ↑, Extracellular Fluid Volume: ↑, Sodium Excretion: →",
+              "Arterial Pressure: →, Extracellular Fluid Volume: ↑, Sodium Excretion: ↓",
+              "Arterial Pressure: ↑, Extracellular Fluid Volume: ↑, Sodium Excretion: ↓"
+            ],
+            "correct": 2,
+            "explanation": "In Conn’s syndrome, large amounts of aldosterone are secreted. Because aldosterone causes sodium retention, hypertension is a common finding in patients with this condition. However, the degree of sodium retention is modest, as is the resultant increase in extracellular fluid volume. This occurs because the rise in arterial pressure offsets the sodium-retaining effects of aldosterone, limiting sodium retention and permitting daily sodium balance to be achieved."
+          },
+          {
+            "question": "Why is it important to feed newborn infants every few hours?",
+            "options": [
+              "The hepatic capacity to store and synthesize glycogen and glucose is not adequate to maintain the plasma glucose concentration in a normal range for more than a few hours after feeding",
+              "If adequate fluid is not ingested frequently, the plasma protein concentration will rise to greater than normal levels within a few hours",
+              "The function of the gastrointestinal system is poorly developed and can be improved by keeping food in the stomach at all times",
+              "The hepatic capacity to form plasma proteins is minimal and requires the constant availability of amino acids from food to avoid hypoproteinemic edema"
+            ],
+            "correct": 0,
+            "explanation": "Because the liver functions imperfectly during the first weeks of life, the glucose concentration in the blood is unstable and falls to very low levels within a few hours after feeding."
+          },
+          {
+            "question": "Dehydroepiandrosterone sulfate (DHEAS), the precursor for the high levels of estradiol that occur in pregnancy, is made in what tissue?",
+            "options": [
+              "Fetal adrenal gland",
+              "Ovary of the mother",
+              "Placenta",
+              "Adrenal gland of the mother"
+            ],
+            "correct": 3,
+            "explanation": "DHEA sulfate produced by the fetal adrenal gland diffuses to the placenta and is converted to DHEA and then to estradiol and provides estradiol to the mother."
+          },
+          {
+            "question": "What is the consequence of sporadic nursing of the neonate by the mother?",
+            "options": [
+              "An increase in prolactin-releasing hormone",
+              "An increase in oxytocin",
+              "Lack of birth control",
+              "Lack of prolactin surge"
+            ],
+            "correct": 3,
+            "explanation": "Sporadic nursing of the mother results in a lack of prolactin surge because mechanosensors in the nipple cause prolactin release. Without prolactin release, there is a lack of milk production, and the mother eventually will not be able to provide milk for the baby."
+          },
+          {
+            "question": "Which of the following would be associated with parallel changes in aldosterone and cortisol secretion?",
+            "options": [
+              "Addison’s disease",
+              "Cushing’s disease",
+              "Cushing’s syndrome (adrenal tumor)",
+              "A low-sodium diet",
+              "Administration of a converting enzyme inhibitor"
+            ],
+            "correct": 0,
+            "explanation": "Persons with Addison’s disease have diminished secretion of both glucocorticoids (cortisol) and mineralocorticoids (aldosterone). In persons with Cushing’s disease or Cushing’s syndrome, cortisol secretion is elevated but aldosterone secretion is normal. A low-sodium diet is associated with a high rate of aldosterone secretion but a secretion rate of cortisol that is normal. By inhibiting the generation of angiotensin II and thus the stimulatory effects of angiotensin II on the zona glomerulosa, administration of a converting enzyme inhibitor would decrease aldosterone secretion without altering the rate of cortisol secretion."
+          },
+          {
+            "question": "A chronic increase in the plasma concentration of thyroxine-binding globulin (TBG) would result in which of the following?",
+            "options": [
+              "An increased delivery of T4 to target cells",
+              "A decrease in plasma free [T4]",
+              "An increase in the conversion of T4 to triiodothyronine (T3) in peripheral tissues",
+              "An increase in TSH secretion",
+              "No change in metabolic rate"
+            ],
+            "correct": 4,
+            "explanation": "In the steady state, high plasma levels of TBG would simply increase the reservoir for hormone and, therefore, the total amount of thyroid hormone in the circulation. However, protein-bound hormone is inactive. The metabolic effects of thyroid hormones and their feedback inhibition on TSH secretion are determined by the free thyroid hormone and not the total amount of thyroid hormone in the circulation. Both the plasma levels of free thyroid hormone and TSH would be expected to be normal in the steady state. Consequently, the metabolic rate would be unchanged."
+          },
+          {
+            "question": "RU486 causes abortion if it is administered before or soon after implantation. What is the specific effect of RU486?",
+            "options": [
+              "It binds to LH receptors, stimulating the secretion of progesterone from the corpus luteum",
+              "It blocks progesterone receptors so that progesterone has no effect within the body",
+              "It blocks the secretion of FSH by the pituitary",
+              "It blocks the effects of oxytocin receptors in the uterine muscle"
+            ],
+            "correct": 1,
+            "explanation": "Progesterone is required to maintain the decidual cells of the endometrium. If progesterone levels fall, as they do during the last days of a nonpregnant menstrual cycle, menstruation will follow within a few days, with loss of pregnancy. Administration of a compound that blocks the progesterone receptor during the first few days after conception will terminate the pregnancy."
+          },
+          {
+            "question": "A 55-year-old man has developed the syndrome of inappropriate antidiuretic hormone secretion due to carcinoma of the lung. Which physiological response would be expected?",
+            "options": [
+              "Increased plasma osmolality",
+              "Inappropriately low urine osmolality (relative to plasma osmolality)",
+              "Increased thirst",
+              "Decreased secretion of ADH from the pituitary gland"
+            ],
+            "correct": 3,
+            "explanation": "An inappropriately high rate of ADH secretion from the lung promotes excess water reabsorption, which tends to produce concentrated urine and a decrease in plasma osmolality. Low plasma osmolality suppresses both thirst and ADH secretion from the pituitary gland."
+          },
+          {
+            "question": "During pregnancy, the uterine smooth muscle is quiescent. During the ninth month of gestation, the uterine muscle becomes progressively more excitable. What factor contributes to the increase in excitability?",
+            "options": [
+              "Placental estrogen synthesis rises to high rates",
+              "Progesterone synthesis by the placenta decreases",
+              "Uterine blood flow reaches its highest rate",
+              "PGE2 synthesis by the placenta decreases",
+              "Activity of the fetus falls to low levels"
+            ],
+            "correct": 1,
+            "explanation": "A very high plasma concentration of progesterone maintains the uterine muscle in a quiescent state during pregnancy. In the final month of gestation the concentration of progesterone begins to decline, increasing the excitability of the muscle."
+          },
+          {
+            "question": "A 20-year-old woman is not having menstrual cycles. Her plasma progesterone concentration is found to be minimal. What is the explanation for the low level of progesterone?",
+            "options": [
+              "LH secretion rate is elevated",
+              "LH secretion rate is suppressed",
+              "FSH secretion rate is suppressed",
+              "No corpus luteum is present",
+              "High inhibin concentration in the plasma has suppressed progesterone synthesis"
+            ],
+            "correct": 3,
+            "explanation": "The corpus luteum is the only source of progesterone. If she is not having menstrual cycles, no corpus luteum is present."
+          },
+          {
+            "question": "Before the preovulatory surge in LH, granulosa cells of the follicle secrete which hormone?",
+            "options": [
+              "Testosterone",
+              "Progesterone",
+              "Estrogen",
+              "Inhibin"
+            ],
+            "correct": 2,
+            "explanation": "FSH stimulates the granulosa cells of the follicle to secrete estrogen."
+          },
+          
+          {
+            "question": "Which hormone activates enzyme-linked receptors?",
+            "options": [
+              "ADH",
+              "Insulin",
+              "ACTH",
+              "PTH",
+              "Aldosterone"
+            ],
+            "correct": 1,
+            "explanation": "In general, protein hormones cause physiological effects by binding to receptors on the cell membrane. However, of the four protein hormones indicated, only insulin activates an enzyme-linked receptor. Aldosterone is a steroid hormone and enters the cytoplasm of the cell before binding to its receptor."
+          },
+          {
+            "question": "Which of the following is produced by the trophoblast cells during the first 3 weeks of pregnancy?",
+            "options": [
+              "Estrogen",
+              "LH",
+              "Oxytocin",
+              "HCG",
+              "None of the above"
+            ],
+            "correct": 3,
+            "explanation": "HCG is secreted from the trophoblast cells beginning shortly after the blastocyst implants in the endometrium."
+          },
+        
+          {
+            "question": "Which finding is most likely in a patient who has myxedema?",
+            "options": [
+              "Somnolence",
+              "Palpitations",
+              "Increased respiratory rate",
+              "Increased cardiac output",
+              "Weight loss"
+            ],
+            "correct": 0,
+            "explanation": "Somnolence is a common feature of hypothyroidism. Palpitations, increased respiratory rate, increased cardiac output, and weight loss are all associated with hyperthyroidism."
+          },
+          {
+            "question": "At birth, a large, well-nourished baby is found to have a plasma glucose concentration of 17 mg/dl (normal is 80 to 100 mg/dl) and a plasma insulin concentration twice the normal value. What is the explanation for these findings?",
+            "options": [
+              "The neonate experienced in utero malnutrition",
+              "The mother was malnourished during pregnancy",
+              "The mother is diabetic, with poorly controlled hyperglycemia",
+              "The mother is obese"
+            ],
+            "correct": 2,
+            "explanation": "An infant born of an untreated diabetic mother will have considerable hypertrophy and hyperfunction of the islets of Langerhans in the pancreas. As a consequence, the infant’s blood glucose concentration may fall to lower than 20 mg/dl shortly after birth."
+          },
+          
+          {
+            "question": "Which of the following stimulates the secretion of PTH?",
+            "options": [
+              "An increase in extracellular calcium ion activity above the normal value",
+              "An increase in calcitonin concentration",
+              "Respiratory acidosis",
+              "Increased secretion of PTH-releasing hormone from the hypothalamus",
+              "None of the above"
+            ],
+            "correct": 4,
+            "explanation": "Choices A to D would not stimulate PTH secretion. An increase in calcium concentration suppresses PTH secretion; calcitonin has little to no effect on PTH secretion; acidosis would increase free calcium in the extracellular fluid, thereby inhibiting PTH secretion; and PTH-releasing hormone does not exist."
+          },
+          {
+            "question": "A 40-year-old woman consumes a high-potassium diet for several weeks. Which hormonal change is most likely to occur?",
+            "options": [
+              "Increased secretion of DHEA",
+              "Increased secretion of cortisol",
+              "Increased secretion of aldosterone",
+              "Increased secretion of ACTH",
+              "Decreased secretion of CRH"
+            ],
+            "correct": 2,
+            "explanation": "Potassium is a potent stimulus for aldosterone secretion, as is angiotensin II. Therefore, a patient consuming a high-potassium diet would exhibit high circulating levels of aldosterone."
+          },
+          {
+            "question": "After implantation into the uterus, nutrition of the blastocyst comes from which structure?",
+            "options": [
+              "Placenta",
+              "Decidua",
+              "Glomerulosa cells",
+              "Corpus luteum"
+            ],
+            "correct": 1,
+            "explanation": "The decidua and trophoblasts provide the nutrition needed to provide nourishment of the blastocyst."
+          },
+          {
+            "question": "Which hormone is not stored in its endocrine-producing gland?",
+            "options": [
+              "T4",
+              "PTH",
+              "Aldosterone",
+              "ACTH",
+              "Insulin"
+            ],
+            "correct": 2,
+            "explanation": "Steroid hormones are not stored to any appreciable extent in their endocrine producing glands. This is true for aldosterone, which is produced in the adrenal cortex. In contrast, there are appreciable stores of thyroid hormones and peptide hormones in their endocrine-producing glands."
+          },
+          {
+            "question": "A young woman comes to the emergency department with a vertebral compression fracture. Radiographs of the spine indicate generalized demineralization. She is vegetarian, does not smoke or drink alcohol, and has a normal plasma potassium concentration of 5.4 mEq/L, a sodium concentration of 136 mEq/L, and a plasma calcium concentration of 7.0 mg/dl. Her vitamin D3 value is several times greater than normal, although her 1,25-dihydroxycholecalciferol concentration is at the lower limit of detectability. She has been in renal failure for the past 5 years and undergoes hemodialysis three times each week. What is the cause of her low 1,25-dihydroxycholecalciferol level?",
+            "options": [
+              "Metabolic acidosis",
+              "Metabolic alkalosis",
+              "She is unable to form 1,25-dihydroxycholecalciferol because of her extensive kidney disease",
+              "She is undergoing dialysis with a dialysis fluid that does not contain calcium",
+              "She is taking receiving calcium supplements"
+            ],
+            "correct": 2,
+            "explanation": "1,25-dihydroxycholecalciferol is formed only in the renal cortex. Extensive renal disease reduces the amount of cortical tissue, eliminating the source of this active calcium regulating hormone."
+          },
+          {
+            "question": "The placenta is incapable of synthesizing which hormones?",
+            "options": [
+              "Estrogen",
+              "Progesterone",
+              "Androgens",
+              "Estriol"
+            ],
+            "correct": 2,
+            "explanation": "The placenta cannot produce androgens but can only produce DHEA by removal of the sulfate from DHEAS produced in the fetal adrenal glands."
+          },
+          {
+            "question": "A neonate develops jaundice and has a bilirubin concentration of 10 mg/dl on day 2 (normal is 3 mg/dl at 2 days old). The neonatologist can be confident that the condition is not erythroblastosis fetalis if which of the following is true?",
+            "options": [
+              "The bilirubin concentration rises no further",
+              "Hematocrit falls only slightly",
+              "The mother, father, and neonate are all Rh-negative",
+              "The mother has no history of hepatic dysfunction"
+            ],
+            "correct": 2,
+            "explanation": "For erythroblastosis fetalis to occur, the baby must inherit Rh-positive red blood cells from the father. If the mother is Rh-negative, she then becomes immunized against the Rh-positive antigen in the red blood cells of the fetus, and her antibodies destroy fetal red blood cells, releasing large quantities of bilirubin into the plasma of the fetus."
+          },
+          {
+            "question": "Which finding would likely be reported in a patient with a deficiency in iodine intake?",
+            "options": [
+              "Weight loss",
+              "Nervousness",
+              "Increased sweating",
+              "Increased synthesis of thyroglobulin",
+              "Tachycardia"
+            ],
+            "correct": 3,
+            "explanation": "Because iodine is needed to synthesize thyroid hormones, the production of thyroid hormones is impaired if iodine is deficient. As a result of feedback, plasma levels of TSH increase and stimulate the follicular cells to increase the synthesis of thyroglobulin, which results in a goiter. Increased metabolic rate, sweating, nervousness, and tachycardia are all common features of hyperthyroidism, not hypothyroidism, due to iodine deficiency."
+          },
+          {
+            "question": "A 37-year-old woman presents to her physician with an enlarged thyroid gland and high plasma levels of T4 and T3. Which of the following is likely to be decreased?",
+            "options": [
+              "Heart rate",
+              "Cardiac output",
+              "Peripheral vascular resistance",
+              "Ventilation rate",
+              "Metabolic rate"
+            ],
+            "correct": 2,
+            "explanation": "Because of the effects of thyroid hormones to increase metabolism in tissues, tissues vasodilate, thus increasing blood flow and cardiac output. All the other choices increase in response to high plasma levels of thyroid hormones."
+          },
+          {
+            "question": "Before intercourse, a woman irrigates her vagina with a solution that lowers the pH of the vaginal fluid to 4.5. What will be the effect on sperm cells in the vagina?",
+            "options": [
+              "The metabolic rate will increase",
+              "The rate of movement will decrease",
+              "The formation of PGE2 will increase",
+              "The rate of oxygen consumption will increase"
+            ],
+            "correct": 1,
+            "explanation": "Sperm cell motility decreases as pH is reduced below 6.8. At a pH of 4.5, sperm cell motility is significantly reduced. However, the buffering effect of sodium bicarbonate in the prostatic fluid raises the pH somewhat, allowing the sperm cells to regain some mobility."
+          },
+          {
+            "question": "Which hormonal responses would be expected after a meal high in protein?",
+            "options": [
+              "Insulin: ↑, Glucagon: ↑, Growth Hormone: ↓",
+              "Insulin: ↑, Glucagon: ↑, Growth Hormone: ↑",
+              "Insulin: ↑, Glucagon: ↓, Growth Hormone: ↓",
+              "Insulin: ↓, Glucagon: ↓, Growth Hormone: ↑",
+              "Insulin: ↓, Glucagon: ↑, Growth Hormone: ↑"
+            ],
+            "correct": 1,
+            "explanation": "A protein meal stimulates all three hormones indicated."
+          },
+          {
+            "question": "Men who take large doses of testosterone-like androgenic steroids for long periods are sterile in the reproductive sense of the word. What is the explanation for this finding?",
+            "options": [
+              "High levels of androgens bind to testosterone receptors in the Sertoli cells, resulting in overstimulation of inhibin formation",
+              "Overstimulation of sperm cell production results in the formation of defective sperm cells",
+              "High levels of androgen compounds inhibit the secretion of GnRH by the hypothalamus, resulting in the inhibition of LH and FSH release by the anterior pituitary",
+              "High levels of androgen compounds produce hypertrophic dysfunction of the prostate gland"
+            ],
+            "correct": 2,
+            "explanation": "Testosterone secreted by the testes in response to LH inhibits hypothalamic secretion of GnRH, thereby inhibiting anterior pituitary secretion of LH and FSH. Taking large doses of testosterone-like steroids also suppresses the secretion of GnRH and the pituitary gonadotropic hormones, resulting in sterility."
+          },
+          {
+            "question": "Cortisone is administered to a 30-year-old woman for the treatment of an autoimmune disease. Which of the following is most likely to occur?",
+            "options": [
+              "Increased ACTH secretion",
+              "Increased cortisol secretion",
+              "Increased insulin secretion",
+              "Increased muscle mass",
+              "Hypoglycemia between meals"
+            ],
+            "correct": 2,
+            "explanation": "Steroids with potent glucocorticoid activity tend to increase plasma glucose concentration. As a result, insulin secretion is stimulated. Increased glucocorticoid activity also diminishes muscle protein. Because of feedback, cortisone administration leads to a decrease in adrenocorticotropic hormone secretion and, therefore, a decrease in plasma cortisol concentration."
+          },
+          
+          {
+            "question": "The function of which of the following is increased by an elevated parathyroid hormone concentration?",
+            "options": [
+              "Osteoclasts",
+              "Hepatic formation of 25-hydroxycholecalciferol",
+              "Phosphate reabsorptive pathways in the renal tubules",
+              "All the above"
+            ],
+            "correct": 0,
+            "explanation": "An increase in the concentration of PTH results in the stimulation of existing osteoclasts and, over longer periods, increases the number of osteoclasts present in the bone."
+          },
+          {
+            "question": "Which statement about peptide or protein hormones is usually true?",
+            "options": [
+              "They have longer half-lives than steroid hormones",
+              "They have receptors on the cell membrane",
+              "They have a slower onset of action than both steroid and thyroid hormones",
+              "They are not stored in endocrine-producing glands"
+            ],
+            "correct": 1,
+            "explanation": "In general, peptide hormones produce biological effects by binding to receptors on the cell membrane. Peptide hormones are stored in secretion granules in their endocrine-producing cells and have relatively short half-lives because they are not highly bound to plasma proteins. Protein hormones often have a rapid onset of action because, unlike steroid and thyroid hormones, protein synthesis is usually not a prerequisite to produce biological effects."
+          },
+          {
+            "question": "Which set of physiological changes would be most likely to occur in a patient with acromegaly?",
+            "options": [
+              "Pituitary Mass: ↓, Kidney Mass: ↓, Femur Length: ↑",
+              "Pituitary Mass: ↓, Kidney Mass: ↑, Femur Length: ↑",
+              "Pituitary Mass: ↑, Kidney Mass: ↔, Femur Length: ↔",
+              "Pituitary Mass: ↑, Kidney Mass: ↑, Femur Length: ↔",
+              "Pituitary Mass: ↑, Kidney Mass: ↑, Femur Length: ↑"
+            ],
+            "correct": 3,
+            "explanation": "A pituitary tumor secreting GH is likely to present as an increase in pituitary gland size. The anabolic effects of excess GH secretion lead to enlargement of the internal organs, including the kidneys. Because acromegaly is the state of excess GH secretion after epiphyseal closure, increased femur length does not occur."
+          },
+          {
+            "question": "Cortisol and GH are most dissimilar in their metabolic effects on which of the following?",
+            "options": [
+              "Protein synthesis in muscle",
+              "Glucose uptake in peripheral tissues",
+              "Plasma glucose concentration",
+              "Mobilization of triglycerides"
+            ],
+            "correct": 0,
+            "explanation": "GH and cortisol have opposite effects on protein synthesis in muscle. GH is anabolic and promotes protein synthesis in most cells of the body, whereas cortisol decreases protein synthesis in extrahepatic cells, including muscle. Both hormones impair glucose uptake in peripheral tissues and, therefore, tend to increase plasma glucose concentration. Both hormones also mobilize triglycerides from fat stores."
+          },
+          {
+            "question": "Why do infants of mothers who had adequate nutrition during pregnancy not require iron supplements or a diet rich in iron until about 3 months of age?",
+            "options": [
+              "Growth of the infant does not require iron until after the third month",
+              "The fetal liver stores enough iron to meet the infant’s needs until the third month",
+              "Synthesis of new red blood cells begins after 3 months",
+              "Muscle cells that develop before the third month do not contain myoglobin"
+            ],
+            "correct": 1,
+            "explanation": "If the mother has had adequate amounts of iron in her diet, the infant's liver usually has enough stored iron to form blood cells for 4 to 6 months after birth. However, if the mother had insufficient iron levels, severe anemia may develop in the infant after about 3 months of life."
+          },
+          {
+            "question": "Cortisone is administered to a patient for the treatment of an autoimmune disease. Which of the following would least likely occur in response to the cortisone treatment?",
+            "options": [
+              "Hypertrophy of the adrenal glands",
+              "Increased plasma levels of C-peptide",
+              "Decreased CRH secretion",
+              "Increased blood pressure",
+              "Hyperglycemia"
+            ],
+            "correct": 0,
+            "explanation": "High plasma levels of steroids with glucocorticoid activity suppress CRH and, consequently, ACTH secretion. Therefore, the adrenal glands would actually atrophy with chronic cortisone treatment. Increased plasma levels of glucocorticoids tend to cause sodium retention and increase blood pressure. They also tend to increase plasma levels of glucose and, consequently, stimulate insulin secretion and C-peptide, which is part of the insulin prohormone."
+          },
+          {
+            "question": "Which symptom would least likely be associated with thyrotoxicosis?",
+            "options": [
+              "Tachycardia",
+              "Increased appetite",
+              "Somnolence",
+              "Increased sweating",
+              "Muscle tremor"
+            ],
+            "correct": 2,
+            "explanation": "Thyrotoxicosis indicates the effects of thyroid hormone excess. Thyroid hormone excites synapses. In contrast, somnolence is characteristic of hypothyroidism. Tachycardia, increased appetite, increased sweating, and muscle tremor are all signs of hyperthyroidism."
+          },
+          {
+            "question": "If a male is born without a penis and testes, a defect is likely in which gene on the Y chromosome?",
+            "options": [
+              "ERE—estrogen response element",
+              "ARE—androgen response element",
+              "SRY—affecting Sertoli cells",
+              "ERG—early response genes"
+            ],
+            "correct": 2,
+            "explanation": "SRY is the region on the Y chromosome that encodes a transcription factor that causes differentiation of Sertoli cells from precursors in testis. If SRY is not present, granulosa cells in the ovary are produced."
+          },
+          
+          {
+            "question": "Which finding is most likely to occur in a patient who has uncontrolled type 1 DM?",
+            "options": [
+              "Decreased plasma osmolality",
+              "Increased plasma volume",
+              "Increased plasma pH",
+              "Increased release of glucose from the liver",
+              "Decreased rate of lipolysis"
+            ],
+            "correct": 3,
+            "explanation": "Because insulin secretion is deficient in persons with type 1 DM, there is increased (not decreased) release of glucose from the liver. Low plasma levels of insulin also lead to a high rate of lipolysis; increased plasma osmolality, hypovolemia, and acidosis are all symptoms of uncontrolled type 1 DM."
+          },
+          {
+            "question": "GH secretion would most likely be suppressed under which condition?",
+            "options": [
+              "Acromegaly",
+              "Gigantism",
+              "Deep sleep",
+              "Exercise",
+              "Acute hyperglycemia"
+            ],
+            "correct": 4,
+            "explanation": "Under acute conditions, an increase in blood glucose concentration will decrease GH secretion. GH secretion is characteristically elevated in the chronic pathophysiological states of acromegaly and gigantism. Deep sleep and exercise are stimuli that increase GH secretion."
+          },
+          {
+            "question": "Pregnenolone is not in the biosynthetic pathway of which substance?",
+            "options": [
+              "Cortisol",
+              "Estrogen",
+              "Aldosterone",
+              "1,25(OH)2D",
+              "DHEA"
+            ],
+            "correct": 3,
+            "explanation": "All the steroids listed include pregnenolone early in their biosynthetic pathway. 1,25(OH)2D is derived from vitamin D and does not include pregnenolone in its biosynthetic pathway."
+          },
+          {
+            "question": "Which condition contributes to \"sodium escape\" in persons with Conn's syndrome?",
+            "options": [
+              "Decreased plasma levels of atrial natriuretic peptide",
+              "Increased plasma levels of angiotensin II",
+              "Decreased sodium reabsorption in the collecting tubules",
+              "Increased arterial pressure"
+            ],
+            "correct": 3,
+            "explanation": "Under chronic conditions, the effects of high plasma levels of aldosterone to promote sodium reabsorption in the collecting tubules are sustained. However, persistent sodium retention does not occur because of concomitant changes that promote sodium excretion. These changes include increased arterial pressure, increased plasma levels of atrial natriuretic peptide, and decreased plasma angiotensin II concentration."
+          },
+          {
+            "question": "An experiment is conducted in which patients in group 1 are given compound X and patients in group 2 are given compound Y. After 3 weeks, studies show that patients in group 1 have a higher rate of ACTH secretion and a lower blood glucose concentration than those in group 2. Identify compounds X and Y.",
+            "options": [
+              "Compound X: Cortisone, Compound Y: Placebo",
+              "Compound X: Cortisol, Compound Y: Placebo",
+              "Compound X: Placebo, Compound Y: Cortisol",
+              "Compound X: ACTH, Compound Y: Placebo",
+              "Compound X: Placebo, Compound Y: ACTH"
+            ],
+            "correct": 2,
+            "explanation": "Increased plasma levels of cortisol tend to increase plasma glucose concentration and inhibit ACTH secretion. Therefore, if cortisol were administered to patients in group 2, the patients in group 1 would have lower plasma glucose concentrations and higher plasma levels of ACTH."
+          },
+          {
+            "question": "A 30-year-old woman reports to the clinic for a routine physical examination, which reveals she is pregnant. Her plasma levels of TSH are high, but her total T4 concentration (protein bound and free) is normal. Which of the following best reflects this patient's clinical state?",
+            "options": [
+              "Graves' disease",
+              "Hashimoto's disease",
+              "A pituitary tumor that is secreting TSH",
+              "A hypothalamic tumor that is secreting TRH",
+              "The patient is taking thyroid extract"
+            ],
+            "correct": 1,
+            "explanation": "Circulating levels of free T4 exert biological effects and are regulated by feedback inhibition of TSH secretion from the anterior pituitary gland. Protein-bound T4 is biologically inactive. Circulating T4 is highly bound to plasma proteins, especially to TBG, which increases during pregnancy. An increase in TBG tends to decrease free T4, which then leads to an increase in TSH secretion, causing the thyroid to increase thyroid hormone secretion. Increased secretion of thyroid hormones persists until free T4 returns to normal levels, at which time there is no longer a stimulus for increased TSH secretion. Therefore, in a chronic steady-state condition associated with elevated TBG, high plasma total T4 (bound and free) and normal plasma TSH levels would be expected. In this pregnant patient, the normal levels of total T4, along with high plasma levels of TSH, would indicate an inappropriately low plasma level of free T4. Deficient thyroid hormone secretion in this patient would be consistent with Hashimoto’s disease, the most common form of hypothyroidism."
+          },
+          {
+            "question": "A man has a disease that destroyed only the motor neurons of the spinal cord below the thoracic region. Which aspect of sexual function would not be possible?",
+            "options": [
+              "Arousal",
+              "Erection",
+              "Lubrication",
+              "Ejaculation"
+            ],
+            "correct": 3,
+            "explanation": "The motor neurons of the spinal cord of the thoracic and lumbar regions are the sources of innervation for the skeletal muscles of the perineum involved in ejaculation."
+          },
+          {
+            "question": "Which component of the reproductive system has the most far-reaching effects on the physiology of the organism?",
+            "options": [
+              "/Y chromosomal effects",
+              "X dose—one X chromosome versus two X chromosomes",
+              "Gonadal steroid hormones",
+              "Prenatal testosterone levels"
+            ],
+            "correct": 2,
+            "explanation": "The gonadal steroids, in addition to controlling reproductive function, also control nonreproductive organ function via their estrogen and androgen receptors. For example, estrogens control vascular function due to their ability to increase intracellular calcium in vascular smooth cells causing vasodilation. In addition, estradiol upregulates synthesis of endothelial NO synthase, leading to vasodilation."
+          },
+          {
+            "question": "A sustained program of lifting heavy weights will increase bone mass. What is the mechanism of this effect of weightlifting?",
+            "options": [
+              "Elevated metabolic activity stimulates parathyroid hormone secretion",
+              "Mechanical stress on the bones increases the activity of osteoblasts",
+              "Elevated metabolic activity results in an increase in dietary calcium intake",
+              "Elevated metabolic activity results in stimulation of calcitonin secretion"
+            ],
+            "correct": 1,
+            "explanation": "Bone is deposited in proportion to the compressional load that the bone must carry. Continual mechanical stress stimulates osteoblastic deposition and calcification of bone."
+          },
+          {
+            "question": "Birth control pills containing combinations of synthetic estrogen and progesterone compounds that are given for the first 21 days of the menstrual cycle are effective in preventing pregnancy. What is the explanation for their efficacy?",
+            "options": [
+              "Prevention of the preovulatory surge of LH secretion from the pituitary gland",
+              "Prevention of development of the ovarian follicles",
+              "Suppression of the function of the corpus luteum soon after it forms",
+              "Prevention of normal development of the endometrium"
+            ],
+            "correct": 0,
+            "explanation": "Administration of either estrogen or progesterone in appropriate quantities during the first half of the menstrual cycle can inhibit ovulation by preventing the preovulatory surge of LH secretion by the anterior pituitary gland, which is essential for ovulation."
+          },
+          {
+            "question": "Which of the following would be expected in a patient with a genetic deficiency of 11-β-hydroxysteroid dehydrogenase type II?",
+            "options": [
+              "Hyperkalemia",
+              "Hypertension",
+              "Increased plasma renin activity",
+              "Increased plasma [aldosterone]",
+              "Hyperglycemia"
+            ],
+            "correct": 1,
+            "explanation": "In the absence of 11-β-hydroxysteroid dehydrogenase, renal epithelial cells cannot convert cortisol to cortisone and, therefore, cortisol will bind to the mineralocorticoid receptor and mimic the actions of excess aldosterone. Consequently, this would result in hypertension associated with suppression of the renin-angiotensin-aldosterone system, along with hypokalemia."
+          },
+          {
+            "question": "Which physiological response is greater for T3 than for T4?",
+            "options": [
+              "Secretion rate from the thyroid",
+              "Plasma concentration",
+              "Plasma half-life",
+              "Affinity for nuclear receptors in target tissues",
+              "Latent period for the onset of action in target tissues"
+            ],
+            "correct": 3,
+            "explanation": "In target tissues, nuclear receptors for thyroid hormones have a greater affinity for T3 than for T4. The secretion rate, plasma concentration, half-life, and onset of action are all greater for T4 than for T3."
+          },
+          {
+            "question": "A \"birth control\" compound for men has been sought for several decades. Which substance would provide effective sterility?",
+            "options": [
+              "A substance that mimics the actions of LH",
+              "A substance that blocks the actions of inhibin",
+              "A substance that blocks the actions of FSH",
+              "A substance that mimics the actions of GnRH"
+            ],
+            "correct": 2,
+            "explanation": "Blocking the action of FSH on the Sertoli cells of the seminiferous tubules interrupts the production of sperm. This is the only option that is certain to provide sterility."
+          },
+          {
+            "question": "For milk to flow from the nipple of the mother into the mouth of the nursing infant, what must occur?",
+            "options": [
+              "Myoepithelial cells must relax",
+              "Prolactin levels must fall",
+              "Oxytocin secretion from the posterior pituitary must take place",
+              "The baby's mouth must develop a strong negative pressure over the nipple",
+              "All the above"
+            ],
+            "correct": 2,
+            "explanation": "Oxytocin is secreted from the posterior pituitary gland and carried in the blood to the breast, where it causes the cells that surround the outer walls of the alveoli and ductile system to contract. Contraction of these cells raises the hydrostatic pressure of the milk in the ducts to 10 to 20 mm Hg. Consequently, milk flows from the nipple into the baby's mouth."
+          },
+          
+          {
+            "question": "Which set of physiological changes would be expected in a nondiabetic patient with Cushing's disease?",
+            "options": [
+              "Plasma Aldosterone: ↑, Plasma Cortisol: ↑, Plasma Insulin: ↑",
+              "Plasma Aldosterone: ↑, Plasma Cortisol: ↑, Plasma Insulin: ↓",
+              "Plasma Aldosterone: ↑, Plasma Cortisol: ↓, Plasma Insulin: ↓",
+              "Plasma Aldosterone: ↓, Plasma Cortisol: ↓, Plasma Insulin: ↑",
+              "Plasma Aldosterone: ↓, Plasma Cortisol: ↑, Plasma Insulin: ↓",
+              "Plasma Aldosterone: ↓, Plasma Cortisol: ↑, Plasma Insulin: ↑"
+            ],
+            "correct": 5,
+            "explanation": "Persons with Cushing's disease have a high rate of cortisol secretion, but aldosterone secretion is normal. High plasma levels of cortisol tend to increase plasma glucose concentration by impairing glucose uptake in peripheral tissues and by promoting gluconeogenesis. However, at least in the early stages of Cushing's disease, the tendency for glucose concentration to increase appreciably is counteracted by increased insulin secretion."
+          },
+          {
+            "question": "When compared with the late-evening values typically observed in normal subjects, plasma levels of both ACTH and cortisol would be expected to be higher in which persons?",
+            "options": [
+              "Normal subjects after waking in the morning",
+              "Normal subjects who have taken dexamethasone",
+              "Patients with Cushing's syndrome (adrenal adenoma)",
+              "Patients with Addison's disease",
+              "Patients with Conn's syndrome"
+            ],
+            "correct": 0,
+            "explanation": "In healthy patients, the secretory rates of ACTH and cortisol are low in the late evening but high in the early morning. In patients with Cushing's syndrome (adrenal adenoma) or in patients taking dexamethasone, plasma levels of ACTH are very low and are certainly not higher than normal early morning values. In patients with Addison's disease, plasma levels of ACTH are elevated as a result of deficient adrenal secretion of cortisol. The secretion of ACTH and cortisol would be expected to be normal in Conn's syndrome."
+          },
+          {
+            "question": "Which of the following conditions or hormones would most likely increase GH secretion?",
+            "options": [
+              "Hyperglycemia",
+              "Exercise",
+              "Somatomedin",
+              "Somatostatin",
+              "Aging"
+            ],
+            "correct": 1,
+            "explanation": "Exercise stimulates GH secretion. Hyperglycemia, somatomedin, and the hypothalamic inhibitory hormone somatostatin all inhibit GH secretion. GH secretion also decreases as persons age."
+          },
+          {
+            "question": "Which set of findings would be expected in a person maintained on a long-term low-sodium diet?",
+            "options": [
+              "Plasma [aldosterone]: ↑, Plasma [Atrial Natriuretic Peptide]: ↑, Plasma [Cortisol]: ↓",
+              "Plasma [aldosterone]: ↑, Plasma [Atrial Natriuretic Peptide]: ↑, Plasma [Cortisol]: ↑",
+              "Plasma [aldosterone]: ↑, Plasma [Atrial Natriuretic Peptide]: ↓, Plasma [Cortisol]: ↓",
+              "Plasma [aldosterone]: ↓, Plasma [Atrial Natriuretic Peptide]: ↓, Plasma [Cortisol]: ↓",
+              "Plasma [aldosterone]: ↓, Plasma [Atrial Natriuretic Peptide]: ↑, Plasma [Cortisol]: ↑",
+              "Plasma [aldosterone]: ↓, Plasma [Atrial Natriuretic Peptide]: ↑, Plasma [Cortisol]: ↓"
+            ],
+            "correct": 2,
+            "explanation": "A low-sodium diet would stimulate aldosterone but not cortisol secretion. Increased atrial stretch associated with volume expansion would stimulate atrial natriuretic peptide secretion but would not be expected during a low-sodium diet."
+          },
+          {
+            "question": "What would be associated with parallel changes in aldosterone and cortisol secretion?",
+            "options": [
+              "Addison's disease",
+              "Cushing's disease",
+              "Cushing's syndrome (ectopic ACTH-producing tumor)",
+              "A high-sodium diet",
+              "Administration of a converting enzyme inhibitor"
+            ],
+            "correct": 0,
+            "explanation": "Adrenal gland hypofunction with Addison's disease is associated with decreased secretion of both aldosterone and cortisol. In Cushing's disease and Cushing's syndrome associated with an ectopic tumor, the mineralocorticoid-hypertension induced by high plasma levels of cortisol would suppress aldosterone secretion. Neither a high-sodium diet nor administration of a converting enzyme inhibitor would affect cortisol secretion."
+          },
+          
+          {
+            "question": "A 59-year-old woman has osteoporosis, hypertension, hirsutism, and hyperpigmentation. Magnetic resonance imaging indicates that the pituitary gland is not enlarged. Which condition is most consistent with these findings?",
+            "options": [
+              "Pituitary ACTH-secreting tumor",
+              "Ectopic ACTH-secreting tumor",
+              "Inappropriately high secretion rate of CRH",
+              "Adrenal adenoma",
+              "Addison's disease"
+            ],
+            "correct": 1,
+            "explanation": "Osteoporosis, hypertension, hirsutism, and hyperpigmentation are all symptoms of Cushing's syndrome associated with high plasma levels of ACTH. If the high plasma ACTH levels were the result of either a pituitary adenoma or an abnormally high rate of corticotropin-releasing hormone secretion from the hypothalamus, the patient would likely have an enlarged pituitary gland. In contrast, the pituitary gland would not be enlarged if an ectopic tumor were secreting high levels of ACTH."
+          },
+          {
+            "question": "Which set of findings is an inappropriate hypophysial hormone response to the hypothalamic hormone listed?",
+            "options": [
+              "Hypothalamic Hormone: Somatostatin, Hypophysial Hormone: ↑ GH",
+              "Hypothalamic Hormone: Dopamine, Hypophysial Hormone: ↑ Prolactin",
+              "Hypothalamic Hormone: GnRH, Hypophysial Hormone: ↑ LH",
+              "Hypothalamic Hormone: TRH, Hypophysial Hormone: ↑ TSH",
+              "Hypothalamic Hormone: CRH, Hypophysial Hormone: ↑ ACTH"
+            ],
+            "correct": 1,
+            "explanation": "Prolactin secretion is inhibited, not stimulated, by the hypothalamic release of dopamine into the median eminence. GH is inhibited by the hypothalamic-inhibiting hormone somatostatin. The secretion of LH, TSH, and ACTH are all under the control of the releasing hormones indicated."
+          },
+          {
+            "question": "A patient is administered sufficient T4 to increase plasma levels of the hormone severalfold. Which set of changes is most likely in this patient after several weeks of T4 administration?",
+            "options": [
+              "Respiratory Rate: ↑, Heart Rate: ↑, Plasma Cholesterol Concentration: ↑",
+              "Respiratory Rate: ↑, Heart Rate: ↑, Plasma Cholesterol Concentration: ↓",
+              "Respiratory Rate: ↑, Heart Rate: ↓, Plasma Cholesterol Concentration: ↑",
+              "Respiratory Rate: ↓, Heart Rate: ↓, Plasma Cholesterol Concentration: ↑",
+              "Respiratory Rate: ↓, Heart Rate: ↑, Plasma Cholesterol Concentration: ↓"
+            ],
+            "correct": 1,
+            "explanation": "Increased heart rate, increased respiratory rate, and decreased cholesterol concentration are all responses to excess thyroid hormone."
+          },
+          {
+            "question": "During the latter stages of pregnancy, many women experience an increase in body hair growth in a masculine pattern. What is the explanation for this phenomenon?",
+            "options": [
+              "The ovaries secrete some testosterone along with the large amounts of estrogen produced late in pregnancy",
+              "The fetal ovaries and testes secrete androgenic steroids",
+              "The maternal and fetal adrenal glands secrete large amounts of androgenic steroids that are used by the placenta to form estrogen",
+              "The placenta secretes large amounts of estrogen, some of which is metabolized to testosterone"
+            ],
+            "correct": 2,
+            "explanation": "Estrogen secreted by the placenta is not synthesized from basic substrates in the placenta. Instead, it is formed almost entirely from androgenic steroid compounds that are formed in the adrenal glands of both the mother and the fetus. These androgenic compounds are transported by the blood to the placenta and converted by the trophoblast cells to estrogen compounds. Their concentration in the maternal blood may also stimulate hair growth on the body."
+          },
+          {
+            "question": "What causes menopause?",
+            "options": [
+              "Reduced levels of gonadotropic hormones secreted from the anterior pituitary gland",
+              "Reduced responsiveness of the follicles to the stimulatory effects of gonadotropic hormones",
+              "Reduced rate of secretion of progesterone from the corpus luteum",
+              "Reduced numbers of follicles available in the ovary for stimulation by gonadotropic hormones"
+            ],
+            "correct": 3,
+            "explanation": "By age 45 years, only a few primordial follicles remain in the ovaries to be stimulated by gonadotropic hormones, and the production of estrogen decreases as the number of follicles approaches zero. When estrogen production falls below a critical value, it can no longer inhibit the production of gonadotropic hormones from the anterior pituitary. FSH and LH are produced in large quantities, but as the remaining follicles become atretic, production by the ovaries falls to zero."
+          },
+          {
+            "question": "What does not increase when insulin binds to its receptor?",
+            "options": [
+              "Fat synthesis in adipose tissue",
+              "Protein synthesis in muscle",
+              "Glycogen synthesis",
+              "Gluconeogenesis in the liver",
+              "Intracellular tyrosine kinase activity"
+            ],
+            "correct": 3,
+            "explanation": "The binding of insulin to its receptor activates tyrosine kinase, resulting in metabolic events leading to increased synthesis of fats, proteins, and glycogen. In contrast, gluconeogenesis is inhibited."
+          },
+          {
+            "question": "Release of which hormone is an example of neuroendocrine secretion?",
+            "options": [
+              "GH",
+              "Cortisol",
+              "Oxytocin",
+              "Prolactin",
+              "ACTH"
+            ],
+            "correct": 2,
+            "explanation": "The secretion of chemical messengers (neurohormones) from neurons into the blood is referred to as neuroendocrine secretion. Thus, in contrast to the local actions of neurotransmitters at nerve endings, neurohormones circulate in the blood before producing biological effects at target tissues. Oxytocin is synthesized from magnocellular neurons whose cell bodies are located in the paraventricular and supraoptic nuclei and whose nerve terminals terminate in the posterior pituitary gland. Target tissues for circulating oxytocin are the breast and uterus, where the hormone plays a role in lactation and parturition, respectively."
+          },
+          {
+            "question": "During the week after ovulation, the endometrium increases in thickness to 5 to 6 millimeters. What stimulates this increase in thickness?",
+            "options": [
+              "LH",
+              "Estrogen from the corpus luteum",
+              "Progesterone from the corpus luteum",
+              "FSH"
+            ],
+            "correct": 2,
+            "explanation": "Progesterone secreted in large quantities from the corpus luteum causes marked swelling and secretory development of the endometrium."
+          },
+          {
+            "question": "Inhibition of the iodide pump would be expected to cause which change?",
+            "options": [
+              "Increased synthesis of T4",
+              "Increased synthesis of thyroglobulin",
+              "Increased metabolic rate",
+              "Decreased TSH secretion",
+              "Extreme nervousness"
+            ],
+            "correct": 1,
+            "explanation": "Inhibition of the iodide pump decreases the synthesis of thyroid hormones but does not impair the production of thyroglobulin by follicular cells. Decreased plasma levels of thyroid hormones result in a low metabolic rate and lead to an increase in TSH secretion. Increased plasma levels of TSH stimulate the follicular cells to synthesize more thyroglobulin. Nervousness is a symptom of hyperthyroidism and is not caused by thyroid hormone deficiency."
+          },
+          {
+            "question": "Before implantation, the blastocyst obtains its nutrition from uterine endometrial secretions. How does the blastocyst obtain nutrition during the first week after implantation?",
+            "options": [
+              "It continues to derive nutrition from endometrial secretions",
+              "The cells of the blastocyst contain stored nutrients that are metabolized for nutritional support",
+              "The placenta provides nutrition derived from maternal blood",
+              "The trophoblast cells digest the nutrient-rich endometrial cells and then absorb their contents for use by the blastocyst"
+            ],
+            "correct": 3,
+            "explanation": "As the blastocyst implants, the trophoblast cells invade the decidua, digesting and imbibing it. The stored nutrients in the decidual cells are used by the embryo for growth and development. During the first week after implantation, this is the only means by which the embryo can obtain nutrients. The embryo continues to obtain at least some of its nutrition in this way for up to 8 weeks, although the placenta begins to provide nutrition after about the 16th day beyond fertilization (a little more than 1 week after implantation)."
+          },
+          {
+            "question": "Which pituitary hormone has a chemical structure most similar to that of ADH?",
+            "options": [
+              "Oxytocin",
+              "ACTH",
+              "TSH",
+              "FSH",
+              "Prolactin"
+            ],
+            "correct": 0,
+            "explanation": "Both ADH and oxytocin are peptides containing nine amino acids. Their chemical structures differ in only two amino acids."
+          },
+          {
+            "question": "Which option would not be efficacious in the treatment of patients with type 2 diabetes?",
+            "options": [
+              "Glucocorticoids",
+              "Insulin injections",
+              "Thiazolidinediones",
+              "Sulfonylureas",
+              "Weight loss"
+            ],
+            "correct": 0,
+            "explanation": "Because glucocorticoids decrease the sensitivity of tissues to the metabolic effects insulin, they would exacerbate diabetes. Thiazolidinediones and weight loss increase insulin sensitivity. Sulfonylureas increase insulin secretion. If weight loss and the aforementioned drugs are ineffective, exogenous insulin may be used to regulate blood glucose concentration."
+          },
+          {
+            "question": "Which of the following is most likely to occur in the early stages of type 2 diabetes?",
+            "options": [
+              "Increased insulin sensitivity",
+              "Decreased hepatic glucose output",
+              "Increased plasma levels of C-peptide",
+              "Increased plasma [β-hydroxybutyric acid]",
+              "Hypovolemia"
+            ],
+            "correct": 2,
+            "explanation": "In the early stages of type 2 diabetes, the tissues have a decreased sensitivity to insulin. As a result, there is a tendency for plasma glucose to increase, in part because decreased hepatic insulin sensitivity leads to increased hepatic glucose output. Because of the tendency for plasma glucose to increase, there is a compensatory increase in insulin secretion, including C-peptide, which is part of the insulin prohormone. Hypovolemia and increased production of ketone bodies, although commonly associated with uncontrolled type 1 diabetes, are not typically present in the early stages of type 2 diabetes."
+          },
+          {
+            "question": "What is the most common cause of respiratory distress syndrome in neonates born at 7 months’ gestation?",
+            "options": [
+              "Pulmonary edema due to pulmonary arterial hypertension",
+              "Formation of a hyaline membrane over the alveolar surface",
+              "Failure of the alveolar lining to form adequate amounts of surfactant",
+              "Excessive permeability of the alveolar membrane to water"
+            ],
+            "correct": 2,
+            "explanation": "One of the most characteristic findings in respiratory distress syndrome is failure of the respiratory epithelium to secrete adequate quantities of surfactant into the alveoli. Surfactant decreases the surface tension of the alveolar fluid, allowing the alveoli to open easily during inspiration. Without sufficient surfactant, the alveoli tend to collapse, and there is a tendency to develop pulmonary edema."
+          },
+          {
+            "question": "Which of the following would be expected to occur during the postprandial period?",
+            "options": [
+              "Adipocyte α-Glycerol Phosphate: ↑, Plasma [Insulin]: ↑, Glycogen Phosphorylase: ↓",
+              "Adipocyte α-Glycerol Phosphate: ↑, Plasma [Insulin]: ↑, Glycogen Phosphorylase: ↑",
+              "Adipocyte α-Glycerol Phosphate: ↑, Plasma [Insulin]: ↓, Glycogen Phosphorylase: ↑",
+              "Adipocyte α-Glycerol Phosphate: ↓, Plasma [Insulin]: ↓, Glycogen Phosphorylase: ↑",
+              "Adipocyte α-Glycerol Phosphate: ↓, Plasma [Insulin]: ↓, Glycogen Phosphorylase: ↓",
+              "Adipocyte α-Glycerol Phosphate: ↓, Plasma [Insulin]: ↑, Glycogen Phosphorylase: ↓"
+            ],
+            "correct": 0,
+            "explanation": "After eating a meal, insulin secretion increases. Increased plasma levels of insulin inhibit glycogen phosphorylase, the enzyme that causes glycogen to split into glucose. In addition, insulin promotes glucose uptake in adipose tissue, providing α-glycerol phosphate, which is needed to combine fatty acids with triglycerides, the storage form of fat."
+          },
+          {
+            "question": "A 45-year-old woman has a mass in the sella turcica that compresses the portal vessels, disrupting pituitary access to hypothalamic secretions. The secretion rate of which hormone would most likely increase in this patient?",
+            "options": [
+              "ACTH",
+              "GH",
+              "Prolactin",
+              "LH",
+              "TSH"
+            ],
+            "correct": 2,
+            "explanation": "The primary controllers of ACTH, GH, LH, and TSH secretion from the pituitary gland are hypothalamic-releasing hormones. They are secreted into the median eminence and subsequently flow into the hypothalamic-hypophysial portal vessels before bathing the cells of the anterior pituitary gland. Conversely, prolactin secretion from the pituitary gland is influenced primarily by the hypothalamic inhibiting hormone dopamine. Consequently, obstruction of blood flow through the portal vessels would lead to reduced secretion of ACTH, GH, LH, and TSH, but increased secretion of prolactin."
+          },
+          {
+            "question": "Which of the following is not produced by osteoblasts?",
+            "options": [
+              "Alkaline phosphatase",
+              "RANK ligand",
+              "Collagen",
+              "Pyrophosphate",
+              "Osteoprotegerin"
+            ],
+            "correct": 3,
+            "explanation": "Osteoblasts secrete all of the above except pyrophosphate. Secretions (alkaline phosphatase) from osteoblasts neutralize pyrophosphate, an inhibitor of hydroxyapatite crystallization. Neutralization of pyrophosphate permits the precipitation of calcium salts into collagen fibers."
+          },
+          {
+            "question": "Which set of findings would be expected in a patient with primary hyperparathyroidism?",
+            "options": [
+              "Plasma [1,25-(OH)2D3]: ↑, Plasma [Phosphate]: ↑, Urinary Ca++ Excretion: ↑",
+              "Plasma [1,25-(OH)2D3]: ↑, Plasma [Phosphate]: ↓, Urinary Ca++ Excretion: ↑",
+              "Plasma [1,25-(OH)2D3]: ↑, Plasma [Phosphate]: ↓, Urinary Ca++ Excretion: ↓",
+              "Plasma [1,25-(OH)2D3]: ↓, Plasma [Phosphate]: ↓, Urinary Ca++ Excretion: ↑",
+              "Plasma [1,25-(OH)2D3]: ↓, Plasma [Phosphate]: ↑, Urinary Ca++ Excretion: ↓",
+              "Plasma [1,25-(OH)2D3]: ↓, Plasma [Phosphate]: ↑, Urinary Ca++ Excretion: ↑"
+            ],
+            "correct": 1,
+            "explanation": "In primary hyperparathyroidism, high plasma levels of PTH increase the formation of 1,25-(OH)2D3, which increases intestinal absorption of calcium. This action of PTH, along with its effects to increase bone resorption and renal calcium reabsorption, leads to hypercalcemia. However, because of the high filtered load of calcium, calcium is excreted in the urine. High plasma levels of PTH also decrease phosphate reabsorption and increase urinary excretion, leading to a fall in plasma phosphate concentration."
+          },
+          {
+            "question": "A man who has been exposed to high levels of gamma radiation is sterile due to destruction of the germinal epithelium of the seminiferous tubules, although he has normal levels of testosterone. Which of the following would be found in this patient?",
+            "options": [
+              "A normal secretory pattern of GnRH",
+              "Normal levels of inhibin",
+              "Suppressed levels of FSH",
+              "Absence of Leydig cells"
+            ],
+            "correct": 0,
+            "explanation": "Gamma radiation destroys the cells undergoing the most rapid rates of mitosis and meiosis, the germinal epithelium of the testes. The man described is said to have normal testosterone levels, suggesting that the secretory patterns of GnRH and LH are normal and that his interstitial cells are functional. Because he is not producing sperm, the levels of inhibin secreted by the Sertoli cells would be maximally suppressed, and his levels of FSH would be strongly elevated."
+          },
+          {
+            "question": "An experiment was conducted in which rats were injected with one of two hormones or saline solution (control) for 2 weeks. Autopsies were then performed, and organ weights were measured (in milligrams). Use this information to answer Questions 151 and 152. What is hormone 1?",
+            "options": [
+              "TRH",
+              "TSH",
+              "T4",
+              "ACTH",
+              "Cortisol"
+            ],
+            "correct": 1,
+            "explanation": "In this experiment, the size of the thyroid gland increased because TSH causes hypertrophy and hyperplasia of its target gland and increased secretion of thyroid hormones. Increased plasma levels of thyroid hormones inhibit the secretion of TRH, which decreases stimulation of the pituitary thyrotropes, resulting in a decrease in the size of the pituitary gland. Higher plasma levels of thyroid hormones also increase metabolic rate and decrease body weight."
+          },
+          {
+            "question": "An experiment was conducted in which rats were injected with one of two hormones or saline solution (control) for 2 weeks. Autopsies were then performed, and organ weights were measured (in milligrams). Use this information to answer Questions 151 and 152. What is hormone 2?",
+            "options": [
+              "TSH",
+              "T4",
+              "CRH",
+              "ACTH",
+              "Cortisol"
+            ],
+            "correct": 2,
+            "explanation": "In this experiment, the size of the pituitary and adrenal glands increased because CRH stimulates the pituitary corticotropes to secrete ACTH, which in turn stimulates the adrenals to secrete corticosterone and cortisol. Higher plasma levels of cortisol increase protein degradation and lipolysis and therefore decrease body weight."
+          },
+          {
+            "question": "Which of the following would be expected in a patient with vitamin D deficiency?",
+            "options": [
+              "Plasma [1,25-(OH)2D3]: ↑, Bone Resorption: ↑, Intestinal Calbindin: ↑",
+              "Plasma [1,25-(OH)2D3]: ↑, Bone Resorption: ↓, Intestinal Calbindin: ↑",
+              "Plasma [1,25-(OH)2D3]: ↑, Bone Resorption: ↓, Intestinal Calbindin: ↓",
+              "Plasma [1,25-(OH)2D3]: ↓, Bone Resorption: ↓, Intestinal Calbindin: ↑",
+              "Plasma [1,25-(OH)2D3]: ↓, Bone Resorption: ↑, Intestinal Calbindin: ↓",
+              "Plasma [1,25-(OH)2D3]: ↓, Bone Resorption: ↑, Intestinal Calbindin: ↑"
+            ],
+            "correct": 4,
+            "explanation": "Vitamin D deficiency leads to rickets in children and osteomalacia in adults. A deficiency in vitamin D leads to reduced synthesis of the active form of the vitamin 1,25-(OH)2D3. In turn, in the presence of low plasma levels of 1,25-(OH)2D3, the synthesis of calbindin in the intestine is reduced, resulting in impaired intestinal absorption of calcium. Impaired intestinal absorption of calcium tends to cause hypocalcemia, which stimulates PTH secretion. Increased PTH secretion contributes to the maintenance of plasma calcium concentration, in part, by increasing bone resorption."
+          },
+          
           {
             question: "Insulin resistance is primarily characterized by:",
             options: [
@@ -6600,6 +8502,417 @@ export const systemsData: { [key: string]: SystemData } = {
             options: ["calcitonin", "mineralocorticoids", "parathyroid hormone", "aldosterone"],
             correct: 2,
             explanation: "Parathyroid hormone increases calcium reabsorption, raising plasma calcium levels."
+          },
+          {
+            "question": "The increase shown at point A is caused by the effect of",
+            "options": [
+              "estrogen on the anterior pituitary",
+              "progesterone on the hypothalamus",
+              "follicle-stimulating hormone (FSH) on the ovary",
+              "luteinizing hormone (LH) on the anterior pituitary",
+              "prolactin on the ovary"
+            ],
+            "correct": 1,
+            "explanation": "Curve A shows basal body temperature. The increase in temperature occurs as a result of elevated progesterone levels during the luteal (secretory) phase of the menstrual cycle. Progesterone increases the set-point temperature in the hypothalamic thermoregulatory center."
+          },
+          {
+            "question": "Blood levels of which substance are described by curve B?",
+            "options": [
+              "Estradiol",
+              "Estriol",
+              "Progesterone",
+              "Follicle-stimulating hormone (FSH)",
+              "Luteinizing hormone (LH)"
+            ],
+            "correct": 2,
+            "explanation": "Progesterone is secreted during the luteal phase of the menstrual cycle."
+          },
+          {
+            "question": "The source of the increase in concentration indicated at point C is the",
+            "options": [
+              "hypothalamus",
+              "anterior pituitary",
+              "corpus luteum",
+              "ovary",
+              "adrenal cortex"
+            ],
+            "correct": 3,
+            "explanation": "The curve shows blood levels of estradiol. The source of the increase in estradiol concentration shown at point C is the ovarian granulosa cells, which contain high concentrations of aromatase and convert testosterone to estradiol."
+          },
+          {
+            "question": "The source of the increase in concentration at point D is the",
+            "options": [
+              "ovary",
+              "adrenal cortex",
+              "corpus luteum",
+              "hypothalamus",
+              "anterior pituitary"
+            ],
+            "correct": 2,
+            "explanation": "The curve shows blood levels of estradiol. During the luteal phase of the cycle, the source of the estradiol is the corpus luteum. The corpus luteum prepares the uterus to receive a fertilized egg."
+          },
+          {
+            "question": "The cause of the sudden increase shown at point E is",
+            "options": [
+              "negative feedback of progesterone on the hypothalamus",
+              "negative feedback of estrogen on the anterior pituitary",
+              "negative feedback of follicle-stimulating hormone (FSH) on the ovary",
+              "positive feedback of FSH on the ovary",
+              "positive feedback of estrogen on the anterior pituitary"
+            ],
+            "correct": 4,
+            "explanation": "Point E shows the luteinizing hormone (LH) surge that initiates ovulation at midcycle. The LH surge is caused by increasing estrogen levels from the developing ovarian follicle. Increased estrogen, by positive feedback, stimulates the anterior pituitary to secrete LH and follicle-stimulating hormone (FSH)."
+          },
+          {
+            "question": "A 41-year-old woman has hypocalcemia, hyperphosphatemia, and decreased urinary phosphate excretion. Injection of parathyroid hormone (PTH) causes an increase in urinary cyclic adenosine monophosphate (cAMP). The most likely diagnosis is",
+            "options": [
+              "primary hyperparathyroidism",
+              "vitamin D intoxication",
+              "vitamin D deficiency",
+              "hypoparathyroidism after thyroid surgery",
+              "pseudohypoparathyroidism"
+            ],
+            "correct": 3,
+            "explanation": "Low blood [Ca2+] and high blood [phosphate] are consistent with hypoparathyroidism. Lack of parathyroid hormone (PTH) decreases bone resorption, decreases renal reabsorption of Ca2+ and increases renal reabsorption of phosphate (causing low urinary phosphate). Because the patient responded to exogenous PTH with an increase in urinary cyclic adenosine monophosphate (cAMP), the G protein coupling the PTH receptor to adenylate cyclase is apparently normal. Consequently, pseudohypoparathyroidism is excluded. Vitamin D intoxication would cause hypercalcemia, not hypocalcemia. Vitamin D deficiency would cause hypocalcemia and hypophosphatemia."
+          },
+          {
+            "question": "Which of the following hormones acts on its target tissues by a steroid hormone mechanism of action?",
+            "options": [
+              "Thyroid hormone",
+              "Parathyroid hormone (PTH)",
+              "Antidiuretic hormone (ADH) on the collecting duct",
+              "β1-adrenergic agonists",
+              "Glucagon"
+            ],
+            "correct": 0,
+            "explanation": "Thyroid hormone, an amine, acts on its target tissues by a steroid hormone mechanism, inducing the synthesis of new proteins. The action of antidiuretic hormone (ADH) on the collecting duct (V2 receptors) is mediated by cyclic adenosine monophosphate (cAMP), although the other action of ADH (vascular smooth muscle, V1 receptors) is mediated by inositol 1,4,5-triphosphate (IP3). Parathyroid hormone (PTH), β1-agonists, and glucagon all act through cAMP mechanisms of action."
+          },
+          {
+            "question": "A 38-year-old man who has galactorrhea is found to have a prolactinoma. His physician treats him with bromocriptine, which eliminates the galactorrhea. The basis for the therapeutic action of bromocriptine is that it",
+            "options": [
+              "antagonizes the action of prolactin on the breast",
+              "enhances the action of prolactin on the breast",
+              "inhibits prolactin release from the anterior pituitary",
+              "inhibits prolactin release from the hypothalamus",
+              "enhances the action of dopamine on the anterior pituitary"
+            ],
+            "correct": 2,
+            "explanation": "Bromocriptine is a dopamine agonist. The secretion of prolactin by the anterior pituitary is tonically inhibited by the secretion of dopamine from the hypothalamus. Thus, a dopamine agonist acts just like dopamine—it inhibits prolactin secretion from the anterior pituitary."
+          },
+          {
+            "question": "Which of the following hormones originates in the anterior pituitary?",
+            "options": [
+              "Dopamine",
+              "Growth hormone-releasing hormone (GHRH)",
+              "Somatostatin",
+              "Gonadotropin-releasing hormone (GnRH)",
+              "Thyroid-stimulating hormone (TSH)",
+              "Oxytocin",
+              "Testosterone"
+            ],
+            "correct": 4,
+            "explanation": "Thyroid-stimulating hormone (TSH) is secreted by the anterior pituitary. Dopamine, growth hormone-releasing hormone (GHRH), somatostatin, and gonadotropin-releasing hormone (GnRH) all are secreted by the hypothalamus. Oxytocin is secreted by the posterior pituitary. Testosterone is secreted by the testes."
+          },
+          {
+            "question": "Which of the following functions of the Sertoli cells mediates negative feedback control of follicle-stimulating hormone (FSH) secretion?",
+            "options": [
+              "Synthesis of inhibin",
+              "Synthesis of testosterone",
+              "Aromatization of testosterone",
+              "Maintenance of the blood-testes barrier"
+            ],
+            "correct": 0,
+            "explanation": "Inhibin is produced by the Sertoli cells of the testes when they are stimulated by follicle-stimulating hormone (FSH). Inhibin then inhibits further secretion of FSH by negative feedback on the anterior pituitary. The Leydig cells synthesize testosterone. Testosterone is aromatized in the ovaries."
+          },
+          {
+            "question": "Which of the following substances is derived from proopiomelanocortin (POMC)?",
+            "options": [
+              "Adrenocorticotropic hormone (ACTH)",
+              "Follicle-stimulating hormone (FSH)",
+              "Melatonin",
+              "Cortisol",
+              "Dehydroepiandrosterone"
+            ],
+            "correct": 0,
+            "explanation": "Proopiomelanocortin (POMC) is the parent molecule in the anterior pituitary for adrenocorticotropic hormone (ACTH), β-endorphin, α-lipotropin, and β-lipotropin (and in the intermediary lobe for melanocyte-stimulating hormone [MSH]). Follicle-stimulating hormone (FSH) is not a member of this 'family'; rather, it is a member of the thyroid-stimulating hormone (TSH) and luteinizing hormone (LH) 'family.' MSH, a component of POMC and ACTH, may stimulate melatonin production. Cortisol and dehydroepiandrosterone are produced by the adrenal cortex."
+          },
+          {
+            "question": "Which of the following inhibits the secretion of growth hormone by the anterior pituitary?",
+            "options": [
+              "Sleep",
+              "Stress",
+              "Puberty",
+              "Somatomedins",
+              "Starvation",
+              "Hypoglycemia"
+            ],
+            "correct": 3,
+            "explanation": "Growth hormone is secreted in pulsatile fashion, with a large burst occurring during deep sleep (sleep stage 3 or 4). Growth hormone secretion is increased by sleep, stress, puberty, starvation, and hypoglycemia. Somatomedins are generated when growth hormone acts on its target tissues; they inhibit growth hormone secretion by the anterior pituitary, both directly and indirectly (by stimulating somatostatin release)."
+          },
+          {
+            "question": "Selective destruction of the zona glomerulosa of the adrenal cortex would produce a deficiency of which hormone?",
+            "options": [
+              "Aldosterone",
+              "Androstenedione",
+              "Cortisol",
+              "Dehydroepiandrosterone",
+              "Testosterone"
+            ],
+            "correct": 0,
+            "explanation": "Aldosterone is produced in the zona glomerulosa of the adrenal cortex because that layer contains the enzyme for conversion of corticosterone to aldosterone (aldosterone synthase). Cortisol is produced in the zona fasciculata. Androstenedione and dehydroepiandrosterone are produced in the zona reticularis. Testosterone is produced in the testes, not in the adrenal cortex."
+          },
+          {
+            "question": "Which of the following explains the suppression of lactation during pregnancy?",
+            "options": [
+              "Blood prolactin levels are too low for milk production to occur",
+              "Human placental lactogen levels are too low for milk production to occur",
+              "The fetal adrenal gland does not produce sufficient estriol",
+              "Blood levels of estrogen and progesterone are high",
+              "The maternal anterior pituitary is suppressed"
+            ],
+            "correct": 3,
+            "explanation": "Although the high circulating levels of estrogen stimulate prolactin secretion during pregnancy, the action of prolactin on the breast is inhibited by progesterone and estrogen. After parturition, progesterone and estrogen levels decrease dramatically. Prolactin can then interact with its receptors in the breast, and lactation proceeds if initiated by suckling."
+          },
+          {
+            "question": "Which step in steroid hormone biosynthesis, if inhibited, blocks the production of all androgenic compounds but does not block the production of glucocorticoids?",
+            "options": [
+              "Cholesterol → pregnenolone",
+              "Progesterone → 11-deoxycorticosterone",
+              "17-Hydroxypregnenolone → dehydroepiandrosterone",
+              "Testosterone → estradiol",
+              "Testosterone → dihydrotestosterone"
+            ],
+            "correct": 2,
+            "explanation": "The conversion of 17-hydroxypregnenolone to dehydroepiandrosterone (as well as the conversion of 17-hydroxyprogesterone to androstenedione) is catalyzed by 17,20-lyase. If this process is inhibited, synthesis of androgens is stopped."
+          },
+          {
+            "question": "A 46-year-old woman has hirsutism, hyperglycemia, obesity, muscle wasting, and increased circulating levels of adrenocorticotropic hormone (ACTH). The most likely cause of her symptoms is",
+            "options": [
+              "primary adrenocortical insufficiency (Addison disease)",
+              "pheochromocytoma",
+              "primary overproduction of ACTH (Cushing disease)",
+              "treatment with exogenous glucocorticoids",
+              "hypophysectomy"
+            ],
+            "correct": 2,
+            "explanation": "This woman has the classic symptoms of a primary elevation of adrenocorticotropic hormone (ACTH) (Cushing disease). Elevation of ACTH stimulates overproduction of glucocorticoids and androgens. Treatment with pharmacologic doses of glucocorticoids would produce similar symptoms, except that circulating levels of ACTH would be low because of negative feedback suppression at both the hypothalamic (corticotropin-releasing hormone [CRH]) and anterior pituitary (ACTH) levels. Addison disease is caused by primary adrenocortical insufficiency. Although a patient with Addison disease would have increased levels of ACTH (because of the loss of negative feedback inhibition), the symptoms would be of glucocorticoid deficit, not excess. Hypophysectomy would remove the source of ACTH. A pheochromocytoma is a tumor of the adrenal medulla that secretes catecholamines."
+          },
+          {
+            "question": "Which of the following decreases the conversion of 25-hydroxycholecalciferol to 1,25-dihydroxycholecalciferol?",
+            "options": [
+              "A diet low in Ca2+",
+              "Hypocalcemia",
+              "Hyperparathyroidism",
+              "Hypophosphatemia",
+              "Chronic renal failure"
+            ],
+            "correct": 4,
+            "explanation": "Ca2+ deficiency (low Ca2+ diet or hypocalcemia) activates 1α-hydroxylase, which catalyzes the conversion of vitamin D to its active form, 1,25-dihydroxycholecalciferol. Increased parathyroid hormone (PTH) and hypophosphatemia also stimulate the enzyme. Chronic renal failure is associated with a constellation of bone diseases, including osteomalacia caused by failure of the diseased renal tissue to produce the active form of vitamin D."
+          },
+          {
+            "question": "Increased adrenocorticotropic hormone (ACTH) secretion would be expected in patients",
+            "options": [
+              "with chronic adrenocortical insufficiency (Addison disease)",
+              "with primary adrenocortical hyperplasia",
+              "who are receiving glucocorticoid for immunosuppression after a renal transplant",
+              "with elevated levels of angiotensin II"
+            ],
+            "correct": 0,
+            "explanation": "Addison disease is caused by primary adrenocortical insufficiency. The resulting decrease in cortisol production causes a decrease in negative feedback inhibition on the hypothalamus and the anterior pituitary. Both of these conditions will result in increased adrenocorticotropic hormone (ACTH) secretion. Patients who have adrenocortical hyperplasia or who are receiving exogenous glucocorticoid will have an increase in the negative feedback inhibition of ACTH secretion."
+          },
+          {
+            "question": "Which of the following would be expected in a patient with Graves disease?",
+            "options": [
+              "Cold sensitivity",
+              "Weight gain",
+              "Decreased O2 consumption",
+              "Decreased cardiac output",
+              "Drooping eyelids",
+              "Atrophy of the thyroid gland",
+              "Increased thyroid-stimulating hormone (TSH) levels",
+              "Increased triiodothyronine (T3) levels"
+            ],
+            "correct": 7,
+            "explanation": "Graves disease (hyperthyroidism) is caused by overstimulation of the thyroid gland by circulating antibodies to the thyroid-stimulating hormone (TSH) receptor (which then increases the production and secretion of triiodothyronine [T3] and thyroxine [T4], just as TSH would). Therefore, the signs and symptoms of Graves disease are the same as those of hyperthyroidism, reflecting the actions of increased circulating levels of thyroid hormones: increased heat production, weight loss, increased O2 consumption and cardiac output, exophthalmos (bulging eyes, not drooping eyelids), and hypertrophy of the thyroid gland (goiter). TSH levels will be decreased (not increased) as a result of the negative feedback effect of increased T3 levels on the anterior pituitary."
+          },
+          {
+            "question": "Blood levels of which of the following substances is decreased in Graves disease?",
+            "options": [
+              "Triiodothyronine (T3)",
+              "Thyroxine (T4)",
+              "Diiodotyrosine (DIT)",
+              "Thyroid-stimulating hormone (TSH)",
+              "Iodide (I-)"
+            ],
+            "correct": 3,
+            "explanation": "In Graves disease (hyperthyroidism), the thyroid is stimulated to produce and secrete vast quantities of thyroid hormones as a result of stimulation by thyroid-stimulating immunoglobulins (antibodies to the thyroid-stimulating hormone [TSH] receptors on the thyroid gland). Because of the high circulating levels of thyroid hormones, anterior pituitary secretion of TSH will be turned off (negative feedback)."
+          },
+          {
+            "question": "Which of the following hormones acts by an inositol 1,4,5-triphosphate (IP3)-Ca2+ mechanism of action?",
+            "options": [
+              "1,25-Dihydroxycholecalciferol",
+              "Progesterone",
+              "Insulin",
+              "Parathyroid hormone (PTH)",
+              "Gonadotropin-releasing hormone (GnRH)"
+            ],
+            "correct": 4,
+            "explanation": "Gonadotropin-releasing hormone (GnRH) is a peptide hormone that acts on the cells of the anterior pituitary by an inositol 1,4,5-triphosphate (IP3)–Ca2+ mechanism to cause the secretion of follicle-stimulating hormone (FSH) and luteinizing hormone (LH). 1,25-Dihydroxycholecalciferol and progesterone are steroid hormone derivatives of cholesterol that act by inducing the synthesis of new proteins. Insulin acts on its target cells by a tyrosine kinase mechanism. Parathyroid hormone (PTH) acts on its target cells by an adenylate cyclase–cyclic adenosine monophosphate (cAMP) mechanism."
+          },
+          {
+            "question": "Which step in steroid hormone biosynthesis is stimulated by adrenocorticotropic hormone (ACTH)?",
+            "options": [
+              "Cholesterol → pregnenolone",
+              "Progesterone → 11-deoxycorticosterone",
+              "17-Hydroxypregnenolone → dehydroepiandrosterone",
+              "Testosterone → estradiol",
+              "Testosterone → dihydrotestosterone"
+            ],
+            "correct": 0,
+            "explanation": "The conversion of cholesterol to pregnenolone is catalyzed by cholesterol desmolase. This step in the biosynthetic pathway for steroid hormones is stimulated by adrenocorticotropic hormone (ACTH)."
+          },
+          {
+            "question": "The source of estrogen during the second and third trimesters of pregnancy is the",
+            "options": [
+              "corpus luteum",
+              "maternal ovaries",
+              "fetal ovaries",
+              "placenta",
+              "maternal ovaries and fetal adrenal gland",
+              "maternal adrenal gland and fetal liver",
+              "fetal adrenal gland, fetal liver, and placenta"
+            ],
+            "correct": 6,
+            "explanation": "During the second and third trimesters of pregnancy, the fetal adrenal gland synthesizes dehydroepiandrosterone sulfate (DHEA-S), which is hydroxylated in the fetal liver and then transferred to the placenta, where it is aromatized to estrogen. In the first trimester, the corpus luteum is the source of both estrogen and progesterone."
+          },
+          {
+            "question": "Which of the following causes increased aldosterone secretion?",
+            "options": [
+              "Decreased blood volume",
+              "Administration of an inhibitor of angiotensin-converting enzyme (ACE)",
+              "Hyperosmolarity",
+              "Hypokalemia"
+            ],
+            "correct": 0,
+            "explanation": "Decreased blood volume stimulates the secretion of renin (because of decreased renal perfusion pressure) and initiates the renin–angiotensin–aldosterone cascade. Angiotensin-converting enzyme (ACE) inhibitors block the cascade by decreasing the production of angiotensin II. Hyperosmolarity stimulates antidiuretic hormone (ADH) (not aldosterone) secretion. Hyperkalemia, not hypokalemia, directly stimulates aldosterone secretion by the adrenal cortex."
+          },
+          {
+            "question": "Secretion of oxytocin is increased by",
+            "options": [
+              "milk ejection",
+              "dilation of the cervix",
+              "increased prolactin levels",
+              "increased extracellular fluid (ECF) volume",
+              "increased serum osmolarity"
+            ],
+            "correct": 1,
+            "explanation": "Suckling and dilation of the cervix are the physiologic stimuli for oxytocin secretion. Milk ejection is the result of oxytocin action, not the cause of its secretion. Prolactin secretion is also stimulated by suckling, but prolactin does not directly cause oxytocin secretion. Increased extracellular fluid (ECF) volume and hyperosmolarity are the stimuli for the secretion of the other posterior pituitary hormone, antidiuretic hormone (ADH)."
+          },
+          {
+            "question": "A 61-year-old woman with hyperthyroidism is treated with propylthiouracil. The drug reduces the synthesis of thyroid hormones because it inhibits oxidation of",
+            "options": [
+              "triiodothyronine (T3)",
+              "thyroxine (T4)",
+              "diiodotyrosine (DIT)",
+              "thyroid-stimulating hormone (TSH)",
+              "iodide (I-)"
+            ],
+            "correct": 4,
+            "explanation": "For iodide (I-) to be 'organified' (incorporated into thyroid hormone), it must be oxidized to I2, which is accomplished by a peroxidase enzyme in the thyroid follicular cell membrane. Propylthiouracil inhibits peroxidase and, therefore, halts the synthesis of thyroid hormones."
+          },
+          {
+            "question": "A 39-year-old man with untreated diabetes mellitus type I is brought to the emergency room. An injection of insulin would be expected to cause an increase in his",
+            "options": [
+              "urine glucose concentration",
+              "blood glucose concentration",
+              "blood K+ concentration",
+              "blood pH",
+              "breathing rate"
+            ],
+            "correct": 3,
+            "explanation": "Before the injection of insulin, the woman would have had hyperglycemia, glycosuria, hyperkalemia, and metabolic acidosis with compensatory hyperventilation. The injection of insulin would be expected to decrease her blood glucose (by increasing the uptake of glucose into the cells), decrease her urinary glucose (secondary to decreasing her blood glucose), decrease her blood K+ (by shifting K+ into the cells), and correct her metabolic acidosis (by decreasing the production of ketoacids). The correction of the metabolic acidosis will lead to an increase in her blood pH and will reduce her compensatory hyperventilation."
+          },
+          {
+            "question": "Which of the following results from the action of parathyroid hormone (PTH) on the renal tubule?",
+            "options": [
+              "Inhibition of 1α-hydroxylase",
+              "Stimulation of Ca2+ reabsorption in the distal tubule",
+              "Stimulation of phosphate reabsorption in the proximal tubule",
+              "Interaction with receptors on the luminal membrane of the proximal tubular cells",
+              "Decreased urinary excretion of cyclic adenosine monophosphate (cAMP)"
+            ],
+            "correct": 1,
+            "explanation": "Parathyroid hormone (PTH) stimulates both renal Ca2+ reabsorption in the renal distal tubule and the 1α-hydroxylase enzyme. PTH inhibits (not stimulates) phosphate reabsorption in the proximal tubule, which is associated with an increase in urinary cyclic adenosine monophosphate (cAMP). The receptors for PTH are located on the basolateral membranes, not the luminal membranes."
+          },
+          {
+            "question": "Which step in steroid hormone biosynthesis occurs in the accessory sex target tissues of the male and is catalyzed by 5α-reductase?",
+            "options": [
+              "Cholesterol → pregnenolone",
+              "Progesterone → 11-deoxycorticosterone",
+              "17-Hydroxypregnenolone → dehydroepiandrosterone",
+              "Testosterone → estradiol",
+              "Testosterone → dihydrotestosterone"
+            ],
+            "correct": 4,
+            "explanation": "Some target tissues for androgens contain 5α-reductase, which converts testosterone to dihydrotestosterone, the active form in those tissues."
+          },
+          {
+            "question": "Which of the following pancreatic secretions has a receptor with four subunits, two of which have tyrosine kinase activity?",
+            "options": [
+              "Insulin",
+              "Glucagon",
+              "Somatostatin",
+              "Pancreatic lipase"
+            ],
+            "correct": 0,
+            "explanation": "The insulin receptor in target tissues is a tetramer. The two β subunits have tyrosine kinase activity and autophosphorylate the receptor when stimulated by insulin."
+          },
+          {
+            "question": "A 16-year-old, seemingly normal female is diagnosed with androgen insensitivity disorder. She has never had a menstrual cycle and is found to have a blind-ending vagina; no uterus, cervix, or ovaries; a 46 XY genotype; and intra-abdominal testes. Her serum testosterone is elevated. Which of the following characteristics is caused by lack of androgen receptors?",
+            "options": [
+              "46 XY genotype",
+              "Testes",
+              "Elevated serum testosterone",
+              "Lack of uterus and cervix",
+              "Lack of menstrual cycles"
+            ],
+            "correct": 2,
+            "explanation": "The elevated serum testosterone is due to lack of androgen receptors on the anterior pituitary (which normally would mediate negative feedback by testosterone). The presence of testes is due to the male genotype. The lack of uterus and cervix is due to anti-müllerian hormone (secreted by the fetal testes), which suppressed differentiation of the millerian ducts into the internal female genital tract. The lack of menstrual cycles is due to the absence of a female reproductive tract."
+          },
+          {
+            "question": "A 76-year-old man with lung cancer is lethargic and excreting large volumes of urine. He is thirsty and drinks water almost constantly. Laboratory values reveal an elevated serum Ca2+ concentration of 18 mg/dL, elevated serum osmolarity of 310 mOsm/L, and urine osmolarity of 90 mOsm/L. Administration of an ADH analogue does not change his serum or urine osmolarity. The man’s serum ADH level is",
+            "options": [
+              "decreased because excess water-drinking has suppressed ADH secretion",
+              "decreased because his posterior pituitary is not secreting ADH",
+              "normal",
+              "increased because the elevated serum osmolarity has stimulated ADH secretion",
+              "increased because his extreme thirst has directly stimulated ADH secretion"
+            ],
+            "correct": 3,
+            "explanation": "The man is excreting large volumes of dilute urine, which has raised his serum osmolarity and made him very thirsty. The increase in serum osmolarity would then cause an increase in serum ADH levels. The fact that exogenous ADH administration did not change his serum or urine osmolarity suggests that the collecting duct of the nephron is unresponsive to ADH. Thirst does not directly increase ADH secretion."
+          },
+          {
+            "question": "The cause of the patient’s excess urine volume is",
+            "options": [
+              "dehydration",
+              "syndrome of inappropriate ADH",
+              "central diabetes insipidus",
+              "nephrogenic diabetes insipidus"
+            ],
+            "correct": 3,
+            "explanation": "The man’s urine osmolarity is very dilute, while his serum osmolarity is increased. In the face of increased serum osmolarity, there should be increased ADH secretion, which should then act on the collecting duct principal cells to increase water reabsorption and concentrate the urine. The fact that the urine is dilute, not concentrated, suggests that ADH either is absent (central diabetes insipidus) or is ineffective (nephrogenic diabetes insipidus). Administration of an exogenous ADH analogue separates these two possibilities—it was ineffective in changing serum or urine osmolarity; thus, it can be concluded that ADH unable to act on the collecting ducts, that is, nephrogenic diabetes insipidus. One cause of nephrogenic diabetes insipidus is hypercalcemia, which is present in this patent secondary to his lung cancer; he likely has humoral hypercalcemia of malignancy, due to secretion of PTH-rp by the tumor. Dehydration would cause increased ADH secretion and increased urine osmolarity. Syndrome of inappropriate ADH would cause increased urine osmolarity and subsequently decreased serum osmolarity, due to excess water reabsorption."
+          },
+          {
+            "question": "The most appropriate treatment is",
+            "options": [
+              "ADH antagonist",
+              "ADH analogue",
+              "PTH analogue",
+              "half-normal saline",
+              "pamidronate plus furosemide"
+            ],
+            "correct": 4,
+            "explanation": "The man’s nephrogenic diabetes insipidus is caused by hypercalcemia secondary to increased PTH-rp secreted by his lung tumor. PTH-rp has all of the actions of PTH, including increased bone resorption, increased renal Ca2+ reabsorption, and decreased renal phosphate reabsorption; all of these actions lead to increased serum Ca2+ concentration. The treatment should be directed at lowering serum Ca2+ concentration, which can be achieved by giving an inhibitor of bone resorption (e.g., pamidronate) and an inhibitor of renal Ca2+ reabsorption (furosemide). Giving an ADH antagonist would be ineffective because the man’s nephrogenic diabetes insipidus has made his collecting ducts insensitive to ADH. Giving half-normal saline could lower his serum osmolarity temporarily, but would not address the underlying problem of hypercalcemia."
           },
           {
             question: "What effect does aldosterone have?",
