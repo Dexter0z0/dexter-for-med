@@ -7681,17 +7681,7 @@ export const systemsData: { [key: string]: SystemData } = {
             "correct": 2,
             "explanation": "The placenta cannot produce androgens but can only produce DHEA by removal of the sulfate from DHEAS produced in the fetal adrenal glands."
           },
-          {
-            "question": "A neonate develops jaundice and has a bilirubin concentration of 10 mg/dl on day 2 (normal is 3 mg/dl at 2 days old). The neonatologist can be confident that the condition is not erythroblastosis fetalis if which of the following is true?",
-            "options": [
-              "The bilirubin concentration rises no further",
-              "Hematocrit falls only slightly",
-              "The mother, father, and neonate are all Rh-negative",
-              "The mother has no history of hepatic dysfunction"
-            ],
-            "correct": 2,
-            "explanation": "For erythroblastosis fetalis to occur, the baby must inherit Rh-positive red blood cells from the father. If the mother is Rh-negative, she then becomes immunized against the Rh-positive antigen in the red blood cells of the fetus, and her antibodies destroy fetal red blood cells, releasing large quantities of bilirubin into the plasma of the fetus."
-          },
+          
           {
             "question": "Which finding would likely be reported in a patient with a deficiency in iodine intake?",
             "options": [
