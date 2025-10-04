@@ -14164,6 +14164,153 @@ export const systemsData: { [key: string]: SystemData } = {
     "correct": 3,
     "explanation": "Pregnancy does NOT increase lung volumes and capacities; in fact, the upward displacement of the diaphragm by the enlarged uterus actually REDUCES lung volumes. All other options are correct maternal adaptations: GFR increases by 50-60%, plasma volume increases by 40-50%, cardiac output increases by 30-50%, and while red blood cell mass increases, the relative hemodilution can give the appearance of decreased erythropoiesis."
   },
+  {
+    "question": "A 17-year-old girl visited her physician because she had never had a menstrual period. Physical examination revealed a tall female with a short, blind-ended vagina and no palpable cervix. Ultrasound showed the absence of a uterus and no ovaries and the presence of undescended testes. Deficiency of which enzyme, hormone, or receptor is most likely to account for these findings?",
+    "options": [
+      "Androgen receptors",
+      "Aromatase",
+      "Estrogen receptors",
+      "21a-Hydroxylase",
+      "Müllerian-inhibiting substance",
+      "Progesterone",
+      "5a-Reductase"
+    ],
+    "correct": 0,
+    "explanation": "This describes complete androgen insensitivity syndrome (testicular feminization). The patient has a 46,XY karyotype with testes that produce testosterone and MIS normally. However, due to androgen receptor deficiency, the body cannot respond to androgens, leading to female external genitalia development. MIS from Sertoli cells causes regression of Müllerian structures (uterus, fallopian tubes), resulting in a blind vaginal pouch. The testes remain undescended, and patients are tall due to delayed epiphyseal closure from lack of androgen effects."
+  },
+  {
+    "question": "A blood sample is taken from a 27-year-old woman for hormone analysis. The sample contains low levels of follicle-stimulating hormone (FSH) and luteinizing hormone (LH) and high levels of estrogen, progesterone, and inhibin. Assuming a normal 28-day menstrual cycle, on which day of this woman's menstrual cycle was the blood sample taken?",
+    "options": [
+      "Day 1",
+      "Day 7",
+      "Day 14",
+      "Day 21",
+      "Day 28"
+    ],
+    "correct": 3,
+    "explanation": "Day 21 corresponds to the mid-luteal phase when the corpus luteum is fully functional, secreting high levels of estrogen, progesterone, and inhibin. These hormones exert strong negative feedback on the pituitary, suppressing FSH and LH secretion. This hormonal profile is characteristic of the luteal phase and essential for preparing the endometrium for potential implantation."
+  },
+  {
+    "question": "A 37-year-old woman who is breast-feeding her 4-month-old son is taking the train to see her mother who lives several hours away. When the woman hears the cry of another infant, she notices that milk has been expressed from both her breasts. The release of which hormone can account for this response?",
+    "options": [
+      "Estrogen",
+      "Inhibin",
+      "Oxytocin",
+      "Progesterone",
+      "Prolactin"
+    ],
+    "correct": 2,
+    "explanation": "Oxytocin is responsible for milk ejection (let-down reflex) by causing contraction of myoepithelial cells surrounding breast alveoli. This reflex can be conditioned by various stimuli including infant crying, thinking about the baby, or emotional states. Prolactin is responsible for milk production (lactogenesis), not milk ejection."
+  },
+  {
+    "question": "A 36-year-old woman who is pregnant with her third child is in labor. Her serum oxytocin levels were measured at regular intervals over a 24-hour period. Measurements were taken at the onset when the woman began having low back pains 1 day before delivery and ended 3 hours after delivery of the infant, just before the woman was to begin breast-feeding the infant. A normal vaginal delivery was completed without medical intervention. At what time was the oxytocin concentration in maternal blood most likely to be highest?",
+    "options": [
+      "Before labor",
+      "At the onset of back pain",
+      "Uterine contractions 20 minutes apart",
+      "During the expulsive stages of labor",
+      "Three hours after delivery"
+    ],
+    "correct": 3,
+    "explanation": "Oxytocin levels peak during the expulsive stage of labor when the fetus descends and cervical dilation is maximal. This creates a positive feedback loop: cervical stretching stimulates oxytocin release, which causes stronger uterine contractions, leading to more cervical stretching. This Ferguson reflex ensures progressive labor until delivery."
+  },
+  {
+    "question": "A 32-year-old woman and her partner were trying to conceive a child. The woman had regular menstrual cycles of about 30 days in length. Four days after missing her menstrual period, she bought a commercial pregnancy testing kit. The couple was excited to discover that her urine sample indicated a positive result for pregnancy. Which of the following hormones was detected in her urine?",
+    "options": [
+      "Human chorionic gonadotropin",
+      "Estrogen",
+      "Follicle-stimulating hormone",
+      "Gonadotropin-releasing hormone",
+      "Inhibin",
+      "Luteinizing hormone",
+      "Progesterone"
+    ],
+    "correct": 0,
+    "explanation": "Home pregnancy tests detect human chorionic gonadotropin (hCG), which is produced by the syncytiotrophoblast of the developing placenta. hCG appears in urine about 14 days after implantation, making it detectable around the time of missed menstruation. hCG maintains the corpus luteum during early pregnancy, ensuring continued progesterone production."
+  },
+  {
+    "question": "Fetal acquisition of glucose occurs by placental glucose transport. What is the first cell layer within the placenta that glucose must cross during transport from maternal to fetal blood?",
+    "options": [
+      "Cytotrophoblast",
+      "Decidua",
+      "Inner cell mass",
+      "Mesenchyme",
+      "Syncytiotrophoblast"
+    ],
+    "correct": 4,
+    "explanation": "The syncytiotrophoblast is the outermost layer of chorionic villi, directly bathed in maternal blood in the intervillous space. Glucose from maternal blood must first cross this continuous, multinucleated cell layer before passing through the cytotrophoblast, basement membrane, and fetal capillary endothelium to reach fetal circulation."
+  },
+  {
+    "question": "The luteinizing hormone surge measured during the ovulatory phase of the menstrual cycle results from positive feedback exerted by which of the following hormones?",
+    "options": [
+      "Estrogen",
+      "Follicle-stimulating hormone",
+      "Gonadotropin-releasing hormone",
+      "Inhibin",
+      "Progesterone"
+    ],
+    "correct": 0,
+    "explanation": "Sustained high levels of estrogen from the developing dominant follicle switch from negative to positive feedback on the pituitary around mid-cycle. This positive feedback sensitizes gonadotropes to GnRH, triggering the LH surge that induces ovulation. This is a unique neuroendocrine phenomenon specific to the menstrual cycle."
+  },
+  {
+    "question": "A 36-year-old woman visited her gynecologist to have a routine annual examination. A cervical Pap smear was performed to check for abnormal cells. The mucus sample was thin and produced a fern-like pattern when it dried on a microscope slide. Assuming a normal 28-day menstrual cycle, on which day of this woman's menstrual cycle was the smear taken?",
+    "options": [
+      "Day 1",
+      "Day 7",
+      "Day 14",
+      "Day 21",
+      "Day 28"
+    ],
+    "correct": 2,
+    "explanation": "Day 14 corresponds to ovulation when estrogen levels peak. Under estrogen dominance, cervical mucus becomes thin, watery, and alkaline, forming a fern-like crystallization pattern when dried. This facilitates sperm transport and survival. Progesterone-dominated mucus (luteal phase) is thick and does not fern."
+  },
+  {
+    "question": "A 37-year-old man with four children elected to have a vasectomy. This procedure prevents conception because",
+    "options": [
+      "no sperm is ejaculated",
+      "secretion from seminal vesicles is not ejaculated",
+      "secretion from the prostate gland is not ejaculated",
+      "no semen is ejaculated"
+    ],
+    "correct": 0,
+    "explanation": "Vasectomy involves cutting and sealing the vas deferens, preventing sperm transport from the epididymis to the ejaculatory ducts. Semen (composed of secretions from seminal vesicles, prostate, and Cowper's glands) is still ejaculated, but it contains no sperm. Sperm production continues but sperm are phagocytosed in the epididymis."
+  },
+  {
+    "question": "A child born with ambiguous genitalia was found to have a 46XY karyotype. Testes were present at birth, and there was a small phallus with a urethral opening at its midpoint. The child entered puberty late, but masculinization was evident. Which deficiency could account for these findings?",
+    "options": [
+      "Aromatase",
+      "21a-Hydroxylase",
+      "Luteinizing hormone receptor",
+      "5a-Reductase",
+      "Testosterone"
+    ],
+    "correct": 3,
+    "explanation": "5α-reductase deficiency impairs conversion of testosterone to dihydrotestosterone (DHT), which is essential for normal development of external male genitalia (penis, scrotum, prostate). At puberty, high testosterone levels can partially overcome this deficiency, leading to virilization (phallic growth, muscle development, voice deepening) as testosterone can bind androgen receptors, though less effectively than DHT."
+  },
+  {
+    "question": "Ovarian granulosa cells were grown in primary cell culture in vitro. The cells failed to secrete significant amounts of estrogen when exposed to follicle-stimulating hormone (FSH) and luteinizing hormone (LH) until they were cultured together with ovarian thecal cells. A likely explanation for the failure of granulosa cells to produce estrogens when cultured alone is",
+    "options": [
+      "inability of granulosa cells to synthesize cholesterol",
+      "lack of androgen precursors from which to produce estrogens",
+      "lack of aromatase activity",
+      "lack of 5a-reductase activity",
+      "lack of progesterone precursor from which to produce estrogens"
+    ],
+    "correct": 1,
+    "explanation": "Estrogen synthesis requires the two-cell system: Theca interna cells (under LH stimulation) produce androgens from cholesterol. These androgens diffuse to granulosa cells, where FSH-stimulated aromatase converts them to estrogens. Granulosa cells lack the enzymes for de novo androgen synthesis but are rich in aromatase. Without thecal cell-derived androgens, granulosa cells cannot produce significant estrogen."
+  },
+  {
+    "question": "An 18-year-old man visited his physician because he was concerned about his height. He is 152 cm tall (5 ft). He described himself when he was in elementary school as being self-conscious because he was taller than his peers. He also recalled developing pubic and axillary hair at about age 7 or 8. Physical examination showed a healthy male of short stature with normal genitalia and male secondary sexual development. Which endocrine abnormality best explains the findings in this patient?",
+    "options": [
+      "Early maturation of the hypothalamic-pituitary-gonadal axis",
+      "Failure of pulsatile gonadotrophin-releasing hormone secretion at puberty",
+      "Growth hormone excess in early childhood",
+      "Insulin-like growth factor-1 deficiency",
+      "Panhypopituitarism"
+    ],
+    "correct": 0,
+    "explanation": "This describes true precocious puberty. Early activation of the hypothalamic-pituitary-gonadal axis leads to premature sex steroid production, causing an early growth spurt and advanced bone age. However, early epiphyseal closure results in short adult stature. The history of early pubic/axillary hair development and initially being taller than peers, followed by short adult height, is characteristic of precocious puberty with premature growth plate fusion."
+  },
           {
             question: "What is the function of luteinising hormone?",
             options: ["It stimulates the interstitial (Leydig) cells to produce testosterone", "It stimulates sustentacular (Sertoli) cells to produce sperm", "It stimulates the anterior pituitary to release follicle stimulating hormone", "It stimulates the ovary to develop follicles"],
