@@ -14103,7 +14103,6 @@ export const systemsData: { [key: string]: SystemData } = {
       "The life span of corpus luteum determines duration of the cycle"
     ],
     "correct": 2,
-    "correct": 2,
     "explanation": "The LH peak at mid-cycle is preceded by a peak in estrogen levels. Just before ovulation, rising estrogen switches from negative to positive feedback on the pituitary, triggering the LH surge. The corpus luteum is maintained by LH (not estrogen), progesterone is lowest during early menstrual days, ovulation depends on LH surge (not FSH), and the follicular phase variability determines cycle length (the luteal phase is relatively constant at 14 days)."
   },
   {
