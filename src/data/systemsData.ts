@@ -13912,6 +13912,407 @@ export const systemsData: { [key: string]: SystemData } = {
       },
       physiology: {
         questions: [
+          
+  {
+    "question": "LH is:",
+    "options": [
+      "A protein",
+      "Not present in males", 
+      "Inhibits ovulation",
+      "Increased in females after menopause",
+      "Not needed for spermatogenesis"
+    ],
+    "correct": 3,
+    "explanation": "LH (luteinizing hormone) is increased in females after menopause due to the loss of negative feedback from ovarian hormones (estrogen and progesterone). After menopause, the ovaries stop producing these hormones, leading to elevated levels of gonadotropins (LH and FSH) as the pituitary is no longer inhibited. LH is a glycoprotein (not a simple protein), is present in males where it stimulates testosterone production, triggers ovulation (rather than inhibiting it), and is essential for spermatogenesis by stimulating testosterone production in Leydig cells."
+  },
+  {
+    "question": "Turner syndrome is characterized by:",
+    "options": [
+      "Gynecomastia",
+      "Male genitalia",
+      "Absent ovaries", 
+      "Tall stature",
+      "Mental retardation"
+    ],
+    "correct": 2,
+    "explanation": "Turner syndrome (45,XO) is characterized by absent ovaries (ovarian agenesis), where the ovaries are replaced by fibrous streaks. Patients have female genitalia (not male), short stature (not tall), and typically normal intelligence (no mental retardation). Gynecomastia is characteristic of Klinefelter syndrome, not Turner syndrome."
+  },
+  {
+    "question": "Most of the seminal fluid is provided by:",
+    "options": [
+      "Prostate",
+      "Seminal vesicles",
+      "Cowper's glands",
+      "Epididymis", 
+      "Ejaculatory ducts"
+    ],
+    "correct": 1,
+    "explanation": "The seminal vesicles provide about 70% of the seminal fluid volume. Their secretion contains proteins, enzymes, fructose, mucus, and prostaglandins. The prostate contributes 10-30%, Cowper's glands produce pre-ejaculate fluid, the epididymis stores and matures sperm but doesn't contribute significantly to fluid volume, and the ejaculatory ducts are passageways rather than secretory glands."
+  },
+  {
+    "question": "Which of the following hormones is expected to rise following ovulation:",
+    "options": [
+      "LH",
+      "FSH", 
+      "Estrogen",
+      "Progesterone",
+      "hCG"
+    ],
+    "correct": 3,
+    "explanation": "Progesterone rises significantly following ovulation as the ruptured follicle transforms into the corpus luteum, which secretes large amounts of progesterone (along with some estrogen). LH and FSH decline after ovulation due to negative feedback from progesterone and estrogen. Estrogen has two peaks - one just before ovulation and another during the mid-luteal phase. hCG is only produced during pregnancy."
+  },
+  {
+    "question": "During pregnancy, the corpus luteum:",
+    "options": [
+      "Is known as the corpus albicans",
+      "Is controlled by the placenta",
+      "Is essential for maintenance of pregnancy", 
+      "Degenerates during the second trimester",
+      "Responds to both FSH and LH"
+    ],
+    "correct": 2,
+    "explanation": "The corpus luteum is essential for maintaining pregnancy during the first 6-8 weeks by producing progesterone and estrogen until the placenta takes over hormone production. It is maintained by hCG from the placenta (not controlled by it), doesn't degenerate until after delivery, responds primarily to LH (not FSH), and the corpus albicans is the degenerated form after luteal regression."
+  },
+  {
+    "question": "Normal spermatogenesis requires the following cells:",
+    "options": [
+      "Sertoli cells, Germ cells and acidophils of the pituitary",
+      "Leydig cells, Germ cells and Chromophobes of the pituitary", 
+      "Sertoli cells, Leydig cells and Basophils of the pituitary",
+      "Germ cells, Leydig cells and stem cells of the bone marrow",
+      "Cutaneous cells, Sertoli cells and neural cells in the hypothalamus"
+    ],
+    "correct": 2,
+    "explanation": "Normal spermatogenesis requires: Sertoli cells (for physical support, blood-testes barrier, and nutrient provision), Leydig cells (for testosterone production), and basophils of the pituitary (which secrete FSH and LH). Germ cells alone are insufficient without the supporting cells and hormonal regulation."
+  },
+  {
+    "question": "The corpus luteum of pregnancy:",
+    "options": [
+      "Is under control of LH",
+      "Is formed only from theca interna cells",
+      "Produces progesterone but not estrogen", 
+      "Degenerates as soon as the fertilized ovum is implanted",
+      "Requires human chorionic gonadotrophin"
+    ],
+    "correct": 4,
+    "explanation": "The corpus luteum of pregnancy requires human chorionic gonadotropin (hCG) for its maintenance beyond the normal luteal phase. hCG acts as a luteotropic and luteinizing hormone, preventing degeneration of the corpus luteum and ensuring continued production of progesterone and estrogen during early pregnancy until the placenta takes over hormone production."
+  },
+  {
+    "question": "Normal spermatogenesis requires:",
+    "options": [
+      "A peak of LH",
+      "FSH and testosterone", 
+      "A temperature equal to body temperature",
+      "Low potassium in seminal fluid",
+      "120 days for development of sperms"
+    ],
+    "correct": 1,
+    "explanation": "Normal spermatogenesis requires both FSH (which acts on Sertoli cells to produce androgen-binding protein) and testosterone (which is essential for the conversion of spermatids to spermatozoa). Spermatogenesis occurs at temperatures lower than body temperature (about 32°C), takes approximately 74 days (not 120), and the potassium concentration in seminal fluid is not a determining factor."
+  },
+  {
+    "question": "During the menstrual cycle, progesterone is responsible for:",
+    "options": [
+      "Proliferative phase in the uterus",
+      "Thick mucus in the cervix", 
+      "Ovulation",
+      "LH peak during mid-cycle",
+      "Ductular growth in the breast"
+    ],
+    "correct": 1,
+    "explanation": "Progesterone makes the cervical mucus thick, scanty, and difficult to penetrate by sperm. The proliferative phase is caused by estrogen (not progesterone), ovulation is triggered by the LH surge (not progesterone), the LH peak occurs before significant progesterone production, and ductular growth in the breast is primarily estrogen-mediated."
+  },
+  {
+    "question": "Ovulation:",
+    "options": [
+      "Normally occurs 14 days following uterine bleeding",
+      "Immediately occurs following LH surge",
+      "Is usually associated with a central abdominal pain", 
+      "Is due to rupture of the corpus luteum",
+      "Leads to a rise in the body temperature"
+    ],
+    "correct": 4,
+    "explanation": "Ovulation leads to a rise in body temperature due to the thermogenic effect of progesterone secreted by the corpus luteum. Ovulation occurs 14 days BEFORE the next menstrual period (not after bleeding), occurs about 9 hours after the LH peak (not immediately), is associated with lower abdominal pain (not central), and results from rupture of the mature follicle (not the corpus luteum)."
+  },
+  {
+    "question": "Home-use Kits for determining a woman's pregnancy depends on detection of this hormone in her blood or urine:",
+    "options": [
+      "FSH",
+      "Progesterone", 
+      "Estradiol",
+      "hCG",
+      "LH"
+    ],
+    "correct": 3,
+    "explanation": "Pregnancy tests detect human chorionic gonadotropin (hCG), which is produced by the syncytiotrophoblast of the developing placenta. hCG appears in blood about 6 days after implantation and in urine about 14 days after implantation. The other hormones are not specific to pregnancy and cannot reliably indicate pregnancy."
+  },
+  {
+    "question": "Concerning spermatogenesis, which of the following is correct:",
+    "options": [
+      "Sperm production is cyclic",
+      "Continuous release of GnRH is essential for spermatogenesis", 
+      "Sertoli cells are needed for mitotic and meiotic activity of germ cells",
+      "FSH acts on Leydig cells to stimulate release of testosterone",
+      "LH acts on Sertoli cells to stimulate release androgen binding protein"
+    ],
+    "correct": 2,
+    "explanation": "Sertoli cells provide physical support and nutrients essential for both mitotic and meiotic divisions of germ cells during spermatogenesis. Spermatogenesis is continuous (not cyclic) in males, GnRH release is pulsatile (not continuous), FSH acts on Sertoli cells (not Leydig cells), and LH acts on Leydig cells (not Sertoli cells) to stimulate testosterone production."
+  },
+  {
+    "question": "During 2nd and 3rd trimester of pregnancy, the primary source of estrogen and progesterone is the:",
+    "options": [
+      "Corpus luteum",
+      "Granulosa and theca cells in ovaries", 
+      "Placenta",
+      "Adrenal cortex",
+      "Pituitary gland"
+    ],
+    "correct": 2,
+    "explanation": "After the first 6-8 weeks of pregnancy, the placenta becomes the primary source of estrogen and progesterone. The corpus luteum degenerates around this time, the ovarian follicles are inactive during pregnancy, and while the adrenal cortex produces some androgens that can be converted to estrogen, it is not the primary source."
+  },
+  {
+    "question": "Which of the following statements about estrogen is not true:",
+    "options": [
+      "Interacts with intracellular protein receptors",
+      "Increases synthesis of thyroid binding protein", 
+      "Decreases uterine contractions",
+      "Decreases FSH secretion",
+      "Is released from the testes"
+    ],
+    "correct": 2,
+    "explanation": "Estrogen actually increases uterine contractions by making the uterus more excitable to oxytocin, not decreasing them. All other statements are true: estrogen interacts with intracellular receptors, increases hepatic production of thyroid-binding globulin, exerts negative feedback on FSH secretion (except at mid-cycle), and small amounts are produced in the testes via aromatase conversion of androgens."
+  },
+  {
+    "question": "Testosterone is not:",
+    "options": [
+      "Produced during intra-uterine life",
+      "An anabolic hormone", 
+      "Mostly protein bound",
+      "Inhibited directly by inhibin",
+      "Inhibitory to LH"
+    ],
+    "correct": 3,
+    "explanation": "Testosterone is NOT directly inhibited by inhibin. Inhibin specifically inhibits FSH secretion, not testosterone. Testosterone is produced during intrauterine life, has anabolic effects (promotes protein synthesis), is 98% protein-bound in plasma, and exerts negative feedback inhibition on LH secretion."
+  },
+  {
+    "question": "In a normal menstrual cycle:",
+    "options": [
+      "High estrogen maintains the corpus luteum",
+      "Progesterone is highest during early days of menstrual cycle", 
+      "LH peak is preceded by estrogen peak",
+      "Ovulation depends on FSH surge",
+      "The life span of corpus luteum determines duration of the cycle"
+    ],
+    "correct": 2,
+    "correct": 2,
+    "explanation": "The LH peak at mid-cycle is preceded by a peak in estrogen levels. Just before ovulation, rising estrogen switches from negative to positive feedback on the pituitary, triggering the LH surge. The corpus luteum is maintained by LH (not estrogen), progesterone is lowest during early menstrual days, ovulation depends on LH surge (not FSH), and the follicular phase variability determines cycle length (the luteal phase is relatively constant at 14 days)."
+  },
+  {
+    "question": "Which of the followings is NOT secreted by Sertoli cells:",
+    "options": [
+      "Androgen binding protein",
+      "Testosterone", 
+      "Mullerian inhibitory substance",
+      "Inhibin",
+      "Estrogens"
+    ],
+    "correct": 1,
+    "explanation": "Testosterone is secreted by Leydig cells (interstitial cells), not Sertoli cells. Sertoli cells do secrete androgen binding protein (in response to FSH), Mullerian inhibitory substance (during fetal development), inhibin (which inhibits FSH), and estrogens (via aromatase conversion of androgens)."
+  },
+  {
+    "question": "Concerning spermatogenesis:",
+    "options": [
+      "Testosterone is not essential",
+      "The secondary spermatocyte contains 23 chromosomes", 
+      "FSH has no role",
+      "The process takes 74 hours",
+      "Involves division of Sertoli cells to form sperms"
+    ],
+    "correct": 1,
+    "explanation": "The secondary spermatocyte contains 23 chromosomes (haploid) after the first meiotic division. Testosterone is essential for the final maturation of spermatids to spermatozoa, FSH is crucial for stimulating Sertoli cells, spermatogenesis takes 74 days (not hours), and Sertoli cells support but do not divide to form sperm - germ cells undergo the divisions."
+  },
+  {
+    "question": "Progesterone:",
+    "options": [
+      "Acts on cell membrane receptors",
+      "Stimulates the respiratory centre to increase respiration", 
+      "Acts directly on the hypothalamus to activate the temperature centre",
+      "Promotes proliferative changes in the endometrium",
+      "Stimulates development of ducts in the breast"
+    ],
+    "correct": 1,
+    "explanation": "Progesterone stimulates the respiratory center, causing hyperventilation during pregnancy and the luteal phase. Progesterone acts on intracellular receptors (not cell membrane), its thermogenic effect is metabolic (not via hypothalamic temperature center), estrogen (not progesterone) causes proliferative changes, and progesterone stimulates lobular and alveolar breast development (not ductular, which is estrogen-mediated)."
+  },
+  {
+    "question": "Human chorionic somatomammotropin (hCS):",
+    "options": [
+      "Is a steroid hormone",
+      "Prevents glucose utilization by the fetus", 
+      "Causes lipolysis",
+      "Is secreted by the granulosa cells",
+      "Is detected by pregnancy test to diagnose pregnancy"
+    ],
+    "correct": 2,
+    "explanation": "hCS causes lipolysis, providing free fatty acids as an alternative energy source for the mother. hCS is a protein hormone (not steroid), reduces glucose utilization by the MOTHER (not fetus) to spare glucose for fetal use, is secreted by syncytiotrophoblasts (not granulosa cells), and pregnancy tests detect hCG (not hCS)."
+  },
+  {
+    "question": "Maternal responses to pregnancy do not include:",
+    "options": [
+      "Increased GFR",
+      "Increased volume of plasma", 
+      "Increased cardiac output",
+      "Increased lung volumes and capacities",
+      "Decreased erythropoiesis"
+    ],
+    "correct": 3,
+    "explanation": "Pregnancy does NOT increase lung volumes and capacities; in fact, the upward displacement of the diaphragm by the enlarged uterus actually REDUCES lung volumes. All other options are correct maternal adaptations: GFR increases by 50-60%, plasma volume increases by 40-50%, cardiac output increases by 30-50%, and while red blood cell mass increases, the relative hemodilution can give the appearance of decreased erythropoiesis."
+  },
+  {
+    "question": "A 17-year-old girl visited her physician because she had never had a menstrual period. Physical examination revealed a tall female with a short, blind-ended vagina and no palpable cervix. Ultrasound showed the absence of a uterus and no ovaries and the presence of undescended testes. Deficiency of which enzyme, hormone, or receptor is most likely to account for these findings?",
+    "options": [
+      "Androgen receptors",
+      "Aromatase",
+      "Estrogen receptors",
+      "21a-Hydroxylase",
+      "Müllerian-inhibiting substance",
+      "Progesterone",
+      "5a-Reductase"
+    ],
+    "correct": 0,
+    "explanation": "This describes complete androgen insensitivity syndrome (testicular feminization). The patient has a 46,XY karyotype with testes that produce testosterone and MIS normally. However, due to androgen receptor deficiency, the body cannot respond to androgens, leading to female external genitalia development. MIS from Sertoli cells causes regression of Müllerian structures (uterus, fallopian tubes), resulting in a blind vaginal pouch. The testes remain undescended, and patients are tall due to delayed epiphyseal closure from lack of androgen effects."
+  },
+  {
+    "question": "A blood sample is taken from a 27-year-old woman for hormone analysis. The sample contains low levels of follicle-stimulating hormone (FSH) and luteinizing hormone (LH) and high levels of estrogen, progesterone, and inhibin. Assuming a normal 28-day menstrual cycle, on which day of this woman's menstrual cycle was the blood sample taken?",
+    "options": [
+      "Day 1",
+      "Day 7",
+      "Day 14",
+      "Day 21",
+      "Day 28"
+    ],
+    "correct": 3,
+    "explanation": "Day 21 corresponds to the mid-luteal phase when the corpus luteum is fully functional, secreting high levels of estrogen, progesterone, and inhibin. These hormones exert strong negative feedback on the pituitary, suppressing FSH and LH secretion. This hormonal profile is characteristic of the luteal phase and essential for preparing the endometrium for potential implantation."
+  },
+  {
+    "question": "A 37-year-old woman who is breast-feeding her 4-month-old son is taking the train to see her mother who lives several hours away. When the woman hears the cry of another infant, she notices that milk has been expressed from both her breasts. The release of which hormone can account for this response?",
+    "options": [
+      "Estrogen",
+      "Inhibin",
+      "Oxytocin",
+      "Progesterone",
+      "Prolactin"
+    ],
+    "correct": 2,
+    "explanation": "Oxytocin is responsible for milk ejection (let-down reflex) by causing contraction of myoepithelial cells surrounding breast alveoli. This reflex can be conditioned by various stimuli including infant crying, thinking about the baby, or emotional states. Prolactin is responsible for milk production (lactogenesis), not milk ejection."
+  },
+  {
+    "question": "A 36-year-old woman who is pregnant with her third child is in labor. Her serum oxytocin levels were measured at regular intervals over a 24-hour period. Measurements were taken at the onset when the woman began having low back pains 1 day before delivery and ended 3 hours after delivery of the infant, just before the woman was to begin breast-feeding the infant. A normal vaginal delivery was completed without medical intervention. At what time was the oxytocin concentration in maternal blood most likely to be highest?",
+    "options": [
+      "Before labor",
+      "At the onset of back pain",
+      "Uterine contractions 20 minutes apart",
+      "During the expulsive stages of labor",
+      "Three hours after delivery"
+    ],
+    "correct": 3,
+    "explanation": "Oxytocin levels peak during the expulsive stage of labor when the fetus descends and cervical dilation is maximal. This creates a positive feedback loop: cervical stretching stimulates oxytocin release, which causes stronger uterine contractions, leading to more cervical stretching. This Ferguson reflex ensures progressive labor until delivery."
+  },
+  {
+    "question": "A 32-year-old woman and her partner were trying to conceive a child. The woman had regular menstrual cycles of about 30 days in length. Four days after missing her menstrual period, she bought a commercial pregnancy testing kit. The couple was excited to discover that her urine sample indicated a positive result for pregnancy. Which of the following hormones was detected in her urine?",
+    "options": [
+      "Human chorionic gonadotropin",
+      "Estrogen",
+      "Follicle-stimulating hormone",
+      "Gonadotropin-releasing hormone",
+      "Inhibin",
+      "Luteinizing hormone",
+      "Progesterone"
+    ],
+    "correct": 0,
+    "explanation": "Home pregnancy tests detect human chorionic gonadotropin (hCG), which is produced by the syncytiotrophoblast of the developing placenta. hCG appears in urine about 14 days after implantation, making it detectable around the time of missed menstruation. hCG maintains the corpus luteum during early pregnancy, ensuring continued progesterone production."
+  },
+  {
+    "question": "Fetal acquisition of glucose occurs by placental glucose transport. What is the first cell layer within the placenta that glucose must cross during transport from maternal to fetal blood?",
+    "options": [
+      "Cytotrophoblast",
+      "Decidua",
+      "Inner cell mass",
+      "Mesenchyme",
+      "Syncytiotrophoblast"
+    ],
+    "correct": 4,
+    "explanation": "The syncytiotrophoblast is the outermost layer of chorionic villi, directly bathed in maternal blood in the intervillous space. Glucose from maternal blood must first cross this continuous, multinucleated cell layer before passing through the cytotrophoblast, basement membrane, and fetal capillary endothelium to reach fetal circulation."
+  },
+  {
+    "question": "The luteinizing hormone surge measured during the ovulatory phase of the menstrual cycle results from positive feedback exerted by which of the following hormones?",
+    "options": [
+      "Estrogen",
+      "Follicle-stimulating hormone",
+      "Gonadotropin-releasing hormone",
+      "Inhibin",
+      "Progesterone"
+    ],
+    "correct": 0,
+    "explanation": "Sustained high levels of estrogen from the developing dominant follicle switch from negative to positive feedback on the pituitary around mid-cycle. This positive feedback sensitizes gonadotropes to GnRH, triggering the LH surge that induces ovulation. This is a unique neuroendocrine phenomenon specific to the menstrual cycle."
+  },
+  {
+    "question": "A 36-year-old woman visited her gynecologist to have a routine annual examination. A cervical Pap smear was performed to check for abnormal cells. The mucus sample was thin and produced a fern-like pattern when it dried on a microscope slide. Assuming a normal 28-day menstrual cycle, on which day of this woman's menstrual cycle was the smear taken?",
+    "options": [
+      "Day 1",
+      "Day 7",
+      "Day 14",
+      "Day 21",
+      "Day 28"
+    ],
+    "correct": 2,
+    "explanation": "Day 14 corresponds to ovulation when estrogen levels peak. Under estrogen dominance, cervical mucus becomes thin, watery, and alkaline, forming a fern-like crystallization pattern when dried. This facilitates sperm transport and survival. Progesterone-dominated mucus (luteal phase) is thick and does not fern."
+  },
+  {
+    "question": "A 37-year-old man with four children elected to have a vasectomy. This procedure prevents conception because",
+    "options": [
+      "no sperm is ejaculated",
+      "secretion from seminal vesicles is not ejaculated",
+      "secretion from the prostate gland is not ejaculated",
+      "no semen is ejaculated"
+    ],
+    "correct": 0,
+    "explanation": "Vasectomy involves cutting and sealing the vas deferens, preventing sperm transport from the epididymis to the ejaculatory ducts. Semen (composed of secretions from seminal vesicles, prostate, and Cowper's glands) is still ejaculated, but it contains no sperm. Sperm production continues but sperm are phagocytosed in the epididymis."
+  },
+  {
+    "question": "A child born with ambiguous genitalia was found to have a 46XY karyotype. Testes were present at birth, and there was a small phallus with a urethral opening at its midpoint. The child entered puberty late, but masculinization was evident. Which deficiency could account for these findings?",
+    "options": [
+      "Aromatase",
+      "21a-Hydroxylase",
+      "Luteinizing hormone receptor",
+      "5a-Reductase",
+      "Testosterone"
+    ],
+    "correct": 3,
+    "explanation": "5α-reductase deficiency impairs conversion of testosterone to dihydrotestosterone (DHT), which is essential for normal development of external male genitalia (penis, scrotum, prostate). At puberty, high testosterone levels can partially overcome this deficiency, leading to virilization (phallic growth, muscle development, voice deepening) as testosterone can bind androgen receptors, though less effectively than DHT."
+  },
+  {
+    "question": "Ovarian granulosa cells were grown in primary cell culture in vitro. The cells failed to secrete significant amounts of estrogen when exposed to follicle-stimulating hormone (FSH) and luteinizing hormone (LH) until they were cultured together with ovarian thecal cells. A likely explanation for the failure of granulosa cells to produce estrogens when cultured alone is",
+    "options": [
+      "inability of granulosa cells to synthesize cholesterol",
+      "lack of androgen precursors from which to produce estrogens",
+      "lack of aromatase activity",
+      "lack of 5a-reductase activity",
+      "lack of progesterone precursor from which to produce estrogens"
+    ],
+    "correct": 1,
+    "explanation": "Estrogen synthesis requires the two-cell system: Theca interna cells (under LH stimulation) produce androgens from cholesterol. These androgens diffuse to granulosa cells, where FSH-stimulated aromatase converts them to estrogens. Granulosa cells lack the enzymes for de novo androgen synthesis but are rich in aromatase. Without thecal cell-derived androgens, granulosa cells cannot produce significant estrogen."
+  },
+  {
+    "question": "An 18-year-old man visited his physician because he was concerned about his height. He is 152 cm tall (5 ft). He described himself when he was in elementary school as being self-conscious because he was taller than his peers. He also recalled developing pubic and axillary hair at about age 7 or 8. Physical examination showed a healthy male of short stature with normal genitalia and male secondary sexual development. Which endocrine abnormality best explains the findings in this patient?",
+    "options": [
+      "Early maturation of the hypothalamic-pituitary-gonadal axis",
+      "Failure of pulsatile gonadotrophin-releasing hormone secretion at puberty",
+      "Growth hormone excess in early childhood",
+      "Insulin-like growth factor-1 deficiency",
+      "Panhypopituitarism"
+    ],
+    "correct": 0,
+    "explanation": "This describes true precocious puberty. Early activation of the hypothalamic-pituitary-gonadal axis leads to premature sex steroid production, causing an early growth spurt and advanced bone age. However, early epiphyseal closure results in short adult stature. The history of early pubic/axillary hair development and initially being taller than peers, followed by short adult height, is characteristic of precocious puberty with premature growth plate fusion."
+  },
           {
             "question": "A series of photographs taken of a middle-aged man over a period of 2 decades demonstrates gradual coarsening of facial features and progressive protrusion of the brows. Upon questioning, the patient reports having to wear larger shoes than he did as a young man. Which of the following pair of hormones normally regulates the hormone responsible for these changes?",
             "options": [
