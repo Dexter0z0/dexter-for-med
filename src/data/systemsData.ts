@@ -10193,6 +10193,387 @@ export const systemsData: { [key: string]: SystemData } = {
       physiology: {
         questions: [
           {
+    "question": "Which of the following lung volumes or capacities can be measured by spirometry?",
+    "options": [
+      "Functional residual capacity (FRC)",
+      "Physiologic dead space",
+      "Residual volume (RV)",
+      "Total lung capacity (TLC)",
+      "Vital capacity (VC)"
+    ],
+    "correct": 4,
+    "explanation": "Residual volume (RV) cannot be measured by spirometry. Therefore, any lung volume or capacity that includes the RV cannot be measured by spirometry. Measurements that include RV are functional residual capacity (FRC) and total lung capacity (TLC). Vital capacity (VC) does not include RV and is, therefore, measurable by spirometry. Physiologic dead space is not measurable by spirometry and requires sampling of arterial PCO₂ and expired CO₂."
+  },
+  {
+    "question": "An infant born prematurely in gestational week 25 has neonatal respiratory distress syndrome. Which of the following would be expected in this infant?",
+    "options": [
+      "Arterial Po₂ of 100 mm Hg",
+      "Collapse of the small alveoli",
+      "Increased lung compliance",
+      "Normal breathing rate",
+      "Lecithin:sphingomyelin ratio of greater than 2:1 in amniotic fluid"
+    ],
+    "correct": 1,
+    "explanation": "Neonatal respiratory distress syndrome is caused by lack of adequate surfactant in the immature lung. Surfactant appears between the 24th and the 35th gestational week. In the absence of surfactant, the surface tension of the small alveoli is too high. When the pressure on the small alveoli is too high (P = 2T/r), the small alveoli collapse into larger alveoli. There is decreased gas exchange with the larger, collapsed alveoli; and ventilation/perfusion (V/Q) mismatch, hypoxemia, and cyanosis occur. The lack of surfactant also decreases lung compliance, making it harder to inflate the lungs, increasing the work of breathing, and producing dyspnea (shortness of breath). Generally, lecithin:sphingomyelin ratios greater than 2:1 signify mature levels of surfactant."
+  },
+  {
+    "question": "In which vascular bed does hypoxia cause vasoconstriction?",
+    "options": [
+      "Coronary",
+      "Pulmonary",
+      "Cerebral",
+      "Muscle",
+      "Skin"
+    ],
+    "correct": 1,
+    "explanation": "Pulmonary blood flow is controlled locally by the PO₂ of alveolar air. Hypoxia causes pulmonary vasoconstriction and thereby shunts blood away from unventilated areas of the lung, where it would be wasted. In the coronary circulation, hypoxemia causes vasodilation. The cerebral, muscle, and skin circulations are not controlled directly by PO₂."
+  },
+  {
+    "question": "A 12-year-old boy has a severe asthmatic attack with wheezing. He experiences rapid breathing and becomes cyanotic. His arterial Po₂ is 60 mm Hg and his Pco₂ is 30 mm Hg. Which of the following statements about this patient is most likely to be true?",
+    "options": [
+      "Forced expiratory volume/forced vital capacity (FEV₁/FVC) is increased",
+      "Ventilation/perfusion (V/Q) ratio is increased in the affected areas of his lungs",
+      "His arterial PCO₂ is higher than normal because of inadequate gas exchange",
+      "His arterial PCO₂ is lower than normal because hypoxemia is causing him to hyperventilate",
+      "His residual volume (RV) is decreased"
+    ],
+    "correct": 3,
+    "explanation": "The patient’s arterial PCO₂ is lower than the normal value of 40 mm Hg because hypoxemia has stimulated peripheral chemoreceptors to increase his breathing rate; hyperventilation causes the patient to blow off extra CO₂ and results in respiratory alkalosis. In an obstructive disease, such as asthma, both forced expiratory volume (FEV₁) and forced vital capacity (FVC) are decreased, with the larger decrease occurring in FEV₁. Therefore, the FEV₁/FVC ratio is decreased. Poor ventilation of the affected areas decreases the ventilation/perfusion (V/Q) ratio and causes hypoxemia. The patient’s residual volume (RV) is increased because he is breathing at a higher lung volume to offset the increased resistance of his airways."
+  },
+  {
+    "question": "To treat this patient, the physician should administer",
+    "options": [
+      "an α₁-adrenergic antagonist",
+      "a β₁-adrenergic antagonist",
+      "a β₂-adrenergic agonist",
+      "a muscarinic agonist",
+      "a nicotinic agonist"
+    ],
+    "correct": 2,
+    "explanation": "A cause of airway obstruction in asthma is bronchiolar constriction. β₂-adrenergic stimulation (β₂-adrenergic agonists) produces relaxation of the bronchioles."
+  },
+  {
+    "question": "Which of the following is true during inspiration?",
+    "options": [
+      "Intrapleural pressure is positive",
+      "The volume in the lungs is less than the functional residual capacity (FRC)",
+      "Alveolar pressure equals atmospheric pressure",
+      "Alveolar pressure is higher than atmospheric pressure",
+      "Intrapleural pressure is more negative than it is during expiration"
+    ],
+    "correct": 4,
+    "explanation": "During inspiration, intrapleural pressure becomes more negative than it is at rest or during expiration (when it returns to its less negative resting value). During inspiration, air flows into the lungs when alveolar pressure becomes lower (due to contraction of the diaphragm) than atmospheric pressure; if alveolar pressure were not lower than atmospheric pressure, air would not flow inward. The volume in the lungs during inspiration is the functional residual capacity (FRC) plus one tidal volume (Vτ)."
+  },
+  {
+    "question": "Which volume remains in the lungs after a tidal volume (Vᵢ) is expired?",
+    "options": [
+      "Tidal volume (Vᵢ)",
+      "Vital capacity (VC)",
+      "Expiratory reserve volume (ERV)",
+      "Residual volume (RV)",
+      "Functional residual capacity (FRC)",
+      "Inspiratory capacity",
+      "Total lung capacity"
+    ],
+    "correct": 4,
+    "explanation": "During normal breathing, the volume inspired and then expired is a tidal volume (Vτ). The volume remaining in the lungs after expiration of a Vτ is the functional residual capacity (FRC)."
+  },
+  {
+    "question": "A 35-year-old man has a vital capacity (VC) of 5 L, a tidal volume (Vᵢ) of 0.5 L, an inspiratory capacity of 3.5 L, and a functional residual capacity (FRC) of 2.5 L. What is his expiratory reserve volume (ERV)?",
+    "options": [
+      "4.5 L",
+      "3.9 L",
+      "3.6 L",
+      "3.0 L",
+      "2.5 L",
+      "2.0 L",
+      "1.5 L"
+    ],
+    "correct": 6,
+    "explanation": "Expiratory reserve volume (ERV) equals vital capacity (VC) minus inspiratory capacity [inspiratory capacity includes tidal volume (Vτ) and inspiratory reserve volume (IRV)]."
+  },
+  {
+    "question": "When a person is standing, blood flow in the lungs is",
+    "options": [
+      "equal at the apex and the base",
+      "highest at the apex owing to the effects of gravity on arterial pressure",
+      "highest at the base because that is where the difference between arterial and venous pressure is greatest",
+      "lowest at the base because that is where alveolar pressure is greater than arterial pressure"
+    ],
+    "correct": 2,
+    "explanation": "The distribution of blood flow in the lungs is affected by gravitational effects on arterial hydrostatic pressure. Thus, blood flow is highest at the base, where arterial hydrostatic pressure is greatest and the difference between arterial and venous pressure is also greatest. This pressure difference drives the blood flow."
+  },
+  {
+    "question": "Which of the following is the site of highest airway resistance?",
+    "options": [
+      "Trachea",
+      "Largest bronchi",
+      "Medium-sized bronchi",
+      "Smallest bronchi",
+      "Alveoli"
+    ],
+    "correct": 2,
+    "explanation": "The medium-sized bronchi actually constitute the site of highest resistance along the bronchial tree. Although the small radii of the alveoli might predict that they would have the highest resistance, they do not because of their parallel arrangement. In fact, early changes in resistance in the small airways may be 'silent' and go undetected because of their small overall contribution to resistance."
+  },
+  {
+    "question": "A 49-year-old man has a pulmonary embolism that completely blocks blood flow to his left lung. As a result, which of the following will occur?",
+    "options": [
+      "Ventilation/perfusion (V/Q) ratio in the left lung will be zero",
+      "Systemic arterial Po₂ will be elevated",
+      "V/Q ratio in the left lung will be lower than in the right lung",
+      "Alveolar Po₂ in the left lung will be approximately equal to the Po₂ in inspired air",
+      "Alveolar Po₂ in the right lung will be approximately equal to the Po₂ in venous blood"
+    ],
+    "correct": 3,
+    "explanation": "Alveolar Po₂ in the left lung will equal the Po₂ in inspired air. Because there is no blood flow to the left lung, there can be no gas exchange between the alveolar air and the pulmonary capillary blood. Consequently, O₂ is not added to the capillary blood. The ventilation/perfusion (V/Q) ratio in the left lung will be infinite (not zero or lower than that in the normal right lung) because Q (the denominator) is zero. Systemic arterial Po₂ will, of course, be decreased because the left lung has no gas exchange. Alveolar Po₂ in the right lung is unaffected."
+  },
+  {
+    "question": "In the hemoglobin–O₂ dissociation curves shown above, the shift from curve A to curve B could be caused by",
+    "options": [
+      "increased pH",
+      "decreased 2,3-diphosphoglycerate (DPG) concentration",
+      "strenuous exercise",
+      "fetal hemoglobin (HbF)",
+      "carbon monoxide (CO) poisoning"
+    ],
+    "correct": 2,
+    "explanation": "Strenuous exercise increases the temperature and decreases the pH of skeletal muscle; both effects would cause the hemoglobin–O₂ dissociation curve to shift to the right, making it easier to unload O₂ in the tissues to meet the high demand of the exercising muscle. 2,3-Diphosphoglycerate (DPG) binds to the β chains of adult hemoglobin and reduces its affinity for O₂, shifting the curve to the right. In fetal hemoglobin, the β chains are replaced by γ chains, which do not bind 2,3-DPG, so the curve is shifted to the left. Because carbon monoxide (CO) increases the affinity of the remaining binding sites for O₂, the curve is shifted to the left."
+  },
+  {
+    "question": "The shift from curve A to curve B is associated with",
+    "options": [
+      "increased P₅₀",
+      "increased affinity of hemoglobin for O₂",
+      "impaired ability to unload O₂ in the tissues",
+      "increased O₂-carrying capacity of hemoglobin",
+      "decreased O₂-carrying capacity of hemoglobin"
+    ],
+    "correct": 0,
+    "explanation": "A shift to the right of the hemoglobin–O₂ dissociation curve represents decreased affinity of hemoglobin for O₂. At any given PO₂, the percent saturation is decreased, the P₅₀ is increased (read the PO₂ from the graph at 50% hemoglobin saturation), and unloading of O₂ in the tissues is facilitated. The O₂-carrying capacity of hemoglobin is the mL of O₂ that can be bound to a gram of hemoglobin at 100% saturation and is unaffected by the shift from curve A to curve B."
+  },
+  {
+    "question": "Which volume remains in the lungs after a maximal expiration?",
+    "options": [
+      "Tidal volume (Vτ)",
+      "Vital capacity (VC)",
+      "Expiratory reserve volume (ERV)",
+      "Residual volume (RV)",
+      "Functional residual capacity (FRC)",
+      "Inspiratory capacity",
+      "Total lung capacity"
+    ],
+    "correct": 3,
+    "explanation": "During a forced maximal expiration, the volume expired is a tidal volume (Vτ) plus the expiratory reserve volume (ERV). The volume remaining in the lungs is the residual volume (RV)."
+  },
+  {
+    "question": "Compared with the systemic circulation, the pulmonary circulation has a",
+    "options": [
+      "higher blood flow",
+      "lower resistance",
+      "higher arterial pressure",
+      "higher capillary pressure",
+      "higher cardiac output"
+    ],
+    "correct": 1,
+    "explanation": "Blood flow (or cardiac output) in the systemic and pulmonary circulations is nearly equal; pulmonary flow is slightly less than systemic flow because about 2% of the systemic cardiac output bypasses the lungs. The pulmonary circulation is characterized by both lower pressure and lower resistance than the systemic circulation, so flows through the two circulations are approximately equal (flow = pressure/resistance)."
+  },
+  {
+    "question": "A healthy 65-year-old man with a tidal volume (Vτ) of 0.45 L has a breathing frequency of 16 breaths/min. His arterial PCO₂ is 41 mm Hg, and the PCO₂ of his expired air is 35 mm Hg. What is his alveolar ventilation?",
+    "options": [
+      "0.066 L/min",
+      "0.38 L/min",
+      "5.0 L/min",
+      "6.14 L/min",
+      "8.25 L/min"
+    ],
+    "correct": 3,
+    "explanation": "Alveolar ventilation is the difference between tidal volume (Vτ) and dead space multiplied by breathing frequency. Vτ and breathing frequency are given, but dead space must be calculated. Dead space is Vτ multiplied by the difference between arterial PCO₂ and expired PCO₂ divided by arterial PCO₂. Thus, dead space = 0.45 × (41 − 35/41) = 0.066 L. Alveolar ventilation is then calculated as (0.45 L − 0.066 L) × 16 breaths/min = 6.14 L/min."
+  },
+  {
+    "question": "Compared with the apex of the lung, the base of the lung has",
+    "options": [
+      "a higher pulmonary capillary PO₂",
+      "a higher pulmonary capillary PCO₂",
+      "a higher ventilation/perfusion (V/Q) ratio",
+      "the same V/Q ratio"
+    ],
+    "correct": 1,
+    "explanation": "Ventilation and perfusion of the lung are not distributed uniformly. Both are lowest at the apex and highest at the base. However, the differences for ventilation are not as great as for perfusion, making the ventilation/perfusion (V/Q) ratios higher at the apex and lower at the base. As a result, gas exchange is more efficient at the apex and less efficient at the base. Therefore, blood leaving the apex will have a higher PO₂ and a lower PCO₂."
+  },
+  {
+    "question": "Hypoxemia produces hyperventilation by a direct effect on the",
+    "options": [
+      "phrenic nerve",
+      "J receptors",
+      "lung stretch receptors",
+      "medullary chemoreceptors",
+      "carotid and aortic body chemoreceptors"
+    ],
+    "correct": 4,
+    "explanation": "Hypoxemia stimulates breathing by a direct effect on the peripheral chemoreceptors in the carotid and aortic bodies. Central (medullary) chemoreceptors are stimulated by CO₂ (or H⁺). The J receptors and lung stretch receptors are not chemoreceptors. The phrenic nerve innervates the diaphragm, and its activity is determined by the output of the brainstem breathing center."
+  },
+  {
+    "question": "Which of the following changes occurs during strenuous exercise?",
+    "options": [
+      "Ventilation rate and O₂ consumption increase to the same extent",
+      "Systemic arterial PO₂ decreases to about 70 mm Hg",
+      "Systemic arterial PCO₂ increases to about 60 mm Hg",
+      "Systemic venous PCO₂ decreases to about 20 mm Hg",
+      "Pulmonary blood flow decreases at the expense of systemic blood flow"
+    ],
+    "correct": 0,
+    "explanation": "During exercise, the ventilation rate increases to match the increased O₂ consumption and CO₂ production. This matching is accomplished without a change in mean arterial PO₂ or PCO₂. Venous PCO₂ increases because extra CO₂ is being produced by the exercising muscle. Because this CO₂ will be blown off by the hyperventilating lungs, it does not increase the arterial PCO₂. Pulmonary blood flow (cardiac output) increases manifold during strenuous exercise."
+  },
+  {
+    "question": "If an area of the lung is not ventilated because of bronchial obstruction, the pulmonary capillary blood serving that area will have a PO₂ that is",
+    "options": [
+      "equal to atmospheric PO₂",
+      "equal to mixed venous PO₂",
+      "equal to normal systemic arterial PO₂",
+      "higher than inspired PO₂",
+      "lower than mixed venous PO₂"
+    ],
+    "correct": 1,
+    "explanation": "If an area of lung is not ventilated, there can be no gas exchange in that region. The pulmonary capillary blood serving that region will not equilibrate with alveolar PO₂ but will have a PO₂ equal to that of mixed venous blood."
+  },
+  {
+    "question": "In the transport of CO₂ from the tissues to the lungs, which of the following occurs in venous blood?",
+    "options": [
+      "Conversion of CO₂ and H₂O to H⁺ and HCO₃⁻ in the red blood cells (RBCs)",
+      "Buffering of H⁺ by oxyhemoglobin",
+      "Shifting of HCO₃⁻ into the RBCs from plasma in exchange for Cl⁻",
+      "Binding of HCO₃⁻ to hemoglobin",
+      "Alkalinization of the RBCs"
+    ],
+    "correct": 0,
+    "explanation": "CO₂ generated in the tissues is hydrated to form H⁺ and HCO₃⁻ in red blood cells (RBCs). H⁺ is buffered inside the RBCs by deoxyhemoglobin, which acidifies the RBCs. HCO₃⁻ leaves the RBCs in exchange for Cl⁻ and is carried to the lungs in the plasma. A small amount of CO₂ (not HCO₃⁻) binds directly to hemoglobin (carbaminohemoglobin)."
+  },
+  {
+    "question": "Which of the following causes of hypoxia is characterized by a decreased arterial PO₂ and an increased A–a gradient?",
+    "options": [
+      "Hypoventilation",
+      "Right-to-left cardiac shunt",
+      "Anemia",
+      "Carbon monoxide poisoning",
+      "Ascent to high altitude"
+    ],
+    "correct": 1,
+    "explanation": "Hypoxia is defined as decreased O₂ delivery to the tissues. It occurs as a result of decreased blood flow or decreased O₂ content of the blood. Decreased O₂ content of the blood is caused by decreased hemoglobin concentration (anemia), decreased O₂-binding capacity of hemoglobin (carbon monoxide poisoning), or decreased arterial PO₂ (hypoxemia). Hypoventilation, right-to-left cardiac shunt, and ascent to high altitude all cause hypoxia by decreasing arterial PO₂. Of these, only right-to-left cardiac shunt is associated with an increased A–a gradient, reflecting a lack of O₂ equilibration between alveolar gas and systemic arterial blood. In right-to-left shunt, a portion of the right heart output, or pulmonary blood flow, is not oxygenated in the lungs and thereby 'dilutes' the PO₂ of the normally oxygenated blood. With hypoventilation and ascent to high altitude, both alveolar and arterial PO₂ are decreased, but the A–a gradient is normal."
+  },
+  {
+    "question": "A 42-year-old woman with severe pulmonary fibrosis is evaluated by her physician and has the following arterial blood gases: pH = 7.48, PaO₂ = 55 mm Hg, and PaCO₂ = 32 mm Hg. Which statement best explains the observed value of PaCO₂?",
+    "options": [
+      "The increased pH stimulates breathing via peripheral chemoreceptors",
+      "The increased pH stimulates breathing via central chemoreceptors",
+      "The decreased PaO₂ inhibits breathing via peripheral chemoreceptors",
+      "The decreased PaO₂ stimulates breathing via peripheral chemoreceptors",
+      "The decreased PaO₂ stimulates breathing via central chemoreceptors"
+    ],
+    "correct": 3,
+    "explanation": "The patient’s arterial blood gases show increased pH, decreased PaO₂, and decreased PaCO₂. The decreased PaO₂ causes hyperventilation (stimulates breathing) via the peripheral chemoreceptors, but not via the central chemoreceptors. The decreased PaCO₂ results from hyperventilation (increased breathing) and causes increased pH, which inhibits breathing via the peripheral and central chemoreceptors."
+  },
+  {
+    "question": "A 38-year-old woman moves with her family from New York City (sea level) to Leadville, Colorado (10,200 feet above sea level). Which of the following will occur as a result of residing at high altitude?",
+    "options": [
+      "Hypoventilation",
+      "Arterial PO₂ greater than 100 mm Hg",
+      "Decreased 2,3-diphosphoglycerate (DPG) concentration",
+      "Shift to the right of the hemoglobin–O₂ dissociation curve",
+      "Pulmonary vasodilation",
+      "Hypertrophy of the left ventricle",
+      "Respiratory acidosis"
+    ],
+    "correct": 3,
+    "explanation": "At high altitudes, the PO₂ of alveolar air is decreased because barometric pressure is decreased. As a result, arterial PO₂ is decreased (<100 mm Hg), and hypoxemia occurs and causes hyperventilation by an effect on peripheral chemoreceptors. Hyperventilation leads to respiratory alkalosis. 2,3-Diphosphoglycerate (DPG) levels increase adaptively; 2,3-DPG binds to hemoglobin and causes the hemoglobin–O₂ dissociation curve to shift to the right to improve unloading of O₂ in the tissues. The pulmonary vasculature vasoconstricts in response to alveolar hypoxia, resulting in increased pulmonary arterial pressure and hypertrophy of the right ventricle (not the left ventricle)."
+  },
+  {
+    "question": "The pH of venous blood is only slightly more acidic than the pH of arterial blood because",
+    "options": [
+      "CO₂ is a weak base",
+      "there is no carbonic anhydrase in venous blood",
+      "the H⁺ generated from CO₂ and H₂O is buffered by HCO₃⁻ in venous blood",
+      "the H⁺ generated from CO₂ and H₂O is buffered by deoxyhemoglobin in venous blood",
+      "oxyhemoglobin is a better buffer for H⁺ than is deoxyhemoglobin"
+    ],
+    "correct": 3,
+    "explanation": "In venous blood, CO₂ combines with H₂O and produces the weak acid H₂CO₃, catalyzed by carbonic anhydrase. The resulting H⁺ is buffered by deoxyhemoglobin, which is such an effective buffer for H⁺ (meaning that the pK is within 1.0 unit of the pH of blood) that the pH of venous blood is only slightly more acid than the pH of arterial blood. Oxyhemoglobin is a less effective buffer than is deoxyhemoglobin."
+  },
+  {
+    "question": "In a maximal expiration, the total volume expired is",
+    "options": [
+      "tidal volume (Vτ)",
+      "vital capacity (VC)",
+      "expiratory reserve volume (ERV)",
+      "residual volume (RV)",
+      "functional residual capacity (FRC)",
+      "inspiratory capacity",
+      "total lung capacity"
+    ],
+    "correct": 1,
+    "explanation": "The volume expired in a forced maximal expiration is forced vital capacity, or vital capacity (VC)."
+  },
+  {
+    "question": "A person with a ventilation/perfusion (V/Q) defect has hypoxemia and is treated with supplemental O₂. The supplemental O₂ will be most helpful if the person’s predominant V/Q defect is",
+    "options": [
+      "dead space",
+      "shunt",
+      "high V/Q",
+      "low V/Q",
+      "V/Q = 0",
+      "V/Q = ∞"
+    ],
+    "correct": 3,
+    "explanation": "Supplemental O₂ (breathing inspired air with a high PO₂) is most helpful in treating hypoxemia associated with a ventilation/perfusion (V/Q) defect if the predominant defect is low V/Q. Regions of low V/Q have the highest blood flow. Thus, breathing high PO₂ air will raise the PO₂ of a large volume of blood and have the greatest influence on the total blood flow leaving the lungs (which becomes systemic arterial blood). Dead space (i.e., V/Q = ∞) has no blood flow, so supplemental O₂ has no effect on these regions. Shunt (i.e., V/Q = 0) has no ventilation, so supplemental O₂ has no effect. Regions of high V/Q have little blood flow, thus raising the PO₂ of a small volume of blood will have little overall effect on systemic arterial blood."
+  },
+  {
+    "question": "Which person would be expected to have the largest A–a gradient?",
+    "options": [
+      "Person with pulmonary fibrosis",
+      "Person who is hypoventilating due to morphine overdose",
+      "Person at 12,000 feet above sea level",
+      "Person with normal lungs breathing 50% O₂",
+      "Person with normal lungs breathing 100% O₂"
+    ],
+    "correct": 0,
+    "explanation": "Increased A–a gradient signifies lack of O₂ equilibration between alveolar gas (A) and systemic arterial blood (a). In pulmonary fibrosis, there is thickening of the alveolar/pulmonary capillary barrier and increased diffusion distance for O₂, which results in lack of equilibration of O₂, hypoxemia, and increased A–a gradient. Hypoventilation and ascent to 12,000 feet also cause hypoxemia, because systemic arterial blood is equilibrated with a lower alveolar PO₂ (normal A–a gradient). Persons breathing 50% or 100% O₂ will have elevated alveolar PO₂, and their arterial PO₂ will equilibrate with this higher value (normal A–a gradient)."
+  },
+  {
+    "question": "Which of the following sets of data would have the highest rate of O₂ transfer in the lungs?",
+    "options": [
+      "P₁O₂: 150 mm Hg, PvO₂: 40 mm Hg, Surface Area: 1, Thickness: 1",
+      "P₁O₂: 150 mm Hg, PvO₂: 40 mm Hg, Surface Area: 2, Thickness: 2",
+      "P₁O₂: 300 mm Hg, PvO₂: 40 mm Hg, Surface Area: 1, Thickness: 2",
+      "P₁O₂: 150 mm Hg, PvO₂: 80 mm Hg, Surface Area: 1, Thickness: 1",
+      "P₁O₂: 190 mm Hg, PvO₂: 80 mm Hg, Surface Area: 2, Thickness: 2"
+    ],
+    "correct": 2,
+    "explanation": "The diffusion of O₂ from alveolar gas to pulmonary capillary blood is proportional to the partial pressure difference for O₂ between inspired air and mixed venous blood entering the pulmonary capillaries, proportional to the surface area for diffusion and inversely proportional to diffusion distance or thickness of the barrier."
+  },
+  {
+    "question": "A 48-year-old woman at sea level breaths a gas mixture containing 21% O₂. She has the following arterial blood gas values: PaO₂ = 60 mm Hg, PaCO₂ = 45 mm Hg. Her measured DL₅CO is normal. Which of the following is the cause of her hypoxemia?",
+    "options": [
+      "The values demonstrate normal lung function",
+      "Hypoventilation",
+      "Fibrosis",
+      "Carbon monoxide poisoning",
+      "Right-to-left shunt"
+    ],
+    "correct": 4,
+    "explanation": "Since the woman is hypoxemic at sea level and breathing a mixture containing a normal % of O₂, she cannot have normal lung function. Also, because she is hypoxemic, she does not have carbon monoxide poisoning (which would decrease O₂ content of blood but would not decrease PaO₂). Right-to-left shunt as the cause of the woman’s hypoxemia is further supported by calculating the A–a gradient as follows. P₁O₂ = (760 mm Hg - 47 mm Hg) × 0.21 = 150 mm Hg, PaO₂ = 150 mm Hg - 45 mm Hg/0.8 = 94 mm Hg. A–a gradient = 94 mm Hg – 60 mm Hg = 34 mm Hg, which is increased and consistent with right-to-left shunt."
+  },
+  {
+    "question": "A 62-year-old man at sea level breaths a gas mixture containing 21% O₂. He has the following arterial blood gas values: PaO₂ = 60 mm Hg, PaCO₂ = 70 mm Hg. Which of the following is the cause of his hypoxemia?",
+    "options": [
+      "Hypoventilation",
+      "Fibrosis",
+      "V/Q defect",
+      "Right-to-left shunt",
+      "Anemia"
+    ],
+    "correct": 0,
+    "explanation": "Anemia (or decreased hemoglobin concentration) is eliminated because it causes decreased O₂ content of blood but does not cause hypoxemia. The remaining choices all cause hypoxemia. Calculating the A–a gradient distinguishes between these causes as follows: P₁O₂ = (760 mm Hg - 47 mm Hg) × 0.21 = 150 mm Hg, PaO₂ = 150 mm Hg - 70 mm Hg/0.8 = 63 mm Hg. A–a gradient = 63 mm Hg – 60 mm Hg = 3 mm Hg, which is normal. Among the choices, the only cause of hypoxemia with a normal A–a gradient is hypoventilation, whereby PaO₂ is lowered by hypoventilation and PaO₂ equilibrates with that lowered value; since PaO₂ and PaO₂ are equilibrated (but lower than normal), they are essentially equal and A–a is close to zero, or normal. Fibrosis, V/Q defect, and right-to-left shunt all cause decreased PaO₂ that is not equilibrated with PaO₂ and thus cause increased A–a gradient."
+  },
+          {
             question: "What is the normal tidal volume in a healthy adult?",
             options: [
               "350 mL",
