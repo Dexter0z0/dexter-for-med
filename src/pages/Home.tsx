@@ -78,7 +78,7 @@ const Home: React.FC = () => {
               </span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-blue-100 leading-relaxed max-w-3xl mx-auto">
-              Created by Abdallah, a medical student at Al-Farabi Kazakh National University. 
+              Created by Abdallah, a medical student at Al-Farabi Kazakh National University.
               Comprehensive question bank with detailed explanations to enhance your academic performance.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
