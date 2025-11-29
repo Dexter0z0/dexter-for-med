@@ -13693,6 +13693,336 @@ export const systemsData: { [key: string]: SystemData } = {
       physiology: {
         questions: [
           {
+            question: "In a patient with hypoalbuminemia, the decreased plasma oncotic pressure will have what effect on glomerular filtration rate (GFR) and filtration fraction (FF)?",
+            options: [
+              "Decrease GFR, decrease FF",
+              "Increase GFR, increase FF",
+              "Increase GFR, no change in FF",
+              "Decrease GFR, increase FF"
+            ],
+            correct: 1,
+            explanation: "Lower plasma oncotic pressure reduces the force opposing ultrafiltration at the glomerulus, raising net filtration pressure and GFR; renal plasma flow is largely unchanged, so filtration fraction increases."
+          },
+          {
+            question: "A patient has a glomerular filtration rate (GFR) of 125 mL/min and renal plasma flow (RPF) of 625 mL/min. What is the filtration fraction (FF)?",
+            options: [
+              "0.05",
+              "0.20",
+              "0.25",
+              "0.50"
+            ],
+            correct: 1,
+            explanation: "Filtration fraction is the ratio of GFR to RPF: FF = 125/625 = 0.20."
+          },
+          {
+            question: "Which mechanism primarily mediates the rapid intrinsic autoregulation of glomerular filtration rate (GFR) in response to an acute rise in systemic blood pressure?",
+            options: [
+              "Afferent arteriole myogenic vasoconstriction",
+              "Efferent arteriole dilation",
+              "Increased renin secretion",
+              "Decreased sympathetic tone"
+            ],
+            correct: 0,
+            explanation: "The myogenic response of the afferent arteriole (smooth muscle stretch leading to constriction) quickly counters sudden increases in blood pressure, stabilizing GFR independent of hormonal signals."
+          },
+          {
+            question: "Selective dilation of the afferent arteriole (with no change in the efferent arteriole) would have which of the following effects on GFR, RPF, and filtration fraction (FF)?",
+            options: [
+              "Increase GFR, increase RPF, no change in FF",
+              "Increase GFR, no change in RPF, increase FF",
+              "Decrease GFR, decrease RPF, no change in FF",
+              "Increase GFR, increase RPF, increase FF"
+            ],
+            correct: 0,
+            explanation: "Dilation of the afferent arteriole raises both GFR and renal plasma flow by increasing blood flow into glomerulus. Since both increase proportionally, filtration fraction (GFR/RPF) remains roughly unchanged."
+          },
+          {
+            question: "Selective dilation of the efferent arteriole (with no change in the afferent arteriole) would produce which effect on GFR, RPF, and FF?",
+            options: [
+              "Decrease GFR, increase RPF, decrease FF",
+              "Decrease GFR, increase RPF, no change in FF",
+              "Increase GFR, increase RPF, no change in FF",
+              "Decrease GFR, decrease RPF, decrease FF"
+            ],
+            correct: 0,
+            explanation: "Efferent arteriole dilation lowers glomerular pressure, reducing GFR, while allowing more blood (higher RPF) to exit, so FF (GFR/RPF) decreases."
+          },
+          {
+            question: "Loop diuretics like furosemide cause increased urinary calcium excretion primarily because:",
+            options: [
+              "They directly inhibit calcium channels in the distal tubule",
+              "They diminish the lumen-positive transepithelial potential in the thick ascending limb",
+              "They inhibit parathyroid hormone release",
+              "They cause volume contraction which secondarily increases calcium loss"
+            ],
+            correct: 1,
+            explanation: "By blocking the NKCC2 cotransporter in the thick ascending limb, loop diuretics abolish the lumen-positive potential difference that normally drives paracellular reabsorption of Ca2+ and Mg2+, increasing their excretion."
+          },
+          {
+            question: "Thiazide diuretics typically reduce urinary calcium excretion. This effect is due to:",
+            options: [
+              "Enhanced proximal tubule calcium reabsorption due to volume contraction",
+              "Inhibition of TRPV5 calcium channels in the distal tubule",
+              "Increased calcium reabsorption in the distal tubule due to a reduced intracellular sodium concentration",
+              "Stimulation of parathyroid hormone secretion"
+            ],
+            correct: 2,
+            explanation: "Thiazides block the Na-Cl cotransporter in distal convoluted tubule, lowering intracellular Na+ which increases activity of the basolateral Na+/Ca2+ exchanger; this promotes increased Ca2+ reabsorption from the lumen."
+          },
+          {
+            question: "Acetazolamide (a carbonic anhydrase inhibitor) causes which primary acid-base disturbance and why?",
+            options: [
+              "Metabolic acidosis, due to loss of bicarbonate in the urine",
+              "Metabolic alkalosis, due to loss of chloride in the urine",
+              "Respiratory acidosis, due to hypoventilation",
+              "Metabolic alkalosis, due to increased bicarbonate reabsorption"
+            ],
+            correct: 0,
+            explanation: "Carbonic anhydrase inhibitors prevent bicarbonate reabsorption in the proximal tubule, leading to bicarbonaturia and a primary metabolic acidosis."
+          },
+          {
+            question: "Type I (distal) renal tubular acidosis is characterized by which of the following?",
+            options: [
+              "Failure of the proximal tubule to reabsorb filtered bicarbonate",
+              "Inability of the collecting duct to secrete hydrogen ions, resulting in urine pH that remains above 5.5",
+              "Excessive loss of bicarbonate in the urine due to carbonic anhydrase deficiency",
+              "Overproduction of ammonia by the proximal tubule"
+            ],
+            correct: 1,
+            explanation: "Type I RTA involves a defect in hydrogen ion secretion by the alpha-intercalated cells of the collecting duct, so the urine cannot be acidified (pH stays >5.5) despite systemic acidosis."
+          },
+          {
+            question: "Type IV renal tubular acidosis often results from hypoaldosteronism. What best explains the acidosis in this condition?",
+            options: [
+              "Excess aldosterone causes increased H+ secretion",
+              "Reduced aldosterone levels lead to hyperkalemia, which impairs ammoniagenesis in the proximal tubule",
+              "Increased excretion of bicarbonate due to defective carbonic anhydrase",
+              "Inability to reabsorb sodium in the loop of Henle"
+            ],
+            correct: 1,
+            explanation: "In type IV RTA, low aldosterone (or resistance) causes hyperkalemia. High K+ levels inhibit proximal tubule ammoniagenesis, so less NH4+ is produced to buffer H+, leading to acidosis."
+          },
+          {
+            question: "Which statement correctly describes the role of urea in the kidney's ability to concentrate urine?",
+            options: [
+              "Urea is actively transported into the thin ascending limb to add solute to the medullary interstitium",
+              "Urea recycling contributes to a high medullary osmotic gradient by being reabsorbed from the inner medullary collecting duct",
+              "Urea keeps water in the filtrate to facilitate water reabsorption",
+              "Urea causes vasoconstriction of the vasa recta to prevent washout of the medullary gradient"
+            ],
+            correct: 1,
+            explanation: "Under high ADH, the inner medullary collecting duct becomes permeable to urea, which diffuses into the medullary interstitium. This recycling of urea maintains the high osmolarity necessary for maximal water reabsorption."
+          },
+          {
+            question: "What is the primary function of the vasa recta in the kidney?",
+            options: [
+              "Deliver hormones to the nephron",
+              "Provide the necessary osmotic gradient for water reabsorption by actively pumping solutes",
+              "Countercurrent exchange to maintain the medullary osmotic gradient",
+              "Filter plasma proteins to prevent proteinuria"
+            ],
+            correct: 2,
+            explanation: "The vasa recta blood vessels follow a countercurrent pattern that helps preserve the medullary solute gradient by equilibrating solute and water, rather than washing it away; they do not actively pump solutes."
+          },
+          {
+            question: "Chronic use of loop diuretics most directly impairs the kidney’s ability to concentrate urine because:",
+            options: [
+              "They block aquaporin insertion in collecting duct",
+              "They destroy the medullary osmotic gradient by inhibiting salt reabsorption in the thick ascending limb",
+              "They inhibit the action of antidiuretic hormone (ADH) on V2 receptors",
+              "They cause hypovolemia, which prevents concentration"
+            ],
+            correct: 1,
+            explanation: "Loop diuretics inhibit the Na-K-2Cl transporter in the thick ascending limb, which is crucial for generating the high osmolarity of the medullary interstitium. Without this gradient, the kidney cannot concentrate urine effectively."
+          },
+          {
+            question: "A patient with nephrogenic diabetes insipidus will exhibit which of the following after administration of exogenous ADH (vasopressin)?",
+            options: [
+              "A marked increase in urine osmolality",
+              "No significant change in urine output or osmolality",
+              "Severe hyponatremia",
+              "A decrease in glomerular filtration rate"
+            ],
+            correct: 1,
+            explanation: "In nephrogenic DI, the collecting ducts are unresponsive to ADH, so giving ADH has little effect. The patient continues to produce dilute urine with no significant change in osmolarity."
+          },
+          {
+            question: "In the syndrome of inappropriate ADH (SIADH), free water clearance is typically:",
+            options: [
+              "Positive, leading to diuresis and hypernatremia",
+              "Zero, because the kidney cannot excrete any water",
+              "Negative, because water is retained relative to solute excretion",
+              "Unchanged, because glomerular filtration is unaffected"
+            ],
+            correct: 2,
+            explanation: "SIADH causes excessive water reabsorption relative to solute, so the urine is more concentrated than plasma, resulting in a negative free water clearance (body retains free water)."
+          },
+          {
+            question: "Beta-1 adrenergic blockers reduce renin release by acting on which part of the juxtaglomerular apparatus?",
+            options: [
+              "Macula densa cells",
+              "Afferent arteriole baroreceptors within the juxtaglomerular cells",
+              "Sympathetic nerves innervating the medulla",
+              "Efferent arteriole smooth muscle"
+            ],
+            correct: 1,
+            explanation: "Beta-1 receptors are located on the juxtaglomerular cells of the afferent arteriole, which respond to sympathetic stimulation by releasing renin; blocking these receptors decreases renin secretion."
+          },
+          {
+            question: "Nonsteroidal anti-inflammatory drugs (NSAIDs) can cause renal vasoconstriction by inhibiting prostaglandins. Which arteriole is primarily affected, and what happens to GFR?",
+            options: [
+              "Efferent arteriole constriction; GFR increases",
+              "Afferent arteriole dilation; GFR decreases",
+              "Afferent arteriole constriction; GFR decreases",
+              "Efferent arteriole dilation; GFR increases"
+            ],
+            correct: 2,
+            explanation: "Prostaglandins normally dilate the afferent arteriole to maintain GFR, especially in low blood flow states. NSAIDs block prostaglandin synthesis, leading to afferent constriction and reduced GFR."
+          },
+          {
+            question: "Angiotensin II increases sodium and bicarbonate reabsorption in the proximal tubule by stimulating which transporter?",
+            options: [
+              "Na+-glucose symporter (SGLT2)",
+              "Na+-H+ exchanger (NHE3)",
+              "Na+-K+-2Cl- cotransporter (NKCC2)",
+              "Na+-Cl- cotransporter (NCC)"
+            ],
+            correct: 1,
+            explanation: "Angiotensin II stimulates the Na^+/H^+ exchanger (NHE3) on the apical membrane of proximal tubule cells, enhancing sodium uptake in exchange for H^+, which drives increased bicarbonate reabsorption."
+          },
+          {
+            question: "Which segment of the nephron is impermeable to water but actively reabsorbs sodium and chloride?",
+            options: [
+              "Proximal convoluted tubule",
+              "Thin descending limb of loop of Henle",
+              "Thick ascending limb of loop of Henle",
+              "Collecting duct"
+            ],
+            correct: 2,
+            explanation: "The thick ascending limb (diluting segment) reabsorbs NaCl via the NKCC2 transporter but is impermeable to water, allowing it to dilute the tubular fluid."
+          },
+          {
+            question: "Among the forces governing glomerular filtration, which one normally opposes the filtration of plasma into Bowman's space?",
+            options: [
+              "Bowman's space hydrostatic pressure",
+              "Glomerular capillary hydrostatic pressure",
+              "Plasma oncotic (colloid) pressure in glomerular capillaries",
+              "Interstitial oncotic pressure"
+            ],
+            correct: 2,
+            explanation: "Plasma oncotic pressure in the glomerular capillaries (due to plasma proteins) opposes filtration by pulling water back into capillaries; Bowman's space hydrostatic pressure also opposes filtration but is usually smaller than the oncotic pressure under normal conditions."
+          },
+          {
+            question: "Administration of spironolactone, a potassium-sparing diuretic, most likely leads to:",
+            options: [
+              "Metabolic alkalosis due to increased H+ secretion",
+              "Hyperkalemia and metabolic acidosis due to reduced hydrogen secretion in the collecting duct",
+              "Hypokalemia and metabolic alkalosis due to increased aldosterone effect",
+              "Hypernatremia due to excessive sodium retention"
+            ],
+            correct: 1,
+            explanation: "Spironolactone blocks aldosterone receptors in the collecting duct, causing K+ retention and decreased H+ secretion by α-intercalated cells. This results in hyperkalemia and a mild metabolic acidosis (type IV RTA)."
+          },
+          {
+            question: "A patient has metabolic alkalosis and hypokalemia similar to someone on a thiazide diuretic, but with low urinary calcium excretion. Which condition does this resemble?",
+            options: [
+              "Liddle syndrome",
+              "Bartter syndrome",
+              "Gitelman syndrome",
+              "Diuretic abuse"
+            ],
+            correct: 2,
+            explanation: "Gitelman syndrome affects the distal convoluted tubule (like chronic thiazide use), causing hypokalemia, metabolic alkalosis, and hypocalciuria. Bartter syndrome affects the loop of Henle (like loop diuretics) and causes hypercalciuria."
+          },
+          {
+            question: "Liddle syndrome is a genetic condition that leads to hypertension and hypokalemia. It causes these effects by:",
+            options: [
+              "Increased activity of the Na-Cl cotransporter in the distal tubule",
+              "Increased ENaC channel activity in the collecting duct",
+              "Overproduction of aldosterone",
+              "Inhibition of 11β-hydroxysteroid dehydrogenase"
+            ],
+            correct: 1,
+            explanation: "Liddle syndrome mimics hyperaldosteronism by increasing the number and activity of epithelial Na+ channels (ENaC) in the cortical collecting duct. This causes sodium retention, hypertension, and K+ wasting, despite low aldosterone levels."
+          },
+          {
+            question: "Which of the following substances is used to estimate effective renal plasma flow (ERPF) because it is almost completely cleared from the plasma during one pass through the kidneys?",
+            options: [
+              "Inulin",
+              "Creatinine",
+              "Para-aminohippurate (PAH)",
+              "Urea"
+            ],
+            correct: 2,
+            explanation: "PAH is nearly 100% extracted by the kidney in one pass (at low plasma concentrations), so its clearance approximates renal plasma flow (ERPF)."
+          },
+          {
+            question: "During chronic metabolic acidosis, the kidneys generate new bicarbonate primarily through which mechanism?",
+            options: [
+              "Increased reabsorption of filtered bicarbonate",
+              "Increased excretion of titratable acids like phosphate",
+              "Increased generation and excretion of ammonium (NH4+)",
+              "Increased filtration of albumin"
+            ],
+            correct: 2,
+            explanation: "In acidosis, the proximal tubule metabolizes glutamine to generate NH4+ and bicarbonate. The NH4+ is secreted into urine, effectively removing H+ and adding new HCO3− to the blood; this ammoniagenesis is a major source of new bicarbonate."
+          },
+          {
+            question: "Renal threshold for glucose is about 200 mg/dL. Above this plasma level, glucose appears in urine because:",
+            options: [
+              "The Na+/glucose transporters (SGLTs) in the proximal tubule are saturated",
+              "Glucose is actively secreted by the distal nephron",
+              "Glucose binds to osmotic diuretics in the tubule",
+              "Glomerular filtration of glucose suddenly increases"
+            ],
+            correct: 0,
+            explanation: "When blood glucose exceeds ~200 mg/dL, the filtered load of glucose exceeds the reabsorptive capacity of SGLT transporters in the proximal tubule, so glucose spills into the urine."
+          },
+          {
+            question: "A patient with metabolic alkalosis due to prolonged vomiting would most likely have which urinary electrolyte finding?",
+            options: [
+              "High urine chloride concentration",
+              "Low urine chloride concentration",
+              "High urine bicarbonate concentration",
+              "High urine potassium concentration"
+            ],
+            correct: 1,
+            explanation: "Vomiting leads to loss of HCl, causing metabolic alkalosis and chloride depletion. The kidney conserves chloride in this setting, so urine chloride is low. High urinary bicarbonate would not be seen due to volume and Cl- depletion."
+          },
+          {
+            question: "An increase in NaCl delivery to the macula densa cells of the juxtaglomerular apparatus leads to which change in renin secretion?",
+            options: [
+              "Increased renin release via activation of Beta-1 receptors",
+              "Decreased renin release via adenosine-mediated afferent constriction",
+              "No change in renin because RAAS acts only on volume status",
+              "Increased renin release via prostaglandin-mediated dilation"
+            ],
+            correct: 1,
+            explanation: "High NaCl at the macula densa triggers tubuloglomerular feedback, causing release of adenosine which constricts the afferent arteriole and suppresses renin secretion, lowering RAAS activity."
+          },
+          {
+            question: "Atrial natriuretic peptide (ANP) has which of the following primary effects on renal hemodynamics?",
+            options: [
+              "Constricts afferent arteriole, decreasing GFR",
+              "Dilates efferent arteriole, decreasing GFR",
+              "Dilates afferent arteriole and increases GFR",
+              "Stimulates renin release to increase blood pressure"
+            ],
+            correct: 2,
+            explanation: "ANP dilates the afferent arteriole (and may constrict efferent slightly), leading to increased glomerular pressure and GFR. This promotes natriuresis and diuresis to reduce blood volume and pressure."
+          },
+          {
+            question: "Aldosterone increases sodium reabsorption and potassium secretion primarily by acting on which cells in the nephron?",
+            options: [
+              "Proximal tubule cells",
+              "Thick ascending limb cells",
+              "Principal cells of the collecting duct",
+              "Intercalated cells of the collecting duct"
+            ],
+            correct: 2,
+            explanation: "Aldosterone acts on the principal cells of the cortical collecting duct, upregulating epithelial sodium channels (ENaC) and Na+/K+ ATPase to increase Na+ reabsorption and K+ secretion."
+          },
+          {
             question: "What is the normal glomerular filtration rate (GFR) in healthy adults?",
             options: [
               "60-80 mL/min/1.73m²",
