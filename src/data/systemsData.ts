@@ -12340,6 +12340,366 @@ export const systemsData: { [key: string]: SystemData } = {
       },
       physiology: {
         questions: [
+            {
+              "question": "A 52-year-old female presents with severe, intractable watery diarrhea, hypokalemia, and achlorhydria. A CT scan identifies a mass in the tail of the pancreas. Molecular analysis of the tumor cells reveals constitutive overexpression of a specific peptide hormone. At the cellular level, the massive fluid secretion observed in this patient is primarily driven by the activation of which intracellular signaling pathway in the intestinal crypt cells?",
+              "options": [
+                "Activation of Phospholipase C and generation of IP3/DAG",
+                "Activation of Guanylyl Cyclase and generation of cGMP",
+                "Activation of Adenylyl Cyclase and generation of cAMP",
+                "Tyrosine kinase phosphorylation of STAT proteins",
+                "Opening of voltage-gated Calcium channels"
+              ],
+              "correct": 2,
+              "explanation": "This patient has a VIPoma (WDHA syndrome). Vasoactive Intestinal Peptide (VIP) binds to receptors on intestinal crypt cells, activating Adenylyl Cyclase, increasing cAMP, and phosphorylating the CFTR channel to drive massive chloride and fluid secretion."
+            },
+            {
+              "question": "A researcher is investigating the regulation of gastric acid secretion using a murine model. She administers a novel pharmacological agent that selectively antagonizes the H2 receptors on parietal cells. Despite administering a high dose of gastrin, the acid output is significantly lower than expected compared to the control group. This phenomenon is best explained by the loss of:",
+              "options": [
+                "Vagal stimulation of the enteric nervous system",
+                "Negative feedback inhibition by somatostatin",
+                "Potentiation between histamine and gastrin signaling pathways",
+                "Direct stimulation of the H+/K+ ATPase by gastrin",
+                "Acetylcholine release from postganglionic parasympathetic neurons"
+              ],
+              "correct": 2,
+              "explanation": "Histamine potentiates the effects of gastrin and acetylcholine on parietal cells. Blocking H2 receptors removes this potentiation, significantly reducing the acid secretory response to gastrin even if gastrin levels are high."
+            },
+            {
+              "question": "A 24-year-old male with a history of Crohn's disease undergoes extensive resection of the terminal ileum. Two years later, he presents with flank pain and hematuria. Ultrasound reveals multiple renal calculi composed of calcium oxalate. The primary physiological mechanism leading to stone formation in this patient is:",
+              "options": [
+                "Increased intestinal absorption of Calcium due to Vitamin D excess",
+                "Decreased binding of oxalate to calcium in the intestinal lumen, allowing free oxalate absorption",
+                "Decreased renal excretion of citrate",
+                "Increased hepatic synthesis of oxalate",
+                "Hyperparathyroidism secondary to calcium malabsorption"
+              ],
+              "correct": 1,
+              "explanation": "In fat malabsorption (due to bile salt loss from ileal resection), unabsorbed fatty acids bind calcium in the gut lumen. Normally, calcium binds oxalate to form insoluble calcium oxalate which is excreted. With calcium bound to fats, oxalate remains free and is hyper-absorbed in the colon, leading to hyperoxaluria and kidney stones."
+            },
+            {
+              "question": "A 3-week-old male infant presents with non-bilious projectile vomiting immediately after feeding. Physical examination reveals a palpable 'olive-like' mass in the epigastrium. Laboratory results show a hypochloremic metabolic alkalosis. Which of the following transport processes is primarily responsible for the maintenance of the metabolic alkalosis in this patient?",
+              "options": [
+                "Decreased renal reabsorption of Na+",
+                "Increased renal secretion of H+ in exchange for K+",
+                "Shift of H+ from the intracellular to extracellular compartment",
+                "Increased renal reabsorption of HCO3- due to volume contraction and chloride depletion",
+                "Loss of bicarbonate in the vomitus"
+              ],
+              "correct": 3,
+              "explanation": "While vomiting initiates the alkalosis, it is maintained by the kidney. Volume depletion stimulates aldosterone (Na+ retention/H+ secretion), and chloride depletion prevents HCO3- excretion (via pendrin/Cl- exchange). The kidney is forced to reabsorb HCO3- to maintain electroneutrality with Na+, perpetuating the alkalosis ('contraction alkalosis')."
+            },
+            {
+              "question": "A 45-year-old female is evaluated for suspected gastroparesis. Manometric studies of the stomach reveal a lack of receptive relaxation in the orad stomach upon swallowing. This physiological defect significantly increases intragastric pressure during eating. The dysfunction is most likely localized to which neural pathway?",
+              "options": [
+                "Sympathetic postganglionic fibers releasing Norepinephrine",
+                "Excitatory vagal fibers releasing Acetylcholine",
+                "Inhibitory vagal fibers releasing Vasoactive Intestinal Peptide (VIP) and Nitric Oxide",
+                "Intrinsic primary afferent neurons sensing distension",
+                "Pharyngeal motor neurons in the Nucleus Ambiguus"
+              ],
+              "correct": 2,
+              "explanation": "Receptive relaxation is a vagovagal reflex where inhibitory neurons in the myenteric plexus release NO and VIP to relax the proximal stomach. Loss of this inhibition leads to high intragastric pressure and early satiety."
+            },
+            {
+              "question": "A 60-year-old male with severe alcoholic cirrhosis presents with coagulopathy and ascites. His prothrombin time is significantly prolonged. In addition to hepatic synthetic failure, the absorption of the vitamin required for the carboxylation of clotting factors II, VII, IX, and X may be impaired. This specific impairment is most directly caused by:",
+              "options": [
+                "Deficiency of pancreatic proteases",
+                "Reduced synthesis of apoprotein B-48",
+                "Decreased intraluminal concentration of bile acid micelles",
+                "Atrophy of the ileal mucosa",
+                "Blockade of the SGLT-1 transporter"
+              ],
+              "correct": 2,
+              "explanation": "Vitamin K is fat-soluble and requires bile acid micelles for absorption. Cirrhosis leads to decreased bile acid synthesis and secretion, impairing micelle formation and thus Vitamin K absorption."
+            },
+            {
+              "question": "A physiology experiment demonstrates that perfusion of the duodenal lumen with a solution containing fatty acids and amino acids elicits a strong contraction of the gallbladder and simultaneous relaxation of the Sphincter of Oddi. If the experimental subject is pre-treated with a drug that blocks the neural component of this reflex, the gallbladder response is attenuated but not abolished. The remaining hormonal response is mediated by a peptide that signals via:",
+              "options": [
+                "Gs protein coupled receptors (cAMP)",
+                "Gq protein coupled receptors (IP3/Ca2+)",
+                "Gi protein coupled receptors (decreased cAMP)",
+                "Nuclear receptors regulating transcription",
+                "Tyrosine Kinase receptors"
+              ],
+              "correct": 1,
+              "explanation": "The hormone is CCK. CCK binds to CCK-A receptors on gallbladder smooth muscle. These are Gq-coupled receptors that activate Phospholipase C, generating IP3/DAG and increasing intracellular Calcium to cause contraction."
+            },
+            {
+              "question": "A 35-year-old female with a history of autoimmune disease presents with fatigue and paresthesias. A Schilling test confirms the diagnosis of Pernicious Anemia. Gastric biopsy reveals atrophy of the oxyntic mucosa. Which of the following profiles would most likely be observed in this patient's fasting serum?",
+              "options": [
+                "Low Gastrin, Low Pepsinogen I",
+                "High Gastrin, Low Pepsinogen I",
+                "High Gastrin, High Pepsinogen I",
+                "Low Gastrin, High Acid output",
+                "Normal Gastrin, Normal Intrinsic Factor"
+              ],
+              "correct": 1,
+              "explanation": "Pernicious anemia causes atrophy of parietal cells (no acid) and chief cells (low Pepsinogen I). The lack of acid (achlorhydria) removes negative feedback on G cells, leading to hypergastrinemia."
+            },
+            {
+              "question": "A 10-year-old boy is brought to the physician because of chronic diarrhea and failure to thrive. Stool analysis reveals a high fecal fat content (steatorrhea) and low fecal trypsin chymotrypsin levels. Sweat chloride test is positive. The malabsorption in this patient is primarily due to a defect in:",
+              "options": [
+                "The apical Cl-/HCO3- exchanger in the ileum",
+                "The apical Cl- channel (CFTR) in pancreatic ductal cells",
+                "The basolateral Na+/K+ ATPase in enterocytes",
+                "The H+/K+ ATPase in parietal cells",
+                "The Na+-bile acid cotransporter in the liver"
+              ],
+              "correct": 1,
+              "explanation": "In Cystic Fibrosis, the CFTR channel on pancreatic ductal cells is defective. This prevents the secretion of Chloride and Bicarbonate/fluid. The result is thick, viscous secretions that block the ducts, preventing enzymes from reaching the intestine (pancreatic insufficiency)."
+            },
+            {
+              "question": "During a study of intestinal motility, a healthy volunteer ingests a barostat bag to measure tone. During the interdigestive (fasting) phase, strong peristaltic contractions are recorded originating in the stomach and migrating distally. Administration of erythromycin, a macrolide antibiotic, is found to mimic this activity by acting as an agonist for which receptor?",
+              "options": [
+                "CCK-A receptor",
+                "Motilin receptor",
+                "Serotonin (5-HT3) receptor",
+                "Opioid (mu) receptor",
+                "Neurokinin-1 receptor"
+              ],
+              "correct": 1,
+              "explanation": "Erythromycin acts as a motilin receptor agonist. Motilin regulates the Migrating Motor Complex (MMC) during the fasting state."
+            },
+            {
+              "question": "A 55-year-old male undergoes a massive resection of the small intestine (150 cm of jejunum and ileum) following mesenteric ischemia. Post-operatively, he develops severe gastric hyperacidity and peptic ulceration. This 'hypersecretion' is best explained by the loss of the intestinal phase of gastric regulation, specifically the loss of:",
+              "options": [
+                "Secretin and Somatostatin",
+                "Gastrin and Histamine",
+                "Motilin and Ghrelin",
+                "Trypsin and Chymotrypsin",
+                "Intrinsic Factor and R-protein"
+              ],
+              "correct": 0,
+              "explanation": "The small intestine normally releases enterogastrones (Secretin, CCK, GIP) and triggers reflexes to inhibit gastric acid when chyme enters. Resecting a large portion of the intestine removes this inhibitory brake (specifically Secretin and Somatostatin feedback), leading to unopposed acid secretion."
+            },
+            {
+              "question": "A 28-year-old female with Irritable Bowel Syndrome (IBS) participates in a study of colonic transport. Perfusion of the colonic lumen with short-chain fatty acids (SCFAs) such as butyrate is shown to significantly enhance sodium absorption. The proposed mechanism for this effect involves:",
+              "options": [
+                "Cotransport of Na+ and SCFA via SGLT-1",
+                "Activation of the Na+/H+ exchanger by intracellular acidification caused by SCFA diffusion",
+                "Direct stimulation of the Na+/K+ ATPase by SCFAs",
+                "Solvent drag of Na+ through paracellular junctions",
+                "Inhibition of Cl- secretion by SCFAs"
+              ],
+              "correct": 1,
+              "explanation": "SCFAs enter colonocytes and acidify the cytoplasm. This drop in pH activates the apical Na+/H+ exchanger to pump H+ out (restoring pH) and bringing Na+ in, thus enhancing Na+ absorption."
+            },
+            {
+              "question": "A 65-year-old male with a history of chronic NSAID use presents with epigastric pain. Endoscopy reveals a gastric ulcer. The protective barrier of the gastric mucosa relies heavily on the secretion of mucus and bicarbonate. Which of the following agents acts to enhance this barrier by stimulating mucus and bicarbonate secretion and increasing mucosal blood flow?",
+              "options": [
+                "Prostaglandin E2",
+                "Histamine",
+                "Gastrin",
+                "Acetylcholine",
+                "Thromboxane A2"
+              ],
+              "correct": 0,
+              "explanation": "Prostaglandins (PGE2) are cytoprotective. They stimulate mucus and bicarbonate secretion and maintain mucosal blood flow. NSAIDs inhibit COX enzymes, reducing prostaglandins and predisposing to ulcers."
+            },
+            {
+              "question": "An experimental drug is developed that specifically blocks the brush border enzyme 'Enterokinase' (Enteropeptidase). Administration of this drug to a healthy subject would result in the widespread failure to activate which of the following sets of enzymes?",
+              "options": [
+                "Amylase and Lipase",
+                "Pepsin and Gastric Lipase",
+                "Trypsin, Chymotrypsin, and Carboxypeptidase",
+                "Sucrase, Maltase, and Lactase",
+                "Trehalase and Dipeptidase"
+              ],
+              "correct": 2,
+              "explanation": "Enterokinase activates Trypsinogen to Trypsin. Trypsin then activates all other pancreatic proteolytic zymogens (Chymotrypsinogen, Procarboxypeptidase, etc.). Without Enterokinase, this cascade fails."
+            },
+            {
+              "question": "A patient with severe hypertriglyceridemia is diagnosed with Abetalipoproteinemia (lack of functional MTP). Consequently, enterocytes are unable to assemble chylomicrons. Biopsy of the small intestine in this patient would essentially show:",
+              "options": [
+                "Atrophy of the villi",
+                "Enterocytes engorged with lipid droplets",
+                "Absence of microvilli",
+                "Hyperplasia of crypt cells",
+                "Infiltration of macrophages in the lamina propria"
+              ],
+              "correct": 1,
+              "explanation": "Without MTP and Apo B-48, enterocytes cannot export re-esterified triglycerides as chylomicrons. The lipids accumulate within the cell, giving the enterocytes a vacuolated, engorged appearance."
+            },
+            {
+              "question": "A 40-year-old male complains of post-prandial chest pain and dysphagia. Manometry shows simultaneous, high-amplitude, non-peristaltic contractions of the esophageal body ('corkscrew esophagus') but normal LES relaxation. This presentation is most consistent with:",
+              "options": [
+                "Achalasia",
+                "Diffuse Esophageal Spasm (DES)",
+                "Scleroderma",
+                "GERD",
+                "Zenker's Diverticulum"
+              ],
+              "correct": 1,
+              "explanation": "DES is characterized by uncoordinated, simultaneous high-amplitude contractions. Unlike achalasia, the Lower Esophageal Sphincter (LES) relaxation is typically preserved."
+            },
+            {
+              "question": "In the regulation of pancreatic secretion, the 'Cephalic Phase' accounts for approximately 20-25% of the enzyme response. This phase is mediated primarily by:",
+              "options": [
+                "Release of Secretin from S-cells",
+                "Release of CCK from I-cells",
+                "Vagal cholinergic stimulation of acinar cells",
+                "Sympathetic stimulation of ductal cells",
+                "Distension of the stomach antrum"
+              ],
+              "correct": 2,
+              "explanation": "The cephalic phase is mediated by the vagus nerve, which releases Acetylcholine directly onto pancreatic acinar cells to stimulate enzyme secretion."
+            },
+            {
+              "question": "A 50-year-old male with alcoholic liver disease has a portal hypertension gradient of 20 mmHg. Which of the following hemodynamic changes is most likely contributing to the increased portal pressure in this patient?",
+              "options": [
+                "Vasoconstriction of the splanchnic arterioles",
+                "Increased resistance to blood flow within the hepatic sinusoids",
+                "Increased compliance of the portal vein",
+                "Decreased cardiac output",
+                "Reduced blood volume"
+              ],
+              "correct": 1,
+              "explanation": "Portal hypertension is caused by increased resistance to flow (due to hepatic architecture distortion/fibrosis) and increased splanchnic inflow. The primary intrahepatic factor is increased resistance."
+            },
+            {
+              "question": "A scientist is studying the apical transport of iron in the duodenum. She identifies a transporter that imports ferrous iron (Fe2+) and is coupled to a proton gradient. Expression of this transporter is upregulated in states of iron deficiency. This transporter is:",
+              "options": [
+                "Ferroportin",
+                "Hephaestin",
+                "Divalent Metal Transporter 1 (DMT1)",
+                "Transferrin Receptor",
+                "Ferritin"
+              ],
+              "correct": 2,
+              "explanation": "DMT1 acts on the apical membrane to transport Fe2+ (and other divalent metals) into the cell, coupled with H+."
+            },
+            {
+              "question": "A patient presents with 'dumping syndrome' following a partial gastrectomy. Rapid emptying of hyperosmolar chyme into the small intestine causes a fluid shift from the plasma to the intestinal lumen. Which autonomic reflex is triggered by the resulting hypovolemia and intestinal distension?",
+              "options": [
+                "Increased parasympathetic tone to the heart (Bradycardia)",
+                "Increased sympathetic tone (Tachycardia and vasoconstriction)",
+                "Relaxation of the internal anal sphincter",
+                "Inhibition of sweating",
+                "Suppression of release of Vasoactive Intestinal Peptide (VIP)"
+              ],
+              "correct": 1,
+              "explanation": "The fluid shift causes acute hypovolemia. Baroreceptors detect the drop in pressure and trigger a sympathetic response (tachycardia, palpitations) to compensate."
+            },
+            {
+              "question": "A 70-year-old female presents with signs of Vitamin B12 deficiency despite a diet rich in meat and dairy. A Schilling test using radiolabeled crystalline B12 is abnormal. However, when the test is repeated with the addition of exogenous Intrinsic Factor, absorption normalizes. This result localizes the defect to:",
+              "options": [
+                "The terminal ileum (Malabsorption)",
+                "The stomach (Pernicious Anemia/Gastric Atrophy)",
+                "Bacterial overgrowth in the small intestine",
+                "Pancreatic insufficiency",
+                "Dietary deficiency"
+              ],
+              "correct": 1,
+              "explanation": "If adding Intrinsic Factor corrects the malabsorption, the patient was lacking IF. Since IF is produced in the stomach, the defect is gastric (Pernicious Anemia)."
+            },
+            {
+              "question": "In the breakdown of carbohydrates, the brush border enzyme Lactase is essential for the hydrolysis of lactose. The products of this reaction are absorbed by the enterocyte via which mechanisms?",
+              "options": [
+                "SGLT-1 (Glucose) and SGLT-1 (Galactose)",
+                "SGLT-1 (Glucose) and GLUT-5 (Fructose)",
+                "GLUT-5 (Glucose) and GLUT-5 (Galactose)",
+                "GLUT-2 (Glucose) and Diffusion (Galactose)",
+                "SGLT-1 (Glucose) and Diffusion (Galactose)"
+              ],
+              "correct": 0,
+              "explanation": "Lactose breaks down into Glucose and Galactose. Both of these monosaccharides are transported across the apical membrane by SGLT-1 (Sodium-Glucose Linked Transporter 1)."
+            },
+            {
+              "question": "A 30-year-old male participates in a study of gastric acid secretion. He is given a bolus of intravenous glucose. Plasma insulin levels rise, followed by a significant increase in gastric acid secretion. This 'insulin-induced' acid secretion is mediated centrally by:",
+              "options": [
+                "Hyperglycemia sensing in the hypothalamus",
+                "Neuroglycopenia (low CNS glucose) activating vagal outflow",
+                "Direct insulin binding to parietal cells",
+                "Insulin inhibition of Somatostatin release",
+                "Increased sympathetic outflow"
+              ],
+              "correct": 1,
+              "explanation": "High insulin causes hypoglycemia. The brain (neuroglycopenia) senses the low glucose and activates the vagus nerve to stimulate gastric acid. This is the mechanism of the Hollander Insulin Test."
+            },
+            {
+              "question": "The secretion of bile by hepatocytes involves the active transport of bile acids into the canaliculus. Which of the following conditions would most likely result in a decrease in the 'bile acid-dependent' fraction of bile flow?",
+              "options": [
+                "Stimulation with Secretin",
+                "Ileal resection interrupting the enterohepatic circulation",
+                "High cholesterol diet",
+                "Vagotomy",
+                "Cholecystectomy"
+              ],
+              "correct": 1,
+              "explanation": "Bile acid-dependent flow depends on the amount of bile salts returning to the liver via enterohepatic circulation. Ileal resection breaks this loop, depleting the bile salt pool and reducing flow."
+            },
+            {
+              "question": "A newborn is diagnosed with Cystic Fibrosis. In the gastrointestinal tract, the CFTR channel is critically important for the function of the pancreatic ductal cell. Failure of this channel leads to:",
+              "options": [
+                "Increased volume of pancreatic juice",
+                "Decreased concentration of protein in pancreatic juice",
+                "Acidification of the duodenal lumen and precipitation of enzymes",
+                "Increased secretion of Bicarbonate",
+                "Enhanced absorption of fat"
+              ],
+              "correct": 2,
+              "explanation": "CFTR allows for HCO3- secretion. Without it, the pancreatic juice is low in volume and bicarbonate. The duodenal pH remains acidic, leading to the inactivation and precipitation of pancreatic enzymes."
+            },
+            {
+              "question": "A 45-year-old male with a history of peptic ulcer disease is treated with a drug that blocks the Muscarinic (M3) receptor. While this drug reduces basal acid secretion, it is less effective than PPIs because:",
+              "options": [
+                "It blocks the negative feedback of Somatostatin",
+                "It does not block the stimulation of the parietal cell by Histamine or Gastrin",
+                "It causes upregulation of the H+/K+ ATPase",
+                "It increases vagal tone reflexively",
+                "It inhibits the production of mucus"
+              ],
+              "correct": 1,
+              "explanation": "M3 blockers only stop the Acetylcholine pathway. The parietal cell can still be stimulated by Gastrin and Histamine. PPIs block the H+/K+ ATPase, which is the final common pathway for all stimuli."
+            },
+            {
+              "question": "Following a cholecystectomy, a patient asks how their digestion will be affected. You explain that while the gallbladder stores and concentrates bile, the liver continues to produce it. However, without a gallbladder, the patient may have difficulty tolerating:",
+              "options": [
+                "Large carbohydrate meals",
+                "Large, fatty meals",
+                "High protein meals",
+                "Acidic foods",
+                "Alcohol"
+              ],
+              "correct": 1,
+              "explanation": "Without the gallbladder to store and release a concentrated bolus of bile, the patient relies on the continuous trickle of dilute bile from the liver. This may be insufficient to emulsify a large load of fat."
+            },
+            {
+              "question": "A key mechanism for the absorption of Na+ in the jejunum during the post-prandial state is:",
+              "options": [
+                "Na+-Glucose and Na+-Amino Acid cotransport",
+                "ENaC channels (Aldosterone sensitive)",
+                "Na+-Cl- cotransport",
+                "Passive diffusion",
+                "Na+-H+ exchange only"
+              ],
+              "correct": 0,
+              "explanation": "In the jejunum after a meal, Na+ absorption is primarily coupled to the absorption of nutrients (glucose, amino acids) via cotransporters like SGLT1."
+            },
+            {
+              "question": "Which of the following describes the integration of the 'ileal brake' reflex?",
+              "options": [
+                "Presence of lipids in the distal ileum inhibits gastric emptying and jejunal motility",
+                "Presence of acid in the duodenum inhibits gastric emptying",
+                "Distension of the stomach stimulates evacuation of the colon",
+                "Rectal distension relaxes the internal anal sphincter",
+                "Fasting initiates the Migrating Motor Complex"
+              ],
+              "correct": 0,
+              "explanation": "The ileal brake is a feedback mechanism where undigested lipids reaching the distal ileum trigger the release of hormones (PYY, Neurotensin) to slow gastric emptying and intestinal motility."
+            },
+            {
+              "question": "In a patient with Zollinger-Ellison Syndrome, the massive acid load in the duodenum damages the mucosa and inactivates enzymes. However, the patient also presents with diarrhea. Aside from malabsorption, the diarrhea is contributed to by:",
+              "options": [
+                "The osmotic effect of the high acid load and undigested nutrients",
+                "Direct stimulation of colonic secretion by Gastrin",
+                "Inactivation of the Na+/K+ ATPase by low pH",
+                "Damage to the SGLT-1 transporter",
+                "Reflex increases in motility due to duodenal irritation"
+              ],
+              "correct": 0,
+              "explanation": "The high acid load inactivates enzymes, preventing digestion. The resulting undigested nutrients in the lumen create an osmotic load that draws water into the intestine, causing osmotic diarrhea."
+            },
           {
             question: "Which hormone stimulates gastric acid secretion?",
             options: [
