@@ -12700,6 +12700,474 @@ export const systemsData: { [key: string]: SystemData } = {
               "correct": 0,
               "explanation": "The high acid load inactivates enzymes, preventing digestion. The resulting undigested nutrients in the lumen create an osmotic load that draws water into the intestine, causing osmotic diarrhea."
             },
+            {
+              "question": "A researcher is studying the effects of a novel neurotoxin on the gastrointestinal tract. Histological analysis reveals that the toxin selectively destroys neurons located between the circular and longitudinal layers of the muscularis externa. Following administration of the toxin, which of the following physiological deficits would be most prominent in the affected segment?",
+              "options": [
+                "Loss of chemoreceptive ability to detect luminal pH",
+                "Inability to regulate blood flow to the submucosa",
+                "Paralysis of local glandular secretions",
+                "Disruption of coordinated peristaltic contractions",
+                "Loss of sensory input from the mucosal epithelium"
+              ],
+              "correct": 3,
+              "explanation": "The toxin targets the Myenteric (Auerbach) plexus, which resides between the muscle layers and controls GI motility. Its destruction leads to a loss of coordinated peristalsis. The Submucosal (Meissner) plexus controls blood flow and secretions."
+            },
+            {
+              "question": "A 55-year-old patient presents with dysphagia (difficulty swallowing). Manometric studies show normal pharyngeal constriction but a failure of the Lower Esophageal Sphincter (LES) to relax upon swallowing, accompanied by high resting pressure in the LES. Which of the following neural mechanisms is most likely deficient in this patient?",
+              "options": [
+                "Somatic motor stimulation via the hypoglossal nerve",
+                "Parasympathetic excitatory release of acetylcholine from the vagus nerve",
+                "Sympathetic inhibition via the superior cervical ganglion",
+                "Myenteric inhibitory release of nitric oxide (NO) and Vasoactive Intestinal Peptide (VIP)",
+                "Sensory afferent signaling via the glossopharyngeal nerve"
+              ],
+              "correct": 3,
+              "explanation": "This patient presents with Achalasia. Normal LES relaxation is mediated by inhibitory neurons in the myenteric plexus that release NO and VIP upon vagal stimulation. Loss of these inhibitory neurons results in the failure of the sphincter to relax."
+            },
+            {
+              "question": "During the cephalic phase of digestion, vagal stimulation triggers the release of hydrochloric acid (HCl) from parietal cells. Which of the following best describes the intracellular ionic events occurring within the parietal cell during maximal acid secretion?",
+              "options": [
+                "Apical H+/K+-ATPase pumps H+ into the cell in exchange for K+.",
+                "Bicarbonate (HCO3-) exits the basolateral membrane in exchange for Chloride (Cl-), creating an 'alkaline tide' in the venous blood.",
+                "Carbonic anhydrase creates CO2 and H2O from H+ and HCO3-.",
+                "Chloride (Cl-) is actively pumped into the lumen against its electrochemical gradient via a Na+/Cl- cotransporter.",
+                "Histamine binds to H1 receptors to synergistically increase intracellular calcium."
+              ],
+              "correct": 1,
+              "explanation": "Parietal cells generate H+ and HCO3- via carbonic anhydrase. The H+ is pumped into the lumen via the H+/K+-ATPase. The HCO3- is exported into the blood in exchange for Cl- (via Band 3 exchanger), causing the 'alkaline tide.' Note: Option A is incorrect because the pump moves H+ OUT of the cell."
+            },
+            {
+              "question": "A medical student is tracking gastric emptying rates in a healthy volunteer. It is observed that gastric emptying is significantly delayed when chyme enters the duodenum. This 'enterogastric' inhibition is primarily mediated by which combination of reflexes and hormones?",
+              "options": [
+                "Long vagovagal reflexes and the release of Gastrin",
+                "Short myenteric reflexes and the release of Motilin",
+                "Long sympathetic reflexes and the release of Cholecystokinin (CCK) and Secretin",
+                "Intrinsic stretch reflexes and the release of Ghrelin",
+                "Parasympathetic stimulation and the release of Histamine"
+              ],
+              "correct": 2,
+              "explanation": "The intestinal phase inhibits gastric emptying to prevent duodenal overload. This is mediated by the Enterogastric reflex (increasing sympathetic/decreasing parasympathetic tone) and the release of hormones like Secretin (response to acid) and CCK (response to fats) ."
+            },
+            {
+              "question": "A physiology student collects salivary samples from a volunteer. Analysis reveals that the saliva is hypotonic relative to plasma and has a high concentration of potassium and bicarbonate. Which of the following transport mechanisms in the salivary ductal cells is primarily responsible for this composition?",
+              "options": [
+                "Passive filtration of plasma across the acinar cells.",
+                "Active reabsorption of Na+ and Cl- combined with impermeability of the ductal epithelium to water.",
+                "Active secretion of Na+ and water by the ductal cells via the CFTR channel.",
+                "Constitutive reabsorption of K+ and secretion of Na+ driven by aldosterone.",
+                "Osmosis of water from the ducts into the interstitium following protein secretion."
+              ],
+              "correct": 1,
+              "explanation": "Primary saliva produced by acini is isotonic. As it flows through the ducts, ductal cells actively reabsorb Na+ and Cl- and secrete K+ and HCO3-. Because the ductal epithelium is relatively impermeable to water, the net removal of solute renders the final saliva hypotonic."
+            },
+            {
+              "question": "A 45-year-old male with a history of chronic NSAID use for back pain presents with epigastric pain. Endoscopy reveals a gastric ulcer. The pathophysiology of this condition involves the inhibition of cyclooxygenase (COX) enzymes. This inhibition leads to a reduction in which specific protective factor secreted by the surface mucous cells?",
+              "options": [
+                "Pepsinogen",
+                "Intrinsic Factor",
+                "Gastrin",
+                "Bicarbonate-rich mucus",
+                "Hydrochloric acid"
+              ],
+              "correct": 3,
+              "explanation": "Prostaglandins (E2 and I2) are critical for maintaining the gastric mucosal barrier. They stimulate surface mucous cells to secrete mucus and bicarbonate and increase mucosal blood flow. NSAIDs inhibit COX, reducing prostaglandin synthesis and compromising this protective barrier."
+            },
+            {
+              "question": "Proteolytic digestion in the stomach requires the conversion of pepsinogen to pepsin. Which of the following accurately describes the mechanism of this activation?",
+              "options": [
+                "Enterokinase cleaves pepsinogen in the gastric antrum.",
+                "Pepsinogen spontaneously activates upon binding to Vitamin B12.",
+                "Exposure to low pH (HCl) triggers a conformational change and autocatalytic cleavage of pepsinogen.",
+                "Gastrin directly phosphorylates pepsinogen to its active form.",
+                "Chief cells secrete active pepsin directly into the gastric lumen."
+              ],
+              "correct": 2,
+              "explanation": "Pepsinogen is a zymogen secreted by Chief cells. It is inactive at neutral pH. When exposed to the acidic environment created by Parietal cells (pH < 3), it undergoes spontaneous cleavage (autocatalysis) to form the active enzyme Pepsin."
+            },
+            {
+              "question": "Electrophysiological monitoring of the stomach smooth muscle reveals rhythmic fluctuations in membrane potential occurring approximately 3 times per minute. These 'slow waves' originate from which specialized cell type?",
+              "options": [
+                "Parietal cells",
+                "Enterochromaffin-like (ECL) cells",
+                "Interstitial cells of Cajal (ICC)",
+                "Myenteric neurons",
+                "Paneth cells"
+              ],
+              "correct": 2,
+              "explanation": "The Interstitial Cells of Cajal (ICC) act as the pacemakers of the GI tract. They generate the Basic Electrical Rhythm (BER) or slow waves, which set the frequency of contractions. In the stomach, this rate is approximately 3 waves per minute."
+            },
+            {
+              "question": "During the pharyngeal phase of swallowing, the bolus must be directed into the esophagus while protecting the airway. Which sequence of anatomical movements best ensures this protection?",
+              "options": [
+                "Depression of the larynx and opening of the upper esophageal sphincter.",
+                "Elevation of the soft palate, elevation of the larynx, and epiglottic retroversion.",
+                "Relaxation of the vocal cords and contraction of the pharyngeal constrictors.",
+                "Opening of the glottis and depression of the epiglottis.",
+                "Contraction of the soft palate against the tongue and depression of the hyoid bone."
+              ],
+              "correct": 1,
+              "explanation": "To prevent aspiration, the soft palate elevates (closing the nasopharynx), the larynx elevates (moving under the tongue base), and the epiglottis folds posteriorly (retroversion) to cover the laryngeal inlet. The vocal cords also adduct to seal the glottis."
+            },
+            {
+              "question": "A 42-year-old female presents with right upper quadrant pain exacerbated by fatty meals. Ultrasound confirms cholelithiasis (gallstones). The pain is caused by the contraction of the gallbladder against the obstructed cystic duct. Which hormone, released in response to fatty acids in the duodenum, is primarily responsible for this contraction?",
+              "options": [
+                "Secretin",
+                "Gastrin",
+                "Cholecystokinin (CCK)",
+                "Vasoactive Intestinal Peptide (VIP)",
+                "Motilin"
+              ],
+              "correct": 2,
+              "explanation": "Cholecystokinin (CCK) is released by I-cells in the duodenum in response to fatty acids and amino acids. It causes contraction of the gallbladder and relaxation of the Sphincter of Oddi to release bile for fat emulsification."
+            },
+            {
+              "question": "A histology slide of the liver reveals the classic hepatic lobule structure. In the 'Zone 3' hepatocytes surrounding the central vein, which of the following physiological processes is most active compared to Zone 1 (periportal)?",
+              "options": [
+                "Oxidative metabolism and gluconeogenesis",
+                "Cholesterol synthesis and urea formation",
+                "Cytochrome P450-mediated drug detoxification and glycolysis",
+                "Secretion of bile salts into canaliculi",
+                "Regeneration of hepatocytes following partial hepatectomy"
+              ],
+              "correct": 2,
+              "explanation": "Zone 3 (centrilobular) receives the least oxygenated blood. Therefore, it relies more on anaerobic metabolism (glycolysis) and is the primary site of drug detoxification (CYP450 system), making it most susceptible to ischemic injury and toxic metabolites (e.g., acetaminophen toxicity)."
+            },
+            {
+              "question": "The exocrine pancreas secretes a fluid rich in enzymes and bicarbonate. Which specific cellular mechanism in the pancreatic ductal cells acts as the primary driver for bicarbonate secretion into the lumen?",
+              "options": [
+                "CFTR chloride channel recycling Cl- to drive a luminal Cl-/HCO3- exchanger",
+                "Direct active transport of HCO3- via a luminal H+/HCO3- ATPase",
+                "Paracellular diffusion of HCO3- followed by water",
+                "Basolateral Na+/K+/2Cl- cotransport driving apical HCO3- release",
+                "Carbonic anhydrase type IV located on the apical membrane only"
+              ],
+              "correct": 0,
+              "explanation": "Ductal secretion of bicarbonate depends on the CFTR channel.  CFTR allows Cl- to flow into the lumen, which is then pumped back into the cell in exchange for HCO3- via a Cl-/HCO3- exchanger. This ensures a high concentration of bicarbonate in pancreatic juice to neutralize gastric acid."
+            },
+            {
+              "question": "Contact digestion is a critical final step in carbohydrate and protein metabolism. Where specifically are the enzymes responsible for this process located?",
+              "options": [
+                "Freely dissolved in the unstirred water layer",
+                "Anchored to the brush border (microvilli) of enterocytes",
+                "Inside the lysosomes of the enterocytes",
+                "Within the crypts of Lieberkühn",
+                "Secreted by Paneth cells into the lumen"
+              ],
+              "correct": 1,
+              "explanation": "Contact digestion refers to the hydrolysis of oligomers (like sucrose, lactose, and small peptides) by enzymes (disaccharidases and peptidases) that are integral membrane proteins anchored to the brush border (microvilli) of the small intestinal enterocytes."
+            },
+            {
+              "question": "A patient with Crohn's disease undergoes a resection of the terminal ileum. Following recovery, the patient experiences steatorrhea (fat malabsorption). This is most likely due to the interruption of which physiological cycle?",
+              "options": [
+                "The Cori cycle",
+                "The Urea cycle",
+                "The Enterohepatic circulation of bile salts",
+                "The Glucose-Alanine cycle",
+                "The secretion of pancreatic lipase"
+              ],
+              "correct": 2,
+              "explanation": "The terminal ileum is the specific site for the active reabsorption of bile salts. Loss of this region disrupts enterohepatic circulation, leading to a depletion of the bile salt pool. Without adequate bile salts, fat emulsification and micelle formation fail, causing fat malabsorption."
+            },
+            {
+              "question": "The small intestine exhibits unique motility patterns depending on the fed or fasted state. During fasting, a cyclic pattern of peristaltic waves sweeps from the stomach to the ileum every 90 minutes to clear debris and bacteria. What is this pattern called, and which hormone regulates it?",
+              "options": [
+                "Segmentation; Gastrin",
+                "Haustral churning; CCK",
+                "Migrating Motor Complex (MMC); Motilin",
+                "Mass movement; Serotonin",
+                "Defecation reflex; Acetylcholine"
+              ],
+              "correct": 2,
+              "explanation": "The Migrating Motor Complex (MMC) occurs during the interdigestive (fasting) state. It is a wave of intense peristalsis mediated by the hormone Motilin, serving as the 'housekeeper' of the small intestine."
+            },
+            {
+              "question": "Histologically, the colon differs significantly from the small intestine. Which of the following features is characteristic of the colonic mucosa but absent in the small intestine?",
+              "options": [
+                "Presence of Peyer's patches",
+                "Presence of circular folds (Plicae circulares)",
+                "Absence of villi and a predominance of goblet cells",
+                "Presence of Paneth cells at the base of crypts",
+                "Stratified squamous epithelium"
+              ],
+              "correct": 2,
+              "explanation": "The colonic mucosa lacks villi (which are key to the small intestine's surface area) and plicae circulares. Instead, it has deep crypts and a very high density of goblet cells to produce mucus for lubricating the dehydrating feces."
+            },
+            {
+              "question": "The gut microbiome plays a significant role in human physiology. Beyond competitive exclusion of pathogens, what is a primary metabolic benefit provided by colonic bacteria to the host?",
+              "options": [
+                "Synthesis of Intrinsic Factor",
+                "Fermentation of indigestible carbohydrates into short-chain fatty acids (SCFAs)",
+                "Digestion of long-chain fatty acids for lymphatic absorption",
+                "Conversion of pepsinogen to pepsin",
+                "Primary secretion of IgA"
+              ],
+              "correct": 1,
+              "explanation": "Colonic bacteria ferment undigested fibers (cellulose, resistant starch) into short-chain fatty acids like butyrate, propionate, and acetate. Butyrate, in particular, is the primary energy source for colonocytes and helps maintain mucosal health."
+            },
+            {
+              "question": "Mass movements in the colon are powerful, sustained contractions that propel fecal matter toward the rectum. These movements are often triggered shortly after a meal by the 'gastrocolic reflex.' Which division of the nervous system mediates the rapid component of this reflex?",
+              "options": [
+                "Somatic motor nervous system",
+                "Parasympathetic nervous system via the pelvic splanchnic nerves",
+                "Sympathetic nervous system via the lumbar splanchnic nerves",
+                "Long reflex arcs via the vagus nerve and enteric nervous system",
+                "Intrinsic myogenic activity only"
+              ],
+              "correct": 3,
+              "explanation": "The gastrocolic reflex acts to clear the colon to make room for new food. It involves a feed-forward signal from the stomach to the colon, mediated by long autonomic reflexes (primarily parasympathetic/vagus) and hormonal mediators (CCK/Gastrin) acting on the enteric nervous system."
+            },
+            {
+              "question": "A patient suffers a spinal cord injury at the level of T12. Following the injury, they have no voluntary control over defecation, yet the intrinsic defecation reflex remains intact, leading to automatic emptying when the rectum fills. This suggests preservation of which neural component?",
+              "options": [
+                "The cortical inhibition of the external anal sphincter",
+                "The pudendal nerve innervation",
+                "The pontine storage center",
+                "The sacral spinal reflex arc (parasympathetic)",
+                "The conscious sensation of rectal distension"
+              ],
+              "correct": 3,
+              "explanation": "Defecation involves both an intrinsic (myenteric) reflex and a parasympathetic spinal reflex (S2-S4).  If the spinal cord is severed above the sacral level (upper motor neuron lesion), voluntary control (cortical) is lost, but the sacral reflex arc remains, leading to a 'reflex bowel' where the rectum empties automatically upon distension."
+            },
+            {
+              "question": "A 24-year-old medical student participates in a study on carbohydrate absorption. He consumes a solution containing glucose, galactose, and fructose. Which of the following accurately describes the transport mechanisms responsible for the uptake of these monosaccharides across the apical membrane of the enterocyte?",
+              "options": [
+                "All three are transported via the Sodium-Glucose Linked Transporter 1 (SGLT1).",
+                "Glucose and fructose are transported via SGLT1, while galactose uses GLUT5.",
+                "Glucose and galactose are cotransported with Na+ via SGLT1; fructose is transported via facilitated diffusion using GLUT5.",
+                "All three utilize the GLUT2 transporter for apical entry.",
+                "Glucose is transported actively via SGLT1, while galactose and fructose use paracellular diffusion."
+              ],
+              "correct": 2,
+              "explanation": "Glucose and galactose share the SGLT1 transporter, which uses secondary active transport driven by the Na+ gradient.  Fructose, however, cannot use SGLT1 and instead enters the cell via facilitated diffusion through the GLUT5 transporter."
+            },
+            {
+              "question": "A newborn presents with failure to thrive and severe diarrhea. Laboratory tests reveal a profound deficiency in the enzyme Enterokinase (Enteropeptidase). This specific deficiency prevents the digestion of proteins because Enterokinase is essential for which rate-limiting step?",
+              "options": [
+                "Conversion of Pepsinogen to Pepsin",
+                "Conversion of Trypsinogen to Trypsin",
+                "Activation of Procarboxypeptidase",
+                "Breakdown of dipeptides into amino acids within the enterocyte",
+                "Secretion of Cholecystokinin (CCK)"
+              ],
+              "correct": 1,
+              "explanation": "Enterokinase is a brush-border enzyme that converts pancreatic Trypsinogen into Trypsin. Trypsin is the 'master activator' that subsequently activates all other pancreatic zymogens (chymotrypsinogen, procarboxypeptidase, etc.). Without Enterokinase, protein digestion is severely halted."
+            },
+            {
+              "question": "A patient with Abetalipoproteinemia exhibits steatorrhea and failure to thrive. The underlying defect involves the inability to synthesize Apolipoprotein B (ApoB). This prevents the formation and basolateral secretion of which major lipoprotein particle from the intestinal enterocytes?",
+              "options": [
+                "VLDL (Very Low-Density Lipoprotein)",
+                "LDL (Low-Density Lipoprotein)",
+                "HDL (High-Density Lipoprotein)",
+                "Chylomicrons",
+                "IDL (Intermediate-Density Lipoprotein)"
+              ],
+              "correct": 3,
+              "explanation": "Enterocytes repackage absorbed dietary lipids into Chylomicrons for transport into the lymph (lacteals). This process requires Apolipoprotein B-48. Without ApoB, enterocytes cannot export fats, leading to lipid accumulation within the cells and malabsorption."
+            },
+            {
+              "question": "Iron homeostasis is tightly regulated at the level of intestinal absorption since the body lacks a dedicated excretion mechanism. In states of high systemic iron stores or inflammation, the liver releases Hepcidin. How does Hepcidin effectively decrease iron absorption?",
+              "options": [
+                "It inhibits the reduction of Fe3+ to Fe2+ by Dcytb.",
+                "It binds to and degrades Ferroportin on the basolateral membrane of enterocytes.",
+                "It blocks the Divalent Metal Transporter 1 (DMT1) on the apical membrane.",
+                "It promotes the chelation of iron to ferritin within the intestinal lumen.",
+                "It inhibits the synthesis of Transferrin in the liver."
+              ],
+              "correct": 1,
+              "explanation": "Hepcidin binds to Ferroportin, the iron exporter channel on the basolateral side of enterocytes (and macrophages).  This binding causes internalization and degradation of Ferroportin, trapping iron inside the cell and preventing its release into the blood."
+            },
+            {
+              "question": "A 55-year-old male with severe Crohn's disease undergoes a resection of the distal ileum. Years later, he presents with fatigue and paresthesia. A blood smear shows macrocytic anemia. The absorption of which nutrient has been compromised, and what specific transport mechanism is involved?",
+              "options": [
+                "Iron; via DMT1 cotransport",
+                "Folate; via proton-coupled folate transporter",
+                "Vitamin B12 (Cobalamin); via receptor-mediated endocytosis of the Intrinsic Factor-B12 complex",
+                "Vitamin D; via micelle-dependent passive diffusion",
+                "Calcium; via calbindin-mediated transport"
+              ],
+              "correct": 2,
+              "explanation": "Vitamin B12 requires Intrinsic Factor (secreted by gastric parietal cells) to form a complex. This complex is specifically recognized and absorbed by receptors in the terminal (distal) ileum. Resection of this segment leads to B12 deficiency and megaloblastic anemia."
+            },
+            {
+              "question": "Lipid profiles are analyzed to assess cardiovascular risk. Which lipoprotein is responsible for 'Reverse Cholesterol Transport,' scavenging excess cholesterol from peripheral tissues and returning it to the liver for excretion?",
+              "options": [
+                "Chylomicrons",
+                "VLDL",
+                "LDL",
+                "HDL",
+                "Lp(a)"
+              ],
+              "correct": 3,
+              "explanation": "HDL (High-Density Lipoprotein) is synthesized by the liver and intestine. It picks up cholesterol from peripheral tissues (via ABCA1 transporters) and esterifies it (via LCAT/PCAT), transporting it back to the liver. This is why high HDL is considered cardioprotective."
+            },
+            {
+              "question": "A patient presents with 'pellagra-like' symptoms including dermatitis and photosensitivity. Urinalysis shows elevated levels of neutral amino acids. This clinical picture is consistent with Hartnup disease, a defect in the transport of neutral amino acids like Tryptophan. Why does a deficiency in Tryptophan absorption lead to these symptoms?",
+              "options": [
+                "Tryptophan is a precursor for synthesis of Serotonin.",
+                "Tryptophan is essential for the synthesis of Niacin (Vitamin B3).",
+                "Tryptophan is required for the formation of melanin.",
+                "Tryptophan deficiency leads to impaired collagen synthesis.",
+                "Tryptophan is a necessary cofactor for Vitamin D activation."
+              ],
+              "correct": 1,
+              "explanation": "Tryptophan is a precursor for the endogenous synthesis of Niacin (Vitamin B3) and NAD+. A deficiency in Tryptophan uptake (due to the defective transporter in Hartnup disease) mimics Niacin deficiency (Pellagra), presenting with the 3 Ds: Dermatitis, Diarrhea, and Dementia."
+            },
+            {
+              "question": "The regulation of food intake involves complex signaling between the gut and the hypothalamus. Which hormone, secreted by the gastric fundus during fasting, acts on the lateral hypothalamus to stimulate hunger (orexigenic effect)?",
+              "options": [
+                "Leptin",
+                "Peptide YY (PYY)",
+                "Ghrelin",
+                "GLP-1",
+                "Insulin"
+              ],
+              "correct": 2,
+              "explanation": "Ghrelin is the primary 'hunger hormone' secreted by the stomach (specifically X/A-like cells) when empty.  It acts on the hypothalamus (stimulating NPY/AgRP neurons) to increase appetite. All other options (Leptin, PYY, GLP-1, Insulin) generally signal satiety."
+            },
+            {
+              "question": "A 6-year-old child presents with chronic diarrhea and bloating after consuming dairy products. A hydrogen breath test is positive. Physiologically, the diarrhea is caused by which mechanism?",
+              "options": [
+                "Inflammatory destruction of the villi leading to decreased surface area.",
+                "Active secretion of chloride ions by crypt cells (secretory diarrhea).",
+                "Accumulation of undigested lactose in the lumen, creating an osmotic gradient that retains water.",
+                "Increased motility due to lack of opioid receptor stimulation.",
+                "Inhibition of sodium-glucose cotransport by lactose."
+              ],
+              "correct": 2,
+              "explanation": "In Lactose Intolerance (lactase deficiency), lactose cannot be hydrolyzed into glucose and galactose. It remains in the lumen, acting as an osmotically active solute that draws water into the intestine (osmotic diarrhea). Bacterial fermentation of the lactose produces gas (bloating)."
+            },
+            {
+              "question": "Vitamins are classified as fat-soluble or water-soluble, which dictates their absorption mechanism and storage. A patient with chronic pancreatitis and subsequent fat malabsorption is most at risk for developing a deficiency in which set of vitamins?",
+              "options": [
+                "Vitamins B1, B2, B3, and C",
+                "Vitamins A, D, E, and K",
+                "Folate and B12",
+                "Vitamin C and Iron",
+                "Biotin and Pantothenic acid"
+              ],
+              "correct": 1,
+              "explanation": "Vitamins A, D, E, and K are fat-soluble. They require normal lipid digestion (pancreatic lipase) and emulsification (bile salts) to be incorporated into micelles for absorption. Conditions causing steatorrhea (like pancreatic insufficiency) often lead to deficiencies in these specific vitamins."
+            },
+            {
+              "question": "A newborn infant is placed in a cool examination room. Despite the low ambient temperature, the infant maintains a normal core body temperature without shivering. This 'non-shivering thermogenesis' is primarily mediated by a specialized tissue that histologically presents as:",
+              "options": [
+                "Unilocular adipocytes with a single large lipid droplet and flattened peripheral nuclei.",
+                "Multilocular adipocytes with numerous small lipid droplets and a high density of mitochondria.",
+                "Stratified squamous epithelium with heavy keratinization.",
+                "Skeletal muscle fibers rich in myofibrils and sarcoplasmic reticulum.",
+                "Dense regular connective tissue with sparse vascularity."
+              ],
+              "correct": 1,
+              "explanation": "This describes Brown Adipose Tissue (BAT). Histologically, [Image of brown adipose tissue histology] BAT adipocytes are 'multilocular' (many small fat droplets) and packed with mitochondria containing Thermogenin (UCP1). This structure allows them to uncouple oxidative phosphorylation to generate heat rather than ATP."
+            },
+            {
+              "question": "During a bout of intense exercise, the body's metabolic rate increases significantly, generating excess heat. To dissipate this heat, the hypothalamus triggers vasodilation in the skin. Which specific histological structure in the reticular dermis allows blood to bypass capillary beds and flow directly from arterioles to venules to maximize heat loss?",
+              "options": [
+                "Glomus bodies (Arteriovenous anastomoses)",
+                "Pacinian corpuscles",
+                "Fenestrated capillaries",
+                "Lymphatic lacteals",
+                "Sebaceous glands"
+              ],
+              "correct": 0,
+              "explanation": "Glomus bodies are specialized arteriovenous anastomoses (shunts) found in the dermis of the skin (especially palms, soles, ears). [Image of glomus body histology] When open (dilated), they allow large volumes of warm blood to bypass the nutritive capillary beds and flow into the superficial venous plexus, facilitating rapid heat radiation and convection."
+            },
+            {
+              "question": "Basal Metabolic Rate (BMR) is largely determined by the lean body mass and the activity of the $Na^+/K^+$-ATPase pumps. Which hormone acts as the primary long-term regulator of BMR by genomically upregulating the synthesis of these pumps in almost all nucleated cells?",
+              "options": [
+                "Cortisol",
+                "Insulin",
+                "Thyroxine (T4/T3)",
+                "Growth Hormone",
+                "Epinephrine"
+              ],
+              "correct": 2,
+              "explanation": "Thyroid hormones (T3/T4) exert a 'calorigenic' effect. They bind to nuclear receptors and increase the transcription of genes for the $Na^+/K^+$-ATPase. The increased activity of these pumps consumes ATP, driving cellular respiration and heat production (BMR)."
+            },
+            {
+              "question": "Histological analysis of skeletal muscle from a marathon runner reveals a predominance of Type I (slow-twitch) fibers. How do the histological features of these fibers specifically support sustained aerobic metabolic activity and heat production?",
+              "options": [
+                "Low myoglobin content and few mitochondria.",
+                "High concentration of glycolytic enzymes and extensive sarcoplasmic reticulum.",
+                "High capillary density, abundant mitochondria, and high myoglobin content.",
+                "Large cross-sectional diameter and reliance on creatine phosphate.",
+                "Absence of oxidative enzymes."
+              ],
+              "correct": 2,
+              "explanation": "Type I fibers are adapted for endurance and aerobic metabolism. Histologically, they are characterized by a rich blood supply (high capillary density), high myoglobin content (for oxygen storage), and abundant mitochondria [Image of skeletal muscle fiber types] to sustain oxidative phosphorylation."
+            },
+            {
+              "question": "Sweating is a critical mechanism for evaporative cooling. The major sweat glands involved in thermoregulation are Eccrine glands. Which description best characterizes their histological structure?",
+              "options": [
+                "Simple branched alveolar glands opening into hair follicles.",
+                "Simple coiled tubular glands with a stratified cuboidal duct opening directly onto the skin surface.",
+                "Compound tubuloacinar glands secreting via holocrine rupture.",
+                "Large lumen glands found only in axillary and anogenital regions.",
+                "Modified sebaceous glands secreting an oily sebum."
+              ],
+              "correct": 1,
+              "explanation": "Eccrine sweat glands are simple coiled tubular glands. [Image of eccrine sweat gland histology] The secretory portion is deep in the dermis, and the duct (lined by stratified cuboidal epithelium) spirals through the epidermis to open directly onto the skin surface via a sweat pore."
+            },
+            {
+              "question": "In the 'Absorptive State' (fed state), the liver plays a central role in energy storage. Which histological feature would be most prominent in the hepatocytes of a healthy individual one hour after a carbohydrate-rich meal?",
+              "options": [
+                "Large, clear cytosolic vacuoles displacing the nucleus (Macrovesicular steatosis).",
+                "Abundant PAS-positive cytoplasmic granules.",
+                "Shrunken cytoplasm with autophagic vacuoles.",
+                "Dense accumulation of lipofuscin pigment.",
+                "Fragmentation of the rough endoplasmic reticulum."
+              ],
+              "correct": 1,
+              "explanation": "In the absorptive state, insulin stimulates hepatocytes to synthesize glycogen from glucose. Glycogen appears histologically as Periodic Acid-Schiff (PAS) positive granules within the cytoplasm. (Option A represents fatty liver disease, not normal storage)."
+            },
+            {
+              "question": "A patient presents with a fever of $39^{\\circ}C$ ($102.2^{\\circ}F$) due to a viral infection. The fever is initiated by pyrogens (like IL-1) acting on the hypothalamus. What is the specific physiological mechanism by which the hypothalamus raises the body temperature set-point?",
+              "options": [
+                "Downregulation of TRH release.",
+                "Direct stimulation of sweat glands.",
+                "Synthesis of Prostaglandin E2 (PGE2) in the preoptic area.",
+                "Inhibition of the posterior sympathetic chain.",
+                "Release of vasopressin to retain water."
+              ],
+              "correct": 2,
+              "explanation": "Pyrogens (exogenous or endogenous cytokines) stimulate the endothelium of the organum vasculosum of the lamina terminalis (OVLT) to release Prostaglandin E2 (PGE2). PGE2 acts on the preoptic nucleus of the hypothalamus to reset the 'thermostat' to a higher temperature."
+            },
+            {
+              "question": "In a cold environment, the body attempts to conserve heat through 'piloerection' (goosebumps). This response is mediated by the contraction of the Arrector Pili muscle. Which division of the nervous system and which tissue type constitute this structure?",
+              "options": [
+                "Somatic motor stimulation of skeletal muscle.",
+                "Sympathetic stimulation of smooth muscle.",
+                "Parasympathetic stimulation of smooth muscle.",
+                "Sympathetic stimulation of skeletal muscle.",
+                "Enteric nervous stimulation of myofibroblasts."
+              ],
+              "correct": 1,
+              "explanation": "The Arrector Pili is a small band of smooth muscle connecting the hair follicle to the papillary dermis. It is innervated by the Sympathetic nervous system (adrenergic receptors). Contraction pulls the hair shaft perpendicular to the skin, trapping a layer of air for insulation."
+            },
+            {
+              "question": "During prolonged starvation (post-absorptive state), the brain shifts its metabolic fuel source to preserve glucose. Which metabolite, produced by the liver from fatty acids, becomes the primary alternative fuel for the brain?",
+              "options": [
+                "Alanine",
+                "Lactate",
+                "Beta-hydroxybutyrate (Ketone bodies)",
+                "Glycerol",
+                "Palmitic acid"
+              ],
+              "correct": 2,
+              "explanation": "The blood-brain barrier is impermeable to long-chain fatty acids. During starvation, the liver converts fatty acids into Ketone Bodies (Acetoacetate and Beta-hydroxybutyrate), which are water-soluble and can cross the blood-brain barrier to be oxidized by neurons."
+            },
+            {
+              "question": "When ambient temperature exceeds body temperature ($>37^{\\circ}C$), the mechanisms of radiation, conduction, and convection become ineffective for heat loss. In this scenario, the body relies exclusively on which physical process to maintain thermal homeostasis?",
+              "options": [
+                "Vasodilation of dermal capillaries",
+                "Evaporation of sweat",
+                "Countercurrent heat exchange",
+                "Decreased TSH secretion",
+                "Panting"
+              ],
+              "correct": 1,
+              "explanation": "Radiation, conduction, and convection require a thermal gradient (body > environment). If the environment is hotter than the body, the body actually gains heat via these methods. Evaporation (of sweat) becomes the *only* means of heat loss because the phase change of water to gas absorbs significant thermal energy."
+            },
           {
             question: "Which hormone stimulates gastric acid secretion?",
             options: [
