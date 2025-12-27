@@ -80,7 +80,7 @@ const Contact: React.FC = () => {
                   </div>
                   
                   <p className="text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
-                    Hi! I'm Abdallah, a second-year medical student at Al-Farabi Kazakh National University, also studied at Khartoum University. 
+                    Hi! I'm Abdallah, a second-year medical student at Al-Farabi Kazakh National University. 
                     I created this platform because I understand the challenges of medical education firsthand. 
                     My goal is to help fellow medical students excel in their studies through high-quality MCQs 
                     with detailed explanations.

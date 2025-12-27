@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Heart, Brain, Microscope, Settings as Lungs, Atom as Stomach, LucideKey as Kidney, Bone, Droplets, Dna, Shield, Pill, Baby, Eye } from 'lucide-react';
+import { Heart, Brain, Microscope, Settings as Lungs, Atom as Stomach, LucideKey as Kidney, Bone, Droplets, Dna, Shield, Pill, Baby, Eye, FlaskConical } from 'lucide-react';
 import { FaLungs } from "react-icons/fa6";
 import { GiStomach, GiKidneys } from "react-icons/gi";
 import { IoMaleFemaleSharp } from "react-icons/io5";
 import { FaHeartbeat, FaBacterium } from "react-icons/fa";
-
+import { SlChemistry } from "react-icons/sl";
 const Systems: React.FC = () => {
   const systems = [
     {
@@ -130,6 +130,14 @@ const Systems: React.FC = () => {
       description: 'Tissue structure and microscopic anatomy',
       color: 'from-emerald-500 to-emerald-600',
       categories: ['general']
+    },
+    {
+      id: 'biochemistry',
+      name: 'Biochemistry',
+      icon: <FlaskConical className="h-12 w-12"/>,
+      description: 'Interactions in the body, biochemical and metabolic processes',
+      color: 'from-pink-500 to-pink-800',
+      categories: ['Basic level', 'USMLE level']
     }
   ];
 

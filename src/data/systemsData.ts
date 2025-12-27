@@ -22523,5 +22523,1704 @@ export const systemsData: { [key: string]: SystemData } = {
         ]
       }
     }
+  },
+  biochemistry: {
+    name: 'Biochemistry',
+    description: 'Core concepts of biochemistry, metabolism, and molecular biology',
+    overview: 'Biochemistry explores the chemical processes and molecules that sustain life. It covers the structure and function of biomolecules, enzymatic activity, metabolic pathways, and the regulation of cellular processes. Understanding biochemistry provides the foundation for medicine, physiology, and biotechnology.',
+    keyTopics: [
+      'Structure and function of proteins, carbohydrates, lipids, and nucleic acids', 
+      'Enzyme kinetics and regulation', 
+      'Metabolism of carbohydrates, lipids, and amino acids', 
+      'Bioenergetics and ATP production', 
+      'Signal transduction and molecular communication', 
+      'DNA replication, transcription, and translation', 
+      'Biochemical techniques and laboratory methods', 
+      'Metabolic disorders and biochemical pathology'
+    ],
+    color: 'from-pink-500 to-pink-600',
+    icon: IoMaleFemaleSharp,
+    categories: ['basic level', 'usmle level', 'pathology'],
+    modules: {
+      anatomy: {
+        questions: [
+          {
+            question: "The testes are covered externally by which layer derived from the peritoneum?",
+            options: ["Tunica albuginea", "Tunica vaginalis", "Dartos fascia", "Cremasteric fascia"],
+            "correct": 1,
+            "explanation": "The tunica vaginalis is a serous covering derived from the peritoneum that partially surrounds the testes."
+          },
+          {
+            question: "Which structure conveys sperm from the epididymis to the ejaculatory duct?",
+            options: ["Seminal vesicle", "Vas deferens", "Urethra", "Prostatic duct"],
+            "correct": 1,
+            "explanation": "The vas (ductus) deferens transports sperm from the epididymis to the ejaculatory duct."
+          },
+          {
+            question: "Where are the male ejaculatory ducts?",
+            options: ["In the testicles before the epididymis", "In the penis", "Between the bulbourethral glands and the urethra", "At the end of the vas deferens (ductus deferens)"],
+            "correct": 3,
+            "explanation": "The ejaculatory ducts form where the ducts of the seminal glands join the vas deferens and end where the vas deferens joins the urethra."
+          },
+          {
+            question: "Which statement is true?",
+            options: ["Males have two X chromosomes", "Females do not produce any primordial follicles after they are born", "Females have one X chromosome", "Fertilisation occurs in the pelvic cavity before the start of the fallopian tube"],
+            "correct": 1,
+            "explanation": "Females are born with all their primordial follicles arrested in prophase I."
+          },
+          {
+            question: "Which is the correct order from testes to urethra in the male reproductive tract?",
+            options: ["Ejaculatory ducts, seminiferous tubules, epididymis, vas deferens", "Seminiferous tubules, epididymis, vas deferens, ejaculatory ducts", "Epididymis, ejaculatory ducts, seminiferous tubules, vas deferens", "Vas deferens, seminiferous tubules, epididymis, ejaculatory ducts"],
+            "correct": 1,
+            "explanation": "Sperm travel from seminiferous tubules → epididymis → vas deferens → ejaculatory ducts."
+          },
+          {
+            question: "Which of the following is NOT a secondary sex characteristic?",
+            options: ["The adult male body shape", "The thicker vocal cords of a male", "Pubic hair", "The penis"],
+            "correct": 3,
+            "explanation": "The penis is a primary sex characteristic; secondary traits develop at puberty."
+          },
+          {
+            question: "Which of the following is NOT associated with the male reproductive system?",
+            options: ["Estrogens", "Androgens", "FSH and LH", "The tunica vaginalis"],
+            "correct": 0,
+            "explanation": "Estrogens are primarily female sex hormones."
+          },
+          {
+            question: "Which structure does the male reproductive tract pass through?",
+            options: ["The prostate", "The bulbourethral gland", "The seminiferous vesicles", "The bladder"],
+            "correct": 0,
+            "explanation": "The ejaculatory ducts pass through the prostate before joining the urethra."
+          },
+          {
+            question: "What is the name of the tube that carries sperm from the testes to the prostate gland?",
+            options: ["Vas deferens", "Ejaculatory duct", "Seminiferous tubule", "Urethra"],
+            "correct": 0,
+            "explanation": "The vas deferens carries sperm from the epididymis to the ejaculatory duct."
+          },
+          {
+            question: "How many chromosomes does a human gamete have?",
+            options: ["46", "46 pairs", "23", "23 pairs"],
+            "correct": 2,
+            "explanation": "Gametes have 23 chromosomes; fertilisation restores the diploid number of 46."
+          },
+          {
+            question: "Where are the ejaculatory ducts?",
+            options: ["In the testes", "Between the testes and the prostate", "Within the prostate", "Between the prostate and the external urethral meatus"],
+            "correct": 2,
+            "explanation": "Ejaculatory ducts pass through the prostate and open into the urethra."
+          },
+          {
+            question: "Where does fertilisation of the ovum normally occur?",
+            options: ["In the cervical canal", "In the ovary", "In the uterus", "In the Fallopian tube"],
+            "correct": 3,
+            "explanation": "Fertilisation usually occurs in the ampulla of the Fallopian tube."
+          },
+          {
+            question: "Which list of structures in the male reproductive tract has them in correct sequence?",
+            options: ["Seminiferous tubules, epididymis, vas deferens, urethra, ejaculatory duct", "Epididymis, seminiferous tubules, vas deferens, ejaculatory duct, urethra", "Seminiferous tubules, epididymis, vas deferens, ejaculatory duct, urethra", "Epididymis, seminiferous tubules, vas deferens, urethra, ejaculatory duct"],
+            "correct": 2,
+            "explanation": "Sperm travel from seminiferous tubules → epididymis → vas deferens → ejaculatory duct → urethra."
+          },
+          {
+            question: "If a cell is said to be 'haploid', what is meant?",
+            options: ["It has 23 chromosomes", "It has chromosomes that all consist of one chromatid", "It has the '2n' number of chromosomes", "It is NOT a gamete (or sex cell)"],
+            "correct": 0,
+            "explanation": "Haploid cells have half the usual number of chromosomes — 23 in humans."
+          },
+          {
+            question: "Male sterilisation (vasectomy) involves the cutting of which tube?",
+            options: ["Ejaculatory duct", "Epididymis", "Urethra", "Ductus deferens"],
+            "correct": 3,
+            "explanation": "A vasectomy removes a section of the ductus deferens within the scrotum."
+          },
+          {
+            question: "Which cells develop into the corpus luteum?",
+            options: ["Granulosa cells", "Interstitial cells", "Cells of the antrum", "Thecal cells"],
+            "correct": 0,
+            "explanation": "Granulosa cells proliferate after ovulation to form the corpus luteum."
+          },
+          {
+            question: "Which of the following statements is correct?",
+            options: ["Ova all contain a Y chromosome", "Half of the ova carry an X chromosome and half carry a Y chromosome", "Half of the sperm cells carry an X chromosome and half carry a Y chromosome", "Sperm all carry an X chromosome"],
+            "correct": 2,
+            "explanation": "Sperm have either an X or a Y chromosome; ova always have an X chromosome."
+          },
+          {
+            question: "From which source does the majority of the volume of a male ejaculation come?",
+            options: ["Epididymis", "Seminiferous tubules", "Seminal vesicles", "Prostate gland"],
+            "correct": 2,
+            "explanation": "Seminal vesicles contribute about 60% of ejaculate volume."
+          },
+          {
+            question: "What is a fertilised egg known as?",
+            options: ["Ovum", "Zygote", "Embryo", "Blastocyst"],
+            "correct": 1,
+            "explanation": "A fertilised egg before division is called a zygote."
+          },
+          {
+            question: "What is the section of the male reproductive tract within which sperm are produced called?",
+            options: ["The urethra", "The epididymis", "The vas deferens", "The seminiferous tubules"],
+            "correct": 3,
+            "explanation": "Sperm are produced in the seminiferous tubules of the testes."
+          },
+          {
+            question: "Which statement about the 'granulosa cells' is NOT correct?",
+            options: ["They produce estrogens and inhibin", "They form a single layer around the primary follicle", "They form the corpus luteum", "One of them will develop into the ovum"],
+            "correct": 3,
+            "explanation": "Granulosa cells surround the ovum but do not become the ovum."
+          },
+          {
+            question: "In the male reproductive tract, where are sperm produced?",
+            options: ["Seminiferous tubules", "Epididymis", "Sertoli cells of the testes", "Leydig cells of the testes"],
+            "correct": 0,
+            "explanation": "Sperm are produced in the seminiferous tubules by spermatogonia."
+          },
+          {
+            question: "What is the 'external urethral meatus' another name for?",
+            options: ["The shaft of the penis", "The opening of the tube at the end of the penis", "The prostate gland", "The scrotum"],
+            "correct": 1,
+            "explanation": "The external urethral meatus is the opening of the urethra at the tip of the penis."
+          },
+          {
+            question: "What is the chromosome complement of a sperm?",
+            options: ["46 chromosomes (23 pairs including a pair of Y chromosomes)", "46 chromosomes (22 pairs plus one X chromosome and one Y)", "23 chromosomes including one X chromosome OR one Y", "23 chromosomes including one X chromosome AND one Y"],
+            "correct": 2,
+            "explanation": "Sperm are haploid with 23 chromosomes, carrying either an X or a Y."
+          },
+          {
+            question: "After ejaculation, sperm travel through the structures of the female reproductive tract in which order?",
+            options: ["Vagina, uterus, fallopian tube, ovary", "Cervix, vagina, uterus, fallopian tube", "Vagina, cervix, uterus, fallopian tube", "Cervix, urethra, uterus, fallopian tube"],
+            "correct": 2,
+            "explanation": "Sperm travel from vagina → cervix → uterus → fallopian tube."
+          },
+          {
+            question: "Which of the following lists the structures of the female perineal area in the correct order?",
+            options: ["Clitoris, vaginal opening, urethral opening, anus", "Clitoris, urethral opening, vaginal opening, anus", "Urethral opening, clitoris, vagina, cervix", "Anus, clitoris, urethral opening, vaginal opening"],
+            "correct": 1,
+            "explanation": "From ventral to dorsal: clitoris → urethral opening → vaginal opening → anus."
+          },
+          {
+            question: "Which organ does NOT add a secretion to semen?",
+            options: ["Testes", "Prostate gland", "Penis", "Seminal vesicles"],
+            "correct": 2,
+            "explanation": "There is no addition to semen as it passes through the penis."
+          },
+          {
+            question: "Which gland contributes the largest volume to seminal fluid?",
+            options: ["Seminal vesicle", "Prostate gland", "Bulbourethral gland", "Epididymis"],
+            "correct": 0,
+            "explanation": "The seminal vesicles contribute about 70% of the seminal fluid."
+          },
+          {
+            question: "The prostatic urethra receives the openings of the:",
+            options: ["Seminal vesicles", "Ejaculatory ducts", "Bulbourethral glands", "Cowper's ducts"],
+            "correct": 1,
+            "explanation": "The ejaculatory ducts open into the prostatic urethra at the seminal colliculus."
+          },
+          {
+            question: "The ovarian artery arises directly from which vessel?",
+            options: ["Common iliac artery", "Internal iliac artery", "Abdominal aorta", "Renal artery"],
+            "correct": 2,
+            "explanation": "The ovarian arteries arise directly from the abdominal aorta, just below the renal arteries."
+          },
+          {
+            question: "Which ligament contains the ovarian vessels?",
+            options: ["Ovarian ligament", "Suspensory ligament of ovary", "Broad ligament", "Round ligament of uterus"],
+            "correct": 1,
+            "explanation": "The suspensory ligament of the ovary contains the ovarian vessels, lymphatics, and nerves."
+          },
+          {
+            question: "The uterus is normally positioned:",
+            options: ["Anteverted and anteflexed", "Retroverted and retroflexed", "Anteverted and retroflexed", "Retroverted and anteflexed"],
+            "correct": 0,
+            "explanation": "In most women, the uterus is anteverted and anteflexed relative to the vagina and cervix."
+          },
+          {
+            question: "Which structure passes through the inguinal canal in females?",
+            options: ["Round ligament of uterus", "Suspensory ligament", "Ovarian ligament", "Fallopian tube"],
+            "correct": 0,
+            "explanation": "In females, the round ligament of the uterus passes through the inguinal canal."
+          },
+          {
+            question: "The pampiniform plexus drains into which vein on the left side?",
+            options: ["Left renal vein", "Left gonadal vein", "Inferior vena cava", "External iliac vein"],
+            "correct": 0,
+            "explanation": "The left testicular vein drains into the left renal vein, while the right drains directly into the IVC."
+          },
+          {
+            question: "Which part of the male urethra passes through the prostate gland?",
+            options: ["Preprostatic", "Prostatic", "Membranous", "Spongy"],
+            "correct": 1,
+            "explanation": "The prostatic urethra is the widest part and passes through the prostate gland."
+          },
+          {
+            question: "The broad ligament of the uterus is a fold of which structure?",
+            options: ["Fascia", "Peritoneum", "Mesentery", "Muscle"],
+            "correct": 1,
+            "explanation": "The broad ligament is a double fold of peritoneum that supports the uterus, uterine tubes, and ovaries."
+          },
+          {
+            question: "Which structure lies within the spermatic cord?",
+            options: ["Seminal vesicle", "Epididymis", "Vas deferens", "Prostate gland"],
+            "correct": 2,
+            "explanation": "The spermatic cord contains the vas deferens, testicular vessels, pampiniform plexus, nerves, and lymphatics."
+          },
+          {
+            question: "Which part of the uterus is continuous with the uterine tubes?",
+            options: ["Fundus", "Body", "Cervix", "Isthmus"],
+            "correct": 0,
+            "explanation": "The fundus of the uterus is the superior portion, located above the openings of the uterine tubes."
+          },
+          {
+            question: "The testis is supplied by which artery?",
+            options: ["Internal iliac artery", "External iliac artery", "Testicular artery", "Obturator artery"],
+            "correct": 2,
+            "explanation": "The testicular artery arises from the abdominal aorta and supplies the testes."
+          },
+          {
+            question: "The vaginal fornices surround which structure?",
+            options: ["Uterus", "Cervix", "Urethra", "Clitoris"],
+            "correct": 1,
+            "explanation": "The vaginal fornices are recesses around the cervix where it projects into the vagina."
+          },
+          {
+            question: "The cremasteric reflex tests which nerve?",
+            options: ["Ilioinguinal nerve", "Genitofemoral nerve", "Pudendal nerve", "Obturator nerve"],
+            "correct": 1,
+            "explanation": "The cremasteric reflex involves the genital branch of the genitofemoral nerve."
+          },
+          {
+            question: "The vestibular glands (of Bartholin) are homologous to which male gland?",
+            options: ["Prostate gland", "Seminal vesicle", "Bulbourethral gland", "Epididymis"],
+            "correct": 2,
+            "explanation": "The greater vestibular glands (Bartholin) in females are homologous to the bulbourethral glands in males."
+          },
+          {
+            question: "Which part of the fallopian tube is the site of fertilization?",
+            options: ["Infundibulum", "Ampulla", "Isthmus", "Uterine part"],
+            "correct": 1,
+            "explanation": "The ampulla of the uterine tube is the most common site of fertilization."
+          },
+          {
+            question: "The penile urethra is also known as:",
+            options: ["Prostatic urethra", "Membranous urethra", "Spongy urethra", "Pre-prostatic urethra"],
+            "correct": 2,
+            "explanation": "The spongy urethra runs within the corpus spongiosum and is also called the penile urethra."
+          },
+          {
+            question: "Which ligament anchors the ovary to the uterus?",
+            options: ["Round ligament", "Suspensory ligament", "Broad ligament", "Ovarian ligament"],
+            "correct": 3,
+            "explanation": "The ovarian ligament connects the ovary to the lateral aspect of the uterus."
+          },
+          {
+            question: "The ejaculatory ducts open into the:",
+            options: ["Membranous urethra", "Prostatic urethra", "Spongy urethra", "Seminal colliculus"],
+            "correct": 1,
+            "explanation": "The ejaculatory ducts open into the prostatic urethra near the seminal colliculus."
+          },
+          {
+            question: "The ischiocavernosus muscle surrounds which structure?",
+            options: ["Corpus cavernosum", "Corpus spongiosum", "Bulb of penis", "Prostate gland"],
+            "correct": 0,
+            "explanation": "The ischiocavernosus muscle surrounds the crura of the corpora cavernosa and helps maintain erection."
+          },
+          {
+            question: "Which structure is homologous to the penis in females?",
+            options: ["Clitoris", "Labia minora", "Vestibule", "Bartholin gland"],
+            "correct": 0,
+            "explanation": "The clitoris is the female homolog of the penis, both derived from the genital tubercle."
+          },
+          {
+            question: "Which artery supplies the corpora cavernosa?",
+            options: ["Dorsal artery of penis", "Deep artery of penis", "Bulbourethral artery", "Internal pudendal vein"],
+            "correct": 1,
+            "explanation": "The deep arteries of the penis supply the corpora cavernosa, essential for erection."
+          },
+          {
+            question: "Which artery is the main blood supply of the uterus?",
+            options: ["Ovarian artery", "Uterine artery", "Internal pudendal artery", "Inferior epigastric artery"],
+            "correct": 1,
+            "explanation": "The uterine artery, a branch of the internal iliac artery, provides the main blood supply to the uterus."
+          },
+          {
+            question: "Which structure passes superior to the ureter in the female pelvis?",
+            options: ["Round ligament", "Ovarian artery", "Uterine artery", "Fallopian tube"],
+            "correct": 2,
+            "explanation": "The uterine artery crosses superior to the ureter—clinically remembered as 'water under the bridge.'"
+          },
+          {
+            question: "Which lobe of the prostate is most commonly affected in benign prostatic hyperplasia?",
+            options: ["Anterior lobe", "Median lobe", "Posterior lobe", "Lateral lobe"],
+            "correct": 1,
+            "explanation": "The median lobe of the prostate commonly enlarges in BPH and can obstruct the urethra."
+          },
+          {
+            question: "Which lobe of the prostate is most commonly affected in prostate cancer?",
+            options: ["Anterior lobe", "Median lobe", "Posterior lobe", "Lateral lobe"],
+            "correct": 2,
+            "explanation": "The posterior lobe of the prostate is the most common site of carcinoma."
+          },
+          {
+            question: "Which muscle helps in ejaculation by expelling semen?",
+            options: ["Ischiocavernosus", "Bulbospongiosus", "Levator ani", "Obturator internus"],
+            "correct": 1,
+            "explanation": "The bulbospongiosus muscle contracts rhythmically to help expel semen during ejaculation."
+          },
+          {
+            question: "Which ligament attaches the cervix to the lateral pelvic wall?",
+            options: ["Broad ligament", "Suspensory ligament", "Cardinal (transverse cervical) ligament", "Ovarian ligament"],
+            "correct": 2,
+            "explanation": "The cardinal ligament anchors the cervix and uterus to the lateral pelvic wall."
+          },
+          {
+            question: "Which nerve supplies sensation to the external genitalia?",
+            options: ["Femoral nerve", "Ilioinguinal nerve", "Pudendal nerve", "Genitofemoral nerve"],
+            "correct": 2,
+            "explanation": "The pudendal nerve provides sensory innervation to the perineum and external genitalia."
+          },
+          {
+            question: "Which artery supplies the testes?",
+            options: ["Renal artery", "Internal iliac artery", "Testicular artery", "External iliac artery"],
+            "correct": 2,
+            "explanation": "The testicular arteries arise directly from the abdominal aorta and supply the testes."
+          },
+          {
+            question: "The round ligament of the uterus is a remnant of which embryonic structure?",
+            options: ["Mesonephric duct", "Paramesonephric duct", "Gubernaculum", "Urogenital sinus"],
+            "correct": 2,
+            "explanation": "The round ligament is derived from the gubernaculum, which guides gonadal descent."
+          },
+          {
+            question: "Which part of the male urethra is the narrowest?",
+            options: ["Prostatic urethra", "Membranous urethra", "Spongy urethra", "Pre-prostatic urethra"],
+            "correct": 1,
+            "explanation": "The membranous urethra is the narrowest part of the male urethra and most vulnerable to injury."
+          },
+          {
+            question: "Which structure is homologous to the scrotum in females?",
+            options: ["Labia majora", "Labia minora", "Vestibule", "Clitoris"],
+            "correct": 0,
+            "explanation": "The labia majora are homologous to the scrotum, both derived from labioscrotal swellings."
+          },
+          {
+            question: "Which artery supplies the prostate gland?",
+            options: ["Vesical arteries", "Inferior vesical artery", "Uterine artery", "Obturator artery"],
+            "correct": 1,
+            "explanation": "The inferior vesical artery, a branch of the internal iliac artery, supplies the prostate gland."
+          },
+          {
+            question: "The ejaculatory ducts are formed by the union of which two structures?",
+            options: ["Vas deferens and prostatic ducts", "Seminal vesicle duct and vas deferens", "Prostatic duct and urethra", "Epididymis and vas deferens"],
+            "correct": 1,
+            "explanation": "The ejaculatory duct is formed by the union of the duct of the seminal vesicle and the vas deferens."
+          },
+          {
+            question: "Which structure is contained within the broad ligament of the uterus?",
+            options: ["Round ligament", "Ovary", "Suspensory ligament", "Clitoris"],
+            "correct": 0,
+            "explanation": "The round ligament, uterine tube, and vessels lie within the broad ligament, but the ovary is attached to it rather than enclosed."
+          },
+          {
+            question: "Which structure forms the posterior boundary of the perineal body in females?",
+            options: ["Vagina", "Anus", "Urethra", "Clitoris"],
+            "correct": 1,
+            "explanation": "The perineal body lies between the vagina and anus, providing muscular support."
+          },
+          {
+            question: "Which part of the epididymis is continuous with the vas deferens?",
+            options: ["Head", "Body", "Tail", "Neck"],
+            "correct": 2,
+            "explanation": "The tail of the epididymis is continuous with the vas deferens."
+          },
+          {
+            question: "Which nerve is responsible for erection?",
+            options: ["Pudendal nerve", "Dorsal nerve of penis", "Pelvic splanchnic nerves", "Ilioinguinal nerve"],
+            "correct": 2,
+            "explanation": "The parasympathetic pelvic splanchnic nerves (S2–S4) mediate erection—'point and shoot.'"
+          },
+          {
+            question: "Which nerve is responsible for ejaculation?",
+            options: ["Pudendal nerve", "Pelvic splanchnic nerves", "Hypogastric nerve (sympathetic)", "Genitofemoral nerve"],
+            "correct": 2,
+            "explanation": "Ejaculation is mediated by the sympathetic hypogastric nerves (T11–L2)—'point and shoot.'"
+          },
+          {
+            question: "Which part of the fallopian tube is closest to the ovary?",
+            options: ["Ampulla", "Infundibulum", "Isthmus", "Uterine part"],
+            "correct": 1,
+            "explanation": "The infundibulum with fimbriae lies closest to the ovary."
+          },
+          {
+            question: "Which part of the broad ligament directly supports the ovary?",
+            options: ["Mesometrium", "Mesovarium", "Mesosalpinx", "Suspensory ligament"],
+            "correct": 1,
+            "explanation": "The mesovarium is the part of the broad ligament that attaches to and supports the ovary."
+          },
+          {
+            question: "The glans penis is an expansion of which structure?",
+            options: ["Corpus cavernosum", "Corpus spongiosum", "Bulb of penis", "Tunica albuginea"],
+            "correct": 1,
+            "explanation": "The glans penis is the expanded distal portion of the corpus spongiosum."
+          },
+          {
+            question: "Which artery is the main supply of the erectile tissue of the penis?",
+            options: ["Dorsal artery of penis", "Deep artery of penis", "Bulbar artery", "Obturator artery"],
+            "correct": 1,
+            "explanation": "The deep arteries of the penis supply the erectile tissue of the corpora cavernosa."
+          },
+          {
+            question: "The ovarian ligament connects the ovary to which structure?",
+            options: ["Broad ligament", "Uterus", "Fallopian tube", "Pelvic wall"],
+            "correct": 1,
+            "explanation": "The ovarian ligament connects the ovary to the lateral wall of the uterus."
+          },
+          {
+            question: "Which part of the urethra passes through the urogenital diaphragm?",
+            options: ["Prostatic urethra", "Membranous urethra", "Spongy urethra", "Pre-prostatic urethra"],
+            "correct": 1,
+            "explanation": "The membranous urethra passes through the urogenital diaphragm and is the shortest part."
+          },
+          {
+            question: "The bulb of the vestibule in females is homologous to which male structure?",
+            options: ["Corpus cavernosum", "Corpus spongiosum", "Prostate gland", "Glans penis"],
+            "correct": 1,
+            "explanation": "The bulb of the vestibule in females is homologous to the corpus spongiosum in males."
+          }
+        ]
+      },
+      physiology: {
+        questions: [
+          
+  {
+    "question": "LH is:",
+    "options": [
+      "A protein",
+      "Not present in males", 
+      "Inhibits ovulation",
+      "Increased in females after menopause",
+      "Not needed for spermatogenesis"
+    ],
+    "correct": 3,
+    "explanation": "LH (luteinizing hormone) is increased in females after menopause due to the loss of negative feedback from ovarian hormones (estrogen and progesterone). After menopause, the ovaries stop producing these hormones, leading to elevated levels of gonadotropins (LH and FSH) as the pituitary is no longer inhibited. LH is a glycoprotein (not a simple protein), is present in males where it stimulates testosterone production, triggers ovulation (rather than inhibiting it), and is essential for spermatogenesis by stimulating testosterone production in Leydig cells."
+  },
+  {
+    "question": "Turner syndrome is characterized by:",
+    "options": [
+      "Gynecomastia",
+      "Male genitalia",
+      "Absent ovaries", 
+      "Tall stature",
+      "Mental retardation"
+    ],
+    "correct": 2,
+    "explanation": "Turner syndrome (45,XO) is characterized by absent ovaries (ovarian agenesis), where the ovaries are replaced by fibrous streaks. Patients have female genitalia (not male), short stature (not tall), and typically normal intelligence (no mental retardation). Gynecomastia is characteristic of Klinefelter syndrome, not Turner syndrome."
+  },
+  {
+    "question": "Most of the seminal fluid is provided by:",
+    "options": [
+      "Prostate",
+      "Seminal vesicles",
+      "Cowper's glands",
+      "Epididymis", 
+      "Ejaculatory ducts"
+    ],
+    "correct": 1,
+    "explanation": "The seminal vesicles provide about 70% of the seminal fluid volume. Their secretion contains proteins, enzymes, fructose, mucus, and prostaglandins. The prostate contributes 10-30%, Cowper's glands produce pre-ejaculate fluid, the epididymis stores and matures sperm but doesn't contribute significantly to fluid volume, and the ejaculatory ducts are passageways rather than secretory glands."
+  },
+  {
+    "question": "Which of the following hormones is expected to rise following ovulation:",
+    "options": [
+      "LH",
+      "FSH", 
+      "Estrogen",
+      "Progesterone",
+      "hCG"
+    ],
+    "correct": 3,
+    "explanation": "Progesterone rises significantly following ovulation as the ruptured follicle transforms into the corpus luteum, which secretes large amounts of progesterone (along with some estrogen). LH and FSH decline after ovulation due to negative feedback from progesterone and estrogen. Estrogen has two peaks - one just before ovulation and another during the mid-luteal phase. hCG is only produced during pregnancy."
+  },
+  {
+    "question": "During pregnancy, the corpus luteum:",
+    "options": [
+      "Is known as the corpus albicans",
+      "Is controlled by the placenta",
+      "Is essential for maintenance of pregnancy", 
+      "Degenerates during the second trimester",
+      "Responds to both FSH and LH"
+    ],
+    "correct": 2,
+    "explanation": "The corpus luteum is essential for maintaining pregnancy during the first 6-8 weeks by producing progesterone and estrogen until the placenta takes over hormone production. It is maintained by hCG from the placenta (not controlled by it), doesn't degenerate until after delivery, responds primarily to LH (not FSH), and the corpus albicans is the degenerated form after luteal regression."
+  },
+  {
+    "question": "Normal spermatogenesis requires the following cells:",
+    "options": [
+      "Sertoli cells, Germ cells and acidophils of the pituitary",
+      "Leydig cells, Germ cells and Chromophobes of the pituitary", 
+      "Sertoli cells, Leydig cells and Basophils of the pituitary",
+      "Germ cells, Leydig cells and stem cells of the bone marrow",
+      "Cutaneous cells, Sertoli cells and neural cells in the hypothalamus"
+    ],
+    "correct": 2,
+    "explanation": "Normal spermatogenesis requires: Sertoli cells (for physical support, blood-testes barrier, and nutrient provision), Leydig cells (for testosterone production), and basophils of the pituitary (which secrete FSH and LH). Germ cells alone are insufficient without the supporting cells and hormonal regulation."
+  },
+  {
+    "question": "The corpus luteum of pregnancy:",
+    "options": [
+      "Is under control of LH",
+      "Is formed only from theca interna cells",
+      "Produces progesterone but not estrogen", 
+      "Degenerates as soon as the fertilized ovum is implanted",
+      "Requires human chorionic gonadotrophin"
+    ],
+    "correct": 4,
+    "explanation": "The corpus luteum of pregnancy requires human chorionic gonadotropin (hCG) for its maintenance beyond the normal luteal phase. hCG acts as a luteotropic and luteinizing hormone, preventing degeneration of the corpus luteum and ensuring continued production of progesterone and estrogen during early pregnancy until the placenta takes over hormone production."
+  },
+  {
+    "question": "Normal spermatogenesis requires:",
+    "options": [
+      "A peak of LH",
+      "FSH and testosterone", 
+      "A temperature equal to body temperature",
+      "Low potassium in seminal fluid",
+      "120 days for development of sperms"
+    ],
+    "correct": 1,
+    "explanation": "Normal spermatogenesis requires both FSH (which acts on Sertoli cells to produce androgen-binding protein) and testosterone (which is essential for the conversion of spermatids to spermatozoa). Spermatogenesis occurs at temperatures lower than body temperature (about 32°C), takes approximately 74 days (not 120), and the potassium concentration in seminal fluid is not a determining factor."
+  },
+  {
+    "question": "During the menstrual cycle, progesterone is responsible for:",
+    "options": [
+      "Proliferative phase in the uterus",
+      "Thick mucus in the cervix", 
+      "Ovulation",
+      "LH peak during mid-cycle",
+      "Ductular growth in the breast"
+    ],
+    "correct": 1,
+    "explanation": "Progesterone makes the cervical mucus thick, scanty, and difficult to penetrate by sperm. The proliferative phase is caused by estrogen (not progesterone), ovulation is triggered by the LH surge (not progesterone), the LH peak occurs before significant progesterone production, and ductular growth in the breast is primarily estrogen-mediated."
+  },
+  {
+    "question": "Ovulation:",
+    "options": [
+      "Normally occurs 14 days following uterine bleeding",
+      "Immediately occurs following LH surge",
+      "Is usually associated with a central abdominal pain", 
+      "Is due to rupture of the corpus luteum",
+      "Leads to a rise in the body temperature"
+    ],
+    "correct": 4,
+    "explanation": "Ovulation leads to a rise in body temperature due to the thermogenic effect of progesterone secreted by the corpus luteum. Ovulation occurs 14 days BEFORE the next menstrual period (not after bleeding), occurs about 9 hours after the LH peak (not immediately), is associated with lower abdominal pain (not central), and results from rupture of the mature follicle (not the corpus luteum)."
+  },
+  {
+    "question": "Home-use Kits for determining a woman's pregnancy depends on detection of this hormone in her blood or urine:",
+    "options": [
+      "FSH",
+      "Progesterone", 
+      "Estradiol",
+      "hCG",
+      "LH"
+    ],
+    "correct": 3,
+    "explanation": "Pregnancy tests detect human chorionic gonadotropin (hCG), which is produced by the syncytiotrophoblast of the developing placenta. hCG appears in blood about 6 days after implantation and in urine about 14 days after implantation. The other hormones are not specific to pregnancy and cannot reliably indicate pregnancy."
+  },
+  {
+    "question": "Concerning spermatogenesis, which of the following is correct:",
+    "options": [
+      "Sperm production is cyclic",
+      "Continuous release of GnRH is essential for spermatogenesis", 
+      "Sertoli cells are needed for mitotic and meiotic activity of germ cells",
+      "FSH acts on Leydig cells to stimulate release of testosterone",
+      "LH acts on Sertoli cells to stimulate release androgen binding protein"
+    ],
+    "correct": 2,
+    "explanation": "Sertoli cells provide physical support and nutrients essential for both mitotic and meiotic divisions of germ cells during spermatogenesis. Spermatogenesis is continuous (not cyclic) in males, GnRH release is pulsatile (not continuous), FSH acts on Sertoli cells (not Leydig cells), and LH acts on Leydig cells (not Sertoli cells) to stimulate testosterone production."
+  },
+  {
+    "question": "During 2nd and 3rd trimester of pregnancy, the primary source of estrogen and progesterone is the:",
+    "options": [
+      "Corpus luteum",
+      "Granulosa and theca cells in ovaries", 
+      "Placenta",
+      "Adrenal cortex",
+      "Pituitary gland"
+    ],
+    "correct": 2,
+    "explanation": "After the first 6-8 weeks of pregnancy, the placenta becomes the primary source of estrogen and progesterone. The corpus luteum degenerates around this time, the ovarian follicles are inactive during pregnancy, and while the adrenal cortex produces some androgens that can be converted to estrogen, it is not the primary source."
+  },
+  {
+    "question": "Which of the following statements about estrogen is not true:",
+    "options": [
+      "Interacts with intracellular protein receptors",
+      "Increases synthesis of thyroid binding protein", 
+      "Decreases uterine contractions",
+      "Decreases FSH secretion",
+      "Is released from the testes"
+    ],
+    "correct": 2,
+    "explanation": "Estrogen actually increases uterine contractions by making the uterus more excitable to oxytocin, not decreasing them. All other statements are true: estrogen interacts with intracellular receptors, increases hepatic production of thyroid-binding globulin, exerts negative feedback on FSH secretion (except at mid-cycle), and small amounts are produced in the testes via aromatase conversion of androgens."
+  },
+  {
+    "question": "Testosterone is not:",
+    "options": [
+      "Produced during intra-uterine life",
+      "An anabolic hormone", 
+      "Mostly protein bound",
+      "Inhibited directly by inhibin",
+      "Inhibitory to LH"
+    ],
+    "correct": 3,
+    "explanation": "Testosterone is NOT directly inhibited by inhibin. Inhibin specifically inhibits FSH secretion, not testosterone. Testosterone is produced during intrauterine life, has anabolic effects (promotes protein synthesis), is 98% protein-bound in plasma, and exerts negative feedback inhibition on LH secretion."
+  },
+  {
+    "question": "In a normal menstrual cycle:",
+    "options": [
+      "High estrogen maintains the corpus luteum",
+      "Progesterone is highest during early days of menstrual cycle", 
+      "LH peak is preceded by estrogen peak",
+      "Ovulation depends on FSH surge",
+      "The life span of corpus luteum determines duration of the cycle"
+    ],
+    "correct": 2,
+    "explanation": "The LH peak at mid-cycle is preceded by a peak in estrogen levels. Just before ovulation, rising estrogen switches from negative to positive feedback on the pituitary, triggering the LH surge. The corpus luteum is maintained by LH (not estrogen), progesterone is lowest during early menstrual days, ovulation depends on LH surge (not FSH), and the follicular phase variability determines cycle length (the luteal phase is relatively constant at 14 days)."
+  },
+  {
+    "question": "Which of the followings is NOT secreted by Sertoli cells:",
+    "options": [
+      "Androgen binding protein",
+      "Testosterone", 
+      "Mullerian inhibitory substance",
+      "Inhibin",
+      "Estrogens"
+    ],
+    "correct": 1,
+    "explanation": "Testosterone is secreted by Leydig cells (interstitial cells), not Sertoli cells. Sertoli cells do secrete androgen binding protein (in response to FSH), Mullerian inhibitory substance (during fetal development), inhibin (which inhibits FSH), and estrogens (via aromatase conversion of androgens)."
+  },
+  {
+    "question": "Concerning spermatogenesis:",
+    "options": [
+      "Testosterone is not essential",
+      "The secondary spermatocyte contains 23 chromosomes", 
+      "FSH has no role",
+      "The process takes 74 hours",
+      "Involves division of Sertoli cells to form sperms"
+    ],
+    "correct": 1,
+    "explanation": "The secondary spermatocyte contains 23 chromosomes (haploid) after the first meiotic division. Testosterone is essential for the final maturation of spermatids to spermatozoa, FSH is crucial for stimulating Sertoli cells, spermatogenesis takes 74 days (not hours), and Sertoli cells support but do not divide to form sperm - germ cells undergo the divisions."
+  },
+  {
+    "question": "Progesterone:",
+    "options": [
+      "Acts on cell membrane receptors",
+      "Stimulates the respiratory centre to increase respiration", 
+      "Acts directly on the hypothalamus to activate the temperature centre",
+      "Promotes proliferative changes in the endometrium",
+      "Stimulates development of ducts in the breast"
+    ],
+    "correct": 1,
+    "explanation": "Progesterone stimulates the respiratory center, causing hyperventilation during pregnancy and the luteal phase. Progesterone acts on intracellular receptors (not cell membrane), its thermogenic effect is metabolic (not via hypothalamic temperature center), estrogen (not progesterone) causes proliferative changes, and progesterone stimulates lobular and alveolar breast development (not ductular, which is estrogen-mediated)."
+  },
+  {
+    "question": "Human chorionic somatomammotropin (hCS):",
+    "options": [
+      "Is a steroid hormone",
+      "Prevents glucose utilization by the fetus", 
+      "Causes lipolysis",
+      "Is secreted by the granulosa cells",
+      "Is detected by pregnancy test to diagnose pregnancy"
+    ],
+    "correct": 2,
+    "explanation": "hCS causes lipolysis, providing free fatty acids as an alternative energy source for the mother. hCS is a protein hormone (not steroid), reduces glucose utilization by the MOTHER (not fetus) to spare glucose for fetal use, is secreted by syncytiotrophoblasts (not granulosa cells), and pregnancy tests detect hCG (not hCS)."
+  },
+  {
+    "question": "Maternal responses to pregnancy do not include:",
+    "options": [
+      "Increased GFR",
+      "Increased volume of plasma", 
+      "Increased cardiac output",
+      "Increased lung volumes and capacities",
+      "Decreased erythropoiesis"
+    ],
+    "correct": 3,
+    "explanation": "Pregnancy does NOT increase lung volumes and capacities; in fact, the upward displacement of the diaphragm by the enlarged uterus actually REDUCES lung volumes. All other options are correct maternal adaptations: GFR increases by 50-60%, plasma volume increases by 40-50%, cardiac output increases by 30-50%, and while red blood cell mass increases, the relative hemodilution can give the appearance of decreased erythropoiesis."
+  },
+  {
+    "question": "A 17-year-old girl visited her physician because she had never had a menstrual period. Physical examination revealed a tall female with a short, blind-ended vagina and no palpable cervix. Ultrasound showed the absence of a uterus and no ovaries and the presence of undescended testes. Deficiency of which enzyme, hormone, or receptor is most likely to account for these findings?",
+    "options": [
+      "Androgen receptors",
+      "Aromatase",
+      "Estrogen receptors",
+      "21a-Hydroxylase",
+      "Müllerian-inhibiting substance",
+      "Progesterone",
+      "5a-Reductase"
+    ],
+    "correct": 0,
+    "explanation": "This describes complete androgen insensitivity syndrome (testicular feminization). The patient has a 46,XY karyotype with testes that produce testosterone and MIS normally. However, due to androgen receptor deficiency, the body cannot respond to androgens, leading to female external genitalia development. MIS from Sertoli cells causes regression of Müllerian structures (uterus, fallopian tubes), resulting in a blind vaginal pouch. The testes remain undescended, and patients are tall due to delayed epiphyseal closure from lack of androgen effects."
+  },
+  {
+    "question": "A blood sample is taken from a 27-year-old woman for hormone analysis. The sample contains low levels of follicle-stimulating hormone (FSH) and luteinizing hormone (LH) and high levels of estrogen, progesterone, and inhibin. Assuming a normal 28-day menstrual cycle, on which day of this woman's menstrual cycle was the blood sample taken?",
+    "options": [
+      "Day 1",
+      "Day 7",
+      "Day 14",
+      "Day 21",
+      "Day 28"
+    ],
+    "correct": 3,
+    "explanation": "Day 21 corresponds to the mid-luteal phase when the corpus luteum is fully functional, secreting high levels of estrogen, progesterone, and inhibin. These hormones exert strong negative feedback on the pituitary, suppressing FSH and LH secretion. This hormonal profile is characteristic of the luteal phase and essential for preparing the endometrium for potential implantation."
+  },
+  {
+    "question": "A 37-year-old woman who is breast-feeding her 4-month-old son is taking the train to see her mother who lives several hours away. When the woman hears the cry of another infant, she notices that milk has been expressed from both her breasts. The release of which hormone can account for this response?",
+    "options": [
+      "Estrogen",
+      "Inhibin",
+      "Oxytocin",
+      "Progesterone",
+      "Prolactin"
+    ],
+    "correct": 2,
+    "explanation": "Oxytocin is responsible for milk ejection (let-down reflex) by causing contraction of myoepithelial cells surrounding breast alveoli. This reflex can be conditioned by various stimuli including infant crying, thinking about the baby, or emotional states. Prolactin is responsible for milk production (lactogenesis), not milk ejection."
+  },
+  {
+    "question": "A 36-year-old woman who is pregnant with her third child is in labor. Her serum oxytocin levels were measured at regular intervals over a 24-hour period. Measurements were taken at the onset when the woman began having low back pains 1 day before delivery and ended 3 hours after delivery of the infant, just before the woman was to begin breast-feeding the infant. A normal vaginal delivery was completed without medical intervention. At what time was the oxytocin concentration in maternal blood most likely to be highest?",
+    "options": [
+      "Before labor",
+      "At the onset of back pain",
+      "Uterine contractions 20 minutes apart",
+      "During the expulsive stages of labor",
+      "Three hours after delivery"
+    ],
+    "correct": 3,
+    "explanation": "Oxytocin levels peak during the expulsive stage of labor when the fetus descends and cervical dilation is maximal. This creates a positive feedback loop: cervical stretching stimulates oxytocin release, which causes stronger uterine contractions, leading to more cervical stretching. This Ferguson reflex ensures progressive labor until delivery."
+  },
+  {
+    "question": "A 32-year-old woman and her partner were trying to conceive a child. The woman had regular menstrual cycles of about 30 days in length. Four days after missing her menstrual period, she bought a commercial pregnancy testing kit. The couple was excited to discover that her urine sample indicated a positive result for pregnancy. Which of the following hormones was detected in her urine?",
+    "options": [
+      "Human chorionic gonadotropin",
+      "Estrogen",
+      "Follicle-stimulating hormone",
+      "Gonadotropin-releasing hormone",
+      "Inhibin",
+      "Luteinizing hormone",
+      "Progesterone"
+    ],
+    "correct": 0,
+    "explanation": "Home pregnancy tests detect human chorionic gonadotropin (hCG), which is produced by the syncytiotrophoblast of the developing placenta. hCG appears in urine about 14 days after implantation, making it detectable around the time of missed menstruation. hCG maintains the corpus luteum during early pregnancy, ensuring continued progesterone production."
+  },
+  {
+    "question": "Fetal acquisition of glucose occurs by placental glucose transport. What is the first cell layer within the placenta that glucose must cross during transport from maternal to fetal blood?",
+    "options": [
+      "Cytotrophoblast",
+      "Decidua",
+      "Inner cell mass",
+      "Mesenchyme",
+      "Syncytiotrophoblast"
+    ],
+    "correct": 4,
+    "explanation": "The syncytiotrophoblast is the outermost layer of chorionic villi, directly bathed in maternal blood in the intervillous space. Glucose from maternal blood must first cross this continuous, multinucleated cell layer before passing through the cytotrophoblast, basement membrane, and fetal capillary endothelium to reach fetal circulation."
+  },
+  {
+    "question": "The luteinizing hormone surge measured during the ovulatory phase of the menstrual cycle results from positive feedback exerted by which of the following hormones?",
+    "options": [
+      "Estrogen",
+      "Follicle-stimulating hormone",
+      "Gonadotropin-releasing hormone",
+      "Inhibin",
+      "Progesterone"
+    ],
+    "correct": 0,
+    "explanation": "Sustained high levels of estrogen from the developing dominant follicle switch from negative to positive feedback on the pituitary around mid-cycle. This positive feedback sensitizes gonadotropes to GnRH, triggering the LH surge that induces ovulation. This is a unique neuroendocrine phenomenon specific to the menstrual cycle."
+  },
+  {
+    "question": "A 36-year-old woman visited her gynecologist to have a routine annual examination. A cervical Pap smear was performed to check for abnormal cells. The mucus sample was thin and produced a fern-like pattern when it dried on a microscope slide. Assuming a normal 28-day menstrual cycle, on which day of this woman's menstrual cycle was the smear taken?",
+    "options": [
+      "Day 1",
+      "Day 7",
+      "Day 14",
+      "Day 21",
+      "Day 28"
+    ],
+    "correct": 2,
+    "explanation": "Day 14 corresponds to ovulation when estrogen levels peak. Under estrogen dominance, cervical mucus becomes thin, watery, and alkaline, forming a fern-like crystallization pattern when dried. This facilitates sperm transport and survival. Progesterone-dominated mucus (luteal phase) is thick and does not fern."
+  },
+  {
+    "question": "A 37-year-old man with four children elected to have a vasectomy. This procedure prevents conception because",
+    "options": [
+      "no sperm is ejaculated",
+      "secretion from seminal vesicles is not ejaculated",
+      "secretion from the prostate gland is not ejaculated",
+      "no semen is ejaculated"
+    ],
+    "correct": 0,
+    "explanation": "Vasectomy involves cutting and sealing the vas deferens, preventing sperm transport from the epididymis to the ejaculatory ducts. Semen (composed of secretions from seminal vesicles, prostate, and Cowper's glands) is still ejaculated, but it contains no sperm. Sperm production continues but sperm are phagocytosed in the epididymis."
+  },
+  {
+    "question": "A child born with ambiguous genitalia was found to have a 46XY karyotype. Testes were present at birth, and there was a small phallus with a urethral opening at its midpoint. The child entered puberty late, but masculinization was evident. Which deficiency could account for these findings?",
+    "options": [
+      "Aromatase",
+      "21a-Hydroxylase",
+      "Luteinizing hormone receptor",
+      "5a-Reductase",
+      "Testosterone"
+    ],
+    "correct": 3,
+    "explanation": "5α-reductase deficiency impairs conversion of testosterone to dihydrotestosterone (DHT), which is essential for normal development of external male genitalia (penis, scrotum, prostate). At puberty, high testosterone levels can partially overcome this deficiency, leading to virilization (phallic growth, muscle development, voice deepening) as testosterone can bind androgen receptors, though less effectively than DHT."
+  },
+  {
+    "question": "Ovarian granulosa cells were grown in primary cell culture in vitro. The cells failed to secrete significant amounts of estrogen when exposed to follicle-stimulating hormone (FSH) and luteinizing hormone (LH) until they were cultured together with ovarian thecal cells. A likely explanation for the failure of granulosa cells to produce estrogens when cultured alone is",
+    "options": [
+      "inability of granulosa cells to synthesize cholesterol",
+      "lack of androgen precursors from which to produce estrogens",
+      "lack of aromatase activity",
+      "lack of 5a-reductase activity",
+      "lack of progesterone precursor from which to produce estrogens"
+    ],
+    "correct": 1,
+    "explanation": "Estrogen synthesis requires the two-cell system: Theca interna cells (under LH stimulation) produce androgens from cholesterol. These androgens diffuse to granulosa cells, where FSH-stimulated aromatase converts them to estrogens. Granulosa cells lack the enzymes for de novo androgen synthesis but are rich in aromatase. Without thecal cell-derived androgens, granulosa cells cannot produce significant estrogen."
+  },
+  {
+    "question": "An 18-year-old man visited his physician because he was concerned about his height. He is 152 cm tall (5 ft). He described himself when he was in elementary school as being self-conscious because he was taller than his peers. He also recalled developing pubic and axillary hair at about age 7 or 8. Physical examination showed a healthy male of short stature with normal genitalia and male secondary sexual development. Which endocrine abnormality best explains the findings in this patient?",
+    "options": [
+      "Early maturation of the hypothalamic-pituitary-gonadal axis",
+      "Failure of pulsatile gonadotrophin-releasing hormone secretion at puberty",
+      "Growth hormone excess in early childhood",
+      "Insulin-like growth factor-1 deficiency",
+      "Panhypopituitarism"
+    ],
+    "correct": 0,
+    "explanation": "This describes true precocious puberty. Early activation of the hypothalamic-pituitary-gonadal axis leads to premature sex steroid production, causing an early growth spurt and advanced bone age. However, early epiphyseal closure results in short adult stature. The history of early pubic/axillary hair development and initially being taller than peers, followed by short adult height, is characteristic of precocious puberty with premature growth plate fusion."
+  },
+          {
+            "question": "A series of photographs taken of a middle-aged man over a period of 2 decades demonstrates gradual coarsening of facial features and progressive protrusion of the brows. Upon questioning, the patient reports having to wear larger shoes than he did as a young man. Which of the following pair of hormones normally regulates the hormone responsible for these changes?",
+            "options": [
+              "Dopamine and norepinephrine",
+              "LH and hCG",
+              "Prolactin and FSH",
+              "Somatostatin and GHRH",
+              "TSH and ACTH"
+            ],
+            "correct": 3,
+            "explanation": "The disease is acromegaly, which is typically produced by a growth hormone-secreting pituitary adenoma. Growth hormone synthesis is predominately regulated by hypothalamic GHRH (growth hormone releasing hormone), and its pulsatile secretion is predominately regulated by hypothalamic somatostatin."
+          },
+          {
+            "question": "A 35-year-old, sexually active woman visits her gynecologist complaining of mild, right-sided, lower abdominal pain but no other symptoms. There are no peritoneal signs. Her surgical history is significant for an appendectomy at age 10. Her last period occurred 14 days ago. Which of the following endometrial changes corresponds to this stage of the patient's menstrual cycle?",
+            "options": [
+              "Apical movement of secretions in the glandular cells",
+              "Degeneration of the glandular structures",
+              "Glandular glycogen accumulation in the functionalis",
+              "Growth of the spiral arteries",
+              "Tissue expansion by cellular hypertrophy"
+            ],
+            "correct": 3,
+            "explanation": "This patient appears to be experiencing mittelschmerz, abdominal pain occurring at the time of ovulation. She is at the conclusion of the proliferative (estrogenic) phase, which is characterized by regrowth of the endometrium. The spiral arteries grow into the regenerating endometrium during this stage."
+          },
+          {
+            "question": "A 37-year-old woman has been trying to get pregnant for the past 16 months. Just as she is about to schedule an appointment with a fertility specialist, she gets a premonition that she is pregnant, despite a negative home pregnancy test 7 days earlier. By the time of implantation in the uterine endometrium, the typical fertilized ovum has divided into how many cells?",
+            "options": [
+              "2",
+              "4",
+              "8",
+              "16",
+              ">50"
+            ],
+            "correct": 4,
+            "explanation": "By the time of implantation, approximately 7 days after ovulation, the fertilized ovum has developed to the blastocyst stage. At this stage, the blastocyst typically contains 100 or more cells, which have differentiated into an inner cell mass (designed to become the embryo) and trophoblast."
+          },
+          {
+            "question": "A boy-and-girl set of twins is beginning to undergo puberty at age 14. In the development of their reproductive systems, which of the following characteristics is similar for spermatogenesis and oogenesis?",
+            "options": [
+              "Age at which meiosis begins",
+              "Amount of cytoplasm retained",
+              "DNA replication during meiosis",
+              "Length of prophase I",
+              "Transmission to fetus of mitochondrial DNA"
+            ],
+            "correct": 2,
+            "explanation": "The actual process of manipulation of DNA and chromosomes during meiosis is very similar in spermatogenesis and oogenesis. Both processes involve DNA replication during meiosis. However, they differ in many other respects including the age at which meiosis begins, amount of cytoplasm retained, length of prophase I, and transmission of mitochondrial DNA."
+          },
+          {
+            "question": "A 55-year-old woman stopped menstruating approximately 3 months ago. Worried that she may be pregnant, she decides to have a pregnancy test. The result is negative. Which of the following series of test results will confirm that the woman is postmenopausal?",
+            "options": [
+              "Decreased LH, decreased FSH, increased estrogen",
+              "Decreased LH, increased FSH, decreased estrogen",
+              "Increased LH, decreased FSH, decreased estrogen",
+              "Increased LH, increased FSH, decreased estrogen",
+              "Increased LH, increased FSH, increased estrogen"
+            ],
+            "correct": 3,
+            "explanation": "During menopause, there is a loss of functioning follicles in the ovaries such that GnRH-stimulated LH and FSH secretion do not result in normal estrogen secretion. The low estrogen levels cannot inhibit gonadotropin secretion in a negative-feedback fashion, resulting in very high levels of LH and FSH."
+          },
+          {
+            "question": "To make extra money, a medical student participates in a study to determine hormone levels during the menstrual cycle. Her menarche was at age 13, and she has always had regular, 28-day cycles. When analyzing the results of her studies, it is correct to assume that the dotted line in the figure represents the cyclic secretion pattern of which hormone?",
+            "options": [
+              "Estrogen",
+              "FSH",
+              "Gonadotropin-releasing hormone",
+              "LH",
+              "Progesterone"
+            ],
+            "correct": 0,
+            "explanation": "Estrogen levels peak at the end of the follicular phase of the menstrual cycle, creating positive feedback to the hypothalamus and pituitary gland. This increases the number of GnRH spikes per 24 hours, causing a surge of both follicle-stimulating hormone (FSH) and luteinizing hormone (LH)."
+          },
+          
+          {
+            "question": "8. A 38-year-old man who has galactorrhea is found to have a prolactinoma. His physician treats him with bromocriptine, which eliminates the galactorrhea. The basis for the therapeutic action of bromocriptine is that it",
+            "options": [
+              "antagonizes the action of prolactin on the breast",
+              "enhances the action of prolactin on the breast",
+              "inhibits prolactin release from the anterior pituitary",
+              "inhibits prolactin release from the hypothalamus",
+              "enhances the action of dopamine on the anterior pituitary"
+            ],
+            "correct": 2,
+            "explanation": "Bromocriptine is a dopamine agonist. Prolactin secretion by the anterior pituitary is tonically inhibited by dopamine from the hypothalamus. Bromocriptine mimics dopamine, inhibiting prolactin release and reducing galactorrhea. It does not directly affect prolactin action on the breast."
+          },
+          {
+            "question": "10. Which of the following functions of the Sertoli cells mediates negative feedback control of follicle-stimulating hormone (FSH) secretion?",
+            "options": [
+              "Synthesis of inhibin",
+              "Synthesis of testosterone",
+              "Aromatization of testosterone",
+              "Maintenance of the blood-testes barrier"
+            ],
+            "correct": 0,
+            "explanation": "Sertoli cells synthesize inhibin in response to FSH stimulation. Inhibin acts on the anterior pituitary to inhibit FSH secretion via negative feedback, regulating spermatogenesis. Testosterone synthesis occurs in Leydig cells, and aromatization converts testosterone to estradiol in various tissues."
+          },
+
+          
+  {
+    "question": "A 15-year-old boy presents for his annual athletic physical. A thorough examination reveals unilateral cryptorchidism. The physician schedules a follow-up visit with the boy and his parents to discuss his recommendation for surgery to correct the defect because of his concerns of possible infertility in the future. Which of the following statements about spermatogenesis is correct?",
+    "options": [
+      "Mature spermatozoa are present at birth, but cannot be released until puberty is reached.",
+      "Spermatogenesis requires a temperature lower than internal body temperature.",
+      "Spermatogenesis requires continuous release of gonadotropin-releasing hormone (GRH).",
+      "Leydig cell secretion of testosterone requires follicle-stimulating hormone (FSH).",
+      "Luteinizing hormone (LH) acts directly on Sertoli cells to promote cell division."
+    ],
+    "correct": 1,
+    "explanation": "The temperature of the testes must be considerably below that of the internal body temperature for spermatogenesis to occur. The testes are normally maintained at a temperature of about 32°C, and are kept cool by a countercurrent heat exchange between the spermatic arteries and veins and by air circulating around the scrotum. The testes develop in the abdomen but normally descend into the scrotum during fetal development. In ~10% of newborn males, one or, less commonly, both testes remain in the abdominal cavity or inguinal canal. Although most (98%) of undescended testes (cryptorchidism) spontaneously descend by 1 year, and all but 0.3% spontaneously descend by puberty, early surgical treatment is recommended because abdominal temperatures can cause irreversible damage to the spermatogenic epithelium and the incidence of malignant tumors is higher in undesecnded than in scrotal testes. Maturation of spermatogonia, the primitive germ cells, into primary spermatocytes does not begin until adolescence. Throughout the reproductive life of the human male, 100 to 200 million sperm are produced daily. Of critical importance to the hormonal regulation of spermatogenesis are the pulsatile release of GRH and the subsequent involvement of FSH and LH at their target cells. FSH acts directly on the Sertoli cells of the seminiferous tubules to initiate mitotic and meiotic activity of germ cells. LH effects are thought to be mediated via stimulation of testosterone secretion by the Leydig cells."
+  },
+  {
+    "question": "A 32-year-old male taking chlorpromazine for his schizophrenia presents with diminished libido and decreased beard growth. His blood prolactin level of 75 µg/L confirms the presence of hyperprolactinemia. Which of the following statements about prolactin is correct?",
+    "options": [
+      "Normal adult serum levels of prolactin are much higher in women than men.",
+      "Prolactin causes milk ejection during suckling.",
+      "Prolactin inhibits the growth of breast tissue.",
+      "Prolactin inhibits gonadotropin releasing hormone secretion by the hypothalamus.",
+      "Prolactin inhibits gonadotropin secretion by the pituitary gland."
+    ],
+    "correct": 3,
+    "explanation": "Prolactin is a single-chain protein structurally homologous to growth hormone, which is secreted by the anterior pituitary and has the principal physiologic effects of lactation (i.e., milk production), decreased reproductive function, and suppressed sexual drive. Normal adult serum levels of prolactin are about the same or only slightly higher in females compared to males. Consistent with its role in lactogenesis, prolactin secretion increases during pregnancy. Suckling increases prolactin secretion, but milk ejection during suckling is due to oxytocin release. Prolactin inhibits reproductive function by inhibiting hypothalamic GnRH release and pituitary gonadotropin secretion. Hyperprolactinemia is the most common pituitary hormone hypersecretion syndrome in both males and females. Pregnancy and lactation are the most important physiological causes of hyperprolactinemia. Prolactin-secreting pituitary adenomas, hypothyroidism, and drug-induced inhibition or disruption of dopaminergic receptor function are other common causes of hyperprolactinemia."
+  },
+  {
+    "question": "Which of the following is the source of estrogen and progesterone during the first two months of pregnancy?",
+    "options": [
+      "Ovary",
+      "Placenta",
+      "Corpus luteum",
+      "Anterior pituitary",
+      "Posterior pituitary"
+    ],
+    "correct": 2,
+    "explanation": "During the first 2 months of pregnancy, estrogen and progesterone production is primarily the responsibility of the corpus luteum. The placenta serves as the source of the hormones during the remainder of pregnancy. Progesterone is essential to maintain placental implantation, inhibit uterine contractions, and suppress the maternal immune system response to fetal antigens. Estrogens serve to increase the size of the uterus, induce progesterone and oxytocin receptors, stimulate maternal hepatic protein secretion, and promote breast development. Estrid is the major estrogen produced during pregnancy. The production of estrogen and progesterone during gestation requires cooperation between the maternal, placental, and fetal compartments—the fetoplacental unit."
+  },
+  {
+    "question": "Which of the following is the source of estrogen and progesterone during the last 7 months of pregnancy?",
+    "options": [
+      "Ovary",
+      "Placenta",
+      "Corpus luteum",
+      "Anterior pituitary",
+      "Posterior pituitary"
+    ],
+    "correct": 1,
+    "explanation": "During the first 2 months of pregnancy, estrogen and progesterone production is primarily the responsibility of the corpus luteum. The placenta serves as the source of the hormones during the remainder of pregnancy. Progesterone is essential to maintain placental implantation, inhibit uterine contractions, and suppress the maternal immune system response to fetal antigens. Estrogens serve to increase the size of the uterus, induce progesterone and oxytocin receptors, stimulate maternal hepatic protein secretion, and promote breast development. Estrid is the major estrogen produced during pregnancy. The production of estrogen and progesterone during gestation requires cooperation between the maternal, placental, and fetal compartments—the fetoplacental unit."
+  },
+  {
+    "question": "In the graph below showing plasma hormone levels as a function of time, ovulation takes place at which of the lettered points on the time axis?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "correct": 2,
+    "explanation": "Ovulation takes place just after the peak of the luteinizing hormone (LH) and estrogen curves, which occurs on approximately the fourteenth day of the menstrual cycle. Although FSH is primarily responsible for follicular maturation within the ovary, LH is necessary for final follicular maturation; without it, ovulation cannot take place. Both estrogen, following a sharp preovulatory rise in plasma concentration, and progesterone are secreted in abundance by the postovulatory corpus luteum."
+  },
+  {
+    "question": "The normal pattern of progesterone secretion during the menstrual cycle is exhibited by which of the following curves?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "correct": 3,
+    "explanation": "There is a marked increase in progesterone secretion following ovulation. Almost all the progesterone secreted in nonpregnant women is secreted by the corpus luteum. Secretion of both progesterone and estrogen is controlled by luteinizing hormone (LH) released by the adenohypophysis, and LH release itself is under the direction of a hypothalamic releasing factor."
+  },
+  {
+    "question": "An 18-year-old emaciated female who has been on a strict diet regimen and training for a marathon presents with amenorrhea. Exogenous pulsatile administration of gonadotropin-releasing hormone (GnRH) restores ovulation and menses. Ovulation is caused by a sudden increase in the secretion of which of the following hormones?",
+    "options": [
+      "LH",
+      "FSH",
+      "GnRH",
+      "Estrogen",
+      "Progesterone"
+    ],
+    "correct": 0,
+    "explanation": "Ovulation is caused by a sudden increase in LH secretion. Both LH and FSH blood levels increase during the follicular phase of the menstrual cycle and reach peak blood levels prior to ovulation. Estrogen levels follow a similar pattern during the follicular phase. The physiological signal for ovulation is a surge in LH blood levels. Under the influence of LH, thecal and granulosa cells become the luteal cells of the corpus luteum. Progesterone production by the corpus luteum increases significantly. Estrogen levels also increase, but do not reach the levels achieved during the follicular phase. In anorexia nervosa, the regulation of virtually every endocrine system is altered, but the most striking changes occur in the reproductive system. Amenorrhea in anorexia nervosa is hypothalamic in origin and reflects decreased production of gonadotropin-releasing hormone (with low levels of LH and FSH) that may be due to a marked reduction in leptin associated with the decreased mass of adipose tissue. In up to 25% of patients, however, amenorrhea precedes significant weight loss."
+  },
+  {
+    "question": "In the following graph of changes in endometrial thickness during a normal 28-day menstrual cycle, the event designated A corresponds most closely to which of the following phases?",
+    "options": [
+      "The menstrual phase",
+      "The maturation of the corpus luteum",
+      "The early proliferative phase",
+      "The secretory phase",
+      "Ovulation"
+    ],
+    "correct": 2,
+    "explanation": "Ovulation occurs at point A on the graph. In response to estrogen secretion by the ovary, the endometrial lining of the uterus undergoes proliferation of both glandular epithelium and supporting stroma during the first 10 to 14 days of the menstrual cycle. Following ovulation, the glands begin to secrete mucus and the stroma undergoes pseudodecidual reaction in preparation for potential pregnancy. When ovulation is not followed by implantation of a fertilized ovum, progesterone secretion declines as the corpus luteum involutes, and the endometrial lining is almost completely shed during menses."
+  },
+  {
+    "question": "A couple presents at the Fertility Center concerned that they have not been able to conceive a child. The reproductive endocrinologist evaluates the wife to be certain that she is ovulating. Which of the following is an indication that ovulation has taken place?",
+    "options": [
+      "An increase in serum FSH levels",
+      "A drop in body temperature",
+      "An increase in serum LH levels",
+      "An increase in serum progesterone levels",
+      "An increase in serum estrogen levels"
+    ],
+    "correct": 3,
+    "explanation": "Progesterone production by the corpus luteum increases significantly at the time of ovulation. Progesterone affects the set point for thermoregulation and increases body temperature approximately 0.58°F. Both LH and FSH blood levels increase during the follicular phase of the menstrual cycle and reach peak blood levels prior to ovulation. Estrogen levels follow a similar pattern during the follicular phase. The physiologic signal for ovulation is a surge in LH blood levels. Under the influence of LH, thecal and granulosa cells become the luteal cells of the corpus luteum. Estrogen levels also increase, but do not reach the levels achieved during the follicular phase."
+  },
+  {
+    "question": "A 26-year-old male with Klinefelter's syndrome has seminiferous tubule dysgenesis. Which of the following is a function of Sertoli cells in the seminiferous tubules?",
+    "options": [
+      "Secretion of FSH into the tubular lumen",
+      "Secretion of testosterone into the tubular lumen",
+      "Maintenance of the blood-testis barrier",
+      "Synthesis of estrogen after puberty",
+      "Expression of surface LH receptors"
+    ],
+    "correct": 2,
+    "explanation": "The Sertoli cells rest on a basal lamina and form a layer around the periphery of the seminiferous tubules. They are attached to each other by specialized junctional complexes that limit the movement of fluid and solute molecules from the interstitial space and blood to the tubular lumen, and thus form a blood-testis barrier that provides an immunologically privileged environment for sperm maturation. Sertoli cells are intimately associated with developing spermatozoa and play a major role in germ-cell maturation. They secrete a variety of serum proteins and an androgen-binding protein into the tubular fluid in response to FSH and testosterone stimulation. Testosterone is synthesized and secreted by the interstitial Leydig cells. Estrogen is produced in small amounts by the Sertoli cells before puberty."
+  },
+  {
+    "question": "In a normal pregnancy, human chorionic gonadotropin (hCG) prevents the involution of the corpus luteum that normally occurs at the end of the menstrual cycle. Which of the curves shown below approximates the level of this hormone during pregnancy?",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "correct": 0,
+    "explanation": "Human chorionic gonadotropin (hCG) begins to appear in the maternal blood approximately 6 to 8 days following ovulation, upon implantation of the fertilized ovum in the endometrium. The secretion of hCG is essential to prevent involution of the corpus luteum and to stimulate secretion of progesterone and estrogens, which continues until the placenta becomes large enough to secrete sufficient quantities of those hormones. Following a peak at 7 to 9 weeks, hCG secretion gradually declines to a low level by 20 weeks gestation."
+  },
+  {
+    "question": "A woman presents to her obstetrician with concerns that she has had trouble breast feeding. She reports that her mother-in-law told her that alcohol would relax her and allow her milk to flow more readily, but it has not helped, even with drinking up to a bottle of wine a day. Which of the following hormones is involved in the ejection of milk from a lactating mammary gland?",
+    "options": [
+      "Growth hormone",
+      "FSH",
+      "LH",
+      "Prolactin",
+      "Oxytocin"
+    ],
+    "correct": 4,
+    "explanation": "A combined neurogenic and hormonal reflex involving oxytocin, a posterior pituitary hormone, causes the actual ejection (\"let-down\") of milk from breast tissue. Although estrogen and progesterone are essential for the physical development of breast tissue during pregnancy, both hormones inhibit milk secretion. Milk secretion is regulated by prolactin, a pituitary hormone secreted throughout pregnancy and after parturition. Adequate amounts of growth hormone are required to provide the nutrients that are essential for milk production by breast tissue. Suckling on breast tissue is the stimulus that leads to milk secretion. The secretion of oxytocin is increased by stressful stimuli, and inhibited by alcohol. Furthermore, alcohol is transferred from the mother's bloodstream into her breast milk and to the nursing infant, where it can have many deleterious effects."
+  },
+  {
+    "question": "Assuming a regular menstrual cycle of 28 to 30 days, ovulation would be expected to occur between which of the following days?",
+    "options": [
+      "Days 6 and 8",
+      "Days 10 and 12",
+      "Days 14 and 16",
+      "Days 18 and 20",
+      "Days 22 and 24"
+    ],
+    "correct": 2,
+    "explanation": "In a woman with a menstrual cycle of 28 to 30 days, ovulation generally occurs between days 14 and 16. The menstrual cycle is divided physiologically into three phases. The follicular phase begins with the onset of menses and lasts 9 to 13 days. The ovulatory phase lasts 1 to 3 days and culminates in ovulation. The luteal phase, the most constant phase of the cycle, lasts about 14 days and ends with the onset of menstrual bleeding."
+  },
+  {
+    "question": "An 18-year-old college woman is brought to the Emergency Department by her roommate after she was raped walking back to the dorm from the library at night. She requests the 'morning after pill' she has heard about to prevent pregnancy from the violation. She is given a postcoital contraceptive to prevent implantation and induce regression of the corpus luteum. Which of the following is correct regarding implantation of the zygote in the uterine wall?",
+    "options": [
+      "Precedes formation of the zona pellucida",
+      "Involves infiltration of the endometrium by the syncytiotrophoblast",
+      "Occurs 3 to 5 days after fertilization",
+      "Occurs when the embryo consists of approximately 128 cells",
+      "Is inhibited by secretion of progesterone from the corpus luteum"
+    ],
+    "correct": 1,
+    "explanation": "Implantation of a zygote into the uterine wall involves infiltration of the endometrium by the syncytiotrophoblast. Fertilization and early cleavage of the zygote occur in the fallopian tube in the human female. After approximately 3 days, the zygote enters the uterine cavity, where it undergoes additional divisions over a period of 3 to 4 days to form a morula of approximately 60 cells that is transformed into a blastocyst consisting of the yolk sac and embryo. Enzymatic digestion of the zona pellucida and infiltration of the endometrium by the syncytiotrophoblast, which forms the outer layer of the blastocyst, result in implantation of the blastocyst within the endometrium, where it erodes into maternal vessels. During these early stages of embryogenesis, the endometrium is primed by progesterone secreted by the corpus luteum in the ovary in response to pituitary gonadotropin secretion. After 10 to 15 days, placental gonadotropins maintain the corpus luteum until placental synthesis of progesterone is established at 6 to 8 weeks of gestation. Large dose estrogens, diethystilbesterol, and mifepristone (RU486) are examples of postcoital contraceptives."
+  },
+  {
+    "question": "A 22-year-old woman presents at the obstetrician/gynecologists office with complaints of painful menstruation accompanied by profuse menstrual flow. The doctor prescribes a low-dose oral contraceptive for the menorrhagia and ibuprofen for the dysmenorrhea. Biological actions of estrogens include a decrease in which of the following?",
+    "options": [
+      "Ovarian follicular growth",
+      "Duct growth in the breasts",
+      "Uterine smooth muscle motility",
+      "Serum cholesterol levels",
+      "Libido"
+    ],
+    "correct": 3,
+    "explanation": "Estrogens have a significant plasma cholesterol-lowering action. Estrogens stimulate the growth and development of the female reproductive tract, including the ovarian follicles, duct growth and enlargement of the breasts, and uterine smooth muscle and its motility, as well as its blood flow. Estrogen increases libido in humans."
+  },
+  {
+    "question": "Which of the following hormones is primarily responsible for development of ovarian follicles prior to ovulation?",
+    "options": [
+      "Chorionic gonadotropin",
+      "Estradiol",
+      "Follicle-stimulating hormone",
+      "Luteinizing hormone",
+      "Progesterone"
+    ],
+    "correct": 2,
+    "explanation": "Preparation of primordial ovarian follicles for ovulation is the primary function of FSH. FSH stimulates development of the theca and granulose cells of the follicles and promotes the synthesis of estrogens, including estradiol. LH promotes luteinization of the postovulatory follicle and stimulates progesterone secretion by the corpus luteum. During pregnancy, hCG is secreted by the placenta and continues progesterone production."
+  },
+  {
+    "question": "Which of the following statements about progesterone is true?",
+    "options": [
+      "Progesterone is secreted by the corpus luteum.",
+      "Progesterone secretion by the placenta increases at week 6 of gestation.",
+      "Plasma levels of progesterone increase during menses.",
+      "Plasma levels of progesterone remain constant after implantation.",
+      "Plasma levels of progesterone decrease after ovulation."
+    ],
+    "correct": 0,
+    "explanation": "Progesterone is secreted by the corpus luteum. The plasma level of progesterone is low during the menses and remains low until just prior to ovulation. It rises substantially after ovulation, owing to secretion by the corpus luteum. If fertilization occurs, the corpus luteum continues to secrete progesterone until the placenta develops and begins to produce large amounts of the hormone. The plasma level of progesterone rises steadily throughout pregnancy after the placenta takes over production at about 12 weeks of gestation."
+  },
+  {
+    "question": "Administration of estrogens in women will do which of the following?",
+    "options": [
+      "Limit the growth of ovarian follicles",
+      "Produce cyclic changes in the vagina and endometrium",
+      "Cause cervical mucus to become thicker and more acidic",
+      "Retard ductal proliferation in the breast",
+      "Decrease bone density"
+    ],
+    "correct": 1,
+    "explanation": "Estrogens cause the mucus secreted by the cervix to become thinner and more alkaline and to exhibit a fernlike pattern upon drying. The epithelium of the vagina is so sensitive to estrogen action that vaginal smear examination is used for a bioassay of the hormone. Estrogens can stimulate growth of ovarian follicles even in hypophysectomized women and also stimulate growth of the glandular epithelium of the endometrium, the smooth muscle of the uterus, and the uterine vascular system. Growth of the glandular elements of the breast is stimulated by progesterone; growth of the ductal elements is stimulated by estrogen."
+  },
+  {
+    "question": "A young couple presents with concerns that they have not been able to conceive a child. Physical examination of the 22-year-old husband reveals mild obesity, gynecomastia, and decreased facial and axillary hair. He has male genitalia, but penile length is decreased and the testes are small. Chromosomal analysis reveals the XXY pattern of Klinefelter's syndrome. Which of the following is the principal androgen responsible for transforming undifferentiated external genitalia in the fetus into male external genitalia?",
+    "options": [
+      "Testosterone",
+      "Androstenedione",
+      "Androsterone",
+      "Dihydrotestosterone",
+      "Müllerian-inhibiting substance"
+    ],
+    "correct": 3,
+    "explanation": "The testosterone metabolite dihydrotestosterone (DHT) induces the formation of the male external genitalia and male secondary sex characteristics. The fetus develops with bipotential internal and external genitalia that can develop (at about 40 days gestation) into either a testis or ovary, depending upon which genes are expressed. When the embryo has functional testes, male internal and external genitalia develop. The Leydig cells of the fetal testis secrete testosterone and the Sertoli cells secrete milleframinhibiting substance (MIS), also known as antimüllerian hormone (AMH), a member of the TGF-β growth factor family. The development of male internal genitalia depends upon testosterone, which stimulates growth and development of the Wolfflam ducts and MIS, which stimulates Müllerian duct regression. Individuals with Klinefelter's syndrome have an XXY chromosomal pattern, which is the most common sex chromosome disorder. These individuals have internal and external male genitalia, and testosterone secretion at puberty is often great enough for the development of male characteristics. However, the testes are small and the seminiferous tubules are abnormal, leading to infertility, ennuchoid proportions, gynecomastia, and poor virilization in phenotypic males. Mental retardation, developmental delay, or learning disabilities may be present. Patients with mosaic forms of Klinefelter's syndrome have less severe clinical features, larger testes, and may achieve fertility."
+  },
+  {
+    "question": "The action of which of the following hormones is prevented by inhibitors of microtubules?",
+    "options": [
+      "Oxytocin",
+      "Progesterone",
+      "Estradiol",
+      "Insulin",
+      "Prolactin"
+    ],
+    "correct": 4,
+    "explanation": "Prolactin causes milk secretion from the breast after estrogen and progesterone priming. Its effect on the breast involves increased action of mRNA and increased production of casein and lactalbumin, but the hormone action is not exerted on the cell nucleus. The actions of progesterone are prevented by inhibitors of microtubules. Oxytocin is a posterior pituitary peptide that promotes contraction of the myoepithelial cells surrounding breast ducts and causes expulsion of milk from lobular alveoli. Secretion of oxytocin is promoted by tactile stimulation of the breast by the nursing infant. It can also be elicited by psychic factors alone, such as the anticipation of nursing brought on by hearing the cry of the hungry infant. This anticipatory secretion of oxytocin may be experienced by the mother as a sensation of milk letdown in which milk appears at the nipple and may be forcibly ejected."
+  },
+  {
+    "question": "A 55-year-old woman is experiencing the signs and symptoms of menopause. Her gynecologist discusses with her the possibility of hormone replacement therapy, which has which of the following effects?",
+    "options": [
+      "Returns the menstrual cycle pattern to normal",
+      "Reduces the incidence of hot flashes",
+      "Reduces the risk of coronary artery disease and stroke",
+      "Reduces the risk of breast cancer",
+      "Increases the risk of osteoporosis"
+    ],
+    "correct": 1,
+    "explanation": "Because of the challenge of weighing the benefits versus risks for each individual, whether or not to use postmenopausal hormone therapy is one of the most complex health-care decisions facing women. In both observational studies and randomized trials, hormone therapy (either estrogen alone or estrogen/progestin) shows definite improvement in vasomotor symptoms (i.e., hot flashes and night sweats) and vaginal dryness, and in increasing bone density and reducing the risk of fractures. However, observational studies promoting the use of hormone therapy as a strategy to delay the postmenopausal onset of cardiovascular disease have recently been refuted by randomized trials showing an increased risk of coronary artery disease in stroke with hormone replacement therapy. Hormone therapy also increases the risk of endometrial cancer, breast cancer (with long-term use), venous thromboembolism, and gallbladder disease. Estrogen therapy does not restore a woman's ability to have children."
+  },
+  {
+    "question": "Which one of the following statements about semen is correct?",
+    "options": [
+      "The bulk of semen volume is contributed by the prostate gland",
+      "Semen prevents sperm capacitation",
+      "Semen is propelled out of the urethra by contraction of the smooth muscle comprising the bulbocavernosus muscle.",
+      "Semen activates sperm motility in the male reproductive tract",
+      "In the population, sperm counts in semen have increased over the last 20 years"
+    ],
+    "correct": 1,
+    "explanation": "Semen contains chemicals that prevent sperm capacitation, thereby prolonging the viability of the sperm. In addition, the high potassium content of the secretion inhibits sperm motility, further adding to the viability. Semen is secreted primarily by the seminiferous tubules and the alkaline nature of the secretion buffers the acidity of the vagina. In recent years, the average sperm count has decreased from approximately 100 million/mL of semen to 60 to 70 million/mL of semen. The bulbocavernosus muscle is a skeletal muscle."
+  },
+  {
+    "question": "Prolactin secretion is tonically suppressed in nonpregnant women by which of the following hormones?",
+    "options": [
+      "Estrogen",
+      "Progesterone",
+      "Dopamine",
+      "FSH",
+      "LH"
+    ],
+    "correct": 2,
+    "explanation": "In non-pregnant women, the secretion of prolactin is kept tonically suppressed by secretion of dopamine from the hypothalamus. Prolactin is the main hormone of lactation. Hormone levels increase early in pregnancy due to the influence of estrogens. However, lactation does not occur early in pregnancy because estrogens and progesterone inhibit the interaction of prolactin with receptors located on the alveolar cell membranes. At term, estrogen and progesterone levels decrease and milk production begins usually within 3 days of delivery."
+  },
+  {
+    "question": "A young couple has been trying to conceive a baby. The Medical Director of the Fertility Center has advised the woman to take her basal temperature readings on a daily basis and for them to have intercourse at the time the woman appears to be ovulating. Once conception takes place, which of the following must occur in order for the pregnancy to proceed uneventfully?",
+    "options": [
+      "The corpus luteum must secrete progesterone to sustain the endometrium.",
+      "The pituitary must secrete hCG to maintain the corpus luteum.",
+      "The pituitary must secrete prolactin to sustain the placenta.",
+      "The placenta must secrete FSH to maintain ovarian function.",
+      "The placenta must secrete LH to maintain ovarian function."
+    ],
+    "correct": 0,
+    "explanation": "The corpus luteum in the ovary at the time of fertilization fails to regress and instead enlarges in response to stimulation by human chorionic gonadotropin (hCG) secreted by the placenta. During the first trimester, placental production of hCG sustains the corpus luteum and ensures continued progesterone secretion by the corpus luteum, which is essential for development of the fetus."
+  },
+  {
+    "question": "A 32-year-old woman presents at her physician's office complaining of nausea and vomiting. The history reveals that her symptoms have been present for over a month and that they seem to be worse in the morning. A urine sample is taken and shows that the woman is pregnant. Physiological changes that occur during pregnancy include which of the following?",
+    "options": [
+      "Decreased production of cortisol and corticosterone",
+      "Increased conversion of glucose to glycogen",
+      "Hypercapnia",
+      "Increased hematocrit",
+      "Reduced circulating gonadotropin levels"
+    ],
+    "correct": 4,
+    "explanation": "During pregnancy, the maternal hypothalamic-pituitary axis is suppressed due to high circulating levels of sex hormones. This leads to reduced gonadotropin levels, and, thus, ovulation does not occur. Additionally, hyperventilation leads to decreased arterial carbon dioxide levels. Increased water retention leads to decreased hematocrit. Maternal use of glucose declines and, as a result, glu-concogenesis increases. Plasma cortisol levels increase as the result of progesterone-mediated displacement from transcortin and its subsequent binding to globulin."
+  },
+  {
+    "question": "A 35-year-old woman presents at her obstetrician/gynecologist's office for her annual well-woman examination. She reports that she may have 'a touch of the flu' because she has been tired and nauseated the past week and also has had fleeting episodes of lower abdominal pain. She wasn't sure when her last menstrual period started but after looking at a calendar, realized that it had been 38 days. A right adnexal mass was palpated on routine pelvic examination and subsequently observed on ultrasound. Urinalysis confirmed that the woman was pregnant and serum levels of the tumor marker CA-125 were elevated. The gynecologist informed the woman that she may have to have her ovary removed, but that they need to wait another week or two to do the laparotomy in order to protect her fetus. Ovarectomy before the sixth week of pregnancy leads to abortion, but thereafter has no effect on pregnancy because the placenta secretes adequate amounts of which of the following hormones?",
+    "options": [
+      "Estrogens and progesterone",
+      "Estrogen and relaxin",
+      "Progesterone and human chorionic gonadotropin (hCG)",
+      "Human chorionic somatomammotropin (hCS) and hCG",
+      "Growth hormone releasing hormone (GnRH) and corticotropin releasing hormone (CRH)"
+    ],
+    "correct": 0,
+    "explanation": "The placenta produces all of the hormones listed in the five answers at various times during pregnancy but it is the production of progesterone and estrogens (estradiol and estriol) from maternal and fetal precursors, which take over the function of the corpus luteum after the sixth week of pregnancy."
+  },
+
+
+
+          {
+            "question": "14. Which of the following explains the suppression of lactation during pregnancy?",
+            "options": [
+              "Blood prolactin levels are too low for milk production to occur",
+              "Human placental lactogen levels are too low for milk production to occur",
+              "The fetal adrenal gland does not produce sufficient estriol",
+              "Blood levels of estrogen and progesterone are high",
+              "The maternal anterior pituitary is suppressed"
+            ],
+            "correct": 3,
+            "explanation": "During pregnancy, high levels of estrogen and progesterone inhibit the action of prolactin on the breast, preventing lactation. After delivery, these hormone levels drop, allowing prolactin to promote milk production. Prolactin levels are actually high during pregnancy but are ineffective due to steroid hormone opposition."
+          },
+          {
+            "question": "15. Which step in steroid hormone biosynthesis, if inhibited, blocks the production of all androgenic compounds but does not block the production of glucocorticoids?",
+            "options": [
+              "Cholesterol → pregnenolone",
+              "Progesterone → 11-deoxycorticosterone",
+              "17-Hydroxypregnenolone → dehydroepiandrosterone",
+              "Testosterone → estradiol",
+              "Testosterone → dihydrotestosterone"
+            ],
+            "correct": 2,
+            "explanation": "The conversion of 17-hydroxypregnenolone to dehydroepiandrosterone (DHEA) is catalyzed by 17,20-lyase. Inhibiting this step blocks androgen synthesis (e.g., DHEA, androstenedione) but does not affect glucocorticoid production, which proceeds via other pathways."
+          },
+          {
+            "question": "23. The source of estrogen during the second and third trimesters of pregnancy is the",
+            "options": [
+              "corpus luteum",
+              "maternal ovaries",
+              "fetal ovaries",
+              "placenta",
+              "maternal ovaries and fetal adrenal gland",
+              "maternal adrenal gland and fetal liver",
+              "fetal adrenal gland, fetal liver, and placenta"
+            ],
+            "correct": 6,
+            "explanation": "During the second and third trimesters, estrogen is produced by the fetoplacental unit. The fetal adrenal gland synthesizes dehydroepiandrosterone sulfate (DHEA-S), which is hydroxylated in the fetal liver and then aromatized to estrogen in the placenta. The corpus luteum is the primary source in the first trimester."
+          },
+          {
+            "question": "25. Secretion of oxytocin is increased by",
+            "options": [
+              "milk ejection",
+              "dilation of the cervix",
+              "increased prolactin levels",
+              "increased extracellular fluid (ECF) volume",
+              "increased serum osmolarity"
+            ],
+            "correct": 1,
+            "explanation": "Oxytocin secretion is stimulated by dilation of the cervix during labor (Ferguson reflex) and by suckling during lactation. Milk ejection is a result of oxytocin action, not a cause. Prolactin stimulates milk production but not oxytocin release. ECF volume and osmolarity affect ADH, not oxytocin."
+          },
+          {
+            "question": "29. Which step in steroid hormone biosynthesis occurs in the accessory sex target tissues of the male and is catalyzed by 5α-reductase?",
+            "options": [
+              "Cholesterol → pregnenolone",
+              "Progesterone → 11-deoxycorticosterone",
+              "17-Hydroxypregnenolone → dehydroepiandrosterone",
+              "Testosterone → estradiol",
+              "Testosterone → dihydrotestosterone"
+            ],
+            "correct": 4,
+            "explanation": "5α-reductase converts testosterone to dihydrotestosterone (DHT) in male accessory tissues like the prostate. DHT is a more potent androgen and is essential for male sexual development. This conversion occurs locally in target tissues."
+          },
+          {
+            "question": "31. A 16-year-old, seemingly normal female is diagnosed with androgen insensitivity disorder. She has never had a menstrual cycle and is found to have a blind-ending vagina; no uterus, cervix, or ovaries; a 46 XY genotype; and intra-abdominal testes. Her serum testosterone is elevated. Which of the following characteristics is caused by lack of androgen receptors?",
+            "options": [
+              "46 XY genotype",
+              "Testes",
+              "Elevated serum testosterone",
+              "Lack of uterus and cervix",
+              "Lack of menstrual cycles"
+            ],
+            "correct": 2,
+            "explanation": "Elevated serum testosterone is due to lack of androgen receptors on the anterior pituitary, which normally mediate negative feedback by testosterone. Without functional receptors, testosterone cannot suppress gonadotropin secretion, leading to high testosterone levels. The 46 XY genotype and testes are due to genetic factors, while lack of uterus and cervix is from anti-Müllerian hormone secretion by fetal testes."
+          },
+          {
+            "question": "3. The principle of positive feedback is illustrated by the effect of",
+            "options": [
+              "PO₂ on breathing rate",
+              "glucose on insulin secretion",
+              "estrogen on follicle-stimulating hormone (FSH) secretion at mid-menstrual cycle",
+              "blood [Ca²⁺] on parathyroid hormone (PTH) secretion",
+              "decreased blood pressure on sympathetic outflow to the heart and blood vessels"
+            ],
+            "correct": 2,
+            "explanation": "At mid-cycle, rising estradiol levels from the developing follicle exert positive feedback on the anterior pituitary, stimulating a surge in FSH and LH secretion, which triggers ovulation. This is a classic example of positive feedback, unlike the other options, which involve negative feedback mechanisms."
+          },
+          {
+            "question": "9. In a 35-day menstrual cycle, ovulation occurs on day",
+            "options": [
+              "12",
+              "14",
+              "17",
+              "21",
+              "28"
+            ],
+            "correct": 3,
+            "explanation": "Ovulation occurs 14 days before the onset of menses, regardless of cycle length. In a 35-day cycle, menses occurs on day 35, so ovulation occurs on day 21 (35 - 14 = 21). This contrasts with a 28-day cycle, where ovulation occurs on day 14."
+          },
+          {
+            "question": "10. Which of the following hormones stimulates the conversion of testosterone to 17β-estradiol in ovarian granulosa cells?",
+            "options": [
+              "Adrenocorticotropic hormone (ACTH)",
+              "Estradiol",
+              "Follicle-stimulating hormone (FSH)",
+              "Gonadotropin-releasing hormone (GnRH)",
+              "Human chorionic gonadotropin (HCG)",
+              "Prolactin",
+              "Testosterone"
+            ],
+            "correct": 2,
+            "explanation": "FSH stimulates aromatase enzyme activity in ovarian granulosa cells, converting testosterone (synthesized in theca cells) to estradiol. This is a key step in estrogen production during the follicular phase. HCG maintains the corpus luteum but does not directly stimulate aromatase."
+          },
+          {
+            "question": "65. Levels of which of the following hormones are high during the first trimester of pregnancy and decline during the second and third trimesters?",
+            "options": [
+              "Adrenocorticotropic hormone (ACTH)",
+              "Estradiol",
+              "Follicle-stimulating hormone (FSH)",
+              "Gonadotropin-releasing hormone (GnRH)",
+              "Human chorionic gonadotropin (HCG)",
+              "Oxytocin",
+              "Prolactin",
+              "Testosterone"
+            ],
+            "correct": 4,
+            "explanation": "HCG is secreted by the placenta and peaks around 9 weeks of gestation. It maintains the corpus luteum for estrogen and progesterone production in the first trimester. After the placenta takes over steroidogenesis, HCG levels decline. Estradiol and progesterone rise throughout pregnancy."
+          },
+          {
+            question: "What is the function of luteinising hormone?",
+            options: ["It stimulates the interstitial (Leydig) cells to produce testosterone", "It stimulates sustentacular (Sertoli) cells to produce sperm", "It stimulates the anterior pituitary to release follicle stimulating hormone", "It stimulates the ovary to develop follicles"],
+            "correct": 0,
+            "explanation": "LH targets Leydig cells in the testes to secrete testosterone; in females, an LH surge triggers ovulation."
+          },
+          {
+            question: "What does gonadotropin releasing hormone (GnRH) do?",
+            options: ["Stimulates the anterior pituitary to release LH", "Stimulates the anterior pituitary to release both LH and FSH", "Stimulates the anterior pituitary to release FSH", "Stimulates the corpus luteum to release progesterone"],
+            "correct": 1,
+            "explanation": "GnRH from the hypothalamus stimulates the anterior pituitary to release both LH and FSH."
+          },
+          {
+            question: "Where should fertilisation of the egg by a sperm occur?",
+            options: ["In the cervix", "In the uterus", "In the Fallopian tube", "In the abdominal cavity between ovary and Fallopian tube"],
+            "correct": 2,
+            "explanation": "Fertilisation normally occurs in the ampulla of the Fallopian tube."
+          },
+          {
+            question: "Where is the hormone progesterone produced?",
+            options: ["By the thecal cells that surround the follicle", "In the anterior pituitary", "In the corpus luteum", "By the developing follicle"],
+            "correct": 2,
+            "explanation": "The corpus luteum produces progesterone after ovulation."
+          },
+          {
+            question: "Which list of structures and hormones is correct?",
+            options: ["Hypothalamus (FSH); anterior pituitary (GnRH); follicle (estrogens); corpus luteum (LH)", "Hypothalamus (GnRH); anterior pituitary (estradiol); follicle (LH); corpus luteum (progesterone)", "Hypothalamus (estrogens); anterior pituitary (FSH); follicle (progesterone); corpus luteum (estrogens)", "Hypothalamus (GnRH); anterior pituitary (FSH & LH); follicle (estrogens); corpus luteum (progesterone)"],
+            "correct": 3,
+            "explanation": "GnRH from the hypothalamus stimulates the anterior pituitary to release FSH & LH; follicles produce estrogens; corpus luteum produces progesterone."
+          },
+          {
+            question: "What effect does luteinising hormone have?",
+            options: ["Stimulates the growth of a few follicles each month", "Stimulates ovulation and maintains the corpus luteum", "Prepares the uterus for pregnancy", "Establishes and maintains secondary sex characteristics"],
+            "correct": 1,
+            "explanation": "LH triggers ovulation and supports the corpus luteum."
+          },
+          {
+            question: "Which of the following do the testes produce?",
+            options: ["Capacitated spermatozoa", "About 60% of the ejaculate", "Slightly acidic fluid", "Physically mature spermatozoa"],
+            "correct": 3,
+            "explanation": "Testes produce physically mature spermatozoa; capacitation occurs later."
+          },
+          {
+            question: "What do the thecal cells that surround the follicle produce?",
+            options: ["Mucus", "Luteinising hormone", "Androgens", "Estrogens"],
+            "correct": 2,
+            "explanation": "Thecal cells produce androgens, which granulosa cells convert to estrogens."
+          },
+          {
+            question: "In the ovarian cycle, which does NOT occur?",
+            options: ["The anterior pituitary releases FSH and LH", "FSH stimulates a follicle to develop", "The hypothalamus releases GnRH", "The developing follicle produces progesterone"],
+            "correct": 3,
+            "explanation": "Progesterone is produced by the corpus luteum, not the developing follicle."
+          },
+          {
+            question: "How do sperm cells differ from other cells in the male body?",
+            options: ["They contain 23 chromosomes", "They all contain an X chromosome", "They all contain a Y chromosome", "They undergo mitosis"],
+            "correct": 0,
+            "explanation": "Sperm cells are haploid with 23 chromosomes."
+          },
+          {
+            question: "What hormone is released by the corpus luteum in the greatest quantity?",
+            options: ["Progesterone", "Estrogens", "Luteinising hormone", "Follicle stimulating hormone"],
+            "correct": 0,
+            "explanation": "The corpus luteum releases progesterone to prepare the uterus for pregnancy."
+          },
+          {
+            question: "Choose the correct statement about LH or FSH.",
+            options: ["LH targets Leydig cells of the testes which produce testosterone", "LH targets Sertoli cells of the testes which promotes spermiogenesis", "FSH targets Leydig cells of the testes which promotes spermiogenesis", "FSH targets Sertoli cells of the testes which produce testosterone"],
+            "correct": 0,
+            "explanation": "LH stimulates Leydig cells to produce testosterone; FSH acts on Sertoli cells to support spermiogenesis."
+          },
+          {
+            question: "Which cells produce the majority of estrogens?",
+            options: ["The cells of the corpus luteum", "The cells of anterior pituitary", "Endometrial cells", "Granulosa cells of the follicle"],
+            "correct": 3,
+            "explanation": "Granulosa cells convert androgens from thecal cells into estrogens."
+          },
+          {
+            question: "What is the function of progesterone?",
+            options: ["To stimulate the development of follicles", "To maintain the corpus luteum", "Prepare and maintain the uterus for pregnancy", "To stimulate ovulation"],
+            "correct": 2,
+            "explanation": "Progesterone prepares and maintains the uterine lining for pregnancy."
+          },
+          {
+            question: "Which of the following could be accurately said of oogenesis and spermiogenesis?",
+            options: ["They both occur after puberty", "They both cease after menopause", "The former occurs before birth while the latter continues from puberty to death", "The former is promoted by FSH while the latter is promoted by LH"],
+            "correct": 2,
+            "explanation": "Oogenesis begins before birth; spermiogenesis continues from puberty to death."
+          },
+          {
+            question: "What is the function of the hormone progesterone?",
+            options: ["To maintain secondary sex characteristics", "To pause meiosis until the ovum is fertilised", "To stimulate estrogen production", "To prepare the uterus for pregnancy"],
+            "correct": 3,
+            "explanation": "Progesterone thickens the uterine lining for implantation."
+          },
+          {
+            question: "What term is applied to the second two weeks of the menstrual (uterine) cycle?",
+            options: ["Menses", "Secretory phase", "Luteal phase", "Proliferation"],
+            "correct": 1,
+            "explanation": "The secretory phase occurs after ovulation while the corpus luteum is active."
+          },
+          {
+            question: "Both testosterone and FSH contribute to which of the following effects in the male?",
+            options: ["The stimulation of spermiogenesis", "Metabolic rate stimulation", "They establish & maintain the secondary sex characteristics", "The stimulation of muscle and bone growth"],
+            "correct": 0,
+            "explanation": "FSH with testosterone stimulates spermiogenesis."
+          },
+          {
+            question: "What is the role of progesterone?",
+            options: ["To stimulate follicle development", "To stimulate the maturation of the uterine lining", "To stimulate the oocyte to complete meiosis I", "To stimulate the release of FSH"],
+            "correct": 1,
+            "explanation": "Progesterone matures the uterine lining and stimulates glandular secretions."
+          },
+          {
+            question: "What is the role of luteinising hormone (LH) in the female?",
+            options: ["It causes release of FSH from the anterior pituitary", "It maintains the secondary sex characteristics", "It causes ovulation", "It allows the frequency of pulses of GnRH to increase"],
+            "correct": 2,
+            "explanation": "An LH surge triggers ovulation — the release of the ovum from the mature follicle."
+          },
+          {
+            question: "Which one of the following statements is INcorrect?",
+            options: ["Corpus luteum releases progesterone", "Hypothalamus releases GnRH", "Anterior pituitary releases FSH", "Granulosa cells produce androgens"],
+            "correct": 3,
+            "explanation": "Granulosa cells produce estrogens, not androgens."
+          },
+          {
+            question: "Which one of the following is true about the secretory phase of the menstrual cycle?",
+            options: ["It occurs as the uterine epithelium regrows under the stimulation of estrogens", "It begins at ovulation and continues while the corpus luteum is intact", "It refers to the release of progesterone by the corpus luteum", "During this phase the follicle develops prior to ovulation"],
+            "correct": 1,
+            "explanation": "The secretory phase begins at ovulation and continues while the corpus luteum is active."
+          },
+          {
+            question: "What is the function of the epididymis?",
+            options: ["Production of sperm", "Stores sperm and facilitates their maturation", "Stores sperm and produces seminal fluid", "Carries semen out through the penis"],
+            "correct": 1,
+            "explanation": "The epididymis stores sperm for 2–3 months while they mature."
+          },
+          {
+            question: "In males, what is the function of luteinising hormone (LH)?",
+            options: ["It stimulates interstitial cells in the testes to produce testosterone", "It stimulates sustentacular cells in the testes to produce sperm", "It promotes the maturation of spermatozoa", "It stimulates the anterior pituitary to release FSH"],
+            "correct": 0,
+            "explanation": "LH stimulates Leydig cells to produce testosterone."
+          },
+          {
+            question: "One of the following is NOT a function of testosterone, which one?",
+            options: ["Stimulates spermiogenesis", "Maintains secondary sex characteristics", "Maintains glands of the reproductive tract", "Stimulates anterior pituitary to release FSH and LH"],
+            "correct": 3,
+            "explanation": "GnRH, not testosterone, stimulates the anterior pituitary to release FSH and LH."
+          },
+          {
+            question: "What is the name given to a young woman’s first menstrual period?",
+            options: ["Menarche", "Menses", "Eclampsia", "Amenorrhea"],
+            "correct": 0,
+            "explanation": "Menarche is the first menstrual bleeding in females."
+          },
+          {
+            question: "The hormone progesterone is released by which structure?",
+            options: ["Anterior pituitary", "Corpus luteum", "Hypothalamus", "The adrenal glands"],
+            "correct": 1,
+            "explanation": "The corpus luteum produces progesterone after ovulation."
+          },
+          {
+            question: "What is the function of follicle stimulating hormone in the male?",
+            options: ["To stimulate the production of sperm", "To stimulate the release of testosterone", "To stimulate the release of GnRH", "To stimulate the release of LH"],
+            "correct": 0,
+            "explanation": "FSH stimulates spermatogenesis in the testes."
+          },
+          {
+            question: "What is the result of meiosis in males?",
+            options: ["One spermatid and three polar bodies", "One spermatid and two polar bodies", "Two primary spermatocytes", "Four spermatids"],
+            "correct": 3,
+            "explanation": "Meiosis produces four haploid spermatids in males."
+          },
+          {
+            question: "Sperm gain motility as they pass through which structure?",
+            options: ["Lumen of the seminiferous tubule", "Prostatic part of the urethra", "Ductus deferens", "Epididymis"],
+            "correct": 1,
+            "explanation": "In the prostate, sperm mix with seminal fluid, activating their motility."
+          },
+          {
+            question: "What are the phases of the ovarian cycle?",
+            options: ["Menarche, menstrual cycle, menopause", "Luteal phase, menses and proliferative phase", "Follicular phase and the luteal phase", "Menses, proliferative phase and secretory phase"],
+            "correct": 2,
+            "explanation": "The ovarian cycle consists of the follicular phase and luteal phase, separated by ovulation."
+          },
+          {
+            question: "Which of the following is NOT a function of estrogens?",
+            options: ["Stimulating bone and muscle growth", "Maintain female secondary sex characteristics", "Maintaining the corpus luteum", "Initiating growth and repair of the endometrium"],
+            "correct": 2,
+            "explanation": "The corpus luteum is maintained by LH, not estrogens."
+          },
+          {
+            question: "Which statement is NOT correct?",
+            options: ["The ova in the ovary are continually forming from mitosis", "The ovarian follicles are embedded in the ovary cortex", "Ovulation is the ejection of an oocyte from the ovary", "The corpus luteum develops from the ruptured follicle"],
+            "correct": 0,
+            "explanation": "Ova are formed before birth; no new ova are produced after birth."
+          },
+          {
+            question: "Which statement is NOT correct?",
+            options: ["Testosterone is required to maintain the adult male secondary sex characteristics", "Testosterone increases the sex drive in both sexes", "Testosterone inhibits the closure of the epiphyseal plate in the long bones", "Testosterone stimulates the growth and maturation of the male genitalia"],
+            "correct": 2,
+            "explanation": "Testosterone actually promotes closure of the epiphyseal plate."
+          },
+          {
+            question: "What does gonadotrophin-releasing hormone stimulate?",
+            options: ["The hypothalamus", "The anterior lobe of pituitary gland", "Spermatogenesis or oogenesis", "The production of testosterone or oestrogen"],
+            "correct": 1,
+            "explanation": "GnRH stimulates the anterior pituitary to release FSH and LH."
+          },
+          {
+            question: "Select one INCORRECT statement from the following:",
+            options: ["Meiosis results in the reduction of chromosome numbers in cells from 2n to n", "The primordial follicle cells are present in females at birth", "Spermatogenesis and oogenesis result in the production of either 4 sperm or 4 ova", "Puberty is the time of life when the reproductive organs begin to mature"],
+            "correct": 2,
+            "explanation": "Oogenesis produces one ovum and polar bodies, not four ova."
+          },
+          {
+            question: "Which of the following produces male sex hormones?",
+            options: ["The interstitial cells", "Corpus luteum", "Anterior lobe of the pituitary gland", "Seminal vesicles"],
+            "correct": 0,
+            "explanation": "The interstitial (Leydig) cells of the testes produce testosterone."
+          },
+          {
+            question: "The menstrual cycle can be divided into 3 phases. Starting from day one of menstruation, which of the following orders are the phases in?",
+            options: ["Menstrual, secretory, proliferative", "Proliferative, secretory, menstrual", "Menstrual, proliferative, secretory", "Secretory, proliferative, menstrual"],
+            "correct": 2,
+            "explanation": "The cycle starts with menstruation, followed by the proliferative phase, and ends with the secretory phase when the endometrium is mature."
+          }
+        ]
+      },
+      pathology: {
+        questions: [
+          {
+            question: "Polycystic ovary syndrome (PCOS) is characterized by:",
+            options: [
+              "Hyperandrogenism and irregular ovulation",
+              "Hypoestrogenism",
+              "Premature ovarian failure",
+              "Excessive FSH production"
+            ],
+            correct: 0,
+            explanation: "PCOS is characterized by hyperandrogenism, irregular ovulation or anovulation, and polycystic ovaries. It's associated with insulin resistance, metabolic syndrome, and increased risk of diabetes and cardiovascular disease."
+          },
+          {
+            question: "Endometriosis is defined as:",
+            options: [
+              "Infection of the endometrium",
+              "Endometrial tissue outside the uterus",
+              "Thickening of the endometrium",
+              "Cancer of the endometrium"
+            ],
+            correct: 1,
+            explanation: "Endometriosis is the presence of endometrial tissue outside the uterus, commonly in the pelvis. This ectopic tissue responds to hormonal changes, causing cyclical pain, inflammation, and potentially infertility."
+          },
+          {
+            question: "The most common cause of male infertility is:",
+            options: [
+              "Hormonal disorders",
+              "Varicocele",
+              "Cryptorchidism",
+              "Ejaculatory dysfunction"
+            ],
+            correct: 1,
+            explanation: "Varicocele (enlarged veins in the scrotum) is the most common correctable cause of male infertility, found in about 40% of men with primary infertility. It can impair sperm production and quality due to increased testicular temperature."
+          },
+          {
+            question: "Preeclampsia is characterized by:",
+            options: [
+              "Hypertension and proteinuria after 20 weeks gestation",
+              "Diabetes during pregnancy",
+              "Bleeding in early pregnancy",
+              "Premature rupture of membranes"
+            ],
+            correct: 0,
+            explanation: "Preeclampsia is characterized by new-onset hypertension (≥140/90 mmHg) and proteinuria (≥300 mg/24 hours) after 20 weeks of gestation. It can progress to eclampsia (seizures) and is a leading cause of maternal and fetal morbidity."
+          },
+          {
+            question: "Benign prostatic hyperplasia (BPH) most commonly affects which zone of the prostate?",
+            options: [
+              "Peripheral zone",
+              "Central zone",
+              "Transition zone",
+              "Anterior zone"
+            ],
+            correct: 2,
+            explanation: "BPH most commonly affects the transition zone of the prostate, which surrounds the urethra. This explains why BPH causes urinary symptoms, while prostate cancer typically occurs in the peripheral zone."
+          }
+        ]
+      }
+    }
   }
 };

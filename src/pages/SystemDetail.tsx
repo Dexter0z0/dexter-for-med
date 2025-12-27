@@ -115,6 +115,8 @@ const SystemDetail: React.FC = () => {
                         {category === 'physiology' && 'Normal function and physiological processes'}
                         {category === 'pathology' && 'Disease processes and abnormal conditions'}
                         {category === 'general' && 'Comprehensive questions covering all aspects'}
+                        {category === 'basic level' && 'Comprehensive questions covering all aspects'}
+                        {category === 'usmle level' && 'Comprehensive questions covering all aspects'}
                       </p>
                     </div>
 
