@@ -22540,1685 +22540,11553 @@ export const systemsData: { [key: string]: SystemData } = {
     ],
     color: 'from-pink-500 to-pink-600',
     icon: IoMaleFemaleSharp,
-    categories: ['basic level', 'usmle level', 'pathology'],
+    categories: ['basic_level', 'usmle_level'],
     modules: {
-      anatomy: {
+      basic_level: {
         questions: [
           {
-            question: "The testes are covered externally by which layer derived from the peritoneum?",
-            options: ["Tunica albuginea", "Tunica vaginalis", "Dartos fascia", "Cremasteric fascia"],
-            "correct": 1,
-            "explanation": "The tunica vaginalis is a serous covering derived from the peritoneum that partially surrounds the testes."
-          },
-          {
-            question: "Which structure conveys sperm from the epididymis to the ejaculatory duct?",
-            options: ["Seminal vesicle", "Vas deferens", "Urethra", "Prostatic duct"],
-            "correct": 1,
-            "explanation": "The vas (ductus) deferens transports sperm from the epididymis to the ejaculatory duct."
-          },
-          {
-            question: "Where are the male ejaculatory ducts?",
-            options: ["In the testicles before the epididymis", "In the penis", "Between the bulbourethral glands and the urethra", "At the end of the vas deferens (ductus deferens)"],
-            "correct": 3,
-            "explanation": "The ejaculatory ducts form where the ducts of the seminal glands join the vas deferens and end where the vas deferens joins the urethra."
-          },
-          {
-            question: "Which statement is true?",
-            options: ["Males have two X chromosomes", "Females do not produce any primordial follicles after they are born", "Females have one X chromosome", "Fertilisation occurs in the pelvic cavity before the start of the fallopian tube"],
-            "correct": 1,
-            "explanation": "Females are born with all their primordial follicles arrested in prophase I."
-          },
-          {
-            question: "Which is the correct order from testes to urethra in the male reproductive tract?",
-            options: ["Ejaculatory ducts, seminiferous tubules, epididymis, vas deferens", "Seminiferous tubules, epididymis, vas deferens, ejaculatory ducts", "Epididymis, ejaculatory ducts, seminiferous tubules, vas deferens", "Vas deferens, seminiferous tubules, epididymis, ejaculatory ducts"],
-            "correct": 1,
-            "explanation": "Sperm travel from seminiferous tubules → epididymis → vas deferens → ejaculatory ducts."
-          },
-          {
-            question: "Which of the following is NOT a secondary sex characteristic?",
-            options: ["The adult male body shape", "The thicker vocal cords of a male", "Pubic hair", "The penis"],
-            "correct": 3,
-            "explanation": "The penis is a primary sex characteristic; secondary traits develop at puberty."
-          },
-          {
-            question: "Which of the following is NOT associated with the male reproductive system?",
-            options: ["Estrogens", "Androgens", "FSH and LH", "The tunica vaginalis"],
-            "correct": 0,
-            "explanation": "Estrogens are primarily female sex hormones."
-          },
-          {
-            question: "Which structure does the male reproductive tract pass through?",
-            options: ["The prostate", "The bulbourethral gland", "The seminiferous vesicles", "The bladder"],
-            "correct": 0,
-            "explanation": "The ejaculatory ducts pass through the prostate before joining the urethra."
-          },
-          {
-            question: "What is the name of the tube that carries sperm from the testes to the prostate gland?",
-            options: ["Vas deferens", "Ejaculatory duct", "Seminiferous tubule", "Urethra"],
-            "correct": 0,
-            "explanation": "The vas deferens carries sperm from the epididymis to the ejaculatory duct."
-          },
-          {
-            question: "How many chromosomes does a human gamete have?",
-            options: ["46", "46 pairs", "23", "23 pairs"],
-            "correct": 2,
-            "explanation": "Gametes have 23 chromosomes; fertilisation restores the diploid number of 46."
-          },
-          {
-            question: "Where are the ejaculatory ducts?",
-            options: ["In the testes", "Between the testes and the prostate", "Within the prostate", "Between the prostate and the external urethral meatus"],
-            "correct": 2,
-            "explanation": "Ejaculatory ducts pass through the prostate and open into the urethra."
-          },
-          {
-            question: "Where does fertilisation of the ovum normally occur?",
-            options: ["In the cervical canal", "In the ovary", "In the uterus", "In the Fallopian tube"],
-            "correct": 3,
-            "explanation": "Fertilisation usually occurs in the ampulla of the Fallopian tube."
-          },
-          {
-            question: "Which list of structures in the male reproductive tract has them in correct sequence?",
-            options: ["Seminiferous tubules, epididymis, vas deferens, urethra, ejaculatory duct", "Epididymis, seminiferous tubules, vas deferens, ejaculatory duct, urethra", "Seminiferous tubules, epididymis, vas deferens, ejaculatory duct, urethra", "Epididymis, seminiferous tubules, vas deferens, urethra, ejaculatory duct"],
-            "correct": 2,
-            "explanation": "Sperm travel from seminiferous tubules → epididymis → vas deferens → ejaculatory duct → urethra."
-          },
-          {
-            question: "If a cell is said to be 'haploid', what is meant?",
-            options: ["It has 23 chromosomes", "It has chromosomes that all consist of one chromatid", "It has the '2n' number of chromosomes", "It is NOT a gamete (or sex cell)"],
-            "correct": 0,
-            "explanation": "Haploid cells have half the usual number of chromosomes — 23 in humans."
-          },
-          {
-            question: "Male sterilisation (vasectomy) involves the cutting of which tube?",
-            options: ["Ejaculatory duct", "Epididymis", "Urethra", "Ductus deferens"],
-            "correct": 3,
-            "explanation": "A vasectomy removes a section of the ductus deferens within the scrotum."
-          },
-          {
-            question: "Which cells develop into the corpus luteum?",
-            options: ["Granulosa cells", "Interstitial cells", "Cells of the antrum", "Thecal cells"],
-            "correct": 0,
-            "explanation": "Granulosa cells proliferate after ovulation to form the corpus luteum."
-          },
-          {
-            question: "Which of the following statements is correct?",
-            options: ["Ova all contain a Y chromosome", "Half of the ova carry an X chromosome and half carry a Y chromosome", "Half of the sperm cells carry an X chromosome and half carry a Y chromosome", "Sperm all carry an X chromosome"],
-            "correct": 2,
-            "explanation": "Sperm have either an X or a Y chromosome; ova always have an X chromosome."
-          },
-          {
-            question: "From which source does the majority of the volume of a male ejaculation come?",
-            options: ["Epididymis", "Seminiferous tubules", "Seminal vesicles", "Prostate gland"],
-            "correct": 2,
-            "explanation": "Seminal vesicles contribute about 60% of ejaculate volume."
-          },
-          {
-            question: "What is a fertilised egg known as?",
-            options: ["Ovum", "Zygote", "Embryo", "Blastocyst"],
-            "correct": 1,
-            "explanation": "A fertilised egg before division is called a zygote."
-          },
-          {
-            question: "What is the section of the male reproductive tract within which sperm are produced called?",
-            options: ["The urethra", "The epididymis", "The vas deferens", "The seminiferous tubules"],
-            "correct": 3,
-            "explanation": "Sperm are produced in the seminiferous tubules of the testes."
-          },
-          {
-            question: "Which statement about the 'granulosa cells' is NOT correct?",
-            options: ["They produce estrogens and inhibin", "They form a single layer around the primary follicle", "They form the corpus luteum", "One of them will develop into the ovum"],
-            "correct": 3,
-            "explanation": "Granulosa cells surround the ovum but do not become the ovum."
-          },
-          {
-            question: "In the male reproductive tract, where are sperm produced?",
-            options: ["Seminiferous tubules", "Epididymis", "Sertoli cells of the testes", "Leydig cells of the testes"],
-            "correct": 0,
-            "explanation": "Sperm are produced in the seminiferous tubules by spermatogonia."
-          },
-          {
-            question: "What is the 'external urethral meatus' another name for?",
-            options: ["The shaft of the penis", "The opening of the tube at the end of the penis", "The prostate gland", "The scrotum"],
-            "correct": 1,
-            "explanation": "The external urethral meatus is the opening of the urethra at the tip of the penis."
-          },
-          {
-            question: "What is the chromosome complement of a sperm?",
-            options: ["46 chromosomes (23 pairs including a pair of Y chromosomes)", "46 chromosomes (22 pairs plus one X chromosome and one Y)", "23 chromosomes including one X chromosome OR one Y", "23 chromosomes including one X chromosome AND one Y"],
-            "correct": 2,
-            "explanation": "Sperm are haploid with 23 chromosomes, carrying either an X or a Y."
-          },
-          {
-            question: "After ejaculation, sperm travel through the structures of the female reproductive tract in which order?",
-            options: ["Vagina, uterus, fallopian tube, ovary", "Cervix, vagina, uterus, fallopian tube", "Vagina, cervix, uterus, fallopian tube", "Cervix, urethra, uterus, fallopian tube"],
-            "correct": 2,
-            "explanation": "Sperm travel from vagina → cervix → uterus → fallopian tube."
-          },
-          {
-            question: "Which of the following lists the structures of the female perineal area in the correct order?",
-            options: ["Clitoris, vaginal opening, urethral opening, anus", "Clitoris, urethral opening, vaginal opening, anus", "Urethral opening, clitoris, vagina, cervix", "Anus, clitoris, urethral opening, vaginal opening"],
-            "correct": 1,
-            "explanation": "From ventral to dorsal: clitoris → urethral opening → vaginal opening → anus."
-          },
-          {
-            question: "Which organ does NOT add a secretion to semen?",
-            options: ["Testes", "Prostate gland", "Penis", "Seminal vesicles"],
-            "correct": 2,
-            "explanation": "There is no addition to semen as it passes through the penis."
-          },
-          {
-            question: "Which gland contributes the largest volume to seminal fluid?",
-            options: ["Seminal vesicle", "Prostate gland", "Bulbourethral gland", "Epididymis"],
-            "correct": 0,
-            "explanation": "The seminal vesicles contribute about 70% of the seminal fluid."
-          },
-          {
-            question: "The prostatic urethra receives the openings of the:",
-            options: ["Seminal vesicles", "Ejaculatory ducts", "Bulbourethral glands", "Cowper's ducts"],
-            "correct": 1,
-            "explanation": "The ejaculatory ducts open into the prostatic urethra at the seminal colliculus."
-          },
-          {
-            question: "The ovarian artery arises directly from which vessel?",
-            options: ["Common iliac artery", "Internal iliac artery", "Abdominal aorta", "Renal artery"],
-            "correct": 2,
-            "explanation": "The ovarian arteries arise directly from the abdominal aorta, just below the renal arteries."
-          },
-          {
-            question: "Which ligament contains the ovarian vessels?",
-            options: ["Ovarian ligament", "Suspensory ligament of ovary", "Broad ligament", "Round ligament of uterus"],
-            "correct": 1,
-            "explanation": "The suspensory ligament of the ovary contains the ovarian vessels, lymphatics, and nerves."
-          },
-          {
-            question: "The uterus is normally positioned:",
-            options: ["Anteverted and anteflexed", "Retroverted and retroflexed", "Anteverted and retroflexed", "Retroverted and anteflexed"],
-            "correct": 0,
-            "explanation": "In most women, the uterus is anteverted and anteflexed relative to the vagina and cervix."
-          },
-          {
-            question: "Which structure passes through the inguinal canal in females?",
-            options: ["Round ligament of uterus", "Suspensory ligament", "Ovarian ligament", "Fallopian tube"],
-            "correct": 0,
-            "explanation": "In females, the round ligament of the uterus passes through the inguinal canal."
-          },
-          {
-            question: "The pampiniform plexus drains into which vein on the left side?",
-            options: ["Left renal vein", "Left gonadal vein", "Inferior vena cava", "External iliac vein"],
-            "correct": 0,
-            "explanation": "The left testicular vein drains into the left renal vein, while the right drains directly into the IVC."
-          },
-          {
-            question: "Which part of the male urethra passes through the prostate gland?",
-            options: ["Preprostatic", "Prostatic", "Membranous", "Spongy"],
-            "correct": 1,
-            "explanation": "The prostatic urethra is the widest part and passes through the prostate gland."
-          },
-          {
-            question: "The broad ligament of the uterus is a fold of which structure?",
-            options: ["Fascia", "Peritoneum", "Mesentery", "Muscle"],
-            "correct": 1,
-            "explanation": "The broad ligament is a double fold of peritoneum that supports the uterus, uterine tubes, and ovaries."
-          },
-          {
-            question: "Which structure lies within the spermatic cord?",
-            options: ["Seminal vesicle", "Epididymis", "Vas deferens", "Prostate gland"],
-            "correct": 2,
-            "explanation": "The spermatic cord contains the vas deferens, testicular vessels, pampiniform plexus, nerves, and lymphatics."
-          },
-          {
-            question: "Which part of the uterus is continuous with the uterine tubes?",
-            options: ["Fundus", "Body", "Cervix", "Isthmus"],
-            "correct": 0,
-            "explanation": "The fundus of the uterus is the superior portion, located above the openings of the uterine tubes."
-          },
-          {
-            question: "The testis is supplied by which artery?",
-            options: ["Internal iliac artery", "External iliac artery", "Testicular artery", "Obturator artery"],
-            "correct": 2,
-            "explanation": "The testicular artery arises from the abdominal aorta and supplies the testes."
-          },
-          {
-            question: "The vaginal fornices surround which structure?",
-            options: ["Uterus", "Cervix", "Urethra", "Clitoris"],
-            "correct": 1,
-            "explanation": "The vaginal fornices are recesses around the cervix where it projects into the vagina."
-          },
-          {
-            question: "The cremasteric reflex tests which nerve?",
-            options: ["Ilioinguinal nerve", "Genitofemoral nerve", "Pudendal nerve", "Obturator nerve"],
-            "correct": 1,
-            "explanation": "The cremasteric reflex involves the genital branch of the genitofemoral nerve."
-          },
-          {
-            question: "The vestibular glands (of Bartholin) are homologous to which male gland?",
-            options: ["Prostate gland", "Seminal vesicle", "Bulbourethral gland", "Epididymis"],
-            "correct": 2,
-            "explanation": "The greater vestibular glands (Bartholin) in females are homologous to the bulbourethral glands in males."
-          },
-          {
-            question: "Which part of the fallopian tube is the site of fertilization?",
-            options: ["Infundibulum", "Ampulla", "Isthmus", "Uterine part"],
-            "correct": 1,
-            "explanation": "The ampulla of the uterine tube is the most common site of fertilization."
-          },
-          {
-            question: "The penile urethra is also known as:",
-            options: ["Prostatic urethra", "Membranous urethra", "Spongy urethra", "Pre-prostatic urethra"],
-            "correct": 2,
-            "explanation": "The spongy urethra runs within the corpus spongiosum and is also called the penile urethra."
-          },
-          {
-            question: "Which ligament anchors the ovary to the uterus?",
-            options: ["Round ligament", "Suspensory ligament", "Broad ligament", "Ovarian ligament"],
-            "correct": 3,
-            "explanation": "The ovarian ligament connects the ovary to the lateral aspect of the uterus."
-          },
-          {
-            question: "The ejaculatory ducts open into the:",
-            options: ["Membranous urethra", "Prostatic urethra", "Spongy urethra", "Seminal colliculus"],
-            "correct": 1,
-            "explanation": "The ejaculatory ducts open into the prostatic urethra near the seminal colliculus."
-          },
-          {
-            question: "The ischiocavernosus muscle surrounds which structure?",
-            options: ["Corpus cavernosum", "Corpus spongiosum", "Bulb of penis", "Prostate gland"],
-            "correct": 0,
-            "explanation": "The ischiocavernosus muscle surrounds the crura of the corpora cavernosa and helps maintain erection."
-          },
-          {
-            question: "Which structure is homologous to the penis in females?",
-            options: ["Clitoris", "Labia minora", "Vestibule", "Bartholin gland"],
-            "correct": 0,
-            "explanation": "The clitoris is the female homolog of the penis, both derived from the genital tubercle."
-          },
-          {
-            question: "Which artery supplies the corpora cavernosa?",
-            options: ["Dorsal artery of penis", "Deep artery of penis", "Bulbourethral artery", "Internal pudendal vein"],
-            "correct": 1,
-            "explanation": "The deep arteries of the penis supply the corpora cavernosa, essential for erection."
-          },
-          {
-            question: "Which artery is the main blood supply of the uterus?",
-            options: ["Ovarian artery", "Uterine artery", "Internal pudendal artery", "Inferior epigastric artery"],
-            "correct": 1,
-            "explanation": "The uterine artery, a branch of the internal iliac artery, provides the main blood supply to the uterus."
-          },
-          {
-            question: "Which structure passes superior to the ureter in the female pelvis?",
-            options: ["Round ligament", "Ovarian artery", "Uterine artery", "Fallopian tube"],
-            "correct": 2,
-            "explanation": "The uterine artery crosses superior to the ureter—clinically remembered as 'water under the bridge.'"
-          },
-          {
-            question: "Which lobe of the prostate is most commonly affected in benign prostatic hyperplasia?",
-            options: ["Anterior lobe", "Median lobe", "Posterior lobe", "Lateral lobe"],
-            "correct": 1,
-            "explanation": "The median lobe of the prostate commonly enlarges in BPH and can obstruct the urethra."
-          },
-          {
-            question: "Which lobe of the prostate is most commonly affected in prostate cancer?",
-            options: ["Anterior lobe", "Median lobe", "Posterior lobe", "Lateral lobe"],
-            "correct": 2,
-            "explanation": "The posterior lobe of the prostate is the most common site of carcinoma."
-          },
-          {
-            question: "Which muscle helps in ejaculation by expelling semen?",
-            options: ["Ischiocavernosus", "Bulbospongiosus", "Levator ani", "Obturator internus"],
-            "correct": 1,
-            "explanation": "The bulbospongiosus muscle contracts rhythmically to help expel semen during ejaculation."
-          },
-          {
-            question: "Which ligament attaches the cervix to the lateral pelvic wall?",
-            options: ["Broad ligament", "Suspensory ligament", "Cardinal (transverse cervical) ligament", "Ovarian ligament"],
-            "correct": 2,
-            "explanation": "The cardinal ligament anchors the cervix and uterus to the lateral pelvic wall."
-          },
-          {
-            question: "Which nerve supplies sensation to the external genitalia?",
-            options: ["Femoral nerve", "Ilioinguinal nerve", "Pudendal nerve", "Genitofemoral nerve"],
-            "correct": 2,
-            "explanation": "The pudendal nerve provides sensory innervation to the perineum and external genitalia."
-          },
-          {
-            question: "Which artery supplies the testes?",
-            options: ["Renal artery", "Internal iliac artery", "Testicular artery", "External iliac artery"],
-            "correct": 2,
-            "explanation": "The testicular arteries arise directly from the abdominal aorta and supply the testes."
-          },
-          {
-            question: "The round ligament of the uterus is a remnant of which embryonic structure?",
-            options: ["Mesonephric duct", "Paramesonephric duct", "Gubernaculum", "Urogenital sinus"],
-            "correct": 2,
-            "explanation": "The round ligament is derived from the gubernaculum, which guides gonadal descent."
-          },
-          {
-            question: "Which part of the male urethra is the narrowest?",
-            options: ["Prostatic urethra", "Membranous urethra", "Spongy urethra", "Pre-prostatic urethra"],
-            "correct": 1,
-            "explanation": "The membranous urethra is the narrowest part of the male urethra and most vulnerable to injury."
-          },
-          {
-            question: "Which structure is homologous to the scrotum in females?",
-            options: ["Labia majora", "Labia minora", "Vestibule", "Clitoris"],
-            "correct": 0,
-            "explanation": "The labia majora are homologous to the scrotum, both derived from labioscrotal swellings."
-          },
-          {
-            question: "Which artery supplies the prostate gland?",
-            options: ["Vesical arteries", "Inferior vesical artery", "Uterine artery", "Obturator artery"],
-            "correct": 1,
-            "explanation": "The inferior vesical artery, a branch of the internal iliac artery, supplies the prostate gland."
-          },
-          {
-            question: "The ejaculatory ducts are formed by the union of which two structures?",
-            options: ["Vas deferens and prostatic ducts", "Seminal vesicle duct and vas deferens", "Prostatic duct and urethra", "Epididymis and vas deferens"],
-            "correct": 1,
-            "explanation": "The ejaculatory duct is formed by the union of the duct of the seminal vesicle and the vas deferens."
-          },
-          {
-            question: "Which structure is contained within the broad ligament of the uterus?",
-            options: ["Round ligament", "Ovary", "Suspensory ligament", "Clitoris"],
-            "correct": 0,
-            "explanation": "The round ligament, uterine tube, and vessels lie within the broad ligament, but the ovary is attached to it rather than enclosed."
-          },
-          {
-            question: "Which structure forms the posterior boundary of the perineal body in females?",
-            options: ["Vagina", "Anus", "Urethra", "Clitoris"],
-            "correct": 1,
-            "explanation": "The perineal body lies between the vagina and anus, providing muscular support."
-          },
-          {
-            question: "Which part of the epididymis is continuous with the vas deferens?",
-            options: ["Head", "Body", "Tail", "Neck"],
-            "correct": 2,
-            "explanation": "The tail of the epididymis is continuous with the vas deferens."
-          },
-          {
-            question: "Which nerve is responsible for erection?",
-            options: ["Pudendal nerve", "Dorsal nerve of penis", "Pelvic splanchnic nerves", "Ilioinguinal nerve"],
-            "correct": 2,
-            "explanation": "The parasympathetic pelvic splanchnic nerves (S2–S4) mediate erection—'point and shoot.'"
-          },
-          {
-            question: "Which nerve is responsible for ejaculation?",
-            options: ["Pudendal nerve", "Pelvic splanchnic nerves", "Hypogastric nerve (sympathetic)", "Genitofemoral nerve"],
-            "correct": 2,
-            "explanation": "Ejaculation is mediated by the sympathetic hypogastric nerves (T11–L2)—'point and shoot.'"
-          },
-          {
-            question: "Which part of the fallopian tube is closest to the ovary?",
-            options: ["Ampulla", "Infundibulum", "Isthmus", "Uterine part"],
-            "correct": 1,
-            "explanation": "The infundibulum with fimbriae lies closest to the ovary."
-          },
-          {
-            question: "Which part of the broad ligament directly supports the ovary?",
-            options: ["Mesometrium", "Mesovarium", "Mesosalpinx", "Suspensory ligament"],
-            "correct": 1,
-            "explanation": "The mesovarium is the part of the broad ligament that attaches to and supports the ovary."
-          },
-          {
-            question: "The glans penis is an expansion of which structure?",
-            options: ["Corpus cavernosum", "Corpus spongiosum", "Bulb of penis", "Tunica albuginea"],
-            "correct": 1,
-            "explanation": "The glans penis is the expanded distal portion of the corpus spongiosum."
-          },
-          {
-            question: "Which artery is the main supply of the erectile tissue of the penis?",
-            options: ["Dorsal artery of penis", "Deep artery of penis", "Bulbar artery", "Obturator artery"],
-            "correct": 1,
-            "explanation": "The deep arteries of the penis supply the erectile tissue of the corpora cavernosa."
-          },
-          {
-            question: "The ovarian ligament connects the ovary to which structure?",
-            options: ["Broad ligament", "Uterus", "Fallopian tube", "Pelvic wall"],
-            "correct": 1,
-            "explanation": "The ovarian ligament connects the ovary to the lateral wall of the uterus."
-          },
-          {
-            question: "Which part of the urethra passes through the urogenital diaphragm?",
-            options: ["Prostatic urethra", "Membranous urethra", "Spongy urethra", "Pre-prostatic urethra"],
-            "correct": 1,
-            "explanation": "The membranous urethra passes through the urogenital diaphragm and is the shortest part."
-          },
-          {
-            question: "The bulb of the vestibule in females is homologous to which male structure?",
-            options: ["Corpus cavernosum", "Corpus spongiosum", "Prostate gland", "Glans penis"],
-            "correct": 1,
-            "explanation": "The bulb of the vestibule in females is homologous to the corpus spongiosum in males."
-          }
-        ]
-      },
-      physiology: {
-        questions: [
-          
-  {
-    "question": "LH is:",
-    "options": [
-      "A protein",
-      "Not present in males", 
-      "Inhibits ovulation",
-      "Increased in females after menopause",
-      "Not needed for spermatogenesis"
-    ],
-    "correct": 3,
-    "explanation": "LH (luteinizing hormone) is increased in females after menopause due to the loss of negative feedback from ovarian hormones (estrogen and progesterone). After menopause, the ovaries stop producing these hormones, leading to elevated levels of gonadotropins (LH and FSH) as the pituitary is no longer inhibited. LH is a glycoprotein (not a simple protein), is present in males where it stimulates testosterone production, triggers ovulation (rather than inhibiting it), and is essential for spermatogenesis by stimulating testosterone production in Leydig cells."
-  },
-  {
-    "question": "Turner syndrome is characterized by:",
-    "options": [
-      "Gynecomastia",
-      "Male genitalia",
-      "Absent ovaries", 
-      "Tall stature",
-      "Mental retardation"
-    ],
-    "correct": 2,
-    "explanation": "Turner syndrome (45,XO) is characterized by absent ovaries (ovarian agenesis), where the ovaries are replaced by fibrous streaks. Patients have female genitalia (not male), short stature (not tall), and typically normal intelligence (no mental retardation). Gynecomastia is characteristic of Klinefelter syndrome, not Turner syndrome."
-  },
-  {
-    "question": "Most of the seminal fluid is provided by:",
-    "options": [
-      "Prostate",
-      "Seminal vesicles",
-      "Cowper's glands",
-      "Epididymis", 
-      "Ejaculatory ducts"
-    ],
-    "correct": 1,
-    "explanation": "The seminal vesicles provide about 70% of the seminal fluid volume. Their secretion contains proteins, enzymes, fructose, mucus, and prostaglandins. The prostate contributes 10-30%, Cowper's glands produce pre-ejaculate fluid, the epididymis stores and matures sperm but doesn't contribute significantly to fluid volume, and the ejaculatory ducts are passageways rather than secretory glands."
-  },
-  {
-    "question": "Which of the following hormones is expected to rise following ovulation:",
-    "options": [
-      "LH",
-      "FSH", 
-      "Estrogen",
-      "Progesterone",
-      "hCG"
-    ],
-    "correct": 3,
-    "explanation": "Progesterone rises significantly following ovulation as the ruptured follicle transforms into the corpus luteum, which secretes large amounts of progesterone (along with some estrogen). LH and FSH decline after ovulation due to negative feedback from progesterone and estrogen. Estrogen has two peaks - one just before ovulation and another during the mid-luteal phase. hCG is only produced during pregnancy."
-  },
-  {
-    "question": "During pregnancy, the corpus luteum:",
-    "options": [
-      "Is known as the corpus albicans",
-      "Is controlled by the placenta",
-      "Is essential for maintenance of pregnancy", 
-      "Degenerates during the second trimester",
-      "Responds to both FSH and LH"
-    ],
-    "correct": 2,
-    "explanation": "The corpus luteum is essential for maintaining pregnancy during the first 6-8 weeks by producing progesterone and estrogen until the placenta takes over hormone production. It is maintained by hCG from the placenta (not controlled by it), doesn't degenerate until after delivery, responds primarily to LH (not FSH), and the corpus albicans is the degenerated form after luteal regression."
-  },
-  {
-    "question": "Normal spermatogenesis requires the following cells:",
-    "options": [
-      "Sertoli cells, Germ cells and acidophils of the pituitary",
-      "Leydig cells, Germ cells and Chromophobes of the pituitary", 
-      "Sertoli cells, Leydig cells and Basophils of the pituitary",
-      "Germ cells, Leydig cells and stem cells of the bone marrow",
-      "Cutaneous cells, Sertoli cells and neural cells in the hypothalamus"
-    ],
-    "correct": 2,
-    "explanation": "Normal spermatogenesis requires: Sertoli cells (for physical support, blood-testes barrier, and nutrient provision), Leydig cells (for testosterone production), and basophils of the pituitary (which secrete FSH and LH). Germ cells alone are insufficient without the supporting cells and hormonal regulation."
-  },
-  {
-    "question": "The corpus luteum of pregnancy:",
-    "options": [
-      "Is under control of LH",
-      "Is formed only from theca interna cells",
-      "Produces progesterone but not estrogen", 
-      "Degenerates as soon as the fertilized ovum is implanted",
-      "Requires human chorionic gonadotrophin"
-    ],
-    "correct": 4,
-    "explanation": "The corpus luteum of pregnancy requires human chorionic gonadotropin (hCG) for its maintenance beyond the normal luteal phase. hCG acts as a luteotropic and luteinizing hormone, preventing degeneration of the corpus luteum and ensuring continued production of progesterone and estrogen during early pregnancy until the placenta takes over hormone production."
-  },
-  {
-    "question": "Normal spermatogenesis requires:",
-    "options": [
-      "A peak of LH",
-      "FSH and testosterone", 
-      "A temperature equal to body temperature",
-      "Low potassium in seminal fluid",
-      "120 days for development of sperms"
-    ],
-    "correct": 1,
-    "explanation": "Normal spermatogenesis requires both FSH (which acts on Sertoli cells to produce androgen-binding protein) and testosterone (which is essential for the conversion of spermatids to spermatozoa). Spermatogenesis occurs at temperatures lower than body temperature (about 32°C), takes approximately 74 days (not 120), and the potassium concentration in seminal fluid is not a determining factor."
-  },
-  {
-    "question": "During the menstrual cycle, progesterone is responsible for:",
-    "options": [
-      "Proliferative phase in the uterus",
-      "Thick mucus in the cervix", 
-      "Ovulation",
-      "LH peak during mid-cycle",
-      "Ductular growth in the breast"
-    ],
-    "correct": 1,
-    "explanation": "Progesterone makes the cervical mucus thick, scanty, and difficult to penetrate by sperm. The proliferative phase is caused by estrogen (not progesterone), ovulation is triggered by the LH surge (not progesterone), the LH peak occurs before significant progesterone production, and ductular growth in the breast is primarily estrogen-mediated."
-  },
-  {
-    "question": "Ovulation:",
-    "options": [
-      "Normally occurs 14 days following uterine bleeding",
-      "Immediately occurs following LH surge",
-      "Is usually associated with a central abdominal pain", 
-      "Is due to rupture of the corpus luteum",
-      "Leads to a rise in the body temperature"
-    ],
-    "correct": 4,
-    "explanation": "Ovulation leads to a rise in body temperature due to the thermogenic effect of progesterone secreted by the corpus luteum. Ovulation occurs 14 days BEFORE the next menstrual period (not after bleeding), occurs about 9 hours after the LH peak (not immediately), is associated with lower abdominal pain (not central), and results from rupture of the mature follicle (not the corpus luteum)."
-  },
-  {
-    "question": "Home-use Kits for determining a woman's pregnancy depends on detection of this hormone in her blood or urine:",
-    "options": [
-      "FSH",
-      "Progesterone", 
-      "Estradiol",
-      "hCG",
-      "LH"
-    ],
-    "correct": 3,
-    "explanation": "Pregnancy tests detect human chorionic gonadotropin (hCG), which is produced by the syncytiotrophoblast of the developing placenta. hCG appears in blood about 6 days after implantation and in urine about 14 days after implantation. The other hormones are not specific to pregnancy and cannot reliably indicate pregnancy."
-  },
-  {
-    "question": "Concerning spermatogenesis, which of the following is correct:",
-    "options": [
-      "Sperm production is cyclic",
-      "Continuous release of GnRH is essential for spermatogenesis", 
-      "Sertoli cells are needed for mitotic and meiotic activity of germ cells",
-      "FSH acts on Leydig cells to stimulate release of testosterone",
-      "LH acts on Sertoli cells to stimulate release androgen binding protein"
-    ],
-    "correct": 2,
-    "explanation": "Sertoli cells provide physical support and nutrients essential for both mitotic and meiotic divisions of germ cells during spermatogenesis. Spermatogenesis is continuous (not cyclic) in males, GnRH release is pulsatile (not continuous), FSH acts on Sertoli cells (not Leydig cells), and LH acts on Leydig cells (not Sertoli cells) to stimulate testosterone production."
-  },
-  {
-    "question": "During 2nd and 3rd trimester of pregnancy, the primary source of estrogen and progesterone is the:",
-    "options": [
-      "Corpus luteum",
-      "Granulosa and theca cells in ovaries", 
-      "Placenta",
-      "Adrenal cortex",
-      "Pituitary gland"
-    ],
-    "correct": 2,
-    "explanation": "After the first 6-8 weeks of pregnancy, the placenta becomes the primary source of estrogen and progesterone. The corpus luteum degenerates around this time, the ovarian follicles are inactive during pregnancy, and while the adrenal cortex produces some androgens that can be converted to estrogen, it is not the primary source."
-  },
-  {
-    "question": "Which of the following statements about estrogen is not true:",
-    "options": [
-      "Interacts with intracellular protein receptors",
-      "Increases synthesis of thyroid binding protein", 
-      "Decreases uterine contractions",
-      "Decreases FSH secretion",
-      "Is released from the testes"
-    ],
-    "correct": 2,
-    "explanation": "Estrogen actually increases uterine contractions by making the uterus more excitable to oxytocin, not decreasing them. All other statements are true: estrogen interacts with intracellular receptors, increases hepatic production of thyroid-binding globulin, exerts negative feedback on FSH secretion (except at mid-cycle), and small amounts are produced in the testes via aromatase conversion of androgens."
-  },
-  {
-    "question": "Testosterone is not:",
-    "options": [
-      "Produced during intra-uterine life",
-      "An anabolic hormone", 
-      "Mostly protein bound",
-      "Inhibited directly by inhibin",
-      "Inhibitory to LH"
-    ],
-    "correct": 3,
-    "explanation": "Testosterone is NOT directly inhibited by inhibin. Inhibin specifically inhibits FSH secretion, not testosterone. Testosterone is produced during intrauterine life, has anabolic effects (promotes protein synthesis), is 98% protein-bound in plasma, and exerts negative feedback inhibition on LH secretion."
-  },
-  {
-    "question": "In a normal menstrual cycle:",
-    "options": [
-      "High estrogen maintains the corpus luteum",
-      "Progesterone is highest during early days of menstrual cycle", 
-      "LH peak is preceded by estrogen peak",
-      "Ovulation depends on FSH surge",
-      "The life span of corpus luteum determines duration of the cycle"
-    ],
-    "correct": 2,
-    "explanation": "The LH peak at mid-cycle is preceded by a peak in estrogen levels. Just before ovulation, rising estrogen switches from negative to positive feedback on the pituitary, triggering the LH surge. The corpus luteum is maintained by LH (not estrogen), progesterone is lowest during early menstrual days, ovulation depends on LH surge (not FSH), and the follicular phase variability determines cycle length (the luteal phase is relatively constant at 14 days)."
-  },
-  {
-    "question": "Which of the followings is NOT secreted by Sertoli cells:",
-    "options": [
-      "Androgen binding protein",
-      "Testosterone", 
-      "Mullerian inhibitory substance",
-      "Inhibin",
-      "Estrogens"
-    ],
-    "correct": 1,
-    "explanation": "Testosterone is secreted by Leydig cells (interstitial cells), not Sertoli cells. Sertoli cells do secrete androgen binding protein (in response to FSH), Mullerian inhibitory substance (during fetal development), inhibin (which inhibits FSH), and estrogens (via aromatase conversion of androgens)."
-  },
-  {
-    "question": "Concerning spermatogenesis:",
-    "options": [
-      "Testosterone is not essential",
-      "The secondary spermatocyte contains 23 chromosomes", 
-      "FSH has no role",
-      "The process takes 74 hours",
-      "Involves division of Sertoli cells to form sperms"
-    ],
-    "correct": 1,
-    "explanation": "The secondary spermatocyte contains 23 chromosomes (haploid) after the first meiotic division. Testosterone is essential for the final maturation of spermatids to spermatozoa, FSH is crucial for stimulating Sertoli cells, spermatogenesis takes 74 days (not hours), and Sertoli cells support but do not divide to form sperm - germ cells undergo the divisions."
-  },
-  {
-    "question": "Progesterone:",
-    "options": [
-      "Acts on cell membrane receptors",
-      "Stimulates the respiratory centre to increase respiration", 
-      "Acts directly on the hypothalamus to activate the temperature centre",
-      "Promotes proliferative changes in the endometrium",
-      "Stimulates development of ducts in the breast"
-    ],
-    "correct": 1,
-    "explanation": "Progesterone stimulates the respiratory center, causing hyperventilation during pregnancy and the luteal phase. Progesterone acts on intracellular receptors (not cell membrane), its thermogenic effect is metabolic (not via hypothalamic temperature center), estrogen (not progesterone) causes proliferative changes, and progesterone stimulates lobular and alveolar breast development (not ductular, which is estrogen-mediated)."
-  },
-  {
-    "question": "Human chorionic somatomammotropin (hCS):",
-    "options": [
-      "Is a steroid hormone",
-      "Prevents glucose utilization by the fetus", 
-      "Causes lipolysis",
-      "Is secreted by the granulosa cells",
-      "Is detected by pregnancy test to diagnose pregnancy"
-    ],
-    "correct": 2,
-    "explanation": "hCS causes lipolysis, providing free fatty acids as an alternative energy source for the mother. hCS is a protein hormone (not steroid), reduces glucose utilization by the MOTHER (not fetus) to spare glucose for fetal use, is secreted by syncytiotrophoblasts (not granulosa cells), and pregnancy tests detect hCG (not hCS)."
-  },
-  {
-    "question": "Maternal responses to pregnancy do not include:",
-    "options": [
-      "Increased GFR",
-      "Increased volume of plasma", 
-      "Increased cardiac output",
-      "Increased lung volumes and capacities",
-      "Decreased erythropoiesis"
-    ],
-    "correct": 3,
-    "explanation": "Pregnancy does NOT increase lung volumes and capacities; in fact, the upward displacement of the diaphragm by the enlarged uterus actually REDUCES lung volumes. All other options are correct maternal adaptations: GFR increases by 50-60%, plasma volume increases by 40-50%, cardiac output increases by 30-50%, and while red blood cell mass increases, the relative hemodilution can give the appearance of decreased erythropoiesis."
-  },
-  {
-    "question": "A 17-year-old girl visited her physician because she had never had a menstrual period. Physical examination revealed a tall female with a short, blind-ended vagina and no palpable cervix. Ultrasound showed the absence of a uterus and no ovaries and the presence of undescended testes. Deficiency of which enzyme, hormone, or receptor is most likely to account for these findings?",
-    "options": [
-      "Androgen receptors",
-      "Aromatase",
-      "Estrogen receptors",
-      "21a-Hydroxylase",
-      "Müllerian-inhibiting substance",
-      "Progesterone",
-      "5a-Reductase"
-    ],
-    "correct": 0,
-    "explanation": "This describes complete androgen insensitivity syndrome (testicular feminization). The patient has a 46,XY karyotype with testes that produce testosterone and MIS normally. However, due to androgen receptor deficiency, the body cannot respond to androgens, leading to female external genitalia development. MIS from Sertoli cells causes regression of Müllerian structures (uterus, fallopian tubes), resulting in a blind vaginal pouch. The testes remain undescended, and patients are tall due to delayed epiphyseal closure from lack of androgen effects."
-  },
-  {
-    "question": "A blood sample is taken from a 27-year-old woman for hormone analysis. The sample contains low levels of follicle-stimulating hormone (FSH) and luteinizing hormone (LH) and high levels of estrogen, progesterone, and inhibin. Assuming a normal 28-day menstrual cycle, on which day of this woman's menstrual cycle was the blood sample taken?",
-    "options": [
-      "Day 1",
-      "Day 7",
-      "Day 14",
-      "Day 21",
-      "Day 28"
-    ],
-    "correct": 3,
-    "explanation": "Day 21 corresponds to the mid-luteal phase when the corpus luteum is fully functional, secreting high levels of estrogen, progesterone, and inhibin. These hormones exert strong negative feedback on the pituitary, suppressing FSH and LH secretion. This hormonal profile is characteristic of the luteal phase and essential for preparing the endometrium for potential implantation."
-  },
-  {
-    "question": "A 37-year-old woman who is breast-feeding her 4-month-old son is taking the train to see her mother who lives several hours away. When the woman hears the cry of another infant, she notices that milk has been expressed from both her breasts. The release of which hormone can account for this response?",
-    "options": [
-      "Estrogen",
-      "Inhibin",
-      "Oxytocin",
-      "Progesterone",
-      "Prolactin"
-    ],
-    "correct": 2,
-    "explanation": "Oxytocin is responsible for milk ejection (let-down reflex) by causing contraction of myoepithelial cells surrounding breast alveoli. This reflex can be conditioned by various stimuli including infant crying, thinking about the baby, or emotional states. Prolactin is responsible for milk production (lactogenesis), not milk ejection."
-  },
-  {
-    "question": "A 36-year-old woman who is pregnant with her third child is in labor. Her serum oxytocin levels were measured at regular intervals over a 24-hour period. Measurements were taken at the onset when the woman began having low back pains 1 day before delivery and ended 3 hours after delivery of the infant, just before the woman was to begin breast-feeding the infant. A normal vaginal delivery was completed without medical intervention. At what time was the oxytocin concentration in maternal blood most likely to be highest?",
-    "options": [
-      "Before labor",
-      "At the onset of back pain",
-      "Uterine contractions 20 minutes apart",
-      "During the expulsive stages of labor",
-      "Three hours after delivery"
-    ],
-    "correct": 3,
-    "explanation": "Oxytocin levels peak during the expulsive stage of labor when the fetus descends and cervical dilation is maximal. This creates a positive feedback loop: cervical stretching stimulates oxytocin release, which causes stronger uterine contractions, leading to more cervical stretching. This Ferguson reflex ensures progressive labor until delivery."
-  },
-  {
-    "question": "A 32-year-old woman and her partner were trying to conceive a child. The woman had regular menstrual cycles of about 30 days in length. Four days after missing her menstrual period, she bought a commercial pregnancy testing kit. The couple was excited to discover that her urine sample indicated a positive result for pregnancy. Which of the following hormones was detected in her urine?",
-    "options": [
-      "Human chorionic gonadotropin",
-      "Estrogen",
-      "Follicle-stimulating hormone",
-      "Gonadotropin-releasing hormone",
-      "Inhibin",
-      "Luteinizing hormone",
-      "Progesterone"
-    ],
-    "correct": 0,
-    "explanation": "Home pregnancy tests detect human chorionic gonadotropin (hCG), which is produced by the syncytiotrophoblast of the developing placenta. hCG appears in urine about 14 days after implantation, making it detectable around the time of missed menstruation. hCG maintains the corpus luteum during early pregnancy, ensuring continued progesterone production."
-  },
-  {
-    "question": "Fetal acquisition of glucose occurs by placental glucose transport. What is the first cell layer within the placenta that glucose must cross during transport from maternal to fetal blood?",
-    "options": [
-      "Cytotrophoblast",
-      "Decidua",
-      "Inner cell mass",
-      "Mesenchyme",
-      "Syncytiotrophoblast"
-    ],
-    "correct": 4,
-    "explanation": "The syncytiotrophoblast is the outermost layer of chorionic villi, directly bathed in maternal blood in the intervillous space. Glucose from maternal blood must first cross this continuous, multinucleated cell layer before passing through the cytotrophoblast, basement membrane, and fetal capillary endothelium to reach fetal circulation."
-  },
-  {
-    "question": "The luteinizing hormone surge measured during the ovulatory phase of the menstrual cycle results from positive feedback exerted by which of the following hormones?",
-    "options": [
-      "Estrogen",
-      "Follicle-stimulating hormone",
-      "Gonadotropin-releasing hormone",
-      "Inhibin",
-      "Progesterone"
-    ],
-    "correct": 0,
-    "explanation": "Sustained high levels of estrogen from the developing dominant follicle switch from negative to positive feedback on the pituitary around mid-cycle. This positive feedback sensitizes gonadotropes to GnRH, triggering the LH surge that induces ovulation. This is a unique neuroendocrine phenomenon specific to the menstrual cycle."
-  },
-  {
-    "question": "A 36-year-old woman visited her gynecologist to have a routine annual examination. A cervical Pap smear was performed to check for abnormal cells. The mucus sample was thin and produced a fern-like pattern when it dried on a microscope slide. Assuming a normal 28-day menstrual cycle, on which day of this woman's menstrual cycle was the smear taken?",
-    "options": [
-      "Day 1",
-      "Day 7",
-      "Day 14",
-      "Day 21",
-      "Day 28"
-    ],
-    "correct": 2,
-    "explanation": "Day 14 corresponds to ovulation when estrogen levels peak. Under estrogen dominance, cervical mucus becomes thin, watery, and alkaline, forming a fern-like crystallization pattern when dried. This facilitates sperm transport and survival. Progesterone-dominated mucus (luteal phase) is thick and does not fern."
-  },
-  {
-    "question": "A 37-year-old man with four children elected to have a vasectomy. This procedure prevents conception because",
-    "options": [
-      "no sperm is ejaculated",
-      "secretion from seminal vesicles is not ejaculated",
-      "secretion from the prostate gland is not ejaculated",
-      "no semen is ejaculated"
-    ],
-    "correct": 0,
-    "explanation": "Vasectomy involves cutting and sealing the vas deferens, preventing sperm transport from the epididymis to the ejaculatory ducts. Semen (composed of secretions from seminal vesicles, prostate, and Cowper's glands) is still ejaculated, but it contains no sperm. Sperm production continues but sperm are phagocytosed in the epididymis."
-  },
-  {
-    "question": "A child born with ambiguous genitalia was found to have a 46XY karyotype. Testes were present at birth, and there was a small phallus with a urethral opening at its midpoint. The child entered puberty late, but masculinization was evident. Which deficiency could account for these findings?",
-    "options": [
-      "Aromatase",
-      "21a-Hydroxylase",
-      "Luteinizing hormone receptor",
-      "5a-Reductase",
-      "Testosterone"
-    ],
-    "correct": 3,
-    "explanation": "5α-reductase deficiency impairs conversion of testosterone to dihydrotestosterone (DHT), which is essential for normal development of external male genitalia (penis, scrotum, prostate). At puberty, high testosterone levels can partially overcome this deficiency, leading to virilization (phallic growth, muscle development, voice deepening) as testosterone can bind androgen receptors, though less effectively than DHT."
-  },
-  {
-    "question": "Ovarian granulosa cells were grown in primary cell culture in vitro. The cells failed to secrete significant amounts of estrogen when exposed to follicle-stimulating hormone (FSH) and luteinizing hormone (LH) until they were cultured together with ovarian thecal cells. A likely explanation for the failure of granulosa cells to produce estrogens when cultured alone is",
-    "options": [
-      "inability of granulosa cells to synthesize cholesterol",
-      "lack of androgen precursors from which to produce estrogens",
-      "lack of aromatase activity",
-      "lack of 5a-reductase activity",
-      "lack of progesterone precursor from which to produce estrogens"
-    ],
-    "correct": 1,
-    "explanation": "Estrogen synthesis requires the two-cell system: Theca interna cells (under LH stimulation) produce androgens from cholesterol. These androgens diffuse to granulosa cells, where FSH-stimulated aromatase converts them to estrogens. Granulosa cells lack the enzymes for de novo androgen synthesis but are rich in aromatase. Without thecal cell-derived androgens, granulosa cells cannot produce significant estrogen."
-  },
-  {
-    "question": "An 18-year-old man visited his physician because he was concerned about his height. He is 152 cm tall (5 ft). He described himself when he was in elementary school as being self-conscious because he was taller than his peers. He also recalled developing pubic and axillary hair at about age 7 or 8. Physical examination showed a healthy male of short stature with normal genitalia and male secondary sexual development. Which endocrine abnormality best explains the findings in this patient?",
-    "options": [
-      "Early maturation of the hypothalamic-pituitary-gonadal axis",
-      "Failure of pulsatile gonadotrophin-releasing hormone secretion at puberty",
-      "Growth hormone excess in early childhood",
-      "Insulin-like growth factor-1 deficiency",
-      "Panhypopituitarism"
-    ],
-    "correct": 0,
-    "explanation": "This describes true precocious puberty. Early activation of the hypothalamic-pituitary-gonadal axis leads to premature sex steroid production, causing an early growth spurt and advanced bone age. However, early epiphyseal closure results in short adult stature. The history of early pubic/axillary hair development and initially being taller than peers, followed by short adult height, is characteristic of precocious puberty with premature growth plate fusion."
-  },
-          {
-            "question": "A series of photographs taken of a middle-aged man over a period of 2 decades demonstrates gradual coarsening of facial features and progressive protrusion of the brows. Upon questioning, the patient reports having to wear larger shoes than he did as a young man. Which of the following pair of hormones normally regulates the hormone responsible for these changes?",
+            "question": "A specific enzymatic pathway works effectively within a small bacterium (1 µm diameter) but fails to function efficiently when engineered into a much larger eukaryotic cell (50 µm diameter) without active transport mechanisms. What is the primary physical limitation explaining this phenomenon?",
             "options": [
-              "Dopamine and norepinephrine",
-              "LH and hCG",
-              "Prolactin and FSH",
-              "Somatostatin and GHRH",
-              "TSH and ACTH"
+              "The eukaryotic cell has a lower concentration of ATP.",
+              "The surface-area-to-volume ratio decreases as cell size increases, limiting the rate of solute diffusion relative to metabolic needs.",
+              "Eukaryotic enzymes have lower kcat values than prokaryotic enzymes.",
+              "The viscosity of the eukaryotic cytoplasm prevents all molecular motion.",
+              "Supramolecular complexes cannot form in eukaryotic cytosol."
             ],
-            "correct": 3,
-            "explanation": "The disease is acromegaly, which is typically produced by a growth hormone-secreting pituitary adenoma. Growth hormone synthesis is predominately regulated by hypothalamic GHRH (growth hormone releasing hormone), and its pulsatile secretion is predominately regulated by hypothalamic somatostatin."
+            "correct": 1,
+            "explanation": "As cell size increases, the surface-area-to-volume ratio decreases. Metabolism (volume-dependent) consumes O2 and nutrients faster than they can be supplied by diffusion across the surface (area-dependent)."
           },
           {
-            "question": "A 35-year-old, sexually active woman visits her gynecologist complaining of mild, right-sided, lower abdominal pain but no other symptoms. There are no peritoneal signs. Her surgical history is significant for an appendectomy at age 10. Her last period occurred 14 days ago. Which of the following endometrial changes corresponds to this stage of the patient's menstrual cycle?",
+            "question": "In the fractionation of liver tissue, which organelle would most likely be found in the pellet after centrifugation at 150,000 g, but not at 20,000 g?",
             "options": [
-              "Apical movement of secretions in the glandular cells",
-              "Degeneration of the glandular structures",
-              "Glandular glycogen accumulation in the functionalis",
-              "Growth of the spiral arteries",
-              "Tissue expansion by cellular hypertrophy"
+              "Nuclei",
+              "Mitochondria",
+              "Ribosomes and large macromolecules",
+              "Lysosomes",
+              "Intact cells"
             ],
-            "correct": 3,
-            "explanation": "This patient appears to be experiencing mittelschmerz, abdominal pain occurring at the time of ovulation. She is at the conclusion of the proliferative (estrogenic) phase, which is characterized by regrowth of the endometrium. The spiral arteries grow into the regenerating endometrium during this stage."
+            "correct": 2,
+            "explanation": "Differential centrifugation separates organelles by size. Nuclei pellet at low speeds (1,000 g), mitochondria/lysosomes at medium speeds (20,000 g), while small particles like ribosomes require very high speeds (150,000 g)."
           },
           {
-            "question": "A 37-year-old woman has been trying to get pregnant for the past 16 months. Just as she is about to schedule an appointment with a fertility specialist, she gets a premonition that she is pregnant, despite a negative home pregnancy test 7 days earlier. By the time of implantation in the uterine endometrium, the typical fertilized ovum has divided into how many cells?",
+            "question": "Which of the following best describes the difference between configuration and conformation in biochemical structures?",
             "options": [
-              "2",
-              "4",
+              "Configuration changes require breaking covalent bonds; conformation changes occur via rotation around single bonds.",
+              "Configuration refers to protein folding; conformation refers to DNA supercoiling.",
+              "Conformation changes require breaking double bonds; configuration changes are free rotations.",
+              "Both terms are interchangeable and refer to the 3D shape of a molecule.",
+              "Configuration is determined by environmental pH; conformation is determined by sequence."
+            ],
+            "correct": 0,
+            "explanation": "Configuration denotes fixed spatial arrangements (e.g., cis/trans, chiral centers) requiring bond breakage to change. Conformation refers to spatial arrangements arising from free rotation around single bonds."
+          },
+          {
+            "question": "The strength of noncovalent interactions is critical for the stability of supramolecular complexes. Which order correctly ranks these interactions from strongest to weakest in a biological aqueous environment?",
+            "options": [
+              "Van der Waals > Ionic > Hydrogen bonds",
+              "Hydrophobic interactions > Van der Waals > Ionic",
+              "Ionic interactions > Hydrogen bonds > Van der Waals",
+              "Hydrogen bonds > Ionic interactions > Hydrophobic interactions",
+              "Van der Waals > Hydrogen bonds > Ionic"
+            ],
+            "correct": 2,
+            "explanation": "In biological systems, ionic interactions (salt bridges) are generally the strongest noncovalent forces, followed by hydrogen bonds, and then van der Waals interactions."
+          },
+          {
+            "question": "A biochemist isolates two proteins, Protein A and Protein B, from the same species. They have similar sequences and 3D structures but catalyze different reactions. These proteins are best classified as:",
+            "options": [
+              "Orthologs",
+              "Paralogs",
+              "Homologs (specifically paralogs)",
+              "Syntologs",
+              "Analogs"
+            ],
+            "correct": 2,
+            "explanation": "Since they are from the same species and have similar sequences (implying a common ancestor), they are homologs. Specifically, genes that diverge via gene duplication within a species are paralogs."
+          },
+          {
+            "question": "Which functional group is capable of forming a high-energy thioester bond, crucial for metabolic activation in pathways like the TCA cycle?",
+            "options": [
+              "Hydroxyl (-OH)",
+              "Sulfhydryl (-SH)",
+              "Amino (-NH2)",
+              "Carboxyl (-COOH)",
+              "Phosphate (-PO4)"
+            ],
+            "correct": 1,
+            "explanation": "Thioesters are formed between a carboxylic acid and a sulfhydryl (thiol) group (R-SH). They have a high standard free energy of hydrolysis."
+          },
+          {
+            "question": "A reaction has a positive standard enthalpy change (ΔH > 0) and a positive standard entropy change (ΔS > 0). Under what conditions will this reaction be spontaneous (ΔG < 0)?",
+            "options": [
+              "It is spontaneous at all temperatures.",
+              "It is spontaneous only at high temperatures.",
+              "It is spontaneous only at low temperatures.",
+              "It is never spontaneous.",
+              "It is spontaneous only if coupled to ATP hydrolysis."
+            ],
+            "correct": 1,
+            "explanation": "ΔG = ΔH - TΔS. If both ΔH and ΔS are positive, the term -TΔS becomes more negative as temperature (T) increases, eventually making ΔG negative at high temperatures."
+          },
+          {
+            "question": "Living organisms are thermodynamically described as:",
+            "options": [
+              "Closed systems at equilibrium.",
+              "Isolated systems maximizing entropy.",
+              "Open systems in a dynamic steady state.",
+              "Open systems at equilibrium.",
+              "Closed systems decreasing total entropy of the universe."
+            ],
+            "correct": 2,
+            "explanation": "Organisms exchange matter and energy with surroundings (open systems) and maintain a constant composition (steady state) far from equilibrium."
+          },
+          {
+            "question": "In the biochemical hierarchy, which sequence correctly represents increasing complexity?",
+            "options": [
+              "Cell -> Organelle -> Supramolecular complex -> Macromolecule -> Monomer",
+              "Monomer -> Macromolecule -> Supramolecular complex -> Organelle -> Cell",
+              "Macromolecule -> Monomer -> Organelle -> Supramolecular complex -> Cell",
+              "Monomer -> Supramolecular complex -> Macromolecule -> Cell -> Organelle",
+              "Organelle -> Cell -> Monomer -> Macromolecule"
+            ],
+            "correct": 1,
+            "explanation": "The hierarchy builds from monomers (e.g., amino acids) to macromolecules (proteins) to supramolecular complexes (ribosomes) to organelles (nucleus) to the cell."
+          },
+          {
+            "question": "Which statement regarding the 'RNA World' hypothesis is most strongly supported by the properties of modern ribosomes?",
+            "options": [
+              "Ribosomes are composed entirely of DNA.",
+              "The catalytic site for peptide bond formation consists of RNA, not protein.",
+              "RNA is more stable than DNA, making it a better genetic material.",
+              "Ribosomes can replicate themselves without external substrates.",
+              "Proteins appeared before RNA in evolution."
+            ],
+            "correct": 1,
+            "explanation": "The ribosome is a ribozyme; its catalytic peptidyl transferase activity is performed by rRNA, supporting the idea that RNA preceded proteins as biological catalysts."
+          },
+          {
+            "question": "Stereoisomers that are nonsuperimposable mirror images of each other are called _______, and they have _______ chemical properties in an achiral environment.",
+            "options": [
+              "Diastereomers; different",
+              "Enantiomers; identical",
+              "Geometric isomers; different",
+              "Enantiomers; different",
+              "Epimers; identical"
+            ],
+            "correct": 1,
+            "explanation": "Enantiomers are mirror images with identical physical/chemical properties in an achiral environment, though they interact differently with polarized light and other chiral molecules."
+          },
+          {
+            "question": "Which of the following is a specific characteristic of the Archaeal cell envelope that distinguishes it from Eubacteria?",
+            "options": [
+              "Presence of peptidoglycan with D-amino acids.",
+              "Membrane lipids containing ether-linked branched hydrocarbons.",
+              "A nuclear envelope separating DNA from cytoplasm.",
+              "Absence of ribosomes.",
+              "Presence of sterols like cholesterol."
+            ],
+            "correct": 1,
+            "explanation": "Archaea have unique membrane lipids with ether linkages and branched phytanyl chains, unlike the ester-linked fatty acids found in bacteria and eukaryotes."
+          },
+          {
+            "question": "A biochemical reaction has a Keq of 0.05. Which statement is true regarding the standard free energy change (ΔG°)?",
+            "options": [
+              "ΔG° is negative, and the reaction is exergonic.",
+              "ΔG° is positive, and the reaction is endergonic.",
+              "ΔG° is zero, and the reaction is at equilibrium.",
+              "ΔG° is negative, but the reaction is slow.",
+              "We cannot determine the sign of ΔG° without the temperature."
+            ],
+            "correct": 1,
+            "explanation": "ΔG° = -RT ln Keq. If Keq < 1, the natural log is negative, making ΔG° positive (endergonic, favoring reactants)."
+          },
+          {
+            "question": "Which statement correctly distinguishes orthologs from paralogs?",
+            "options": [
+              "Orthologs exist in the same species; paralogs exist in different species.",
+              "Orthologs usually have the same function; paralogs often acquire new functions.",
+              "Orthologs result from gene duplication; paralogs result from speciation.",
+              "Paralogs are only found in prokaryotes; orthologs are only in eukaryotes.",
+              "There is no sequence similarity between orthologs."
+            ],
+            "correct": 1,
+            "explanation": "Orthologs are genes in different species separated by speciation (usually same function). Paralogs are genes within the same species created by duplication (often new function)."
+          },
+          {
+            "question": "Calculate the maximum number of stereoisomers for a molecule with 3 chiral centers.",
+            "options": [
+              "3",
+              "6",
               "8",
-              "16",
-              ">50"
+              "9",
+              "12"
+            ],
+            "correct": 2,
+            "explanation": "The number of stereoisomers is 2^n, where n is the number of chiral centers. 2^3 = 8."
+          },
+          {
+            "question": "Why is the hydrolysis of ATP to ADP and Pi exergonic?",
+            "options": [
+              "The phosphate bonds in ATP are 'high energy' because they are unusually stable.",
+              "The reaction increases the charge repulsion between phosphate groups.",
+              "The products (ADP and Pi) are more stable due to resonance stabilization and electrostatic repulsion relief.",
+              "The entropy of the products is lower than the reactants.",
+              "ATP is a reduced molecule and oxidation releases energy."
+            ],
+            "correct": 2,
+            "explanation": "ATP hydrolysis relieves electrostatic repulsion and yields products (Pi) that are stabilized by resonance, making the reaction energetically favorable."
+          },
+          {
+            "question": "Enzymes are potent catalysts because they:",
+            "options": [
+              "Lower the equilibrium constant (Keq) of the reaction.",
+              "Increase the standard free energy change (ΔG°).",
+              "Lower the activation energy (ΔG‡) for the reaction.",
+              "Are consumed in the reaction to provide energy.",
+              "Drive endergonic reactions without coupling."
+            ],
+            "correct": 2,
+            "explanation": "Enzymes accelerate reaction rates by lowering the activation barrier (ΔG‡) required to reach the transition state; they do not change ΔG° or Keq."
+          },
+          {
+            "question": "What is the correct definition of catabolism?",
+            "options": [
+              "The energy-requiring synthesis of complex molecules from simple precursors.",
+              "The degradative phase of metabolism where organic nutrients are converted into smaller, simpler end products, releasing energy.",
+              "The maintenance of a constant internal cellular environment.",
+              "The random error generation during DNA replication.",
+              "The storage of genetic information in DNA."
+            ],
+            "correct": 1,
+            "explanation": "Catabolism is the breakdown of complex molecules to release energy and simple products."
+          },
+          {
+            "question": "Which molecule acts as the 'energy currency' linking catabolic and anabolic pathways?",
+            "options": [
+              "Glucose",
+              "Acetyl-CoA",
+              "ATP",
+              "DNA",
+              "Hemoglobin"
+            ],
+            "correct": 2,
+            "explanation": "ATP serves as the universal energy carrier, capturing energy from catabolism and supplying it to anabolism."
+          },
+          {
+            "question": "The endosymbiotic theory explains the origin of which organelles?",
+            "options": [
+              "Nucleus and Endoplasmic Reticulum",
+              "Golgi apparatus and Lysosomes",
+              "Mitochondria and Chloroplasts",
+              "Ribosomes and Peroxisomes",
+              "Cytoskeleton and Centrioles"
+            ],
+            "correct": 2,
+            "explanation": "Mitochondria and chloroplasts originated from bacteria engulfed by ancestral eukaryotes, evidenced by their double membranes and circular DNA."
+          },
+          {
+            "question": "In a double-stranded DNA molecule, the 'backbone' consists of:",
+            "options": [
+              "Alternating amino acid and peptide bonds.",
+              "Alternating phosphate and pentose sugar residues linked by phosphodiester bonds.",
+              "Complementary base pairs linked by hydrogen bonds.",
+              "Fatty acid chains linked by ester bonds.",
+              "Ribose sugars linked by glycosidic bonds."
+            ],
+            "correct": 1,
+            "explanation": "The covalent backbone of DNA is composed of alternating phosphate and deoxyribose sugar units linked by phosphodiester bonds."
+          },
+          {
+            "question": "Which of the following compounds is a cis isomer?",
+            "options": [
+              "Fumaric acid",
+              "Maleic acid",
+              "D-Alanine",
+              "L-Alanine",
+              "alpha-D-Glucose"
+            ],
+            "correct": 1,
+            "explanation": "Maleic acid is the cis-isomer of butenedioic acid (groups on same side), whereas fumaric acid is the trans-isomer."
+          },
+          {
+            "question": "The 'Standard Transformed Physical Constants' used in biochemistry (e.g., ΔG'°) differ from chemical standard states because:",
+            "options": [
+              "Biochemists calculate energy at pH 0.",
+              "Biochemical systems operate at pH 7.0 and [H2O] is considered constant (55.5 M).",
+              "Biochemical reactions never reach equilibrium.",
+              "Temperature in cells is always 37°C (310 K).",
+              "Pressure in cells is variable."
+            ],
+            "correct": 1,
+            "explanation": "Biochemical standard states assume pH 7.0 and constant [H2O], unlike chemical standard states which assume 1M concentrations (pH 0)."
+          },
+          {
+            "question": "The three-dimensional structure of macromolecules is formed and maintained primarily by:",
+            "options": [
+              "A large number of covalent bonds.",
+              "Noncovalent interactions (H-bonds, ionic, hydrophobic, van der Waals).",
+              "Disulfide bridges only.",
+              "Peptide bonds only.",
+              "The high temperature of the cell."
+            ],
+            "correct": 1,
+            "explanation": "While covalent bonds define the sequence, weak noncovalent interactions drive and stabilize the 3D folding."
+          },
+          {
+            "question": "Which element is NOT one of the four most abundant elements in living organisms (constituting >99% of mass)?",
+            "options": [
+              "Carbon",
+              "Hydrogen",
+              "Nitrogen",
+              "Oxygen",
+              "Phosphorus"
             ],
             "correct": 4,
-            "explanation": "By the time of implantation, approximately 7 days after ovulation, the fertilized ovum has developed to the blastocyst stage. At this stage, the blastocyst typically contains 100 or more cells, which have differentiated into an inner cell mass (designed to become the embryo) and trophoblast."
+            "explanation": "C, H, O, and N are the four most abundant. Phosphorus is essential but less abundant by mass than these four."
           },
           {
-            "question": "A boy-and-girl set of twins is beginning to undergo puberty at age 14. In the development of their reproductive systems, which of the following characteristics is similar for spermatogenesis and oogenesis?",
+            "question": "What is the primary function of the peroxisome?",
             "options": [
-              "Age at which meiosis begins",
-              "Amount of cytoplasm retained",
-              "DNA replication during meiosis",
-              "Length of prophase I",
-              "Transmission to fetus of mitochondrial DNA"
+              "ATP synthesis via respiration.",
+              "Protein synthesis.",
+              "Oxidation of long-chain fatty acids and detoxification of reactive oxygen species (H2O2).",
+              "Modification and sorting of proteins.",
+              "DNA replication."
             ],
             "correct": 2,
-            "explanation": "The actual process of manipulation of DNA and chromosomes during meiosis is very similar in spermatogenesis and oogenesis. Both processes involve DNA replication during meiosis. However, they differ in many other respects including the age at which meiosis begins, amount of cytoplasm retained, length of prophase I, and transmission of mitochondrial DNA."
+            "explanation": "Peroxisomes oxidize fatty acids and detoxify hydrogen peroxide via catalase."
           },
           {
-            "question": "A 55-year-old woman stopped menstruating approximately 3 months ago. Worried that she may be pregnant, she decides to have a pregnancy test. The result is negative. Which of the following series of test results will confirm that the woman is postmenopausal?",
+            "question": "The chirality of amino acids in proteins is almost exclusively:",
             "options": [
-              "Decreased LH, decreased FSH, increased estrogen",
-              "Decreased LH, increased FSH, decreased estrogen",
-              "Increased LH, decreased FSH, decreased estrogen",
-              "Increased LH, increased FSH, decreased estrogen",
-              "Increased LH, increased FSH, increased estrogen"
-            ],
-            "correct": 3,
-            "explanation": "During menopause, there is a loss of functioning follicles in the ovaries such that GnRH-stimulated LH and FSH secretion do not result in normal estrogen secretion. The low estrogen levels cannot inhibit gonadotropin secretion in a negative-feedback fashion, resulting in very high levels of LH and FSH."
-          },
-          {
-            "question": "To make extra money, a medical student participates in a study to determine hormone levels during the menstrual cycle. Her menarche was at age 13, and she has always had regular, 28-day cycles. When analyzing the results of her studies, it is correct to assume that the dotted line in the figure represents the cyclic secretion pattern of which hormone?",
-            "options": [
-              "Estrogen",
-              "FSH",
-              "Gonadotropin-releasing hormone",
-              "LH",
-              "Progesterone"
-            ],
-            "correct": 0,
-            "explanation": "Estrogen levels peak at the end of the follicular phase of the menstrual cycle, creating positive feedback to the hypothalamus and pituitary gland. This increases the number of GnRH spikes per 24 hours, causing a surge of both follicle-stimulating hormone (FSH) and luteinizing hormone (LH)."
-          },
-          
-          {
-            "question": "8. A 38-year-old man who has galactorrhea is found to have a prolactinoma. His physician treats him with bromocriptine, which eliminates the galactorrhea. The basis for the therapeutic action of bromocriptine is that it",
-            "options": [
-              "antagonizes the action of prolactin on the breast",
-              "enhances the action of prolactin on the breast",
-              "inhibits prolactin release from the anterior pituitary",
-              "inhibits prolactin release from the hypothalamus",
-              "enhances the action of dopamine on the anterior pituitary"
-            ],
-            "correct": 2,
-            "explanation": "Bromocriptine is a dopamine agonist. Prolactin secretion by the anterior pituitary is tonically inhibited by dopamine from the hypothalamus. Bromocriptine mimics dopamine, inhibiting prolactin release and reducing galactorrhea. It does not directly affect prolactin action on the breast."
-          },
-          {
-            "question": "10. Which of the following functions of the Sertoli cells mediates negative feedback control of follicle-stimulating hormone (FSH) secretion?",
-            "options": [
-              "Synthesis of inhibin",
-              "Synthesis of testosterone",
-              "Aromatization of testosterone",
-              "Maintenance of the blood-testes barrier"
-            ],
-            "correct": 0,
-            "explanation": "Sertoli cells synthesize inhibin in response to FSH stimulation. Inhibin acts on the anterior pituitary to inhibit FSH secretion via negative feedback, regulating spermatogenesis. Testosterone synthesis occurs in Leydig cells, and aromatization converts testosterone to estradiol in various tissues."
-          },
-
-          
-  {
-    "question": "A 15-year-old boy presents for his annual athletic physical. A thorough examination reveals unilateral cryptorchidism. The physician schedules a follow-up visit with the boy and his parents to discuss his recommendation for surgery to correct the defect because of his concerns of possible infertility in the future. Which of the following statements about spermatogenesis is correct?",
-    "options": [
-      "Mature spermatozoa are present at birth, but cannot be released until puberty is reached.",
-      "Spermatogenesis requires a temperature lower than internal body temperature.",
-      "Spermatogenesis requires continuous release of gonadotropin-releasing hormone (GRH).",
-      "Leydig cell secretion of testosterone requires follicle-stimulating hormone (FSH).",
-      "Luteinizing hormone (LH) acts directly on Sertoli cells to promote cell division."
-    ],
-    "correct": 1,
-    "explanation": "The temperature of the testes must be considerably below that of the internal body temperature for spermatogenesis to occur. The testes are normally maintained at a temperature of about 32°C, and are kept cool by a countercurrent heat exchange between the spermatic arteries and veins and by air circulating around the scrotum. The testes develop in the abdomen but normally descend into the scrotum during fetal development. In ~10% of newborn males, one or, less commonly, both testes remain in the abdominal cavity or inguinal canal. Although most (98%) of undescended testes (cryptorchidism) spontaneously descend by 1 year, and all but 0.3% spontaneously descend by puberty, early surgical treatment is recommended because abdominal temperatures can cause irreversible damage to the spermatogenic epithelium and the incidence of malignant tumors is higher in undesecnded than in scrotal testes. Maturation of spermatogonia, the primitive germ cells, into primary spermatocytes does not begin until adolescence. Throughout the reproductive life of the human male, 100 to 200 million sperm are produced daily. Of critical importance to the hormonal regulation of spermatogenesis are the pulsatile release of GRH and the subsequent involvement of FSH and LH at their target cells. FSH acts directly on the Sertoli cells of the seminiferous tubules to initiate mitotic and meiotic activity of germ cells. LH effects are thought to be mediated via stimulation of testosterone secretion by the Leydig cells."
-  },
-  {
-    "question": "A 32-year-old male taking chlorpromazine for his schizophrenia presents with diminished libido and decreased beard growth. His blood prolactin level of 75 µg/L confirms the presence of hyperprolactinemia. Which of the following statements about prolactin is correct?",
-    "options": [
-      "Normal adult serum levels of prolactin are much higher in women than men.",
-      "Prolactin causes milk ejection during suckling.",
-      "Prolactin inhibits the growth of breast tissue.",
-      "Prolactin inhibits gonadotropin releasing hormone secretion by the hypothalamus.",
-      "Prolactin inhibits gonadotropin secretion by the pituitary gland."
-    ],
-    "correct": 3,
-    "explanation": "Prolactin is a single-chain protein structurally homologous to growth hormone, which is secreted by the anterior pituitary and has the principal physiologic effects of lactation (i.e., milk production), decreased reproductive function, and suppressed sexual drive. Normal adult serum levels of prolactin are about the same or only slightly higher in females compared to males. Consistent with its role in lactogenesis, prolactin secretion increases during pregnancy. Suckling increases prolactin secretion, but milk ejection during suckling is due to oxytocin release. Prolactin inhibits reproductive function by inhibiting hypothalamic GnRH release and pituitary gonadotropin secretion. Hyperprolactinemia is the most common pituitary hormone hypersecretion syndrome in both males and females. Pregnancy and lactation are the most important physiological causes of hyperprolactinemia. Prolactin-secreting pituitary adenomas, hypothyroidism, and drug-induced inhibition or disruption of dopaminergic receptor function are other common causes of hyperprolactinemia."
-  },
-  {
-    "question": "Which of the following is the source of estrogen and progesterone during the first two months of pregnancy?",
-    "options": [
-      "Ovary",
-      "Placenta",
-      "Corpus luteum",
-      "Anterior pituitary",
-      "Posterior pituitary"
-    ],
-    "correct": 2,
-    "explanation": "During the first 2 months of pregnancy, estrogen and progesterone production is primarily the responsibility of the corpus luteum. The placenta serves as the source of the hormones during the remainder of pregnancy. Progesterone is essential to maintain placental implantation, inhibit uterine contractions, and suppress the maternal immune system response to fetal antigens. Estrogens serve to increase the size of the uterus, induce progesterone and oxytocin receptors, stimulate maternal hepatic protein secretion, and promote breast development. Estrid is the major estrogen produced during pregnancy. The production of estrogen and progesterone during gestation requires cooperation between the maternal, placental, and fetal compartments—the fetoplacental unit."
-  },
-  {
-    "question": "Which of the following is the source of estrogen and progesterone during the last 7 months of pregnancy?",
-    "options": [
-      "Ovary",
-      "Placenta",
-      "Corpus luteum",
-      "Anterior pituitary",
-      "Posterior pituitary"
-    ],
-    "correct": 1,
-    "explanation": "During the first 2 months of pregnancy, estrogen and progesterone production is primarily the responsibility of the corpus luteum. The placenta serves as the source of the hormones during the remainder of pregnancy. Progesterone is essential to maintain placental implantation, inhibit uterine contractions, and suppress the maternal immune system response to fetal antigens. Estrogens serve to increase the size of the uterus, induce progesterone and oxytocin receptors, stimulate maternal hepatic protein secretion, and promote breast development. Estrid is the major estrogen produced during pregnancy. The production of estrogen and progesterone during gestation requires cooperation between the maternal, placental, and fetal compartments—the fetoplacental unit."
-  },
-  {
-    "question": "In the graph below showing plasma hormone levels as a function of time, ovulation takes place at which of the lettered points on the time axis?",
-    "options": [
-      "A",
-      "B",
-      "C",
-      "D",
-      "E"
-    ],
-    "correct": 2,
-    "explanation": "Ovulation takes place just after the peak of the luteinizing hormone (LH) and estrogen curves, which occurs on approximately the fourteenth day of the menstrual cycle. Although FSH is primarily responsible for follicular maturation within the ovary, LH is necessary for final follicular maturation; without it, ovulation cannot take place. Both estrogen, following a sharp preovulatory rise in plasma concentration, and progesterone are secreted in abundance by the postovulatory corpus luteum."
-  },
-  {
-    "question": "The normal pattern of progesterone secretion during the menstrual cycle is exhibited by which of the following curves?",
-    "options": [
-      "A",
-      "B",
-      "C",
-      "D",
-      "E"
-    ],
-    "correct": 3,
-    "explanation": "There is a marked increase in progesterone secretion following ovulation. Almost all the progesterone secreted in nonpregnant women is secreted by the corpus luteum. Secretion of both progesterone and estrogen is controlled by luteinizing hormone (LH) released by the adenohypophysis, and LH release itself is under the direction of a hypothalamic releasing factor."
-  },
-  {
-    "question": "An 18-year-old emaciated female who has been on a strict diet regimen and training for a marathon presents with amenorrhea. Exogenous pulsatile administration of gonadotropin-releasing hormone (GnRH) restores ovulation and menses. Ovulation is caused by a sudden increase in the secretion of which of the following hormones?",
-    "options": [
-      "LH",
-      "FSH",
-      "GnRH",
-      "Estrogen",
-      "Progesterone"
-    ],
-    "correct": 0,
-    "explanation": "Ovulation is caused by a sudden increase in LH secretion. Both LH and FSH blood levels increase during the follicular phase of the menstrual cycle and reach peak blood levels prior to ovulation. Estrogen levels follow a similar pattern during the follicular phase. The physiological signal for ovulation is a surge in LH blood levels. Under the influence of LH, thecal and granulosa cells become the luteal cells of the corpus luteum. Progesterone production by the corpus luteum increases significantly. Estrogen levels also increase, but do not reach the levels achieved during the follicular phase. In anorexia nervosa, the regulation of virtually every endocrine system is altered, but the most striking changes occur in the reproductive system. Amenorrhea in anorexia nervosa is hypothalamic in origin and reflects decreased production of gonadotropin-releasing hormone (with low levels of LH and FSH) that may be due to a marked reduction in leptin associated with the decreased mass of adipose tissue. In up to 25% of patients, however, amenorrhea precedes significant weight loss."
-  },
-  {
-    "question": "In the following graph of changes in endometrial thickness during a normal 28-day menstrual cycle, the event designated A corresponds most closely to which of the following phases?",
-    "options": [
-      "The menstrual phase",
-      "The maturation of the corpus luteum",
-      "The early proliferative phase",
-      "The secretory phase",
-      "Ovulation"
-    ],
-    "correct": 2,
-    "explanation": "Ovulation occurs at point A on the graph. In response to estrogen secretion by the ovary, the endometrial lining of the uterus undergoes proliferation of both glandular epithelium and supporting stroma during the first 10 to 14 days of the menstrual cycle. Following ovulation, the glands begin to secrete mucus and the stroma undergoes pseudodecidual reaction in preparation for potential pregnancy. When ovulation is not followed by implantation of a fertilized ovum, progesterone secretion declines as the corpus luteum involutes, and the endometrial lining is almost completely shed during menses."
-  },
-  {
-    "question": "A couple presents at the Fertility Center concerned that they have not been able to conceive a child. The reproductive endocrinologist evaluates the wife to be certain that she is ovulating. Which of the following is an indication that ovulation has taken place?",
-    "options": [
-      "An increase in serum FSH levels",
-      "A drop in body temperature",
-      "An increase in serum LH levels",
-      "An increase in serum progesterone levels",
-      "An increase in serum estrogen levels"
-    ],
-    "correct": 3,
-    "explanation": "Progesterone production by the corpus luteum increases significantly at the time of ovulation. Progesterone affects the set point for thermoregulation and increases body temperature approximately 0.58°F. Both LH and FSH blood levels increase during the follicular phase of the menstrual cycle and reach peak blood levels prior to ovulation. Estrogen levels follow a similar pattern during the follicular phase. The physiologic signal for ovulation is a surge in LH blood levels. Under the influence of LH, thecal and granulosa cells become the luteal cells of the corpus luteum. Estrogen levels also increase, but do not reach the levels achieved during the follicular phase."
-  },
-  {
-    "question": "A 26-year-old male with Klinefelter's syndrome has seminiferous tubule dysgenesis. Which of the following is a function of Sertoli cells in the seminiferous tubules?",
-    "options": [
-      "Secretion of FSH into the tubular lumen",
-      "Secretion of testosterone into the tubular lumen",
-      "Maintenance of the blood-testis barrier",
-      "Synthesis of estrogen after puberty",
-      "Expression of surface LH receptors"
-    ],
-    "correct": 2,
-    "explanation": "The Sertoli cells rest on a basal lamina and form a layer around the periphery of the seminiferous tubules. They are attached to each other by specialized junctional complexes that limit the movement of fluid and solute molecules from the interstitial space and blood to the tubular lumen, and thus form a blood-testis barrier that provides an immunologically privileged environment for sperm maturation. Sertoli cells are intimately associated with developing spermatozoa and play a major role in germ-cell maturation. They secrete a variety of serum proteins and an androgen-binding protein into the tubular fluid in response to FSH and testosterone stimulation. Testosterone is synthesized and secreted by the interstitial Leydig cells. Estrogen is produced in small amounts by the Sertoli cells before puberty."
-  },
-  {
-    "question": "In a normal pregnancy, human chorionic gonadotropin (hCG) prevents the involution of the corpus luteum that normally occurs at the end of the menstrual cycle. Which of the curves shown below approximates the level of this hormone during pregnancy?",
-    "options": [
-      "A",
-      "B",
-      "C",
-      "D",
-      "E"
-    ],
-    "correct": 0,
-    "explanation": "Human chorionic gonadotropin (hCG) begins to appear in the maternal blood approximately 6 to 8 days following ovulation, upon implantation of the fertilized ovum in the endometrium. The secretion of hCG is essential to prevent involution of the corpus luteum and to stimulate secretion of progesterone and estrogens, which continues until the placenta becomes large enough to secrete sufficient quantities of those hormones. Following a peak at 7 to 9 weeks, hCG secretion gradually declines to a low level by 20 weeks gestation."
-  },
-  {
-    "question": "A woman presents to her obstetrician with concerns that she has had trouble breast feeding. She reports that her mother-in-law told her that alcohol would relax her and allow her milk to flow more readily, but it has not helped, even with drinking up to a bottle of wine a day. Which of the following hormones is involved in the ejection of milk from a lactating mammary gland?",
-    "options": [
-      "Growth hormone",
-      "FSH",
-      "LH",
-      "Prolactin",
-      "Oxytocin"
-    ],
-    "correct": 4,
-    "explanation": "A combined neurogenic and hormonal reflex involving oxytocin, a posterior pituitary hormone, causes the actual ejection (\"let-down\") of milk from breast tissue. Although estrogen and progesterone are essential for the physical development of breast tissue during pregnancy, both hormones inhibit milk secretion. Milk secretion is regulated by prolactin, a pituitary hormone secreted throughout pregnancy and after parturition. Adequate amounts of growth hormone are required to provide the nutrients that are essential for milk production by breast tissue. Suckling on breast tissue is the stimulus that leads to milk secretion. The secretion of oxytocin is increased by stressful stimuli, and inhibited by alcohol. Furthermore, alcohol is transferred from the mother's bloodstream into her breast milk and to the nursing infant, where it can have many deleterious effects."
-  },
-  {
-    "question": "Assuming a regular menstrual cycle of 28 to 30 days, ovulation would be expected to occur between which of the following days?",
-    "options": [
-      "Days 6 and 8",
-      "Days 10 and 12",
-      "Days 14 and 16",
-      "Days 18 and 20",
-      "Days 22 and 24"
-    ],
-    "correct": 2,
-    "explanation": "In a woman with a menstrual cycle of 28 to 30 days, ovulation generally occurs between days 14 and 16. The menstrual cycle is divided physiologically into three phases. The follicular phase begins with the onset of menses and lasts 9 to 13 days. The ovulatory phase lasts 1 to 3 days and culminates in ovulation. The luteal phase, the most constant phase of the cycle, lasts about 14 days and ends with the onset of menstrual bleeding."
-  },
-  {
-    "question": "An 18-year-old college woman is brought to the Emergency Department by her roommate after she was raped walking back to the dorm from the library at night. She requests the 'morning after pill' she has heard about to prevent pregnancy from the violation. She is given a postcoital contraceptive to prevent implantation and induce regression of the corpus luteum. Which of the following is correct regarding implantation of the zygote in the uterine wall?",
-    "options": [
-      "Precedes formation of the zona pellucida",
-      "Involves infiltration of the endometrium by the syncytiotrophoblast",
-      "Occurs 3 to 5 days after fertilization",
-      "Occurs when the embryo consists of approximately 128 cells",
-      "Is inhibited by secretion of progesterone from the corpus luteum"
-    ],
-    "correct": 1,
-    "explanation": "Implantation of a zygote into the uterine wall involves infiltration of the endometrium by the syncytiotrophoblast. Fertilization and early cleavage of the zygote occur in the fallopian tube in the human female. After approximately 3 days, the zygote enters the uterine cavity, where it undergoes additional divisions over a period of 3 to 4 days to form a morula of approximately 60 cells that is transformed into a blastocyst consisting of the yolk sac and embryo. Enzymatic digestion of the zona pellucida and infiltration of the endometrium by the syncytiotrophoblast, which forms the outer layer of the blastocyst, result in implantation of the blastocyst within the endometrium, where it erodes into maternal vessels. During these early stages of embryogenesis, the endometrium is primed by progesterone secreted by the corpus luteum in the ovary in response to pituitary gonadotropin secretion. After 10 to 15 days, placental gonadotropins maintain the corpus luteum until placental synthesis of progesterone is established at 6 to 8 weeks of gestation. Large dose estrogens, diethystilbesterol, and mifepristone (RU486) are examples of postcoital contraceptives."
-  },
-  {
-    "question": "A 22-year-old woman presents at the obstetrician/gynecologists office with complaints of painful menstruation accompanied by profuse menstrual flow. The doctor prescribes a low-dose oral contraceptive for the menorrhagia and ibuprofen for the dysmenorrhea. Biological actions of estrogens include a decrease in which of the following?",
-    "options": [
-      "Ovarian follicular growth",
-      "Duct growth in the breasts",
-      "Uterine smooth muscle motility",
-      "Serum cholesterol levels",
-      "Libido"
-    ],
-    "correct": 3,
-    "explanation": "Estrogens have a significant plasma cholesterol-lowering action. Estrogens stimulate the growth and development of the female reproductive tract, including the ovarian follicles, duct growth and enlargement of the breasts, and uterine smooth muscle and its motility, as well as its blood flow. Estrogen increases libido in humans."
-  },
-  {
-    "question": "Which of the following hormones is primarily responsible for development of ovarian follicles prior to ovulation?",
-    "options": [
-      "Chorionic gonadotropin",
-      "Estradiol",
-      "Follicle-stimulating hormone",
-      "Luteinizing hormone",
-      "Progesterone"
-    ],
-    "correct": 2,
-    "explanation": "Preparation of primordial ovarian follicles for ovulation is the primary function of FSH. FSH stimulates development of the theca and granulose cells of the follicles and promotes the synthesis of estrogens, including estradiol. LH promotes luteinization of the postovulatory follicle and stimulates progesterone secretion by the corpus luteum. During pregnancy, hCG is secreted by the placenta and continues progesterone production."
-  },
-  {
-    "question": "Which of the following statements about progesterone is true?",
-    "options": [
-      "Progesterone is secreted by the corpus luteum.",
-      "Progesterone secretion by the placenta increases at week 6 of gestation.",
-      "Plasma levels of progesterone increase during menses.",
-      "Plasma levels of progesterone remain constant after implantation.",
-      "Plasma levels of progesterone decrease after ovulation."
-    ],
-    "correct": 0,
-    "explanation": "Progesterone is secreted by the corpus luteum. The plasma level of progesterone is low during the menses and remains low until just prior to ovulation. It rises substantially after ovulation, owing to secretion by the corpus luteum. If fertilization occurs, the corpus luteum continues to secrete progesterone until the placenta develops and begins to produce large amounts of the hormone. The plasma level of progesterone rises steadily throughout pregnancy after the placenta takes over production at about 12 weeks of gestation."
-  },
-  {
-    "question": "Administration of estrogens in women will do which of the following?",
-    "options": [
-      "Limit the growth of ovarian follicles",
-      "Produce cyclic changes in the vagina and endometrium",
-      "Cause cervical mucus to become thicker and more acidic",
-      "Retard ductal proliferation in the breast",
-      "Decrease bone density"
-    ],
-    "correct": 1,
-    "explanation": "Estrogens cause the mucus secreted by the cervix to become thinner and more alkaline and to exhibit a fernlike pattern upon drying. The epithelium of the vagina is so sensitive to estrogen action that vaginal smear examination is used for a bioassay of the hormone. Estrogens can stimulate growth of ovarian follicles even in hypophysectomized women and also stimulate growth of the glandular epithelium of the endometrium, the smooth muscle of the uterus, and the uterine vascular system. Growth of the glandular elements of the breast is stimulated by progesterone; growth of the ductal elements is stimulated by estrogen."
-  },
-  {
-    "question": "A young couple presents with concerns that they have not been able to conceive a child. Physical examination of the 22-year-old husband reveals mild obesity, gynecomastia, and decreased facial and axillary hair. He has male genitalia, but penile length is decreased and the testes are small. Chromosomal analysis reveals the XXY pattern of Klinefelter's syndrome. Which of the following is the principal androgen responsible for transforming undifferentiated external genitalia in the fetus into male external genitalia?",
-    "options": [
-      "Testosterone",
-      "Androstenedione",
-      "Androsterone",
-      "Dihydrotestosterone",
-      "Müllerian-inhibiting substance"
-    ],
-    "correct": 3,
-    "explanation": "The testosterone metabolite dihydrotestosterone (DHT) induces the formation of the male external genitalia and male secondary sex characteristics. The fetus develops with bipotential internal and external genitalia that can develop (at about 40 days gestation) into either a testis or ovary, depending upon which genes are expressed. When the embryo has functional testes, male internal and external genitalia develop. The Leydig cells of the fetal testis secrete testosterone and the Sertoli cells secrete milleframinhibiting substance (MIS), also known as antimüllerian hormone (AMH), a member of the TGF-β growth factor family. The development of male internal genitalia depends upon testosterone, which stimulates growth and development of the Wolfflam ducts and MIS, which stimulates Müllerian duct regression. Individuals with Klinefelter's syndrome have an XXY chromosomal pattern, which is the most common sex chromosome disorder. These individuals have internal and external male genitalia, and testosterone secretion at puberty is often great enough for the development of male characteristics. However, the testes are small and the seminiferous tubules are abnormal, leading to infertility, ennuchoid proportions, gynecomastia, and poor virilization in phenotypic males. Mental retardation, developmental delay, or learning disabilities may be present. Patients with mosaic forms of Klinefelter's syndrome have less severe clinical features, larger testes, and may achieve fertility."
-  },
-  {
-    "question": "The action of which of the following hormones is prevented by inhibitors of microtubules?",
-    "options": [
-      "Oxytocin",
-      "Progesterone",
-      "Estradiol",
-      "Insulin",
-      "Prolactin"
-    ],
-    "correct": 4,
-    "explanation": "Prolactin causes milk secretion from the breast after estrogen and progesterone priming. Its effect on the breast involves increased action of mRNA and increased production of casein and lactalbumin, but the hormone action is not exerted on the cell nucleus. The actions of progesterone are prevented by inhibitors of microtubules. Oxytocin is a posterior pituitary peptide that promotes contraction of the myoepithelial cells surrounding breast ducts and causes expulsion of milk from lobular alveoli. Secretion of oxytocin is promoted by tactile stimulation of the breast by the nursing infant. It can also be elicited by psychic factors alone, such as the anticipation of nursing brought on by hearing the cry of the hungry infant. This anticipatory secretion of oxytocin may be experienced by the mother as a sensation of milk letdown in which milk appears at the nipple and may be forcibly ejected."
-  },
-  {
-    "question": "A 55-year-old woman is experiencing the signs and symptoms of menopause. Her gynecologist discusses with her the possibility of hormone replacement therapy, which has which of the following effects?",
-    "options": [
-      "Returns the menstrual cycle pattern to normal",
-      "Reduces the incidence of hot flashes",
-      "Reduces the risk of coronary artery disease and stroke",
-      "Reduces the risk of breast cancer",
-      "Increases the risk of osteoporosis"
-    ],
-    "correct": 1,
-    "explanation": "Because of the challenge of weighing the benefits versus risks for each individual, whether or not to use postmenopausal hormone therapy is one of the most complex health-care decisions facing women. In both observational studies and randomized trials, hormone therapy (either estrogen alone or estrogen/progestin) shows definite improvement in vasomotor symptoms (i.e., hot flashes and night sweats) and vaginal dryness, and in increasing bone density and reducing the risk of fractures. However, observational studies promoting the use of hormone therapy as a strategy to delay the postmenopausal onset of cardiovascular disease have recently been refuted by randomized trials showing an increased risk of coronary artery disease in stroke with hormone replacement therapy. Hormone therapy also increases the risk of endometrial cancer, breast cancer (with long-term use), venous thromboembolism, and gallbladder disease. Estrogen therapy does not restore a woman's ability to have children."
-  },
-  {
-    "question": "Which one of the following statements about semen is correct?",
-    "options": [
-      "The bulk of semen volume is contributed by the prostate gland",
-      "Semen prevents sperm capacitation",
-      "Semen is propelled out of the urethra by contraction of the smooth muscle comprising the bulbocavernosus muscle.",
-      "Semen activates sperm motility in the male reproductive tract",
-      "In the population, sperm counts in semen have increased over the last 20 years"
-    ],
-    "correct": 1,
-    "explanation": "Semen contains chemicals that prevent sperm capacitation, thereby prolonging the viability of the sperm. In addition, the high potassium content of the secretion inhibits sperm motility, further adding to the viability. Semen is secreted primarily by the seminiferous tubules and the alkaline nature of the secretion buffers the acidity of the vagina. In recent years, the average sperm count has decreased from approximately 100 million/mL of semen to 60 to 70 million/mL of semen. The bulbocavernosus muscle is a skeletal muscle."
-  },
-  {
-    "question": "Prolactin secretion is tonically suppressed in nonpregnant women by which of the following hormones?",
-    "options": [
-      "Estrogen",
-      "Progesterone",
-      "Dopamine",
-      "FSH",
-      "LH"
-    ],
-    "correct": 2,
-    "explanation": "In non-pregnant women, the secretion of prolactin is kept tonically suppressed by secretion of dopamine from the hypothalamus. Prolactin is the main hormone of lactation. Hormone levels increase early in pregnancy due to the influence of estrogens. However, lactation does not occur early in pregnancy because estrogens and progesterone inhibit the interaction of prolactin with receptors located on the alveolar cell membranes. At term, estrogen and progesterone levels decrease and milk production begins usually within 3 days of delivery."
-  },
-  {
-    "question": "A young couple has been trying to conceive a baby. The Medical Director of the Fertility Center has advised the woman to take her basal temperature readings on a daily basis and for them to have intercourse at the time the woman appears to be ovulating. Once conception takes place, which of the following must occur in order for the pregnancy to proceed uneventfully?",
-    "options": [
-      "The corpus luteum must secrete progesterone to sustain the endometrium.",
-      "The pituitary must secrete hCG to maintain the corpus luteum.",
-      "The pituitary must secrete prolactin to sustain the placenta.",
-      "The placenta must secrete FSH to maintain ovarian function.",
-      "The placenta must secrete LH to maintain ovarian function."
-    ],
-    "correct": 0,
-    "explanation": "The corpus luteum in the ovary at the time of fertilization fails to regress and instead enlarges in response to stimulation by human chorionic gonadotropin (hCG) secreted by the placenta. During the first trimester, placental production of hCG sustains the corpus luteum and ensures continued progesterone secretion by the corpus luteum, which is essential for development of the fetus."
-  },
-  {
-    "question": "A 32-year-old woman presents at her physician's office complaining of nausea and vomiting. The history reveals that her symptoms have been present for over a month and that they seem to be worse in the morning. A urine sample is taken and shows that the woman is pregnant. Physiological changes that occur during pregnancy include which of the following?",
-    "options": [
-      "Decreased production of cortisol and corticosterone",
-      "Increased conversion of glucose to glycogen",
-      "Hypercapnia",
-      "Increased hematocrit",
-      "Reduced circulating gonadotropin levels"
-    ],
-    "correct": 4,
-    "explanation": "During pregnancy, the maternal hypothalamic-pituitary axis is suppressed due to high circulating levels of sex hormones. This leads to reduced gonadotropin levels, and, thus, ovulation does not occur. Additionally, hyperventilation leads to decreased arterial carbon dioxide levels. Increased water retention leads to decreased hematocrit. Maternal use of glucose declines and, as a result, glu-concogenesis increases. Plasma cortisol levels increase as the result of progesterone-mediated displacement from transcortin and its subsequent binding to globulin."
-  },
-  {
-    "question": "A 35-year-old woman presents at her obstetrician/gynecologist's office for her annual well-woman examination. She reports that she may have 'a touch of the flu' because she has been tired and nauseated the past week and also has had fleeting episodes of lower abdominal pain. She wasn't sure when her last menstrual period started but after looking at a calendar, realized that it had been 38 days. A right adnexal mass was palpated on routine pelvic examination and subsequently observed on ultrasound. Urinalysis confirmed that the woman was pregnant and serum levels of the tumor marker CA-125 were elevated. The gynecologist informed the woman that she may have to have her ovary removed, but that they need to wait another week or two to do the laparotomy in order to protect her fetus. Ovarectomy before the sixth week of pregnancy leads to abortion, but thereafter has no effect on pregnancy because the placenta secretes adequate amounts of which of the following hormones?",
-    "options": [
-      "Estrogens and progesterone",
-      "Estrogen and relaxin",
-      "Progesterone and human chorionic gonadotropin (hCG)",
-      "Human chorionic somatomammotropin (hCS) and hCG",
-      "Growth hormone releasing hormone (GnRH) and corticotropin releasing hormone (CRH)"
-    ],
-    "correct": 0,
-    "explanation": "The placenta produces all of the hormones listed in the five answers at various times during pregnancy but it is the production of progesterone and estrogens (estradiol and estriol) from maternal and fetal precursors, which take over the function of the corpus luteum after the sixth week of pregnancy."
-  },
-
-
-
-          {
-            "question": "14. Which of the following explains the suppression of lactation during pregnancy?",
-            "options": [
-              "Blood prolactin levels are too low for milk production to occur",
-              "Human placental lactogen levels are too low for milk production to occur",
-              "The fetal adrenal gland does not produce sufficient estriol",
-              "Blood levels of estrogen and progesterone are high",
-              "The maternal anterior pituitary is suppressed"
-            ],
-            "correct": 3,
-            "explanation": "During pregnancy, high levels of estrogen and progesterone inhibit the action of prolactin on the breast, preventing lactation. After delivery, these hormone levels drop, allowing prolactin to promote milk production. Prolactin levels are actually high during pregnancy but are ineffective due to steroid hormone opposition."
-          },
-          {
-            "question": "15. Which step in steroid hormone biosynthesis, if inhibited, blocks the production of all androgenic compounds but does not block the production of glucocorticoids?",
-            "options": [
-              "Cholesterol → pregnenolone",
-              "Progesterone → 11-deoxycorticosterone",
-              "17-Hydroxypregnenolone → dehydroepiandrosterone",
-              "Testosterone → estradiol",
-              "Testosterone → dihydrotestosterone"
-            ],
-            "correct": 2,
-            "explanation": "The conversion of 17-hydroxypregnenolone to dehydroepiandrosterone (DHEA) is catalyzed by 17,20-lyase. Inhibiting this step blocks androgen synthesis (e.g., DHEA, androstenedione) but does not affect glucocorticoid production, which proceeds via other pathways."
-          },
-          {
-            "question": "23. The source of estrogen during the second and third trimesters of pregnancy is the",
-            "options": [
-              "corpus luteum",
-              "maternal ovaries",
-              "fetal ovaries",
-              "placenta",
-              "maternal ovaries and fetal adrenal gland",
-              "maternal adrenal gland and fetal liver",
-              "fetal adrenal gland, fetal liver, and placenta"
-            ],
-            "correct": 6,
-            "explanation": "During the second and third trimesters, estrogen is produced by the fetoplacental unit. The fetal adrenal gland synthesizes dehydroepiandrosterone sulfate (DHEA-S), which is hydroxylated in the fetal liver and then aromatized to estrogen in the placenta. The corpus luteum is the primary source in the first trimester."
-          },
-          {
-            "question": "25. Secretion of oxytocin is increased by",
-            "options": [
-              "milk ejection",
-              "dilation of the cervix",
-              "increased prolactin levels",
-              "increased extracellular fluid (ECF) volume",
-              "increased serum osmolarity"
+              "D-isomers",
+              "L-isomers",
+              "A racemic mixture (50/50 D and L)",
+              "Cis-isomers",
+              "R-isomers"
             ],
             "correct": 1,
-            "explanation": "Oxytocin secretion is stimulated by dilation of the cervix during labor (Ferguson reflex) and by suckling during lactation. Milk ejection is a result of oxytocin action, not a cause. Prolactin stimulates milk production but not oxytocin release. ECF volume and osmolarity affect ADH, not oxytocin."
+            "explanation": "Proteins are synthesized exclusively from L-amino acids."
           },
           {
-            "question": "29. Which step in steroid hormone biosynthesis occurs in the accessory sex target tissues of the male and is catalyzed by 5α-reductase?",
+            "question": "Which of the following molecules contains a phosphoanhydride bond?",
             "options": [
-              "Cholesterol → pregnenolone",
-              "Progesterone → 11-deoxycorticosterone",
-              "17-Hydroxypregnenolone → dehydroepiandrosterone",
-              "Testosterone → estradiol",
-              "Testosterone → dihydrotestosterone"
+              "Glucose-6-phosphate",
+              "AMP",
+              "ATP",
+              "DNA",
+              "Phosphatidylcholine"
+            ],
+            "correct": 2,
+            "explanation": "ATP contains phosphoanhydride bonds between its phosphate groups. The others typically contain phosphoester bonds."
+          },
+          {
+            "question": "The concept of 'Information' in a cell is chemically equivalent to:",
+            "options": [
+              "Positive enthalpy.",
+              "Negative entropy (order).",
+              "High temperature.",
+              "Chemical equilibrium.",
+              "Kinetic stability."
+            ],
+            "correct": 1,
+            "explanation": "Information represents high order, which corresponds to low entropy (or negative entropy)."
+          },
+          {
+            "question": "Which term best describes the evolutionary process where a gene is transferred from a bacteria to a eukaryote (as in the origin of mitochondria)?",
+            "options": [
+              "Vertical gene transfer",
+              "Horizontal gene transfer",
+              "Gene duplication",
+              "Homologous recombination",
+              "Mutation"
+            ],
+            "correct": 1,
+            "explanation": "Horizontal gene transfer is the movement of genetic material between organisms other than parent-to-offspring."
+          },
+          {
+            "question": "An L-amino acid is dissolved in water. Which of the following statements strictly defines its 'L' configuration?",
+            "options": [
+              "It rotates plane-polarized light to the left (levorotatory).",
+              "It has the same absolute configuration as L-glyceraldehyde.",
+              "The amino group is on the left in a Fischer projection when the carboxyl group is at the top.",
+              "It contains a negatively charged side chain.",
+              "It is the only configuration found in bacterial cell walls."
+            ],
+            "correct": 1,
+            "explanation": "The 'L' and 'D' designations in biochemistry refer to the **absolute configuration** relative to the reference molecule, glyceraldehyde. An L-amino acid matches the stereochemistry of L-glyceraldehyde. Crucially, this does **not** correlate with the direction of rotation of plane-polarized light (levorotatory vs. dextrorotatory); an L-amino acid can rotate light in either direction. In proteins, amino acids are exclusively L-isomers, defined structurally by the 'CORN' rule (looking down the H-Cα bond, the groups CO-R-N read counter-clockwise)."
+          },
+          {
+            "question": "At a pH of 7.4, the side chain of Histidine (pKa ≈ 6.0) exists primarily in which state, and why is this physiologically significant?",
+            "options": [
+              "Fully protonated (+1); it binds DNA.",
+              "Fully deprotonated (0); it serves as a nucleophile.",
+              "Mostly deprotonated (neutral), but close enough to pKa to buffer.",
+              "Negatively charged; it repels phosphate groups.",
+              "Zwitterionic; it stabilizes alpha-helices."
+            ],
+            "correct": 2,
+            "explanation": "Using the Henderson-Hasselbalch equation ($pH = pKa + \\log([A^-]/[HA])$), at pH 7.4, the ratio of unprotonated (neutral) to protonated (+1) Histidine is roughly 10:1. Although the neutral form predominates, the pKa (6.0) is close enough to physiological pH (7.4) that Histidine side chains can easily accept or release protons in response to small pH changes. This makes Histidine the **only** amino acid side chain capable of serving as an effective **physiological buffer** near neutral pH, and it plays a critical role in the active sites of enzymes (e.g., serine proteases) and in the Bohr effect of hemoglobin."
+          },
+          {
+            "question": "A researcher performs Size-Exclusion Chromatography (Gel Filtration) on a mixture containing Protein A (150 kDa), Protein B (60 kDa), and Protein C (10 kDa). In what order will they elute?",
+            "options": [
+              "C, B, A",
+              "B, A, C",
+              "A, B, C",
+              "All at the same time.",
+              "A and B together, then C."
+            ],
+            "correct": 2,
+            "explanation": "Size-Exclusion Chromatography separates molecules based on their hydrodynamic radius (size). The stationary phase consists of porous beads. Small molecules (Protein C, 10 kDa) enter the pores, traversing a longer, tortuous path through the column. Large molecules (Protein A, 150 kDa) are too large to enter the pores ('excluded') and flow rapidly around the beads in the void volume. Intermediate molecules (Protein B, 60 kDa) partially enter. Therefore, the elution order is **Largest to Smallest**: A → B → C."
+          },
+          {
+            "question": "During SDS-PAGE, proteins are separated primarily based on mass. What is the specific function of Sodium Dodecyl Sulfate (SDS) in this process?",
+            "options": [
+              "It cleaves disulfide bonds.",
+              "It creates a pH gradient in the gel.",
+              "It denatures the protein and imparts a uniform negative charge relative to mass.",
+              "It stains the protein blue for visualization.",
+              "It polymerizes the acrylamide gel."
+            ],
+            "correct": 2,
+            "explanation": "SDS is an anionic detergent. It serves two key functions: 1) It disrupts non-covalent interactions (hydrophobic, H-bonds), causing the protein to unfold (denature) into a linear rod-like shape. 2) It binds to the polypeptide backbone at a constant ratio (approx. 1.4 g SDS per 1 g protein), imparting a massive **negative charge** that overwhelms the protein's intrinsic charge. This ensures that the charge-to-mass ratio is virtually identical for all proteins, making the rate of migration through the gel dependent **solely on molecular weight** (size), not shape or native charge."
+          },
+          {
+            "question": "Which reagent is required in the Edman Degradation method to label and remove the N-terminal amino acid?",
+            "options": [
+              "Phenylisothiocyanate (PITC)",
+              "Fluorodinitrobenzene (Sanger's reagent)",
+              "Cyanogen bromide",
+              "Trypsin",
+              "Urea"
+            ],
+            "correct": 0,
+            "explanation": "The Edman Degradation uses **Phenylisothiocyanate (PITC)**. Under mildly alkaline conditions, PITC reacts specifically with the free alpha-amino group at the N-terminus to form a phenylthiocarbamoyl derivative. Under acidic conditions, this terminal residue is cleaved off as a thiazolinone derivative (rearranged to Phenylthiohydantoin, PTH-amino acid) without hydrolyzing the rest of the peptide bonds. This allows for the sequential identification of amino acids from the N-terminus, one by one. Sanger's reagent (FDNB) marks the N-terminus but hydrolyzes the whole protein, preventing sequential sequencing."
+          },
+          {
+            "question": "The peptide bond has partial double-bond character. Which of the following is a direct structural consequence of this property?",
+            "options": [
+              "The peptide bond can rotate freely.",
+              "The peptide group (6 atoms) is planar and rigid.",
+              "The bond is extremely unstable and hydrolyzes spontaneously.",
+              "It allows for branching of the polypeptide chain.",
+              "It prevents hydrogen bonding."
+            ],
+            "correct": 1,
+            "explanation": "The peptide bond (amide linkage) exhibits **resonance** between the carbonyl oxygen and the amide nitrogen. This delocalization of electrons gives the C–N bond roughly 40% double-bond character. As a result, rotation around the C–N bond is restricted. This constrains the six atoms of the peptide group (Cα, C, O, N, H, Cα) to lie in a single, rigid **plane**. Rotation in the polypeptide backbone is restricted to the N–Cα (phi, φ) and Cα–C (psi, ψ) bonds, significantly limiting the number of possible folding conformations."
+          },
+          {
+            "question": "In an alpha-helix, the hydrogen bonds that stabilize the structure occur between:",
+            "options": [
+              "The side chains (R-groups) of adjacent amino acids.",
+              "The carbonyl oxygen of residue (n) and the amide nitrogen of residue (n+4).",
+              "The carbonyl oxygen of residue (n) and the amide nitrogen of residue (n+3).",
+              "The peptide backbone atoms of parallel strands.",
+              "Cysteine residues forming disulfide bridges."
+            ],
+            "correct": 1,
+            "explanation": "The alpha-helix is a secondary structure stabilized exclusively by intrachain hydrogen bonds within the backbone. The carbonyl oxygen ($C=O$) of amino acid residue $n$ accepts a hydrogen bond from the amide nitrogen ($N-H$) of residue $n+4$. This pattern repeats exactly, creating a stable, right-handed spiral where the peptide bonds form the inner core and the side chains (R-groups) project outward to avoid steric hindrance. Note: The $n$ to $n+3$ pattern describes a $3_{10}$ helix, which is rarer."
+          },
+          {
+            "question": "Which two amino acids are known as 'helix breakers' and are frequently found in beta-turns but rarely in alpha-helices?",
+            "options": [
+              "Alanine and Leucine",
+              "Tyrosine and Tryptophan",
+              "Proline and Glycine",
+              "Glutamate and Lysine",
+              "Methionine and Valine"
+            ],
+            "correct": 2,
+            "explanation": "**Proline** is a helix breaker because its nitrogen is part of a rigid ring structure (imino acid) and lacks the amide hydrogen required for the alpha-helical H-bond network; additionally, its ring introduces a destabilizing kink. **Glycine** is a helix breaker because its tiny side chain (H) confers too much conformational flexibility (high entropy), making it energetically expensive to constrain into a rigid helix. However, these specific properties make Proline (rigid kink) and Glycine (flexible turn) ideal for **beta-turns** (reverse turns), where the chain direction reverses over just four residues."
+          },
+          {
+            "question": "Scurvy is caused by a defect in collagen synthesis. The biochemical root of the problem is the failure of which enzyme reaction?",
+            "options": [
+              "Glycosylation of lysine residues.",
+              "Hydroxylation of proline and lysine residues.",
+              "Formation of peptide bonds.",
+              "Cleavage of procollagen signal peptides.",
+              "Oxidation of cysteine."
+            ],
+            "correct": 1,
+            "explanation": "Collagen stability relies on the presence of **Hydroxyproline** and **Hydroxylysine**. Prolyl hydroxylase and lysyl hydroxylase catalyze the post-translational addition of hydroxyl groups to these residues. These enzymes require **Vitamin C (ascorbate)** as a cofactor to keep the active site iron in the reduced ($Fe^{2+}$) state. In Vitamin C deficiency (Scurvy), hydroxylation fails. Without hydroxyproline, the collagen triple helix cannot form sufficient inter-strand hydrogen bonds, lowering its melting temperature below physiological body temperature, leading to tissue degradation."
+          },
+          {
+            "question": "A protein has a Kd (dissociation constant) of 1 nM for Ligand X and 1 µM for Ligand Y. Which statement is correct?",
+            "options": [
+              "The protein binds Ligand Y with higher affinity.",
+              "The protein binds Ligand X with higher affinity.",
+              "The protein binds both ligands with equal affinity.",
+              "The Vmax for Ligand X is higher.",
+              "Ligand X is an irreversible inhibitor."
+            ],
+            "correct": 1,
+            "explanation": "The dissociation constant, **Kd**, represents the concentration of ligand at which 50% of the protein binding sites are occupied. It is an inverse measure of affinity: a **lower Kd** indicates **higher affinity** (because it takes less ligand to saturate the protein). Since 1 nM ($10^{-9}$ M) is much lower than 1 µM ($10^{-6}$ M), the protein binds Ligand X much more tightly than Ligand Y."
+          },
+          {
+            "question": "In the heme prosthetic group, the central Iron (Fe) ion is held in the porphyrin ring by coordination bonds to:",
+            "options": [
+              "Four carbon atoms.",
+              "Four nitrogen atoms of the pyrrole rings.",
+              "Two histidine residues only.",
+              "Four oxygen atoms.",
+              "Sulfur atoms of cysteine."
+            ],
+            "correct": 1,
+            "explanation": "The **Heme** group consists of a protoporphyrin IX ring with a central iron atom. The iron is hexacoordinate (forms 6 bonds). Four of these bonds are planar coordination bonds to the **four nitrogen atoms** of the pyrrole rings in the porphyrin. The 5th and 6th coordination sites are perpendicular to the ring; in hemoglobin/myoglobin, the 5th is occupied by the Proximal Histidine (His F8), and the 6th is available for $O_2$ binding."
+          },
+          {
+            "question": "Why does Carbon Monoxide (CO) bind to free heme 20,000 times stronger than O2, but only 200 times stronger in Myoglobin?",
+            "options": [
+              "The distal histidine forces CO into a bent angle, reducing its orbital overlap.",
+              "Myoglobin contains a different type of heme.",
+              "O2 binds covalently, while CO binds non-covalently.",
+              "The proximal histidine repels CO.",
+              "CO is converted to CO2 in the heme pocket."
+            ],
+            "correct": 0,
+            "explanation": "In free heme, the preferred binding geometry for CO is linear ($180^\\circ$ perpendicular to the heme plane), which allows for maximum orbital overlap and extremely high affinity. In Myoglobin and Hemoglobin, the **Distal Histidine (His E7)** sterically hinders this linear arrangement, forcing CO to bind at a bent angle (approx. $120^\\circ$). This steric clash significantly weakens the CO-heme bond. Conversely, $O_2$ naturally binds in a bent conformation, so the distal histidine stabilizes $O_2$ via hydrogen bonding rather than hindering it. This mechanism is crucial to prevent endogenous CO (from heme breakdown) from poisoning all oxygen carriers."
+          },
+          {
+            "question": "The Bohr effect describes the regulation of Hemoglobin binding. Which condition stabilizes the T-state (Deoxy-Hb) and promotes O2 release?",
+            "options": [
+              "High pH (Alkalosis).",
+              "Low CO2 concentration.",
+              "High H+ concentration (Low pH) and High CO2.",
+              "Low temperature.",
+              "Absence of 2,3-BPG."
+            ],
+            "correct": 2,
+            "explanation": "The **Bohr Effect** ensures oxygen is delivered to active tissues. Active metabolism produces $CO_2$ and $H^+$ (acid). An increased concentration of protons ($H^+$) leads to the protonation of specific residues (like His HC3). This positive charge forms a salt bridge with Aspartate FG1, which structurally stabilizes the **T-state** (tense, low affinity). Similarly, $CO_2$ binds to the N-terminus to form carbamates, also stabilizing the T-state. Thus, low pH and high $CO_2$ reduce $O_2$ affinity, promoting release."
+          },
+          {
+            "question": "Hemoglobin exhibits positive cooperativity. Structurally, this is due to:",
+            "options": [
+              "The iron atom staying strictly in the plane of the heme.",
+              "Transition from the low-affinity T-state to the high-affinity R-state upon O2 binding.",
+              "The dissociation of the tetramer into monomers.",
+              "The binding of 2,3-BPG to the heme iron.",
+              "Glycosylation of the beta subunits."
+            ],
+            "correct": 1,
+            "explanation": "Positive cooperativity (sigmoidal binding curve) arises from the quaternary structural change. In Deoxy-Hb (T-state), the iron is puckered out of the heme plane. When $O_2$ binds the first subunit, it pulls the iron into the plane. This movement pulls the Proximal Histidine, which tugs on the F-helix. This mechanical force breaks the salt bridges at the subunit interfaces, triggering the entire tetramer to snap into the **R-state (Relaxed)**. The R-state has a much higher affinity for oxygen, making it easier for the remaining subunits to bind $O_2$."
+          },
+          {
+            "question": "Which interaction is primarily responsible for the 'Sickling' of red blood cells in Sickle Cell Anemia?",
+            "options": [
+              "Disulfide bond formation between Beta subunits.",
+              "Hydrophobic interaction between Valine 6 of one HbS molecule and a hydrophobic patch on a deoxy-HbS neighbor.",
+              "Ionic attraction between Glutamate and Lysine.",
+              "Covalent cross-linking by glucose.",
+              "Loss of heme groups."
+            ],
+            "correct": 1,
+            "explanation": "The specific mutation in HbS is **Glu6Val** in the beta-chain. Glutamate is polar; Valine is hydrophobic. This mutation creates a hydrophobic 'sticky patch' on the surface of the protein. Crucially, a complementary hydrophobic pocket is exposed on the beta-subunit of *another* Hb molecule only when it is in the **Deoxygenated (T) state**. This allows HbS molecules to polymerize into long, insoluble fibers via the **Hydrophobic Effect**, distorting the cell. Oxygenated HbS (R-state) buries this pocket and does not polymerize."
+          },
+          {
+            "question": "How does 2,3-Bisphosphoglycerate (2,3-BPG) regulate Hemoglobin?",
+            "options": [
+              "It binds to the active site iron, competing with Oxygen.",
+              "It binds to the central cavity of the tetramer, stabilizing the T-state.",
+              "It binds to the R-state, increasing affinity for Oxygen.",
+              "It oxidizes Fe2+ to Fe3+.",
+              "It causes dissociation of alpha and beta dimers."
+            ],
+            "correct": 1,
+            "explanation": "2,3-BPG is a highly negative molecule produced in erythrocytes. It binds in the positively charged central cavity formed between the two beta-subunits. However, this cavity is only wide enough to accept BPG when Hemoglobin is in the **T-state** (Deoxy). By binding and cross-linking the beta-subunits, 2,3-BPG effectively 'locks' the hemoglobin in the T-state, decreasing its affinity for oxygen. This is essential for unloading oxygen at the tissues; without BPG, Hb would act like Myoglobin and trap oxygen."
+          },
+          {
+            "question": "Which chromatography technique would best separate a protein with a net positive charge from a protein with a net negative charge?",
+            "options": [
+              "Gel Filtration Chromatography",
+              "Affinity Chromatography",
+              "Ion-Exchange Chromatography",
+              "Dialysis",
+              "HPLC (Reverse Phase)"
+            ],
+            "correct": 2,
+            "explanation": "**Ion-Exchange Chromatography** exploits differences in net surface charge at a given pH. The column is packed with charged beads. **Cation-exchange** resins (negatively charged beads) bind positively charged proteins, while negatively charged proteins are repelled and flow through. **Anion-exchange** resins (positively charged beads) bind negatively charged proteins. The bound proteins are then eluted by changing the pH or increasing salt concentration."
+          },
+          {
+            "question": "In the secondary structure of a protein, Beta-sheets are stabilized by:",
+            "options": [
+              "Hydrogen bonds between peptide backbones of adjacent strands.",
+              "Hydrophobic interactions between stacked aromatic rings.",
+              "Disulfide bonds between cysteine residues.",
+              "Ionic bonds between R-groups.",
+              "Van der Waals forces only."
+            ],
+            "correct": 0,
+            "explanation": "**Beta-sheets**  consist of extended polypeptide strands running alongside each other. They are stabilized by **inter-strand hydrogen bonds** formed between the carbonyl oxygen ($C=O$) of one strand and the amide hydrogen ($N-H$) of the adjacent strand. This differs from alpha-helices, where the H-bonds are intra-strand (within the same segment). The sheets can be parallel (strands run same direction) or anti-parallel (opposite direction), with anti-parallel sheets generally having more stable, linear H-bonds."
+          },
+          {
+            "question": "Carbon dioxide (CO2) is transported on Hemoglobin primarily as:",
+            "options": [
+              "Carboxyhemoglobin (bound to Heme).",
+              "Carbamate (Carbaminohemoglobin) bound to N-terminal amino groups.",
+              "Bicarbonate dissolved in the center of the protein.",
+              "Carbonic acid bound to Histidine.",
+              "CO2 does not interact with Hemoglobin."
+            ],
+            "correct": 1,
+            "explanation": "While 70-80% of $CO_2$ is transported as bicarbonate in the plasma, about 15-20% is transported bound to Hemoglobin. It does **not** bind the heme iron (that is Carbon Monoxide). Instead, $CO_2$ reacts reversibly with the free **alpha-amino groups** at the N-terminus of the globin chains to form a **Carbamate** group ($Hb-NH-COO^-$). This reaction releases a proton ($H^+$), contributing to the Bohr effect, and the negative charge of the carbamate forms salt bridges that stabilize the T-state (promoting $O_2$ release)."
+          },
+          {
+            "question": "What is the primary driver of Tertiary structure formation in globular proteins?",
+            "options": [
+              "Disulfide bonds.",
+              "Hydrogen bonds.",
+              "The Hydrophobic Effect.",
+              "Ionic Salt Bridges.",
+              "Chaperone proteins."
+            ],
+            "correct": 2,
+            "explanation": "While H-bonds, ionic interactions, and disulfides stabilize the folded structure, the **Hydrophobic Effect** is the primary thermodynamic driving force for the folding of water-soluble globular proteins. The polypeptide chain folds spontaneously to bury non-polar (hydrophobic) side chains in the interior, away from water. This minimizes the thermodynamically unfavorable ordering of water molecules (clathrate cages) around hydrophobic groups, thus maximizing the entropy of the solvent (water)."
+          },
+          {
+            "question": "Cyanide (CN-) is toxic because it binds with high affinity to:",
+            "options": [
+              "The Fe2+ in Hemoglobin, preventing O2 transport.",
+              "The Fe3+ in Methemoglobin.",
+              "The Fe3+ in Cytochrome c Oxidase (Complex IV).",
+              "The Magnesium in ATP synthase.",
+              "The SH groups of Glycolytic enzymes."
+            ],
+            "correct": 2,
+            "explanation": "Cyanide ($CN^-$) is a potent metabolic poison. While it can bind to Methemoglobin ($Fe^{3+}$), its lethality results from binding to the **Ferric ($Fe^{3+}$) iron** in the heme $a_3$ center of **Cytochrome c Oxidase** (Complex IV of the electron transport chain). This effectively halts electron transport and ATP production, causing rapid cellular asphyxiation despite the presence of oxygen."
+          },
+          {
+            "question": "Myoglobin exhibits a hyperbolic oxygen binding curve, whereas Hemoglobin exhibits a sigmoidal curve. What does the hyperbolic curve indicate?",
+            "options": [
+              "Myoglobin has multiple subunits interacting cooperatively.",
+              "Myoglobin binds oxygen with increasing affinity as concentration rises.",
+              "Myoglobin has a constant high affinity and does not release O2 easily until pO2 is very low.",
+              "Myoglobin is an allosteric protein.",
+              "Myoglobin is defective."
+            ],
+            "correct": 2,
+            "explanation": "Myoglobin is a monomer and lacks quaternary structure, so it cannot show cooperativity. Its **hyperbolic binding curve** indicates simple saturation kinetics with a very low $P_{50}$ (approx. 2.8 torr). This means Myoglobin has a very **high affinity** for oxygen and becomes saturated at low pressures. It will only release significant amounts of oxygen when the cellular $pO_2$ drops extremely low (e.g., in exercising muscle), making it an ideal oxygen **storage** protein, but a poor transport protein compared to sigmoidal Hemoglobin."
+          },
+          {
+            "question": "Edman degradation is limited because:",
+            "options": [
+              "It cannot sequence peptides longer than ~50 amino acids efficiently.",
+              "It can only sequence from the C-terminus.",
+              "It destroys the peptide after one cycle.",
+              "It cannot identify Cysteine.",
+              "It requires radioactive labeling."
+            ],
+            "correct": 0,
+            "explanation": "Edman degradation relies on a chemical reaction cycle (coupling, cleavage, conversion). The efficiency of each step is high (approx. 98-99%), but not 100%. As cycles progress, the accumulation of incomplete reactions ('noise') increases. By about 50-70 cycles (amino acids), the signal-to-noise ratio becomes too low to accurately identify the next amino acid. Therefore, large proteins must be cleaved into smaller fragments (using proteases like Trypsin) before sequencing."
+          },
+          {
+            "question": "An amino acid with a non-polar, aliphatic R group is:",
+            "options": [
+              "Serine",
+              "Aspartate",
+              "Leucine",
+              "Tyrosine",
+              "Lysine"
+            ],
+            "correct": 2,
+            "explanation": "Amino acids are classified by side chain properties. **Leucine** (along with Glycine, Alanine, Valine, Isoleucine, Proline, and Methionine) has a non-polar, aliphatic hydrocarbon side chain. These residues are hydrophobic and are typically found in the core of globular proteins. Serine is polar (OH), Aspartate is acidic (COO-), Lysine is basic (NH3+), and Tyrosine is aromatic/polar."
+          },
+          {
+            "question": "Which bond restricts the rotation of the polypeptide backbone, described by the Phi (φ) and Psi (ψ) angles in a Ramachandran plot?",
+            "options": [
+              "The N-Calpha bond",
+              "The Calpha-C (carbonyl) bond",
+              "The C-N (peptide) bond",
+              "The Disulfide bond",
+              "The Hydrogen bond"
+            ],
+            "correct": 2,
+            "explanation": "A **Ramachandran plot** visualizes the allowable combinations of **Phi ($\phi$)** and **Psi ($\psi$)** angles. Phi is the rotation around the $N-C_{\\alpha}$ bond, and Psi is the rotation around the $C_{\\alpha}-C$ bond. The third bond in the backbone repeat, the **Peptide bond ($C-N$)**, has partial double-bond character and is planar/rigid (omega angle $\\approx 180^{\\circ}$), so it does **not** rotate freely. The plot reveals that steric collisions limit $\phi$ and $\psi$ to specific regions corresponding to alpha-helices and beta-sheets."
+          },
+          {
+            "question": "Collagen Type I is composed of:",
+            "options": [
+              "A single alpha-helix.",
+              "Two alpha-helices twisted together.",
+              "Three left-handed helices twisted into a right-handed superhelix.",
+              "Four beta-sheets stacked.",
+              "A polymer of glucose."
+            ],
+            "correct": 2,
+            "explanation": "Collagen has a unique quaternary structure. It is a **triple helix** formed by three distinct polypeptide chains (two $\\alpha1$ and one $\\alpha2$ chain in Type I). Each individual chain forms a loose, **left-handed** helix (polyproline II type, not an alpha-helix) with 3 residues per turn. These three strands then wind around each other in a **right-handed superhelix** to form a rope-like structure with high tensile strength."
+          },
+          {
+            "question": "In 2D Gel Electrophoresis, proteins are separated first by ____ and then by ____.",
+            "options": [
+              "Size; Isoelectric point (pI).",
+              "Isoelectric point (pI); Size (Mass).",
+              "Solubility; Shape.",
+              "Affinity; Density.",
+              "Shape; Color."
+            ],
+            "correct": 1,
+            "explanation": "Two-Dimensional (2D) Electrophoresis combines two orthogonal methods to separate complex protein mixtures. **First Dimension**: Isoelectric Focusing (IEF). Proteins migrate in a pH gradient until they reach the pH equal to their isoelectric point (pI), where their net charge is zero and they stop moving. **Second Dimension**: The IEF strip is placed on an SDS-PAGE gel. Proteins are then separated perpendicular to the first direction based on their **Molecular Mass (Size)**. This results in a map of spots defined by pI (x-axis) and Mass (y-axis)."
+          },
+          {
+            "question": "Methemoglobin differs from Hemoglobin because:",
+            "options": [
+              "It contains a mutation in the beta chain.",
+              "It has lost its heme group.",
+              "The iron is oxidized to Fe3+ (Ferric).",
+              "It binds oxygen irreversibly.",
+              "It is a monomer."
+            ],
+            "correct": 2,
+            "explanation": "Functional Hemoglobin requires the heme iron to be in the reduced, **Ferrous ($Fe^{2+}$)** state to bind oxygen. Oxidation of the iron to the **Ferric ($Fe^{3+}$)** state creates **Methemoglobin**. Ferric iron cannot bind oxygen at all. Furthermore, the presence of MetHb increases the oxygen affinity of the remaining normal subunits (similar to CO), preventing oxygen release. This functional anemia causes cyanosis and brown-colored blood."
+          },
+          {
+            "question": "Why is Glycine often conserved in the region where protein helices cross or in tight turns?",
+            "options": [
+              "It is highly hydrophobic.",
+              "It forms the strongest hydrogen bonds.",
+              "It has the smallest side chain (-H), minimizing steric hindrance.",
+              "It is positively charged.",
+              "It contains a sulfur atom."
+            ],
+            "correct": 2,
+            "explanation": "**Glycine** has a single hydrogen atom as its side chain. It is the only achiral amino acid and is chemically the smallest. This small size allows it to occupy sterically restricted spaces where any other side chain would clash (steric hindrance). This makes Glycine essential in tight bends (beta-turns), the crowded center of the collagen triple helix, and interfaces where protein domains pack tightly against each other."
+          },
+          {
+            "question": "Quaternary structure refers to:",
+            "options": [
+              "The sequence of amino acids.",
+              "The local folding into helices/sheets.",
+              "The overall 3D shape of a single polypeptide.",
+              "The spatial arrangement of multiple polypeptide subunits.",
+              "The interaction with prosthetic groups only."
+            ],
+            "correct": 3,
+            "explanation": "Protein structure is hierarchical. Primary = sequence. Secondary = local folds (helix/sheet). Tertiary = 3D fold of a single chain. **Quaternary structure** specifically describes the arrangement and interaction of **multiple polypeptide chains (subunits)** into a functional oligomeric complex (e.g., Hemoglobin is a tetramer of $2\\alpha$ and $2\\beta$ chains). Proteins with only one chain (like Myoglobin) do not have quaternary structure."
+          },
+          {
+            "question": "An enzyme catalyzes the conversion of Substrate S to Product P. The standard free energy change of the reaction (ΔG'°) is -15 kJ/mol. Which of the following parameters does the enzyme modify to accelerate the reaction rate?",
+            "options": [
+              "The equilibrium constant (Keq).",
+              "The standard free energy change (ΔG'°).",
+              "The activation energy (ΔG‡) of the transition state.",
+              "The initial concentration of substrate.",
+              "The entropy of the product."
+            ],
+            "correct": 2,
+            "explanation": "Enzymes are catalysts; they accelerate reaction rates by stabilizing the **Transition State**, thereby lowering the **Activation Energy (ΔG‡)** required to reach it. They do **not** alter thermodynamic parameters like the standard free energy change (ΔG'°) or the equilibrium constant (Keq). The position of equilibrium is determined solely by the free energy difference between reactants and products, which the enzyme cannot change."
+          },
+          {
+            "question": "In the Michaelis-Menten equation, the parameter Km (Michaelis constant) is defined as:",
+            "options": [
+              "The substrate concentration at which the reaction velocity is half of Vmax.",
+              "The dissociation constant of the Enzyme-Product complex.",
+              "The turnover number of the enzyme.",
+              "The maximum velocity of the enzyme.",
+              "The substrate concentration at Vmax."
+            ],
+            "correct": 0,
+            "explanation": "Mathematically, **Km** is the substrate concentration [S] at which the initial reaction velocity ($V_0$) is exactly **50% of the maximum velocity ($V_{max}$)**. While often used as a measure of the enzyme's affinity for the substrate (inversely related), strictly speaking, it is a kinetic parameter derived from rate constants ($K_m = (k_{-1} + k_2) / k_1$)."
+          },
+          {
+            "question": "A biochemist analyzes two enzymes that catalyze the same reaction. Enzyme A has a Km of 1 mM. Enzyme B has a Km of 1 µM. Which statement is correct assuming similar Vmax?",
+            "options": [
+              "Enzyme A has a higher affinity for the substrate than Enzyme B.",
+              "Enzyme B has a higher affinity for the substrate than Enzyme A.",
+              "Enzyme A requires less substrate to reach Vmax.",
+              "Enzyme B operates slower at low substrate concentrations.",
+              "Both enzymes reach saturation at the same substrate concentration."
+            ],
+            "correct": 1,
+            "explanation": "Km is **inversely proportional** to affinity. A low Km (1 µM) means the enzyme requires very little substrate to reach half-maximal velocity, indicating **high affinity**. Enzyme A, with a high Km (1 mM), has low affinity and requires 1000x more substrate to achieve the same catalytic saturation."
+          },
+          {
+            "question": "The turnover number (kcat) of an enzyme represents:",
+            "options": [
+              "The number of substrate molecules converted to product per enzyme molecule per second when the enzyme is saturated.",
+              "The efficiency of the enzyme at low substrate concentrations.",
+              "The substrate concentration at 1/2 Vmax.",
+              "The rate of enzyme degradation.",
+              "The number of active sites on the protein."
+            ],
+            "correct": 0,
+            "explanation": "**kcat** (the turnover number) is a first-order rate constant (units: $s^{-1}$) that defines the maximum number of substrate molecules converted to product by a single active site per unit time when the enzyme is fully saturated with substrate. It is calculated as $V_{max} / [E]_{total}$."
+          },
+          {
+            "question": "Which parameter is the best measure of catalytic efficiency under physiological conditions (where [S] << Km)?",
+            "options": [
+              "Vmax",
+              "Km",
+              "kcat",
+              "kcat / Km",
+              "Initial Velocity (V0)"
+            ],
+            "correct": 3,
+            "explanation": "At low substrate concentrations (typical in cells), the reaction rate depends on both the turnover number ($k_{cat}$) and the affinity ($1/K_m$). The ratio **$k_{cat} / K_m$** is the **Specificity Constant**. It represents the second-order rate constant for the interaction between E and S and is limited by the rate of diffusion (catalytic perfection $\approx 10^8 - 10^9 M^{-1}s^{-1}$)."
+          },
+          {
+            "question": "In a Lineweaver-Burk (Double-Reciprocal) plot, a Competitive Inhibitor will cause:",
+            "options": [
+              "The X-intercept (-1/Km) to change, but the Y-intercept (1/Vmax) remains the same.",
+              "The Y-intercept (1/Vmax) to change, but the X-intercept (-1/Km) remains the same.",
+              "Both intercepts to change.",
+              "No change in either intercept.",
+              "Parallel lines."
+            ],
+            "correct": 0,
+            "explanation": "A **Competitive Inhibitor** binds to the active site, preventing substrate binding. This increases the apparent Km (lowers affinity) because more substrate is needed to outcompete the inhibitor. However, with infinite substrate, $V_{max}$ can still be reached. On a Lineweaver-Burk plot, this appears as a change in the X-intercept (representing $-1/K_m$) while the **Y-intercept ($1/V_{max}$) remains unchanged** (lines intersect on the Y-axis)."
+          },
+          {
+            "question": "Non-competitive inhibition (Pure) is characterized by:",
+            "options": [
+              "Binding to the active site only.",
+              "Binding to the Enzyme-Substrate (ES) complex only.",
+              "Binding to both free Enzyme (E) and the ES complex with equal affinity.",
+              "An increase in Km.",
+              "No change in Vmax."
+            ],
+            "correct": 2,
+            "explanation": "**Non-competitive inhibitors** bind to an allosteric site distinct from the active site. They can bind either the free enzyme ($E$) or the enzyme-substrate complex ($ES$). If they bind both with equal affinity (pure non-competitive), they essentially remove functional enzyme from the pool. This **lowers $V_{max}$** but does **not change $K_m$** (since the remaining active enzymes bind substrate normally)."
+          },
+          {
+            "question": "Uncompetitive inhibitors are unique because they:",
+            "options": [
+              "Bind only to the free Enzyme (E).",
+              "Bind only to the Enzyme-Substrate (ES) complex.",
+              "Increase Vmax and decrease Km.",
+              "Are unaffected by substrate concentration.",
+              "Resemble the substrate structurally."
+            ],
+            "correct": 1,
+            "explanation": "**Uncompetitive inhibitors** bind **only** to the enzyme-substrate ($ES$) complex, not the free enzyme. This locks the substrate in the active site, preventing product release. This mechanism lowers $V_{max}$ (catalysis is blocked) and **lowers apparent $K_m$** (affinity appears to increase because the complex is stabilized/removed). On a Lineweaver-Burk plot, this produces **parallel lines**."
+          },
+          {
+            "question": "Chymotrypsin utilizes a 'Catalytic Triad' to hydrolyze peptide bonds. Which three amino acid residues make up this triad?",
+            "options": [
+              "Serine, Histidine, Aspartate",
+              "Cysteine, Histidine, Glutamate",
+              "Serine, Lysine, Asparagine",
+              "Threonine, Histidine, Aspartate",
+              "Tyrosine, Arginine, Glutamate"
+            ],
+            "correct": 0,
+            "explanation": "The classic catalytic triad of serine proteases consists of **Serine** (the nucleophile), **Histidine** (the general base/acid), and **Aspartate** (stabilizes the charged histidine). Histidine pulls a proton from Serine, making it a potent alkoxide nucleophile capable of attacking the peptide bond."
+          },
+          {
+            "question": "Many enzymes require non-protein components for activity. A coenzyme that is tightly or covalently bound to the enzyme protein is specifically called a:",
+            "options": [
+              "Cosubstrate",
+              "Prosthetic group",
+              "Apoenzyme",
+              "Zymogen",
+              "Ligand"
+            ],
+            "correct": 1,
+            "explanation": "Cofactors can be metal ions or organic molecules (coenzymes). If a coenzyme is permanently associated with the enzyme (like Heme in peroxidase or FAD in succinate dehydrogenase), it is called a **Prosthetic Group**. Loosely bound coenzymes that cycle on and off (like $NAD^+$) are often called cosubstrates."
+          },
+          {
+            "question": "Allosteric enzymes (like Aspartate Transcarbamoylase) typically exhibit what type of kinetic curve?",
+            "options": [
+              "Hyperbolic",
+              "Sigmoidal",
+              "Linear",
+              "Exponential decay",
+              "Parabolic"
+            ],
+            "correct": 1,
+            "explanation": "Allosteric enzymes do not follow simple Michaelis-Menten kinetics. They usually consist of multiple subunits and show **Cooperativity**. Binding of substrate to one subunit facilitates binding to others, resulting in a **Sigmoidal (S-shaped)** velocity vs. substrate curve, distinct from the hyperbolic curve of non-allosteric enzymes."
+          },
+          {
+            "question": "Feedback inhibition of a metabolic pathway usually involves:",
+            "options": [
+              "The initial substrate inhibiting the last enzyme.",
+              "The final product inhibiting the first committed step (enzyme) of the pathway.",
+              "Product inhibition of the immediate enzyme producing it.",
+              "Competitive inhibition of all enzymes in the pathway.",
+              "Covalent modification."
+            ],
+            "correct": 1,
+            "explanation": "**Feedback inhibition** is a regulatory strategy where the **end-product** of a pathway acts as an allosteric inhibitor of the **first committed enzyme** (the rate-limiting step) of that pathway. This prevents the wasteful overproduction of the product when it is already abundant."
+          },
+          {
+            "question": "Zymogens (or proenzymes) are inactive precursors of enzymes. They are activated by:",
+            "options": [
+              "Phosphorylation.",
+              "Binding of a cofactor.",
+              "Specific proteolytic cleavage.",
+              "Changes in pH.",
+              "Dimerization."
+            ],
+            "correct": 2,
+            "explanation": "Zymogens (e.g., Trypsinogen, Pepsinogen) are activated by **irreversible proteolytic cleavage** of specific peptide bonds. This cleavage induces a conformational change that forms the active site. This mechanism is crucial for digestive enzymes to prevent autodigestion of the pancreas."
+          },
+          {
+            "question": "The Induced Fit model of enzyme-substrate interaction differs from the Lock and Key model because:",
+            "options": [
+              "It assumes the active site is rigid and pre-formed.",
+              "It assumes the substrate changes shape, but the enzyme does not.",
+              "It proposes that both the enzyme and substrate undergo conformational changes upon binding to stabilize the transition state.",
+              "It applies only to allosteric enzymes.",
+              "It suggests the active site is non-specific."
+            ],
+            "correct": 2,
+            "explanation": "The 'Lock and Key' model (Fisher) assumed a rigid active site complementary to the substrate. The **Induced Fit** model (Koshland) posits that the enzyme is flexible; binding of the substrate induces a conformational change in the enzyme that aligns catalytic groups perfectly for the reaction, specifically stabilizing the **Transition State**."
+          },
+          {
+            "question": "An enzyme reaction follows Zero Order kinetics when:",
+            "options": [
+              "Substrate concentration is very low ([S] << Km).",
+              "Substrate concentration is very high ([S] >> Km).",
+              "The enzyme is denatured.",
+              "Inhibitors are present.",
+              "Product concentration is high."
+            ],
+            "correct": 1,
+            "explanation": "When substrate concentration is saturating ($[S] \gg K_m$), essentially all enzyme active sites are occupied ($[ES] \approx [E]_{total}$). The rate is maximal ($V_{max}$) and becomes independent of substrate concentration. This is **Zero Order kinetics** (rate = $k$). At low [S], kinetics are First Order (rate $\propto [S]$)."
+          },
+          {
+            "question": "Enzymes often use 'Metal Ion Catalysis'. Which of the following is NOT a common role for metal ions in catalysis?",
+            "options": [
+              "Orienting the substrate in the active site.",
+              "Acting as a covalent catalyst by forming a permanent bond with the product.",
+              "Stabilizing negative charges on reaction intermediates.",
+              "Participating in oxidation-reduction reactions (changing oxidation state).",
+              "Shielding negative charges to allow nucleophilic attack."
+            ],
+            "correct": 1,
+            "explanation": "Metal ions (like $Mg^{2+}, Zn^{2+}, Fe^{2+}$) stabilize charges, orient substrates, and mediate redox reactions. However, catalysis implies the catalyst is regenerated. Forming a **permanent covalent bond** with the product would consume the enzyme, which is not catalysis."
+          },
+          {
+            "question": "A Suicide Inhibitor (Mechanism-Based Inhibitor) works by:",
+            "options": [
+              "Binding reversibly to the allosteric site.",
+              "Binding to the substrate in solution.",
+              "Being catalytically processed by the enzyme into a reactive intermediate that covalently modifies and permanently inactivates the enzyme.",
+              "Denaturing the enzyme via pH change.",
+              "Competing with the cofactor."
+            ],
+            "correct": 2,
+            "explanation": "Suicide inhibitors (e.g., Penicillin, Aspirin, Fluorouracil) are structural analogs of the substrate. The enzyme accepts them as substrates and begins the catalytic mechanism, which generates a highly reactive intermediate that covalently binds to the active site, **irreversibly** killing the enzyme."
+          },
+          {
+            "question": "The pH optimum of an enzyme is primarily determined by:",
+            "options": [
+              "The solubility of the substrate.",
+              "The pKa values of amino acid residues in the active site involved in catalysis.",
+              "The physiological pH of blood.",
+              "The buffer concentration.",
+              "The temperature."
+            ],
+            "correct": 1,
+            "explanation": "Catalysis often requires specific residues to be protonated (act as acid) or deprotonated (act as base). The **ionization state** of these active site side chains depends on the pH relative to their **pKa**. Deviation from the optimum pH alters these charges, reducing catalytic efficiency or causing denaturation."
+          },
+          {
+            "question": "Isoenzymes (Isozymes) are:",
+            "options": [
+              "Enzymes that catalyze different reactions but have the same structure.",
+              "Enzymes with identical amino acid sequences found in different organs.",
+              "Multiple forms of an enzyme that catalyze the same reaction but differ in amino acid sequence, kinetic properties, and tissue distribution.",
+              "Inactive precursors of enzymes.",
+              "Enzymes requiring different cofactors."
+            ],
+            "correct": 2,
+            "explanation": "**Isoenzymes** (e.g., LDH1 vs LDH5) are encoded by different genes (or spliced differently). They catalyze the **same chemical reaction** but have different physical properties (pI, mass), kinetic parameters ($K_m, V_{max}$), and regulation, allowing for tissue-specific metabolic fine-tuning."
+          },
+          {
+            "question": "If the concentration of Enzyme [E] is doubled, how does this affect Vmax and Km?",
+            "options": [
+              "Vmax doubles, Km doubles.",
+              "Vmax stays the same, Km doubles.",
+              "Vmax doubles, Km stays the same.",
+              "Both stay the same.",
+              "Vmax is halved, Km stays the same."
+            ],
+            "correct": 2,
+            "explanation": "$V_{max} = k_{cat} \times [E]_{total}$. Therefore, $V_{max}$ is **directly proportional** to enzyme concentration; doubling [E] doubles $V_{max}$. However, $K_m$ is an intrinsic property of the enzyme-substrate pair (affinity) and is **independent** of enzyme concentration."
+          },
+          {
+            "question": "Which amino acid is capable of phosphorylation, a common mechanism for reversible covalent regulation of enzyme activity?",
+            "options": [
+              "Glycine",
+              "Phenylalanine",
+              "Serine",
+              "Cysteine",
+              "Methionine"
+            ],
+            "correct": 2,
+            "explanation": "Phosphorylation occurs on amino acids containing a hydroxyl (-OH) group on their side chain. The three residues targeted by protein kinases are **Serine, Threonine, and Tyrosine**."
+          },
+          {
+            "question": "Transition State Analogs are potent enzyme inhibitors because:",
+            "options": [
+              "They bind to the enzyme with higher affinity than the substrate or product.",
+              "They bind covalently to the active site.",
+              "They resemble the product.",
+              "They lower the activation energy.",
+              "They are allosteric activators."
+            ],
+            "correct": 0,
+            "explanation": "According to the Pauling principle, enzymes are evolved to bind the **Transition State** most tightly (tighter than the substrate) to stabilize it. Therefore, a stable molecule that chemically mimics the transition state structure will act as an extremely potent competitive inhibitor."
+          },
+          {
+            "question": "What happens to enzyme activity as temperature increases from 37°C to 60°C for most human enzymes?",
+            "options": [
+              "Activity increases indefinitely.",
+              "Activity remains constant.",
+              "Activity initially increases, then sharply decreases due to denaturation.",
+              "Activity decreases linearly.",
+              "The enzyme becomes an allosteric enzyme."
+            ],
+            "correct": 2,
+            "explanation": "Initially, increasing temperature increases kinetic energy and collision frequency, boosting the rate ($Q_{10}$ effect). However, above a critical threshold (usually ~40-50°C for human enzymes), the thermal energy breaks the weak non-covalent bonds maintaining the protein structure, leading to **denaturation** and a precipitous loss of activity."
+          },
+          {
+            "question": "A mixed inhibitor binds to:",
+            "options": [
+              "Only the free enzyme.",
+              "Only the ES complex.",
+              "Both the free enzyme and the ES complex, but with unequal affinities.",
+              "The active site.",
+              "The substrate."
+            ],
+            "correct": 2,
+            "explanation": "**Mixed inhibition** is a general case where the inhibitor binds to an allosteric site on both the free enzyme ($E$) and the complex ($ES$), but with different dissociation constants ($K_i \neq K_i'$). This typically results in a decrease in $V_{max}$ and a change in $K_m$ (either increase or decrease depending on preference)."
+          },
+          {
+            "question": "Which of the following best describes 'Cooperativity' in enzymology?",
+            "options": [
+              "Two enzymes working in a pathway.",
+              "The enzyme requiring a cofactor.",
+              "Binding of ligand to one site affects the binding affinity of other sites on the same molecule.",
+              "The enzyme catalyzing a reversible reaction.",
+              "Competitive inhibition."
+            ],
+            "correct": 2,
+            "explanation": "Cooperativity (homotropic regulation) occurs in multisubunit proteins. Binding of a substrate to one subunit induces a conformational change (T to R state) that alters the affinity of the remaining subunits for the substrate. Positive cooperativity produces a **sigmoidal** curve."
+          },
+          {
+            "question": "Aspartate proteases (like HIV Protease or Renin) use which residues in their active site for acid-base catalysis?",
+            "options": [
+              "Two Cysteines",
+              "Two Aspartates",
+              "Serine and Histidine",
+              "Glutamate and Lysine",
+              "Zinc and Histidine"
+            ],
+            "correct": 1,
+            "explanation": "Aspartate proteases use **two Aspartate residues**. One is protonated (acts as general acid) and one is deprotonated (acts as general base) to activate a water molecule for hydrolysis of the peptide bond."
+          },
+          {
+            "question": "The steady-state assumption used to derive the Michaelis-Menten equation states that:",
+            "options": [
+              "The concentration of substrate does not change.",
+              "The rate of formation of the ES complex equals the rate of its breakdown.",
+              "The reaction is at equilibrium.",
+              "The product concentration is zero.",
+              "The enzyme is stable forever."
+            ],
+            "correct": 1,
+            "explanation": "The **Steady-State Assumption** (Briggs-Haldane) posits that after a very brief initial phase, the concentration of the Enzyme-Substrate complex **[ES] remains constant** throughout the measurement period. This implies the rate of ES formation ($k_1[E][S]$) equals the rate of ES breakdown ($k_{-1}[ES] + k_2[ES]$)."
+          },
+          {
+            "question": "Which class of enzymes catalyzes the transfer of a functional group (like a methyl or phosphate group) from one molecule to another?",
+            "options": [
+              "Oxidoreductases",
+              "Hydrolases",
+              "Transferases",
+              "Lyases",
+              "Isomerases"
+            ],
+            "correct": 2,
+            "explanation": "**Transferases** (EC class 2) catalyze group transfer reactions. Examples include Kinases (transfer phosphate), Transaminases (transfer amino groups), and Methyltransferases."
+          },
+          {
+            "question": "Ribozymes are:",
+            "options": [
+              "Enzymes that degrade RNA.",
+              "RNA molecules with catalytic activity.",
+              "Proteins that synthesize Ribose.",
+              "Enzymes found only in Ribosomes.",
+              "Carbohydrate enzymes."
+            ],
+            "correct": 1,
+            "explanation": "Ribozymes challenge the idea that all biological catalysts are proteins. They are **RNA molecules** capable of catalyzing specific biochemical reactions, such as the cleavage of phosphodiester bonds (e.g., Peptidyl transferase in the ribosome, RNase P, Self-splicing introns)."
+          },
+          {
+            "question": "An enzyme with a high Specificity Constant (kcat/Km) near the diffusion limit is termed:",
+            "options": [
+              "Allosteric",
+              "Perfect (Catalytically Perfect)",
+              "Inefficient",
+              "Saturated",
+              "Inducible"
+            ],
+            "correct": 1,
+            "explanation": "A **Catalytically Perfect** enzyme (e.g., Acetylcholinesterase, Carbonic Anhydrase, Triose Phosphate Isomerase) converts substrate to product virtually every time they collide. The rate is limited only by the speed at which substrate diffuses into the active site ($10^8 - 10^9 M^{-1}s^{-1}$)."
+          },
+          {
+            "question": "Glucose is highly soluble in water but also highly reactive. Which structural feature primarily accounts for its high water solubility?",
+            "options": [
+              "The presence of a hydrophobic carbon ring.",
+              "The ability to form multiple hydrogen bonds with water via its five hydroxyl (-OH) groups.",
+              "The aldehyde group at C1.",
+              "The specific rotation of polarized light.",
+              "Its ability to polymerize."
+            ],
+            "correct": 1,
+            "explanation": "Carbohydrates are 'hydrates of carbon'. Glucose ($C_6H_{12}O_6$) contains five hydroxyl groups and one carbonyl oxygen. These polar groups act as both hydrogen bond donors and acceptors, allowing glucose to form an extensive H-bond network with the surrounding water molecules. This energetic stabilization makes it highly soluble, despite being a relatively large organic molecule."
+          },
+          {
+            "question": "In solution, D-Glucose exists as a mixture of alpha and beta anomers. This spontaneous interconversion between alpha and beta forms is called:",
+            "options": [
+              "Isomerization",
+              "Epimerization",
+              "Mutarotation",
+              "Oxidation",
+              "Hydrolysis"
+            ],
+            "correct": 2,
+            "explanation": "**Mutarotation** is the spontaneous change in specific rotation observed when a pure anomer (e.g., $\\alpha$-D-glucose) is dissolved in water. It occurs because the ring opens briefly to the linear aldehyde form and then recloses, allowing the bond at the anomeric carbon (C1) to reform in either the $\\alpha$ (OH down) or $\\beta$ (OH up) configuration until equilibrium is reached."
+          },
+          {
+            "question": "Which of the following pairs are C-4 epimers?",
+            "options": [
+              "D-Glucose and D-Mannose",
+              "D-Glucose and D-Galactose",
+              "D-Glucose and D-Fructose",
+              "D-Ribose and D-Deoxyribose",
+              "L-Glucose and D-Glucose"
+            ],
+            "correct": 1,
+            "explanation": "**Epimers** differ in configuration at exactly one chiral center. D-Glucose and D-Galactose differ only at Carbon 4 (OH is 'down' in glucose, 'up' in galactose). D-Glucose and D-Mannose are C-2 epimers. D-Fructose is a ketose isomer, not an epimer."
+          },
+          {
+            "question": "Why is Sucrose considered a non-reducing sugar?",
+            "options": [
+              "It contains a ketone group.",
+              "It is a monosaccharide.",
+              "The glycosidic bond joins the anomeric carbons of both glucose and fructose.",
+              "It cannot be digested by humans.",
+              "It contains a beta-1,4 linkage."
+            ],
+            "correct": 2,
+            "explanation": "A reducing sugar must have a free anomeric carbon (hemiacetal/hemiketal) that can open to form a reactive aldehyde/ketone. In **Sucrose**, the glycosidic bond links $C1$ of Glucose ($\alpha$) to $C2$ of Fructose ($\beta$). Since both anomeric carbons are involved in the bond, the ring cannot open, and there is no free reducing end."
+          },
+          {
+            "question": "Cellulose is a structural polysaccharide that humans cannot digest. Its rigidity and resistance to hydrolysis are due to:",
+            "options": [
+              "Alpha-1,4 linkages that form a helical structure.",
+              "Beta-1,4 linkages that allow linear chains to form extensive inter-chain hydrogen bonds.",
+              "Alpha-1,6 branching points.",
+              "The presence of nitrogen-containing groups.",
+              "Covalent cross-links between chains."
+            ],
+            "correct": 1,
+            "explanation": "**Cellulose** is a linear polymer of glucose linked by **$\\beta(1\\rightarrow4)$ bonds**. This configuration flips every other glucose unit relative to the next, creating a straight, extended chain. These chains stack parallel to each other, stabilized by a massive network of inter-chain hydrogen bonds (forming fibrils). Humans lack the enzyme cellulase to break $\\beta(1\\rightarrow4)$ bonds."
+          },
+          {
+            "question": "Glycogen and Starch (Amylopectin) are both energy storage polymers. How do they differ structurally?",
+            "options": [
+              "Glycogen is linear; Amylopectin is branched.",
+              "Glycogen has Beta-linkages; Amylopectin has Alpha-linkages.",
+              "Glycogen is more extensively branched (every 8-12 residues) than Amylopectin (every 24-30 residues).",
+              "Glycogen is found in plants; Amylopectin in animals.",
+              "They are identical."
+            ],
+            "correct": 2,
+            "explanation": "Both are homopolymers of $\\alpha$-D-glucose with $\\alpha(1\\rightarrow4)$ chains and $\\alpha(1\\rightarrow6)$ branches. The key difference is density: **Glycogen** is far more highly branched (more compact), allowing for rapid release of glucose from many non-reducing ends simultaneously during stress (fight or flight)."
+          },
+          {
+            "question": "Proteoglycans are major components of the extracellular matrix. They consist of a core protein covalently attached to:",
+            "options": [
+              "Short, branched oligosaccharides.",
+              "Long, linear glycosaminoglycan (GAG) chains.",
+              "Fatty acids.",
+              "Nucleotides.",
+              "Phospholipids."
+            ],
+            "correct": 1,
+            "explanation": "**Proteoglycans** are dominated by carbohydrate (up to 95% by weight). The carbohydrate chains are **Glycosaminoglycans (GAGs)**—long, linear, repeating disaccharides that are highly negatively charged (sulfated). This charge attracts water, creating a hydrated, gel-like matrix (e.g., cartilage) that resists compression."
+          },
+          {
+            "question": "The 'Sugar Code' refers to the ability of carbohydrates to encode biological information. Which feature contributes most to the enormous information density of glycans compared to peptides or DNA?",
+            "options": [
+              "They have only 4 building blocks.",
+              "They are strictly linear.",
+              "They can form branched structures and use different linkage positions (1-2, 1-3, 1-4, 1-6) and anomeric configurations (alpha/beta).",
+              "They are always negatively charged.",
+              "They are only found inside the nucleus."
+            ],
+            "correct": 2,
+            "explanation": "Unlike DNA (linear, 3' to 5') or proteins (linear, N to C), glycans can branch. Furthermore, two identical monosaccharides can be linked in many ways (e.g., $\\alpha1\\rightarrow4$, $\\beta1\\rightarrow4$, $\\alpha1\\rightarrow6$). This combinatorial complexity allows a massive number of unique structures (words) to be constructed from a small alphabet of monosaccharides."
+          },
+          {
+            "question": "Which of the following is a homopolysaccharide of N-acetylglucosamine found in the exoskeletons of insects?",
+            "options": [
+              "Cellulose",
+              "Peptidoglycan",
+              "Chitin",
+              "Hyaluronan",
+              "Heparin"
+            ],
+            "correct": 2,
+            "explanation": "Chitin is the second most abundant polysaccharide in nature. It is a linear homopolymer of **N-acetyl-D-glucosamine** linked by $\\beta(1\\rightarrow4)$ bonds. It is structurally similar to cellulose but has an acetamido group instead of a hydroxyl at C2, making it tougher and more hydrophobic."
+          },
+          {
+            "question": "Hemoglobin A1c (HbA1c) is formed by the non-enzymatic reaction of glucose with hemoglobin. This specific type of reaction is called:",
+            "options": [
+              "Glycosylation (Enzymatic)",
+              "Glycation (Non-enzymatic)",
+              "Phosphorylation",
+              "Acetylation",
+              "Oxidation"
+            ],
+            "correct": 1,
+            "explanation": "The reaction of a reducing sugar (glucose) with a free amino group on a protein (N-terminal Valine of Hb) without enzyme catalysis is called **Glycation** (specifically the Maillard reaction). This differs from 'Glycosylation', which is a strictly regulated enzymatic process in the ER/Golgi."
+          },
+          {
+            "question": "Lectins are proteins that:",
+            "options": [
+              "Hydrolyze carbohydrates.",
+              "Synthesize carbohydrates.",
+              "Bind carbohydrates with high specificity and moderate affinity.",
+              "Transport glucose across membranes.",
+              "Store glucose."
+            ],
+            "correct": 2,
+            "explanation": "**Lectins** are 'readers' of the sugar code. They are proteins that bind specific carbohydrate structures (e.g., mannose binding lectin). They mediate critical biological recognition events, such as cell-cell adhesion (Selectins), viral attachment (Influenza hemagglutinin), and protein targeting."
+          },
+          {
+            "question": "In O-linked glycoproteins, the carbohydrate chain is attached to the protein via the hydroxyl group of which amino acids?",
+            "options": [
+              "Asparagine or Glutamine",
+              "Serine or Threonine",
+              "Lysine or Arginine",
+              "Tyrosine or Phenylalanine",
+              "Cysteine or Methionine"
+            ],
+            "correct": 1,
+            "explanation": "**O-linked** glycosylation involves a glycosidic bond to the oxygen atom of the hydroxyl group of **Serine or Threonine**. (Note: Collagen has O-linked hydroxylysine, but Ser/Thr is the standard definition). **N-linked** glycosylation occurs on the amide nitrogen of **Asparagine**."
+          },
+          {
+            "question": "Which molecule is a heteropolysaccharide that serves as the anticoagulant in blood?",
+            "options": [
+              "Glycogen",
+              "Heparin",
+              "Dextran",
+              "Agarose",
+              "Hyaluronate"
+            ],
+            "correct": 1,
+            "explanation": "**Heparin** is a sulfated glycosaminoglycan (GAG). It has the highest negative charge density of any known biological molecule. It acts as an anticoagulant by binding to and activating Antithrombin III, which then inhibits thrombin and Factor Xa."
+          },
+          {
+            "question": "The bacterial cell wall component Peptidoglycan (Murein) gains its mechanical strength from:",
+            "options": [
+              "Hydrophobic interactions between lipid tails.",
+              "Cross-linking of polysaccharide chains by short pentaglycine peptides.",
+              "Electrostatic repulsion.",
+              "Disulfide bonds.",
+              "The presence of cholesterol."
+            ],
+            "correct": 1,
+            "explanation": "Peptidoglycan consists of long polysaccharide chains (NAM-NAG repeats) cross-linked by short peptide chains containing D-amino acids. This **cross-linking** creates a single, continuous, mesh-like macromolecule that surrounds the bacterium (the 'sacculus') and prevents osmotic lysis."
+          },
+          {
+            "question": "Selectins are a family of lectins involved in:",
+            "options": [
+              "Digesting starch.",
+              "Transporting glucose into muscle.",
+              "Mediating the rolling and adhesion of leukocytes (WBCs) to the endothelium during inflammation.",
+              "Viral replication.",
+              "Synthesizing glycogen."
+            ],
+            "correct": 2,
+            "explanation": "**Selectins** (E-selectin, P-selectin, L-selectin) bind to specific sialylated carbohydrate ligands on cell surfaces. This interaction is transient and allows white blood cells to 'roll' along the vessel wall (endothelium) to slow down before squeezing into infected tissue (diapedesis)."
+          },
+          {
+            "question": "Aldoses and Ketoses can reduce oxidizing agents like Cu2+ (Fehling's solution) because:",
+            "options": [
+              "They are acids.",
+              "They contain a free anomeric carbon that can open to form a reactive carbonyl group.",
+              "They are polymers.",
+              "They are insoluble.",
+              "They contain nitrogen."
+            ],
+            "correct": 1,
+            "explanation": "Sugars capable of acting as reducing agents are called **Reducing Sugars**. This property requires the sugar to exist in an open-chain form with a free aldehyde or ketone group (via enediol intermediate). If the anomeric carbon is locked in a glycosidic bond (like in sucrose), it cannot open and is non-reducing."
+          },
+          {
+            "question": "Hyaluronan (Hyaluronic acid) differs from other Glycosaminoglycans (GAGs) because:",
+            "options": [
+              "It is sulfated.",
+              "It is covalently attached to a core protein.",
+              "It is extremely large, non-sulfated, and not covalently attached to protein.",
+              "It is found only in plants.",
+              "It is a branched polymer."
+            ],
+            "correct": 2,
+            "explanation": "Hyaluronan is unique: it is **not sulfated**, it is not synthesized on a core protein (no proteoglycan formation directly), and it is synthesized at the plasma membrane (not Golgi). It can be massive (millions of Daltons) and serves as the backbone for large proteoglycan aggregates (Aggrecan) in cartilage."
+          },
+          {
+            "question": "Which enzyme is responsible for synthesizing the A and B antigens on the surface of red blood cells?",
+            "options": [
+              "Glycosidases",
+              "Glycosyltransferases",
+              "Peptidases",
+              "Amylases",
+              "Kinases"
+            ],
+            "correct": 1,
+            "explanation": "The difference between blood types O, A, and B is the presence of specific terminal sugars added by specific **Glycosyltransferases**. Type A individuals have an enzyme that adds N-acetylgalactosamine; Type B individuals have an enzyme that adds Galactose. Type O individuals have a defective enzyme and add nothing to the H-antigen."
+          },
+          {
+            "question": "The Influenza virus gains entry into host cells by binding to:",
+            "options": [
+              "Glucose transporters.",
+              "Sialic acid residues on cell surface glycoproteins.",
+              "Peptidoglycan.",
+              "Phospholipids.",
+              "Cholesterol."
+            ],
+            "correct": 1,
+            "explanation": "The viral protein **Hemagglutinin** is a lectin that specifically binds to **Sialic Acid** (N-acetylneuraminic acid) residues found at the ends of carbohydrate chains on host cell surfaces. To exit the cell, the virus uses Neuraminidase to cleave these sialic acids."
+          },
+          {
+            "question": "Lipopolysaccharide (LPS) is a dominant feature of the outer membrane of Gram-negative bacteria. The toxic component responsible for septic shock is:",
+            "options": [
+              "The O-antigen side chain.",
+              "The Core oligosaccharide.",
+              "Lipid A.",
+              "The peptidoglycan layer.",
+              "Teichoic acid."
+            ],
+            "correct": 2,
+            "explanation": "LPS consists of Lipid A, Core, and O-antigen. **Lipid A** is the hydrophobic anchor consisting of phosphorylated glucosamine disaccharide with fatty acids. It is a potent **Endotoxin**; when released (bacterial lysis), it triggers a massive immune response (TLR4 activation) leading to fever and septic shock."
+          },
+          {
+            "question": "Which of the following is an aldohexose?",
+            "options": [
+              "Fructose",
+              "Ribose",
+              "Glucose",
+              "Glyceraldehyde",
+              "Dihydroxyacetone"
+            ],
+            "correct": 2,
+            "explanation": "Classifications: **Glucose** is an Aldohexose (Aldehyde, 6 carbons). Fructose is a Ketohexose. Ribose is an Aldopentose. Glyceraldehyde is an Aldotriose. Dihydroxyacetone is a Ketotriose."
+          },
+          {
+            "question": "In N-linked glycosylation, the core oligosaccharide is first assembled on a lipid carrier called:",
+            "options": [
+              "Cholesterol",
+              "Dolichol Phosphate",
+              "Sphingosine",
+              "Phosphatidylcholine",
+              "Ceramide"
+            ],
+            "correct": 1,
+            "explanation": "The precursor oligosaccharide ($Glc_3Man_9GlcNAc_2$) is built on **Dolichol Phosphate** (a long isoprenoid lipid) in the ER membrane before being transferred en bloc to the Asparagine residue of the nascent protein."
+          },
+          {
+            "question": "A key function of the glycocalyx (sugar coat) on the cell surface is to:",
+            "options": [
+              "Generate ATP.",
+              "Synthesize proteins.",
+              "Protect the cell from mechanical and chemical damage and mediate cell-cell recognition.",
+              "Store glycogen.",
+              "Transport electrons."
+            ],
+            "correct": 2,
+            "explanation": "The **glycocalyx** is a dense, fuzzy layer of carbohydrate chains (from glycoproteins and glycolipids) coating the cell. It creates a physical barrier, protects against digestion, lubricates surfaces (mucus), and is the primary interface for cell identity and immune recognition."
+          },
+          {
+            "question": "Which of the following describes the structure of Starch (Amylose)?",
+            "options": [
+              "Linear, unbranched alpha-1,4-glucan.",
+              "Branched alpha-1,6-glucan.",
+              "Linear beta-1,4-glucan.",
+              "Polymer of fructose.",
+              "Highly sulfated."
+            ],
+            "correct": 0,
+            "explanation": "Starch consists of two components. **Amylose** is the linear, unbranched component formed by $\\alpha(1\\rightarrow4)$ linkages (forms a helix). Amylopectin is the branched component."
+          },
+          {
+            "question": "Gangliosides are sphingolipids that contain:",
+            "options": [
+              "A simple phosphate head group.",
+              "A complex oligosaccharide head group containing at least one Sialic Acid (NANA).",
+              "A single glucose residue.",
+              "A choline group.",
+              "Three fatty acid tails."
+            ],
+            "correct": 1,
+            "explanation": "**Gangliosides** are complex glycosphingolipids found concentrated in the outer leaflet of neuronal membranes. Their defining feature is the presence of one or more charged **Sialic Acid (NANA)** residues in the oligosaccharide head group (e.g., GM1, GM2)."
+          },
+          {
+            "question": "The conversion of Glucose to Fructose is an example of:",
+            "options": [
+              "Aldose-Ketose Isomerization.",
+              "Epimerization.",
+              "Oxidation.",
+              "Reduction.",
+              "Decarboxylation."
+            ],
+            "correct": 0,
+            "explanation": "Glucose (Aldose) and Fructose (Ketose) share the same molecular formula ($C_6H_{12}O_6$) but differ in the position of the carbonyl group. This is **Aldose-Ketose Isomerization**, catalyzed by enzymes like Phosphoglucose Isomerase."
+          },
+          {
+            "question": "Advanced Glycation End-products (AGEs) are associated with:",
+            "options": [
+              "Enhanced athletic performance.",
+              "Normal collagen synthesis.",
+              "Aging, diabetes complications, and vascular damage.",
+              "Rapid wound healing.",
+              "Increased insulin sensitivity."
+            ],
+            "correct": 2,
+            "explanation": "AGEs form when glycated proteins cross-link over time (Maillard reaction). They accumulate in long-lived proteins (collagen, crystallin). AGEs stiffen blood vessels, cloud lenses (cataracts), and trigger inflammation via the RAGE receptor, driving the complications of **Diabetes** and aging."
+          },
+          {
+            "question": "Which sugar is a component of RNA?",
+            "options": [
+              "D-Glucose",
+              "D-Ribose",
+              "D-Deoxyribose",
+              "D-Fructose",
+              "L-Ribose"
+            ],
+            "correct": 1,
+            "explanation": "RNA (Ribonucleic Acid) contains **D-Ribose** (an aldopentose) in its backbone. DNA contains 2-Deoxy-D-ribose."
+          },
+          {
+            "question": "What is the primary biological role of Glycogen?",
+            "options": [
+              "Structural support in bone.",
+              "Long-term energy storage in adipose tissue.",
+              "Short-term energy storage in liver and muscle.",
+              "Lubrication of joints.",
+              "Cell adhesion."
+            ],
+            "correct": 2,
+            "explanation": "Fat is for long-term storage. **Glycogen** is for short-term, rapid-release energy storage. Liver glycogen maintains blood glucose; muscle glycogen powers muscle contraction."
+          },
+          {
+            "question": "D-Galactose and D-Glucose are transported into cells by the same transporters (SGLT1, GLUT). This is possible because:",
+            "options": [
+              "They are enantiomers.",
+              "They are identical.",
+              "They are structural isomers with very similar 3D shapes (C4 epimers).",
+              "They are both ketoses.",
+              "They are non-polar."
+            ],
+            "correct": 2,
+            "explanation": "Because Galactose is the **C4 epimer** of Glucose, the two molecules are structurally almost identical (chair conformations are similar). Thus, transporter proteins that recognize glucose can often recognize and transport galactose as well."
+          },
+          {
+            "question": "Which structural feature of unsaturated fatty acids is primarily responsible for increasing the fluidity of biological membranes at low temperatures?",
+            "options": [
+              "The length of the hydrocarbon chain.",
+              "The presence of cis-double bonds that create a 'kink' in the chain.",
+              "The presence of trans-double bonds.",
+              "The carboxylic acid head group.",
+              "The absence of hydrogen atoms."
+            ],
+            "correct": 1,
+            "explanation": "Membrane fluidity depends on the packing of fatty acid tails. Saturated fatty acids are straight and pack tightly (Van der Waals forces), forming a solid-like gel. **Cis-double bonds** introduce a rigid $30^\\circ$ kink in the hydrocarbon chain. This kink prevents tight packing, increasing the free volume and motional freedom of the lipids, thereby maintaining fluidity even at lower temperatures."
+          },
+          {
+            "question": "Triacylglycerols (Triglycerides) are efficient energy storage molecules compared to Glycogen because:",
+            "options": [
+              "They are highly hydrated.",
+              "They are more oxidized than carbohydrates.",
+              "They are anhydrous and highly reduced.",
+              "They can be mobilized faster than glucose.",
+              "They are amphipathic."
+            ],
+            "correct": 2,
+            "explanation": "Glycogen binds ~2 grams of water for every gram of carbohydrate (heavy wet weight). **Triacylglycerols** are hydrophobic and stored in an **anhydrous** form (dense storage). Chemically, the carbon atoms in fatty acids are more **reduced** ($CH_2$) than in sugars ($CH-OH$), yielding more than twice the energy per gram upon oxidation ($9\\,kcal/g$ vs $4\\,kcal/g$)."
+          },
+          {
+            "question": "Which lipid type is the primary component of the inner mitochondrial membrane and is unique because it contains four fatty acid tails?",
+            "options": [
+              "Phosphatidylcholine",
+              "Sphingomyelin",
+              "Cholesterol",
+              "Cardiolipin (Diphosphatidylglycerol)",
+              "Ganglioside"
+            ],
+            "correct": 3,
+            "explanation": "**Cardiolipin** is a 'double' phospholipid consisting of two phosphatidic acid moieties connected by a central glycerol. It has four fatty acyl chains. It is found almost exclusively in the **inner mitochondrial membrane**, where it seals the membrane against proton leakage, essential for oxidative phosphorylation."
+          },
+          {
+            "question": "According to the Fluid Mosaic Model, lateral diffusion of membrane lipids is rapid, whereas transverse diffusion ('flip-flop') is very slow. Why is flip-flop thermodynamically unfavorable?",
+            "options": [
+              "It requires breaking covalent bonds.",
+              "The polar head group must traverse the hydrophobic core of the bilayer.",
+              "The fatty acid tails effectively anchor the lipid to the cytoskeleton.",
+              "Cholesterol prevents movement.",
+              "ATP is required for all lipid movement."
+            ],
+            "correct": 1,
+            "explanation": "For a phospholipid to flip from one leaflet to the other, its highly polar/charged head group must pass through the anhydrous, non-polar **hydrophobic interior** of the bilayer. This presents a massive energetic barrier ($\\\\Delta G^\\\\ddagger$ is very high). Enzymes called flippases, floppases, and scramblases are required to facilitate this process physiologically."
+          },
+          {
+            "question": "Integral membrane proteins can be distinguished from peripheral membrane proteins because integral proteins:",
+            "options": [
+              "Can be removed by changing the pH or ionic strength.",
+              "Are loosely associated with the membrane surface via electrostatic interactions.",
+              "Require detergents to disrupt the lipid bilayer for extraction.",
+              "Are always covalently attached to lipids.",
+              "Function only as receptors."
+            ],
+            "correct": 2,
+            "explanation": "Peripheral proteins interact via weak electrostatic/H-bonds and can be washed off with salts/pH changes. **Integral membrane proteins** have hydrophobic domains buried within the lipid bilayer. To extract them, the bilayer must be destroyed using agents that mimic lipids, such as **detergents** (e.g., SDS, Triton X-100), to solubilize the hydrophobic regions."
+          },
+          {
+            "question": "The Na+/K+ ATPase is a P-type pump that generates the electrochemical gradient across the plasma membrane. For every ATP hydrolyzed, it transports:",
+            "options": [
+              "3 Na+ in, 2 K+ out.",
+              "3 Na+ out, 2 K+ in.",
+              "2 Na+ out, 3 K+ in.",
+              "1 Na+ out, 1 K+ in.",
+              "3 Na+ out, 3 K+ out."
+            ],
+            "correct": 1,
+            "explanation": "The pump is electrogenic. It pumps **3 Sodium ($Na^+$) ions OUT** of the cell and imports **2 Potassium ($K^+$) ions INTO** the cell against their respective concentration gradients. This results in a net loss of one positive charge from the interior, contributing to the negative resting membrane potential."
+          },
+          {
+            "question": "Which of the following transport mechanisms exhibits saturation kinetics (Vmax) but does NOT require direct energy input?",
+            "options": [
+              "Simple Diffusion",
+              "Facilitated Diffusion",
+              "Primary Active Transport",
+              "Secondary Active Transport",
+              "Osmosis"
+            ],
+            "correct": 1,
+            "explanation": "**Facilitated Diffusion** (e.g., GLUT transporters) relies on a carrier protein. Like enzymes, carriers have a fixed number of binding sites. At high substrate concentrations, all sites are occupied, and the rate reaches a maximum ($V_{max}$). However, unlike active transport, it only moves molecules **down** their concentration gradient and requires no ATP."
+          },
+          {
+            "question": "Multidrug Resistance (MDR) in cancer cells is often due to the overexpression of P-glycoprotein (MDR1). To which superfamily of transporters does P-glycoprotein belong?",
+            "options": [
+              "P-type ATPases",
+              "ABC (ATP-Binding Cassette) Transporters",
+              "Ion Channels",
+              "Aquaporins",
+              "V-type ATPases"
+            ],
+            "correct": 1,
+            "explanation": "**ABC Transporters** utilize the energy of ATP hydrolysis to pump substrates across membranes. P-glycoprotein (MDR1) is an ABC transporter that broadly recognizes hydrophobic drugs (chemotherapeutics) and actively pumps them **out** of the cell, preventing therapeutic accumulation."
+          },
+          {
+            "question": "The Potassium Channel (KcsA) allows K+ to pass 10,000 times more readily than Na+, despite Na+ being smaller. This selectivity is achieved by:",
+            "options": [
+              "A molecular sieve that excludes ions based on size only.",
+              "The Carbonyl oxygens of the peptide backbone mimicking the hydration shell of K+ perfectly.",
+              "The use of ATP to select K+.",
+              "The positive charge of the channel repelling Na+.",
+              "The hydrophobic nature of the pore."
+            ],
+            "correct": 1,
+            "explanation": "Ions must shed their water (hydration shell) to enter the narrow pore. The selectivity filter contains backbone **Carbonyl oxygens** arranged precisely to mimic the geometry of the water molecules around a $K^+$ ion. This makes dehydration energetically favorable for $K^+$. $Na^+$, being smaller, cannot coordinate with these oxygens effectively; it prefers to stay hydrated and thus cannot enter."
+          },
+          {
+            "question": "Cholesterol modulates membrane fluidity. What is its effect on the membrane phase transition?",
+            "options": [
+              "It makes the membrane solid at all temperatures.",
+              "It acts as a buffer: preventing solidification at low temperatures and reducing fluidity at high temperatures.",
+              "It increases permeability to protons.",
+              "It promotes the formation of trans-double bonds.",
+              "It has no effect."
+            ],
+            "correct": 1,
+            "explanation": "Cholesterol is the 'fluidity buffer'. At **high temperatures**, its rigid steroid ring restricts the movement of fatty acid chains, reducing fluidity (stabilizing). At **low temperatures**, its bulky structure disrupts the tight packing of lipids, preventing crystallization/freezing. This broadens the phase transition range."
+          },
+          {
+            "question": "Secondary Active Transport (e.g., SGLT1 in the gut) drives the uptake of Glucose against its gradient by coupling it to:",
+            "options": [
+              "ATP hydrolysis directly.",
+              "The hydrolysis of GTP.",
+              "The energetically favorable influx of Sodium (Na+) down its electrochemical gradient.",
+              "The efflux of Potassium.",
+              "Light energy."
+            ],
+            "correct": 2,
+            "explanation": "Secondary active transport does not use ATP directly. Instead, it exploits the potential energy stored in the **Sodium gradient** (created by the $Na^+/K^+$ ATPase). The 'downhill' movement of $Na^+$ releases free energy that drives the 'uphill' transport of Glucose via a symporter."
+          },
+          {
+            "question": "Phosphatidylserine (PS) is normally located in the inner leaflet of the plasma membrane. Exposure of PS on the outer leaflet is a signal for:",
+            "options": [
+              "Cell division.",
+              "Apoptosis (Programmed Cell Death) and phagocytosis.",
+              "Increased ATP synthesis.",
+              "Membrane fusion.",
+              "Protein synthesis."
+            ],
+            "correct": 1,
+            "explanation": "Membrane asymmetry is strictly maintained. During **Apoptosis**, Scramblases are activated (and Flippases inhibited), leading to the exposure of the negatively charged Phosphatidylserine on the cell surface. This 'Eat Me' signal is recognized by receptors on macrophages, triggering phagocytosis of the dying cell."
+          },
+          {
+            "question": "Which molecule acts as a 'Ionophore', creating a pore that allows inorganic ions to pass through lipid bilayers, thereby disrupting ion gradients?",
+            "options": [
+              "Valinomycin",
+              "Insulin",
+              "Cholesterol",
+              "Spectrin",
+              "Clathrin"
+            ],
+            "correct": 0,
+            "explanation": "**Valinomycin** is a classic peptide ionophore. It wraps around a Potassium ($K^+$) ion, giving it a hydrophobic coat, and shuttles it across the membrane down its gradient. This dissipates the membrane potential, which is toxic to cells (often used as an antibiotic mechanism or research tool)."
+          },
+          {
+            "question": "The SERCA pump (Sarcoplasmic/Endoplasmic Reticulum Ca2+ ATPase) is critical for muscle relaxation. It functions to:",
+            "options": [
+              "Release Ca2+ into the cytoplasm.",
+              "Pump Ca2+ from the cytoplasm back into the SR lumen against a high concentration gradient.",
+              "Exchange Ca2+ for Na+.",
+              "Synthesize ATP using a Ca2+ gradient.",
+              "Transport Ca2+ out of the cell."
+            ],
+            "correct": 1,
+            "explanation": "Muscle contraction is triggered by $Ca^{2+}$ release. To relax, $Ca^{2+}$ must be removed. **SERCA** uses ATP to actively pump $Ca^{2+}$ from the cytosol ($10^{-7}M$) back into the SR storage ($10^{-3}M$), maintaining the huge gradient required for subsequent contractions."
+          },
+          {
+            "question": "Lipid Rafts are specialized microdomains in the membrane that are enriched in:",
+            "options": [
+              "Unsaturated fatty acids and Phosphatidylcholine.",
+              "Sphingolipids and Cholesterol.",
+              "Cardiolipin and proteins.",
+              "Free fatty acids.",
+              "Glycogen."
+            ],
+            "correct": 1,
+            "explanation": "Lipid rafts are ordered, thicker patches of the membrane that serve as signaling platforms. They are enriched in **Sphingolipids** (which have long, saturated tails) and **Cholesterol**. The cholesterol fills the voids between sphingolipids, creating a tightly packed, detergent-resistant microdomain."
+          },
+          {
+            "question": "Aquaporins are specialized channels that allow the rapid transport of water but strictly exclude:",
+            "options": [
+              "Urea",
+              "Glycerol",
+              "Protons (H3O+)",
+              "Oxygen",
+              "Carbon dioxide"
+            ],
+            "correct": 2,
+            "explanation": "Aquaporins must transport water without collapsing the proton gradient (membrane potential). They possess a mechanism (the NPA motif and dipole reorientation) that prevents the formation of a continuous 'proton wire' of hydrogen-bonded water. Thus, they pass water but strictly **exclude hydronium ions ($H_3O^+$)**."
+          },
+          {
+            "question": "Which technique is commonly used to measure the rate of lateral diffusion of membrane proteins and lipids?",
+            "options": [
+              "X-ray crystallography",
+              "FRAP (Fluorescence Recovery After Photobleaching)",
+              "SDS-PAGE",
+              "Patch Clamping",
+              "PCR"
+            ],
+            "correct": 1,
+            "explanation": "In **FRAP**, a fluorescent tag on membrane components is bleached by a high-intensity laser in a specific spot. The time it takes for fluorescence to recover in that spot (due to unbleached molecules moving in from the surroundings) allows the calculation of the diffusion coefficient."
+          },
+          {
+            "question": "Sphingolipids differ from Glycerophospholipids because their backbone is:",
+            "options": [
+              "Glycerol-3-Phosphate",
+              "Sphingosine (an amino alcohol)",
+              "Cholesterol",
+              "Isoprene",
+              "Glucose"
+            ],
+            "correct": 1,
+            "explanation": "Glycerophospholipids are built on glycerol. **Sphingolipids** are built on **Sphingosine**, a long-chain amino alcohol. A fatty acid is attached via an amide linkage to form Ceramide, the parent compound of all sphingolipids."
+          },
+          {
+            "question": "Prostaglandins, Thromboxanes, and Leukotrienes (Eicosanoids) are potent signaling lipids derived from:",
+            "options": [
+              "Cholesterol",
+              "Arachidonic Acid (20:4)",
+              "Palmitic Acid",
+              "Sphingomyelin",
+              "Vitamin D"
+            ],
+            "correct": 1,
+            "explanation": "Phospholipase A2 releases **Arachidonic Acid** (a 20-carbon polyunsaturated fatty acid) from membrane phospholipids. Cyclooxygenase (COX) then converts arachidonic acid into Prostaglandins and Thromboxanes (mediators of inflammation, pain, and clotting)."
+          },
+          {
+            "question": "A Hydropathy Plot analyzes the amino acid sequence of a protein to predict:",
+            "options": [
+              "Its pI (Isoelectric point).",
+              "The presence of transmembrane alpha-helices.",
+              "Its catalytic activity.",
+              "Its rate of degradation.",
+              "Its glycosylation state."
+            ],
+            "correct": 1,
+            "explanation": "A Hydropathy Plot graphs the hydrophobicity index of the sequence window. A stretch of ~20 hydrophobic amino acids typically indicates a **transmembrane alpha-helix**, which spans the hydrophobic core of the bilayer."
+          },
+          {
+            "question": "The resting membrane potential (approx -70 mV) is primarily determined by the high permeability of the membrane to:",
+            "options": [
+              "Sodium (Na+)",
+              "Potassium (K+)",
+              "Chloride (Cl-)",
+              "Calcium (Ca2+)",
+              "Proteins"
+            ],
+            "correct": 1,
+            "explanation": "While the pump sets the gradients, the *potential* is determined by leakage. The membrane has 'leak channels' that are predominantly open to **Potassium ($K^+$)**. $K^+$ flows out down its gradient, leaving net negative charge behind, driving the potential towards the Equilibrium Potential of Potassium ($E_K$, ~-90mV)."
+          },
+          {
+            "question": "Which lipid anchors proteins to the outer leaflet of the plasma membrane via a C-terminal modification?",
+            "options": [
+              "Palmitoyl group",
+              "Myristoyl group",
+              "GPI (Glycosylphosphatidylinositol) anchor",
+              "Farnesyl group",
+              "Cholesterol"
+            ],
+            "correct": 2,
+            "explanation": "Fatty acid anchors (Palmitoyl/Myristoyl/Prenyl) are cytosolic. The **GPI anchor** is unique: it is a complex glycolipid attached to the C-terminus of proteins in the ER lumen. These proteins end up displayed on the **extracellular (outer)** surface of the plasma membrane."
+          },
+          {
+            "question": "Gap Junctions allow the direct passage of small molecules between adjacent cells. The channel units are called:",
+            "options": [
+              "Claudins",
+              "Cadherins",
+              "Connexins",
+              "Integrins",
+              "Selectins"
+            ],
+            "correct": 2,
+            "explanation": "Gap junctions are formed by hexamers of proteins called **Connexins**. These assemble to form a Connexon (hemichannel). Two connexons from adjacent cells dock to form a continuous aqueous pore connecting the two cytoplasms."
+          },
+          {
+            "question": "Plasmalogens are a unique type of ether-lipid enriched in heart tissue. They differ from standard phospholipids by having:",
+            "options": [
+              "An ester linkage at C1.",
+              "An ether linkage with a cis-double bond (vinyl ether) at C1.",
+              "A sphingosine backbone.",
+              "No phosphate group.",
+              "Three fatty acid tails."
+            ],
+            "correct": 1,
+            "explanation": "**Plasmalogens** contain a hydrocarbon chain linked to glycerol C1 via a **vinyl ether** linkage (double bond adjacent to the oxygen). This structure may protect against oxidative stress (acting as a reactive oxygen sink)."
+          },
+          {
+            "question": "Glucose Transporters (GLUTs) facilitate glucose entry into cells. Which step causes the transporter to release glucose into the cytoplasm?",
+            "options": [
+              "ATP hydrolysis.",
+              "Phosphorylation of the transporter.",
+              "A conformational change triggered by glucose binding.",
+              "Binding of Sodium.",
+              "Proteolytic cleavage."
+            ],
+            "correct": 2,
+            "explanation": "Facilitated diffusion works by the 'Alternating Access' model. The transporter exists in two conformations: $T_1$ (outward facing) and $T_2$ (inward facing). Glucose binding to $T_1$ induces a **conformational change** to $T_2$, exposing glucose to the cytoplasm, where it diffuses away."
+          },
+          {
+            "question": "Which component is responsible for the 'selectivity filter' in ion channels?",
+            "options": [
+              "The lipid bilayer thickness.",
+              "Specific amino acid side chains or backbone atoms in the narrowest part of the pore.",
+              "The voltage sensor.",
+              "The gate domain.",
+              "The size of the extracellular loop."
+            ],
+            "correct": 1,
+            "explanation": "The selectivity filter is a constricted region of the pore where **amino acid residues** (often backbone carbonyls) are positioned precisely to coordinate specific ions. This replaces the water of hydration energetically, allowing only the 'correct' ion to pass."
+          },
+          {
+            "question": "Digitalis (Digoxin) increases cardiac contraction force by inhibiting the Na+/K+ ATPase. How does this affect Calcium?",
+            "options": [
+              "It pumps Calcium into the cell directly.",
+              "It raises intracellular Na+, which reduces the activity of the Na+/Ca2+ Exchanger (NCX), leading to higher intracellular Ca2+.",
+              "It opens Calcium channels.",
+              "It releases Calcium from the SR.",
+              "It mimics Calcium."
+            ],
+            "correct": 1,
+            "explanation": "Inhibiting the $Na^+/K^+$ pump leads to an accumulation of intracellular Sodium ($Na^+$). The **$Na^+/Ca^{2+}$ Exchanger (NCX)** relies on low intracellular $Na^+$ to drive $Ca^{2+}$ out. When $Na^+$ is high, the NCX slows down (or reverses), causing **Calcium** to accumulate in the cytosol/SR, which strengthens muscle contraction (positive inotropy)."
+          },
+          {
+            "question": "Liposomes are artificial vesicles used for drug delivery. They form spontaneously when phospholipids are mixed with water because:",
+            "options": [
+              "Phospholipids are hydrophilic.",
+              "Phospholipids are amphipathic and the Hydrophobic Effect drives the sequestration of tails away from water.",
+              "Covalent bonds form between tails.",
+              "ATP drives assembly.",
+              "Proteins organize them."
+            ],
+            "correct": 1,
+            "explanation": "The **Hydrophobic Effect** is the driving force. To maximize the entropy of water, amphipathic lipids self-assemble into bilayers where hydrophobic tails are buried and polar heads face the water, forming closed vesicles (liposomes)."
+          },
+          {
+            "question": "In nerve signal transmission, the Voltage-Gated Na+ Channel opens in response to depolarization. What mechanism ensures the signal is unidirectional (does not travel backward)?",
+            "options": [
+              "The channel degrades after opening.",
+              "The channel enters an Inactivated State (Ball and Chain mechanism) immediately after opening.",
+              "K+ channels open instantly.",
+              "The membrane runs out of Sodium.",
+              "The lipid fluidity changes."
+            ],
+            "correct": 1,
+            "explanation": "After opening, the channel rapidly transitions to a non-conducting **Inactivated State** (refractory period) via a physical occlusion of the pore (Ball and Chain). It cannot reopen until the membrane repolarizes. This prevents the action potential from propagating backward."
+          },
+          {
+            "question": "Tay-Sachs disease involves the accumulation of Ganglioside GM2. This lipid is normally degraded in the:",
+            "options": [
+              "Mitochondria",
+              "Cytosol",
+              "Lysosome",
+              "Golgi",
+              "ER"
+            ],
+            "correct": 2,
+            "explanation": "Sphingolipids (like gangliosides) are degraded step-by-step in the **Lysosome** by specific hydrolases. In Tay-Sachs, Hexosaminidase A is defective, causing GM2 to fill the lysosome, killing neurons."
+          },
+          {
+            "question": "Metabolism consists of coupled reactions. If Reaction A has a ΔG°' of +10 kJ/mol and Reaction B has a ΔG°' of -30 kJ/mol, what is the net ΔG°' when they are coupled, and does the reaction proceed spontaneously?",
+            "options": [
+              "+20 kJ/mol; Non-spontaneous",
+              "-20 kJ/mol; Spontaneous",
+              "+40 kJ/mol; Non-spontaneous",
+              "-40 kJ/mol; Spontaneous",
+              "0 kJ/mol; Equilibrium"
+            ],
+            "correct": 1,
+            "explanation": "Free energy changes are additive. When an endergonic reaction (+10) is coupled to a strongly exergonic reaction (-30) via a shared intermediate, the net free energy change is the algebraic sum: $(+10) + (-30) = -20\\, kJ/mol$. Since the net $\\Delta G$ is negative, the coupled process is spontaneous."
+          },
+          {
+            "question": "Why is ATP considered the 'universal energy currency' rather than molecules with higher phosphoryl-transfer potential like Phosphoenolpyruvate (PEP)?",
+            "options": [
+              "ATP has the highest energy bond known in chemistry.",
+              "ATP is the most stable molecule in the cell.",
+              "ATP has an intermediate phosphoryl-transfer potential, allowing it to accept phosphate from high-energy compounds and donate it to low-energy acceptors.",
+              "ATP contains a thioester bond.",
+              "ATP is a lipid."
+            ],
+            "correct": 2,
+            "explanation": "ATP occupies a crucial **intermediate** position in the hierarchy of phosphoryl-transfer potentials. This allows it to function as a carrier: it can be synthesized by receiving phosphate from super-high energy compounds (like PEP or 1,3-BPG) and can then donate that phosphate to energize lower-energy processes (like glucose phosphorylation). If it were the highest energy, it could not be easily regenerated."
+          },
+          {
+            "question": "The hydrolysis of ATP to ADP and Pi releases energy. Which chemical factor contributes LEAST to this exergonic nature?",
+            "options": [
+              "Relief of electrostatic repulsion between negative charges.",
+              "Resonance stabilization of the inorganic phosphate product.",
+              "Ionization of the ADP product.",
+              "Breaking of a stable peptide bond.",
+              "Greater solvation (hydration) of products compared to reactants."
+            ],
+            "correct": 3,
+            "explanation": "ATP hydrolysis is favorable due to: 1) Separation of repelling negative charges. 2) Resonance stabilization of Pi. 3) Solvation energy. ATP does **not** contain peptide bonds; it contains phosphoanhydride bonds. Breaking a peptide bond is relevant to proteins, not ATP."
+          },
+          {
+            "question": "In the oxidation of carbon fuels, which carbon atom yields the most free energy upon oxidation to CO2?",
+            "options": [
+              "A carbon atom in a carboxyl group (-COO-).",
+              "A carbon atom in a ketone (C=O).",
+              "A carbon atom in an alcohol (-CH-OH).",
+              "A highly reduced carbon atom in a saturated fatty acid (-CH2-).",
+              "A carbon in Carbon Dioxide."
+            ],
+            "correct": 3,
+            "explanation": "Energy extraction in metabolism is essentially oxidation (loss of electrons). The more reduced a carbon atom is (more H, fewer O), the more electrons it has to donate to oxygen. **Methylene carbons (-CH2-)** in fats are more reduced than the alcohol carbons in carbohydrates, which explains why fats yield more energy ($9\\, kcal/g$) than sugars ($4\\, kcal/g$)."
+          },
+          {
+            "question": "Which activated carrier is specialized for reductive biosynthesis (anabolism) rather than catabolic ATP generation?",
+            "options": [
+              "NAD+",
+              "FAD",
+              "NADPH",
+              "CoA",
+              "Ubiquinone"
+            ],
+            "correct": 2,
+            "explanation": "**NADPH** differs from NADH only by a phosphate group, but this tag allows enzymes to distinguish them. Cells maintain a high NADPH/NADP+ ratio to provide reducing power for **anabolic** pathways (Fatty acid synthesis, Cholesterol synthesis). NADH is used primarily for **catabolic** electron transport."
+          },
+          {
+            "question": "The 'Thioester' bond in Acetyl-CoA is a recurring metabolic motif. Why is this bond energetically significant?",
+            "options": [
+              "It is extremely stable and unreactive.",
+              "It cannot be hydrolyzed.",
+              "Unlike oxygen esters, thioesters lack resonance stabilization, making them 'high energy' and prone to acyl group transfer.",
+              "It is a strong reducing agent.",
+              "It forms a ring structure."
+            ],
+            "correct": 2,
+            "explanation": "Oxygen esters (R-COO-R) are stabilized by resonance between the carbonyl oxygen and the ester oxygen. . In **thioesters** (R-COS-R), the large size of the Sulfur atom prevents effective orbital overlap/resonance. This lack of stability gives the thioester a high free energy of hydrolysis, driving acyl transfer reactions (like entering the TCA cycle)."
+          },
+          {
+            "question": "Beta-Adrenergic receptors are members of the 7-Transmembrane (7TM) receptor superfamily. What structural feature is characteristic of these receptors?",
+            "options": [
+              "They are ion channels with a central pore.",
+              "They possess seven alpha-helices that snake back and forth across the plasma membrane.",
+              "They are dimers linked by disulfide bonds.",
+              "They have intrinsic tyrosine kinase activity.",
+              "They are located in the nuclear membrane."
+            ],
+            "correct": 1,
+            "explanation": "G-Protein Coupled Receptors (GPCRs), or **7TM receptors**, consist of a single polypeptide chain that traverses the lipid bilayer **seven times** as hydrophobic alpha-helices. Ligand binding occurs in a pocket formed by the extracellular loops or within the transmembrane core."
+          },
+          {
+            "question": "Ligand binding to a GPCR initiates signal transduction by triggering:",
+            "options": [
+              "Hydrolysis of the receptor.",
+              "A conformational change in the receptor that activates a heterotrimeric G-protein.",
+              "Direct binding of the receptor to DNA.",
+              "Opening of a chloride channel.",
+              "Phosphorylation of the ligand."
+            ],
+            "correct": 1,
+            "explanation": "The primary function of the receptor is to detect the ligand and transmit this information via a structural shift. This **conformational change** reveals a binding site on the intracellular side for the Heterotrimeric G-protein, acting as a Guanine Nucleotide Exchange Factor (GEF)."
+          },
+          {
+            "question": "The activation of the Heterotrimeric G-protein involves:",
+            "options": [
+              "Hydrolysis of GTP to GDP.",
+              "Phosphorylation of the alpha subunit.",
+              "Exchange of bound GDP for GTP on the alpha subunit and dissociation from beta-gamma.",
+              "Fusion of the alpha, beta, and gamma subunits.",
+              "Degradation of the beta subunit."
+            ],
+            "correct": 2,
+            "explanation": "In the inactive state, the $G_{\\alpha}$ subunit binds GDP and is associated with $\\beta\\gamma$. Upon receptor activation, the $G_{\\alpha}$ subunit releases GDP and binds **GTP** (abundant in cytosol). This conformational change causes $G_{\\alpha}$-GTP to dissociate from the $\\beta\\gamma$ dimer, allowing both to regulate downstream effectors."
+          },
+          {
+            "question": "Adenylate Cyclase is an enzyme activated by G-alpha-s. Its function is to convert:",
+            "options": [
+              "AMP to ATP.",
+              "ATP to cAMP and Pyrophosphate (PPi).",
+              "GTP to cGMP.",
+              "cAMP to AMP.",
+              "ATP to ADP and Pi."
+            ],
+            "correct": 1,
+            "explanation": "**Adenylate Cyclase** catalyzes the cyclization of ATP to **cyclic AMP (cAMP)**, releasing pyrophosphate ($PP_i$). The hydrolysis of PPi makes the reaction irreversible. cAMP acts as a soluble second messenger."
+          },
+          {
+            "question": "How does cAMP propagate the signal within the cell?",
+            "options": [
+              "It binds to DNA.",
+              "It binds to the regulatory subunits of Protein Kinase A (PKA), causing the release of active catalytic subunits.",
+              "It phosphorylates proteins directly.",
+              "It opens Calcium channels directly in all cells.",
+              "It is hydrolyzed to provide energy."
+            ],
+            "correct": 1,
+            "explanation": "Protein Kinase A (PKA) exists as an inactive tetramer ($R_2C_2$). **cAMP** binds cooperatively to the two Regulatory (R) subunits. This induces a conformational change that causes the **Catalytic (C) subunits** to dissociate. The free C subunits are now active kinases that phosphorylate target proteins."
+          },
+          {
+            "question": "The phosphoinositide cascade involves the cleavage of PIP2 by Phospholipase C (PLC). What are the two second messengers produced?",
+            "options": [
+              "cAMP and cGMP",
+              "IP3 (Inositol 1,4,5-trisphosphate) and DAG (Diacylglycerol)",
+              "Calcium and Magnesium",
+              "PIP3 and Akt",
+              "ATP and ADP"
+            ],
+            "correct": 1,
+            "explanation": "PLC cleaves the phospholipid $PIP_2$. The soluble head group, **$IP_3$**, diffuses to the ER to release Calcium. The lipid tail, **DAG**, remains in the membrane to activate Protein Kinase C (PKC)."
+          },
+          {
+            "question": "Signal termination is as important as activation. How is the G-protein signal turned off?",
+            "options": [
+              "The G-protein is degraded by the proteasome.",
+              "The G-alpha subunit has intrinsic GTPase activity that hydrolyzes bound GTP to GDP.",
+              "The receptor phosphorylates the G-protein.",
+              "ATP depletes.",
+              "The G-beta subunit hydrolyzes GTP."
+            ],
+            "correct": 1,
+            "explanation": "The $G_{\\alpha}$ subunit possesses a built-in 'timer': intrinsic **GTPase activity**. It spontaneously hydrolyzes its bound GTP to GDP ($GTP + H_2O \\rightarrow GDP + P_i$). Once bound to GDP, the $G_{\\alpha}$ reassociates with the $\\beta\\gamma$ dimer, returning the complex to the inactive state."
+          },
+          {
+            "question": "What is the role of Calmodulin in calcium signaling?",
+            "options": [
+              "It pumps Calcium out of the cell.",
+              "It is a Calcium channel.",
+              "It is a calcium-binding protein that undergoes a conformational change (EF hand) to bind and activate target enzymes.",
+              "It synthesizes Calcium.",
+              "It stores Calcium in the ER."
+            ],
+            "correct": 2,
+            "explanation": "**Calmodulin** (CaM) acts as a calcium sensor. It contains four Calcium-binding sites (EF hands). Upon binding $Ca^{2+}$, it exposes a hydrophobic patch that allows it to wrap around and activate target proteins like CaM-Kinase II."
+          },
+          {
+            "question": "Tyrosine Kinase Receptors (like the Insulin Receptor) differ from GPCRs because:",
+            "options": [
+              "They have 7 transmembrane helices.",
+              "They function as monomers.",
+              "They possess intrinsic enzymatic activity (kinase) in their cytoplasmic domain.",
+              "They use G-proteins.",
+              "They bind DNA."
+            ],
+            "correct": 2,
+            "explanation": "RTKs usually exist as monomers that dimerize upon ligand binding (Insulin receptor is already a dimer). This dimerization triggers **autophosphorylation** of Tyrosine residues on their own cytoplasmic tails. They do not require a separate G-protein; they *are* the kinase."
+          },
+          {
+            "question": "What is the function of the SH2 domain in signal transduction proteins?",
+            "options": [
+              "It binds to Proline-rich sequences.",
+              "It binds to Phosphotyrosine residues.",
+              "It binds to DNA.",
+              "It binds to Calcium.",
+              "It binds to Phospholipids."
+            ],
+            "correct": 1,
+            "explanation": "**SH2 (Src Homology 2)** domains are modular docking sites. They specifically recognize and bind to **Phosphorylated Tyrosine** residues on activated receptors or adaptor proteins. This allows the assembly of signaling complexes."
+          },
+          {
+            "question": "Cholera Toxin causes disease by:",
+            "options": [
+              "Blocking the receptor.",
+              "Inhibiting Adenylate Cyclase.",
+              "ADP-ribosylating G-alpha-s, inhibiting its GTPase activity.",
+              "Degrading cAMP.",
+              "Blocking Calcium channels."
+            ],
+            "correct": 2,
+            "explanation": "Cholera toxin is an enzyme that covalently modifies the $G_{\\alpha s}$ subunit by adding an ADP-ribose group. This modification **destroys the intrinsic GTPase activity**. The G-protein remains permanently locked in the active (GTP-bound) state, continuously stimulating Adenylate Cyclase, leading to massive cAMP/water efflux."
+          },
+          {
+            "question": "Which molecule serves as a 'High Energy' electron carrier derived from the vitamin Riboflavin?",
+            "options": [
+              "NADH",
+              "FADH2",
+              "Coenzyme A",
+              "ATP",
+              "Biotin"
+            ],
+            "correct": 1,
+            "explanation": "**FAD** (Flavin Adenine Dinucleotide) is derived from Riboflavin (Vitamin B2). Its reduced form, $FADH_2$, carries two electrons and two protons."
+          },
+          {
+            "question": "The concept of 'Amplification' in a signaling cascade refers to:",
+            "options": [
+              "The signal getting louder.",
+              "The fact that one receptor activation can lead to the activation of many downstream enzymes.",
+              "The need for multiple ligands to bind one receptor.",
+              "The synthesis of more receptors.",
+              "The use of ATP."
+            ],
+            "correct": 1,
+            "explanation": "Amplification is a key feature of cascades. One ligand activates one receptor. That one receptor can activate *hundreds* of G-proteins. Each G-protein activates one AC, but each AC produces *thousands* of cAMPs. This geometric increase ensures a small stimulus produces a large metabolic response."
+          },
+          {
+            "question": "Phosphodiesterases (PDEs) are enzymes that:",
+            "options": [
+              "Synthesize cAMP.",
+              "Degrade cAMP and cGMP by hydrolyzing the cyclic bond.",
+              "Phosphorylate proteins.",
+              "Dephosphorylate proteins.",
+              "Synthesize DNA."
+            ],
+            "correct": 1,
+            "explanation": "**Phosphodiesterases** terminate the cyclic nucleotide signal by hydrolyzing the 3',5'-cyclic phosphodiester bond to produce inactive 5'-AMP or 5'-GMP. Inhibiting PDEs (e.g., via Caffeine or Sildenafil) prolongs the signal."
+          },
+          {
+            "question": "In the Insulin signaling pathway, the lipid kinase PI3K converts PIP2 into:",
+            "options": [
+              "IP3",
+              "DAG",
+              "PIP3 (Phosphatidylinositol-3,4,5-trisphosphate)",
+              "ATP",
+              "Glucose"
+            ],
+            "correct": 2,
+            "explanation": "PI3-Kinase phosphorylates the 3-position of the inositol ring of $PIP_2$, creating **$PIP_3$**. $PIP_3$ acts as a membrane docking site for kinases like PDK1 and Akt (PKB), driving cell growth and glucose uptake."
+          },
+          {
+            "question": "The hydrolysis of Phosphocreatine is often used to regenerate ATP in muscle. Why?",
+            "options": [
+              "Phosphocreatine has a lower phosphoryl-transfer potential than ATP.",
+              "Phosphocreatine has a higher phosphoryl-transfer potential than ATP.",
+              "Phosphocreatine is an enzyme.",
+              "Phosphocreatine contains adenosine.",
+              "It requires no enzyme."
+            ],
+            "correct": 1,
+            "explanation": "Creatine Phosphate (Phosphocreatine) has a **higher** standard free energy of hydrolysis ($\u2248 -43 kJ/mol$) than ATP ($\u2248 -30 kJ/mol$). Therefore, it can thermodynamically drive the phosphorylation of ADP to ATP during bursts of exercise."
+          },
+          {
+            "question": "Small G-proteins like Ras differ from Heterotrimeric G-proteins because:",
+            "options": [
+              "They are monomeric (single subunit).",
+              "They do not bind GTP.",
+              "They are not membrane associated.",
+              "They are always active.",
+              "They activate Adenylate Cyclase."
+            ],
+            "correct": 0,
+            "explanation": "The Ras superfamily (Ras, Rho, Rab, Ran) consists of small, **monomeric** (20-25 kDa) GTPases. They function similarly to the $G_{\\alpha}$ subunit (molecular switches) but do not associate with $\\beta\\gamma$ subunits directly."
+          },
+          {
+            "question": "Desensitization (Adaptation) of GPCRs prevents chronic overstimulation. This is often mediated by:",
+            "options": [
+              "Synthesis of more receptors.",
+              "Phosphorylation of the receptor by G-protein Receptor Kinases (GRK) and binding of Beta-Arrestin.",
+              "Increasing G-protein levels.",
+              "Decreasing temperature.",
+              "Secretion of ligand."
+            ],
+            "correct": 1,
+            "explanation": "To turn off a receptor even if ligand is present, **GRKs** phosphorylate the receptor tail. This recruits **Beta-Arrestin**, which sterically blocks G-protein binding and triggers receptor endocytosis (internalization)."
+          },
+          {
+            "question": "Which vitamin serves as the precursor for NAD+ and NADP+?",
+            "options": [
+              "Thiamine (B1)",
+              "Riboflavin (B2)",
+              "Niacin (B3)",
+              "Pantothenate (B5)",
+              "Pyridoxine (B6)"
+            ],
+            "correct": 2,
+            "explanation": "**Niacin (Nicotinic acid)** is the precursor for the Nicotinamide ring of $NAD^+$ (Nicotinamide Adenine Dinucleotide). Deficiency leads to Pellagra."
+          },
+          {
+            "question": "The 'EF Hand' is a common structural motif found in:",
+            "options": [
+              "ATP binding proteins.",
+              "Calcium binding proteins.",
+              "DNA binding proteins.",
+              "Lipid binding proteins.",
+              "G-proteins."
+            ],
+            "correct": 1,
+            "explanation": "The **EF Hand** is a helix-loop-helix structural domain found in a large family of calcium-binding proteins (e.g., Calmodulin, Troponin C). The loop coordinates the $Ca^{2+}$ ion."
+          },
+          {
+            "question": "When Protein Kinase C (PKC) is activated, it often requires association with the membrane. Which lipid activates it?",
+            "options": [
+              "Cholesterol",
+              "Diacylglycerol (DAG)",
+              "Sphingomyelin",
+              "Cardiolipin",
+              "Free Fatty Acids"
+            ],
+            "correct": 1,
+            "explanation": "PKC activation generally requires $Ca^{2+}$ and **Diacylglycerol (DAG)**. DAG increases the affinity of PKC for the membrane, where it finds its substrates."
+          },
+          {
+            "question": "A reaction with a positive ΔG can be driven by:",
+            "options": [
+              "Adding a catalyst.",
+              "Coupling it to the hydrolysis of ATP.",
+              "Decreasing the temperature.",
+              "Increasing product concentration.",
+              "Waiting longer."
+            ],
+            "correct": 1,
+            "explanation": "Catalysts change rate, not equilibrium. To make a non-spontaneous ($\Delta G > 0$) reaction proceed, it must be **coupled** to an exergonic reaction (like ATP hydrolysis, $\Delta G < 0$) such that the total sum $\Delta G$ is negative."
+          },
+          {
+            "question": "Which amino acids are the targets of Protein Kinase A phosphorylation?",
+            "options": [
+              "Tyrosine only.",
+              "Serine and Threonine.",
+              "Histidine and Aspartate.",
+              "Glycine and Alanine.",
+              "Cysteine and Methionine."
+            ],
+            "correct": 1,
+            "explanation": "PKA is a **Serine/Threonine kinase**. It transfers phosphate to the hydroxyl group of Ser or Thr residues in specific consensus sequences (e.g., Arg-Arg-X-Ser-Z)."
+          },
+          {
+            "question": "Oncogenes often code for mutated signaling proteins. A mutation that destroys the intrinsic GTPase activity of Ras would lead to:",
+            "options": [
+              "A permanently inactive Ras.",
+              "A Ras that cannot bind GTP.",
+              "A permanently active Ras that drives uncontrolled cell growth.",
+              "Apoptosis.",
+              "Loss of kinase activity."
+            ],
+            "correct": 2,
+            "explanation": "Ras acts as a switch. GTP-Ras = ON; GDP-Ras = OFF. The 'OFF' switch is the intrinsic GTPase. If this is broken (common in cancers), Ras remains stuck in the **GTP-bound ON state**, constantly signaling the cell to divide (proliferation) regardless of external growth factors."
+          },
+          {
+            "question": "The conversion of Glucose to Glucose-6-Phosphate by Hexokinase is the first step of glycolysis. Mechanistically, why is this phosphorylation step critical for cellular metabolism?",
+            "options": [
+              "It generates ATP.",
+              "It traps glucose inside the cell because the negative charge of the phosphate group prevents it from crossing the plasma membrane.",
+              "It activates glucose for immediate oxidation to CO2.",
+              "It makes glucose more hydrophobic.",
+              "It allows glucose to enter the mitochondria."
+            ],
+            "correct": 1,
+            "explanation": "Glucose transporters (GLUTs) allow glucose to flow down its concentration gradient. Once inside, if glucose remains uncharged, it could diffuse back out. **Phosphorylation** at C-6 adds a bulky, negatively charged phosphate group. Membranes are impermeable to charged molecules, effectively **trapping** the glucose in the cytosol for metabolism."
+          },
+          {
+            "question": "Phosphofructokinase-1 (PFK-1) is the primary rate-limiting enzyme of glycolysis. Which of the following allosteric effectors represents the most potent activator of PFK-1 in the liver?",
+            "options": [
+              "ATP",
+              "Citrate",
+              "Fructose-2,6-Bisphosphate",
+              "Glucose-6-Phosphate",
+              "Hydrogen ions (Low pH)"
+            ],
+            "correct": 2,
+            "explanation": "While AMP is an activator, **Fructose-2,6-Bisphosphate (F-2,6-BP)** is the most potent positive allosteric effector. It increases PFK-1's affinity for Fructose-6-P and diminishes the inhibitory effect of ATP. F-2,6-BP levels are hormonally regulated by Insulin (increases it) and Glucagon (decreases it) via the bifunctional enzyme PFK-2/FBPase-2."
+          },
+          {
+            "question": "In the reaction catalyzed by Glyceraldehyde-3-Phosphate Dehydrogenase (GAPDH), an inorganic phosphate is incorporated into the product (1,3-BPG). What is the chemical function of the active site Cysteine residue in this mechanism?",
+            "options": [
+              "It acts as a general base.",
+              "It forms a high-energy thioester intermediate with the substrate.",
+              "It donates a phosphate group.",
+              "It oxidizes NADH.",
+              "It stabilizes the magnesium ion."
+            ],
+            "correct": 1,
+            "explanation": "The thiol group of the active site **Cysteine** attacks the aldehyde group of G3P, forming a **thiohemiacetal**. This intermediate is then oxidized by NAD+ to form a high-energy **thioester**. The energy of this thioester bond is conserved and used to drive the unfavorable addition of inorganic phosphate to form 1,3-Bisphosphoglycerate."
+          },
+          {
+            "question": "Arsenate (AsO4 3-) mimics inorganic phosphate. If Arsenate is present during glycolysis, it allows GAPDH to proceed but the product, 1-Arseno-3-phosphoglycerate, hydrolyzes spontaneously. What is the net ATP yield of glycolysis in the presence of Arsenate?",
+            "options": [
+              "2 ATP",
+              "4 ATP",
+              "0 ATP",
+              "-2 ATP",
+              "32 ATP"
+            ],
+            "correct": 2,
+            "explanation": "Normally, glycolysis consumes 2 ATP and produces 4 ATP (net 2). The 1,3-BPG step leads to the first substrate-level phosphorylation (Phosphoglycerate Kinase). If Arsenate is used, the high-energy bond is lost to spontaneous hydrolysis, meaning **no ATP is generated at the PGK step**. Since Pyruvate Kinase still produces 2 ATP (later), and 2 ATP were invested, the net yield is **0 ATP**. The pathway continues, but it generates no net energy."
+          },
+          {
+            "question": "Under anaerobic conditions, Pyruvate is reduced to Lactate by Lactate Dehydrogenase (LDH). What is the primary metabolic purpose of this reaction?",
+            "options": [
+              "To produce more ATP.",
+              "To regenerate NAD+ required for GAPDH to keep glycolysis running.",
+              "To lower the pH of the cell.",
+              "To produce NADH.",
+              "To store energy in lactate."
+            ],
+            "correct": 1,
+            "explanation": "Glycolysis requires a continuous supply of **NAD+** for the GAPDH reaction. In aerobic conditions, NADH is oxidized by the electron transport chain. In anaerobic conditions (no O2), the ETC stops. The LDH reaction ($Pyruvate + NADH \rightarrow Lactate + NAD^+$) serves solely to **regenerate NAD+**, allowing glycolysis (and ATP production) to continue."
+          },
+          {
+            "question": "Which enzyme represents the first 'Bypass' step in Gluconeogenesis, overcoming the irreversible Pyruvate Kinase reaction?",
+            "options": [
+              "Pyruvate Carboxylase and PEPCK",
+              "Fructose-1,6-Bisphosphatase",
+              "Glucose-6-Phosphatase",
+              "Malate Dehydrogenase",
+              "Citrate Synthase"
+            ],
+            "correct": 0,
+            "explanation": "Pyruvate Kinase is irreversible. To reverse it, Gluconeogenesis uses two enzymes: 1) **Pyruvate Carboxylase** (mitochondrial) converts Pyruvate to Oxaloacetate (requiring ATP and Biotin). 2) **Phosphoenolpyruvate Carboxykinase (PEPCK)** converts Oxaloacetate to PEP (requiring GTP). This two-step process bypasses the high energy barrier."
+          },
+          {
+            "question": "Biotin is an essential cofactor for Pyruvate Carboxylase. What is its specific role in the catalytic mechanism?",
+            "options": [
+              "It carries high-energy electrons.",
+              "It acts as a carrier of activated CO2.",
+              "It forms a Schiff base with the substrate.",
+              "It facilitates phosphate transfer.",
+              "It splits the pyruvate molecule."
+            ],
+            "correct": 1,
+            "explanation": "Biotin serves as a covalently bound prosthetic group that carries **activated carbon dioxide** (derived from bicarbonate and ATP). The biotin arm swings between two active sites: capturing CO2 at one site and transferring it to Pyruvate at the second site to form Oxaloacetate."
+          },
+          {
+            "question": "High levels of Acetyl-CoA reciprocally regulate Glycolysis and Gluconeogenesis by:",
+            "options": [
+              "Inhibiting Pyruvate Carboxylase and activating Pyruvate Dehydrogenase.",
+              "Activating Pyruvate Carboxylase and inhibiting Pyruvate Dehydrogenase.",
+              "Activating PFK-1.",
+              "Inhibiting Fructose-1,6-Bisphosphatase.",
+              "Activating Hexokinase."
+            ],
+            "correct": 1,
+            "explanation": "High Acetyl-CoA signals that the cell has plenty of energy/fuel. Acetyl-CoA **inhibits Pyruvate Dehydrogenase** (stopping entry into TCA) and allosterically **activates Pyruvate Carboxylase**, directing pyruvate toward **Gluconeogenesis** (to make glucose) or oxaloacetate replenishment."
+          },
+          {
+            "question": "Fructose metabolism in the liver differs from Glucose metabolism because Fructose-1-Phosphate enters glycolysis at the level of Triose Phosphates. This is metabolically significant because:",
+            "options": [
+              "It produces more ATP than glucose.",
+              "It bypasses the major regulatory step catalyzed by PFK-1.",
+              "It requires no ATP investment.",
+              "It enters the mitochondria directly.",
+              "It cannot be converted to fat."
+            ],
+            "correct": 1,
+            "explanation": "Aldolase B cleaves Fructose-1-P into DHAP and Glyceraldehyde. These bypass **Phosphofructokinase-1 (PFK-1)**, the main gatekeeper of glycolysis. Consequently, fructose oxidation is unregulated and rapid, producing a flood of Acetyl-CoA that promotes **Fatty Acid Synthesis** (lipogenesis) more readily than glucose."
+          },
+          {
+            "question": "The Pentose Phosphate Pathway (PPP) has two phases. The oxidative phase generates NADPH and:",
+            "options": [
+              "ATP",
+              "Ribose-5-Phosphate",
+              "Fructose-6-Phosphate",
+              "Pyruvate",
+              "Lactate"
+            ],
+            "correct": 1,
+            "explanation": "The oxidative phase (G6PD and 6-Phosphogluconate Dehydrogenase) produces 2 moles of **NADPH** and decarboxylates the hexose to form a pentose, **Ribose-5-Phosphate**. This ribose is essential for nucleotide (DNA/RNA) synthesis."
+          },
+          {
+            "question": "Glucose-6-Phosphate Dehydrogenase (G6PD) is regulated primarily by:",
+            "options": [
+              "The concentration of Glucose-6-Phosphate.",
+              "The ratio of NADP+ to NADPH.",
+              "Insulin levels.",
+              "ATP levels.",
+              "Citrate."
+            ],
+            "correct": 1,
+            "explanation": "The G6PD reaction is the committed step of the PPP. It is feedback inhibited by high levels of **NADPH**. When the cell consumes NADPH (for biosynthesis or antioxidant defense), the level of **NADP+** rises, stimulating G6PD to restore the balance."
+          },
+          {
+            "question": "Glycogen Phosphorylase requires which cofactor to cleave alpha-1,4-glycosidic bonds via phosphorolysis?",
+            "options": [
+              "NAD+",
+              "Pyridoxal Phosphate (PLP - Vitamin B6)",
+              "Thiamine Pyrophosphate (TPP)",
+              "Biotin",
+              "FAD"
+            ],
+            "correct": 1,
+            "explanation": "**Pyridoxal Phosphate (PLP)** is the essential cofactor. Its phosphate group acts as a general acid catalyst, donating a proton to the inorganic phosphate substrate, allowing it to attack the glycosidic bond. This produces Glucose-1-Phosphate."
+          },
+          {
+            "question": "The 'Branching Enzyme' in glycogen synthesis moves a block of ~7 glucose residues from the end of a chain to an interior position. This creates an alpha-1,6 linkage. What is the physiological advantage of branching?",
+            "options": [
+              "It makes glycogen harder to digest.",
+              "It decreases the solubility of the granule.",
+              "It increases the number of non-reducing ends, allowing for more rapid synthesis and degradation.",
+              "It reduces the osmotic pressure of glucose.",
+              "It prevents glycogen from entering the nucleus."
+            ],
+            "correct": 2,
+            "explanation": "Branching serves two purposes: 1) It increases solubility. 2) Crucially, it creates many **non-reducing ends**. Since Phosphorylase acts only on non-reducing ends, a branched polymer allows many enzymes to work simultaneously, permitting a massive release of glucose in seconds during the 'fight or flight' response."
+          },
+          {
+            "question": "Protein Kinase A (PKA) regulates glycogen metabolism reciprocally. Phosphorylation by PKA has what effect?",
+            "options": [
+              "Activates Glycogen Synthase and Activates Glycogen Phosphorylase.",
+              "Inhibits Glycogen Synthase and Inhibits Glycogen Phosphorylase.",
+              "Inhibits Glycogen Synthase and Activates Glycogen Phosphorylase.",
+              "Activates Glycogen Synthase and Inhibits Glycogen Phosphorylase.",
+              "Degrades Glycogen Synthase."
+            ],
+            "correct": 2,
+            "explanation": "PKA signals low blood glucose (Glucagon) or stress (Epinephrine). Therefore, it should promote breakdown and stop storage. PKA phosphorylates **Glycogen Phosphorylase (activating it)** to release glucose, and phosphorylates **Glycogen Synthase (inactivating it)** to stop synthesis."
+          },
+          {
+            "question": "The conversion of Pyruvate to Phosphoenolpyruvate (PEP) in Gluconeogenesis requires the transport of Oxaloacetate from the mitochondria to the cytosol. Since Oxaloacetate cannot cross the membrane, it is temporarily converted into:",
+            "options": [
+              "Citrate",
+              "Malate",
+              "Lactate",
+              "Acetyl-CoA",
+              "Alanine"
+            ],
+            "correct": 1,
+            "explanation": "Oxaloacetate is reduced to **Malate** by mitochondrial Malate Dehydrogenase. Malate crosses the inner mitochondrial membrane via the malate-aspartate shuttle. In the cytosol, Malate is re-oxidized back to Oxaloacetate, supplying NADH for the subsequent gluconeogenic steps."
+          },
+          {
+            "question": "Which enzyme is found in the Liver and Kidney but is absent in Muscle and Adipose tissue, explaining why muscle glycogen cannot directly contribute to blood glucose?",
+            "options": [
+              "Glycogen Phosphorylase",
+              "Phosphoglucomutase",
+              "Glucose-6-Phosphatase",
+              "Hexokinase",
+              "UDP-Glucose Pyrophosphorylase"
+            ],
+            "correct": 2,
+            "explanation": "**Glucose-6-Phosphatase** is the final enzyme of gluconeogenesis and glycogenolysis. It removes the phosphate to create free Glucose, which can exit the cell via GLUT2. Muscle lacks this enzyme; therefore, muscle glycogen degrades to G-6-P, which must enter glycolysis for the muscle's own energy use."
+          },
+          {
+            "question": "The reaction catalyzed by Pyruvate Kinase is the third irreversible step of glycolysis. It is activated via feed-forward stimulation by:",
+            "options": [
+              "ATP",
+              "Alanine",
+              "Fructose-1,6-Bisphosphate",
+              "Citrate",
+              "Acetyl-CoA"
+            ],
+            "correct": 2,
+            "explanation": "To ensure glycolysis proceeds smoothly, the product of the PFK-1 reaction, **Fructose-1,6-Bisphosphate**, acts as a feed-forward activator of **Pyruvate Kinase** (the last step). This prepares the exit of the pathway to handle the incoming flux of carbons."
+          },
+          {
+            "question": "Transketolase, an enzyme in the non-oxidative phase of the PPP, requires which cofactor to transfer two-carbon units?",
+            "options": [
+              "Biotin",
+              "Thiamine Pyrophosphate (TPP)",
+              "NAD+",
+              "PLP",
+              "FAD"
+            ],
+            "correct": 1,
+            "explanation": "**Thiamine Pyrophosphate (TPP)** acts as an aldehyde carrier. In Transketolase, the carbanion of TPP attacks the ketose substrate, transferring a two-carbon glycolaldehyde unit to an aldose acceptor (e.g., converting Xylulose-5-P + Ribose-5-P to Glyceraldehyde-3-P + Sedoheptulose-7-P)."
+          },
+          {
+            "question": "What is the net energetic cost (in high-energy phosphate bonds) to synthesize one molecule of Glucose from two molecules of Pyruvate via Gluconeogenesis?",
+            "options": [
+              "2 ATP",
+              "4 ATP",
+              "6 ATP equivalents (4 ATP + 2 GTP)",
+              "32 ATP",
+              "0 ATP"
+            ],
+            "correct": 2,
+            "explanation": "Gluconeogenesis is expensive. 2 Pyruvate $\rightarrow$ 2 Oxaloacetate (2 ATP). 2 Oxaloacetate $\rightarrow$ 2 PEP (2 GTP). 2 x 3-Phosphoglycerate $\rightarrow$ 2 x 1,3-BPG (2 ATP). Total = **6 high-energy bonds** are consumed to make 1 Glucose."
+          },
+          {
+            "question": "UDP-Glucose is the activated donor for glycogen synthesis. It is synthesized from Glucose-1-Phosphate and UTP by UDP-Glucose Pyrophosphorylase. What drives this reaction to completion?",
+            "options": [
+              "Hydrolysis of the glycosidic bond.",
+              "Hydrolysis of Pyrophosphate (PPi) by inorganic pyrophosphatase.",
+              "Reduction of NADPH.",
+              "Oxidation of Glucose.",
+              "Release of heat."
+            ],
+            "correct": 1,
+            "explanation": "The formation of UDP-Glucose releases Pyrophosphate (PPi). The ubiquitous enzyme **Inorganic Pyrophosphatase** rapidly hydrolyzes PPi into 2 Pi. This strongly exergonic hydrolysis removes the product, pulling the reversible UDP-glucose synthesis reaction forward (Le Chatelier's principle)."
+          },
+          {
+            "question": "Galactose enters glycolysis by being converted to Glucose-6-Phosphate. A key intermediate is UDP-Galactose, which is converted to UDP-Glucose by:",
+            "options": [
+              "Galactokinase",
+              "UDP-Glucose-4-Epimerase",
+              "Galactose-1-Phosphate Uridyltransferase",
+              "Aldolase B",
+              "Phosphoglucomutase"
+            ],
+            "correct": 1,
+            "explanation": "Galactose and Glucose are C-4 epimers. **UDP-Glucose-4-Epimerase** inverts the configuration of the hydroxyl group at Carbon 4, converting UDP-Galactose into UDP-Glucose, which can then be used in glycogen synthesis or glycolysis."
+          },
+          {
+            "question": "Which enzyme of the PPP is crucial for protecting erythrocytes against oxidative stress from Reactive Oxygen Species (ROS)?",
+            "options": [
+              "Transaldolase",
+              "Glucose-6-Phosphate Dehydrogenase (G6PD)",
+              "Ribose-5-Phosphate Isomerase",
+              "Phosphopentose epimerase",
+              "Hexokinase"
+            ],
+            "correct": 1,
+            "explanation": "**G6PD** produces NADPH. In RBCs, NADPH is required by Glutathione Reductase to maintain a pool of Reduced Glutathione (GSH). GSH is essential for Glutathione Peroxidase to neutralize Hydrogen Peroxide ($H_2O_2$). Without G6PD, RBCs are vulnerable to oxidative hemolysis."
+          },
+          {
+            "question": "The Cori Cycle involves the metabolic cooperation between Muscle and Liver. It involves the transport of:",
+            "options": [
+              "Glucose from muscle to liver; Lactate from liver to muscle.",
+              "Lactate from muscle to liver; Glucose from liver to muscle.",
+              "Alanine from muscle to liver; Glucose from liver to muscle.",
+              "Pyruvate from muscle to liver; Lactate from liver to muscle.",
+              "Glycogen from muscle to liver."
+            ],
+            "correct": 1,
+            "explanation": "In active muscle, glycolysis produces **Lactate** (anaerobic). Lactate enters the blood and goes to the Liver. The Liver converts Lactate back to **Glucose** via Gluconeogenesis. This glucose returns to the muscle to fuel contraction. This is the **Cori Cycle**."
+          },
+          {
+            "question": "In the fasting state, Glucagon binds to liver receptors. This leads to the phosphorylation of the bifunctional enzyme PFK-2/FBPase-2. What is the result?",
+            "options": [
+              "Increased Fructose-2,6-Bisphosphate; increased Glycolysis.",
+              "Decreased Fructose-2,6-Bisphosphate; increased Gluconeogenesis.",
+              "Increased Fructose-2,6-Bisphosphate; increased Gluconeogenesis.",
+              "Decreased Fructose-2,6-Bisphosphate; increased Glycolysis.",
+              "No change in flux."
+            ],
+            "correct": 1,
+            "explanation": "Glucagon (via PKA) phosphorylates the bifunctional enzyme. Phosphorylation inactivates the PFK-2 domain and activates the FBPase-2 domain. This lowers **F-2,6-BP levels**. Since F-2,6-BP is an activator of PFK-1 (glycolysis) and inhibitor of FBPase-1 (gluconeogenesis), its removal favors **Gluconeogenesis**."
+          },
+          {
+            "question": "The 'Debranching Enzyme' has two distinct activities. They are:",
+            "options": [
+              "Alpha-1,4-glucosidase and Alpha-1,6-glucosidase.",
+              "Transferase (4:4) and Alpha-1,6-glucosidase.",
+              "Kinase and Phosphatase.",
+              "Synthase and Phosphorylase.",
+              "Oxidase and Reductase."
+            ],
+            "correct": 1,
+            "explanation": "First, the **Transferase** activity moves a trisaccharide unit from the branch to the main chain. Second, the **Alpha-1,6-Glucosidase** activity hydrolyzes the single remaining glucose at the branch point, releasing free Glucose (not G-1-P)."
+          },
+          {
+            "question": "Which of the following is a specific inhibitor of Enolase, effectively blocking glycolysis, and is often used in blood collection tubes to preserve glucose levels?",
+            "options": [
+              "Citrate",
+              "Fluoride",
+              "Arsenate",
+              "Cyanide",
+              "Malnonate"
+            ],
+            "correct": 1,
+            "explanation": "**Fluoride** ions inhibit Enolase by binding magnesium and phosphate in the active site. This prevents erythrocytes in the blood sample from consuming the glucose via glycolysis before the lab can measure it (Grey-top tubes)."
+          },
+          {
+            "question": "Von Gierke Disease (Glycogen Storage Disease Type I) affects the liver's ability to regulate blood glucose. The molecular defect is in:",
+            "options": [
+              "Glycogen Synthase",
+              "Glucose-6-Phosphatase",
+              "Muscle Phosphorylase",
+              "Acid Maltase",
+              "Debranching Enzyme"
+            ],
+            "correct": 1,
+            "explanation": "Type I GSD is a deficiency of **Glucose-6-Phosphatase**. The liver can break down glycogen to G-6-P, but cannot dephosphorylate it to release Glucose into the blood. This leads to severe fasting hypoglycemia and hepatomegaly (trapped glycogen)."
+          },
+          {
+            "question": "During strenuous exercise, AMP levels rise in the muscle. AMP acts as an allosteric activator of:",
+            "options": [
+              "Hexokinase",
+              "Pyruvate Carboxylase",
+              "Glycogen Phosphorylase b (muscle isozyme) and PFK-1.",
+              "Fructose-1,6-Bisphosphatase.",
+              "Glycogen Synthase."
+            ],
+            "correct": 2,
+            "explanation": "AMP is a signal of low energy. In muscle, AMP allosterically activates **Phosphorylase b** (making it active without phosphorylation) to release glucose fuel, and simultaneously activates **PFK-1** to speed up glycolysis."
+          },
+          {
+            "question": "In the liver, Glycerol (from fat breakdown) can enter Gluconeogenesis. Which enzyme allows glycerol to enter the pathway?",
+            "options": [
+              "Glycerol Kinase",
+              "Hexokinase",
+              "Pyruvate Kinase",
+              "PEPCK",
+              "Aldolase B"
+            ],
+            "correct": 0,
+            "explanation": "The liver possesses **Glycerol Kinase**, which phosphorylates glycerol to Glycerol-3-Phosphate. This is then oxidized to Dihydroxyacetone Phosphate (DHAP), a glycolytic/gluconeogenic intermediate. Adipose tissue lacks Glycerol Kinase."
+          },
+          {
+            "question": "Why is the Pyruvate Dehydrogenase (PDH) reaction not considered part of Gluconeogenesis?",
+            "options": [
+              "It occurs in the cytosol.",
+              "It is irreversible (Acetyl-CoA cannot be converted back to Pyruvate).",
+              "It produces ATP.",
+              "It requires Biotin.",
+              "It is not regulated."
+            ],
+            "correct": 1,
+            "explanation": "The PDH reaction ($Pyruvate \rightarrow Acetyl-CoA + CO_2$) is biologically **irreversible**. Humans lack the enzymes to convert Acetyl-CoA back into Pyruvate or Oxaloacetate (Glyoxylate cycle). Thus, fatty acids (which break down to Acetyl-CoA) cannot be used to synthesize net glucose."
+          },
+          {
+            "question": "The Citric Acid Cycle (TCA) is described as 'amphibolic' because it functions in both catabolism (energy production) and anabolism (biosynthesis). Which intermediate is withdrawn from the cycle to serve as the precursor for Heme synthesis?",
+            "options": [
+              "Citrate",
+              "Alpha-Ketoglutarate",
+              "Succinyl-CoA",
+              "Malate",
+              "Oxaloacetate"
+            ],
+            "correct": 2,
+            "explanation": "TCA intermediates are key building blocks. **Succinyl-CoA** is condensed with Glycine by the enzyme ALA Synthase to begin the synthesis of Porphyrins (Heme). Citrate is used for fatty acids; Alpha-Ketoglutarate for glutamate/amino acids; Oxaloacetate for glucose."
+          },
+          {
+            "question": "The Pyruvate Dehydrogenase Complex (PDH) is tightly regulated. Which covalent modification inactivates the complex?",
+            "options": [
+              "Dephosphorylation by PDH Phosphatase.",
+              "Phosphorylation of the E1 subunit by PDH Kinase.",
+              "Acetylation of the E2 subunit.",
+              "Methylation of the E3 subunit.",
+              "Ubiquitination."
+            ],
+            "correct": 1,
+            "explanation": "**PDH Kinase** phosphorylates a specific Serine residue on the E1 subunit, **inactivating** the complex. This happens when energy is high (High ATP, NADH, Acetyl-CoA). Conversely, PDH Phosphatase (activated by Calcium and Insulin) removes the phosphate to activate the enzyme."
+          },
+          {
+            "question": "Fluoroacetate (rat poison) inhibits the TCA cycle by being converted to Fluorocitrate. Fluorocitrate is a suicide inhibitor of which enzyme?",
+            "options": [
+              "Citrate Synthase",
+              "Aconitase",
+              "Isocitrate Dehydrogenase",
+              "Alpha-Ketoglutarate Dehydrogenase",
+              "Succinate Dehydrogenase"
+            ],
+            "correct": 1,
+            "explanation": "Fluoroacetate is converted to Fluoroacetyl-CoA, which Citrate Synthase combines with Oxaloacetate to make Fluorocitrate. Fluorocitrate binds tightly to the active site iron-sulfur center of **Aconitase**, blocking the conversion of Citrate to Isocitrate and halting the cycle."
+          },
+          {
+            "question": "Which enzyme represents the only physical link between the Citric Acid Cycle (matrix) and the Electron Transport Chain (inner membrane)?",
+            "options": [
+              "NADH Dehydrogenase (Complex I)",
+              "Succinate Dehydrogenase (Complex II)",
+              "Cytochrome c Reductase (Complex III)",
+              "Cytochrome c Oxidase (Complex IV)",
+              "ATP Synthase (Complex V)"
+            ],
+            "correct": 1,
+            "explanation": "**Succinate Dehydrogenase** is unique. It is a TCA cycle enzyme (oxidizing Succinate to Fumarate) AND it is **Complex II** of the ETC. It is embedded in the inner mitochondrial membrane and passes electrons from FADH2 directly to Ubiquinone (Q)."
+          },
+          {
+            "question": "In the Electron Transport Chain, protons are pumped from the matrix to the intermembrane space. Which complexes are proton pumps?",
+            "options": [
+              "Complexes I, II, and III",
+              "Complexes I, III, and IV",
+              "Complexes II, III, and IV",
+              "Complexes I and II only",
+              "Complex V only"
+            ],
+            "correct": 1,
+            "explanation": "The energy of electron transfer is used to pump protons at three sites: **Complex I** (4 H+), **Complex III** (4 H+), and **Complex IV** (2 H+).  Complex II (Succinate Dehydrogenase) does not span the membrane completely and does not pump protons."
+          },
+          {
+            "question": "Cyanide blocks respiration by binding to the heme a3-CuB center of Complex IV. This inhibits electron transfer to:",
+            "options": [
+              "Ubiquinone",
+              "Cytochrome c",
+              "Oxygen",
+              "NAD+",
+              "FAD"
+            ],
+            "correct": 2,
+            "explanation": "Complex IV (Cytochrome c Oxidase) is the final destination of electrons. It holds **Oxygen** ($O_2$) and transfers 4 electrons to it to produce water. Cyanide competes with Oxygen for the binding site, preventing the final reduction and backing up the entire chain."
+          },
+          {
+            "question": "The Chemiosmotic Theory states that ATP synthesis is driven by:",
+            "options": [
+              "Direct transfer of phosphate from a high-energy substrate (Substrate-level phosphorylation).",
+              "The flow of electrons through ATP Synthase.",
+              "The proton motive force (electrochemical gradient) across the inner mitochondrial membrane.",
+              "The hydrolysis of GTP.",
+              "Heat energy."
+            ],
+            "correct": 2,
+            "explanation": "Peter Mitchell's theory posits that the energy from oxidation is stored as a **Proton Motive Force** (pH gradient + membrane potential). The return flow of protons back into the matrix through the $F_0$ pore of ATP Synthase drives the rotation of the $\\gamma$-subunit, which mechanically forces ATP synthesis."
+          },
+          {
+            "question": "Malonate is a competitive inhibitor of Succinate Dehydrogenase because structurally it resembles:",
+            "options": [
+              "Citrate",
+              "Succinate",
+              "Fumarate",
+              "Malate",
+              "Oxaloacetate"
+            ],
+            "correct": 1,
+            "explanation": "Succinate ($^-OOC-CH_2-CH_2-COO^-$) has two methylenes. Malonate ($^-OOC-CH_2-COO^-$) has one. This structural similarity allows Malonate to bind the active site but it cannot be dehydrogenated, making it a classic **Competitive Inhibitor**."
+          },
+          {
+            "question": "Uncoupling agents like 2,4-Dinitrophenol (DNP) increase oxygen consumption but decrease ATP synthesis. They work by:",
+            "options": [
+              "Blocking the ATP synthase pore.",
+              "Inhibiting Complex I.",
+              "Carrying protons across the inner mitochondrial membrane, dissipating the gradient.",
+              "Binding to Oxygen.",
+              "Inhibiting the Adenine Nucleotide Translocase."
+            ],
+            "correct": 2,
+            "explanation": "Uncouplers are lipid-soluble weak acids. They pick up protons in the intermembrane space (high [H+]) and diffuse through the lipid bilayer to release them in the matrix (low [H+]). This short-circuits the proton gradient. The ETC runs faster (trying to restore the gradient), consuming max Oxygen, but no ATP is made because the PMF is gone. Energy is lost as **heat**."
+          },
+          {
+            "question": "Which cofactor is required by Alpha-Ketoglutarate Dehydrogenase and is often deficient in alcoholics, leading to energy failure?",
+            "options": [
+              "Biotin",
+              "Thiamine Pyrophosphate (TPP)",
+              "Pyridoxal Phosphate",
+              "Cobalamin",
+              "Folic Acid"
+            ],
+            "correct": 1,
+            "explanation": "Like PDH, the **Alpha-Ketoglutarate Dehydrogenase** complex requires 5 cofactors: TPP, Lipoic Acid, CoA, FAD, NAD+. **Thiamine (TPP)** is the first cofactor in the mechanism (decarboxylation). Deficiency halts the cycle at this step."
+          },
+          {
+            "question": "The rate of Oxidative Phosphorylation is primarily regulated by the availability of:",
+            "options": [
+              "NADH",
+              "Oxygen",
+              "ADP (Respiratory Control)",
+              "Pyruvate",
+              "Acetyl-CoA"
+            ],
+            "correct": 2,
+            "explanation": "This is **Respiratory Control**. Electrons do not flow unless ATP needs to be made. If [ADP] is low (resting state), ATP Synthase stops (no substrate). The proton gradient builds up until it is so strong that the proton pumps (ETC) cannot pump against it. Thus, Oxygen consumption stops until **ADP** levels rise again (work is done)."
+          },
+          {
+            "question": "Oligomycin inhibits ATP Synthase by:",
+            "options": [
+              "Binding to the F1 catalytic subunit.",
+              "Binding to the Fo proton channel, blocking proton flow.",
+              "Uncoupling the membrane.",
+              "Preventing ATP release.",
+              "Competing with ADP."
+            ],
+            "correct": 1,
+            "explanation": "Oligomycin binds to the $F_o$ subunit (the membrane channel) and physically **blocks the proton pore**. This stops ATP synthesis. Because the systems are coupled, the proton gradient maximizes and the ETC eventually stops too."
+          },
+          {
+            "question": "How many ATP molecules are produced per NADH and FADH2 oxidized by the ETC?",
+            "options": [
+              "3 per NADH, 2 per FADH2",
+              "2.5 per NADH, 1.5 per FADH2",
+              "4 per NADH, 2 per FADH2",
+              "30 per NADH, 4 per FADH2",
+              "1 per NADH, 1 per FADH2"
+            ],
+            "correct": 1,
+            "explanation": "Modern measurements account for the energetic cost of transport. **NADH** (pumps 10 H+) yields **2.5 ATP**. **FADH2** (bypasses Complex I, pumps 6 H+) yields **1.5 ATP**."
+          },
+          {
+            "question": "Anaplerotic reactions are necessary to replenish TCA cycle intermediates. The most significant anaplerotic reaction in the liver is catalyzed by:",
+            "options": [
+              "Pyruvate Dehydrogenase",
+              "Pyruvate Carboxylase",
+              "Malate Dehydrogenase",
+              "Citrate Synthase",
+              "Glutamate Dehydrogenase"
+            ],
+            "correct": 1,
+            "explanation": "When intermediates are drawn off for biosynthesis, the cycle stops. **Pyruvate Carboxylase** converts Pyruvate directly to **Oxaloacetate** (using ATP/Biotin/CO2) to refill the pool, allowing the cycle (and Acetyl-CoA oxidation) to continue."
+          },
+          {
+            "question": "Which enzyme catalyzes a substrate-level phosphorylation step within the Citric Acid Cycle?",
+            "options": [
+              "Citrate Synthase",
+              "Isocitrate Dehydrogenase",
+              "Succinyl-CoA Synthetase",
+              "Succinate Dehydrogenase",
+              "Malate Dehydrogenase"
+            ],
+            "correct": 2,
+            "explanation": "**Succinyl-CoA Synthetase** uses the high energy of the thioester bond to drive the synthesis of **GTP** (or ATP) from GDP + Pi. This is the only direct energy yield in the cycle."
+          },
+          {
+            "question": "Isocitrate Dehydrogenase is a key regulatory step. It is allosterically activated by:",
+            "options": [
+              "ATP",
+              "NADH",
+              "ADP and Calcium",
+              "Succinyl-CoA",
+              "Citrate"
+            ],
+            "correct": 2,
+            "explanation": "Isocitrate DH is the rate-limiting step of the cycle itself. It is inhibited by high energy signals (ATP, NADH) and activated by signals of low energy/work (**ADP**) and muscle contraction (**Calcium**)."
+          },
+          {
+            "question": "Coenzyme Q (Ubiquinone) is a mobile electron carrier that transports electrons from:",
+            "options": [
+              "Complex I and II to Complex III.",
+              "Complex III to Complex IV.",
+              "The Matrix to the Cytosol.",
+              "Complex I directly to Complex IV.",
+              "Complex II to Complex I."
+            ],
+            "correct": 0,
+            "explanation": "Ubiquinone (Q) is a lipid-soluble quinone moving freely in the membrane. It collects electrons from **Complex I** (NADH pathway) and **Complex II** (FADH2 pathway), as well as glycerol-3-phosphate DH, and delivers them to **Complex III** (Q-cytochrome c oxidoreductase)."
+          },
+          {
+            "question": "Antimycin A inhibits the electron transport chain at:",
+            "options": [
+              "Complex I",
+              "Complex II",
+              "Complex III",
+              "Complex IV",
+              "ATP Synthase"
+            ],
+            "correct": 2,
+            "explanation": "Antimycin A blocks electron transfer within **Complex III** (specifically the Qn site), preventing the transfer of electrons from Ubiquinol to Cytochrome c."
+          },
+          {
+            "question": "The Q-cycle in Complex III is necessary because:",
+            "options": [
+              "Ubiquinone carries 2 electrons (2e-) while Cytochrome c carries only 1 electron (1e-).",
+              "It prevents proton pumping.",
+              "It generates ATP directly.",
+              "It converts NADH to FADH2.",
+              "It creates water."
+            ],
+            "correct": 0,
+            "explanation": "The Q-cycle is a mechanism to couple the 2-electron carrier ($QH_2$) to the 1-electron carrier (Cytochrome c). It allows Complex III to pump 4 protons for every 2 electrons that pass through, maximizing efficiency."
+          },
+          {
+            "question": "Thermogenin (UCP1) is found in Brown Adipose Tissue. Its physiological function is:",
+            "options": [
+              "To generate ATP efficiently.",
+              "To generate heat (Non-shivering thermogenesis) by uncoupling oxidative phosphorylation.",
+              "To store fat.",
+              "To synthesize glucose.",
+              "To transport electrons."
+            ],
+            "correct": 1,
+            "explanation": "In brown fat (newborns/hibernating animals), **Thermogenin** creates a proton leak. The energy of fat oxidation is released as **heat** to maintain body temperature rather than being trapped as ATP."
+          },
+          {
+            "question": "During the conversion of Pyruvate to Acetyl-CoA, which vitamin acts as an electron sink for the E3 subunit to regenerate oxidized Lipoamide?",
+            "options": [
+              "Thiamine (B1)",
+              "Riboflavin (B2) as FAD",
+              "Niacin (B3) as NAD+",
+              "Pantothenate (B5)",
+              "Biotin"
+            ],
+            "correct": 1,
+            "explanation": "The re-oxidation of Lipoamide (E2) is performed by the E3 subunit using enzyme-bound **FAD (Flavin Adenine Dinucleotide)**. FAD passes the electrons to NAD+ to form NADH."
+          },
+          {
+            "question": "Which TCA cycle enzyme is unique because it is an iron-sulfur protein that does not perform a redox reaction, but rather an isomerization?",
+            "options": [
+              "Citrate Synthase",
+              "Aconitase",
+              "Fumarase",
+              "Malate Dehydrogenase",
+              "Succinyl-CoA Synthetase"
+            ],
+            "correct": 1,
+            "explanation": "**Aconitase** contains a 4Fe-4S cluster. It acts as a hydratase/dehydratase, moving the hydroxyl group of Citrate to form Isocitrate. The Iron-Sulfur cluster is involved in substrate binding and catalysis, not electron transport."
+          },
+          {
+            "question": "Superoxide Dismutase (SOD) protects the cell by catalyzing:",
+            "options": [
+              "The conversion of Hydrogen Peroxide to Water and Oxygen.",
+              "The conversion of Superoxide radicals to Hydrogen Peroxide and Oxygen.",
+              "The synthesis of Glutathione.",
+              "The reduction of Cytochrome c.",
+              "The repair of DNA."
+            ],
+            "correct": 1,
+            "explanation": "The ETC leaks electrons (especially at Complex I and III) to $O_2$ to form Superoxide ($O_2^-$). **SOD** converts this highly reactive radical into Hydrogen Peroxide ($H_2O_2$), which is then detoxified by Catalase or Glutathione Peroxidase."
+          },
+          {
+            "question": "The Malate-Aspartate Shuttle is used to:",
+            "options": [
+              "Transport Acetyl-CoA out of the mitochondria.",
+              "Transport NADH equivalents (electrons) from the cytosol into the mitochondrial matrix.",
+              "Transport ATP out of the mitochondria.",
+              "Transport Fatty Acids into the mitochondria.",
+              "Transport Urea."
+            ],
+            "correct": 1,
+            "explanation": "NADH produced by glycolysis in the cytosol cannot cross the inner mitochondrial membrane. The **Malate-Aspartate Shuttle** transfers the electrons to matrix NADH (via Malate), allowing them to enter Complex I (yield 2.5 ATP). The Glycerol-3-Phosphate shuttle enters at Complex II (yield 1.5 ATP)."
+          },
+          {
+            "question": "In the presence of high ATP, Acetyl-CoA, and NADH, the activity of Citrate Synthase is:",
+            "options": [
+              "Inhibited",
+              "Activated",
+              "Unchanged",
+              "Reversed",
+              "Coupled to transport"
+            ],
+            "correct": 0,
+            "explanation": "Citrate Synthase is the first committed step. It is allosterically **inhibited** by high energy charge (ATP) and the products of the pathway (NADH, Succinyl-CoA, Citrate). This prevents fuel consumption when energy is sufficient."
+          },
+          {
+            "question": "Which component of the ATP Synthase ($F_1F_o$ ATPase) rotates?",
+            "options": [
+              "The alpha-beta hexamer headpiece.",
+              "The c-ring and the gamma (γ) shaft.",
+              "The a-subunit (stator).",
+              "The b-subunit stalk.",
+              "The mitochondrial membrane."
+            ],
+            "correct": 1,
+            "explanation": "Proton flow causes the **c-ring** (in the membrane) to spin. This spins the **gamma-subunit** (central stalk), which rotates inside the stationary alpha-beta headpiece. The rotation of gamma forces the beta-subunits to change conformation (Open, Loose, Tight) to synthesize ATP."
+          },
+          {
+            "question": "Oxaloacetate is formed in the last step of the TCA cycle. It reacts with Acetyl-CoA to start a new turn. This reaction is thermodynamically driven by:",
+            "options": [
+              "ATP hydrolysis.",
+              "The highly exergonic hydrolysis of the thioester bond in Acetyl-CoA.",
+              "NADH oxidation.",
+              "CO2 release.",
+              "Proton pumping."
+            ],
+            "correct": 1,
+            "explanation": "The concentration of Oxaloacetate in the matrix is extremely low because the Malate Dehydrogenase reaction is unfavorable (+Delta G). Citrate Synthase pulls the reaction forward because the hydrolysis of the high-energy **Thioester bond** of Acetyl-citryl-CoA is strongly exergonic (-Delta G)."
+          },
+          {
+            "question": "Rotenone is toxic to fish and insects because it inhibits:",
+            "options": [
+              "Complex I (NADH Dehydrogenase)",
+              "Complex II",
+              "Complex III",
+              "Complex IV",
+              "ATP Synthase"
+            ],
+            "correct": 0,
+            "explanation": "**Rotenone** blocks electron transfer from Iron-Sulfur clusters to Ubiquinone in **Complex I**. This stops NADH oxidation. FADH2 oxidation (Complex II) can still proceed, but overall energy production is severely crippled."
+          },
+          {
+            "question": "Which enzyme converts Pyruvate to Acetyl-CoA?",
+            "options": [
+              "Pyruvate Carboxylase",
+              "Pyruvate Dehydrogenase Complex",
+              "Pyruvate Kinase",
+              "Lactate Dehydrogenase",
+              "Acetyl-CoA Carboxylase"
+            ],
+            "correct": 1,
+            "explanation": "The **Pyruvate Dehydrogenase Complex (PDH)** catalyzes the oxidative decarboxylation of Pyruvate to Acetyl-CoA, linking Glycolysis to the TCA Cycle."
+          },
+          {
+            "question": "What is the P/O ratio for NADH?",
+            "options": [
+              "1.0",
+              "1.5",
+              "2.5",
+              "3.0",
+              "4.0"
+            ],
+            "correct": 2,
+            "explanation": "The P/O ratio is the number of ATP (Phosphate) synthesized per Oxygen atom reduced. For **NADH**, 10 protons are pumped, and it takes 4 protons to make 1 ATP. $10/4 = 2.5$."
+          },
+          {
+            "question": "Triacylglycerols store significantly more energy per gram than Glycogen. This is primarily because fatty acid carbons are:",
+            "options": [
+              "More oxidized and hydrated.",
+              "More reduced and anhydrous.",
+              "Amphipathic.",
+              "Branched.",
+              "Transported by albumin."
+            ],
+            "correct": 1,
+            "explanation": "Energy is released by oxidation. Fatty acid tails are hydrocarbon chains ($-CH_2-$), which are highly **reduced** compared to carbohydrates ($-CHOH-$). Furthermore, because they are hydrophobic, they pack tightly without water (**anhydrous**). Glycogen binds 2g of water per gram of carb, diluting its energy density."
+          },
+          {
+            "question": "The mobilization of fatty acids from adipocytes is triggered by hormones like Epinephrine and Glucagon. These hormones activate Protein Kinase A, which phosphorylates and activates:",
+            "options": [
+              "Lipoprotein Lipase",
+              "Hormone-Sensitive Lipase (HSL) and Perilipin",
+              "Acetyl-CoA Carboxylase",
+              "Carnitine Acyltransferase I",
+              "Fatty Acid Synthase"
+            ],
+            "correct": 1,
+            "explanation": "PKA phosphorylates **Perilipin** (exposing the lipid droplet) and **Hormone-Sensitive Lipase** (HSL), which cleaves fatty acids from diacylglycerols. (Note: ATGL initiates the first step, but HSL is the classic regulated enzyme in this context)."
+          },
+          {
+            "question": "Free fatty acids in the bloodstream are transported bound to:",
+            "options": [
+              "Chylomicrons",
+              "VLDL",
+              "Albumin",
+              "Hemoglobin",
+              "HDL"
+            ],
+            "correct": 2,
+            "explanation": "Free Fatty Acids (Non-esterified) released from adipocytes are hydrophobic and toxic/insoluble on their own. They bind to hydrophobic pockets on **Serum Albumin** for transport to tissues like muscle and liver."
+          },
+          {
+            "question": "Before a fatty acid can be oxidized, it must be 'activated' in the cytosol. This activation involves:",
+            "options": [
+              "Formation of a thioester bond with Coenzyme A, consuming 2 high-energy phosphate bonds.",
+              "Phosphorylation by ATP.",
+              "Attachment to Carnitine.",
+              "Reduction by NADPH.",
+              "Methylation."
+            ],
+            "correct": 0,
+            "explanation": "**Acyl-CoA Synthetase** (Thiokinase) catalyzes the reaction: $Fatty Acid + ATP + CoA \\rightarrow Acyl-CoA + AMP + PPi$. The hydrolysis of PPi makes the cost equivalent to **2 ATP** molecules. This activates the fatty acid for metabolism."
+          },
+          {
+            "question": "The rate-limiting step for fatty acid oxidation is the transport of the fatty acyl group into the mitochondria. This is catalyzed by:",
+            "options": [
+              "Carnitine Acyltransferase I (CPT-I)",
+              "Carnitine Acyltransferase II (CPT-II)",
+              "Carnitine Translocase",
+              "Acyl-CoA Dehydrogenase",
+              "Thiolase"
+            ],
+            "correct": 0,
+            "explanation": "**CPT-I** (located on the outer mitochondrial membrane) converts Acyl-CoA to Acyl-Carnitine. This is the committed step because Acyl-Carnitine can enter the matrix, whereas Acyl-CoA cannot. CPT-I is allosterically inhibited by Malonyl-CoA."
+          },
+          {
+            "question": "Beta-oxidation of saturated fatty acids consists of a repeating sequence of four reactions. The correct order is:",
+            "options": [
+              "Reduction, Dehydration, Reduction, Thiolysis",
+              "Oxidation, Hydration, Oxidation, Thiolysis",
+              "Condensation, Reduction, Dehydration, Reduction",
+              "Oxidation, Dehydration, Oxidation, Cleavage",
+              "Hydration, Oxidation, Thiolysis, Oxidation"
+            ],
+            "correct": 1,
+            "explanation": "The Beta-oxidation spiral mirrors the TCA cycle (Succinate to OAA part): 1) **Oxidation** (FAD-linked) to form a double bond. 2) **Hydration** to form a hydroxyl group. 3) **Oxidation** (NAD-linked) to form a keto group. 4) **Thiolysis** (cleavage by CoA) to release Acetyl-CoA."
+          },
+          {
+            "question": "The complete oxidation of Palmitate (C16:0) requires 7 cycles of beta-oxidation. What are the products of these 7 cycles?",
+            "options": [
+              "8 Acetyl-CoA, 7 NADH, 7 FADH2",
+              "7 Acetyl-CoA, 7 NADH, 7 FADH2",
+              "8 Acetyl-CoA, 8 NADH, 8 FADH2",
+              "16 Acetyl-CoA, 16 NADH",
+              "8 Acetyl-CoA, 6 NADH, 6 FADH2"
+            ],
+            "correct": 0,
+            "explanation": "A 16-carbon chain is cleaved 7 times to produce **8 two-carbon Acetyl-CoA units**. Each cleavage event (cycle) generates 1 NADH and 1 FADH2. Therefore: **8 Acetyl-CoA + 7 NADH + 7 FADH2**."
+          },
+          {
+            "question": "Oxidation of unsaturated fatty acids requires two additional enzymes, Isomerase and Reductase, because:",
+            "options": [
+              "The double bonds are in the wrong position (cis-3) or configuration for Enoyl-CoA Hydratase.",
+              "Unsaturated fats cannot enter the mitochondria.",
+              "Unsaturated fats are toxic.",
+              "They yield more energy.",
+              "They require NADPH oxidation."
+            ],
+            "correct": 0,
+            "explanation": "Natural unsaturated fats have **cis** double bonds. Beta-oxidation requires a **trans-2** double bond. **Enoyl-CoA Isomerase** moves the double bond from cis-3 to trans-2. (For polyunsaturated fats, a Reductase is also needed)."
+          },
+          {
+            "question": "Propionyl-CoA is produced from the oxidation of:",
+            "options": [
+              "Palmitate",
+              "Odd-chain fatty acids",
+              "Unsaturated fatty acids",
+              "Ketone bodies",
+              "Cholesterol"
+            ],
+            "correct": 1,
+            "explanation": "Odd-chain fatty acids are oxidized until the final 3 carbons remain as **Propionyl-CoA**. (Even chains end with two Acetyl-CoAs)."
+          },
+          {
+            "question": "The conversion of Propionyl-CoA to Succinyl-CoA requires which two vitamins?",
+            "options": [
+              "Thiamine (B1) and Riboflavin (B2)",
+              "Biotin (B7) and Cobalamin (B12)",
+              "Niacin (B3) and Pantothenate (B5)",
+              "Folic Acid and B6",
+              "Vitamin C and Vitamin K"
+            ],
+            "correct": 1,
+            "explanation": "Step 1: Propionyl-CoA Carboxylase requires **Biotin** to add $CO_2$ (making Methylmalonyl-CoA). Step 2: Methylmalonyl-CoA Mutase requires **Vitamin B12 (Cobalamin)** to rearrange the skeleton into Succinyl-CoA."
+          },
+          {
+            "question": "Ketone bodies (Acetoacetate, Beta-hydroxybutyrate) are synthesized in the:",
+            "options": [
+              "Liver Cytosol",
+              "Liver Mitochondria",
+              "Muscle Mitochondria",
+              "Adipose Tissue",
+              "Brain"
+            ],
+            "correct": 1,
+            "explanation": "Ketogenesis occurs exclusively in the **mitochondrial matrix of Liver hepatocytes**. The liver has the machinery to make them (HMG-CoA Lyase) but lacks the machinery to consume them."
+          },
+          {
+            "question": "Why can't the liver use ketone bodies as fuel?",
+            "options": [
+              "It lacks the mitochondria.",
+              "It lacks the enzyme Beta-Ketoacyl-CoA Transferase (Thiophorase).",
+              "Ketone bodies cannot cross the liver membrane.",
+              "The liver prefers glucose.",
+              "Ketones are toxic to hepatocytes."
+            ],
+            "correct": 1,
+            "explanation": "To use ketones, cells must activate Acetoacetate to Acetoacetyl-CoA using Succinyl-CoA. The enzyme for this, **Thiophorase**, is absent in the liver. This ensures the liver exports ketones to peripheral tissues (Brain, Heart) rather than consuming them itself."
+          },
+          {
+            "question": "Fatty Acid Synthesis takes place in the \_\_\_\_\_\_\_ and uses \_\_\_\_\_\_\_ as the reductant.",
+            "options": [
+              "Mitochondria; NADH",
+              "Cytosol; NADPH",
+              "ER; FADH2",
+              "Lysosome; NADPH",
+              "Golgi; NADH"
+            ],
+            "correct": 1,
+            "explanation": "Biosynthesis occurs in the **Cytosol**. It uses **NADPH** (from the Pentose Phosphate Pathway and Malic Enzyme) as the source of electrons for the reduction steps."
+          },
+          {
+            "question": "The rate-limiting enzyme of Fatty Acid Synthesis is:",
+            "options": [
+              "Fatty Acid Synthase",
+              "Acetyl-CoA Carboxylase (ACC)",
+              "Citrate Lyase",
+              "Malic Enzyme",
+              "Carnitine Acyltransferase I"
+            ],
+            "correct": 1,
+            "explanation": "**Acetyl-CoA Carboxylase (ACC)** converts Acetyl-CoA to Malonyl-CoA. This is the committed step. It is tightly regulated by hormones (Insulin activates, Glucagon inhibits) and local metabolites (Citrate activates, Palmitoyl-CoA inhibits)."
+          },
+          {
+            "question": "What is the role of the Acyl Carrier Protein (ACP) in fatty acid synthesis?",
+            "options": [
+              "It transports fatty acids into the mitochondria.",
+              "It acts as a flexible arm, tethering the growing fatty acyl chain and moving it between active sites of the Fatty Acid Synthase complex.",
+              "It carboxylates Acetyl-CoA.",
+              "It oxidizes NADPH.",
+              "It is a transcription factor."
+            ],
+            "correct": 1,
+            "explanation": "**ACP** contains a phosphopantetheine prosthetic group (like CoA). It forms a high-energy thioester with the growing chain and swings it between the different catalytic domains of the massive Fatty Acid Synthase (FAS) enzyme."
+          },
+          {
+            "question": "Citrate plays a dual role in fatty acid metabolism regulation. It:",
+            "options": [
+              "Activates ACC (Synthesis) and Inhibits PFK-1 (Glycolysis).",
+              "Inhibits ACC and Activates PFK-1.",
+              "Activates CPT-I and Inhibits FAS.",
+              "Activates Beta-oxidation.",
+              "Is a waste product."
+            ],
+            "correct": 0,
+            "explanation": "High Citrate in the cytosol signals 'high energy/plenty of fuel'. It allosterically **activates Acetyl-CoA Carboxylase** (polymerizing it) to start fat synthesis. Simultaneously, it **inhibits PFK-1** to stop unnecessary glycolysis."
+          },
+          {
+            "question": "Malonyl-CoA regulates fatty acid degradation by inhibiting:",
+            "options": [
+              "Acetyl-CoA Carboxylase",
+              "Carnitine Acyltransferase I (CPT-I)",
+              "Hormone Sensitive Lipase",
+              "Fatty Acid Synthase",
+              "Citrate Synthase"
+            ],
+            "correct": 1,
+            "explanation": "This prevents a futile cycle. When Synthesis is ON (High Malonyl-CoA), **CPT-I is inhibited**. This blocks the entry of fatty acids into the mitochondria, ensuring that newly made fat is not immediately oxidized."
+          },
+          {
+            "question": "Humans cannot synthesize Linoleic acid (18:2) and alpha-Linolenic acid (18:3). These are Essential Fatty Acids because humans lack:",
+            "options": [
+              "Fatty Acid Synthase.",
+              "Elongases.",
+              "Desaturases that can introduce double bonds beyond Carbon 9 (omega-3 and omega-6 positions).",
+              "Acetyl-CoA.",
+              "NADPH."
+            ],
+            "correct": 2,
+            "explanation": "Mammals have $\Delta^9, \Delta^6, \Delta^5$ desaturases. We cannot introduce double bonds near the methyl end (beyond C9). Therefore, we cannot make **Omega-3** or **Omega-6** fatty acids de novo; they must be obtained from the diet (plants)."
+          },
+          {
+            "question": "Very Long Chain Fatty Acids (VLCFAs, >22 carbons) are initially oxidized in the:",
+            "options": [
+              "Mitochondria",
+              "Peroxisome",
+              "ER",
+              "Lysosome",
+              "Cytosol"
+            ],
+            "correct": 1,
+            "explanation": "VLCFAs are too long for mitochondrial handling. They are shortened in **Peroxisomes** via a modified beta-oxidation pathway that generates $H_2O_2$ (instead of $FADH_2$ energy). Once shortened to Octanoyl-CoA (C8), they are sent to mitochondria."
+          },
+          {
+            "question": "Acetyl-CoA Carboxylase (ACC) requires which cofactor to fix CO2?",
+            "options": [
+              "Thiamine",
+              "Biotin",
+              "Folate",
+              "Pyridoxal Phosphate",
+              "Cobalamin"
+            ],
+            "correct": 1,
+            "explanation": "Like Pyruvate Carboxylase and Propionyl-CoA Carboxylase, **ACC** is an ABC enzyme (**A**TP, **B**iotin, **C**$O_2$) that catalyzes carboxylation reactions."
+          },
+          {
+            "question": "During fasting, the brain adapts to use which alternative fuel source to spare glucose?",
+            "options": [
+              "Free Fatty Acids",
+              "Ketone Bodies",
+              "Lactate",
+              "Alanine",
+              "Cholesterol"
+            ],
+            "correct": 1,
+            "explanation": "Fatty acids (bound to albumin) cannot cross the Blood-Brain Barrier. **Ketone bodies** are water-soluble and can cross. During prolonged starvation, ketones provide up to 75% of the brain's energy requirements."
+          },
+          {
+            "question": "The Citrate Shuttle is used to transport:",
+            "options": [
+              "Fatty acids into the mitochondria.",
+              "Acetyl-CoA equivalents from the mitochondria to the cytosol for fat synthesis.",
+              "NADH into the mitochondria.",
+              "ATP out of the mitochondria.",
+              "Carnitine out of the cell."
+            ],
+            "correct": 1,
+            "explanation": "Acetyl-CoA is made in the matrix (PDH) but fat synthesis is cytosolic. Acetyl-CoA cannot cross the membrane. It condenses with OAA to form **Citrate**. Citrate exits to the cytosol, where Citrate Lyase cleaves it back to **Acetyl-CoA** and OAA."
+          },
+          {
+            "question": "What is the net ATP yield from the complete oxidation of one molecule of Palmitate (C16)?",
+            "options": [
+              "30-32",
+              "80",
+              "106",
+              "129",
+              "140"
+            ],
+            "correct": 2,
+            "explanation": "7 cycles = 7 NADH (x2.5) + 7 FADH2 (x1.5) = 28 ATP. 8 Acetyl-CoA (x10) = 80 ATP. Total = 108. Subtract 2 ATP for activation (Thiokinase). Net = **106 ATP**."
+          },
+          {
+            "question": "Alpha-oxidation is a specialized pathway required for the breakdown of:",
+            "options": [
+              "Palmitate",
+              "Phytanic Acid (Branched chain fatty acid)",
+              "Oleic Acid",
+              "Ketone bodies",
+              "Cholesterol"
+            ],
+            "correct": 1,
+            "explanation": "Phytanic acid (from dairy/chlorophyll) has a methyl group at the beta-carbon, which blocks beta-oxidation. **Alpha-oxidation** (in peroxisomes) removes the alpha-carbon as $CO_2$, shifting the methyl group so beta-oxidation can proceed."
+          },
+          {
+            "question": "Insulin stimulates fatty acid synthesis by:",
+            "options": [
+              "Phosphorylating ACC.",
+              "Activating Protein Phosphatase 2A, which dephosphorylates and activates ACC.",
+              "Inhibiting Citrate Lyase.",
+              "Inducing CPT-I.",
+              "Degrading Fatty Acid Synthase."
+            ],
+            "correct": 1,
+            "explanation": "Glucagon/Epinephrine activate AMPK/PKA to phosphorylate ACC (Inactive). **Insulin** activates a phosphatase that **dephosphorylates ACC**, turning it **Active**. Insulin also induces the expression of FAS and ACC genes long-term."
+          },
+          {
+            "question": "Aspirin interferes with fatty acid metabolism by inhibiting:",
+            "options": [
+              "Beta-oxidation enzymes (at high doses).",
+              "Fatty acid synthesis.",
+              "Lipolysis.",
+              "Carnitine transport.",
+              "Ketogenesis."
+            ],
+            "correct": 0,
+            "explanation": "While known for COX inhibition, high doses of Salicylates (and metabolites in Reye Syndrome) inhibit mitochondrial **medium-chain acyl-CoA dehydrogenase** and uncouple oxidative phosphorylation, leading to fatty liver and hypoglycemia."
+          },
+          {
+            "question": "In the synthesis of fatty acids, the donor of the 2-carbon units for elongation is:",
+            "options": [
+              "Acetyl-CoA",
+              "Malonyl-CoA",
+              "Succinyl-CoA",
+              "Propionyl-CoA",
+              "Methylmalonyl-CoA"
+            ],
+            "correct": 1,
+            "explanation": "Although the carbons ultimately come from Acetyl-CoA, the direct donor for chain elongation by FAS is **Malonyl-CoA**. Decarboxylation of Malonyl-CoA provides the thermodynamic drive for the condensation reaction."
+          },
+          {
+            "question": "Metabolic water is produced during:",
+            "options": [
+              "Lipolysis",
+              "Fatty acid synthesis",
+              "Beta-oxidation and the ETC",
+              "Ketogenesis",
+              "Glycogenolysis"
+            ],
+            "correct": 2,
+            "explanation": "The reduction of Oxygen at Complex IV produces water. Since fats are highly reduced, their oxidation produces significant amounts of **metabolic water** (important for hibernating animals and camels)."
+          },
+          {
+            "question": "Which enzyme converts HMG-CoA to Acetoacetate during ketogenesis?",
+            "options": [
+              "HMG-CoA Reductase",
+              "HMG-CoA Synthase",
+              "HMG-CoA Lyase",
+              "Thiolase",
+              "Thiophorase"
+            ],
+            "correct": 2,
+            "explanation": "HMG-CoA Synthase makes HMG-CoA. **HMG-CoA Lyase** cleaves it to release Acetyl-CoA and **Acetoacetate** (the first ketone body). (Note: HMG-CoA Reductase is for cholesterol synthesis in the cytosol)."
+          },
+          {
+            "question": "Omega-oxidation of fatty acids is a minor pathway that occurs in the ER. It becomes significant when:",
+            "options": [
+              "Beta-oxidation is defective.",
+              "Fatty acids are very short.",
+              "Insulin is high.",
+              "Ketones are high.",
+              "ATP is high."
+            ],
+            "correct": 0,
+            "explanation": "**Omega-oxidation** oxidizes the methyl end (omega carbon) to a carboxyl group, creating a dicarboxylic acid. This pathway is upregulated when beta-oxidation is blocked (e.g., MCAD deficiency), leading to dicarboxylic aciduria."
+          },
+          {
+            "question": "The degradation of cellular proteins is a tightly regulated process. Proteins destined for destruction by the 26S Proteasome are marked by the covalent attachment of:",
+            "options": [
+              "A phosphate group.",
+              "A polymer of Ubiquitin chains linked via Lysine-48.",
+              "A methyl group.",
+              "Acetyl-CoA.",
+              "SUMO proteins."
+            ],
+            "correct": 1,
+            "explanation": "Protein degradation is not random. The **Ubiquitin-Proteasome System** handles intracellular proteins. A cascade of enzymes (E1, E2, E3) covalently attaches multiple Ubiquitin molecules to a Lysine residue on the target protein. A poly-ubiquitin chain (specifically Lys48-linked) serves as the 'Kiss of Death,' directing the protein to the proteasome for digestion."
+          },
+          {
+            "question": "In the first step of amino acid catabolism, the alpha-amino group is typically transferred to Alpha-Ketoglutarate. This reaction yields Glutamate and an alpha-keto acid. The enzyme responsible is:",
+            "options": [
+              "Glutamate Dehydrogenase",
+              "Glutaminase",
+              "Aminotransferase (Transaminase)",
+              "Carbamoyl Phosphate Synthetase",
+              "Arginase"
+            ],
+            "correct": 2,
+            "explanation": "**Aminotransferases** (Transaminases) catalyze the reversible transfer of an amino group from an amino acid to an alpha-keto acid (usually Alpha-Ketoglutarate). This funnels nitrogen from various amino acids into **Glutamate**, which then undergoes oxidative deamination."
+          },
+          {
+            "question": "Glutamate Dehydrogenase (GDH) is unique because it can utilize either NAD+ or NADP+. Its primary function in the liver during catabolism is to:",
+            "options": [
+              "Synthesize Glutamate from Ammonia.",
+              "Transfer the amino group to Pyruvate.",
+              "Oxidatively deaminate Glutamate to release free Ammonium (NH4+) and Alpha-Ketoglutarate.",
+              "Synthesize Urea.",
+              "Fix atmospheric Nitrogen."
+            ],
+            "correct": 2,
+            "explanation": "While Transaminases collect nitrogen onto Glutamate, **Glutamate Dehydrogenase** is the funnel's exit. In the mitochondria, it removes the amino group as free **Ammonium ($NH_4^+$)** (Oxidative Deamination), which then enters the Urea Cycle. It generates NADH (energy) or NADPH (biosynthesis) depending on direction."
+          },
+          {
+            "question": "The Urea Cycle begins in the mitochondria with the synthesis of Carbamoyl Phosphate. This rate-limiting step is catalyzed by CPS I and requires:",
+            "options": [
+              "2 ATP, Bicarbonate, and Ammonium.",
+              "1 ATP, Acetyl-CoA, and Glutamate.",
+              "NADH, CO2, and Aspartate.",
+              "Glutamine and ATP.",
+              "Ornithine and Urea."
+            ],
+            "correct": 0,
+            "explanation": "**Carbamoyl Phosphate Synthetase I (CPS I)** catalyzes the committed step. It condenses **Ammonium** and **Bicarbonate** ($CO_2$). This is energetically expensive, consuming **2 ATP** molecules to create the high-energy Carbamoyl Phosphate intermediate."
+          },
+          {
+            "question": "N-Acetylglutamate (NAG) is an essential allosteric regulator of the Urea Cycle. It functions by:",
+            "options": [
+              "Activating Arginase.",
+              "Inhibiting Glutamate Dehydrogenase.",
+              "Obligately activating Carbamoyl Phosphate Synthetase I (CPS I).",
+              "Transporting Citrulline.",
+              "Providing the carbon skeleton for Urea."
+            ],
+            "correct": 2,
+            "explanation": "The Urea Cycle must be turned on when amino acid breakdown is high. High concentrations of Glutamate (substrate) and Acetyl-CoA stimulate the synthesis of **N-Acetylglutamate (NAG)**. NAG induces a conformational change in **CPS I** that is absolutely required for its activity. Without NAG, the Urea Cycle stops."
+          },
+          {
+            "question": "The carbon atoms of degraded amino acids are converted into major metabolic intermediates. Which of the following is strictly a Ketogenic amino acid (cannot be used to make Glucose)?",
+            "options": [
+              "Alanine",
+              "Glutamine",
+              "Leucine",
+              "Valine",
+              "Methionine"
+            ],
+            "correct": 2,
+            "explanation": "Most amino acids are Glucogenic (can form Pyruvate or TCA intermediates). **Leucine** and **Lysine** are the only strictly **Ketogenic** amino acids. They degrade into Acetyl-CoA and Acetoacetate, which can form Ketone bodies or fats but cannot be converted into glucose."
+          },
+          {
+            "question": "The Nitrogenase complex in nitrogen-fixing bacteria (like Rhizobium) converts atmospheric Nitrogen (N2) into Ammonia (NH3). This process is difficult because:",
+            "options": [
+              "Nitrogen is a liquid.",
+              "The N-N triple bond is extremely stable and requires high activation energy to break.",
+              "Nitrogen is toxic to bacteria.",
+              "Oxygen inhibits the reaction competitively.",
+              "ATP is not available in bacteria."
+            ],
+            "correct": 1,
+            "explanation": "The $N\\equiv N$ triple bond is one of the strongest in chemistry. Breaking it requires a massive input of energy (16 ATP per $N_2$) and powerful reducing agents. The **Nitrogenase** complex (containing the Iron-Molybdenum cofactor) facilitates this reduction in an anaerobic environment."
+          },
+          {
+            "question": "Glutathione (GSH) is a tripeptide essential for protecting cells from oxidative stress. Its structure is Gamma-Glutamate-Cysteine-Glycine. The antioxidant ability of GSH relies on:",
+            "options": [
+              "The carboxyl group of Glycine.",
+              "The sulfhydryl (-SH) group of Cysteine, which can be oxidized to form a disulfide bond (GSSG).",
+              "The amino group of Glutamate.",
+              "Its ability to chelate Iron.",
+              "Its conversion to Urea."
+            ],
+            "correct": 1,
+            "explanation": "Glutathione cycles between a reduced (GSH) and oxidized (GSSG) state. The thiol group of **Cysteine** acts as a reducing agent, donating electrons to ROS or enzymes like Glutathione Peroxidase. Two oxidized GSH molecules form a disulfide bridge (GSSG)."
+          },
+          {
+            "question": "Nitric Oxide (NO) is a short-lived signaling molecule synthesized from which amino acid?",
+            "options": [
+              "Asparagine",
+              "Arginine",
+              "Alanine",
+              "Lysine",
+              "Glutamine"
+            ],
+            "correct": 1,
+            "explanation": "Nitric Oxide Synthase (NOS) converts **Arginine** into Citrulline and **Nitric Oxide**. This reaction consumes NADPH and $O_2$. NO is a gas that diffuses rapidly to activate Guanylyl Cyclase (vasodilation) but degrades quickly (short half-life)."
+          },
+          {
+            "question": "Heme biosynthesis begins in the mitochondria with the condensation of Glycine and Succinyl-CoA. The rate-limiting enzyme for this step is:",
+            "options": [
+              "Heme Oxygenase",
+              "Biliverdin Reductase",
+              "Delta-Aminolevulinate (ALA) Synthase",
+              "Ferrochelatase",
+              "Porphobilinogen Deaminase"
+            ],
+            "correct": 2,
+            "explanation": "**ALA Synthase** is the committed, rate-limiting step. It requires Pyridoxal Phosphate (PLP). It is feedback inhibited by Heme (the final product), ensuring Heme is only made when needed."
+          },
+          {
+            "question": "Which amino acid serves as the primary carrier of nitrogen from skeletal muscle to the liver during starvation (Glucose-Alanine Cycle)?",
+            "options": [
+              "Glutamine",
+              "Alanine",
+              "Serine",
+              "Aspartate",
+              "Glycine"
+            ],
+            "correct": 1,
+            "explanation": "In muscle, pyruvate accepts amino groups from branched-chain amino acids to form **Alanine**. Alanine is released into the blood and travels to the liver. In the liver, Alanine is transaminated back to Pyruvate (for gluconeogenesis) and the Ammonia enters the Urea Cycle."
+          },
+          {
+            "question": "Tetrahydrofolate (THF) is a cofactor derived from Folic Acid. Its primary role in amino acid metabolism is:",
+            "options": [
+              "Transferring one-carbon units (methyl, methylene, formyl) at different oxidation states.",
+              "Transferring amino groups.",
+              "Transferring phosphate groups.",
+              "Oxidation-reduction reactions involving 2 electrons.",
+              "Carboxylation."
+            ],
+            "correct": 0,
+            "explanation": "**THF** is the universal **one-carbon carrier**. It accepts carbons from donors (like Serine or Glycine) and transfers them to acceptors in the synthesis of Methionine, Thymidine (DNA), and Purines."
+          },
+          {
+            "question": "S-Adenosylmethionine (SAM) is a unique donor molecule used in methylation reactions (e.g., DNA methylation). It is synthesized from:",
+            "options": [
+              "Methionine and ATP",
+              "Cysteine and GTP",
+              "Serine and THF",
+              "Homocysteine and B12",
+              "Adenosine and Methanol"
+            ],
+            "correct": 0,
+            "explanation": "Methionine Adenosyltransferase condenses **Methionine** with **ATP** (releasing all three phosphates). This activates the methyl group of methionine (making it a sulfonium ion), creating **SAM**, the body's primary methyl donor."
+          },
+          {
+            "question": "In the Urea Cycle, Citrulline condenses with Aspartate to form Argininosuccinate. This reaction connects the Urea Cycle to the TCA Cycle because:",
+            "options": [
+              "It produces NADH.",
+              "It consumes Acetyl-CoA.",
+              "The cleavage of Argininosuccinate releases Fumarate, a TCA intermediate.",
+              "It requires Biotin.",
+              "It happens in the cytosol."
+            ],
+            "correct": 2,
+            "explanation": "The 'Krebs Bicycle'. Argininosuccinate is cleaved to form Arginine (which proceeds to Urea) and **Fumarate**. Fumarate can enter the mitochondria and join the **TCA Cycle** (converting to Malate/OAA)."
+          },
+          {
+            "question": "Phenylketonuria (PKU) is caused by a defect in Phenylalanine Hydroxylase. This enzyme converts Phenylalanine into:",
+            "options": [
+              "Tryptophan",
+              "Tyrosine",
+              "Alanine",
+              "Phenylpyruvate",
+              "DOPA"
+            ],
+            "correct": 1,
+            "explanation": "Phenylalanine is an essential amino acid. Its primary catabolic route is hydroxylation to **Tyrosine** (which is non-essential as long as Phe is present). In PKU, this block causes toxic accumulation of Phenylalanine (and phenylketones)."
+          },
+          {
+            "question": "Maple Syrup Urine Disease (MSUD) involves a defect in the catabolism of Branched-Chain Amino Acids (BCAAs). The defective enzyme complex is:",
+            "options": [
+              "Branched-Chain Alpha-Keto Acid Dehydrogenase",
+              "Phenylalanine Hydroxylase",
+              "Homogentisate Oxidase",
+              "Tyrosinase",
+              "Methylmalonyl-CoA Mutase"
+            ],
+            "correct": 0,
+            "explanation": "BCAAs (Leucine, Isoleucine, Valine) are transaminated to alpha-keto acids. The next step is oxidative decarboxylation by the **Branched-Chain Alpha-Keto Acid Dehydrogenase** (similar to PDH). A defect here causes the accumulation of keto-acids in urine, giving the characteristic sweet smell."
+          },
+          {
+            "question": "Feedback inhibition regulates amino acid biosynthesis. For example, the first step in Isoleucine synthesis is inhibited by Isoleucine itself. This is an example of:",
+            "options": [
+              "Covalent modification.",
+              "Allosteric regulation.",
+              "Transcriptional repression.",
+              "Proteolytic cleavage.",
+              "Competitive inhibition at the active site."
+            ],
+            "correct": 1,
+            "explanation": "The end-product (Isoleucine) binds to a regulatory (allosteric) site on Threonine Deaminase (the first committed enzyme), inducing a conformational change that reduces activity. This prevents wasteful overproduction."
+          },
+          {
+            "question": "Albinism is typically caused by a deficiency in Tyrosinase. This enzyme is required for the conversion of Tyrosine to:",
+            "options": [
+              "Thyroxine",
+              "Melanin",
+              "Dopamine",
+              "Epinephrine",
+              "Homogentisate"
+            ],
+            "correct": 1,
+            "explanation": "Tyrosine is the precursor for Catecholamines and **Melanin**. Tyrosinase converts Tyrosine to DOPAquinone, which polymerizes to form Melanin pigments. Lack of this enzyme leads to lack of pigmentation (Albinism)."
+          },
+          {
+            "question": "Homocystinuria is often caused by a defect in Cystathionine Beta-Synthase (CBS). This enzyme requires which vitamin cofactor to convert Homocysteine to Cystathionine?",
+            "options": [
+              "Vitamin B12 (Cobalamin)",
+              "Folic Acid",
+              "Vitamin B6 (Pyridoxal Phosphate)",
+              "Vitamin B1 (Thiamine)",
+              "Vitamin C"
+            ],
+            "correct": 2,
+            "explanation": "Homocysteine lies at a branch point. It can be remethylated to Methionine (requiring B12/Folate) or converted to Cysteine (Transsulfuration pathway). The first step of transsulfuration (CBS enzyme) requires **Vitamin B6 (PLP)**."
+          },
+          {
+            "question": "Acute Intermittent Porphyria (AIP) is characterized by abdominal pain and neuropsychiatric symptoms. It is due to a deficiency in Porphobilinogen Deaminase. Urine from these patients darkens on standing due to the accumulation of:",
+            "options": [
+              "Heme",
+              "Bilirubin",
+              "Porphobilinogen (PBG) and ALA",
+              "Uroporphyrinogen III",
+              "Protoporphyrin"
+            ],
+            "correct": 2,
+            "explanation": "The block is at PBG Deaminase. The precursors upstream—**ALA and Porphobilinogen (PBG)**—accumulate. PBG spontaneously oxidizes in urine to form dark pigments (Porphobilin). These precursors are neurotoxic."
+          },
+          {
+            "question": "Which amino acid is the precursor for Serotonin (5-HT)?",
+            "options": [
+              "Tyrosine",
+              "Tryptophan",
+              "Histidine",
+              "Glutamate",
+              "Glycine"
+            ],
+            "correct": 1,
+            "explanation": "**Tryptophan** is hydroxylated and then decarboxylated to form **Serotonin**. (Tyrosine forms Dopamine; Histidine forms Histamine; Glutamate forms GABA)."
+          },
+          {
+            "question": "The conversion of Ribonucleotides to Deoxyribonucleotides (for DNA synthesis) is catalyzed by Ribonucleotide Reductase. This reaction involves the oxidation of a specific protein cofactor called:",
+            "options": [
+              "Thioredoxin",
+              "Glutathione",
+              "Ubiquitin",
+              "Cytochrome c",
+              "Hemoglobin"
+            ],
+            "correct": 0,
+            "explanation": "Ribonucleotide Reductase reduces the 2'-OH of the ribose ring. The reducing equivalents come from NADPH, passed via **Thioredoxin** (or Glutaredoxin). Thioredoxin's disulfide bond is reduced by Thioredoxin Reductase, and it then reduces the enzyme."
+          },
+          {
+            "question": "Urea is produced in the liver and excreted by the kidneys. Why is Ammonia converted to Urea rather than excreted directly?",
+            "options": [
+              "Urea is a gas.",
+              "Ammonia is highly toxic to the brain (neurotoxic) and requires large water volumes to excrete safely.",
+              "Urea yields ATP.",
+              "Ammonia cannot cross membranes.",
+              "Urea is used for protein synthesis."
+            ],
+            "correct": 1,
+            "explanation": "Ammonia ($NH_3/NH_4^+$) alters pH and depletes alpha-ketoglutarate, disrupting the TCA cycle in the brain. It is highly toxic. **Urea** is neutral, water-soluble, and non-toxic, allowing nitrogen to be concentrated in urine and excreted safely with less water loss."
+          },
+          {
+            "question": "Histamine is a chemical mediator of allergic reactions. It is synthesized by the decarboxylation of:",
+            "options": [
+              "Histidine",
+              "Glutamate",
+              "Aspartate",
+              "Tryptophan",
+              "Tyrosine"
+            ],
+            "correct": 0,
+            "explanation": "Histidine Decarboxylase (requiring PLP) removes the carboxyl group from **Histidine** to form Histamine."
+          },
+          {
+            "question": "In the degradation of Pyrimidines, the nitrogen atoms are released as ammonia, but the carbon skeleton produces:",
+            "options": [
+              "Uric Acid",
+              "Beta-Alanine and Beta-Aminoisobutyrate",
+              "Urea",
+              "Fumarate",
+              "Ribose"
+            ],
+            "correct": 1,
+            "explanation": "Purines degrade to Uric Acid. Pyrimidines (C, U, T) are opened up to form highly soluble intermediates: **Beta-Alanine** (from C/U) and **Beta-Aminoisobutyrate** (from T). These can be excreted or metabolized to Acetyl-CoA/Succinyl-CoA."
+          },
+          {
+            "question": "Lead poisoning inhibits Heme synthesis at two steps. This leads to Anemia and the accumulation of:",
+            "options": [
+              "Bilirubin",
+              "ALA (Aminolevulinic Acid) and Protoporphyrin IX",
+              "Iron",
+              "Heme",
+              "Globin chains"
+            ],
+            "correct": 1,
+            "explanation": "Lead inhibits **ALA Dehydratase** (early step) and **Ferrochelatase** (final step). This causes the accumulation of **ALA** (neurotoxic) and **Protoporphyrin** (since Iron cannot be inserted). It results in microcytic anemia with basophilic stippling."
+          },
+          {
+            "question": "Which enzyme allows the kidney to produce Ammonia ($NH_4^+$) from Glutamine to buffer urine pH during acidosis?",
+            "options": [
+              "Glutaminase",
+              "Glutamine Synthetase",
+              "Urease",
+              "Arginase",
+              "Alanine Aminotransferase"
+            ],
+            "correct": 0,
+            "explanation": "The kidney uses **Glutaminase** to deaminate Glutamine (carried from muscle/liver). This releases **Ammonia ($NH_3$)** which picks up protons ($H^+$) to form Ammonium ($NH_4^+$), effectively excreting acid into the urine."
+          },
+          {
+            "question": "Creatine Phosphate is an energy buffer in muscle. Creatine is synthesized from:",
+            "options": [
+              "Glycine, Arginine, and Methionine (SAM)",
+              "Lysine and Leucine",
+              "Glutamate and Glutamine",
+              "Aspartate and Alanine",
+              "Tyrosine and Phenylalanine"
+            ],
+            "correct": 0,
+            "explanation": "Creatine synthesis is a two-step process involving the kidney and liver. It uses the carbon skeleton of **Glycine**, the guanidino group of **Arginine**, and a methyl group from **SAM (Methionine)**."
+          },
+          {
+            "question": "Methotrexate is a chemotherapy drug that inhibits Dihydrofolate Reductase (DHFR). This inhibits cell division by blocking the synthesis of:",
+            "options": [
+              "dTMP (Thymidylate) and Purines",
+              "ATP",
+              "Proteins",
+              "RNA only",
+              "Fatty acids"
+            ],
+            "correct": 0,
+            "explanation": "Thymidylate Synthase converts dUMP to dTMP using Methylene-THF, producing Dihydrofolate. DHFR is needed to regenerate THF. Methotrexate inhibits **DHFR**, trapping folate in the useless dihydro form. Without THF, the cell cannot make **dTMP (DNA)** or Purines, stopping replication."
+          },
+          {
+            "question": "Jaundice (Hyperbilirubinemia) results from the accumulation of Bilirubin, which is a breakdown product of:",
+            "options": [
+              "Heme",
+              "Cholesterol",
+              "DNA",
+              "Albumin",
+              "Creatine"
+            ],
+            "correct": 0,
+            "explanation": "Heme degradation (from RBC turnover) involves opening the ring (Heme Oxygenase) to Biliverdin, then reducing it to **Bilirubin**. The liver conjugates Bilirubin for excretion. Failure leads to jaundice."
+          },
+          {
+            "question": "The committed step in de novo pyrimidine biosynthesis is the formation of Carbamoyl Phosphate. How does the enzyme Carbamoyl Phosphate Synthetase II (CPS II) differ from the mitochondrial CPS I used in the Urea Cycle?",
+            "options": [
+              "CPS II uses ammonia as the nitrogen source, whereas CPS I uses glutamine.",
+              "CPS II is located in the cytosol and uses glutamine as the nitrogen donor.",
+              "CPS II requires N-acetylglutamate as an obligate activator.",
+              "CPS II is located in the mitochondria and synthesizes urea.",
+              "CPS II is not regulated by feedback inhibition."
+            ],
+            "correct": 1,
+            "explanation": "This distinction is vital. **CPS I** is mitochondrial, involved in the Urea Cycle, uses free Ammonia ($NH_4^+$), and requires N-Acetylglutamate. **CPS II** is cytosolic, involved in Pyrimidine synthesis, uses the amide nitrogen of **Glutamine**, and is feedback inhibited by UTP (the end product of the pathway). This compartmentalization prevents competition between nitrogen disposal and nucleotide synthesis."
+          },
+          {
+            "question": "During pyrimidine synthesis, the pyrimidine ring is first assembled and then attached to the ribose sugar. Which molecule serves as the donor of the ribose-phosphate unit to Orotate?",
+            "options": [
+              "Ribose-5-Phosphate",
+              "ATP",
+              "5-Phosphoribosyl-1-pyrophosphate (PRPP)",
+              "GTP",
+              "Deoxyribose"
+            ],
+            "correct": 2,
+            "explanation": "**PRPP** is the activated form of ribose used in both purine and pyrimidine synthesis (and salvage). In pyrimidine synthesis, the enzyme Orotate Phosphoribosyltransferase adds the pre-formed Orotate ring to PRPP to form Orotidine Monophosphate (OMP), releasing pyrophosphate ($PP_i$) to drive the reaction."
+          },
+          {
+            "question": "Ribonucleotide Reductase (RNR) converts ribonucleotides to deoxyribonucleotides. The reaction mechanism involves the generation of a free radical on which specific amino acid residue in the active site?",
+            "options": [
+              "Serine",
+              "Cysteine",
+              "Tyrosine",
+              "Histidine",
+              "Tryptophan"
+            ],
+            "correct": 2,
+            "explanation": "RNR uses a radical-based mechanism to reduce the 2'-hydroxyl group. The R2 subunit contains a binuclear iron center that stabilizes a **Tyrosyl free radical**. This radical is transferred to a Cysteine residue in the active site to abstract a hydrogen atom from the ribose sugar, facilitating the reduction."
+          },
+          {
+            "question": "The synthesis of Thymidylate (dTMP) from Deoxyuridylate (dUMP) is catalyzed by Thymidylate Synthase. Which cofactor acts as both the methyl donor and the reductant in this reaction?",
+            "options": [
+              "N5-Methyl-Tetrahydrofolate",
+              "N5,N10-Methylene-Tetrahydrofolate",
+              "S-Adenosylmethionine (SAM)",
+              "Biotin",
+              "Vitamin B12"
+            ],
+            "correct": 1,
+            "explanation": "This is a unique reaction in folate metabolism. **$N^5,N^{10}$-Methylene-THF** donates a one-carbon unit (methylene) to dUMP. However, the ring of dTMP requires a methyl group (fully reduced). The enzyme uses the reducing potential of the THF cofactor itself to reduce the methylene to a methyl group, releasing **Dihydrofolate (DHF)**. This explains why DHFR is needed to regenerate active folate."
+          },
+          {
+            "question": "Methotrexate is a chemotherapeutic agent that acts as a competitive inhibitor of Dihydrofolate Reductase (DHFR). Inhibition of DHFR leads to the depletion of which nucleotide specifically?",
+            "options": [
+              "dCMP",
+              "dTMP (Thymidylate)",
+              "ATP",
+              "UMP",
+              "cGMP"
+            ],
+            "correct": 1,
+            "explanation": "Thymidylate Synthase converts THF to DHF. To continue DNA synthesis, DHF must be reduced back to THF by **DHFR**. Methotrexate blocks this regeneration. Without THF, the cell cannot make $N^5,N^{10}$-Methylene-THF, halting the production of **dTMP**. This causes 'Thymineless death' in rapidly dividing cells."
+          },
+          {
+            "question": "In the de novo synthesis of Purines, the purine ring is built atom-by-atom onto the ribose structure. Which three amino acids contribute atoms to the purine ring?",
+            "options": [
+              "Glycine, Aspartate, Glutamine",
+              "Alanine, Arginine, Lysine",
+              "Glycine, Glutamate, Asparagine",
+              "Serine, Histidine, Methionine",
+              "Tyrosine, Tryptophan, Phenylalanine"
+            ],
+            "correct": 0,
+            "explanation": "The purine ring atoms come from **Glycine** (contributes C4, C5, N7), **Aspartate** (contributes N1), **Glutamine** (contributes N3, N9), $CO_2$, and Formyl-THF. Mnemonic: 'Cats purr until they GAG' (Glycine, Aspartate, Glutamine)."
+          },
+          {
+            "question": "The synthesis of AMP and GMP from the branch point intermediate Inosine Monophosphate (IMP) is reciprocally regulated. Which energy source is required for the synthesis of GMP from IMP?",
+            "options": [
+              "ATP",
+              "GTP",
+              "CTP",
+              "UTP",
+              "NADPH"
+            ],
+            "correct": 0,
+            "explanation": "To balance the pools of adenine and guanine nucleotides: The synthesis of AMP requires GTP hydrolysis. The synthesis of **GMP requires ATP** hydrolysis. This cross-regulation ensures that if there is high ATP, the cell makes GMP, and if there is high GTP, the cell makes AMP."
+          },
+          {
+            "question": "Lesch-Nyhan Syndrome is a severe neurological disorder caused by a complete deficiency in which enzyme of the purine salvage pathway?",
+            "options": [
+              "Adenine Phosphoribosyltransferase (APRT)",
+              "Hypoxanthine-Guanine Phosphoribosyltransferase (HGPRT)",
+              "Xanthine Oxidase",
+              "Adenosine Deaminase",
+              "PRPP Synthetase"
+            ],
+            "correct": 1,
+            "explanation": "**HGPRT** salvages Hypoxanthine and Guanine by attaching them to PRPP to form IMP and GMP. Deficiency leads to the inability to salvage these bases. This results in two things: 1) Excessive degradation of purines to Uric Acid (Gout), and 2) Increased PRPP levels stimulating de novo synthesis (further increasing Uric Acid). The neurological mechanism (self-mutilation) involves dopaminergic dysfunction."
+          },
+          {
+            "question": "Ribonucleotide Reductase (RNR) is regulated by two allosteric sites: the Activity site and the Specificity site. Binding of dATP to the Activity site results in:",
+            "options": [
+              "Increased production of dCDP.",
+              "Inactivation of the enzyme.",
+              "Increased production of dGDP.",
+              "Specific synthesis of dADP.",
+              "Dissociation of the enzyme subunits."
+            ],
+            "correct": 1,
+            "explanation": "The 'Activity site' (or Primary Regulation site) acts as an on/off switch. ATP binding activates the enzyme (signaling energy is available for DNA synthesis). **dATP** binding signals that deoxynucleotides are abundant and **inactivates** the entire enzyme to prevent unbalanced DNA replication."
+          },
+          {
+            "question": "5-Fluorouracil (5-FU) is a drug used to treat colon cancer. Inside the cell, it is converted to F-dUMP. F-dUMP binds to Thymidylate Synthase and inhibits it by:",
+            "options": [
+              "Competitive inhibition with dUMP.",
+              "Allosteric inhibition.",
+              "Suicide inhibition (Mechanism-based inactivation).",
+              "Degrading the enzyme.",
+              "Sequestering the folate cofactor."
+            ],
+            "correct": 2,
+            "explanation": "F-dUMP is a structural analog of the substrate dUMP. Thymidylate synthase accepts F-dUMP and begins the catalytic methylation. However, the Fluorine atom at C-5 (unlike Hydrogen) cannot be abstracted. The enzyme becomes covalently trapped in a stable ternary complex with F-dUMP and the Folate cofactor. This is **Suicide Inhibition**."
+          },
+          {
+            "question": "Which enzyme converts Ribonucleotides (like UTP) directly into Cytidine Triphosphate (CTP) by amination?",
+            "options": [
+              "CTP Synthetase",
+              "Thymidylate Synthase",
+              "Ribonucleotide Reductase",
+              "Aspartate Transcarbamoylase",
+              "Carbamoyl Phosphate Synthetase II"
+            ],
+            "correct": 0,
+            "explanation": "Unlike purines (where conversion happens at the monophosphate level, IMP), pyrimidine interconversion happens at the triphosphate level. **CTP Synthetase** aminates UTP to form CTP, using Glutamine as the nitrogen donor and ATP for energy."
+          },
+          {
+            "question": "In the degradation of Purines, the final nitrogenous product excreted by humans is:",
+            "options": [
+              "Urea",
+              "Ammonia",
+              "Uric Acid",
+              "Allantoin",
+              "Xanthine"
+            ],
+            "correct": 2,
+            "explanation": "Humans lack the enzyme Uricase (which converts Uric Acid to the more soluble Allantoin). Therefore, the catabolism of Adenine and Guanine converges on Xanthine, which is oxidized by Xanthine Oxidase to **Uric Acid**. Uric acid has low solubility, leading to Gout if it accumulates."
+          },
+          {
+            "question": "Which step in Pyrimidine biosynthesis is catalyzed by a mitochondrial enzyme, in contrast to the rest which are cytosolic?",
+            "options": [
+              "Carbamoyl Phosphate Synthetase II",
+              "Aspartate Transcarbamoylase",
+              "Dihydroorotase",
+              "Dihydroorotate Dehydrogenase",
+              "Orotate Phosphoribosyltransferase"
+            ],
+            "correct": 3,
+            "explanation": "The first three enzymes (CAD complex) and the last two (UMP Synthase) are cytosolic. **Dihydroorotate Dehydrogenase**, which converts Dihydroorotate to Orotate, is located on the **outer surface of the inner mitochondrial membrane**. It is functionally linked to the electron transport chain (uses Quinone)."
+          },
+          {
+            "question": "Adenosine Deaminase (ADA) deficiency causes Severe Combined Immunodeficiency (SCID). The toxicity to lymphocytes is primarily mediated by the accumulation of:",
+            "options": [
+              "Adenosine",
+              "Inosine",
+              "dATP (Deoxyadenosine Triphosphate)",
+              "Uric Acid",
+              "cAMP"
+            ],
+            "correct": 2,
+            "explanation": "ADA converts Adenosine/Deoxyadenosine to Inosine. In deficiency, Deoxyadenosine accumulates and is phosphorylated to **dATP**. High levels of dATP bind to the Activity Site of Ribonucleotide Reductase, shutting down the synthesis of all other dNTPs. Without dNTPs, T-cells and B-cells cannot replicate DNA and die."
+          },
+          {
+            "question": "Hydroxyurea is a drug used to treat Sickle Cell Disease and myeloproliferative disorders. It functions by inhibiting:",
+            "options": [
+              "Thymidylate Synthase",
+              "Dihydrofolate Reductase",
+              "Ribonucleotide Reductase",
+              "Xanthine Oxidase",
+              "PRPP Synthetase"
+            ],
+            "correct": 2,
+            "explanation": "Hydroxyurea is a free radical scavenger. It quenches the essential Tyrosyl free radical in the active site of **Ribonucleotide Reductase** (RNR), thereby preventing the conversion of ribonucleotides to deoxyribonucleotides and stopping DNA synthesis."
+          },
+          {
+            "question": "Aspartate Transcarbamoylase (ATCase) is the key regulatory enzyme of pyrimidine synthesis in bacteria (and functionally in humans within the CAD complex). It is allosterically inhibited by:",
+            "options": [
+              "ATP",
+              "CTP (or UTP in mammals)",
+              "Aspartate",
+              "Carbamoyl Phosphate",
+              "PRPP"
+            ],
+            "correct": 1,
+            "explanation": "This is classic feedback inhibition. The end product of the pathway, **CTP** (in E. coli) or UTP (in mammals via CPS II), binds to the regulatory subunits of the enzyme, stabilizing the inactive T-state. ATP acts as an activator, signaling energy is available for division."
+          },
+          {
+            "question": "Sulfonamides (Sulfa drugs) are antibiotics that inhibit folate synthesis in bacteria. Why are they not toxic to human folate metabolism?",
+            "options": [
+              "Humans degrade sulfonamides rapidly.",
+              "Humans do not synthesize folate; we must absorb it from the diet.",
+              "Human enzymes have a different shape.",
+              "Sulfonamides cannot enter human cells.",
+              "Humans use B12 instead of folate."
+            ],
+            "correct": 1,
+            "explanation": "Bacteria must synthesize Folate de novo from PABA (Para-aminobenzoic acid). Sulfonamides are PABA analogs that inhibit this synthesis. Humans lack the enzymes to make folate and **must obtain pre-formed folate from the diet**. Therefore, the drug targets a pathway that does not exist in humans."
+          },
+          {
+            "question": "Thioredoxin is a protein cofactor required by Ribonucleotide Reductase. To function catalytically, oxidized Thioredoxin must be regenerated (reduced) by Thioredoxin Reductase using:",
+            "options": [
+              "NADH",
+              "NADPH",
+              "FADH2",
+              "ATP",
+              "GTP"
+            ],
+            "correct": 1,
+            "explanation": "The ultimate source of reducing power for DNA synthesis is **NADPH**. NADPH reduces Thioredoxin Reductase, which reduces Thioredoxin, which reduces Ribonucleotide Reductase, which reduces the Ribose sugar."
+          },
+          {
+            "question": "Which of the following is an intermediate in both the synthesis of Pyrimidines and the Urea Cycle, but originates in different cellular compartments?",
+            "options": [
+              "Carbamoyl Phosphate",
+              "Ornithine",
+              "Citrulline",
+              "Argininosuccinate",
+              "Fumarate"
+            ],
+            "correct": 0,
+            "explanation": "**Carbamoyl Phosphate** is made in the mitochondria (by CPS I for Urea) and in the cytosol (by CPS II for Pyrimidines). While normally compartmentalized, in OTC deficiency, mitochondrial Carbamoyl Phosphate can leak into the cytosol and drive excess pyrimidine synthesis (Orotic Aciduria)."
+          },
+          {
+            "question": "Mycophenolic Acid is a potent immunosuppressant used to prevent transplant rejection. It works by inhibiting Inosine Monophosphate (IMP) Dehydrogenase. This specifically deprives T-cells and B-cells of:",
+            "options": [
+              "ATP",
+              "GTP (Guanine nucleotides)",
+              "CTP",
+              "UTP",
+              "dTMP"
+            ],
+            "correct": 1,
+            "explanation": "IMP Dehydrogenase is the committed step in **GMP/GTP** synthesis from IMP. Lymphocytes rely heavily on the de novo pathway for purines (unlike other cells that use salvage). By blocking GMP synthesis, Mycophenolic Acid selectively inhibits lymphocyte proliferation."
+          },
+          {
+            "question": "In the 'Folate Trap' hypothesis seen in Vitamin B12 deficiency, Folate accumulates in which form?",
+            "options": [
+              "Dihydrofolate",
+              "Tetrahydrofolate",
+              "N5-Methyl-Tetrahydrofolate",
+              "N10-Formyl-Tetrahydrofolate",
+              "N5,N10-Methylene-Tetrahydrofolate"
+            ],
+            "correct": 2,
+            "explanation": "The conversion of N5,N10-Methylene-THF to **N5-Methyl-THF** is irreversible. The only way to recycle N5-Methyl-THF is via Methionine Synthase, which requires **B12**. If B12 is deficient, folate gets 'trapped' as the Methyl form, creating a functional folate deficiency despite normal serum folate levels."
+          },
+          {
+            "question": "Allopurinol is used to treat Gout. It is a structural analog of Hypoxanthine. Its mechanism of action involves:",
+            "options": [
+              "Inhibiting PRPP Synthetase.",
+              "Inhibiting Xanthine Oxidase as a suicide inhibitor (generating Oxypurinol).",
+              "Increasing renal excretion of Uric Acid.",
+              "Inhibiting HGPRT.",
+              "Inhibiting digestion of DNA."
+            ],
+            "correct": 1,
+            "explanation": "Allopurinol is converted by **Xanthine Oxidase** into Alloxanthine (Oxypurinol). Oxypurinol binds tightly to the active site molybdenum center of Xanthine Oxidase, irreversibly inhibiting it. This lowers uric acid production and increases the levels of the more soluble precursors, Hypoxanthine and Xanthine."
+          },
+          {
+            "question": "The antiviral drug Acyclovir (used for Herpes) is a Guanosine analog. To become active, it must first be phosphorylated by:",
+            "options": [
+              "Human Nucleoside Kinase",
+              "Viral Thymidine Kinase",
+              "Viral DNA Polymerase",
+              "Human PRPP Synthetase",
+              "Viral Protease"
+            ],
+            "correct": 1,
+            "explanation": "Acyclovir is a prodrug. It has high specificity because the first phosphorylation step requires a **Viral Thymidine Kinase** (encoded by HSV). Uninfected human cells do not phosphorylate it efficiently, so the drug is only activated in infected cells, where it then inhibits viral DNA polymerase."
+          },
+          {
+            "question": "Orotic Aciduria is a rare genetic disease caused by a defect in UMP Synthase (bifunctional enzyme). Treatment involves oral administration of:",
+            "options": [
+              "Folic Acid",
+              "Uridine",
+              "Cytidine",
+              "Thymidine",
+              "Orotate"
+            ],
+            "correct": 1,
+            "explanation": "The defect prevents the conversion of Orotate to UMP. Giving **Uridine** bypasses the block. Uridine is salvaged to UMP by Uridine Kinase. The resulting UTP feedback inhibits CPS II, shutting down the production of Orotic Acid, while providing the necessary pyrimidines for growth."
+          },
+          {
+            "question": "Which cofactor is required for the Glycinamide Ribonucleotide (GAR) Transformylase reaction in purine synthesis?",
+            "options": [
+              "N5-Methyl-THF",
+              "N10-Formyl-Tetrahydrofolate",
+              "Biotin",
+              "Pyridoxal Phosphate",
+              "SAM"
+            ],
+            "correct": 1,
+            "explanation": "Two carbons in the purine ring (C2 and C8) come from the one-carbon pool carried by Folate. Specifically, **N10-Formyl-THF** donates the formyl group to the growing ring structure."
+          },
+          {
+            "question": "Nucleoside Diphosphate Kinase (NDPK) is a ubiquitous enzyme that performs which function?",
+            "options": [
+              "Converts Nucleosides to Monophosphates.",
+              "Interconverts Nucleoside Di- and Tri-phosphates (e.g., GDP + ATP <-> GTP + ADP) with broad specificity.",
+              "Reduces Ribonucleotides.",
+              "Degrades Nucleotides.",
+              "Synthesizes PRPP."
+            ],
+            "correct": 1,
+            "explanation": "NDPK is a 'housekeeping' enzyme with broad specificity. It ensures that all NTPs (GTP, CTP, UTP) are maintained in equilibrium with ATP. It transfers a phosphate from ATP to any NDP (or dNDP) to make the corresponding NTP (or dNTP)."
+          },
+          {
+            "question": "The degradation of dietary nucleic acids occurs in the small intestine. Pancreatic nucleases hydrolyze DNA/RNA to nucleotides. These are further broken down to nucleosides by:",
+            "options": [
+              "Phosphodiesterases",
+              "Nucleotidases and Phosphatases",
+              "Nucleosidases",
+              "Xanthine Oxidase",
+              "HGPRT"
+            ],
+            "correct": 1,
+            "explanation": "Nucleases cleave the backbone. **Nucleotidases/Phosphatases** remove the phosphate group to form Nucleosides. Nucleosidases then remove the sugar to form free bases. Only nucleosides and free bases are absorbed efficiently."
+          },
+          {
+            "question": "Azaserine and Acivicin are glutamine antagonists. They inhibit purine and pyrimidine synthesis by blocking enzymes that use glutamine as a:",
+            "options": [
+              "Carbon donor",
+              "Nitrogen (Amide) donor",
+              "Energy source",
+              "Phosphate donor",
+              "Allosteric activator"
+            ],
+            "correct": 1,
+            "explanation": "Many steps in nucleotide synthesis (CPS II, CTP Synthetase, PRPP Amidotransferase) use the amide nitrogen of **Glutamine**. Glutamine analogs bind covalently to the active site cysteine of these enzymes, blocking nitrogen transfer."
+          },
+          {
+            "question": "In the synthesis of Coenzyme A (CoA) from Pantothenate, which nucleotide provides the Adenosine 3',5'-diphosphate handle?",
+            "options": [
+              "GTP",
+              "CTP",
+              "ATP",
+              "UTP",
+              "ITP"
+            ],
+            "correct": 2,
+            "explanation": "**ATP** is the universal donor. During CoA synthesis, ATP is used to phosphorylate pantothenate, then to add the AMP moiety (adenylation), and finally to phosphorylate the 3'-hydroxyl of the ribose."
+          },
+          {
+            "question": "Why does a deficiency in Vitamin B12 lead to the accumulation of Methylmalonic Acid?",
+            "options": [
+              "B12 is a cofactor for Methylmalonyl-CoA Mutase, converting it to Succinyl-CoA.",
+              "B12 synthesizes Methylmalonic acid.",
+              "B12 degrades Succinyl-CoA.",
+              "B12 inhibits Propionyl-CoA Carboxylase.",
+              "B12 is required for fatty acid synthesis."
+            ],
+            "correct": 0,
+            "explanation": "B12 has two main reactions in humans: Methionine Synthase and **Methylmalonyl-CoA Mutase**. The mutase uses Adenosylcobalamin (B12) to rearrange Methylmalonyl-CoA (from odd-chain fats/amino acids) into Succinyl-CoA. Deficiency blocks this, causing MMA accumulation (a key differentiator from Folate deficiency)."
+          },
+          {
+            "question": "Phosphatidate (Diacylglycerol 3-Phosphate) is a pivotal intermediate in lipid metabolism. It serves as the common precursor for the biosynthesis of both:",
+            "options": [
+              "Sphingomyelin and Cholesterol",
+              "Triacylglycerols and Glycerophospholipids",
+              "Fatty Acids and Ketone Bodies",
+              "Plasmalogens and Gangliosides",
+              "Ceramide and Glycolipids"
+            ],
+            "correct": 1,
+            "explanation": "Phosphatidate consists of glycerol-3-phosphate acylated at C1 and C2. It stands at a branch point: it can be dephosphorylated to **1,2-Diacylglycerol (DAG)** to synthesize Triacylglycerols (storage) or neutral phospholipids (PC/PE), or it can be activated by CTP to form **CDP-Diacylglycerol** for the synthesis of acidic phospholipids (PI/PG/Cardiolipin)."
+          },
+          {
+            "question": "In the synthesis of Phosphatidylcholine (PC) from free choline (Kennedy Pathway), which molecule serves as the 'activated' intermediate that donates the head group?",
+            "options": [
+              "CDP-Choline",
+              "CDP-Diacylglycerol",
+              "UDP-Choline",
+              "Acetyl-Choline",
+              "Phosphocholine"
+            ],
+            "correct": 0,
+            "explanation": "For PC and PE synthesis (the most abundant lipids), the head group is activated. Choline is phosphorylated to Phosphocholine, which then reacts with CTP to form **CDP-Choline**. The phosphocholine moiety is then transferred to Diacylglycerol. (Contrast this with PI synthesis, where the Diacylglycerol is activated as CDP-DAG)."
+          },
+          {
+            "question": "Plasmalogens are ether-linked phospholipids enriched in the heart and brain. Their synthesis begins in the peroxisome with the esterification of a fatty acid to:",
+            "options": [
+              "Glycerol-3-Phosphate",
+              "Dihydroxyacetone Phosphate (DHAP)",
+              "Serine",
+              "Sphingosine",
+              "Acetyl-CoA"
+            ],
+            "correct": 1,
+            "explanation": "Ether lipid synthesis initiates with **Dihydroxyacetone Phosphate (DHAP)**. An acyl group is attached to C1, then replaced by a long-chain alcohol to form the characteristic ether linkage. This precursor moves to the ER for completion. Peroxisomal defects (Zellweger syndrome) impair plasmalogen synthesis."
+          },
+          {
+            "question": "Sphingolipids are structurally distinct from glycerolipids. The backbone, Sphingosine, is synthesized from the condensation of:",
+            "options": [
+              "Palmitoyl-CoA and Serine",
+              "Acetyl-CoA and Glycine",
+              "Stearoyl-CoA and Choline",
+              "Malonyl-CoA and Alanine",
+              "Two Palmitoyl-CoA molecules"
+            ],
+            "correct": 0,
+            "explanation": "The synthesis of the sphingoid base begins with the condensation of **Palmitoyl-CoA (16C)** and the amino acid **Serine**, catalyzed by Serine Palmitoyltransferase. This forms 3-ketosphinganine, which is reduced to Sphinganine and oxidized to Sphingosine."
+          },
+          {
+            "question": "Ceramide is the parent compound of all sphingolipids. Structurally, Ceramide consists of:",
+            "options": [
+              "Sphingosine + Fatty Acid (via amide linkage)",
+              "Sphingosine + Phosphate",
+              "Sphingosine + Glucose",
+              "Glycerol + 2 Fatty Acids",
+              "Sphingosine + Choline"
+            ],
+            "correct": 0,
+            "explanation": "Ceramide is formed when a **Fatty Acid** is attached to the amino group of Sphingosine via an **Amide bond**. Adding a phosphocholine head group to Ceramide yields Sphingomyelin. Adding sugars yields Cerebrosides/Gangliosides."
+          },
+          {
+            "question": "Gangliosides are complex glycosphingolipids found on the cell surface. Their identifying feature is the presence of at least one residue of:",
+            "options": [
+              "Phosphate",
+              "Sulfate",
+              "N-Acetylneuraminic Acid (NANA/Sialic Acid)",
+              "Fructose",
+              "Mannose-6-Phosphate"
+            ],
+            "correct": 2,
+            "explanation": "Gangliosides are acidic glycosphingolipids. Their acidity and negative charge at physiological pH come from the presence of one or more **Sialic Acid (NANA)** residues in the oligosaccharide head group."
+          },
+          {
+            "question": "The committed, rate-limiting step in Cholesterol biosynthesis is the formation of Mevalonate. This reaction is catalyzed by:",
+            "options": [
+              "HMG-CoA Synthase",
+              "HMG-CoA Reductase",
+              "HMG-CoA Lyase",
+              "Thiolase",
+              "Mevalonate Kinase"
+            ],
+            "correct": 1,
+            "explanation": "**HMG-CoA Reductase** catalyzes the reduction of HMG-CoA to Mevalonate using 2 NADPH. This irreversible step commits the carbon to sterol synthesis and is the primary site of regulation (and the target of Statins)."
+          },
+          {
+            "question": "Cholesterol is a 27-carbon molecule derived from Acetyl-CoA. The synthesis proceeds via the polymerization of activated isoprene units. Which intermediate is the linear 30-carbon precursor that cyclizes to form the steroid nucleus?",
+            "options": [
+              "Lanosterol",
+              "Squalene",
+              "Farnesyl Pyrophosphate",
+              "Geranyl Pyrophosphate",
+              "Mevalonate"
+            ],
+            "correct": 1,
+            "explanation": "**Squalene** (C30) is synthesized by the head-to-head condensation of two molecules of Farnesyl Pyrophosphate (C15). Squalene Epoxidase then adds an oxygen atom, and Squalene Cyclase closes the rings to form Lanosterol, the first sterol."
+          },
+          {
+            "question": "Regulation of HMG-CoA Reductase occurs at the transcriptional level via SREBP. When cellular cholesterol is low, SREBP:",
+            "options": [
+              "Remains anchored in the ER membrane bound to SCAP.",
+              "Is degraded by the proteasome.",
+              "Translocates from the ER to the Golgi, where it is proteolytically cleaved to release the active transcription factor.",
+              "Binds cholesterol directly.",
+              "Inhibits LDL receptor synthesis."
+            ],
+            "correct": 2,
+            "explanation": "When cholesterol is low, SCAP (the cholesterol sensor) escorts **SREBP from the ER to the Golgi**. In the Golgi, two proteases (S1P and S2P) cleave SREBP, releasing the bHLH domain. This fragment travels to the nucleus to upregulate HMG-CoA Reductase and LDL Receptor gene expression."
+          },
+          {
+            "question": "Cholesterol synthesis consumes a large amount of energy. The synthesis of one molecule of Isopentenyl Pyrophosphate (C5, activated isoprene) from Mevalonate requires:",
+            "options": [
+              "1 ATP",
+              "2 ATP",
+              "3 ATP",
+              "GTP",
+              "No ATP"
+            ],
+            "correct": 2,
+            "explanation": "Conversion of Mevalonate to **Isopentenyl Pyrophosphate (IPP)** requires **3 ATP** molecules: Mevalonate $\\rightarrow$ 5-Phosphomevalonate $\\rightarrow$ 5-Pyrophosphomevalonate $\\rightarrow$ 3-Phospho-5-Pyrophosphomevalonate $\\rightarrow$ IPP + CO2 + Pi."
+          },
+          {
+            "question": "Which lipoprotein is responsible for the 'Reverse Cholesterol Transport', effectively scavenging excess cholesterol from peripheral tissues and returning it to the liver?",
+            "options": [
+              "Chylomicrons",
+              "VLDL",
+              "LDL",
+              "HDL",
+              "IDL"
+            ],
+            "correct": 3,
+            "explanation": "**HDL (High-Density Lipoprotein)** is secreted by the liver and intestine as a lipid-poor particle (ApoA-I). It picks up free cholesterol from cells (via ABCA1), converts it to cholesteryl ester (via LCAT), and transports it back to the liver (via SR-B1) for excretion as bile."
+          },
+          {
+            "question": "The LDL Receptor binds ApoB-100 and ApoE to mediate endocytosis. Which region of the receptor anchors it in the plasma membrane and contains the signal for internalization (coated pits)?",
+            "options": [
+              "Ligand-binding domain (N-terminal)",
+              "EGF-homology domain",
+              "O-linked sugar domain",
+              "Transmembrane and Cytosolic domain",
+              "Beta-propeller domain"
+            ],
+            "correct": 3,
+            "explanation": "The **Cytosolic domain** contains the 'NPXY' sequence motif required for interaction with clathrin adaptor proteins, directing the receptor to coated pits for internalization. Defects here allow binding but prevent uptake."
+          },
+          {
+            "question": "Bile salts are synthesized in the liver from cholesterol to aid lipid digestion. The rate-limiting enzyme in bile acid synthesis is:",
+            "options": [
+              "HMG-CoA Reductase",
+              "Cholesterol-7-alpha-Hydroxylase (CYP7A1)",
+              "Sterol 27-hydroxylase",
+              "Desmolase",
+              "Aromatase"
+            ],
+            "correct": 1,
+            "explanation": "**Cholesterol-7-alpha-hydroxylase** is a Cytochrome P450 enzyme that introduces a hydroxyl group at position 7 of the steroid nucleus. This is the committed step. It is feedback inhibited by bile acids and induced by cholesterol."
+          },
+          {
+            "question": "Respiratory Distress Syndrome (RDS) in premature infants is caused by a deficiency in Pulmonary Surfactant. The major lipid component of surfactant is:",
+            "options": [
+              "Sphingomyelin",
+              "Dipalmitoylphosphatidylcholine (DPPC)",
+              "Cardiolipin",
+              "Cholesterol",
+              "Phosphatidylserine"
+            ],
+            "correct": 1,
+            "explanation": "**DPPC** (also called Dipalmitoyl Lecithin) is unique because it has two saturated palmitate tails. This allows it to pack extremely tightly at the air-water interface of alveoli, drastically reducing surface tension and preventing collapse."
+          },
+          {
+            "question": "Familial Hypercholesterolemia (FH) is typically caused by a genetic defect in:",
+            "options": [
+              "HMG-CoA Reductase",
+              "The LDL Receptor",
+              "Lipoprotein Lipase",
+              "ApoA-I",
+              "Cholesterol Ester Transfer Protein (CETP)"
+            ],
+            "correct": 1,
+            "explanation": "Homozygous or Heterozygous defects in the **LDL Receptor** (or its ligand ApoB-100) prevent the liver from clearing LDL from the blood. LDL accumulates to dangerous levels, oxidizing and depositing in arteries (atherosclerosis) and tendons (xanthomas)."
+          },
+          {
+            "question": "In the transport of dietary lipids, Chylomicrons enter the blood via the lymph and are acted upon by Lipoprotein Lipase (LPL). LPL recognizes which apoprotein on the surface of the Chylomicron?",
+            "options": [
+              "ApoB-48",
+              "ApoC-II",
+              "ApoE",
+              "ApoA-I",
+              "ApoB-100"
+            ],
+            "correct": 1,
+            "explanation": "Chylomicrons (and VLDL) pick up **ApoC-II** from HDL in the circulation. ApoC-II acts as an obligatory cofactor to activate **Lipoprotein Lipase** on the capillary endothelium, allowing hydrolysis of triglycerides."
+          },
+          {
+            "question": "Steroid hormones are derived from cholesterol. The first step, the conversion of Cholesterol to Pregnenolone by cleavage of the side chain, occurs in the:",
+            "options": [
+              "Cytosol",
+              "Mitochondria",
+              "ER",
+              "Golgi",
+              "Lysosome"
+            ],
+            "correct": 1,
+            "explanation": "The side-chain cleavage enzyme (Desmolase/P450scc) resides in the **Inner Mitochondrial Membrane**. Cholesterol must be transported there (via StAR protein). This is the rate-limiting step for steroidogenesis."
+          },
+          {
+            "question": "Which phospholipid is normally restricted to the inner leaflet of the plasma membrane but signals apoptosis when exposed on the outer leaflet?",
+            "options": [
+              "Phosphatidylcholine",
+              "Phosphatidylserine",
+              "Sphingomyelin",
+              "Gangliosides",
+              "Phosphatidylinositol"
+            ],
+            "correct": 1,
+            "explanation": "**Phosphatidylserine (PS)** is maintained in the inner leaflet by flippases. During apoptosis, scramblases are activated, exposing PS on the surface. This 'Eat Me' signal triggers phagocytosis by macrophages."
+          },
+          {
+            "question": "Tay-Sachs disease is a lysosomal storage disorder caused by the accumulation of:",
+            "options": [
+              "Sphingomyelin",
+              "Glucocerebroside",
+              "Ganglioside GM2",
+              "Ceramide",
+              "Globoside"
+            ],
+            "correct": 2,
+            "explanation": "Tay-Sachs is caused by a deficiency in **Hexosaminidase A**. This enzyme removes N-acetylgalactosamine from **Ganglioside GM2**. Without it, GM2 accumulates in neurons, causing neurodegeneration."
+          },
+          {
+            "question": "What is the function of ACAT (Acyl-CoA:Cholesterol Acyltransferase) in the cell?",
+            "options": [
+              "It synthesizes cholesterol.",
+              "It esterifies cholesterol with a fatty acid for storage.",
+              "It hydrolyzes cholesterol esters from LDL.",
+              "It excretes cholesterol into bile.",
+              "It converts cholesterol to Vitamin D."
+            ],
+            "correct": 1,
+            "explanation": "Free cholesterol is toxic to membranes in excess. **ACAT** converts free cholesterol to **Cholesteryl Esters** (highly hydrophobic) by attaching a fatty acid. These esters are stored in lipid droplets."
+          },
+          {
+            "question": "Which activated isoprene unit is used to prenylate proteins (like Ras), anchoring them to the membrane?",
+            "options": [
+              "Mevalonate",
+              "Farnesyl Pyrophosphate (FPP)",
+              "Squalene",
+              "Lanosterol",
+              "HMG-CoA"
+            ],
+            "correct": 1,
+            "explanation": "**Farnesyl Pyrophosphate (C15)** (and Geranylgeranyl-PP, C20) are intermediates in cholesterol synthesis. They are also substrates for prenyltransferases that attach the lipid tail to the C-terminus of proteins like Ras, facilitating membrane localization."
+          },
+          {
+            "question": "Lipoprotein(a) [Lp(a)] is an independent risk factor for heart disease. It consists of an LDL particle covalently linked to:",
+            "options": [
+              "ApoA-I",
+              "Apo(a), which structurally resembles Plasminogen.",
+              "ApoE",
+              "Albumin",
+              "Hemoglobin"
+            ],
+            "correct": 1,
+            "explanation": "Lp(a) contains **Apo(a)** linked to ApoB-100. Apo(a) has 'Kringle' domains similar to **Plasminogen**. It competes with plasminogen for binding to clots but cannot dissolve them (no protease activity), thus promoting thrombosis."
+          },
+          {
+            "question": "Vitamin D3 (Cholecalciferol) is synthesized in the skin from:",
+            "options": [
+              "Cholesterol",
+              "7-Dehydrocholesterol",
+              "Ergosterol",
+              "Lanosterol",
+              "Squalene"
+            ],
+            "correct": 1,
+            "explanation": "UV light cleaves the B-ring of **7-Dehydrocholesterol** (an intermediate in cholesterol synthesis found in skin) to form Previtamin D3, which isomerizes to Vitamin D3."
+          },
+          {
+            "question": "Bisphosphonates are drugs used for osteoporosis. They inhibit bone resorption by osteoclasts. Their mechanism involves inhibiting the synthesis of:",
+            "options": [
+              "Cholesterol directly.",
+              "Farnesyl Pyrophosphate and Geranylgeranyl Pyrophosphate.",
+              "Vitamin D.",
+              "Calcium channels.",
+              "Phospholipids."
+            ],
+            "correct": 1,
+            "explanation": "Nitrogenous bisphosphonates inhibit Farnesyl Pyrophosphate Synthase. This depletes the cell of **Farnesyl-PP** and **Geranylgeranyl-PP**. Without these lipids, osteoclasts cannot prenylate small G-proteins (like Ras/Rho) required for cytoskeletal organization and survival, leading to osteoclast apoptosis."
+          },
+          {
+            "question": "During the synthesis of VLDL in the liver, which protein is essential for loading lipids onto the ApoB-100 protein?",
+            "options": [
+              "LDL Receptor",
+              "Microsomal Triglyceride Transfer Protein (MTP)",
+              "LPL",
+              "ACAT",
+              "LCAT"
+            ],
+            "correct": 1,
+            "explanation": "**MTP** resides in the ER lumen. It transfers triglycerides and cholesterol esters to the nascent ApoB-100 (or ApoB-48 in gut). Without MTP (Abetalipoproteinemia), VLDL and Chylomicrons cannot be assembled."
+          },
+          {
+            "question": "Cholestyramine is a bile acid sequestrant. How does it lower blood cholesterol?",
+            "options": [
+              "It inhibits HMG-CoA Reductase.",
+              "It binds bile acids in the gut, preventing enterohepatic recycling, forcing the liver to consume cholesterol to make more bile acids.",
+              "It blocks dietary cholesterol absorption.",
+              "It activates LPL.",
+              "It inhibits VLDL secretion."
+            ],
+            "correct": 1,
+            "explanation": "Bile acids are normally 95% recycled. Sequestrants bind them (positive charge binds negative bile acids) and force excretion. The liver senses low bile acids, upregulates 7-alpha-hydroxylase to make more from cholesterol, and upregulates **LDL Receptors** to get that cholesterol from the blood."
+          },
+          {
+            "question": "What is the primary function of ApoE on VLDL remnants and Chylomicron remnants?",
+            "options": [
+              "Activates LPL.",
+              "Ligand for uptake by the Liver (via LDL Receptor and LRP).",
+              "Structural stability.",
+              "Inhibits lipase.",
+              "Activates LCAT."
+            ],
+            "correct": 1,
+            "explanation": "**ApoE** is the high-affinity ligand exposed after LPL has stripped some triglycerides. It binds to receptors on the liver (LDLR and LRP), allowing the clearance of these remnant particles."
+          },
+          {
+            "question": "Which enzyme converts Phosphatidylserine to Phosphatidylethanolamine?",
+            "options": [
+              "Phosphatidylserine Decarboxylase",
+              "Methyltransferase",
+              "Kinase",
+              "Phosphatase",
+              "Acyltransferase"
+            ],
+            "correct": 0,
+            "explanation": "In mammals, PS can be decarboxylated (removal of $CO_2$) by **PS Decarboxylase** in the mitochondria to form PE. PE can then be methylated (3x SAM) to form PC."
+          },
+          {
+            "question": "Ezetimibe reduces cholesterol levels by:",
+            "options": [
+              "Inhibiting HMG-CoA Reductase.",
+              "Blocking the Niemann-Pick C1-Like 1 (NPC1L1) transporter in the intestine.",
+              "Binding bile acids.",
+              "Activating PPAR-alpha.",
+              "Inhibiting PCSK9."
+            ],
+            "correct": 1,
+            "explanation": "**NPC1L1** transports dietary and biliary cholesterol from the gut lumen into the enterocyte. Ezetimibe specifically inhibits this transporter, reducing the cholesterol pool delivered to the liver."
+          },
+          {
+            "question": "Tangier disease is characterized by very low HDL levels and cholesterol accumulation in tonsils. The defect is in:",
+            "options": [
+              "LCAT",
+              "ABCA1 Transporter",
+              "ApoA-I",
+              "SR-B1 Receptor",
+              "CETP"
+            ],
+            "correct": 1,
+            "explanation": "**ABCA1** pumps cholesterol from inside the cell to lipid-poor ApoA-I outside. This is the first step in HDL formation. Without ABCA1, ApoA-I is rapidly degraded, HDL cannot form, and cells accumulate cholesterol."
+          },
+          {
+            "question": "Protein synthesis requires high fidelity. The error rate of translation is approximately 1 in 10,000 amino acids. The primary 'proofreading' step that ensures the correct amino acid is attached to the correct tRNA occurs at the level of:",
+            "options": [
+              "The Ribosome decoding center (16S rRNA).",
+              "Aminoacyl-tRNA Synthetase (activation and editing sites).",
+              "Peptidyl Transferase center.",
+              "Elongation Factor Tu.",
+              "The 5' Cap of mRNA."
+            ],
+            "correct": 1,
+            "explanation": "While the ribosome checks the codon-anticodon match, the absolute identity of the amino acid attached to the tRNA is determined solely by the **Aminoacyl-tRNA Synthetase**. These enzymes have a 'double-sieve' editing mechanism: an activation site that rejects amino acids larger than the target, and an editing (hydrolytic) site that cleaves off amino acids smaller than the target. Once the amino acid is attached, the ribosome cannot tell if it is correct or not (as proven by Chapeville's experiment converting Cys-tRNA to Ala-tRNA)."
+          },
+          {
+            "question": "All Transfer RNA (tRNA) molecules share a common secondary structure (Cloverleaf) and tertiary structure (L-shape). The amino acid attachment site is located at the:",
+            "options": [
+              "3' end with the sequence CCA.",
+              "5' end with a Guanine residue.",
+              "Anticodon loop.",
+              "D-loop.",
+              "Variable loop."
+            ],
+            "correct": 0,
+            "explanation": "All tRNAs end with the sequence **CCA-3'**. The activated amino acid is covalently attached via an ester bond to the 2'- or 3'-hydroxyl group of the terminal **Adenosine** at the 3' end. In the L-shaped tertiary structure, this acceptor stem is at the opposite end of the molecule from the anticodon loop."
+          },
+          {
+            "question": "The 'Wobble Hypothesis' explains why cells have fewer than 61 distinct tRNAs. Wobble allows non-Watson-Crick base pairing between:",
+            "options": [
+              "The first base of the codon (5') and the third base of the anticodon (3').",
+              "The third base of the codon (3') and the first base of the anticodon (5').",
+              "The second base of the codon and the second base of the anticodon.",
+              "Adenine and Guanine.",
+              "Start and Stop codons."
+            ],
+            "correct": 1,
+            "explanation": "The Wobble position is the **3rd base of the mRNA codon** and the **1st base of the tRNA anticodon** (5' end). Steric freedom at this position allows non-standard pairing (e.g., G can pair with U; Inosine can pair with A, U, or C). This allows one tRNA to recognize multiple synonymous codons."
+          },
+          {
+            "question": "In Prokaryotes, the Ribosome is a 70S particle composed of 30S and 50S subunits. The catalytic center responsible for peptide bond formation (Peptidyl Transferase) is located on:",
+            "options": [
+              "The 16S rRNA of the 30S subunit.",
+              "The 23S rRNA of the 50S subunit.",
+              "The 5S rRNA.",
+              "Ribosomal Protein L1.",
+              "Elongation Factor G."
+            ],
+            "correct": 1,
+            "explanation": "The ribosome is a **Ribozyme**. The catalytic peptidyl transferase activity resides entirely within the **23S rRNA** component of the Large (50S) subunit. Ribosomal proteins primarily serve to stabilize the rRNA structure."
+          },
+          {
+            "question": "During the initiation of translation in bacteria, the 16S rRNA of the small subunit correctly positions the AUG start codon by binding to:",
+            "options": [
+              "The 5' Cap structure.",
+              "The Poly-A tail.",
+              "The Shine-Dalgarno sequence (Purine-rich tract).",
+              "The TATA box.",
+              "The Operator."
+            ],
+            "correct": 2,
+            "explanation": " Bacterial mRNAs have a purine-rich sequence (AGGAGG) called the **Shine-Dalgarno sequence** located upstream of the AUG. This sequence base-pairs with a complementary pyrimidine-rich sequence at the 3' end of the **16S rRNA**, aligning the P-site of the ribosome directly over the Start Codon."
+          },
+          {
+            "question": "In bacteria, the initiator tRNA is unique because it carries:",
+            "options": [
+              "Methionine",
+              "N-Formylmethionine (fMet)",
+              "Acetyl-Methionine",
+              "Valine",
+              "Start-Methionine"
+            ],
+            "correct": 1,
+            "explanation": "Bacteria use **N-Formylmethionine (fMet)** as the first amino acid. The formyl group blocks the N-terminus, preventing the initiator amino acid from reacting backward or entering internal positions. Eukaryotes use standard Methionine (but a specialized tRNA)."
+          },
+          {
+            "question": "Elongation Factor Tu (EF-Tu) in bacteria (or EF-1alpha in eukaryotes) performs which critical function?",
+            "options": [
+              "It catalyzes peptide bond formation.",
+              "It translocates the ribosome.",
+              "It delivers Aminoacyl-tRNA to the A-site in a GTP-dependent manner and protects the ester bond from hydrolysis.",
+              "It regenerates GTP.",
+              "It recognizes the stop codon."
+            ],
+            "correct": 2,
+            "explanation": "**EF-Tu** (complexed with GTP) binds all aminoacyl-tRNAs (except initiator tRNA) and delivers them to the **A-site**. If the codon-anticodon match is correct, GTP is hydrolyzed, EF-Tu releases the tRNA, and the amino acid is accommodated for catalysis. This is a kinetic proofreading step."
+          },
+          {
+            "question": "Peptide bond formation is a nucleophilic attack. Which group acts as the nucleophile?",
+            "options": [
+              "The carboxyl group of the peptidyl-tRNA in the P-site.",
+              "The alpha-amino group of the aminoacyl-tRNA in the A-site.",
+              "The hydroxyl group of the rRNA.",
+              "The phosphate of GTP.",
+              "The formyl group of fMet."
+            ],
+            "correct": 1,
+            "explanation": "The **alpha-amino group** of the incoming amino acid (in the A-site) attacks the carbonyl carbon of the ester linkage of the peptidyl-tRNA (in the P-site).This transfers the growing peptide chain onto the tRNA in the A-site."
+          },
+          {
+            "question": "Following peptide bond formation, the ribosome must move one codon down the mRNA (Translocation). This step is driven by the hydrolysis of GTP by:",
+            "options": [
+              "EF-Tu",
+              "EF-Ts",
+              "EF-G (Prokaryotes) / EF-2 (Eukaryotes)",
+              "IF-2",
+              "Peptidyl Transferase"
+            ],
+            "correct": 2,
+            "explanation": "**Elongation Factor G (EF-G)** is a translocase. Structural mimicry allows it to look like a tRNA-EF-Tu complex. It binds to the ribosome and uses the energy of GTP hydrolysis to force the mRNA-tRNA complex to shift by one codon, moving the empty tRNA to the E-site and the peptidyl-tRNA to the P-site."
+          },
+          {
+            "question": "How does the ribosome recognize a Stop Codon (UAA, UAG, UGA)?",
+            "options": [
+              "A specialized 'Stop tRNA' with a complementary anticodon binds.",
+              "The mRNA forms a hairpin loop.",
+              "Protein Release Factors (RFs) bind to the A-site.",
+              "The ribosome runs out of ATP.",
+              "The 16S rRNA cleaves the mRNA."
+            ],
+            "correct": 2,
+            "explanation": "There are no tRNAs for stop codons. Instead, proteins called **Release Factors (RF1, RF2)** mimic the shape of a tRNA (Molecular Mimicry). They enter the A-site, recognize the stop codon, and induce the peptidyl transferase center to use **Water** as a nucleophile, hydrolyzing the peptide chain from the tRNA."
+          },
+          {
+            "question": "What is the energetic cost of adding one amino acid to a polypeptide chain during translation?",
+            "options": [
+              "1 ATP",
+              "2 ATP",
+              "4 High-energy phosphate bonds (2 from ATP, 2 from GTP)",
+              "1 GTP",
+              "No energy is required."
+            ],
+            "correct": 2,
+            "explanation": "Total cost = 4 bonds. **2 ATP equivalents** (ATP $\\rightarrow$ AMP + PPi) are used by the Synthetase to charge the tRNA. **1 GTP** is used by EF-Tu for delivery. **1 GTP** is used by EF-G for translocation. (Initiation and Termination utilize additional GTPs)."
+          },
+          {
+            "question": "In Eukaryotes, the mRNA is circularized during translation initiation. This is mediated by the interaction between:",
+            "options": [
+              "The Poly-A binding protein (PABP) and the eIF4G/eIF4E cap-binding complex.",
+              "The 5' Cap and the 3' UTR.",
+              "The Ribosome and the Endoplasmic Reticulum.",
+              "The Spliceosome and the Nuclear Pore.",
+              "DNA and RNA polymerase."
+            ],
+            "correct": 0,
+            "explanation": "Eukaryotic translation is efficient because the mRNA forms a closed loop. The **eIF4E** binds the 5' Cap, **PABP** binds the 3' Poly-A tail, and the scaffold protein **eIF4G** binds both, bringing the ends together. This allows ribosomes terminating at the 3' end to rapidly re-initiate at the 5' end."
+          },
+          {
+            "question": "The Signal Recognition Particle (SRP) binds to the signal sequence of a nascent peptide and:",
+            "options": [
+              "Cleaves the signal sequence immediately.",
+              "Halts translation and targets the ribosome to the ER membrane.",
+              "Degrades the protein.",
+              "Transports the protein to the nucleus.",
+              "Glycosylates the protein."
+            ],
+            "correct": 1,
+            "explanation": "For secretory/membrane proteins, the N-terminal Signal Sequence emerges from the ribosome. **SRP** binds this sequence and the ribosome, **pauses translation**, and docks the complex to the SRP receptor on the ER. Translation resumes through the translocon pore."
+          },
+          {
+            "question": "Which antibiotic inhibits prokaryotic translation by mimicking the structure of aminoacyl-tRNA and causing premature chain termination?",
+            "options": [
+              "Tetracycline",
+              "Chloramphenicol",
+              "Puromycin",
+              "Erythromycin",
+              "Streptomycin"
+            ],
+            "correct": 2,
+            "explanation": "**Puromycin** structurally resembles the 3' end of Tyrosyl-tRNA. It enters the A-site, accepts the peptide chain (via peptide bond formation), and then dissociates from the ribosome because it cannot translocate. This causes premature termination in both prokaryotes and eukaryotes (making it toxic to humans too)."
+          },
+          {
+            "question": "Which initiation factor in eukaryotes is a key target for regulation (e.g., by insulin or stress) and is responsible for delivering the Initiator tRNA to the 40S subunit?",
+            "options": [
+              "eIF4E",
+              "eIF2",
+              "eIF4G",
+              "eEF2",
+              "eIF5"
+            ],
+            "correct": 1,
+            "explanation": "**eIF2** (complexed with GTP) delivers Met-tRNA to the 40S subunit. Phosphorylation of eIF2 (by kinases like PERK or PKR during stress) prevents the exchange of GDP for GTP, globally shutting down protein synthesis."
+          },
+          {
+            "question": "The enzymatic activity that catalyzes peptide bond formation is a ribozyme. In prokaryotes, this is the:",
+            "options": [
+              "16S rRNA",
+              "5S rRNA",
+              "23S rRNA",
+              "18S rRNA",
+              "28S rRNA"
+            ],
+            "correct": 2,
+            "explanation": "The Peptidyl Transferase center is formed by the **23S rRNA** of the large (50S) subunit. It positions the substrates and facilitates proton transfer."
+          },
+          {
+            "question": "Eukaryotic ribosomes (80S) differ from Prokaryotic ribosomes (70S) in size and composition. The subunits of the Eukaryotic ribosome are:",
+            "options": [
+              "30S + 50S",
+              "40S + 60S",
+              "20S + 40S",
+              "50S + 70S",
+              "Small and Large only."
+            ],
+            "correct": 1,
+            "explanation": "Eukaryotes have an **80S** ribosome composed of a Small **40S** subunit (containing 18S rRNA) and a Large **60S** subunit (containing 28S, 5.8S, and 5S rRNAs). (Note: S units are not additive)."
+          },
+          {
+            "question": "What is the function of the Shine-Dalgarno sequence?",
+            "options": [
+              "To terminate transcription.",
+              "To signal the addition of the Poly-A tail.",
+              "To align the ribosome on the mRNA in prokaryotes.",
+              "To bind the repressor protein.",
+              "To splice introns."
+            ],
+            "correct": 2,
+            "explanation": "It aligns the ribosome. The 16S rRNA base pairs with the Shine-Dalgarno sequence, positioning the AUG start codon exactly in the P-site."
+          },
+          {
+            "question": "Which post-translational modification is unique to collagen and requires Vitamin C?",
+            "options": [
+              "Phosphorylation of Serine",
+              "Hydroxylation of Proline and Lysine",
+              "Acetylation of Histones",
+              "Methylation of Arginine",
+              "Ubiquitination"
+            ],
+            "correct": 1,
+            "explanation": "Collagen synthesis involves the **hydroxylation** of Proline and Lysine residues in the ER. The enzymes Prolyl/Lysyl Hydroxylase require **Vitamin C (Ascorbate)** to maintain Fe2+ in the active site. Deficiency leads to Scurvy (unstable collagen)."
+          },
+          {
+            "question": "Selenocysteine is considered the '21st amino acid'. How is it incorporated into proteins?",
+            "options": [
+              "Post-translational modification of Cysteine.",
+              "By a specific tRNA that recognizes the UGA stop codon in the presence of a SECIS element.",
+              "By a tRNA that recognizes UGU.",
+              "It is not incorporated into proteins.",
+              "Random insertion."
+            ],
+            "correct": 1,
+            "explanation": "Selenocysteine is encoded by the **UGA** codon (normally Stop). However, if the mRNA contains a specific secondary structure called a **SECIS element** (Selenocysteine Insertion Sequence), a specialized tRNA (Sec-tRNA) delivers Selenocysteine to the ribosome instead of terminating translation."
+          },
+          {
+            "question": "In prokaryotes, the recycling of Elongation Factor Tu (EF-Tu) is essential for continuous protein synthesis. EF-Tu is released from the ribosome as EF-Tu-GDP. Which factor acts as the Guanine Nucleotide Exchange Factor (GEF) to regenerate active EF-Tu-GTP?",
+            "options": [
+              "EF-G",
+              "EF-Ts",
+              "IF-2",
+              "RF-3",
+              "Peptidyl Transferase"
+            ],
+            "correct": 1,
+            "explanation": "EF-Tu delivers aminoacyl-tRNA to the ribosome and hydrolyzes GTP to GDP. To participate in another round, GDP must be swapped for GTP. **EF-Ts** binds to EF-Tu-GDP, displaces GDP, and facilitates the binding of a new GTP molecule. This is analogous to the GEF function in cell signaling."
+          },
+          {
+            "question": "The 'Kozak Sequence' (e.g., GCCRCCAUGG) plays a critical role in eukaryotic translation initiation. Its primary function is to:",
+            "options": [
+              "Base pair with the 18S rRNA to align the ribosome.",
+              "Signal the end of transcription.",
+              "Provide a favorable context for the ribosome to recognize the start codon during scanning.",
+              "Bind the Poly-A binding protein.",
+              "Recruit the 60S subunit."
+            ],
+            "correct": 2,
+            "explanation": "Unlike prokaryotes which use direct base-pairing (Shine-Dalgarno), eukaryotic 40S subunits bind the 5' Cap and scan down the mRNA. The **Kozak sequence** surrounds the AUG start codon. A 'strong' Kozak sequence slows the scanning complex, increasing the probability that the ribosome stops and initiates translation at that specific AUG."
+          },
+          {
+            "question": "Wobble pairing allows Inosine (I) in the anticodon to pair with which bases in the mRNA codon?",
+            "options": [
+              "Adenine, Uracil, or Cytosine",
+              "Guanine only",
+              "Adenine only",
+              "Cytosine and Guanine",
+              "Uracil and Guanine"
+            ],
+            "correct": 0,
+            "explanation": "Inosine is formed by the deamination of Adenine in the tRNA anticodon (position 1). It is the most promiscuous wobble base, capable of hydrogen bonding with **Adenine (A), Uracil (U), or Cytosine (C)** in the 3rd position of the codon. This maximizes the number of codons a single tRNA can read."
+          },
+          {
+            "question": "During the synthesis of secretory proteins, the Signal Recognition Particle (SRP) binds to the signal peptide. What is the immediate effect of this binding event?",
+            "options": [
+              "Cleavage of the signal peptide.",
+              "Acceleration of translation.",
+              "A temporary arrest (pause) of translation.",
+              "Dissociation of the ribosome subunits.",
+              "Ubiquitination of the nascent chain."
+            ],
+            "correct": 2,
+            "explanation": "SRP binding causes a **translational arrest** (pause). This prevents the potentially hydrophobic or dangerous protein from folding in the cytosol. Translation remains paused until the SRP docks with the SRP Receptor on the ER membrane, ensuring the protein is threaded directly into the Translocon."
+          },
+          {
+            "question": "Cap-independent translation initiation allows cells to synthesize proteins during stress or apoptosis when cap-dependent translation is inhibited. This mechanism utilizes specialized RNA structures called:",
+            "options": [
+              "Poly-A Tails",
+              "Internal Ribosome Entry Sites (IRES)",
+              "Iron Response Elements (IRE)",
+              "Splice Sites",
+              "TATA boxes"
+            ],
+            "correct": 1,
+            "explanation": "**Internal Ribosome Entry Sites (IRES)** are complex secondary structures in the 5' UTR of certain mRNAs (often viral or stress-response genes). They recruit the 40S ribosomal subunit directly, bypassing the requirement for the 5' Cap and the eIF4E initiation factor."
+          },
+          {
+            "question": "Nonsense-Mediated Decay (NMD) is a quality control mechanism that degrades mRNAs containing:",
+            "options": [
+              "No Stop codon.",
+              "A Premature Termination Codon (PTC).",
+              "Rare codons.",
+              "Secondary structures.",
+              "Uncapped 5' ends."
+            ],
+            "correct": 1,
+            "explanation": "If a stop codon occurs well upstream of the poly-A tail (specifically, upstream of Exon Junction Complexes deposited during splicing), the cell recognizes it as a **Premature Termination Codon**. NMD triggers the rapid degradation of this faulty mRNA to prevent the production of truncated, potentially dominant-negative proteins."
+          },
+          {
+            "question": "Protein folding is often assisted by Molecular Chaperones. The Hsp70 family of chaperones functions primarily by:",
+            "options": [
+              "Forming a large barrel to isolate the protein.",
+              "Binding to exposed hydrophobic patches on nascent polypeptides to prevent aggregation.",
+              "Cleaving peptide bonds.",
+              "Adding disulfide bridges.",
+              "Transporting proteins to the Golgi."
+            ],
+            "correct": 1,
+            "explanation": "**Hsp70** binds to short **hydrophobic** stretches of the emerging polypeptide chain as it exits the ribosome. This prevents these sticky regions from clumping together (aggregation) before the entire protein has finished synthesizing and folding."
+          },
+          {
+            "question": "In the process of N-linked glycosylation, the oligosaccharide core is transferred from Dolichol Phosphate to the Nitrogen atom of which amino acid side chain?",
+            "options": [
+              "Glutamine",
+              "Asparagine",
+              "Arginine",
+              "Lysine",
+              "Histidine"
+            ],
+            "correct": 1,
+            "explanation": "The enzyme Oligosaccharyltransferase transfers the glycan tree from Dolichol to the amide nitrogen of **Asparagine** (Asn). This occurs only within the consensus sequence Asn-X-Ser/Thr (where X is any amino acid except Proline)."
+          },
+          {
+            "question": "Prokaryotic translation initiation differs from eukaryotic initiation because the small subunit (30S) binds directly to the:",
+            "options": [
+              "Start Codon",
+              "Shine-Dalgarno Sequence",
+              "5' Cap",
+              "Promoter",
+              "Operator"
+            ],
+            "correct": 1,
+            "explanation": "In bacteria, the 16S rRNA of the 30S subunit base-pairs directly with the **Shine-Dalgarno sequence** (AGGAGG) in the mRNA. This positions the AUG start codon in the P-site. Eukaryotes lack this direct alignment and must scan from the 5' Cap."
+          },
+          {
+            "question": "What is the specific role of the 23S rRNA in the 50S ribosomal subunit?",
+            "options": [
+              "It binds the Shine-Dalgarno sequence.",
+              "It acts as a Ribozyme, catalyzing the peptidyl transferase reaction.",
+              "It binds to the mRNA cap.",
+              "It recognizes the stop codon.",
+              "It hydrolyzes GTP."
+            ],
+            "correct": 1,
+            "explanation": "The **23S rRNA** is the catalytic core of the ribosome. It facilitates the nucleophilic attack of the A-site amino group on the P-site ester bond, forming the peptide bond. No protein enzyme is required for this step."
+          },
+          {
+            "question": "Which enzyme acts as the 'glucose sensor' in the liver, allowing it to buffer blood glucose levels by having a high Km (low affinity) for glucose?",
+            "options": [
+              "Hexokinase I",
+              "Hexokinase II",
+              "Glucokinase (Hexokinase IV)",
+              "Glucose-6-Phosphatase",
+              "Phosphofructokinase-1"
+            ],
+            "correct": 2,
+            "explanation": "Glucokinase has a high Km (~10 mM), meaning it is only active when blood glucose is high (e.g., after a meal). This allows the liver to take up excess glucose for storage without scavenging glucose during fasting, sparing it for the brain."
+          },
+          {
+            "question": "Acetyl-CoA is a central metabolic junction. Which of the following conversions is chemically irreversible in mammalian cells, preventing fatty acids from being converted into net glucose?",
+            "options": [
+              "Pyruvate to Acetyl-CoA",
+              "Acetyl-CoA to Citrate",
+              "Fatty Acyl-CoA to Acetyl-CoA",
+              "Acetyl-CoA to Malonyl-CoA",
+              "Citrate to Isocitrate"
+            ],
+            "correct": 0,
+            "explanation": "The Pyruvate Dehydrogenase (PDH) reaction is irreversible. Mammals lack the glyoxylate cycle enzymes to convert Acetyl-CoA back into oxaloacetate/gluconeogenic precursors. Thus, carbons from fats (Acetyl-CoA) are oxidized to CO2 and cannot form net glucose."
+          },
+          {
+            "question": "During the initial days of starvation, the brain begins to adapt to using ketone bodies. This adaptation primarily serves to:",
+            "options": [
+              "Prevent ketoacidosis.",
+              "Spare muscle protein (amino acids) from being degraded for gluconeogenesis.",
+              "Increase metabolic rate.",
+              "Spare adipose tissue reserves.",
+              "Increase urea production."
+            ],
+            "correct": 1,
+            "explanation": "The brain's use of ketones reduces its glucose requirement. This reduces the liver's need for gluconeogenic precursors (alanine/glutamine), thereby sparing skeletal muscle protein from catabolism during prolonged fasting."
+          },
+          {
+            "question": "Glucose-6-Phosphate is a key junction point. Which pathway utilizing G6P generates NADPH for reductive biosynthesis?",
+            "options": [
+              "Glycolysis",
+              "Gluconeogenesis",
+              "Pentose Phosphate Pathway",
+              "Glycogenesis",
+              "Uronic Acid Pathway"
+            ],
+            "correct": 2,
+            "explanation": "The Pentose Phosphate Pathway (oxidative phase) diverts Glucose-6-Phosphate to produce Ribose-5-Phosphate and **NADPH**. NADPH is essential for fatty acid/cholesterol synthesis and antioxidant defense."
+          },
+          {
+            "question": "Which hormone is secreted by adipose tissue and signals the hypothalamus to reduce appetite and increase energy expenditure (the 'satiety signal')?",
+            "options": [
+              "Ghrelin",
+              "Insulin",
+              "Leptin",
+              "Adiponectin",
+              "Glucagon"
+            ],
+            "correct": 2,
+            "explanation": "**Leptin** is produced by adipocytes in proportion to fat mass. It acts on the brain to signal energy sufficiency, suppressing appetite. Resistance to leptin is a hallmark of obesity."
+          },
+          {
+            "question": "In the Cori Cycle, lactate produced by anaerobic glycolysis in the muscle is transported to the liver to be converted back into:",
+            "options": [
+              "Pyruvate, then Acetyl-CoA",
+              "Glucose (via Gluconeogenesis)",
+              "Ketone bodies",
+              "Amino acids",
+              "Fatty acids"
+            ],
+            "correct": 1,
+            "explanation": "The Cori Cycle recycles Lactate. The liver absorbs lactate, converts it to pyruvate, and uses energy (ATP) to synthesize **Glucose**, which is returned to the muscle. This prevents lactic acidosis and fuels the muscle."
+          },
+          {
+            "question": "High levels of Malonyl-CoA in the liver inhibit Carnitine Acyltransferase I (CPT-1). This regulatory mechanism prevents:",
+            "options": [
+              "Glycolysis during fasting.",
+              "The simultaneous synthesis and degradation of fatty acids (Futile Cycle).",
+              "Ketone body formation.",
+              "Cholesterol synthesis.",
+              "Protein synthesis."
+            ],
+            "correct": 1,
+            "explanation": "Malonyl-CoA is the product of the committed step of Fatty Acid Synthesis. By inhibiting CPT-1 (the entry gate for beta-oxidation), it ensures that when the cell is making fat, it does not immediately burn it."
+          },
+          {
+            "question": "Which tissue relies on the Glycerol-3-Phosphate shuttle rather than the Malate-Aspartate shuttle to transport NADH equivalents into mitochondria, prioritizing speed over energy yield?",
+            "options": [
+              "Liver",
+              "Heart",
+              "Skeletal Muscle and Brain",
+              "Kidney",
+              "Adipose Tissue"
+            ],
+            "correct": 2,
+            "explanation": "Skeletal muscle and brain use the **Glycerol-3-Phosphate shuttle**. This shuttle feeds electrons directly to FAD (Complex II), yielding 1.5 ATP/NADH, but it is faster and irreversible, which is advantageous for active tissues."
+          },
+          {
+            "question": "During the fed state, Insulin stimulates the activity of Acetyl-CoA Carboxylase (ACC) by promoting its:",
+            "options": [
+              "Phosphorylation",
+              "Dephosphorylation",
+              "Degradation",
+              "Export from the cell",
+              "Acetylation"
+            ],
+            "correct": 1,
+            "explanation": "Insulin activates a phosphatase (PP1 or PP2A) that **dephosphorylates** ACC, activating it to produce Malonyl-CoA for fat synthesis. (Glucagon/AMPK phosphorylates and inhibits it)."
+          },
+          {
+            "question": "The Glucose-Alanine cycle transports nitrogen from muscle to liver. The carbon skeleton of Alanine is derived from:",
+            "options": [
+              "Oxaloacetate",
+              "Alpha-Ketoglutarate",
+              "Pyruvate",
+              "Succinate",
+              "Lactate"
+            ],
+            "correct": 2,
+            "explanation": "Muscle transaminates **Pyruvate** (from glycolysis) with an amino group (from protein breakdown) to form Alanine. The liver reverses this to dispose of the nitrogen (Urea) and use Pyruvate for glucose."
+          },
+          {
+            "question": "Which enzyme acts as the primary 'fuel gauge' of the cell, inhibiting anabolic pathways (like fat synthesis) when cellular energy (ATP) is low?",
+            "options": [
+              "Protein Kinase A",
+              "mTOR",
+              "AMP-activated Protein Kinase (AMPK)",
+              "Pyruvate Kinase",
+              "Insulin Receptor"
+            ],
+            "correct": 2,
+            "explanation": "**AMPK** is activated by high AMP levels (low energy). It restores energy balance by stimulating catabolism (glucose uptake, beta-oxidation) and inhibiting anabolism (fat/protein synthesis)."
+          },
+          {
+            "question": "In the kidney, Glutamine is metabolized to generate Ammonium (NH4+) and Bicarbonate. This process is upregulated during:",
+            "options": [
+              "Metabolic Alkalosis",
+              "Metabolic Acidosis",
+              "Hyperglycemia",
+              "Hyperlipidemia",
+              "Fed state"
+            ],
+            "correct": 1,
+            "explanation": "During **Metabolic Acidosis**, the kidney breaks down Glutamine. The $NH_4^+$ is excreted (buffering urine acid), and the Bicarbonate is reabsorbed into the blood to raise pH."
+          },
+          {
+            "question": "Adipose tissue lacks the enzyme Glycerol Kinase. Therefore, to synthesize Triglycerides, adipocytes must generate Glycerol-3-Phosphate from:",
+            "options": [
+              "Free Glycerol in the blood.",
+              "Dihydroxyacetone Phosphate (DHAP) via Glycolysis.",
+              "Fatty acids.",
+              "Ketone bodies.",
+              "Amino acids."
+            ],
+            "correct": 1,
+            "explanation": "Because they lack Glycerol Kinase, adipocytes cannot reuse the glycerol released from lipolysis. They must run **Glycolysis** to produce DHAP, which is reduced to Glycerol-3-Phosphate for esterification."
+          },
+          {
+            "question": "Which metabolic pathway is found in the liver but is notably absent in the brain?",
+            "options": [
+              "Glycolysis",
+              "TCA Cycle",
+              "Beta-Oxidation of long-chain fatty acids",
+              "Pentose Phosphate Pathway",
+              "Ketone body utilization"
+            ],
+            "correct": 2,
+            "explanation": "The brain does not significantly perform **Beta-oxidation** of fatty acids (partly because they don't cross the BBB efficiently, and neuronal beta-oxidation capacity is low). It relies on Glucose or Ketones."
+          },
+          {
+            "question": "Insulin resistance in muscle leads to a failure to translocate which glucose transporter to the cell surface?",
+            "options": [
+              "GLUT1",
+              "GLUT2",
+              "GLUT3",
+              "GLUT4",
+              "GLUT5"
+            ],
+            "correct": 3,
+            "explanation": "**GLUT4** is the insulin-responsive transporter in muscle and adipose. In resistance, the signaling cascade (IRS-1/PI3K/Akt) fails to move GLUT4 vesicles to the membrane."
+          },
+          {
+            "question": "Ethanol metabolism increases the NADH/NAD+ ratio in the liver. This high ratio inhibits gluconeogenesis by forcing the equilibrium of which reaction towards the substrate?",
+            "options": [
+              "Pyruvate to Acetyl-CoA",
+              "Lactate to Pyruvate",
+              "Oxaloacetate to Malate",
+              "Glucose to G6P",
+              "Fructose-6-P to F-1,6-BP"
+            ],
+            "correct": 1,
+            "explanation": "High NADH drives the reversible Lactate Dehydrogenase reaction towards **Lactate**. This prevents Lactate from being converted back to **Pyruvate** (the gluconeogenic substrate), causing hypoglycemia."
+          },
+          {
+            "question": "The 'Randle Cycle' (Glucose-Fatty Acid Cycle) proposes that high rates of fatty acid oxidation inhibit glucose utilization in muscle by inhibiting:",
+            "options": [
+              "Hexokinase",
+              "Pyruvate Dehydrogenase (PDH) and Phosphofructokinase-1 (PFK-1)",
+              "Glycogen Synthase",
+              "GLUT4 translocation",
+              "Lactate Dehydrogenase"
+            ],
+            "correct": 1,
+            "explanation": "Fatty acid oxidation produces Acetyl-CoA and Citrate. Acetyl-CoA inhibits **PDH** (blocking glucose entry to TCA). Citrate inhibits **PFK-1** (blocking glycolysis). Thus, fat spares glucose."
+          },
+          {
+            "question": "Which enzyme converts Pyruvate to Oxaloacetate, fulfilling an anaplerotic role to keep the TCA cycle running?",
+            "options": [
+              "Pyruvate Kinase",
+              "Pyruvate Dehydrogenase",
+              "Pyruvate Carboxylase",
+              "PEPCK",
+              "Malic Enzyme"
+            ],
+            "correct": 2,
+            "explanation": "**Pyruvate Carboxylase** adds CO2 to Pyruvate to replenish Oxaloacetate. This is crucial when OAA is drawn off for gluconeogenesis or amino acid synthesis."
+          },
+          {
+            "question": "In the well-fed state, the liver synthesizes fatty acids. The source of cytosolic Acetyl-CoA for this process is:",
+            "options": [
+              "Citrate transported out of mitochondria and cleaved by Citrate Lyase.",
+              "Free acetate.",
+              "Carnitine shuttle.",
+              "Beta-oxidation.",
+              "Ketone bodies."
+            ],
+            "correct": 0,
+            "explanation": "Mitochondrial Acetyl-CoA condenses with OAA to form **Citrate**. Citrate exits the mitochondria and is cleaved by **Citrate Lyase** to regenerate Acetyl-CoA in the cytosol for lipogenesis."
+          },
+          {
+            "question": "Creatine Phosphate serves as a:",
+            "options": [
+              "Long-term energy store in liver.",
+              "Transport form of phosphate in blood.",
+              "High-energy phosphate reservoir in muscle for rapid regeneration of ATP.",
+              "Precursor for DNA synthesis.",
+              "Signaling molecule."
+            ],
+            "correct": 2,
+            "explanation": "Creatine Phosphate allows the rapid (anaerobic) replenishment of ATP from ADP via Creatine Kinase during the first few seconds of intense exertion."
+          },
+          {
+            "question": "ChREBP (Carbohydrate Response Element Binding Protein) stimulates lipogenic gene expression in response to high glucose. Its activation is triggered by which metabolite?",
+            "options": [
+              "Glucose-6-Phosphate",
+              "Fructose-2,6-Bisphosphate",
+              "Xylulose-5-Phosphate",
+              "Citrate",
+              "Lactate"
+            ],
+            "correct": 2,
+            "explanation": "Glucose flux through the Pentose Phosphate Pathway generates **Xylulose-5-Phosphate**. This metabolite activates PP2A, which dephosphorylates ChREBP, allowing it to enter the nucleus."
+          },
+          {
+            "question": "Which metabolic process is exclusive to the liver (and to a lesser extent, the kidney) and absent in muscle?",
+            "options": [
+              "Glycolysis",
+              "TCA Cycle",
+              "Fatty Acid Synthesis",
+              "Ketogenesis",
+              "Urea Cycle (complete)"
             ],
             "correct": 4,
-            "explanation": "5α-reductase converts testosterone to dihydrotestosterone (DHT) in male accessory tissues like the prostate. DHT is a more potent androgen and is essential for male sexual development. This conversion occurs locally in target tissues."
+            "explanation": "The full **Urea Cycle** (to dispose of nitrogen) is exclusively hepatic. The liver is also the only site of **Ketogenesis**."
           },
           {
-            "question": "31. A 16-year-old, seemingly normal female is diagnosed with androgen insensitivity disorder. She has never had a menstrual cycle and is found to have a blind-ending vagina; no uterus, cervix, or ovaries; a 46 XY genotype; and intra-abdominal testes. Her serum testosterone is elevated. Which of the following characteristics is caused by lack of androgen receptors?",
+            "question": "During starvation, muscle protein breakdown provides amino acids. Which two amino acids are the primary carriers of nitrogen released from muscle?",
             "options": [
-              "46 XY genotype",
-              "Testes",
-              "Elevated serum testosterone",
-              "Lack of uterus and cervix",
-              "Lack of menstrual cycles"
+              "Leucine and Lysine",
+              "Alanine and Glutamine",
+              "Arginine and Histidine",
+              "Serine and Glycine",
+              "Aspartate and Glutamate"
+            ],
+            "correct": 1,
+            "explanation": "**Alanine** (via Glucose-Alanine cycle) and **Glutamine** are the main nitrogen carriers transported to the liver and kidney."
+          },
+          {
+            "question": "The Pasteur Effect describes the phenomenon where:",
+            "options": [
+              "Oxygen consumption increases during exercise.",
+              "Glucose consumption increases under anaerobic conditions compared to aerobic conditions.",
+              "Lactate inhibits glycolysis.",
+              "Fatty acids inhibit glucose oxidation.",
+              "Insulin stimulates glucose uptake."
+            ],
+            "correct": 1,
+            "explanation": "In the presence of Oxygen (Aerobic), ATP yield per glucose is high (~32), so glucose consumption is low. Without Oxygen (Anaerobic), yield is low (2 ATP), so the cell consumes **much more glucose** to meet energy needs."
+          },
+          {
+            "question": "FoxO1 is a transcription factor that upregulates gluconeogenesis. Insulin inhibits FoxO1 by promoting its:",
+            "options": [
+              "Dephosphorylation and nuclear entry.",
+              "Phosphorylation by Akt, leading to nuclear exclusion and degradation.",
+              "Acetylation.",
+              "Binding to DNA.",
+              "Dimerization."
+            ],
+            "correct": 1,
+            "explanation": "Insulin signaling (PI3K/Akt) phosphorylates **FoxO1**. This tags it for export from the nucleus, stopping the transcription of gluconeogenic genes (PEPCK/G6Pase)."
+          },
+          {
+            "question": "The Hexosamine Biosynthetic Pathway diverts fructose-6-phosphate to produce UDP-GlcNAc. This molecule serves as a:",
+            "options": [
+              "Substrate for O-linked glycosylation of signaling proteins.",
+              "Precursor for glycogen.",
+              "Energy source.",
+              "Lipid precursor.",
+              "Vitamin."
+            ],
+            "correct": 0,
+            "explanation": "UDP-GlcNAc is the donor for **O-GlcNAcylation**, a post-translational modification that regulates protein function and is linked to nutrient sensing and insulin resistance."
+          },
+          {
+            "question": "mTORC1 is a central regulator of cell growth. It is activated by:",
+            "options": [
+              "AMP and Starvation",
+              "Amino acids (especially Leucine) and Insulin",
+              "Glucagon",
+              "Cortisol",
+              "Low oxygen"
+            ],
+            "correct": 1,
+            "explanation": "**mTORC1** integrates signals of abundance. It is activated by **Amino Acids** (via Rag GTPases) and **Insulin** (via Akt) to promote protein synthesis and inhibit autophagy."
+          },
+          {
+            "question": "Glucagon stimulates glycogenolysis in the liver via which second messenger?",
+            "options": [
+              "cGMP",
+              "Calcium",
+              "cAMP",
+              "IP3",
+              "DAG"
             ],
             "correct": 2,
-            "explanation": "Elevated serum testosterone is due to lack of androgen receptors on the anterior pituitary, which normally mediate negative feedback by testosterone. Without functional receptors, testosterone cannot suppress gonadotropin secretion, leading to high testosterone levels. The 46 XY genotype and testes are due to genetic factors, while lack of uterus and cervix is from anti-Müllerian hormone secretion by fetal testes."
+            "explanation": "Glucagon binds a Gs-coupled receptor $\rightarrow$ Adenylate Cyclase $\rightarrow$ **cAMP** $\rightarrow$ PKA $\rightarrow$ Phosphorylase Kinase $\rightarrow$ Glycogen Phosphorylase."
           },
           {
-            "question": "3. The principle of positive feedback is illustrated by the effect of",
+            "question": "Which organ consumes the most glucose in the resting state?",
             "options": [
-              "PO₂ on breathing rate",
-              "glucose on insulin secretion",
-              "estrogen on follicle-stimulating hormone (FSH) secretion at mid-menstrual cycle",
-              "blood [Ca²⁺] on parathyroid hormone (PTH) secretion",
-              "decreased blood pressure on sympathetic outflow to the heart and blood vessels"
+              "Liver",
+              "Muscle",
+              "Brain",
+              "Kidney",
+              "Heart"
             ],
             "correct": 2,
-            "explanation": "At mid-cycle, rising estradiol levels from the developing follicle exert positive feedback on the anterior pituitary, stimulating a surge in FSH and LH secretion, which triggers ovulation. This is a classic example of positive feedback, unlike the other options, which involve negative feedback mechanisms."
+            "explanation": "The **Brain** consumes ~120g of glucose/day (60% of total utilization) in the resting state, as it relies heavily on glucose for ion pumping."
           },
           {
-            "question": "9. In a 35-day menstrual cycle, ovulation occurs on day",
+            "question": "What is the specific role of Fructose-2,6-Bisphosphate in metabolic regulation?",
             "options": [
-              "12",
-              "14",
-              "17",
-              "21",
-              "28"
+              "It is an intermediate in glycolysis.",
+              "It is a potent allosteric activator of PFK-1 and inhibitor of FBPase-1.",
+              "It activates Glycogen Synthase.",
+              "It is a storage form of fructose.",
+              "It activates Gluconeogenesis."
             ],
-            "correct": 3,
-            "explanation": "Ovulation occurs 14 days before the onset of menses, regardless of cycle length. In a 35-day cycle, menses occurs on day 35, so ovulation occurs on day 21 (35 - 14 = 21). This contrasts with a 28-day cycle, where ovulation occurs on day 14."
+            "correct": 1,
+            "explanation": "**F-2,6-BP** is a regulatory signal, not a fuel. It overrides ATP inhibition of PFK-1, stimulating Glycolysis, and simultaneously inhibits Gluconeogenesis."
           },
           {
-            "question": "10. Which of the following hormones stimulates the conversion of testosterone to 17β-estradiol in ovarian granulosa cells?",
+            "question": "During the early fasting state (12-24 hours), the liver maintains blood glucose primarily via:",
             "options": [
-              "Adrenocorticotropic hormone (ACTH)",
-              "Estradiol",
-              "Follicle-stimulating hormone (FSH)",
-              "Gonadotropin-releasing hormone (GnRH)",
-              "Human chorionic gonadotropin (HCG)",
-              "Prolactin",
-              "Testosterone"
+              "Lipolysis",
+              "Glycogenolysis",
+              "Gluconeogenesis",
+              "Ketogenesis",
+              "Protein degradation"
             ],
-            "correct": 2,
-            "explanation": "FSH stimulates aromatase enzyme activity in ovarian granulosa cells, converting testosterone (synthesized in theca cells) to estradiol. This is a key step in estrogen production during the follicular phase. HCG maintains the corpus luteum but does not directly stimulate aromatase."
+            "correct": 1,
+            "explanation": "Hepatic **Glycogenolysis** is the first line of defense against dropping blood glucose. Liver glycogen stores are sufficient to maintain blood glucose for approximately 18-24 hours. As these stores deplete, Gluconeogenesis becomes the dominant source."
           },
           {
-            "question": "65. Levels of which of the following hormones are high during the first trimester of pregnancy and decline during the second and third trimesters?",
+            "question": "In prolonged starvation (>3 days), the brain adapts to use Ketone Bodies. What is the primary metabolic advantage of this adaptation?",
             "options": [
-              "Adrenocorticotropic hormone (ACTH)",
-              "Estradiol",
-              "Follicle-stimulating hormone (FSH)",
-              "Gonadotropin-releasing hormone (GnRH)",
-              "Human chorionic gonadotropin (HCG)",
-              "Oxytocin",
-              "Prolactin",
-              "Testosterone"
+              "Ketones provide more energy than glucose.",
+              "It allows the brain to function anaerobically.",
+              "It reduces the body's need for glucose, thereby sparing muscle protein from degradation for gluconeogenesis.",
+              "It prevents fatty liver.",
+              "It increases metabolic rate."
             ],
-            "correct": 4,
-            "explanation": "HCG is secreted by the placenta and peaks around 9 weeks of gestation. It maintains the corpus luteum for estrogen and progesterone production in the first trimester. After the placenta takes over steroidogenesis, HCG levels decline. Estradiol and progesterone rise throughout pregnancy."
+            "correct": 2,
+            "explanation": "The brain's reliance on glucose drives the breakdown of muscle protein (to supply amino acids for gluconeogenesis) during early starvation. By switching to **Ketones**, the brain reduces its glucose demand by ~70%, significantly slowing down muscle wasting (**Protein Sparing**)."
           },
           {
-            question: "What is the function of luteinising hormone?",
-            options: ["It stimulates the interstitial (Leydig) cells to produce testosterone", "It stimulates sustentacular (Sertoli) cells to produce sperm", "It stimulates the anterior pituitary to release follicle stimulating hormone", "It stimulates the ovary to develop follicles"],
-            "correct": 0,
-            "explanation": "LH targets Leydig cells in the testes to secrete testosterone; in females, an LH surge triggers ovulation."
-          },
-          {
-            question: "What does gonadotropin releasing hormone (GnRH) do?",
-            options: ["Stimulates the anterior pituitary to release LH", "Stimulates the anterior pituitary to release both LH and FSH", "Stimulates the anterior pituitary to release FSH", "Stimulates the corpus luteum to release progesterone"],
+            "question": "In Type 1 Diabetes, the lack of insulin leads to Diabetic Ketoacidosis (DKA). The excessive production of ketone bodies is driven by the fact that Acetyl-CoA cannot enter the Citric Acid Cycle because:",
+            "options": [
+              "Citrate Synthase is inhibited.",
+              "Oxaloacetate is depleted because it is drawn off for Gluconeogenesis.",
+              "Pyruvate Dehydrogenase is hyperactive.",
+              "Fatty acids inhibit the cycle.",
+              "ATP levels are too high."
+            ],
             "correct": 1,
-            "explanation": "GnRH from the hypothalamus stimulates the anterior pituitary to release both LH and FSH."
+            "explanation": "In the absence of insulin, the liver acts as if it is starving. It ramps up Gluconeogenesis, consuming **Oxaloacetate**. Simultaneously, lipolysis floods the liver with Acetyl-CoA. Without Oxaloacetate to condense with, the excess **Acetyl-CoA** is shunted into **Ketogenesis**."
           },
           {
-            question: "Where should fertilisation of the egg by a sperm occur?",
-            options: ["In the cervix", "In the uterus", "In the Fallopian tube", "In the abdominal cavity between ovary and Fallopian tube"],
+            "question": "Which hormone is known as the 'Hunger Hormone', secreted by the stomach to stimulate appetite via NPY/AgRP neurons in the hypothalamus?",
+            "options": [
+              "Leptin",
+              "Insulin",
+              "Ghrelin",
+              "Peptide YY (PYY)",
+              "CCK"
+            ],
             "correct": 2,
-            "explanation": "Fertilisation normally occurs in the ampulla of the Fallopian tube."
+            "explanation": "**Ghrelin** is the only known orexigenic (appetite-stimulating) gut hormone. It is secreted by the stomach fundus during fasting and levels drop immediately after eating. Leptin, Insulin, and PYY are anorexigenic (appetite-suppressing)."
           },
           {
-            question: "Where is the hormone progesterone produced?",
-            options: ["By the thecal cells that surround the follicle", "In the anterior pituitary", "In the corpus luteum", "By the developing follicle"],
-            "correct": 2,
-            "explanation": "The corpus luteum produces progesterone after ovulation."
-          },
-          {
-            question: "Which list of structures and hormones is correct?",
-            options: ["Hypothalamus (FSH); anterior pituitary (GnRH); follicle (estrogens); corpus luteum (LH)", "Hypothalamus (GnRH); anterior pituitary (estradiol); follicle (LH); corpus luteum (progesterone)", "Hypothalamus (estrogens); anterior pituitary (FSH); follicle (progesterone); corpus luteum (estrogens)", "Hypothalamus (GnRH); anterior pituitary (FSH & LH); follicle (estrogens); corpus luteum (progesterone)"],
-            "correct": 3,
-            "explanation": "GnRH from the hypothalamus stimulates the anterior pituitary to release FSH & LH; follicles produce estrogens; corpus luteum produces progesterone."
-          },
-          {
-            question: "What effect does luteinising hormone have?",
-            options: ["Stimulates the growth of a few follicles each month", "Stimulates ovulation and maintains the corpus luteum", "Prepares the uterus for pregnancy", "Establishes and maintains secondary sex characteristics"],
+            "question": "During high-intensity sprinting (Anaerobic), the primary fuel source for skeletal muscle is:",
+            "options": [
+              "Plasma Fatty Acids",
+              "Muscle Glycogen",
+              "Blood Glucose",
+              "Ketone Bodies",
+              "Liver Glycogen"
+            ],
             "correct": 1,
-            "explanation": "LH triggers ovulation and supports the corpus luteum."
+            "explanation": "High-intensity effort exceeds oxygen supply. Fatty acid oxidation is too slow. The muscle relies on its own internal stores of **Muscle Glycogen**, which can be rapidly metabolized via anaerobic glycolysis to generate ATP and Lactate."
           },
           {
-            question: "Which of the following do the testes produce?",
-            options: ["Capacitated spermatozoa", "About 60% of the ejaculate", "Slightly acidic fluid", "Physically mature spermatozoa"],
-            "correct": 3,
-            "explanation": "Testes produce physically mature spermatozoa; capacitation occurs later."
-          },
-          {
-            question: "What do the thecal cells that surround the follicle produce?",
-            options: ["Mucus", "Luteinising hormone", "Androgens", "Estrogens"],
-            "correct": 2,
-            "explanation": "Thecal cells produce androgens, which granulosa cells convert to estrogens."
-          },
-          {
-            question: "In the ovarian cycle, which does NOT occur?",
-            options: ["The anterior pituitary releases FSH and LH", "FSH stimulates a follicle to develop", "The hypothalamus releases GnRH", "The developing follicle produces progesterone"],
-            "correct": 3,
-            "explanation": "Progesterone is produced by the corpus luteum, not the developing follicle."
-          },
-          {
-            question: "How do sperm cells differ from other cells in the male body?",
-            options: ["They contain 23 chromosomes", "They all contain an X chromosome", "They all contain a Y chromosome", "They undergo mitosis"],
-            "correct": 0,
-            "explanation": "Sperm cells are haploid with 23 chromosomes."
-          },
-          {
-            question: "What hormone is released by the corpus luteum in the greatest quantity?",
-            options: ["Progesterone", "Estrogens", "Luteinising hormone", "Follicle stimulating hormone"],
-            "correct": 0,
-            "explanation": "The corpus luteum releases progesterone to prepare the uterus for pregnancy."
-          },
-          {
-            question: "Choose the correct statement about LH or FSH.",
-            options: ["LH targets Leydig cells of the testes which produce testosterone", "LH targets Sertoli cells of the testes which promotes spermiogenesis", "FSH targets Leydig cells of the testes which promotes spermiogenesis", "FSH targets Sertoli cells of the testes which produce testosterone"],
-            "correct": 0,
-            "explanation": "LH stimulates Leydig cells to produce testosterone; FSH acts on Sertoli cells to support spermiogenesis."
-          },
-          {
-            question: "Which cells produce the majority of estrogens?",
-            options: ["The cells of the corpus luteum", "The cells of anterior pituitary", "Endometrial cells", "Granulosa cells of the follicle"],
-            "correct": 3,
-            "explanation": "Granulosa cells convert androgens from thecal cells into estrogens."
-          },
-          {
-            question: "What is the function of progesterone?",
-            options: ["To stimulate the development of follicles", "To maintain the corpus luteum", "Prepare and maintain the uterus for pregnancy", "To stimulate ovulation"],
-            "correct": 2,
-            "explanation": "Progesterone prepares and maintains the uterine lining for pregnancy."
-          },
-          {
-            question: "Which of the following could be accurately said of oogenesis and spermiogenesis?",
-            options: ["They both occur after puberty", "They both cease after menopause", "The former occurs before birth while the latter continues from puberty to death", "The former is promoted by FSH while the latter is promoted by LH"],
-            "correct": 2,
-            "explanation": "Oogenesis begins before birth; spermiogenesis continues from puberty to death."
-          },
-          {
-            question: "What is the function of the hormone progesterone?",
-            options: ["To maintain secondary sex characteristics", "To pause meiosis until the ovum is fertilised", "To stimulate estrogen production", "To prepare the uterus for pregnancy"],
-            "correct": 3,
-            "explanation": "Progesterone thickens the uterine lining for implantation."
-          },
-          {
-            question: "What term is applied to the second two weeks of the menstrual (uterine) cycle?",
-            options: ["Menses", "Secretory phase", "Luteal phase", "Proliferation"],
+            "question": "Ethanol metabolism by Alcohol Dehydrogenase generates a high NADH/NAD+ ratio. This inhibits fatty acid oxidation and promotes:",
+            "options": [
+              "Glycolysis",
+              "Fatty Acid Synthesis and Triglyceride accumulation (Steatosis).",
+              "Gluconeogenesis",
+              "Protein synthesis",
+              "The TCA cycle"
+            ],
             "correct": 1,
-            "explanation": "The secretory phase occurs after ovulation while the corpus luteum is active."
+            "explanation": "The high **NADH/NAD+ ratio** signals a 'high energy' state. It inhibits Beta-oxidation (which requires NAD+) and TCA cycle enzymes. It drives the reduction of DHAP to Glycerol-3-Phosphate and provides reducing power for **Lipogenesis**, leading to Fatty Liver."
           },
           {
-            question: "Both testosterone and FSH contribute to which of the following effects in the male?",
-            options: ["The stimulation of spermiogenesis", "Metabolic rate stimulation", "They establish & maintain the secondary sex characteristics", "The stimulation of muscle and bone growth"],
+            "question": "In the 'Fed State', Insulin stimulates the synthesis of fatty acids in the liver by activating:",
+            "options": [
+              "Acetyl-CoA Carboxylase (via dephosphorylation)",
+              "Carnitine Acyltransferase I",
+              "Hormone Sensitive Lipase",
+              "Phosphorylase Kinase",
+              "PEP Carboxykinase"
+            ],
             "correct": 0,
-            "explanation": "FSH with testosterone stimulates spermiogenesis."
+            "explanation": "Insulin activates a phosphatase that dephosphorylates **Acetyl-CoA Carboxylase (ACC)**. Active ACC converts Acetyl-CoA to Malonyl-CoA, the building block for fatty acids. Malonyl-CoA also inhibits fatty acid oxidation."
           },
           {
-            question: "What is the role of progesterone?",
-            options: ["To stimulate follicle development", "To stimulate the maturation of the uterine lining", "To stimulate the oocyte to complete meiosis I", "To stimulate the release of FSH"],
-            "correct": 1,
-            "explanation": "Progesterone matures the uterine lining and stimulates glandular secretions."
-          },
-          {
-            question: "What is the role of luteinising hormone (LH) in the female?",
-            options: ["It causes release of FSH from the anterior pituitary", "It maintains the secondary sex characteristics", "It causes ovulation", "It allows the frequency of pulses of GnRH to increase"],
+            "question": "The 'Set Point' theory of body weight suggests that adipose tissue communicates the size of energy stores to the brain via:",
+            "options": [
+              "Glucagon",
+              "Cortisol",
+              "Leptin",
+              "Adiponectin",
+              "Free Fatty Acids"
+            ],
             "correct": 2,
-            "explanation": "An LH surge triggers ovulation — the release of the ovum from the mature follicle."
+            "explanation": "**Leptin** is secreted by adipocytes in direct proportion to fat mass. It acts on the hypothalamus to reduce food intake and increase energy expenditure, attempting to maintain a constant 'set point' of body fat."
           },
           {
-            question: "Which one of the following statements is INcorrect?",
-            options: ["Corpus luteum releases progesterone", "Hypothalamus releases GnRH", "Anterior pituitary releases FSH", "Granulosa cells produce androgens"],
-            "correct": 3,
-            "explanation": "Granulosa cells produce estrogens, not androgens."
-          },
-          {
-            question: "Which one of the following is true about the secretory phase of the menstrual cycle?",
-            options: ["It occurs as the uterine epithelium regrows under the stimulation of estrogens", "It begins at ovulation and continues while the corpus luteum is intact", "It refers to the release of progesterone by the corpus luteum", "During this phase the follicle develops prior to ovulation"],
+            "question": "During exercise, the respiratory quotient (RQ) approaches 1.0. This indicates that the body is burning primarily:",
+            "options": [
+              "Fat",
+              "Carbohydrates",
+              "Protein",
+              "Ketones",
+              "Alcohol"
+            ],
             "correct": 1,
-            "explanation": "The secretory phase begins at ovulation and continues while the corpus luteum is active."
+            "explanation": "The RQ for Carbohydrates is 1.0 ($C_6H_{12}O_6 + 6O_2 \rightarrow 6CO_2 + 6H_2O$; ratio 6/6=1). The RQ for Fat is 0.7. As exercise intensity increases, the body shifts from burning fat (RQ 0.7) to burning **Carbohydrates** (RQ 1.0)."
           },
           {
-            question: "What is the function of the epididymis?",
-            options: ["Production of sperm", "Stores sperm and facilitates their maturation", "Stores sperm and produces seminal fluid", "Carries semen out through the penis"],
-            "correct": 1,
-            "explanation": "The epididymis stores sperm for 2–3 months while they mature."
+            "question": "Chronic alcohol consumption induces the Microsomal Ethanol Oxidizing System (MEOS), involving Cytochrome P450 2E1 (CYP2E1). This system differs from ADH because:",
+            "options": [
+              "It generates ATP.",
+              "It uses NAD+.",
+              "It uses NADPH and Oxygen, generating Oxidative Stress (ROS).",
+              "It occurs in the mitochondria.",
+              "It produces Acetate directly."
+            ],
+            "correct": 2,
+            "explanation": "The MEOS system ($CYP2E1$) has a higher Km for ethanol (active at high concentrations). Unlike ADH (which makes NADH), MEOS *consumes* **NADPH** and produces Reactive Oxygen Species (**ROS**) and Acetaldehyde, contributing to liver damage."
           },
           {
-            question: "In males, what is the function of luteinising hormone (LH)?",
-            options: ["It stimulates interstitial cells in the testes to produce testosterone", "It stimulates sustentacular cells in the testes to produce sperm", "It promotes the maturation of spermatozoa", "It stimulates the anterior pituitary to release FSH"],
+            "question": "In Type 2 Diabetes, 'Lipogenic Paradox' refers to the continued synthesis of VLDL/Fat in the liver despite:",
+            "options": [
+              "Global insulin resistance in glucose metabolism pathways (Gluconeogenesis is not suppressed, but Lipogenesis remains stimulated).",
+              "Low insulin levels.",
+              "High Glucagon.",
+              "Low Free Fatty Acids.",
+              "Absence of SREBP."
+            ],
             "correct": 0,
-            "explanation": "LH stimulates Leydig cells to produce testosterone."
+            "explanation": "In insulin-resistant liver, Insulin fails to suppress Gluconeogenesis (leading to hyperglycemia). However, the Insulin pathway driving **Lipogenesis** (via SREBP-1c) often remains sensitive. Thus, the liver makes both sugar and fat simultaneously (hyperglycemia + hypertriglyceridemia)."
           },
           {
-            question: "One of the following is NOT a function of testosterone, which one?",
-            options: ["Stimulates spermiogenesis", "Maintains secondary sex characteristics", "Maintains glands of the reproductive tract", "Stimulates anterior pituitary to release FSH and LH"],
-            "correct": 3,
-            "explanation": "GnRH, not testosterone, stimulates the anterior pituitary to release FSH and LH."
-          },
-          {
-            question: "What is the name given to a young woman’s first menstrual period?",
-            options: ["Menarche", "Menses", "Eclampsia", "Amenorrhea"],
-            "correct": 0,
-            "explanation": "Menarche is the first menstrual bleeding in females."
-          },
-          {
-            question: "The hormone progesterone is released by which structure?",
-            options: ["Anterior pituitary", "Corpus luteum", "Hypothalamus", "The adrenal glands"],
+            "question": "Metabolic Syndrome is defined by a cluster of conditions including abdominal obesity, hypertension, hyperglycemia, and:",
+            "options": [
+              "High HDL and Low Triglycerides",
+              "Low HDL and High Triglycerides (Dyslipidemia)",
+              "High LDL only",
+              "Low LDL",
+              "High Ketones"
+            ],
             "correct": 1,
-            "explanation": "The corpus luteum produces progesterone after ovulation."
+            "explanation": "Insulin resistance increases VLDL synthesis (High Triglycerides). CETP transfers these TGs to HDL, making HDL unstable and rapidly cleared (**Low HDL**). This 'High TG/Low HDL' pattern is the hallmark of metabolic syndrome."
           },
           {
-            question: "What is the function of follicle stimulating hormone in the male?",
-            options: ["To stimulate the production of sperm", "To stimulate the release of testosterone", "To stimulate the release of GnRH", "To stimulate the release of LH"],
+            "question": "Which enzyme converts Acetate (from ethanol metabolism) into Acetyl-CoA for use in peripheral tissues?",
+            "options": [
+              "Acetyl-CoA Synthetase",
+              "Pyruvate Dehydrogenase",
+              "Alcohol Dehydrogenase",
+              "Thiolase",
+              "Citrate Synthase"
+            ],
             "correct": 0,
-            "explanation": "FSH stimulates spermatogenesis in the testes."
+            "explanation": "Ethanol $\rightarrow$ Acetaldehyde $\rightarrow$ Acetate. The liver releases Acetate. Peripheral tissues (Heart, Muscle) take up Acetate and activate it to **Acetyl-CoA** using **Acetyl-CoA Synthetase** (requiring ATP) to fuel the TCA cycle."
           },
           {
-            question: "What is the result of meiosis in males?",
-            options: ["One spermatid and three polar bodies", "One spermatid and two polar bodies", "Two primary spermatocytes", "Four spermatids"],
-            "correct": 3,
-            "explanation": "Meiosis produces four haploid spermatids in males."
-          },
-          {
-            question: "Sperm gain motility as they pass through which structure?",
-            options: ["Lumen of the seminiferous tubule", "Prostatic part of the urethra", "Ductus deferens", "Epididymis"],
+            "question": "During starvation, the kidney performs gluconeogenesis. The ammonia produced from Glutamine metabolism is important because:",
+            "options": [
+              "It is converted to Urea.",
+              "It neutralizes the metabolic acidosis caused by Ketone Bodies (excreted as NH4+).",
+              "It stimulates insulin.",
+              "It is used for protein synthesis.",
+              "It produces ATP."
+            ],
             "correct": 1,
-            "explanation": "In the prostate, sperm mix with seminal fluid, activating their motility."
+            "explanation": "Starvation leads to ketosis and mild acidosis. The kidney breaks down Glutamine to generate **Ammonia ($NH_3$)** and Bicarbonate. The Ammonia traps protons in the urine ($NH_4^+$), allowing acid excretion, while Bicarbonate is returned to the blood."
           },
           {
-            question: "What are the phases of the ovarian cycle?",
-            options: ["Menarche, menstrual cycle, menopause", "Luteal phase, menses and proliferative phase", "Follicular phase and the luteal phase", "Menses, proliferative phase and secretory phase"],
-            "correct": 2,
-            "explanation": "The ovarian cycle consists of the follicular phase and luteal phase, separated by ovulation."
-          },
-          {
-            question: "Which of the following is NOT a function of estrogens?",
-            options: ["Stimulating bone and muscle growth", "Maintain female secondary sex characteristics", "Maintaining the corpus luteum", "Initiating growth and repair of the endometrium"],
-            "correct": 2,
-            "explanation": "The corpus luteum is maintained by LH, not estrogens."
-          },
-          {
-            question: "Which statement is NOT correct?",
-            options: ["The ova in the ovary are continually forming from mitosis", "The ovarian follicles are embedded in the ovary cortex", "Ovulation is the ejection of an oocyte from the ovary", "The corpus luteum develops from the ruptured follicle"],
+            "question": "Which molecule acts as an 'uncoupler' in Brown Adipose Tissue, allowing protons to re-enter the matrix without generating ATP, producing heat instead?",
+            "options": [
+              "Thermogenin (UCP1)",
+              "ATP Synthase",
+              "Leptin",
+              "Irisin",
+              "DNP"
+            ],
             "correct": 0,
-            "explanation": "Ova are formed before birth; no new ova are produced after birth."
+            "explanation": "**Thermogenin (UCP1)** is a channel in the inner mitochondrial membrane of brown fat. It dissipates the proton gradient generated by fuel oxidation, releasing the energy as **Heat** (non-shivering thermogenesis) rather than ATP."
           },
           {
-            question: "Which statement is NOT correct?",
-            options: ["Testosterone is required to maintain the adult male secondary sex characteristics", "Testosterone increases the sex drive in both sexes", "Testosterone inhibits the closure of the epiphyseal plate in the long bones", "Testosterone stimulates the growth and maturation of the male genitalia"],
-            "correct": 2,
-            "explanation": "Testosterone actually promotes closure of the epiphyseal plate."
-          },
-          {
-            question: "What does gonadotrophin-releasing hormone stimulate?",
-            options: ["The hypothalamus", "The anterior lobe of pituitary gland", "Spermatogenesis or oogenesis", "The production of testosterone or oestrogen"],
+            "question": "In the 'Well-Fed' state, the brain uses which fuel exclusively?",
+            "options": [
+              "Fatty Acids",
+              "Glucose",
+              "Ketone Bodies",
+              "Lactate",
+              "Amino Acids"
+            ],
             "correct": 1,
-            "explanation": "GnRH stimulates the anterior pituitary to release FSH and LH."
+            "explanation": "Normally, the brain relies solely on **Glucose**. It does not use fatty acids (BBB barrier). Ketone use only begins after 2-3 days of fasting when blood ketone levels rise significantly."
           },
           {
-            question: "Select one INCORRECT statement from the following:",
-            options: ["Meiosis results in the reduction of chromosome numbers in cells from 2n to n", "The primordial follicle cells are present in females at birth", "Spermatogenesis and oogenesis result in the production of either 4 sperm or 4 ova", "Puberty is the time of life when the reproductive organs begin to mature"],
+            "question": "Type 1 Diabetes is characterized by:",
+            "options": [
+              "Insulin Resistance.",
+              "Autoimmune destruction of pancreatic Beta-cells leading to absolute insulin deficiency.",
+              "Obesity.",
+              "High C-peptide levels.",
+              "Defect in the Insulin Receptor."
+            ],
+            "correct": 1,
+            "explanation": "Type 1 DM is an autoimmune disease where T-cells destroy beta-cells. This results in **absolute insulin deficiency** (and low C-peptide), requiring exogenous insulin for survival."
+          },
+          {
+            "question": "AMPK (AMP-activated Protein Kinase) promotes energy production by stimulating:",
+            "options": [
+              "Fatty Acid Synthesis",
+              "Glycogen Synthesis",
+              "GLUT4 translocation and Beta-Oxidation",
+              "Cholesterol Synthesis",
+              "mTOR pathway"
+            ],
             "correct": 2,
-            "explanation": "Oogenesis produces one ovum and polar bodies, not four ova."
+            "explanation": "AMPK is the 'Low Energy' sensor. It restores ATP by stimulating catabolic pathways like **Glucose Uptake (GLUT4)** and **Fatty Acid Oxidation**, while inhibiting energy-expensive anabolic pathways."
           },
           {
-            question: "Which of the following produces male sex hormones?",
-            options: ["The interstitial cells", "Corpus luteum", "Anterior lobe of the pituitary gland", "Seminal vesicles"],
+            "question": "Refeeding Syndrome occurs when a starved patient is fed too rapidly. The sudden spike in Insulin drives which electrolyte into cells, causing dangerous hypophosphatemia?",
+            "options": [
+              "Calcium",
+              "Phosphate",
+              "Sodium",
+              "Chloride",
+              "Bicarbonate"
+            ],
+            "correct": 1,
+            "explanation": "Insulin drives metabolic activity (Glycolysis/Synthesis), which requires phosphorylated intermediates. This pulls **Phosphate** from the blood into cells. In a depleted patient, serum phosphate drops to lethal levels (muscle weakness, arrhythmia)."
+          },
+          {
+            "question": "Creatine Phosphate serves as an immediate energy buffer in muscle. The reaction catalyzed by Creatine Kinase is:",
+            "options": [
+              "Creatine + ATP <-> Phosphocreatine + ADP",
+              "Creatine + ADP -> Phosphocreatine + ATP",
+              "Phosphocreatine + H2O -> Creatine + Pi",
+              "Creatine + NADH -> Phosphocreatine + NAD+",
+              "Creatine + Acetyl-CoA -> Acetyl-Creatine"
+            ],
             "correct": 0,
-            "explanation": "The interstitial (Leydig) cells of the testes produce testosterone."
+            "explanation": "The reaction is reversible. At rest (High ATP), muscle makes Phosphocreatine. During exercise (High ADP), the reaction reverses: **Phosphocreatine + ADP $\rightarrow$ Creatine + ATP**, maintaining ATP levels for seconds."
           },
           {
-            question: "The menstrual cycle can be divided into 3 phases. Starting from day one of menstruation, which of the following orders are the phases in?",
-            options: ["Menstrual, secretory, proliferative", "Proliferative, secretory, menstrual", "Menstrual, proliferative, secretory", "Secretory, proliferative, menstrual"],
+            "question": "Adiponectin levels are inversely correlated with body fat. Low Adiponectin in obesity contributes to:",
+            "options": [
+              "Increased insulin sensitivity.",
+              "Insulin resistance and inflammation.",
+              "Weight loss.",
+              "Hypoglycemia.",
+              "Increased fatty acid oxidation."
+            ],
+            "correct": 1,
+            "explanation": "Adiponectin is a 'good' adipokine that promotes fatty acid oxidation and insulin sensitivity via AMPK. In obesity, adiponectin levels fall, contributing to **Insulin Resistance** and systemic inflammation."
+          },
+          {
+            "question": "During moderate intensity aerobic exercise (marathon), the major fuel source after glycogen depletion is:",
+            "options": [
+              "Muscle protein",
+              "Liver protein",
+              "Plasma Fatty Acids (from adipose lipolysis)",
+              "Creatine Phosphate",
+              "Lactate"
+            ],
             "correct": 2,
-            "explanation": "The cycle starts with menstruation, followed by the proliferative phase, and ends with the secretory phase when the endometrium is mature."
+            "explanation": "Once glycogen is depleted ('hitting the wall'), the muscle must rely on **Fatty Acids** mobilized from adipose tissue. This oxidation is slower than glycolysis, forcing the runner to slow down."
+          },
+          {
+            "question": "The Cori Cycle involves the recycling of Lactate. However, it is energetically expensive. The net cost to the liver to convert 2 Lactate to 1 Glucose is:",
+            "options": [
+              "2 ATP",
+              "4 ATP",
+              "6 ATP",
+              "0 ATP",
+              "32 ATP"
+            ],
+            "correct": 2,
+            "explanation": "Muscle gains 2 ATP from glycolysis. The liver consumes **6 ATP equivalents** (4 ATP + 2 GTP) to run Gluconeogenesis. The body pays a net 4 ATP 'tax' to maintain glucose homeostasis during anaerobic work."
+          },
+          {
+            "question": "Sulfonylureas treat Type 2 Diabetes by blocking the K-ATP channel in beta-cells. This causes:",
+            "options": [
+              "Hyperpolarization and inhibition of insulin release.",
+              "Depolarization, Calcium entry, and Insulin secretion.",
+              "Inhibition of Calcium entry.",
+              "Increased Glucagon secretion.",
+              "Apoptosis of beta-cells."
+            ],
+            "correct": 1,
+            "explanation": "Blocking the $K_{ATP}$ channel mimics the effect of high ATP. It causes membrane **Depolarization**, opening Voltage-Gated $Ca^{2+}$ channels. The influx of Calcium triggers the exocytosis of **Insulin** granules."
+          },
+          {
+            "question": "Which biochemical pathway is upregulated in the liver during the 'Fed State'?",
+            "options": [
+              "Glycogenolysis",
+              "Gluconeogenesis",
+              "Pentose Phosphate Pathway (to supply NADPH for fat synthesis)",
+              "Beta-oxidation",
+              "Ketogenesis"
+            ],
+            "correct": 2,
+            "explanation": "In the Fed state, the liver is synthesizing fat (Lipogenesis). This requires massive reducing power. The **Pentose Phosphate Pathway** is upregulated to provide the **NADPH** needed by Fatty Acid Synthase."
+          },
+          {
+            "question": "Acetaminophen (Tylenol) toxicity is exacerbated by chronic alcohol consumption because ethanol induces:",
+            "options": [
+              "Glutathione synthesis",
+              "CYP2E1, which converts Acetaminophen to the toxic metabolite NAPQI.",
+              "Glucuronidation enzymes.",
+              "Renal excretion.",
+              "Alcohol Dehydrogenase."
+            ],
+            "correct": 1,
+            "explanation": "Ethanol induces **CYP2E1** (MEOS). CYP2E1 also metabolizes Acetaminophen to the toxic intermediate **NAPQI**. An alcoholic has high CYP2E1 levels, producing more toxin, and often low Glutathione, making them very susceptible to liver damage."
+          },
+          {
+            "question": "Leptin acts on the Arcuate Nucleus of the Hypothalamus to:",
+            "options": [
+              "Inhibit POMC neurons and stimulate NPY/AgRP neurons.",
+              "Stimulate POMC/CART neurons (anorexigenic) and inhibit NPY/AgRP neurons (orexigenic).",
+              "Stimulate Ghrelin.",
+              "Inhibit Insulin.",
+              "Decrease metabolic rate."
+            ],
+            "correct": 1,
+            "explanation": "Leptin signals satiety ('Stop eating'). It stimulates **POMC** neurons (which produce alpha-MSH to suppress appetite) and inhibits **NPY/AgRP** neurons (which stimulate appetite)."
+          },
+          {
+            "question": "During the first few minutes of exercise, before vasodilation increases blood flow, muscle relies on internal oxygen stores bound to:",
+            "options": [
+              "Hemoglobin",
+              "Myoglobin",
+              "Cytochrome c",
+              "Albumin",
+              "Creatine"
+            ],
+            "correct": 1,
+            "explanation": "**Myoglobin** has a very high affinity for oxygen. It stores a small reserve of oxygen within the muscle cell, which is used immediately upon contraction onset while the cardiovascular system catches up."
+          },
+          {
+            "question": "A key difference between Marasmus and Kwashiorkor is:",
+            "options": [
+              "Marasmus is protein deficiency; Kwashiorkor is calorie deficiency.",
+              "Marasmus is total calorie deficiency (wasting); Kwashiorkor is protein deficiency with adequate calories (edema/fatty liver).",
+              "Kwashiorkor has no edema.",
+              "Marasmus has fatty liver.",
+              "They are identical."
+            ],
+            "correct": 1,
+            "explanation": "**Marasmus** is balanced starvation (wasting of fat and muscle). **Kwashiorkor** is protein malnutrition in the presence of carbohydrate calories. Insulin stays high enough to prevent muscle breakdown (no amino acids for albumin synthesis $\rightarrow$ edema) and promote fat synthesis (fatty liver)."
+          },
+          {
+            "question": "The 'Polyol Pathway' is active in Diabetes. High glucose is converted to Sorbitol by Aldose Reductase, consuming which cofactor?",
+            "options": [
+              "NAD+",
+              "FAD",
+              "NADPH",
+              "ATP",
+              "GTP"
+            ],
+            "correct": 2,
+            "explanation": "Aldose Reductase consumes **NADPH**. This depletion of NADPH may compromise Glutathione regeneration, increasing oxidative stress in tissues like the lens and nerve (contributing to cataracts/neuropathy)."
+          },
+          {
+            "question": "The Anion Gap is a calculated value used to differentiate types of Metabolic Acidosis. It represents the difference between measured cations and anions. What is the standard formula for calculating the Anion Gap?",
+            "options": [
+              "[Na+] - ([Cl-] + [HCO3-])",
+              "[Na+] + [K+] - [Cl-]",
+              "([Na+] + [Cl-]) - [HCO3-]",
+              "[Cl-] + [HCO3-] - [Na+]",
+              "[Na+] - [Albumin]"
+            ],
+            "correct": 0,
+            "explanation": "The Anion Gap estimates the concentration of unmeasured anions (like lactate, ketones, phosphate, sulfate, albumin). The formula is **$[Na^+] - ([Cl^-] + [HCO_3^-])$**. A normal gap is 8-12 mEq/L. An elevated gap indicates the presence of an unmeasured acid anion."
+          },
+          {
+            "question": "In Metabolic Acidosis, the kidneys compensate by increasing the excretion of protons ($H^+$). The primary buffer system used to trap protons in the urine (ammonium trapping) requires the metabolism of which amino acid?",
+            "options": [
+              "Alanine",
+              "Glutamine",
+              "Arginine",
+              "Serine",
+              "Glycine"
+            ],
+            "correct": 1,
+            "explanation": "The proximal tubule metabolizes **Glutamine** to produce two molecules of Ammonium ($NH_4^+$) and two molecules of Bicarbonate. The Bicarbonate is reabsorbed (correcting acidosis), and the Ammonium is excreted, carrying protons out of the body."
+          },
+          {
+            "question": "Aldosterone regulates blood pressure by acting on the principal cells of the distal tubule and collecting duct. Its primary molecular mechanism is to:",
+            "options": [
+              "Increase the insertion of Aquaporin-2 channels.",
+              "Upregulate the expression of ENaC (Epithelial Sodium Channel) and the Na+/K+ ATPase.",
+              "Inhibit the Na+/H+ exchanger.",
+              "Stimulate Renin release.",
+              "Dilate the afferent arteriole."
+            ],
+            "correct": 1,
+            "explanation": "Aldosterone is a steroid hormone. It binds nuclear receptors to increase the transcription of **ENaC** (apical sodium entry) and the **$Na^+/K^+$ ATPase** (basolateral exit). This promotes $Na^+$ reabsorption (and water follows) and $K^+$ excretion."
+          },
+          {
+            "question": "Vasopressin (ADH) concentrates urine by binding to V2 receptors. This triggers a signaling cascade involving cAMP that results in:",
+            "options": [
+              "Translocation of Aquaporin-2 (AQP2) vesicles to the apical membrane.",
+              "Opening of sodium channels.",
+              "Synthesis of urea.",
+              "Constriction of the vasa recta.",
+              "Activation of the sodium-potassium-2chloride cotransporter."
+            ],
+            "correct": 0,
+            "explanation": "ADH binds V2 receptors $\rightarrow$ Gs $\rightarrow$ Adenylate Cyclase $\rightarrow$ cAMP $\rightarrow$ PKA. PKA phosphorylates **Aquaporin-2** vesicles, causing them to fuse with the apical membrane. This makes the collecting duct permeable to water, allowing reabsorption."
+          },
+          {
+            "question": "Metabolic Alkalosis (e.g., from vomiting) is characterized by high pH and high Bicarbonate. The respiratory compensation mechanism is:",
+            "options": [
+              "Hyperventilation (to blow off CO2).",
+              "Hypoventilation (to retain CO2).",
+              "Increased renal excretion of H+.",
+              "Decreased renal reabsorption of Bicarbonate.",
+              "Increased synthesis of Ammonia."
+            ],
+            "correct": 1,
+            "explanation": "To lower the pH back towards normal, the body needs to increase $PaCO_2$ (an acid). The respiratory center slows the breathing rate (**Hypoventilation**) to retain $CO_2$."
+          },
+          {
+            "question": "Atrial Natriuretic Peptide (ANP) is released in response to atrial stretch (high volume). It opposes the renin-angiotensin-aldosterone system by stimulating:",
+            "options": [
+              "Adenylate cyclase (cAMP).",
+              "Guanylyl cyclase (cGMP).",
+              "Tyrosine kinase.",
+              "Phospholipase C.",
+              "Calcium channels."
+            ],
+            "correct": 1,
+            "explanation": "ANP binds its receptor on the kidney and vasculature, activating particulate **Guanylyl Cyclase**. The resulting **cGMP** causes vasodilation (afferent arteriole) and inhibits sodium reabsorption, promoting natriuresis and diuresis."
+          },
+          {
+            "question": "The kidney is a major site for the metabolism of which vitamin, converting it to its active hormonal form?",
+            "options": [
+              "Vitamin A",
+              "Vitamin C",
+              "Vitamin D",
+              "Vitamin K",
+              "Vitamin B12"
+            ],
+            "correct": 2,
+            "explanation": "The kidney contains the enzyme **1-alpha-hydroxylase** (stimulated by PTH). It converts 25-hydroxyvitamin D3 (calcidiol) into the active **1,25-dihydroxyvitamin D3 (Calcitriol)**."
+          },
+          {
+            "question": "Normal urine typically contains negligible amounts of Glucose. Glucosuria occurs only when the plasma glucose concentration exceeds the 'Renal Threshold', which is approximately:",
+            "options": [
+              "100 mg/dL",
+              "180 mg/dL",
+              "300 mg/dL",
+              "50 mg/dL",
+              "600 mg/dL"
+            ],
+            "correct": 1,
+            "explanation": "The SGLT2 transporters in the proximal tubule become saturated at a plasma glucose of ~**180-200 mg/dL** ($T_m$ for glucose). Above this level, glucose spills into the urine (Glucosuria)."
+          },
+          {
+            "question": "Creatinine is used to estimate the Glomerular Filtration Rate (GFR) because:",
+            "options": [
+              "It is completely reabsorbed.",
+              "It is actively secreted by the distal tubule.",
+              "It is produced at a constant rate from muscle creatine and is freely filtered with minimal secretion/reabsorption.",
+              "It binds to albumin.",
+              "It is synthesized in the liver."
+            ],
+            "correct": 2,
+            "explanation": "Creatinine is a breakdown product of muscle creatine phosphate. Its production is constant (proportional to muscle mass). It is freely filtered and not reabsorbed (though slightly secreted), making it a convenient endogenous marker for **GFR**."
+          },
+          {
+            "question": "The specific gravity of urine is a measure of:",
+            "options": [
+              "Acidity (pH).",
+              "Concentrating ability of the kidney (solute density).",
+              "Protein content.",
+              "Glucose content.",
+              "Presence of bacteria."
+            ],
+            "correct": 1,
+            "explanation": "**Specific Gravity** compares the density of urine to pure water (1.000). It reflects the kidney's ability to concentrate or dilute urine based on hydration status (Normal range: 1.003 - 1.030)."
+          },
+          {
+            "question": "Which pathological component in urine is the hallmark of glomerular damage (Nephrotic Syndrome)?",
+            "options": [
+              "Ketones",
+              "Glucose",
+              "Albumin (Protein)",
+              "Bilirubin",
+              "Nitrites"
+            ],
+            "correct": 2,
+            "explanation": "The glomerular filtration barrier normally excludes large, negatively charged proteins. Damage (e.g., podocyte effacement) leads to massive **Proteinuria (Albuminuria)**, characteristic of Nephrotic Syndrome."
+          },
+          {
+            "question": "The presence of 'Bence Jones Proteins' in urine is diagnostic for:",
+            "options": [
+              "Diabetes Mellitus",
+              "Multiple Myeloma",
+              "Liver failure",
+              "Urinary Tract Infection",
+              "Muscle trauma"
+            ],
+            "correct": 1,
+            "explanation": "Bence Jones proteins are monoclonal **Immunoglobulin Light Chains** produced by malignant plasma cells in **Multiple Myeloma**. They are small enough to be filtered and excreted in urine."
+          },
+          {
+            "question": "Urobilinogen is a normal constituent of urine that gives it yellow color. Complete absence of urobilinogen in urine indicates:",
+            "options": [
+              "Hemolysis",
+              "Obstructive Jaundice (Biliary obstruction).",
+              "Dehydration",
+              "Diabetes Insipidus",
+              "Kidney failure"
+            ],
+            "correct": 1,
+            "explanation": "Bilirubin enters the gut to form Urobilinogen. Some is reabsorbed and excreted in urine. If the bile duct is blocked (**Obstructive Jaundice**), bilirubin cannot enter the gut, no urobilinogen is formed, and urine urobilinogen becomes **absent** (urine is dark due to conjugated bilirubin instead)."
+          },
+          {
+            "question": "The enzyme Renin is secreted by the Juxtaglomerular apparatus in response to:",
+            "options": [
+              "High blood pressure.",
+              "High sodium delivery to the macula densa.",
+              "Low renal perfusion pressure and sympathetic stimulation.",
+              "High blood volume.",
+              "Atrial Natriuretic Peptide."
+            ],
+            "correct": 2,
+            "explanation": "**Renin** release is triggered by 1) Low pressure in the afferent arteriole, 2) Low NaCl delivery to the Macula Densa, and 3) Beta-1 adrenergic stimulation (Sympathetic)."
+          },
+          {
+            "question": "During prolonged starvation, the kidney performs gluconeogenesis. The energy (ATP) required for this process comes primarily from the oxidation of:",
+            "options": [
+              "Glucose",
+              "Fatty Acids",
+              "Ketone Bodies",
+              "Lactate",
+              "Glutamine"
+            ],
+            "correct": 1,
+            "explanation": "Like the liver, the renal cortex oxidizes **Fatty Acids** to generate the ATP required to drive the energy-expensive process of gluconeogenesis."
+          },
+          {
+            "question": "Which electrolyte is the primary determinant of plasma osmolarity and extracellular fluid volume?",
+            "options": [
+              "Potassium",
+              "Sodium",
+              "Calcium",
+              "Magnesium",
+              "Phosphate"
+            ],
+            "correct": 1,
+            "explanation": "**Sodium** (and its associated anions Cl/HCO3) accounts for >90% of the osmotically active solute in the ECF. 'Water follows salt', so Sodium balance determines Volume."
+          },
+          {
+            "question": "Ketonuria (ketones in urine) is typically seen in:",
+            "options": [
+              "Well-fed state",
+              "Starvation or Diabetic Ketoacidosis",
+              "Renal failure",
+              "Hyperhydration",
+              "Hypertension"
+            ],
+            "correct": 1,
+            "explanation": "Ketones (Acetoacetate) appear in urine when fat breakdown exceeds the capacity of tissues to oxidize the resulting Acetyl-CoA, such as in **Starvation** or **Uncontrolled Diabetes**."
+          },
+          {
+            "question": "The 'Countercurrent Multiplier' mechanism in the Loop of Henle is essential for:",
+            "options": [
+              "Glucose reabsorption.",
+              "Creating a hyperosmotic medullary gradient to allow urine concentration.",
+              "Secreting potassium.",
+              "Maintaining blood pH.",
+              "Filtrating proteins."
+            ],
+            "correct": 1,
+            "explanation": "The Loop of Henle deposits NaCl in the renal medulla, creating a salty (hyperosmotic) interstitium. This gradient is the driving force that pulls water out of the collecting duct (via ADH), allowing the formation of **Concentrated Urine**."
+          },
+          {
+            "question": "A positive Nitrite test on a urinalysis strip is specific for:",
+            "options": [
+              "Viral infection",
+              "Fungal infection",
+              "Gram-negative bacterial infection (e.g., E. coli).",
+              "Kidney stones",
+              "Diabetes"
+            ],
+            "correct": 2,
+            "explanation": "Many Gram-negative bacteria (like *E. coli*) produce the enzyme Nitrate Reductase, which converts urinary Nitrate to **Nitrite**. A positive test strongly suggests a bacterial UTI."
+          },
+          {
+            "question": "What is the primary buffer system in the urine (Titratable Acidity)?",
+            "options": [
+              "Bicarbonate buffer",
+              "Phosphate buffer (HPO4/H2PO4)",
+              "Hemoglobin",
+              "Protein",
+              "Acetate"
+            ],
+            "correct": 1,
+            "explanation": "Phosphate is filtered and poorly reabsorbed. $HPO_4^{2-}$ accepts a secreted proton to become $H_2PO_4^-$, effectively trapping the acid in the urine without lowering the pH too drastically. This is **Titratable Acidity**."
+          },
+          {
+            "question": "Angiotensin II increases blood pressure by:",
+            "options": [
+              "Vasodilation.",
+              "Inhibiting Aldosterone.",
+              "Direct vasoconstriction and stimulating Aldosterone/ADH release.",
+              "Increasing GFR.",
+              "Promoting Natriuresis."
+            ],
+            "correct": 2,
+            "explanation": "Angiotensin II is a potent **vasoconstrictor** (increases resistance). It also stimulates the adrenal cortex to release **Aldosterone** (Na reabsorption) and the pituitary to release **ADH** (water reabsorption), all raising BP."
+          },
+          {
+            "question": "The detection of 'Biliary pigments' (Bilirubin) in urine indicates high levels of:",
+            "options": [
+              "Unconjugated (Indirect) Bilirubin",
+              "Conjugated (Direct) Bilirubin",
+              "Hemoglobin",
+              "Urobilinogen",
+              "Bile salts"
+            ],
+            "correct": 1,
+            "explanation": "Unconjugated bilirubin is bound to albumin and *cannot* be filtered. Only **Conjugated (Direct) Bilirubin** is water-soluble and unbound, so it can be filtered into urine. Bilirubinuria implies liver disease or biliary obstruction."
+          },
+          {
+            "question": "Which diuretic class works by inhibiting the Na-K-2Cl cotransporter (NKCC2) in the thick ascending loop of Henle?",
+            "options": [
+              "Thiazides",
+              "Loop Diuretics (e.g., Furosemide)",
+              "Potassium-Sparing Diuretics",
+              "Carbonic Anhydrase Inhibitors",
+              "Osmotic Diuretics"
+            ],
+            "correct": 1,
+            "explanation": "**Loop Diuretics** inhibit NKCC2. This abolishes the medullary gradient, preventing urine concentration and causing massive natriuresis/diuresis."
+          },
+          {
+            "question": "Hypokalemia (Low Potassium) can cause metabolic alkalosis because:",
+            "options": [
+              "The kidney excretes bicarbonate.",
+              "H+ shifts out of cells in exchange for K+ entering cells, and the kidney increases H+ secretion to reabsorb K+.",
+              "Vomiting loses potassium.",
+              "Aldosterone is inhibited.",
+              "The anion gap increases."
+            ],
+            "correct": 1,
+            "explanation": "In hypokalemia, cells (including renal tubular cells) try to conserve $K^+$. They pump $K^+$ in and **pump $H^+$ out**. The kidney secretes $H^+$ into the urine (creating new bicarbonate) to reabsorb $K^+$. This paradoxical aciduria maintains the Alkalosis."
+          },
+          {
+            "question": "Microalbuminuria (30-300 mg/day) is an early screening marker for:",
+            "options": [
+              "Kidney Stones",
+              "Diabetic Nephropathy",
+              "Liver failure",
+              "Urinary Tract Infection",
+              "Dehydration"
+            ],
+            "correct": 1,
+            "explanation": "**Microalbuminuria** indicates incipient damage to the glomerular filtration barrier and endothelial dysfunction. It is the earliest clinical sign of **Diabetic Nephropathy**."
+          },
+          {
+            "question": "Erythropoietin (EPO) is a hormone produced by the kidney that stimulates:",
+            "options": [
+              "Bone mineralization",
+              "Red blood cell production in the bone marrow",
+              "Sodium reabsorption",
+              "Calcium absorption",
+              "Platelet production"
+            ],
+            "correct": 1,
+            "explanation": "Peritubular interstitial cells in the kidney sense hypoxia and secrete **EPO**, which stimulates erythropoiesis in the marrow. Renal failure leads to anemia due to EPO deficiency."
+          },
+          {
+            "question": "Parathyroid Hormone (PTH) acts on the kidney to:",
+            "options": [
+              "Increase Calcium excretion.",
+              "Increase Calcium reabsorption and decrease Phosphate reabsorption.",
+              "Decrease Calcium reabsorption.",
+              "Increase Phosphate reabsorption.",
+              "Inhibit Vitamin D activation."
+            ],
+            "correct": 1,
+            "explanation": "PTH defends blood calcium. It stimulates **Calcium reabsorption** (DCT) and activates Vitamin D. To prevent precipitation, it dumps Phosphate (phosphaturia) by inhibiting its reabsorption in the PCT."
+          },
+          {
+            "question": "Which enzyme converts Angiotensin I to Angiotensin II and is found abundantly in the lung and kidney endothelium?",
+            "options": [
+              "Renin",
+              "Angiotensin Converting Enzyme (ACE)",
+              "Aldosterone Synthase",
+              "Pepsin",
+              "Trypsin"
+            ],
+            "correct": 1,
+            "explanation": "**ACE** (Angiotensin Converting Enzyme) cleaves the decapeptide Angiotensin I into the octapeptide Angiotensin II (the active vasoconstrictor)."
+          },
+          {
+            "question": "The breakdown of Purines leads to Uric Acid. High levels of Uric Acid in urine can lead to:",
+            "options": [
+              "Calcium Oxalate stones",
+              "Struvite stones",
+              "Uric Acid stones (radiolucent)",
+              "Cystine stones",
+              "Proteinuria"
+            ],
+            "correct": 2,
+            "explanation": "Uric acid is poorly soluble in acidic urine. Hyperuricosuria predisposes to **Uric Acid stones**, which are unique because they are radiolucent (invisible on X-ray)."
+          },
+          {
+            "question": "Normally, 100% of filtered Glucose and Amino Acids are reabsorbed in the:",
+            "options": [
+              "Glomerulus",
+              "Proximal Convoluted Tubule (PCT)",
+              "Loop of Henle",
+              "Distal Convoluted Tubule",
+              "Collecting Duct"
+            ],
+            "correct": 1,
+            "explanation": "The **Proximal Tubule** is the 'workhorse' of reabsorption. It reclaims essentially all glucose (via SGLT2) and amino acids, as well as 65% of sodium and water."
           }
+          
         ]
       },
-      pathology: {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      usmle_level: {
         questions: [
+          
           {
-            question: "Polycystic ovary syndrome (PCOS) is characterized by:",
-            options: [
-              "Hyperandrogenism and irregular ovulation",
-              "Hypoestrogenism",
-              "Premature ovarian failure",
-              "Excessive FSH production"
+            "question": "A 2-year-old boy is brought to the pediatrician due to failure to thrive, weak muscle tone, and developmental delay. Physical exam reveals hepatomegaly and facial deformities. Blood tests show elevated levels of very-long-chain fatty acids (VLCFAs). A skin biopsy confirms a defect in the importation of peroxisomal enzymes. Which of the following fundamental cellular processes is primarily defective in this patient?",
+            "options": [
+              "Oxidative phosphorylation",
+              "Protein sorting and organelle assembly",
+              "Post-translational glycosylation",
+              "DNA replication",
+              "Lysosomal degradation"
             ],
-            correct: 0,
-            explanation: "PCOS is characterized by hyperandrogenism, irregular ovulation or anovulation, and polycystic ovaries. It's associated with insulin resistance, metabolic syndrome, and increased risk of diabetes and cardiovascular disease."
+            "correct": 1,
+            "explanation": "This is Zellweger Spectrum Disorder. The defect is in PEX genes required for sorting/importing proteins into peroxisomes, leading to organelle dysfunction."
           },
           {
-            question: "Endometriosis is defined as:",
-            options: [
-              "Infection of the endometrium",
-              "Endometrial tissue outside the uterus",
-              "Thickening of the endometrium",
-              "Cancer of the endometrium"
+            "question": "A 25-year-old medical student studying for exams consumes a large amount of aspirin (acetylsalicylic acid). She develops hyperventilation and confusion. Aspirin is a weak acid with a pKa of 3.5. In her stomach (pH 1.5), which form of the drug predominates, and how does this affect absorption?",
+            "options": [
+              "Unprotonated (ionized); poor absorption",
+              "Unprotonated (ionized); rapid absorption",
+              "Protonated (unionized); rapid absorption",
+              "Protonated (unionized); poor absorption",
+              "Chelated; no absorption"
             ],
-            correct: 1,
-            explanation: "Endometriosis is the presence of endometrial tissue outside the uterus, commonly in the pelvis. This ectopic tissue responds to hormonal changes, causing cyclical pain, inflammation, and potentially infertility."
+            "correct": 2,
+            "explanation": "At pH < pKa (1.5 < 3.5), the protonated (uncharged) form predominates. Uncharged molecules cross lipid membranes easily, leading to rapid absorption."
           },
           {
-            question: "The most common cause of male infertility is:",
-            options: [
-              "Hormonal disorders",
-              "Varicocele",
-              "Cryptorchidism",
-              "Ejaculatory dysfunction"
+            "question": "A 55-year-old male is treated with gentamicin (an aminoglycoside) and develops hearing loss. Aminoglycosides bind to the 30S ribosomal subunit. Why is this drug toxic to human cells at high doses?",
+            "options": [
+              "Human cells lack ribosomes.",
+              "Human ribosomes are 80S, but human mitochondria contain 70S ribosomes derived from bacteria.",
+              "The drug targets the peptidoglycan cell wall, which humans lack.",
+              "Humans metabolize the drug instantly.",
+              "The drug binds only to D-amino acids found in bacteria."
             ],
-            correct: 1,
-            explanation: "Varicocele (enlarged veins in the scrotum) is the most common correctable cause of male infertility, found in about 40% of men with primary infertility. It can impair sperm production and quality due to increased testicular temperature."
+            "correct": 1,
+            "explanation": "Mitochondria originate from bacteria and retain bacterial-like 70S ribosomes, which can be inhibited by aminoglycosides, causing toxicity."
           },
           {
-            question: "Preeclampsia is characterized by:",
-            options: [
-              "Hypertension and proteinuria after 20 weeks gestation",
-              "Diabetes during pregnancy",
-              "Bleeding in early pregnancy",
-              "Premature rupture of membranes"
+            "question": "A 4-year-old girl is diagnosed with I-cell disease (Mucolipidosis II). The defect involves the failure to phosphorylate mannose residues on glycoproteins. This results in the erroneous sorting of enzymes to which destination?",
+            "options": [
+              "The extracellular space instead of the lysosome.",
+              "The nucleus instead of the cytosol.",
+              "The mitochondria instead of the ER.",
+              "The Golgi instead of the plasma membrane.",
+              "The peroxisome instead of the lysosome."
             ],
-            correct: 0,
-            explanation: "Preeclampsia is characterized by new-onset hypertension (≥140/90 mmHg) and proteinuria (≥300 mg/24 hours) after 20 weeks of gestation. It can progress to eclampsia (seizures) and is a leading cause of maternal and fetal morbidity."
+            "correct": 0,
+            "explanation": "Without the Mannose-6-Phosphate tag, lysosomal enzymes are not sorted to the lysosome but are secreted extracellularly by default."
           },
           {
-            question: "Benign prostatic hyperplasia (BPH) most commonly affects which zone of the prostate?",
-            options: [
-              "Peripheral zone",
-              "Central zone",
-              "Transition zone",
-              "Anterior zone"
+            "question": "A child ingests 'fat burner' pills containing 2,4-Dinitrophenol (DNP). He presents with hyperthermia and rapid breathing. Biochemically, DNP acts as a protonophore (uncoupler). What is the thermodynamic explanation for his hyperthermia?",
+            "options": [
+              "DNP blocks ATP hydrolysis, causing energy backup.",
+              "DNP increases the free energy of glucose oxidation.",
+              "DNP dissipates the proton gradient, allowing oxidation energy to be released as heat rather than conserved as ATP.",
+              "DNP inhibits the electron transport chain completely.",
+              "DNP causes rapid muscle contraction (shivering)."
             ],
-            correct: 2,
-            explanation: "BPH most commonly affects the transition zone of the prostate, which surrounds the urethra. This explains why BPH causes urinary symptoms, while prostate cancer typically occurs in the peripheral zone."
+            "correct": 2,
+            "explanation": "Uncouplers dissipate the mitochondrial proton gradient. The energy from fuel oxidation is released as heat instead of being captured as ATP."
+          },
+          {
+            "question": "A 60-year-old man with COPD has difficulty exhaling CO2. His blood pH is 7.25. Which chemical buffering system is primarily overwhelmed in this patient's blood?",
+            "options": [
+              "Phosphate buffer system",
+              "Hemoglobin buffer system",
+              "Bicarbonate/Carbonic Acid buffer system",
+              "Ammonium buffer system",
+              "Acetate buffer system"
+            ],
+            "correct": 2,
+            "explanation": "The Bicarbonate buffer system is the primary extracellular buffer; CO2 retention shifts the equilibrium to produce more H+, causing acidosis."
+          },
+          {
+            "question": "During a forensic investigation, a protein sample containing hydroxyproline is found. Which type of noncovalent interaction does hydroxyproline facilitate to stabilize the collagen triple helix?",
+            "options": [
+              "Ionic bonds between strands.",
+              "Disulfide bridges.",
+              "Hydrophobic stacking.",
+              "Hydrogen bonding involving water molecules bridging the chains.",
+              "Coordinate covalent bonding with Iron."
+            ],
+            "correct": 3,
+            "explanation": "Hydroxyproline stabilizes collagen via increased hydrogen bonding (often water-mediated) between the strands."
+          },
+          {
+            "question": "A pharmaceutical company designs a drug as a transition-state analog to inhibit a bacterial enzyme. Why does this design strategy result in tight binding?",
+            "options": [
+              "It mimics the substrate at its lowest energy state.",
+              "It binds covalently to the active site.",
+              "It mimics the transition state, to which the enzyme binds with higher affinity than the substrate.",
+              "It increases the activation energy of the reaction.",
+              "It makes the reaction endergonic."
+            ],
+            "correct": 2,
+            "explanation": "Enzymes stabilize the transition state; therefore, they bind transition-state analogs with much higher affinity than the substrate."
+          },
+          {
+            "question": "A newborn presents with high ammonia levels due to a urea cycle defect. In humans, the urea cycle spans which two cellular compartments?",
+            "options": [
+              "Cytosol and Nucleus",
+              "Mitochondria and Cytosol",
+              "Smooth ER and Rough ER",
+              "Lysosome and Golgi",
+              "Mitochondria and Peroxisome"
+            ],
+            "correct": 1,
+            "explanation": "The Urea Cycle is compartmentalized, with early steps occurring in the mitochondria and later steps in the cytosol."
+          },
+          {
+            "question": "A researcher studies a pathogen with a cell wall containing N-acetylmuramic acid and D-amino acids, and circular DNA not in a nucleus. This organism is:",
+            "options": [
+              "Virus",
+              "Prion",
+              "Eukaryote (Fungi)",
+              "Prokaryote (Bacteria)",
+              "Archaea"
+            ],
+            "correct": 3,
+            "explanation": "Peptidoglycan (muramic acid + D-amino acids) and lack of a nucleus are defining features of Bacteria (Prokaryotes)."
+          },
+          {
+            "question": "A patient with Sickle Cell Anemia has a Glutamate to Valine mutation on Hemoglobin. What thermodynamic force drives the aggregation of HbS molecules?",
+            "options": [
+              "Ionic attraction",
+              "The Hydrophobic Effect",
+              "Disulfide bonding",
+              "Hydrogen bonding",
+              "Covalent cross-linking"
+            ],
+            "correct": 1,
+            "explanation": "The hydrophobic Valine residue is exposed to water; aggregation occurs to bury this hydrophobic patch (Hydrophobic Effect)."
+          },
+          {
+            "question": "Glucose absorption into intestinal cells against its gradient is powered by the simultaneous entry of sodium down its gradient. This is an example of:",
+            "options": [
+              "Primary active transport (ATP hydrolysis).",
+              "Simple diffusion.",
+              "Secondary active transport (coupling to an exergonic process).",
+              "Facilitated diffusion.",
+              "Osmosis."
+            ],
+            "correct": 2,
+            "explanation": "Transport driven by the energy stored in an ion gradient (created by ATP elsewhere) is Secondary Active Transport."
+          },
+          {
+            "question": "Thalidomide caused birth defects because one enantiomer was a sedative while the other was teratogenic. This emphasizes the biological importance of:",
+            "options": [
+              "Geometric isomers (Cis/Trans).",
+              "Molecular weight.",
+              "Stereoisomerism (Chirality).",
+              "Solubility.",
+              "Resonance."
+            ],
+            "correct": 2,
+            "explanation": "Biological systems are chiral; enantiomers can have drastically different biological activities."
+          },
+          {
+            "question": "A patient with Wernicke-Korsakoff syndrome has a Thiamine deficiency. Thiamine is a precursor for a coenzyme tightly bound to enzymes. Such coenzymes are called:",
+            "options": [
+              "Apoenzymes",
+              "Prosthetic groups (if tightly bound)",
+              "Zymogens",
+              "Isoenzymes",
+              "Competitive inhibitors"
+            ],
+            "correct": 1,
+            "explanation": "Tightly bound cofactors (like TPP) are called prosthetic groups."
+          },
+          {
+            "question": "A patient has a mutation in F1F0-ATP synthase allowing ATP hydrolysis but not synthesis. Which law explains why ATP hydrolysis is spontaneous?",
+            "options": [
+              "First Law: Energy is conserved.",
+              "Second Law: The total entropy of the universe increases.",
+              "Third Law: Entropy is zero at absolute zero.",
+              "Law of Mass Action.",
+              "Hess's Law."
+            ],
+            "correct": 1,
+            "explanation": "Spontaneous processes proceed in a direction that increases the total entropy of the universe (Second Law of Thermodynamics)."
+          },
+          {
+            "question": "In Diabetic Ketoacidosis, enzymes are phosphorylated to shift metabolism. Phosphorylation alters enzyme activity primarily by:",
+            "options": [
+              "Changing the primary sequence of the protein.",
+              "Inducing a conformational change via charge repulsion and bulk.",
+              "Cleaving peptide bonds.",
+              "Changing the pH of the cytosol.",
+              "Removing the active site."
+            ],
+            "correct": 1,
+            "explanation": "Phosphorylation adds a charged group that induces a conformational change, altering enzyme activity."
+          },
+          {
+            "question": "Statins inhibit HMG-CoA Reductase. Increasing the substrate (HMG-CoA) concentration overcomes this inhibition. This indicates what type of kinetics?",
+            "options": [
+              "Non-competitive inhibition",
+              "Competitive inhibition",
+              "Uncompetitive inhibition",
+              "Irreversible inhibition",
+              "Allosteric activation"
+            ],
+            "correct": 1,
+            "explanation": "Competitive inhibition can be overcome by high substrate concentrations."
+          },
+          {
+            "question": "Cyanide binds to Cytochrome c Oxidase, stopping electron transport. The immediate biochemical cause of death is:",
+            "options": [
+              "Excessive heat production.",
+              "Cessation of ATP synthesis leading to bioenergetic failure.",
+              "Accumulation of glucose.",
+              "DNA mutations.",
+              "Protein denaturation."
+            ],
+            "correct": 1,
+            "explanation": "Cyanide blocks the electron transport chain, halting the proton gradient and thus stopping ATP synthesis."
+          },
+          {
+            "question": "In Osteogenesis Imperfecta, a mutation replaces Glycine in collagen with a larger amino acid. Why is Glycine conserved at every third position?",
+            "options": [
+              "It is the only amino acid with a sulfur atom.",
+              "It is the only achiral amino acid, small enough to fit in the tight center of the triple helix.",
+              "It is positively charged.",
+              "It forms strong disulfide bonds.",
+              "It is essential for vitamin C binding."
+            ],
+            "correct": 1,
+            "explanation": "Glycine is the smallest amino acid and fits into the restricted space where the three collagen strands intersect."
+          },
+          {
+            "question": "The Cori Cycle converts Lactate back into Glucose in the liver. This process of building complex molecules from simpler ones is:",
+            "options": [
+              "Catabolism; Exergonic",
+              "Catabolism; Endergonic",
+              "Anabolism; Exergonic",
+              "Anabolism; Endergonic",
+              "Amphibolic; Equilibrium"
+            ],
+            "correct": 3,
+            "explanation": "Anabolism is the energy-requiring (endergonic) synthesis of complex molecules."
+          },
+          {
+            "question": "A scientist uses a mild non-ionic detergent to study the plasma membrane. The stability of the lipid bilayer is primarily maintained by:",
+            "options": [
+              "Covalent bonds between phospholipid tails.",
+              "The Hydrophobic Effect and Van der Waals interactions.",
+              "Disulfide bonds between lipid heads.",
+              "Ionic bonds between cholesterol and proteins.",
+              "Hydrogen bonds between fatty acid chains."
+            ],
+            "correct": 1,
+            "explanation": "Membranes are held together by the Hydrophobic Effect and Van der Waals forces; there are no covalent bonds between lipids."
+          },
+          {
+            "question": "Prion disease involves normal proteins switching from alpha-helix to beta-sheet conformation. This illustrates that:",
+            "options": [
+              "The primary sequence of a protein does not determine its tertiary structure.",
+              "Proteins can exist in multiple stable conformations, one of which may be toxic.",
+              "beta-sheets are always toxic.",
+              "DNA is not required for protein synthesis.",
+              "Enzymes are not catalysts."
+            ],
+            "correct": 1,
+            "explanation": "Prions demonstrate that proteins can adopt alternative, stable (but toxic) conformations without a change in sequence."
+          },
+          {
+            "question": "A patient has a deficiency in essential fatty acids which contain cis double bonds. What property do cis double bonds impart to biological membranes?",
+            "options": [
+              "Rigidity and high melting point.",
+              "Fluidity and lower melting point ('kinks' in the chain).",
+              "Complete impermeability.",
+              "Covalent cross-linking.",
+              "Ability to conduct electricity."
+            ],
+            "correct": 1,
+            "explanation": "Cis double bonds create kinks that prevent tight packing, increasing membrane fluidity."
+          },
+          {
+            "question": "X-ray crystallography of myoglobin shows a hydrophobic core (Leucine, Valine) and a polar surface. This is driven by:",
+            "options": [
+              "Maximizing entropy of the polypeptide chain.",
+              "Minimizing the entropy of the surrounding water (Hydrophobic Effect).",
+              "Electrostatic attraction.",
+              "Disulfide bonding.",
+              "Magnetic forces."
+            ],
+            "correct": 1,
+            "explanation": "The Hydrophobic Effect drives nonpolar residues to the interior to minimize the ordering of water molecules (maximizing water entropy)."
+          },
+          {
+            "question": "In Cystic Fibrosis, the CFTR protein misfolds slightly and is degraded. Which organelle is responsible for this quality control/degradation decision?",
+            "options": [
+              "Lysosome",
+              "Golgi Apparatus",
+              "Endoplasmic Reticulum (ER)",
+              "Nucleus",
+              "Mitochondria"
+            ],
+            "correct": 2,
+            "explanation": "The ER quality control system targets misfolded proteins for degradation (ERAD) rather than letting them proceed to the Golgi."
+          },
+          {
+            "question": "Methanol poisoning is treated with Ethanol, which competes for the Alcohol Dehydrogenase active site. Ethanol acts as a:",
+            "options": [
+              "Competitive Inhibitor",
+              "Non-competitive Inhibitor",
+              "Suicide Substrate",
+              "Allosteric Activator",
+              "Coenzyme"
+            ],
+            "correct": 0,
+            "explanation": "Ethanol is a competitive inhibitor as it binds to the same active site as methanol."
+          },
+          {
+            "question": "Water has a high specific heat, vital for thermoregulation. What chemical feature accounts for this?",
+            "options": [
+              "Covalent O-H bonds.",
+              "Its ability to form an extensive network of Hydrogen bonds.",
+              "Its low molecular weight.",
+              "Its neutral pH.",
+              "Its transparency."
+            ],
+            "correct": 1,
+            "explanation": "The extensive network of Hydrogen bonds requires significant energy to break, giving water its high specific heat."
+          },
+          {
+            "question": "A high ATP/ADP ratio in the mitochondrial matrix would inhibit which metabolic process?",
+            "options": [
+              "Anabolism (synthesis of fat/glycogen).",
+              "Catabolism (oxidation of fuels like Glucose/Fatty acids).",
+              "DNA repair.",
+              "Protein synthesis.",
+              "Active transport."
+            ],
+            "correct": 1,
+            "explanation": "High ATP signals high energy status, inhibiting energy-generating pathways (Catabolism)."
+          },
+          {
+            "question": "Hereditary Spherocytosis involves defects in Spectrin/Ankyrin. These cytoskeletal proteins primarily function to:",
+            "options": [
+              "Generate ATP.",
+              "Synthesize lipids.",
+              "Maintain the biconcave shape and mechanical stability of the Red Blood Cell.",
+              "Transport Oxygen.",
+              "Divide the cell."
+            ],
+            "correct": 2,
+            "explanation": "The membrane skeleton (Spectrin/Ankyrin) maintains RBC shape and stability."
+          },
+          {
+            "question": "Steroid hormones are synthesized from cholesterol. In which organelle does this primarily occur?",
+            "options": [
+              "Rough Endoplasmic Reticulum",
+              "Smooth Endoplasmic Reticulum",
+              "Lysosome",
+              "Nucleolus",
+              "Ribosome"
+            ],
+            "correct": 1,
+            "explanation": "The Smooth ER is the primary site for lipid and steroid hormone synthesis."
+          },
+          {
+            "question": "A 45-year-old sailor presents with swollen, bleeding gums, loose teeth, and poor wound healing. He has been at sea for months with a diet consisting mainly of preserved meats and crackers. The fundamental biochemical defect in this patient involves the failure to modify which specific amino acid residues in collagen?",
+            "options": [
+              "Serine and Threonine",
+              "Cysteine and Methionine",
+              "Proline and Lysine",
+              "Alanine and Valine",
+              "Tyrosine and Phenylalanine"
+            ],
+            "correct": 2,
+            "explanation": "The clinical presentation is classic for **Scurvy** (Vitamin C deficiency). Vitamin C is an obligate cofactor for the enzymes Prolyl Hydroxylase and Lysyl Hydroxylase. These enzymes convert **Proline and Lysine** into Hydroxyproline and Hydroxylysine, respectively. Hydroxyproline is essential for the hydrogen bonding that stabilizes the collagen triple helix. Without it, collagen is unstable and degrades, causing connective tissue failure (bleeding gums, poor healing)."
+          },
+          {
+            "question": "A 6-year-old African American boy presents to the ER with severe chest pain and dyspnea. He has a history of anemia. A peripheral blood smear shows elongated, crescent-shaped RBCs. Which of the following conditions most likely precipitated this crisis by favoring the T-state of Hemoglobin?",
+            "options": [
+              "Hyperventilation (Respiratory Alkalosis)",
+              "Breathing 100% Oxygen",
+              "Acidosis and Hypoxia",
+              "Hypothermia",
+              "Decreased 2,3-BPG levels"
+            ],
+            "correct": 2,
+            "explanation": "This is a **Sickle Cell Vaso-occlusive Crisis**. Polymerization of HbS occurs only when the hemoglobin is in the Deoxygenated **T-state**, which exposes the hydrophobic patch. Any physiological condition that stabilizes the T-state (shifts the oxygen dissociation curve to the right) will trigger sickling. These conditions include **Acidosis** (Bohr effect), **Hypoxia** (low $pO_2$), High Temperature, and increased 2,3-BPG. Alkalosis and High $O_2$ stabilize the R-state and would prevent sickling."
+          },
+          {
+            "question": "A family is rescued from a house fire. They are unconscious but have cherry-red skin discoloration. They are treated with 100% oxygen. The toxic agent involved binds competitively to the heme group of hemoglobin with 200x the affinity of oxygen. What is the agent?",
+            "options": [
+              "Cyanide",
+              "Carbon Dioxide",
+              "Carbon Monoxide",
+              "Hydrogen Sulfide",
+              "Methane"
+            ],
+            "correct": 2,
+            "explanation": "**Carbon Monoxide (CO)** is a byproduct of incomplete combustion. It binds to the ferrous iron ($Fe^{2+}$) of hemoglobin with ~200-250 times the affinity of oxygen. CO binding has two effects: 1) It occupies the oxygen-binding sites (decreasing capacity). 2) It causes allosteric modification, locking the remaining subunits in the high-affinity **R-state**. This prevents the release of any oxygen to the tissues (left shift). The characteristic **'cherry-red'** color is due to the bright red color of Carboxyhemoglobin."
+          },
+          {
+            "question": "A 22-year-old female presents with cyanosis (blue skin) and chocolate-colored blood. She recently started taking dapsone for acne. Pulse oximetry is inaccurate. The physician suspects Methemoglobinemia. The treatment of choice (Methylene Blue) acts by:",
+            "options": [
+              "Chelating the iron.",
+              "Oxidizing Fe2+ to Fe3+.",
+              "Reducing Fe3+ back to Fe2+.",
+              "Competitively binding to the heme.",
+              "Increasing 2,3-BPG."
+            ],
+            "correct": 2,
+            "explanation": "Dapsone is an oxidizing drug that can cause **Methemoglobinemia**, where heme iron is oxidized to $Fe^{3+}$ (cannot bind $O_2$). The antidote, **Methylene Blue**, acts as an electron acceptor for the enzyme NADPH-Methemoglobin Reductase. It accelerates the physiological pathway that donates electrons to the heme, **reducing the iron back to the Ferrous ($Fe^{2+}$)** state, thus restoring the oxygen-carrying capacity of the blood."
+          },
+          {
+            "question": "A mountain climber ascends to 5,000 meters. After a few days, his body adapts to the low pO2. A blood test would likely reveal an increase in which metabolite that shifts the oxygen-dissociation curve to the right?",
+            "options": [
+              "Lactate",
+              "2,3-Bisphosphoglycerate (2,3-BPG)",
+              "Glucose",
+              "ATP",
+              "Bicarbonate"
+            ],
+            "correct": 1,
+            "explanation": "Chronic hypoxia (altitude) stimulates glycolysis in RBCs to produce more **2,3-Bisphosphoglycerate (2,3-BPG)**. 2,3-BPG binds to the central cavity of Deoxy-Hb (T-state), lowering its oxygen affinity. This causes a **Right Shift** of the oxygen dissociation curve. While this makes it slightly harder to load oxygen in the lungs, it significantly enhances the **unloading** of oxygen to the tissues, which is the net benefit needed for survival at high altitude."
+          },
+          {
+            "question": "A fetus relies on oxygen transfer from the mother's blood. Fetal Hemoglobin (HbF) facilitates this because it has a higher affinity for O2 than maternal HbA. Structurally, this is due to:",
+            "options": [
+              "HbF having four alpha chains.",
+              "HbF lacking heme groups.",
+              "The gamma-subunits of HbF binding 2,3-BPG less avidly than the beta-subunits of HbA.",
+              "HbF existing as a monomer.",
+              "HbF having a covalent bond to Oxygen."
+            ],
+            "correct": 2,
+            "explanation": "Maternal HbA is $\\alpha_2\\beta_2$; Fetal HbF is $\\alpha_2\\gamma_2$. In HbA, the beta-chains contain a Histidine residue (His143) in the central cavity that forms a salt bridge with the negative charges of 2,3-BPG. In the **gamma-chains of HbF**, this Histidine is replaced by a neutral **Serine**. This loss of positive charge reduces the binding affinity for 2,3-BPG. Since 2,3-BPG lowers oxygen affinity, HbF's inability to bind it tightly results in a **higher intrinsic oxygen affinity** than HbA, allowing oxygen to flow from mother to fetus."
+          },
+          {
+            "question": "A patient with Type 1 Diabetes has poor glycemic control. The physician measures HbA1c. This test relies on the non-enzymatic reaction of glucose with which part of the Hemoglobin molecule?",
+            "options": [
+              "The C-terminal Carboxyl group.",
+              "The N-terminal Valine amino group of the beta chain.",
+              "The Heme Iron.",
+              "The Distal Histidine.",
+              "Serine residues on the surface."
+            ],
+            "correct": 1,
+            "explanation": "Glucose is a reducing sugar that can react non-enzymatically (glycation) with protein amino groups. In Hemoglobin, glucose forms a stable covalent adduct with the **N-terminal Valine** of the beta-chains. The extent of this glycation is proportional to the concentration of glucose in the blood over the lifespan of the red blood cell (approx. 120 days), making **HbA1c** an excellent marker for long-term blood sugar control."
+          },
+          {
+            "question": "A 70-year-old male with Alzheimer's disease has amyloid plaques in his brain. These plaques consist of aggregates of the Amyloid Beta peptide. The structural transition underlying this aggregation is:",
+            "options": [
+              "Alpha-helix to Beta-sheet.",
+              "Beta-sheet to Alpha-helix.",
+              "Disassociation of quaternary structure.",
+              "Cleavage of disulfide bonds.",
+              "Loss of metal cofactors."
+            ],
+            "correct": 0,
+            "explanation": "Many amyloid diseases (Alzheimer's, Parkinson's, Prions) involve a similar pathological mechanism: a soluble protein (often rich in alpha-helices or random coils) undergoes a conformational change into a **Beta-sheet rich structure**. These beta-sheets can stack perpendicular to the fiber axis (cross-beta spine), forming extremely stable, insoluble, and protease-resistant fibrils that accumulate and damage tissue."
+          },
+          {
+            "question": "A newborn has multiple fractures and blue sclerae. He is diagnosed with Osteogenesis Imperfecta (Type I). The mutation likely involves the substitution of Glycine in Type I collagen for a larger amino acid. Why is this substitution deleterious?",
+            "options": [
+              "It prevents cross-linking of Lysine.",
+              "It disrupts the tight packing of the triple helix center.",
+              "It prevents Vitamin C binding.",
+              "It increases the solubility of collagen too much.",
+              "It inhibits procollagen peptidase."
+            ],
+            "correct": 1,
+            "explanation": "Collagen has a repeating sequence of $Gly-X-Y$. In the triple helix, the three strands wind so tightly that every third residue is positioned in the crowded center of the superhelix. Only **Glycine**, with its single Hydrogen atom side chain, is small enough to fit. Any mutation replacing Glycine with a larger amino acid (even Alanine) creates a steric bulge that disrupts the helix packing, preventing proper folding and resulting in unstable, weak collagen (brittle bones)."
+          },
+          {
+            "question": "A 12-year-old boy with Marfan syndrome presents with lens dislocation and aortic root dilation. The defective protein, Fibrillin-1, normally serves as a scaffold for the deposition of which elastic protein?",
+            "options": [
+              "Keratin",
+              "Collagen",
+              "Elastin",
+              "Actin",
+              "Myosin"
+            ],
+            "correct": 2,
+            "explanation": "Marfan Syndrome is caused by mutations in **Fibrillin-1**. Fibrillin forms microfibrils in the extracellular matrix. These microfibrils act as a scaffold upon which **Elastin** is deposited to form elastic fibers. Without functional fibrillin, elastic tissues (like the aorta and the suspensory ligaments of the lens) lose their structural integrity, leading to aneurysms and lens dislocation."
+          },
+          {
+            "question": "In a patient with severe respiratory acidosis (e.g., Emphysema), the pH of the blood drops. How does this pH change affect the oxygen dissociation curve of Hemoglobin?",
+            "options": [
+              "Shifts to the Left (Higher Affinity).",
+              "Shifts to the Right (Lower Affinity/Bohr Effect).",
+              "No change.",
+              "Changes from sigmoidal to hyperbolic.",
+              "Hemoglobin denatures."
+            ],
+            "correct": 1,
+            "explanation": "A drop in pH (Acidosis, High $H^+$) enhances the **Bohr Effect**. Protons bind to Histidine residues on Hemoglobin, stabilizing the T-state (Deoxy-Hb) via salt bridges. Stabilization of the T-state means reduced affinity for oxygen. Consequently, the oxygen dissociation curve shifts to the **Right**. This mechanism ensures that in tissues where acid accumulates (metabolically active or hypoxic), Hemoglobin releases more oxygen."
+          },
+          {
+            "question": "A patient with Cystinuria has recurrent kidney stones. Urinalysis shows hexagonal crystals. The defect lies in the renal transporter for COLA amino acids. Which amino acid is responsible for the stones due to its low solubility?",
+            "options": [
+              "Ornithine",
+              "Lysine",
+              "Arginine",
+              "Cystine",
+              "Alanine"
+            ],
+            "correct": 3,
+            "explanation": "Cystinuria is a defect in the PCT transporter for dibasic amino acids: **C**ystine, **O**rnithine, **L**ysine, and **A**rginine (COLA). While all four are excreted in excess, **Cystine** is the clinical problem because it is poorly soluble in acidic urine. It precipitates out of solution to form hexagonal crystals and stones (calculi). The other three amino acids are soluble and are excreted harmlessly."
+          },
+          {
+            "question": "A 40-year-old male with emphysema but no history of smoking is suspected to have Alpha-1 Antitrypsin deficiency. This protein normally inhibits Elastase in the lungs. To confirm the diagnosis and variant (M, S, or Z), the lab uses Isoelectric Focusing. This technique separates proteins based on:",
+            "options": [
+              "Size",
+              "Solubility",
+              "The pH at which the net charge is zero.",
+              "Binding affinity to substrate.",
+              "Tertiary structure."
+            ],
+            "correct": 2,
+            "explanation": "Isoelectric Focusing (IEF) separates proteins based on their **Isoelectric Point (pI)**. The pI is the specific pH at which a protein has a net charge of zero. The Z-variant of Alpha-1 Antitrypsin involves a Glu to Lys mutation (Negative to Positive). This change significantly alters the net charge and pI of the protein, allowing IEF to clearly distinguish the mutant Z protein from the normal M protein."
+          },
+          {
+            "question": "Prion diseases like Creutzfeldt-Jakob Disease (CJD) are unique because the infectious agent is:",
+            "options": [
+              "A DNA virus.",
+              "An RNA virus.",
+              "A misfolded protein that induces misfolding in normal proteins.",
+              "A bacteria.",
+              "A fungus."
+            ],
+            "correct": 2,
+            "explanation": "Prions refute the 'Central Dogma' that pathogens require nucleic acids. The infectious agent ($PrP^{Sc}$) is a **misfolded form of a normal cellular protein** ($PrP^C$). $PrP^{Sc}$ acts as a conformational template, binding to normal $PrP^C$ and inducing it to refold into the pathogenic beta-sheet conformation. This chain reaction leads to exponential accumulation of aggregates and neurodegeneration."
+          },
+          {
+            "question": "A patient is given a drug that acts as a competitive inhibitor of an enzyme. To determine the efficacy, the lab runs kinetics. Which parameter will appear to change in the presence of the inhibitor?",
+            "options": [
+              "Vmax decreases.",
+              "Km increases.",
+              "Km decreases.",
+              "Vmax increases.",
+              "Both Km and Vmax decrease."
+            ],
+            "correct": 1,
+            "explanation": "Competitive inhibitors bind reversibly to the **active site**, directly competing with the substrate. If you add enough substrate, you can outcompete the inhibitor and eventually reach the normal maximum velocity ($V_{max}$). However, because the inhibitor occupies some sites, it takes *more* substrate to reach half-maximal velocity. Therefore, the **Apparent $K_m$ increases** (affinity appears lower)."
+          },
+          {
+            "question": "In a hypothetical emergency, a patient receives a transfusion of blood that was stored for 6 weeks. The patient develops signs of tissue hypoxia despite normal Hb levels. The likely cause is depletion of what molecule in the stored blood?",
+            "options": [
+              "Glucose",
+              "ATP",
+              "2,3-BPG",
+              "Chloride",
+              "Calcium"
+            ],
+            "correct": 2,
+            "explanation": "During long-term storage of blood, glycolysis slows down, leading to the degradation and depletion of **2,3-Bisphosphoglycerate (2,3-BPG)**. Without 2,3-BPG to stabilize the T-state, the Hemoglobin in the transfused blood shifts into the high-affinity **R-state**. This 'left-shifted' hemoglobin binds oxygen avidly in the lungs but fails to release it effectively to the tissues, causing functional hypoxia."
+          },
+          {
+            "question": "A neonate tests positive for Phenylketonuria (PKU). The defect is in Phenylalanine Hydroxylase. If untreated, Phenylalanine accumulates. Which amino acid becomes essential in the diet of this patient?",
+            "options": [
+              "Tyrosine",
+              "Tryptophan",
+              "Alanine",
+              "Glycine",
+              "Leucine"
+            ],
+            "correct": 0,
+            "explanation": "Phenylalanine Hydroxylase converts Phenylalanine (Essential) into **Tyrosine** (Non-essential). In PKU, this enzyme is defective. Consequently, the body cannot synthesize Tyrosine. Therefore, Tyrosine becomes a **conditionally essential amino acid** for PKU patients and must be supplied in the diet to support protein synthesis and catecholamine production."
+          },
+          {
+            "question": "A patient with Maple Syrup Urine Disease (MSUD) has a defect in the branched-chain alpha-keto acid dehydrogenase complex. Which amino acids must be restricted in their diet?",
+            "options": [
+              "Phenylalanine, Tyrosine, Tryptophan",
+              "Leucine, Isoleucine, Valine",
+              "Lysine, Arginine, Histidine",
+              "Glycine, Alanine, Serine",
+              "Cysteine, Methionine"
+            ],
+            "correct": 1,
+            "explanation": "MSUD is caused by a defect in the enzyme complex responsible for the catabolism of **Branched-Chain Amino Acids (BCAAs): Leucine, Isoleucine, and Valine**. The accumulation of these amino acids and their corresponding alpha-keto acids leads to severe neurotoxicity and gives the urine a sweet, maple-syrup-like odor. Treatment requires lifelong dietary restriction of these three amino acids."
+          },
+          {
+            "question": "An albino patient lacks the pigment melanin. Melanin is synthesized from which amino acid precursor via the enzyme Tyrosinase?",
+            "options": [
+              "Tryptophan",
+              "Tyrosine",
+              "Histidine",
+              "Proline",
+              "Glutamate"
+            ],
+            "correct": 1,
+            "explanation": "Oculocutaneous Albinism is typically caused by a deficiency in **Tyrosinase**, a copper-containing enzyme. Tyrosinase catalyzes the first step in the conversion of **Tyrosine** into DOPA and subsequently into **Melanin**. Without this pathway, pigment cannot be produced in the skin, hair, or eyes."
+          },
+          {
+            "question": "A child presents with lens dislocation (downward), tall stature, and intellectual disability. Homocystine is found in the urine. This condition (Homocystinuria) is often due to a defect in Cystathionine Beta-Synthase, which requires which vitamin cofactor?",
+            "options": [
+              "Vitamin B6 (Pyridoxine)",
+              "Vitamin B1 (Thiamine)",
+              "Vitamin C",
+              "Vitamin B12",
+              "Vitamin A"
+            ],
+            "correct": 0,
+            "explanation": "Homocystinuria is most commonly caused by a defect in Cystathionine Beta-Synthase (CBS). The CBS enzyme requires **Vitamin B6 (Pyridoxal Phosphate, PLP)** as a cofactor to convert Homocysteine + Serine into Cystathionine. Approximately 50% of patients respond to high-dose Vitamin B6 supplementation, which boosts the residual activity of the mutant enzyme."
+          },
+          {
+            "question": "A patient presents with pellagra-like symptoms (dermatitis, diarrhea, dementia). They have Hartnup disease, a defect in the transport of neutral amino acids. The symptoms are due to a deficiency in Tryptophan, which is a precursor for:",
+            "options": [
+              "Melanin",
+              "Niacin (Vitamin B3) and Serotonin",
+              "Heme",
+              "Thyroxine",
+              "Histamine"
+            ],
+            "correct": 1,
+            "explanation": "In Hartnup disease, the transporter for neutral amino acids (like Tryptophan) in the kidney and gut is defective, leading to Tryptophan wasting. **Tryptophan** is the physiological precursor for the synthesis of **Niacin (Vitamin B3)** and Serotonin. The deficiency of Niacin results in Pellagra (the 3 D's: Dermatitis, Diarrhea, Dementia)."
+          },
+          {
+            "question": "Multiple Myeloma is a cancer of plasma cells. Patients often excrete 'Bence Jones proteins' in their urine. These proteins are:",
+            "options": [
+              "Free Hemoglobin alpha chains.",
+              "Free Immunoglobulin Light Chains.",
+              "Albumin.",
+              "Collagen fragments.",
+              "Myoglobin."
+            ],
+            "correct": 1,
+            "explanation": "Multiple Myeloma involves the monoclonal proliferation of plasma cells. These neoplastic cells often produce excess **Immunoglobulin Light Chains** (Kappa or Lambda). These free light chains are small enough to be filtered by the glomerulus and excreted in the urine, where they are historically known as Bence Jones proteins. They can be nephrotoxic."
+          },
+          {
+            "question": "During a myocardial infarction (heart attack), cardiac cells die and release their contents. Which protein is a specific marker used clinically to diagnose MI due to its unique cardiac isoenzyme?",
+            "options": [
+              "Albumin",
+              "Hemoglobin",
+              "Creatine Kinase (CK-MB)",
+              "Collagen",
+              "Fibrinogen"
+            ],
+            "correct": 2,
+            "explanation": "Creatine Kinase (CK) is a dimer composed of M (Muscle) and B (Brain) subunits. Skeletal muscle is mostly CK-MM; Brain is CK-BB. The Myocardium is unique in containing a significant amount of the **CK-MB** isoenzyme. While Troponins are now the gold standard, CK-MB is the classic enzymatic marker for diagnosing acute Myocardial Infarction."
+          },
+          {
+            "question": "Heat stroke occurs when body temperature rises above 40°C. At the molecular level, this causes cell death primarily because:",
+            "options": [
+              "Peptide bonds hydrolyze.",
+              "Proteins denature (lose tertiary/quaternary structure) and precipitate.",
+              "DNA melts.",
+              "Fatty acids oxidize.",
+              "Ribosomes disassemble."
+            ],
+            "correct": 1,
+            "explanation": "Proteins are stabilized by weak non-covalent forces (Hydrogen bonds, hydrophobic interactions). High thermal energy disrupts these weak interactions. This causes the protein to unfold (**Denaturation**), losing its specific tertiary structure and biological function. Unfolded proteins exposes hydrophobic cores and aggregate/precipitate, which is cytotoxic."
+          },
+          {
+            "question": "A patient with Menkes disease has kinky hair and growth retardation. The defect is in a Copper transporter (ATP7A). Copper is a required cofactor for Lysyl Oxidase. What is the consequence of Lysyl Oxidase dysfunction?",
+            "options": [
+              "Failure to hydroxylate Proline.",
+              "Failure to cross-link Collagen and Elastin fibers.",
+              "Failure to transport Oxygen.",
+              "Failure to synthesize DNA.",
+              "Failure to degrade Glycogen."
+            ],
+            "correct": 1,
+            "explanation": "Lysyl Oxidase acts in the extracellular matrix to deaminate Lysine and Hydroxylysine residues into aldehydes (Allysine). These reactive aldehydes spontaneously condense with others to form **covalent cross-links** between collagen and elastin fibers. This cross-linking gives connective tissue its strength. In Menkes disease (Copper deficiency), Lysyl Oxidase fails, leading to weak, defective connective tissue (kinky hair, arterial rupture)."
+          },
+          {
+            "question": "In the lungs, the partial pressure of Oxygen is high (100 mmHg). This favors which conformational state of Hemoglobin?",
+            "options": [
+              "The T-state (Tense).",
+              "The R-state (Relaxed).",
+              "The Monomeric state.",
+              "The Denatured state.",
+              "The Methemoglobin state."
+            ],
+            "correct": 1,
+            "explanation": "According to Le Chatelier's principle and the properties of allostery, a high concentration of ligand ($O_2$) drives the equilibrium toward the bound state. Oxygen binding stabilizes the **R-state (Relaxed)** of hemoglobin. The R-state has high affinity for oxygen. Therefore, in the high-$pO_2$ environment of the lungs, Hemoglobin snaps into the R-state to maximally load oxygen."
+          },
+          {
+            "question": "A 30-year-old female with Lupus has antibodies against phospholipids. However, she also has mild anemia. Electrophoresis reveals a Hemoglobin variant that migrates slower than HbA. Which mutation would cause a protein to move slower towards the anode (+)?",
+            "options": [
+              "Glutamate (-) to Valine (0) (HbS).",
+              "Glutamate (-) to Lysine (+) (HbC).",
+              "Lysine (+) to Glutamate (-).",
+              "Valine (0) to Leucine (0).",
+              "Glycine (0) to Alanine (0)."
+            ],
+            "correct": 1,
+            "explanation": "In standard electrophoresis (pH 8.6), proteins are negatively charged and move toward the Anode (+). HbA has Glutamate (negative). **HbC** has a mutation where Glutamate is replaced by Lysine (positive). This is a change of +2 in net charge (from -1 to +1). This makes HbC significantly less negative than HbA, so it migrates much **slower** (stays closer to the cathode). HbS (Glu to Val) loses one negative charge, so it migrates intermediate between A and C."
+          },
+          {
+            "question": "Why is Lead poisoning (Plumbism) associated with anemia?",
+            "options": [
+              "Lead binds to the Iron transport protein.",
+              "Lead inhibits ALA Dehydratase and Ferrochelatase in the Heme synthesis pathway.",
+              "Lead destroys the kidney.",
+              "Lead replaces Calcium in bones.",
+              "Lead denatures Spectrin."
+            ],
+            "correct": 1,
+            "explanation": "Lead ($Pb^{2+}$) is a potent inhibitor of sulfhydryl-containing enzymes. It specifically inhibits two key enzymes in the Heme Biosynthetic pathway: **ALA Dehydratase** (cytosolic) and **Ferrochelatase** (mitochondrial). Inhibition of these enzymes blocks the insertion of Iron into Protoporphyrin IX. Without Heme, Hemoglobin cannot be produced, resulting in a Microcytic Anemia (often with basophilic stippling)."
+          },
+          {
+            "question": "A patient with Ehlers-Danlos Syndrome has hypermobile joints and stretchy skin. This is a heterogeneous group of disorders, but they all generally affect:",
+            "options": [
+              "Keratin synthesis.",
+              "Collagen synthesis or processing.",
+              "Muscle contraction.",
+              "Nerve conduction.",
+              "Glycogen storage."
+            ],
+            "correct": 1,
+            "explanation": "Ehlers-Danlos Syndrome (EDS) characterizes a group of connective tissue disorders. The underlying defects involve the synthesis, processing, or structure of **Collagen** (e.g., defects in collagen genes like COL5A1, or processing enzymes like procollagen peptidase). The result is structurally weak collagen fibrils, leading to the clinical triad of skin hyperextensibility, joint hypermobility, and tissue fragility."
+          },
+          {
+            "question": "Methanol poisoning leads to metabolic acidosis (Formic acid). The body compensates by hyperventilating to lower CO2. How does the initial acidosis affect O2 delivery?",
+            "options": [
+              "It decreases O2 delivery by shifting the curve Left.",
+              "It increases O2 delivery to tissues by shifting the curve Right (Bohr Effect).",
+              "It prevents O2 binding completely.",
+              "It causes Sickling in all patients.",
+              "It converts Hb to MetHb."
+            ],
+            "correct": 1,
+            "explanation": "Metabolic acidosis (High $H^+$ concentration) lowers the blood pH. Through the **Bohr Effect**, protons stabilize the T-state of hemoglobin, reducing its affinity for oxygen. This shifts the oxygen dissociation curve to the **Right**. While this decreases loading slightly in the lungs, it significantly facilitates the **unloading** (delivery) of oxygen to the tissues, which is a protective physiological response to metabolic stress."
+          },
+          {
+            "question": "A 45-year-old homeless male is brought to the ER with confusion, vomiting, and vision loss ('snowstorm vision'). He admits to drinking 'cheap alcohol' which was actually windshield wiper fluid (Methanol). Methanol is metabolized by Alcohol Dehydrogenase (ADH) to toxic Formaldehyde. The physician administers Ethanol. Ethanol acts as an antidote by:",
+            "options": [
+              "Irreversibly inhibiting ADH.",
+              "Binding to the Methanol-ADH complex.",
+              "Acting as a competitive inhibitor of ADH, preventing Methanol metabolism.",
+              "Enhancing the renal excretion of Methanol.",
+              "Degrading Formaldehyde directly."
+            ],
+            "correct": 2,
+            "explanation": "Ethanol and Methanol compete for the same active site on Alcohol Dehydrogenase. Ethanol has a **lower Km (higher affinity)** for ADH than Methanol. By flooding the system with Ethanol (competitive inhibition), the enzyme processes Ethanol instead, allowing the Methanol to be excreted safely in the urine before it is converted to toxic metabolites (Formaldehyde/Formic Acid)."
+          },
+          {
+            "question": "A 55-year-old male with high cholesterol is prescribed Atorvastatin. This drug reduces serum cholesterol by inhibiting HMG-CoA Reductase, the rate-limiting enzyme of cholesterol synthesis. Kinetic analysis shows that increasing the concentration of HMG-CoA (substrate) restores enzyme velocity to normal levels. This indicates that Statin is a:",
+            "options": [
+              "Non-competitive inhibitor",
+              "Competitive inhibitor",
+              "Suicide inhibitor",
+              "Uncompetitive inhibitor",
+              "Allosteric activator"
+            ],
+            "correct": 1,
+            "explanation": "The hallmark of **Competitive Inhibition** is that it can be overcome by increasing substrate concentration (Substrate outcompetes the inhibitor). Statins are structural analogs of HMG-CoA (specifically the transition state mevalonate intermediate) and bind competitively to the active site, increasing apparent Km without changing Vmax."
+          },
+          {
+            "question": "A farmer is brought to the ER with pinpoint pupils (miosis), excessive salivation, lacrimation, and muscle fasciculations. He was spraying crops with Organophosphates (Parathion/Malathion). These toxins act by inhibiting Acetylcholinesterase. What is the mechanism of this inhibition?",
+            "options": [
+              "Reversible competitive inhibition.",
+              "Irreversible covalent modification of the active site Serine.",
+              "Allosteric inhibition.",
+              "Chelation of the Magnesium cofactor.",
+              "Denaturation of the enzyme."
+            ],
+            "correct": 1,
+            "explanation": "Organophosphates (and nerve gases like Sarin) are **Irreversible Inhibitors**. They form a stable covalent phosphate bond with the hydroxyl group of the **Serine** residue in the active site of Acetylcholinesterase. This permanently disables the enzyme, leading to an accumulation of Acetylcholine and cholinergic crisis (SLUDGE syndrome)."
+          },
+          {
+            "question": "A patient with Gout is treated with Allopurinol. Allopurinol is structurally similar to Hypoxanthine. Xanthine Oxidase converts Allopurinol into Alloxanthine, which then remains tightly bound to the active site, incapable of leaving. This is a classic example of:",
+            "options": [
+              "Feedback inhibition",
+              "Suicide (Mechanism-based) inhibition",
+              "Non-competitive inhibition",
+              "Uncompetitive inhibition",
+              "Zymogen activation"
+            ],
+            "correct": 1,
+            "explanation": "Allopurinol is a **Suicide Inhibitor**. The enzyme treats it as a substrate and performs the catalytic reaction, converting it to Alloxanthine (Oxypurinol). Alloxanthine binds the active site molybdenum atom very tightly (essentially irreversibly), 'committing suicide' with the enzyme. This lowers uric acid production."
+          },
+          {
+            "question": "A 60-year-old female takes low-dose Aspirin daily for heart attack prevention. Aspirin inhibits Cyclooxygenase (COX) enzymes, reducing Thromboxane A2 production. Unlike Ibuprofen (which is reversible), Aspirin inhibits COX by:",
+            "options": [
+              "Acetylation of a Serine residue in the active site.",
+              "Binding to the heme cofactor.",
+              "Competitive inhibition at the substrate binding site.",
+              "Allosteric inhibition.",
+              "Hydrolyzing the enzyme."
+            ],
+            "correct": 0,
+            "explanation": "Aspirin (Acetylsalicylic acid) is an **Irreversible Inhibitor**. It transfers its acetyl group to a specific **Serine** residue in the active site of COX-1 and COX-2. Because platelets lack a nucleus, they cannot synthesize new COX enzyme; the inhibition lasts for the entire lifespan of the platelet (7-10 days), providing potent anti-thrombotic effects."
+          },
+          {
+            "question": "A patient undergoing cancer chemotherapy with Methotrexate develops anemia. Methotrexate targets Dihydrofolate Reductase (DHFR), an enzyme essential for DNA synthesis. It is a structural analog of:",
+            "options": [
+              "ATP",
+              "Dihydrofolate / Folic Acid",
+              "Thymine",
+              "NADPH",
+              "Glutamine"
+            ],
+            "correct": 1,
+            "explanation": "Methotrexate is a structural analog of **Folic Acid (Dihydrofolate)**. It binds to DHFR with ~1000x higher affinity than the natural substrate, acting as a potent competitive inhibitor. This blocks the regeneration of Tetrahydrofolate, halting thymidine synthesis and DNA replication in rapidly dividing cancer cells."
+          },
+          {
+            "question": "A 3-year-old boy presents with developmental delay and self-mutilating behavior (biting lips and fingers). He is diagnosed with Lesch-Nyhan syndrome. The defective enzyme is HGPRT. This enzyme belongs to which class?",
+            "options": [
+              "Kinase",
+              "Transferase",
+              "Ligase",
+              "Hydrolase",
+              "Isomerase"
+            ],
+            "correct": 1,
+            "explanation": "HGPRT (Hypoxanthine-Guanine Phosphoribosyl **Transferase**) is involved in the Purine Salvage Pathway. It transfers a phosphoribosyl group from PRPP to Hypoxanthine or Guanine. Its deficiency leads to excess uric acid (Gout) and neurological symptoms."
+          },
+          {
+            "question": "During a Myocardial Infarction, cardiac myocytes rupture, releasing enzymes into the blood. Which isoenzyme of Creatine Kinase is most specific for cardiac tissue damage?",
+            "options": [
+              "CK-MM",
+              "CK-BB",
+              "CK-MB",
+              "CK-Total",
+              "Troponin"
+            ],
+            "correct": 2,
+            "explanation": "Creatine Kinase (CK) acts as a dimer. CK-MM is found in skeletal muscle; CK-BB is in the brain. The heart contains a significant amount of the hybrid **CK-MB** isoenzyme. Elevated CK-MB (specifically the mass or ratio) is a classic diagnostic marker for MI, appearing 4-8 hours after onset."
+          },
+          {
+            "question": "A patient taking the antibiotic Ciprofloxacin (a Fluoroquinolone) complains of tendon pain. Fluoroquinolones work by inhibiting DNA Gyrase (Topoisomerase II). The mechanism involves:",
+            "options": [
+              "Intercalating into DNA.",
+              "Stabilizing the DNA-enzyme cleavage complex, preventing religation.",
+              "Competitive inhibition of ATP binding.",
+              "Inhibiting DNA Polymerase.",
+              "Degrading the DNA."
+            ],
+            "correct": 1,
+            "explanation": "Topoisomerases cut DNA, pass a strand through, and reseal (ligate) the break. Fluoroquinolones bind to the **Enzyme-DNA complex**, stabilizing the broken DNA state and preventing the religation step. This leads to double-strand breaks and bacterial cell death. (This mechanism is analogous to 'poisoning' the enzyme)."
+          },
+          {
+            "question": "A lactose-intolerant student drinks milk and experiences bloating and diarrhea. The defect is a deficiency in Lactase on the brush border. Lactase catalyzes the hydrolysis of Lactose into:",
+            "options": [
+              "Glucose + Glucose",
+              "Glucose + Fructose",
+              "Glucose + Galactose",
+              "Galactose + Fructose",
+              "Maltose + Glucose"
+            ],
+            "correct": 2,
+            "explanation": "Lactase (beta-galactosidase) hydrolyzes the disaccharide Lactose into its monosaccharide components: **Glucose and Galactose**. Without this enzyme, lactose remains in the gut, acting as an osmotic laxative and being fermented by bacteria."
+          },
+          {
+            "question": "A chronic alcoholic presents with confusion and ataxia. He is diagnosed with Thiamine (B1) deficiency. Thiamine Pyrophosphate (TPP) is a critical coenzyme for which enzyme complex involved in aerobic metabolism?",
+            "options": [
+              "Lactate Dehydrogenase",
+              "Pyruvate Dehydrogenase",
+              "Hexokinase",
+              "Phosphofructokinase",
+              "ATP Synthase"
+            ],
+            "correct": 1,
+            "explanation": "TPP is the coenzyme for enzymes catalyzing oxidative decarboxylation: **Pyruvate Dehydrogenase (PDH)**, Alpha-Ketoglutarate Dehydrogenase, and Transketolase. In thiamine deficiency, PDH fails, Pyruvate cannot convert to Acetyl-CoA, and energy production is compromised (especially in the brain), leading to Wernicke-Korsakoff syndrome."
+          },
+          {
+            "question": "A patient with acute pancreatitis has elevated serum Lipase and Amylase. The pathology involves the premature activation of pancreatic zymogens inside the pancreas. Which enzyme is the 'master activator' that normally triggers this cascade in the duodenum?",
+            "options": [
+              "Pepsin",
+              "Chymotrypsin",
+              "Enteropeptidase (Enterokinase)",
+              "Trypsin",
+              "Elastase"
+            ],
+            "correct": 3,
+            "explanation": "Normally, **Enteropeptidase** in the duodenum activates Trypsinogen to **Trypsin**. Trypsin then cleaves and activates all other pancreatic zymogens (Chymotrypsinogen, Proelastase, Procarboxypeptidase). In pancreatitis, Trypsin is inappropriately activated within the pancreas, triggering a cascade of autodigestion."
+          },
+          {
+            "question": "Lead poisoning causes anemia by inhibiting enzymes in the heme synthesis pathway. These enzymes are sensitive to lead because lead binds with high affinity to:",
+            "options": [
+              "Sulfhydryl (-SH) groups of Cysteine residues.",
+              "Hydroxyl groups of Serine.",
+              "The heme iron.",
+              "The phosphate backbone of DNA.",
+              "Magnesium cofactors."
+            ],
+            "correct": 0,
+            "explanation": "Heavy metals like Lead ($Pb^{2+}$) and Mercury ($Hg^{2+}$) form tight covalent bonds with free **Sulfhydryl (-SH)** groups on enzyme Cysteine residues. Enzymes like ALA Dehydratase and Ferrochelatase are rich in cysteines and are exquisitely sensitive to inhibition by lead, blocking heme production."
+          },
+          {
+            "question": "A recovering alcoholic takes Disulfiram (Antabuse) to discourage drinking. If he consumes alcohol, he experiences severe nausea and flushing. Disulfiram inhibits Acetaldehyde Dehydrogenase. This results in the accumulation of:",
+            "options": [
+              "Ethanol",
+              "Acetate",
+              "Acetaldehyde",
+              "NADH",
+              "Pyruvate"
+            ],
+            "correct": 2,
+            "explanation": "Ethanol metabolism: Ethanol $\rightarrow$ Acetaldehyde $\rightarrow$ Acetate. Disulfiram inhibits the second step (**Acetaldehyde Dehydrogenase**). This causes a buildup of **Acetaldehyde**, which is responsible for the unpleasant 'hangover' symptoms (flushing, nausea, headache), thereby conditioning the patient to avoid alcohol."
+          },
+          {
+            "question": "Warfarin is an anticoagulant that functions as a Vitamin K antagonist. It inhibits the enzyme Vitamin K Epoxide Reductase. This prevents the functional maturation of Clotting Factors II, VII, IX, and X by blocking which post-translational modification?",
+            "options": [
+              "Phosphorylation of Serine",
+              "Gamma-carboxylation of Glutamate",
+              "Hydroxylation of Proline",
+              "Glycosylation of Asparagine",
+              "Methylation of Lysine"
+            ],
+            "correct": 1,
+            "explanation": "Clotting factors require calcium binding to function. This ability is conferred by the addition of a carboxyl group to Glutamate residues (forming **Gamma-carboxyglutamate** or Gla). This reaction requires reduced Vitamin K. Warfarin inhibits the recycling of Vitamin K, preventing this gamma-carboxylation."
+          },
+          {
+            "question": "A newborn has PKU (Phenylketonuria). The defect is in Phenylalanine Hydroxylase. This enzyme requires a specific cofactor to reduce oxygen. What is this cofactor?",
+            "options": [
+              "Biotin",
+              "Tetrahydrobiopterin (BH4)",
+              "Pyridoxal Phosphate (B6)",
+              "Thiamine Pyrophosphate (B1)",
+              "Vitamin B12"
+            ],
+            "correct": 1,
+            "explanation": "Phenylalanine Hydroxylase requires the cofactor **Tetrahydrobiopterin (BH4)**. Interestingly, some cases of 'Malignant PKU' are not due to the enzyme defect itself, but a defect in the synthesis or regeneration (Dihydropteridine reductase) of the BH4 cofactor."
+          },
+          {
+            "question": "ACE inhibitors (e.g., Lisinopril) are used to treat hypertension. They inhibit Angiotensin Converting Enzyme (ACE), which is a:",
+            "options": [
+              "Serine protease",
+              "Zinc metalloprotease (Peptidyl dipeptidase)",
+              "Kinase",
+              "Phosphatase",
+              "Oxidoreductase"
+            ],
+            "correct": 1,
+            "explanation": "ACE is a **Zinc metalloprotease**. It cleaves the C-terminal dipeptide (His-Leu) from Angiotensin I to form the potent vasoconstrictor Angiotensin II. ACE inhibitors coordinate with the Zinc ion in the active site, mimicking the transition state and blocking the reaction."
+          },
+          {
+            "question": "Sildenafil (Viagra) works by inhibiting Phosphodiesterase Type 5 (PDE5). The physiological substrate of PDE5 is:",
+            "options": [
+              "cAMP",
+              "cGMP",
+              "ATP",
+              "GTP",
+              "Nitric Oxide"
+            ],
+            "correct": 1,
+            "explanation": "Nitric Oxide (NO) stimulates Guanylyl Cyclase to produce **cGMP**, which causes smooth muscle relaxation (vasodilation/erection). PDE5 normally degrades cGMP to GMP, ending the signal. Sildenafil inhibits PDE5, maintaining high levels of **cGMP** and prolonging the erection."
+          },
+          {
+            "question": "Cyanide poisoning halts the Electron Transport Chain by inhibiting Cytochrome c Oxidase (Complex IV). Cyanide binds to the:",
+            "options": [
+              "Copper centers",
+              "Heme a3 Iron in the ferric (Fe3+) state",
+              "Heme a3 Iron in the ferrous (Fe2+) state",
+              "FAD cofactor",
+              "ATP synthase"
+            ],
+            "correct": 1,
+            "explanation": "Cyanide ($CN^-$) is a potent ligand for metals in high oxidation states. It binds with extremely high affinity to the **Ferric ($Fe^{3+}$)** iron in the Heme $a_3$ center of Complex IV. This prevents the transfer of electrons to Oxygen, shutting down respiration."
+          },
+          {
+            "question": "5-Fluorouracil (5-FU) is a chemotherapeutic agent. Inside cells, it is converted to FdUMP, which binds to Thymidylate Synthase. Kinetically, FdUMP acts as a:",
+            "options": [
+              "Competitive inhibitor that binds reversibly.",
+              "Non-competitive inhibitor.",
+              "Suicide inhibitor that forms a covalent bond.",
+              "Allosteric inhibitor.",
+              "Uncompetitive inhibitor."
+            ],
+            "correct": 2,
+            "explanation": "FdUMP mimics the substrate dUMP. Thymidylate Synthase accepts it and initiates the methylation reaction. However, the Fluorine atom (unlike Hydrogen) cannot be abstracted. The enzyme becomes stuck in a covalent intermediate with the drug and the THF cofactor. This is **Suicide Inhibition** (irreversible)."
+          },
+          {
+            "question": "Blood tests reveal elevated ALT (Alanine Aminotransferase) and AST (Aspartate Aminotransferase) in a patient with Hepatitis. These enzymes catalyze the transfer of amino groups and require which vitamin-derived cofactor?",
+            "options": [
+              "Pyridoxal Phosphate (PLP) - Vitamin B6",
+              "Thiamine Pyrophosphate (TPP) - Vitamin B1",
+              "FAD - Vitamin B2",
+              "NAD - Vitamin B3",
+              "Biotin - Vitamin B7"
+            ],
+            "correct": 0,
+            "explanation": "All Transaminases (Aminotransferases) require **Pyridoxal Phosphate (PLP)**, derived from Vitamin B6. PLP forms a Schiff base with the amino group of the amino acid substrate, facilitating its transfer to an alpha-keto acid."
+          },
+          {
+            "question": "A patient with Biotin deficiency (rare, often from eating raw egg whites containing Avidin) would exhibit defects in which type of enzymatic reaction?",
+            "options": [
+              "Decarboxylation",
+              "Carboxylation (adding CO2)",
+              "Phosphorylation",
+              "Dehydrogenation",
+              "Methylation"
+            ],
+            "correct": 1,
+            "explanation": "Biotin acts as a carrier of activated $CO_2$. It is the obligate cofactor for **Carboxylase** enzymes, such as Pyruvate Carboxylase (gluconeogenesis), Acetyl-CoA Carboxylase (fatty acid synthesis), and Propionyl-CoA Carboxylase."
+          },
+          {
+            "question": "Alpha-1 Antitrypsin (A1AT) deficiency leads to lung emphysema. A1AT is a 'Serpin' (Serine Protease Inhibitor) that normally inhibits which enzyme released by neutrophils in the lung?",
+            "options": [
+              "Trypsin",
+              "Collagenase",
+              "Elastase",
+              "Thrombin",
+              "Pepsin"
+            ],
+            "correct": 2,
+            "explanation": "Neutrophils in the lung release **Elastase** to fight infection. A1AT coats the lung tissue and permanently inhibits any excess Elastase to prevent damage. In A1AT deficiency, unchecked Elastase destroys the elastin in alveolar walls, causing emphysema."
+          },
+          {
+            "question": "A patient is prescribed a Monoamine Oxidase Inhibitor (MAOI) for depression. MAO is a flavoprotein enzyme located on the outer mitochondrial membrane that degrades neurotransmitters like Serotonin and Dopamine. What is the role of the FAD cofactor in this reaction?",
+            "options": [
+              "Group transfer",
+              "Redox reaction (accepting electrons)",
+              "Carboxylation",
+              "Isomerization",
+              "Hydrolysis"
+            ],
+            "correct": 1,
+            "explanation": "MAO catalyzes the **Oxidative Deamination** of amines. This is a redox reaction. **FAD** (Flavin Adenine Dinucleotide) accepts the electrons (hydride) removed from the amine substrate, becoming $FADH_2$, which is then re-oxidized by oxygen to produce $H_2O_2$."
+          },
+          {
+            "question": "I-cell disease is a lysosomal storage disorder caused by a defect in the enzyme GlcNAc-1-phosphotransferase. This enzyme is responsible for:",
+            "options": [
+              "Degrading glycosaminoglycans.",
+              "Adding the Mannose-6-Phosphate target signal to lysosomal enzymes in the Golgi.",
+              "Synthesizing glycogen.",
+              "Pumping protons into the lysosome.",
+              "Transporting enzymes across the membrane."
+            ],
+            "correct": 1,
+            "explanation": "Lysosomal enzymes are synthesized in the ER. To be sorted to the lysosome, they must be tagged with **Mannose-6-Phosphate (M6P)** in the Golgi. The enzyme **GlcNAc-1-phosphotransferase** creates this tag. A defect results in these enzymes being secreted outside the cell instead, leaving lysosomes empty (I-cell disease)."
+          },
+          {
+            "question": "Edrophonium is a short-acting Acetylcholinesterase inhibitor used to diagnose Myasthenia Gravis (Tensilon test). If a patient has Myasthenia (antibodies against ACh receptors), administration of Edrophonium leads to:",
+            "options": [
+              "Worsening muscle weakness.",
+              "Transient improvement in muscle strength.",
+              "No change.",
+              "Cholinergic crisis immediately.",
+              "Loss of consciousness."
+            ],
+            "correct": 1,
+            "explanation": "Myasthenia Gravis involves a blockade/loss of ACh receptors. Edrophonium inhibits AChE, preventing the breakdown of Acetylcholine. This effectively **increases the concentration of ACh** in the synaptic cleft, allowing it to outcompete the antibodies or find the few remaining receptors, causing a temporary **improvement** in strength."
+          },
+          {
+            "question": "Acute Intermittent Porphyria (AIP) is caused by a deficiency in Porphobilinogen Deaminase. Symptoms (abdominal pain, neuropathy) are precipitated by drugs like Barbiturates. Why?",
+            "options": [
+              "Barbiturates inhibit the enzyme directly.",
+              "Barbiturates induce Cytochrome P450, consuming heme and de-repressing ALA Synthase.",
+              "Barbiturates are metabolized into porphyrins.",
+              "Barbiturates cause hemolysis.",
+              "Barbiturates block renal excretion of porphyrins."
+            ],
+            "correct": 1,
+            "explanation": "This is a regulation issue. Barbiturates induce the synthesis of CYP450 enzymes in the liver. CYP450s contain heme. The demand for heme depletes the free heme pool. Low heme relieves the feedback inhibition on **ALA Synthase** (the rate-limiting enzyme). Increased ALA synthase pumps intermediates into the pathway, which hit the bottleneck at the defective enzyme (PBG Deaminase), causing toxic accumulation."
+          },
+          {
+            "question": "HIV Protease Inhibitors (e.g., Ritonavir) are designed to fit the active site of the viral protease. These drugs are typically:",
+            "options": [
+              "Transition state analogs.",
+              "Substrate analogs that form covalent bonds.",
+              "Allosteric inhibitors.",
+              "Antibodies.",
+              "RNA molecules."
+            ],
+            "correct": 0,
+            "explanation": "HIV protease cleaves the viral polyprotein. The most effective inhibitors are peptide mimetics designed as **Transition State Analogs**. They mimic the tetrahedral intermediate of the peptide bond hydrolysis but cannot be cleaved, binding with extremely high affinity and blocking the active site."
+          },
+          {
+            "question": "A patient with megaloblastic anemia has a Vitamin B12 deficiency. B12 is a cofactor for Methylmalonyl-CoA Mutase. What type of chemical reaction does this enzyme catalyze?",
+            "options": [
+              "Isomerization (rearrangement of carbon skeleton).",
+              "Methylation.",
+              "Oxidation.",
+              "Hydrolysis.",
+              "Decarboxylation."
+            ],
+            "correct": 0,
+            "explanation": "Methylmalonyl-CoA Mutase converts L-Methylmalonyl-CoA to Succinyl-CoA (which enters the TCA cycle). This is an **Isomerization** reaction involving a complex rearrangement of the carbon skeleton, dependent on the Adenosylcobalamin (B12) cofactor."
+          },
+          {
+            "question": "Orotic Aciduria is a defect in UMP Synthase (pyrimidine synthesis). Treatment involves oral administration of Uridine. How does Uridine help?",
+            "options": [
+              "It activates UMP synthase.",
+              "It is converted to UMP (bypassing the block) and then CTP, which feedback inhibits the pathway.",
+              "It degrades Orotic acid.",
+              "It acts as a cofactor.",
+              "It inhibits DNA replication."
+            ],
+            "correct": 1,
+            "explanation": "The block prevents UMP synthesis, leading to pyrimidine starvation and Orotic acid buildup. Feeding **Uridine** allows cells to use the Salvage Pathway to make UMP (Uridine $\rightarrow$ UMP). The resulting UMP/CTP then **Feedback Inhibits** the early step enzyme (CPS II), shutting down the production of Orotic acid."
+          },
+          {
+            "question": "A 2-week-old infant presents with vomiting, jaundice, and hepatomegaly after breastfeeding. Urinalysis is positive for reducing substances but negative for glucose (using glucose oxidase dipstick). Which enzyme deficiency is the most likely diagnosis?",
+            "options": [
+              "Lactase",
+              "Aldolase B",
+              "Galactose-1-Phosphate Uridyltransferase (GALT)",
+              "Pyruvate Dehydrogenase",
+              "Glucokinase"
+            ],
+            "correct": 2,
+            "explanation": "The clinical picture (infant, milk feeding, liver damage, cataracts potential) suggests **Classic Galactosemia**. The key clue is 'Positive reducing substances' (detects galactose) but 'Negative glucose'. This rules out Diabetes. The accumulation of Galactose-1-Phosphate is toxic to the liver. The defect is in **GALT**."
+          },
+          {
+            "question": "A 24-year-old Asian male complains of bloating, abdominal cramps, and explosive diarrhea 1 hour after drinking milk. He can eat yogurt without issues. The mechanism of his diarrhea involves:",
+            "options": [
+              "Immune reaction to casein protein.",
+              "Osmotic effect of undigested lactose and bacterial fermentation.",
+              "Inhibition of water absorption by calcium.",
+              "Toxic metabolites of galactose.",
+              "Excessive insulin secretion."
+            ],
+            "correct": 1,
+            "explanation": "This is **Lactose Intolerance** (Lactase deficiency). Undigested lactose remains in the lumen. It is osmotically active, drawing water into the gut (diarrhea). Colonic bacteria ferment the lactose into gases ($H_2, CH_4$) and acids (bloating/cramps). Yogurt is tolerated because the bacterial cultures (lactobacillus) contain lactase that predigests the sugar."
+          },
+          {
+            "question": "A 6-month-old child is introduced to fruit juices and cereals. He soon develops vomiting, hypoglycemia, and jaundice. A liver biopsy shows cirrhosis. Hereditary Fructose Intolerance is suspected. The toxic metabolite accumulating in the liver cells is:",
+            "options": [
+              "Fructose",
+              "Fructose-6-Phosphate",
+              "Fructose-1-Phosphate",
+              "Sorbitol",
+              "Glyceraldehyde"
+            ],
+            "correct": 2,
+            "explanation": "In Hereditary Fructose Intolerance, the enzyme **Aldolase B** is defective. This enzyme cleaves Fructose-1-Phosphate. Without it, **Fructose-1-Phosphate** accumulates, trapping phosphate ($P_i$). This phosphate trapping depletes ATP pools, inhibiting gluconeogenesis and glycogenolysis (causing hypoglycemia) and damaging the liver."
+          },
+          {
+            "question": "A diabetic patient has a blood glucose of 250 mg/dL. He asks why his doctor checks his HbA1c every 3 months instead of just his daily sugar. You explain that HbA1c reflects:",
+            "options": [
+              "The insulin level in the blood.",
+              "The average blood glucose over the 120-day lifespan of a red blood cell.",
+              "The amount of glucose stored in the liver.",
+              "The kidney function.",
+              "The level of ketone bodies."
+            ],
+            "correct": 1,
+            "explanation": "Red blood cells live ~120 days. Glucose enters RBCs freely and non-enzymatically glycates hemoglobin. The higher the blood sugar, the faster this irreversible reaction occurs. Therefore, **HbA1c** provides a weighted average of blood glucose control over the preceding 3 months."
+          },
+          {
+            "question": "A patient with blood type O receives a transfusion of packed RBCs from a donor with blood type A. Minutes later, he develops fever, hypotension, and hemoglobinuria. The immediate cause of this reaction is:",
+            "options": [
+              "Donor T-cells attacking the host.",
+              "Host IgM antibodies binding to the N-acetylgalactosamine antigen on donor RBCs, triggering complement-mediated lysis.",
+              "Host IgG antibodies binding to the Rh factor.",
+              "Viral infection.",
+              "Iron overload."
+            ],
+            "correct": 1,
+            "explanation": "This is an **Acute Hemolytic Transfusion Reaction**. A Type O individual has naturally occurring Anti-A and Anti-B IgM antibodies. The donor Type A cells possess the **A-antigen** (terminal N-acetylgalactosamine). The host antibodies bind these antigens, activate complement, and cause massive intravascular hemolysis."
+          },
+          {
+            "question": "A 1-year-old child presents with coarse facial features, corneal clouding, hepatosplenomegaly, and skeletal deformities (dysostosis multiplex). Urinary analysis reveals elevated Glycosaminoglycans (GAGs). This presentation is consistent with:",
+            "options": [
+              "Glycogen Storage Disease",
+              "Mucopolysaccharidosis (e.g., Hurler Syndrome)",
+              "Galactosemia",
+              "PKU",
+              "Cystic Fibrosis"
+            ],
+            "correct": 1,
+            "explanation": "**Mucopolysaccharidoses (MPS)** are lysosomal storage diseases caused by defects in enzymes that degrade GAGs (heparan sulfate, dermatan sulfate). The accumulation of undegraded GAGs in the lysosome causes cell distention and the characteristic coarse features and skeletal abnormalities (Hurler Syndrome - MPS I)."
+          },
+          {
+            "question": "A patient is prescribed the antiviral drug Oseltamivir (Tamiflu) for Influenza. This drug works by mimicking the transition state of Sialic Acid, thereby inhibiting which viral enzyme?",
+            "options": [
+              "Hemagglutinin",
+              "Neuraminidase",
+              "RNA Polymerase",
+              "Protease",
+              "Reverse Transcriptase"
+            ],
+            "correct": 1,
+            "explanation": "Influenza attaches via Hemagglutinin but needs **Neuraminidase** to cleave the sialic acid tether to release new virions from the host cell. Tamiflu is a **Neuraminidase Inhibitor** (a transition state analog of sialic acid), trapping the virus on the cell surface and preventing spread."
+          },
+          {
+            "question": "A 40-year-old female presents with fatigue and joint pain. She is diagnosed with Rheumatoid Arthritis. The inflammation in her joints is driven partly by white blood cells entering the synovial tissue. The initial 'tethering and rolling' step of leukocyte extravasation is mediated by the interaction between endothelial Selectins and leukocyte:",
+            "options": [
+              "Integrins",
+              "Sialyl-Lewis X (carbohydrate ligand)",
+              "Collagen",
+              "Cadherins",
+              "Antibodies"
+            ],
+            "correct": 1,
+            "explanation": "Selectins on the inflamed endothelium bind to specific carbohydrate structures on the leukocyte surface, most notably **Sialyl-Lewis X**. This low-affinity interaction slows the cell down (rolling) before high-affinity Integrins mediate the firm stop."
+          },
+          {
+            "question": "A child with chronic granulomatous disease needs a stem cell transplant. The donor is HLA-matched. The success of the transplant depends on Homing, where stem cells find their way to the bone marrow. This homing is guided largely by interactions involving:",
+            "options": [
+              "Cellulose fibers.",
+              "Lectins on bone marrow stromal cells recognizing specific glycans on stem cells.",
+              "Gravity.",
+              "Magnetic fields.",
+              "DNA hybridization."
+            ],
+            "correct": 1,
+            "explanation": "Stem cell homing involves specific **Lectin-Glycan** interactions (similar to leukocyte trafficking). The 'Sugar Code' acts as the zip code directing the stem cells to the specialized niche in the bone marrow."
+          },
+          {
+            "question": "Penicillin is an antibiotic that kills bacteria by inhibiting cell wall synthesis. It acts as a suicide inhibitor of the Transpeptidase enzyme. Structurally, Penicillin mimics:",
+            "options": [
+              "Glucose",
+              "The D-Ala-D-Ala dipeptide terminus of peptidoglycan strands.",
+              "Lipid A",
+              "The ribosome",
+              "DNA"
+            ],
+            "correct": 1,
+            "explanation": "The bacterial transpeptidase cross-links peptidoglycan by recognizing the **D-Ala-D-Ala** sequence. Penicillin contains a Beta-lactam ring that structurally mimics this D-Ala-D-Ala shape. The enzyme attacks Penicillin, opens the ring, and becomes covalently (irreversibly) inactivated."
+          },
+          {
+            "question": "A patient with Type 2 Diabetes has high levels of Sorbitol in the lens of the eye, contributing to cataracts. Sorbitol is produced from Glucose by the enzyme Aldose Reductase. Why does Sorbitol accumulate in the lens?",
+            "options": [
+              "The lens lacks Sorbitol Dehydrogenase to convert it to Fructose.",
+              "Sorbitol is actively transported into the lens.",
+              "Sorbitol is insoluble.",
+              "Insulin pumps Sorbitol into the eye.",
+              "Glucose cannot enter the lens."
+            ],
+            "correct": 0,
+            "explanation": "This is the **Polyol Pathway**. Hyperglycemia pushes glucose into the Sorbitol pathway ($Glucose \rightarrow Sorbitol \rightarrow Fructose$). The lens has Aldose Reductase (step 1) but lacks/has low **Sorbitol Dehydrogenase** (step 2). Therefore, Sorbitol is made but cannot be cleared. Being osmotically active, it draws water in, causing lens swelling and cataracts."
+          },
+          {
+            "question": "A patient with I-Cell Disease (Mucolipidosis II) lacks the enzyme GlcNAc-phosphotransferase. Consequently, lysosomal enzymes lack the Mannose-6-Phosphate tag. Where do these enzymes end up?",
+            "options": [
+              "They are degraded in the proteasome.",
+              "They accumulate in the nucleus.",
+              "They are secreted outside the cell into the plasma.",
+              "They stay in the ER.",
+              "They are transported to mitochondria."
+            ],
+            "correct": 2,
+            "explanation": "The **Mannose-6-Phosphate** tag is the specific sorting signal that directs acid hydrolases from the Golgi to the Lysosome. Without this tag (I-Cell disease), the default pathway for Golgi proteins is **secretion**. The enzymes are dumped into the extracellular space, resulting in high plasma levels of lysosomal enzymes and cellular inclusions of undigested waste."
+          },
+          {
+            "question": "Vancomycin is a 'last resort' antibiotic for MRSA. It inhibits cell wall synthesis not by inhibiting an enzyme, but by binding to:",
+            "options": [
+              "The ribosome.",
+              "The D-Ala-D-Ala terminus of the peptidoglycan precursor.",
+              "The cell membrane lipids.",
+              "DNA Gyrase.",
+              "The beta-lactamase enzyme."
+            ],
+            "correct": 1,
+            "explanation": "Unlike Penicillin (which inhibits the enzyme), **Vancomycin** binds directly to the **D-Ala-D-Ala** substrate. This physically caps the end of the chain, preventing the transpeptidase enzyme from accessing it to form cross-links. (Vancomycin resistance involves changing the terminus to D-Ala-D-Lac)."
+          },
+          {
+            "question": "A marathon runner 'hits the wall' at mile 20. This phenomenon corresponds physiologically to the depletion of:",
+            "options": [
+              "Adipose fat stores.",
+              "Liver and Muscle Glycogen.",
+              "Blood protein.",
+              "Creatine phosphate.",
+              "Bone marrow."
+            ],
+            "correct": 1,
+            "explanation": "**Glycogen** stores are limited (about 2000 kcal). Fat stores are vast but slow to mobilize. 'Hitting the wall' represents the exhaustion of **Glycogen**, forcing the body to rely solely on fat oxidation, which is slower and cannot support high-intensity effort."
+          },
+          {
+            "question": "A patient with severe septic shock has low blood pressure and fever. The causative agent is identified as E. coli. The host immune response is triggered by the binding of LPS (Endotoxin) to which receptor on macrophages?",
+            "options": [
+              "Insulin Receptor",
+              "Toll-like Receptor 4 (TLR4)",
+              "LDL Receptor",
+              "Acetylcholine Receptor",
+              "Hemoglobin"
+            ],
+            "correct": 1,
+            "explanation": "Lipopolysaccharide (LPS) is recognized by the innate immune system via **Toll-like Receptor 4 (TLR4)** (complexed with CD14 and MD2). Activation of TLR4 triggers the NF-kB pathway, causing a cytokine storm (TNF-alpha, IL-1, IL-6) responsible for the symptoms of sepsis."
+          },
+          {
+            "question": "A 5-year-old child presents with hepatomegaly and hypoglycemia between meals. A liver biopsy shows accumulation of abnormal glycogen with very short outer branches. The defect is likely in the Debranching Enzyme (Cori Disease). Normally, glycogen branches are formed by:",
+            "options": [
+              "Alpha-1,4 linkages",
+              "Beta-1,4 linkages",
+              "Alpha-1,6 linkages",
+              "Beta-1,6 linkages",
+              "Alpha-1,1 linkages"
+            ],
+            "correct": 2,
+            "explanation": "Glycogen straight chains are $\\alpha(1\\rightarrow4)$. **Branches** are formed by **$\\alpha(1\\rightarrow6)$** linkages. The Branching Enzyme creates them; the Debranching Enzyme removes them. In Cori Disease (Type III GSD), the debranching enzyme is defective, leaving 'Limit Dextrins' (short stubs) that cannot be degraded."
+          },
+          {
+            "question": "Hyaluronic acid injections are commonly used to treat Osteoarthritis of the knee. The therapeutic goal is to restore the properties of synovial fluid, which depends on Hyaluronate's ability to:",
+            "options": [
+              "Kill bacteria.",
+              "Act as a lubricant and shock absorber by trapping large amounts of water.",
+              "Synthesize collagen.",
+              "Inhibit pain receptors directly.",
+              "Dissolve bone spurs."
+            ],
+            "correct": 1,
+            "explanation": "Hyaluronate is a massive, coiled GAG. In solution, it occupies a huge volume and binds water avidly, forming a viscous, shear-thinning fluid. This makes it an ideal biological **lubricant and shock absorber** in joints."
+          },
+          {
+            "question": "A patient with Pompe Disease (GSD Type II) has muscle weakness and cardiomegaly. Unlike other Glycogen Storage Diseases, the defect is in a lysosomal enzyme, Acid Maltase (Alpha-1,4-glucosidase). This leads to glycogen accumulation in:",
+            "options": [
+              "The Cytosol",
+              "The Lysosome",
+              "The Mitochondria",
+              "The Nucleus",
+              "The ER"
+            ],
+            "correct": 1,
+            "explanation": "Most glycogen degradation is cytosolic (Phosphorylase). However, small amounts of glycogen are constantly engulfed by lysosomes (autophagy). In **Pompe Disease**, the lysosome lacks the enzyme to digest this glycogen. Consequently, glycogen accumulates within the **Lysosome**, eventually rupturing it and destroying muscle fibers."
+          },
+          {
+            "question": "In a patient with Von Gierke Disease (GSD Type I), the liver lacks Glucose-6-Phosphatase. This patient cannot release glucose into the blood from glycogen OR gluconeogenesis. The resulting metabolic profile includes severe hypoglycemia and:",
+            "options": [
+              "Low Lactate",
+              "Lactic Acidosis and Hyperuricemia",
+              "Low triglycerides",
+              "Alkalosis",
+              "Muscle cramps"
+            ],
+            "correct": 1,
+            "explanation": "Glucose-6-Phosphate is trapped. It is forced into glycolysis (producing **Lactate** $\rightarrow$ Acidosis), lipid synthesis (Hyperlipidemia), and the Pentose Phosphate Pathway (producing Ribose $\rightarrow$ Uric Acid $\rightarrow$ Gout). The combination of Hypoglycemia + Lactic Acidosis + Gout is classic for **Von Gierke**."
+          },
+          {
+            "question": "Hemolytic disease of the newborn (Erythroblastosis fetalis) occurs when an Rh-negative mother carries an Rh-positive fetus. Unlike the ABO antigens which are carbohydrates, the Rh antigen is:",
+            "options": [
+              "A Lipid",
+              "A Protein",
+              "A Nucleic Acid",
+              "A Vitamin",
+              "A Steroid"
+            ],
+            "correct": 1,
+            "explanation": "The ABO antigens are **Carbohydrates** attached to proteins/lipids. The Rh (Rhesus) factor (D-antigen) is a pure **Protein**. This is why ABO incompatibility rarely affects the first pregnancy (IgM antibodies don't cross placenta), whereas Rh incompatibility does (IgG antibodies cross placenta)."
+          },
+          {
+            "question": "A patient with chronic alcoholism develops fatty liver. This is partly driven by the high NADH/NAD+ ratio inhibiting gluconeogenesis and promoting fatty acid synthesis. However, alcohol metabolism also inhibits the glycosylation of Transferrin. 'Carbohydrate Deficient Transferrin' (CDT) is used as a biomarker for:",
+            "options": [
+              "Chronic heavy alcohol consumption.",
+              "Liver cancer.",
+              "Iron deficiency.",
+              "Diabetes.",
+              "Viral hepatitis."
+            ],
+            "correct": 0,
+            "explanation": "Chronic alcohol consumption inhibits the sialyltransferase enzymes in the Golgi. This results in Transferrin molecules that lack the normal terminal sialic acid sugars (**Carbohydrate Deficient Transferrin**). This is a highly specific marker for heavy drinking."
+          },
+          {
+            "question": "McArdle Disease (GSD Type V) affects Muscle Glycogen Phosphorylase. Patients experience exercise intolerance and myoglobinuria but have normal blood glucose levels. Why is blood glucose preserved?",
+            "options": [
+              "The liver enzyme is normal.",
+              "Muscle makes its own glucose.",
+              "Kidneys compensate.",
+              "Fatty acids are converted to glucose.",
+              "Insulin is absent."
+            ],
+            "correct": 0,
+            "explanation": "Glycogen Phosphorylase exists as tissue-specific isoenzymes. In McArdle disease, only the **Muscle** isoenzyme is defective. The **Liver** isoenzyme is functional, so the liver can still break down glycogen to maintain blood glucose homeostasis. The muscle simply cannot use its own stores."
+          },
+          {
+            "question": "Streptococcus mutans causes dental caries (cavities). It produces a sticky exopolysaccharide called Dextran from dietary Sucrose. Dextran helps the bacteria adhere to teeth (plaque). Dextran is a polymer of:",
+            "options": [
+              "Fructose",
+              "Glucose",
+              "Galactose",
+              "Ribose",
+              "Mannose"
+            ],
+            "correct": 1,
+            "explanation": "$S. mutans$ uses the enzyme Glucosyltransferase to split Sucrose. It uses the energy of the bond to polymerize the **Glucose** into **Dextran** (sticky plaque) and metabolizes the Fructose into Lactic Acid (which dissolves tooth enamel)."
+          },
+          {
+            "question": "Helicobacter pylori colonizes the stomach and causes ulcers. It adheres to the gastric epithelium by binding to the Lewis b blood group antigen. This is an example of:",
+            "options": [
+              "Protein-Protein interaction.",
+              "Lectin-Carbohydrate interaction.",
+              "Lipid-Lipid interaction.",
+              "DNA-RNA interaction.",
+              "Enzyme-Substrate interaction."
+            ],
+            "correct": 1,
+            "explanation": "The bacterial adhesin BabA is a **Lectin** that binds specifically to the **Lewis b antigen** (a fucosylated carbohydrate) on stomach cells. This 'sugar code' recognition is crucial for the bacterial colonization."
+          },
+          {
+            "question": "Antithrombin III is a slow inhibitor of clotting factors. When a patient is given Heparin, the rate of inhibition increases 1000-fold. Heparin works by:",
+            "options": [
+              "Binding to the active site of Thrombin.",
+              "Binding to Antithrombin III and inducing a conformational change.",
+              "Chelating Calcium.",
+              "Degrading Fibrin.",
+              "Blocking Vitamin K."
+            ],
+            "correct": 1,
+            "explanation": "Heparin (a negative GAG) binds to **Antithrombin III** (a protein). This binding induces a conformational change in Antithrombin that opens its reactive loop, making it a hyper-efficient trap for Thrombin and Factor Xa."
+          },
+          {
+            "question": "A patient with metastatic cancer is found to have elevated levels of Mucin in the blood (e.g., CA-125, CA-19-9). Mucins are heavily glycosylated proteins characterized by:",
+            "options": [
+              "A predominance of N-linked sugars.",
+              "A 'bottle-brush' structure with dense O-linked glycosylation on Ser/Thr rich tandem repeats.",
+              "Being purely carbohydrate.",
+              "Being located in the nucleus.",
+              "Having no function."
+            ],
+            "correct": 1,
+            "explanation": "**Mucins** form the protective mucous barrier. Structurally, they consist of a protein core with a VNTR (Variable Number Tandem Repeat) region rich in Serine and Threonine. These residues are heavily **O-glycosylated**, forcing the protein into an extended, stiff 'bottle-brush' conformation that holds water."
+          },
+          {
+            "question": "Chondroitin Sulfate is a popular supplement for joint health. Biologically, it is a GAG found in cartilage. Its structure consists of repeating disaccharides of:",
+            "options": [
+              "Glucuronic Acid and N-acetylgalactosamine (sulfated).",
+              "Glucose and Fructose.",
+              "Galactose and Glucose.",
+              "Mannose and Ribose.",
+              "Sialic acid and Galactose."
+            ],
+            "correct": 0,
+            "explanation": "Chondroitin Sulfate consists of alternating **Glucuronic Acid** and **N-acetylgalactosamine**. The galactosamine is sulfated at the 4 or 6 position. This provides the charge density required for cartilage resilience."
+          },
+          {
+            "question": "In the Golgi, the 'Signal Patch' of lysosomal hydrolases is recognized by an enzyme that adds:",
+            "options": [
+              "A methyl group.",
+              "A phosphate group to Mannose.",
+              "A fatty acid.",
+              "A ubiquitin tag.",
+              "A poly-A tail."
+            ],
+            "correct": 1,
+            "explanation": "The enzyme **GlcNAc-phosphotransferase** recognizes a 3D 'signal patch' on lysosomal enzymes and adds **Phospho-GlcNAc**. A second enzyme removes the GlcNAc, leaving **Mannose-6-Phosphate**, the targeting signal."
+          },
+          {
+            "question": "Ricin is a potent toxin from castor beans. It is a lectin that enters cells and inactivates:",
+            "options": [
+              "The Mitochondria.",
+              "The Ribosome (60S subunit).",
+              "The Nucleus.",
+              "The Cell Membrane.",
+              "DNA Polymerase."
+            ],
+            "correct": 1,
+            "explanation": "Ricin has two chains. Chain B is a lectin that binds cell surface Galactose (entry). Chain A is an enzyme (N-glycosidase) that cleaves a specific adenine base from the 28S rRNA of the **60S Ribosomal subunit**. This permanently inactivates the ribosome, stopping protein synthesis and killing the cell."
+          },
+          {
+            "question": "Normally, Glucose concentrations are higher in the blood than in the cell. However, glucose is trapped inside the cell by phosphorylation to Glucose-6-Phosphate. Which enzyme performs this 'trapping' function in the liver and has a high Km (low affinity) to specifically sense high blood glucose?",
+            "options": [
+              "Hexokinase",
+              "Glucokinase (Hexokinase IV)",
+              "Phosphofructokinase",
+              "Glucose-6-Phosphatase",
+              "Pyruvate Kinase"
+            ],
+            "correct": 1,
+            "explanation": "Most tissues use Hexokinase (Low Km, constitutive). The Liver and Pancreas use **Glucokinase** (High Km). Glucokinase is only active when blood glucose is high (after a meal), allowing the liver to buffer blood glucose by storing it as glycogen, without starving other tissues during fasting."
+          },
+          {
+            "question": "A premature infant born at 28 weeks develops cyanosis and labored breathing (Respiratory Distress Syndrome). The underlying defect is a deficiency in Pulmonary Surfactant. The major lipid component of surfactant, Dipalmitoylphosphatidylcholine (DPPC), reduces alveolar surface tension. Structurally, DPPC is unique because:",
+            "options": [
+              "It has two saturated (Palmitic) fatty acid tails, allowing extremely tight packing.",
+              "It is a sphingolipid.",
+              "It has very short fatty acid chains.",
+              "It contains no phosphate.",
+              "It is positively charged."
+            ],
+            "correct": 0,
+            "explanation": "Surfactant must form a rigid monolayer to prevent alveolar collapse during expiration. **DPPC** (Lecithin) contains two saturated palmitate (16:0) tails. Unlike typical membrane lipids (which have one unsaturated tail for fluidity), the saturated tails of DPPC allow it to pack very tightly (solid-like) at the air-water interface to resist high surface pressures."
+          },
+          {
+            "question": "A 3-year-old child presents with failure to thrive and chronic respiratory infections. A Sweat Chloride test is positive (>60 mM). The patient has Cystic Fibrosis. The defective protein (CFTR) is a membrane transporter that normally functions as:",
+            "options": [
+              "A Sodium pump.",
+              "A Voltage-gated Calcium channel.",
+              "An ATP-gated Chloride Channel (ABC Transporter family).",
+              "A Glucose transporter.",
+              "A Water channel."
+            ],
+            "correct": 2,
+            "explanation": "CFTR is unique. Structurally, it is an **ABC Transporter** (with two Nucleotide Binding Domains), but functionally, it acts as a **Chloride Channel** regulated by ATP hydrolysis and phosphorylation. It does not pump $Cl^-$ against a gradient; it allows $Cl^-$ to flow down its gradient (out of the cell). Failure leads to thick, sticky mucus."
+          },
+          {
+            "question": "A patient with severe diarrhea is diagnosed with Cholera. The Cholera Toxin enters intestinal cells by binding to a specific glycolipid receptor on the plasma membrane surface. This receptor is:",
+            "options": [
+              "Phosphatidylcholine",
+              "Cholesterol",
+              "Ganglioside GM1",
+              "Sphingomyelin",
+              "Cardiolipin"
+            ],
+            "correct": 2,
+            "explanation": "The B-subunit of Cholera Toxin acts as a lectin, binding with high affinity to the pentasaccharide head group of **Ganglioside GM1** on the enterocyte surface. This binding triggers endocytosis of the toxin, leading to G-protein activation and massive water loss."
+          },
+          {
+            "question": "A 5-year-old boy presents with orange-colored tonsils and very low HDL levels. He is diagnosed with Tangier Disease. The defect lies in the ABCA1 transporter. What is the normal function of ABCA1?",
+            "options": [
+              "Transporting glucose into cells.",
+              "Efflux of cholesterol and phospholipids from cells to ApoA-1 (forming HDL).",
+              "Importing LDL from the blood.",
+              "Pumping bile acids.",
+              "Absorbing fat in the gut."
+            ],
+            "correct": 1,
+            "explanation": "ABCA1 is the rate-limiting step in reverse cholesterol transport. It flips cholesterol and phospholipids from the inner to the outer leaflet, transferring them to lipid-poor **ApoA-1** to form nascent **HDL**. Without ABCA1, HDL cannot form, and cholesterol accumulates in tissues (e.g., orange tonsils)."
+          },
+          {
+            "question": "A patient taking high-dose Aspirin for arthritis develops gastric ulcers. Aspirin inhibits Cyclooxygenase (COX). How does this lead to stomach damage?",
+            "options": [
+              "Aspirin is an acid that burns the lining directly.",
+              "Inhibition of Prostaglandin E2 synthesis, which normally stimulates mucus and bicarbonate secretion.",
+              "Aspirin increases stomach acid production.",
+              "Aspirin inhibits the proton pump.",
+              "Aspirin destroys the lipid bilayer."
+            ],
+            "correct": 1,
+            "explanation": "Prostaglandins (derived from membrane Arachidonic acid) have a cytoprotective role in the stomach. They signal the production of the mucus barrier and bicarbonate. By inhibiting COX-1, Aspirin depletes these **protective prostaglandins**, leaving the mucosa vulnerable to acid damage."
+          },
+          {
+            "question": "A young woman presents with fatigue and jaundice. A blood smear shows spherical red blood cells (Spherocytes) lacking central pallor. An Osmotic Fragility test is positive. This condition (Hereditary Spherocytosis) is caused by a defect in proteins that link the lipid bilayer to the cytoskeleton, such as:",
+            "options": [
+              "Spectrin and Ankyrin",
+              "Collagen",
+              "Keratin",
+              "Tubulin",
+              "Myosin"
+            ],
+            "correct": 0,
+            "explanation": "RBCs require a flexible membrane skeleton to survive capillary transit. This skeleton is formed by **Spectrin** tetramers linked to the membrane via **Ankyrin** and Band 3. Defects in these vertical interactions cause the membrane to detach (bleb) and be lost, reducing surface area and forcing the cell into a fragile sphere."
+          },
+          {
+            "question": "A patient undergoing chemotherapy for ovarian cancer initially responds well but later develops resistance. The tumor cells are found to be pumping the drug out. This 'Multidrug Resistance' is mediated by P-glycoprotein, which uses what energy source?",
+            "options": [
+              "Na+ gradient",
+              "Proton gradient",
+              "ATP hydrolysis",
+              "GTP hydrolysis",
+              "None (Passive transport)"
+            ],
+            "correct": 2,
+            "explanation": "P-glycoprotein (MDR1) is a primary active transporter (ABC family). It uses the energy of **ATP hydrolysis** to actively pump hydrophobic drugs out of the cell against their concentration gradient, conferring resistance to a wide range of chemotherapeutics."
+          },
+          {
+            "question": "A child with Kidney stones is found to have Cystinuria. This is a defect in the transporter responsible for reabsorbing Cystine and dibasic amino acids in the renal tubule. This transporter belongs to which class?",
+            "options": [
+              "Ion Channel",
+              "Secondary Active Transporter (Symporter)",
+              "P-type ATPase",
+              "Aquaporin",
+              "Gap Junction"
+            ],
+            "correct": 1,
+            "explanation": "Renal reabsorption of amino acids is driven by **Secondary Active Transport**. The transporter couples the uphill movement of amino acids (like Cystine) to the downhill movement of Sodium ($Na^+$). The defect leads to high Cystine in urine and stones."
+          },
+          {
+            "question": "A patient consumes fugu fish (pufferfish) and develops perioral numbness and paralysis. The toxin, Tetrodotoxin (TTX), acts by:",
+            "options": [
+              "Blocking the pore of Voltage-Gated Sodium Channels.",
+              "Inhibiting the Na+/K+ ATPase.",
+              "Opening Potassium channels permanently.",
+              "Blocking Acetylcholine receptors.",
+              "Preventing Calcium release."
+            ],
+            "correct": 0,
+            "explanation": "TTX is a highly specific blocker of the **Voltage-Gated Sodium Channel**. It binds to the extracellular side of the pore, physically plugging it. This prevents the influx of $Na^+$ required for the upstroke of the action potential, silencing nerve conduction."
+          },
+          {
+            "question": "In Adrenoleukodystrophy (ALD), Very Long Chain Fatty Acids (VLCFAs) accumulate in the brain and adrenal glands. The defect is in an ABC transporter (ABCD1) located in the membrane of which organelle?",
+            "options": [
+              "Mitochondria",
+              "Peroxisome",
+              "Lysosome",
+              "Golgi",
+              "ER"
+            ],
+            "correct": 1,
+            "explanation": "VLCFAs (>22 carbons) cannot be oxidized in mitochondria. They must be transported into **Peroxisomes** for beta-oxidation. The ABCD1 transporter moves them across the peroxisomal membrane. Failure leads to VLCFA accumulation and demyelination."
+          },
+          {
+            "question": "A patient with Diabetes Insipidus excretes large volumes of dilute urine. The defect is often in the V2 receptor signaling or the Aquaporin-2 channel. Normally, Vasopressin (ADH) causes Aquaporin-2 to:",
+            "options": [
+              "Be synthesized de novo.",
+              "Translocate from intracellular vesicles to the apical plasma membrane.",
+              "Open its gate.",
+              "Change its selectivity.",
+              "Pump water actively."
+            ],
+            "correct": 1,
+            "explanation": "Aquaporin-2 (AQP2) is stored in vesicles. ADH signaling (via cAMP) triggers the fusion of these vesicles with the apical membrane (**Translocation**). This inserts AQP2 into the membrane, making the collecting duct permeable to water so it can be reabsorbed."
+          },
+          {
+            "question": "Paroxysmal Nocturnal Hemoglobinuria (PNH) presents with dark urine in the morning. The defect is in the PIG-A gene, essential for the synthesis of GPI anchors. Why does this cause hemolysis?",
+            "options": [
+              "The RBC membrane is unstable.",
+              "Protective complement-regulatory proteins (CD55, CD59) are missing from the RBC surface.",
+              "Hemoglobin is not anchored.",
+              "The Na+/K+ pump fails.",
+              "Spectrin is defective."
+            ],
+            "correct": 1,
+            "explanation": "CD55 (DAF) and CD59 (MAC inhibitor) are proteins that protect cells from destruction by the complement system. They are attached to the membrane via **GPI anchors**. In PNH, these anchors cannot be made, so the RBCs are 'naked' and susceptible to complement-mediated lysis."
+          },
+          {
+            "question": "Menkes Disease ('kinky hair') is caused by a defect in the ATP7A protein. This protein is a P-type ATPase responsible for transporting:",
+            "options": [
+              "Iron",
+              "Copper",
+              "Zinc",
+              "Calcium",
+              "Magnesium"
+            ],
+            "correct": 1,
+            "explanation": "ATP7A (and the related Wilson disease protein ATP7B) is a **Copper**-transporting P-type ATPase. It moves copper from the intestine into the blood. Deficiency leads to systemic copper lack, affecting enzymes like Lysyl Oxidase (connective tissue) and Tyrosinase."
+          },
+          {
+            "question": "Local anesthetics like Lidocaine work by binding to and inhibiting:",
+            "options": [
+              "K+ leak channels.",
+              "Voltage-Gated Na+ Channels (from the intracellular side).",
+              "Ligand-gated GABA receptors.",
+              "The lipid bilayer directly.",
+              "Ca2+ pumps."
+            ],
+            "correct": 1,
+            "explanation": "Lidocaine is a lipid-soluble amine. It diffuses across the membrane, becomes protonated inside, and binds to the **Voltage-Gated Sodium Channel** from the *intracellular* side. It stabilizes the inactivated state, preventing action potentials in pain fibers."
+          },
+          {
+            "question": "A patient with steatorrhea (fatty stools) and night blindness (Vitamin A deficiency) has Abetalipoproteinemia. The defect is in the Microsomal Triglyceride Transfer Protein (MTP). MTP is essential for loading lipids onto:",
+            "options": [
+              "Albumin",
+              "ApoB-48 and ApoB-100",
+              "ApoA-1",
+              "LDL receptors",
+              "Fatty Acid Binding Protein"
+            ],
+            "correct": 1,
+            "explanation": "MTP is required to assemble Chylomicrons (ApoB-48) in the intestine and VLDL (ApoB-100) in the liver. Without MTP, these **ApoB-containing lipoproteins** cannot be formed/secreted. Lipids accumulate in the enterocytes, and fat/fat-soluble vitamins are not absorbed."
+          },
+          {
+            "question": "Familial Hypercholesterolemia (Type IIa) is characterized by very high LDL levels and early heart attacks. The most common molecular defect is in:",
+            "options": [
+              "HMG-CoA Reductase",
+              "Lipoprotein Lipase",
+              "The LDL Receptor (impaired endocytosis).",
+              "Cholesterol esterase.",
+              "Bile acid synthesis."
+            ],
+            "correct": 2,
+            "explanation": "Cells remove LDL from the blood via Receptor-Mediated Endocytosis. The **LDL Receptor** binds ApoB-100 on LDL. Defects in the receptor (or its internalization) prevent clearance, causing massive accumulation of LDL in the plasma."
+          },
+          {
+            "question": "In I-Cell Disease, lysosomal enzymes are secreted instead of being targeted to the lysosome. This is due to a failure to add the Mannose-6-Phosphate tag. This tag serves as a ligand for:",
+            "options": [
+              "The M6P Receptor in the Golgi membrane.",
+              "The Sodium pump.",
+              "The Nuclear Pore Complex.",
+              "The Ribosome.",
+              "The Mitochondria."
+            ],
+            "correct": 0,
+            "explanation": "Targeting is a receptor-mediated process. The **Mannose-6-Phosphate Receptor** (MPR) in the Trans-Golgi Network binds the tagged enzymes and packages them into clathrin-coated vesicles destined for the lysosome."
+          },
+          {
+            "question": "A patient with peptic ulcer disease is treated with Omeprazole (Prilosec). This drug inhibits the H+/K+ ATPase (Proton Pump) in parietal cells. This pump is distinct because it is:",
+            "options": [
+              "An electrogenic pump.",
+              "An electroneutral P-type ATPase (1 H+ out for 1 K+ in).",
+              "A V-type ATPase.",
+              "An F-type ATPase.",
+              "A channel."
+            ],
+            "correct": 1,
+            "explanation": "The gastric **Proton Pump** is a P-type ATPase but acts electroneutrally, exchanging $H^+$ (acid) for $K^+$. Omeprazole covalently binds to and irreversibly inhibits this pump, stopping acid secretion."
+          },
+          {
+            "question": "Sphingomyelinase deficiency leads to Niemann-Pick Disease Type A. This results in the accumulation of Sphingomyelin in the brain and liver. Structurally, Sphingomyelin is similar to Phosphatidylcholine (both have choline heads), but is distinguished by:",
+            "options": [
+              "A glycerol backbone.",
+              "An ether linkage.",
+              "A ceramide backbone (sphingosine + fatty acid).",
+              "Three fatty acids.",
+              "Lack of phosphate."
+            ],
+            "correct": 2,
+            "explanation": "The key distinction is the backbone. Phosphatidylcholine uses Glycerol. Sphingomyelin uses **Ceramide** (Sphingosine + Fatty Acid amide). Both present a Phosphocholine head group, but the underlying lipid architecture is different."
+          },
+          {
+            "question": "Smith-Lemli-Opitz Syndrome causes multiple congenital anomalies due to a defect in the last step of Cholesterol synthesis (7-Dehydrocholesterol Reductase). A lack of cholesterol in the membrane would primarily affect:",
+            "options": [
+              "ATP synthesis.",
+              "Membrane fluidity and the formation of Lipid Rafts (Caveolae).",
+              "Protein synthesis.",
+              "Glycolysis.",
+              "DNA replication."
+            ],
+            "correct": 1,
+            "explanation": "Cholesterol is crucial for membrane integrity and the formation of **Lipid Rafts** and Caveolae. These microdomains are essential for the signaling of morphogens (like Sonic Hedgehog) during embryonic development. Disruption leads to the malformations seen in SLOS."
+          },
+          {
+            "question": "Insulin stimulates glucose uptake in muscle and fat cells. It does this by triggering the translocation of which transporter to the plasma membrane?",
+            "options": [
+              "GLUT1",
+              "GLUT2",
+              "GLUT3",
+              "GLUT4",
+              "SGLT1"
+            ],
+            "correct": 3,
+            "explanation": "**GLUT4** is the insulin-sensitive transporter. In the basal state, it is sequestered in intracellular vesicles. Insulin signaling causes these vesicles to fuse with the membrane, increasing glucose uptake capacity 10-20 fold."
+          },
+          {
+            "question": "Hartnup Disease presents with pellagra-like symptoms due to a defect in the transport of neutral amino acids (like Tryptophan) in the intestine and kidney. Tryptophan is the precursor for:",
+            "options": [
+              "Heme",
+              "Niacin (Vitamin B3) and Serotonin.",
+              "Melanin.",
+              "Dopamine.",
+              "Histamine."
+            ],
+            "correct": 1,
+            "explanation": "The transporter defect causes loss of Tryptophan. Since the body synthesizes **Niacin** from Tryptophan, deficiency leads to Pellagra (Dermatitis, Diarrhea, Dementia). Treatment involves Niacin supplementation."
+          },
+          {
+            "question": "Gaucher Disease is the most common Lysosomal Storage Disorder. It is caused by the accumulation of Glucocerebroside due to a defect in:",
+            "options": [
+              "Hexosaminidase A",
+              "Glucocerebrosidase (Beta-glucosidase).",
+              "Sphingomyelinase.",
+              "Alpha-galactosidase.",
+              "Arylsulfatase A."
+            ],
+            "correct": 1,
+            "explanation": "The enzyme is **Beta-Glucosidase** (Glucocerebrosidase). It cleaves the glucose from the ceramide backbone. Accumulation leads to 'Gaucher cells' (crumpled tissue paper macrophages) and hepatosplenomegaly."
+          },
+          {
+            "question": "A patient with Cystinuria forms kidney stones. The treatment often involves hydration and alkalinization of the urine. Why does alkalinization help?",
+            "options": [
+              "It degrades Cystine.",
+              "It increases the solubility of Cystine (which is an acid).",
+              "It activates the transporter.",
+              "It kills bacteria.",
+              "It blocks Calcium."
+            ],
+            "correct": 1,
+            "explanation": "Cystine is composed of two Cysteines linked by a disulfide. It is poorly soluble at acidic pH. **Alkalinizing the urine** deprotonates the molecule, increasing its charge and solubility, thus preventing precipitation and stone formation."
+          },
+          {
+            "question": "Venom from the Eastern Diamondback Rattlesnake contains Phospholipase A2. This enzyme causes tissue damage and hemolysis by:",
+            "options": [
+              "Blocking Na+ channels.",
+              "Cleaving the fatty acid from the C2 position of phospholipids, generating Lysolecithin (a detergent).",
+              "Polymerizing lipids.",
+              "Inhibiting the Na+ pump.",
+              "Binding cholesterol."
+            ],
+            "correct": 1,
+            "explanation": "Phospholipase A2 cleaves the C2 fatty acid. The remaining product is a lysophospholipid (**Lysolecithin**). Unlike bilayer-forming lipids, lysolipids are wedge-shaped and act as strong **detergents**, dissolving cell membranes and causing lysis."
+          },
+          {
+            "question": "Patients with Type 2 Diabetes often have high levels of Free Fatty Acids (FFAs) in the blood. FFAs can impair insulin signaling in muscle (Lipotoxicity). Inside the cell, FFAs are activated to Fatty Acyl-CoA by:",
+            "options": [
+              "Acyl-CoA Synthetase (Thiokinase).",
+              "Carnitine Acyltransferase.",
+              "Acetyl-CoA Carboxylase.",
+              "Fatty Acid Synthase.",
+              "Lipase."
+            ],
+            "correct": 0,
+            "explanation": "Before fatty acids can be metabolized or incorporated into lipids, they must be 'activated' by attaching CoA. **Acyl-CoA Synthetase** consumes ATP (to AMP + PPi) to drive this thioester bond formation."
+          },
+          {
+            "question": "Bartter Syndrome is a renal tubule disorder caused by a defect in the Na-K-2Cl cotransporter (NKCC2). This transporter is the target of which class of diuretics?",
+            "options": [
+              "Thiazides",
+              "Loop Diuretics (e.g., Furosemide).",
+              "Potassium-sparing diuretics.",
+              "Carbonic Anhydrase inhibitors.",
+              "Osmotic diuretics."
+            ],
+            "correct": 1,
+            "explanation": "NKCC2 is located in the thick ascending limb of the loop of Henle. **Loop Diuretics** inhibit this transporter, preventing salt reabsorption and causing potent diuresis. Bartter syndrome mimics the effects of chronic loop diuretic overdose."
+          },
+          {
+            "question": "During apoptosis, mitochondria release Cytochrome c through pores in the outer membrane. These pores are formed by pro-apoptotic members of the Bcl-2 family (like Bax/Bak). These proteins function similarly to:",
+            "options": [
+              "Pumps",
+              "Carriers",
+              "Channel-forming toxins.",
+              "Enzymes",
+              "Receptors"
+            ],
+            "correct": 2,
+            "explanation": "Bax and Bak oligomerize in the membrane to form large, non-selective **pores** (similar to bacterial toxins like Diphtheria toxin). These pores permeabilize the outer mitochondrial membrane, releasing Cytochrome c to trigger the caspase cascade."
+          },
+          {
+            "question": "Glucose-Galactose Malabsorption is a rare disorder causing severe diarrhea in newborns. The defect is in SGLT1. Why does fructose absorption remain normal?",
+            "options": [
+              "Fructose enters via GLUT5 (Facilitated Diffusion), which is a separate transporter.",
+              "Fructose diffuses through the lipid bilayer.",
+              "Fructose is absorbed by SGLT2.",
+              "Fructose is converted to glucose in the lumen.",
+              "Fructose is not absorbed."
+            ],
+            "correct": 0,
+            "explanation": "SGLT1 transports Glucose and Galactose (Active). Fructose utilizes a completely different transporter, **GLUT5**, which operates via facilitated diffusion and is unaffected by the SGLT1 defect."
+          },
+          {
+            "question": "In cell signaling, Phospholipase C (PLC) cleaves the membrane lipid PIP2. This generates two second messengers: IP3 (which releases Ca2+) and Diacylglycerol (DAG). DAG remains in the membrane and activates:",
+            "options": [
+              "Protein Kinase A (PKA)",
+              "Protein Kinase C (PKC)",
+              "Calmodulin",
+              "Adenylate Cyclase",
+              "Insulin Receptor"
+            ],
+            "correct": 1,
+            "explanation": "DAG serves as a membrane-bound docking site. It recruits and activates **Protein Kinase C (PKC)** (usually in conjunction with Calcium). This is a classic bifurcation of the G-protein signaling pathway."
+          },
+          {
+            "question": "A patient presents with massive, watery diarrhea ('rice-water stools') and severe dehydration. The causative agent is Vibrio cholerae. The toxin produced by this bacterium permanently activates G-alpha-s. What is the molecular consequence in the intestinal epithelial cells?",
+            "options": [
+              "Decreased cAMP and closure of Chloride channels.",
+              "Increased cAMP and constitutive opening of the CFTR Chloride channel.",
+              "Inhibition of Protein Kinase A.",
+              "Activation of Phospholipase C.",
+              "Destruction of the cell membrane."
+            ],
+            "correct": 1,
+            "explanation": "Cholera toxin ADP-ribosylates $G_{\\alpha s}$, locking it 'ON'. This leads to dangerously high cAMP levels. cAMP activates PKA, which phosphorylates the **CFTR** chloride channel. This causes massive efflux of $Cl^-$ (and $Na^+$/water follows osmotically) into the gut lumen, causing secretory diarrhea."
+          },
+          {
+            "question": "A 6-month-old child presents with coughing spells ending in a high-pitched 'whoop'. Diagnosis is Pertussis (Whooping Cough). Pertussis toxin modifies the G-alpha-i subunit. How does this modification alter signaling?",
+            "options": [
+              "It activates G-alpha-i, lowering cAMP.",
+              "It prevents G-alpha-i from exchanging GDP for GTP, locking it in the inactive state.",
+              "It mimics G-alpha-s.",
+              "It degrades Adenylate Cyclase.",
+              "It binds to the receptor."
+            ],
+            "correct": 1,
+            "explanation": "Pertussis toxin ADP-ribosylates the **$G_{\\alpha i}$ (inhibitory)** subunit. This modification prevents $G_{\\alpha i}$ from binding GTP/activating. Since the 'brake' (inhibition of Adenylate Cyclase) is broken, AC activity and cAMP levels increase excessively (similar outcome to Cholera, but by inhibiting the inhibitor)."
+          },
+          {
+            "question": "A patient with Type 2 Diabetes is prescribed a drug that inhibits the degradation of GLP-1 (Incretin). GLP-1 acts via a GPCR to increase insulin secretion. The drug targets Dipeptidyl Peptidase-4 (DPP-4). Another class of drugs targets the Phosphodiesterase (PDE) enzyme. If a patient took a PDE inhibitor, what would happen to the insulin signaling pathway in the beta-cell?",
+            "options": [
+              "cAMP levels would decrease.",
+              "cAMP levels would remain elevated for longer, potentiating insulin release.",
+              "The GPCR would be internalized.",
+              "G-proteins would degrade.",
+              "ATP levels would drop."
+            ],
+            "correct": 1,
+            "explanation": "GLP-1 receptors signal via $G_s$ and cAMP. **Phosphodiesterases** normally degrade cAMP to terminate the signal. A PDE inhibitor prevents this breakdown, maintaining **high cAMP levels** and prolonging the signal for insulin secretion."
+          },
+          {
+            "question": "A 55-year-old male takes Nitroglycerin for Angina Pectoris. Nitroglycerin releases Nitric Oxide (NO). NO signals by activating Guanylyl Cyclase to produce cGMP. This leads to vasodilation by activating:",
+            "options": [
+              "Protein Kinase A (PKA)",
+              "Protein Kinase G (PKG)",
+              "Protein Kinase C (PKC)",
+              "Tyrosine Kinase",
+              "Calmodulin"
+            ],
+            "correct": 1,
+            "explanation": "Nitric Oxide (NO) is a gas that diffuses into smooth muscle cells and activates Soluble Guanylyl Cyclase. This enzyme produces **cGMP**. cGMP activates **Protein Kinase G (PKG)**, which phosphorylates proteins leading to relaxation (vasodilation) and relief of chest pain."
+          },
+          {
+            "question": "A patient consuming raw eggs for months develops fatigue and dermatitis. This is due to Avidin binding Biotin. Biotin is a cofactor for Carboxylases. Which metabolic reaction would be directly impaired?",
+            "options": [
+              "Conversion of Pyruvate to Acetyl-CoA",
+              "Conversion of Pyruvate to Oxaloacetate",
+              "Glycolysis",
+              "ATP hydrolysis",
+              "Protein synthesis"
+            ],
+            "correct": 1,
+            "explanation": "Pyruvate Carboxylase (a ligase) requires **Biotin** and ATP to add $CO_2$ to Pyruvate, forming Oxaloacetate. This is a critical anaplerotic reaction for the TCA cycle and the first step of Gluconeogenesis."
+          },
+          {
+            "question": "A bodybuilder takes Creatine supplements. Mechanistically, this improves performance in short-duration, high-intensity exercise by:",
+            "options": [
+              "Increasing the aerobic capacity of the lung.",
+              "Directly stimulating myosin ATPase.",
+              "Increasing the pool of Phosphocreatine to rapidly buffer ATP levels.",
+              "Providing more glucose.",
+              "Acting as a steroid hormone."
+            ],
+            "correct": 2,
+            "explanation": "Creatine is phosphorylated to **Phosphocreatine**. During intense effort (first 10 seconds), ATP is consumed faster than glycolysis can replenish it. Phosphocreatine donates its phosphate to ADP (via Creatine Kinase) to maintain ATP levels instantly."
+          },
+          {
+            "question": "A patient with Lithium-treated Bipolar disorder develops polyuria. Lithium interferes with the recycling of Inositol, depleting the cell of PIP2. Which signaling pathway is primarily dampened by Lithium?",
+            "options": [
+              "The cAMP pathway",
+              "The Phosphoinositide (IP3/DAG) pathway",
+              "The Insulin pathway",
+              "The NO pathway",
+              "The Jak-Stat pathway"
+            ],
+            "correct": 1,
+            "explanation": "Lithium inhibits Inositol Monophosphatase. This prevents the regeneration of free Inositol, which is needed to resynthesize $PIP_2$. Without the $PIP_2$ substrate, the **PLC-$IP_3$ pathway** is downregulated (The 'Inositol Depletion Hypothesis')."
+          },
+          {
+            "question": "A young female with a goiter is diagnosed with Graves' Disease. She has autoantibodies that mimic TSH (Thyroid Stimulating Hormone). The TSH receptor is a Gs-coupled GPCR. Her symptoms (hyperthyroidism) are caused by:",
+            "options": [
+              "Chronic activation of the receptor by the antibody, leading to constitutive cAMP production.",
+              "Destruction of the thyroid gland.",
+              "Inhibition of Adenylate Cyclase.",
+              "Blockade of Iodine uptake.",
+              "Depletion of ATP."
+            ],
+            "correct": 0,
+            "explanation": "Graves' disease is caused by Thyroid-Stimulating Immunoglobulins (TSI). These antibodies bind the TSH receptor and **mimic the ligand**, causing permanent activation. This drives the $G_s$-cAMP pathway, leading to unregulated synthesis and release of Thyroid hormones ($T_3/T_4$)."
+          },
+          {
+            "question": "In hereditary night blindness, there is a defect in the termination of the visual signal. Rhodopsin is a GPCR activated by light. The signal is normally terminated by phosphorylation (Rhodopsin Kinase) and binding of:",
+            "options": [
+              "Transducin",
+              "Arrestin",
+              "G-alpha",
+              "cGMP",
+              "Retinal"
+            ],
+            "correct": 1,
+            "explanation": "Visual signal transduction must be rapid. Light activates Rhodopsin. To reset, Rhodopsin is phosphorylated and capped by **Arrestin**. Defects in Arrestin (or Rhodopsin Kinase) lead to prolonged signaling and death of rod cells (Night Blindness/Retinitis Pigmentosa)."
+          },
+          {
+            "question": "A patient with Pancreatic Cancer has a mutation in the K-Ras gene. The mutation is 'G12D' (Glycine to Aspartate). This mutation prevents the GAP (GTPase Activating Protein) from binding. What is the biochemical result?",
+            "options": [
+              "Ras hydrolyzes GTP too fast.",
+              "Ras is trapped in the GDP-bound (OFF) state.",
+              "Ras is trapped in the GTP-bound (ON) state because hydrolysis is slow without GAP.",
+              "Ras cannot bind Raf.",
+              "Ras degrades."
+            ],
+            "correct": 2,
+            "explanation": "Ras has slow intrinsic GTPase activity. It needs **GAP** to speed up hydrolysis and turn itself OFF. The mutation prevents GAP interaction. Consequently, Ras remains **permanently bound to GTP**, constantly signaling downstream growth pathways (MAP Kinase), driving the cancer."
+          },
+          {
+            "question": "Caffeine keeps you awake by blocking Adenosine receptors (GPCRs). Adenosine normally promotes sleep by binding to Gi-coupled receptors. Caffeine acts as:",
+            "options": [
+              "An Agonist",
+              "An Antagonist",
+              "An Allosteric activator",
+              "A Suicide inhibitor",
+              "A Phosphodiesterase activator"
+            ],
+            "correct": 1,
+            "explanation": "Adenosine signals fatigue via $G_i$ (lowering cAMP). Caffeine resembles Adenosine but does not activate the receptor; it occupies the site and blocks Adenosine binding. It is a **Competitive Antagonist**. (Note: Caffeine is also a PDE inhibitor at high concentrations, but the receptor effect is primary at coffee levels)."
+          },
+          {
+            "question": "A patient with Vitamin B3 (Niacin) deficiency presents with Pellagra. Niacin is required for the synthesis of NAD+. In terms of cellular energy, why is NAD+ deficiency fatal?",
+            "options": [
+              "It is required for the electron transport chain to accept electrons from fuels.",
+              "It is a structural component of ATP.",
+              "It is needed for protein synthesis.",
+              "It acts as a hormone.",
+              "It binds calcium."
+            ],
+            "correct": 0,
+            "explanation": "**NAD+** is the primary electron acceptor in glycolysis, the PDH complex, and the TCA cycle. Without NAD+, fuel oxidation stops, and the cell cannot generate ATP via respiration."
+          },
+          {
+            "question": "Hypoglycemia (low blood sugar) triggers the release of Glucagon. Glucagon binds to a liver GPCR, activating the cAMP cascade. The final enzyme activated to release glucose into the blood is:",
+            "options": [
+              "Glycogen Synthase",
+              "Glycogen Phosphorylase",
+              "Glucokinase",
+              "Insulin Receptor",
+              "Pyruvate Dehydrogenase"
+            ],
+            "correct": 1,
+            "explanation": "The Glucagon-cAMP-PKA cascade leads to the phosphorylation and activation of Phosphorylase Kinase, which phosphorylates **Glycogen Phosphorylase**. This enzyme breaks down glycogen to release glucose-1-phosphate $\\rightarrow$ glucose."
+          },
+          {
+            "question": "A researcher is studying a tumor cell line and finds high levels of PIP3 in the membrane even without growth factor stimulation. A loss-of-function mutation is found in PTEN. PTEN normally functions as:",
+            "options": [
+              "A Lipid Kinase",
+              "A Lipid Phosphatase that converts PIP3 back to PIP2.",
+              "A Protein Kinase",
+              "A Transcription Factor",
+              "A G-protein"
+            ],
+            "correct": 1,
+            "explanation": "PTEN is a tumor suppressor. It antagonizes PI3-Kinase. It is a **phosphatase** that removes the phosphate from $PIP_3$ (turning it off). Loss of PTEN leads to uncontrolled $PIP_3$ accumulation and constitutive Akt activation (cancer)."
+          },
+          {
+            "question": "During muscle contraction, Calcium increases. This Calcium activates Phosphorylase Kinase (to break down glycogen) by binding to which subunit of the enzyme?",
+            "options": [
+              "The Catalytic subunit",
+              "The Calmodulin subunit (Delta subunit)",
+              "The Actin subunit",
+              "The Heme group",
+              "The ATP binding site"
+            ],
+            "correct": 1,
+            "explanation": "Phosphorylase Kinase is a huge complex $(\\alpha\\beta\\gamma\\delta)_4$. The delta ($\delta$) subunit is actually **Calmodulin**. It allows the enzyme to be partially active in response to Calcium alone (muscle contraction), ensuring fuel (glycogen) breakdown is synchronized with muscle activity."
+          },
+          {
+            "question": "Sildenafil (Viagra) is contraindicated in patients taking Nitrates because both drugs affect the same pathway, leading to unsafe drops in blood pressure. The mechanism involves the synergistic accumulation of:",
+            "options": [
+              "cAMP",
+              "cGMP",
+              "Calcium",
+              "Potassium",
+              "Adenosine"
+            ],
+            "correct": 1,
+            "explanation": "Nitrates increase NO $\\rightarrow$ increased production of **cGMP**. Sildenafil inhibits PDE5, preventing the breakdown of **cGMP**. Taking both results in massive cGMP accumulation, causing extreme vasodilation and hypotensive shock."
+          },
+          {
+            "question": "A patient has a defect in the gene encoding the G-alpha-s subunit (GNAS1). This leads to Albright's Hereditary Osteodystrophy (Pseudohypoparathyroidism). The tissues are resistant to Parathyroid Hormone (PTH) because:",
+            "options": [
+              "PTH cannot bind the receptor.",
+              "The receptor cannot activate the defective G-protein to produce cAMP.",
+              "PTH is degraded.",
+              "Calcium is too high.",
+              "Adenylate cyclase is missing."
+            ],
+            "correct": 1,
+            "explanation": "PTH signals via a $G_s$-coupled receptor. If $G_{\\alpha s}$ is defective (haploinsufficiency or imprinting defect), PTH binds but **cannot generate the cAMP signal**. The body 'thinks' there is no PTH (resistance), leading to hypocalcemia despite high PTH levels."
+          },
+          {
+            "question": "Fatty acids are activated to Acyl-CoA by Acyl-CoA Synthetase. This reaction is driven to completion by the hydrolysis of Pyrophosphate (PPi). This is an example of:",
+            "options": [
+              "Substrate-level phosphorylation.",
+              "Redox coupling.",
+              "Coupled reactions using a shared intermediate.",
+              "Allosteric regulation.",
+              "Zymogen activation."
+            ],
+            "correct": 2,
+            "explanation": "The reaction $ATP + FA \\rightarrow Acyl-AMP + PPi$ has a $\\Delta G$ near zero. However, cells contain Pyrophosphatase, which hydrolyzes $PPi \\rightarrow 2Pi$ ($\Delta G \ll 0$). **Coupling** these two makes the activation of fatty acids irreversible."
+          },
+          {
+            "question": "Tumor cells often switch to aerobic glycolysis (Warburg Effect), consuming huge amounts of Glucose to produce Lactate even in the presence of Oxygen. This inefficient ATP production is compensated by:",
+            "options": [
+              "Oxidizing fats.",
+              "Upregulating Glucose Transporters (GLUT1) and Hexokinase.",
+              "Reducing body temperature.",
+              "Stopping cell division.",
+              "Using photosynthesis."
+            ],
+            "correct": 1,
+            "explanation": "Glycolysis yields only 2 ATP per glucose (vs ~30-32 via respiration). To maintain high ATP for rapid growth, cancer cells massively **upregulate glucose uptake (GLUTs)** and glycolytic enzymes. This provides intermediates for biosynthesis."
+          },
+          {
+            "question": "Arsenic poisoning disrupts ATP production. Arsenate (AsO4) mimics Phosphate (PO4). If Arsenate is used by Glyceraldehyde-3-Phosphate Dehydrogenase (GAPDH), the product is unstable and hydrolyzes spontaneously. What is the energetic consequence?",
+            "options": [
+              "Glycolysis stops completely.",
+              "No ATP is produced in the next step (PGK), uncoupling oxidation from phosphorylation.",
+              "More ATP is produced.",
+              "NADH is not produced.",
+              "Pyruvate is not formed."
+            ],
+            "correct": 1,
+            "explanation": "Normally, GAPDH incorporates Pi to make 1,3-BPG (high energy). Phosphoglycerate Kinase (PGK) then uses 1,3-BPG to make ATP. If **Arsenate** is used, 1-Arseno-3-phosphoglycerate forms and immediately falls apart. The energy of oxidation is lost as heat, and **substrate-level phosphorylation of ATP is skipped**."
+          },
+          {
+            "question": "A patient with hypertension is treated with a Calcium Channel Blocker (e.g., Verapamil). These drugs target Voltage-Gated L-Type Calcium Channels. In smooth muscle, blocking these channels prevents:",
+            "options": [
+              "Depolarization.",
+              "The entry of Calcium needed to bind Calmodulin and activate Myosin Light Chain Kinase (MLCK).",
+              "cAMP production.",
+              "Potassium efflux.",
+              "Sodium influx."
+            ],
+            "correct": 1,
+            "explanation": "Smooth muscle contraction requires extracellular Calcium entry. $Ca^{2+}$ binds **Calmodulin**, activating **MLCK**, which phosphorylates myosin. Blocking the channel prevents this sequence, leading to relaxation (vasodilation) and lower blood pressure."
+          },
+          {
+            "question": "Interferons signal via the JAK-STAT pathway to fight viruses. JAKs are Tyrosine Kinases associated with the receptor. Once activated, JAKs phosphorylate STATs, which then:",
+            "options": [
+              "Degrade viral RNA.",
+              "Dimerize, translocate to the nucleus, and regulate gene transcription.",
+              "Open ion channels.",
+              "Activate G-proteins.",
+              "Release Calcium."
+            ],
+            "correct": 1,
+            "explanation": "Signal Transducers and Activators of Transcription (**STATs**) are latent cytoplasmic transcription factors. Phosphorylation by JAK allows them to dimerize (via SH2 domains), move to the nucleus, and turn on antiviral genes."
+          },
+          {
+            "question": "A genetic defect in the Leptin Receptor leads to severe obesity. The Leptin receptor signals through JAK-STAT. Leptin is a hormone produced by:",
+            "options": [
+              "Pancreas",
+              "Liver",
+              "Adipose Tissue (Fat cells)",
+              "Brain",
+              "Stomach"
+            ],
+            "correct": 2,
+            "explanation": "Leptin is the 'satiety hormone' secreted by **Adipose tissue** in proportion to fat mass. It signals the brain (Hypothalamus) to reduce appetite and increase energy expenditure."
+          },
+          {
+            "question": "Phorbol Esters are tumor promoters found in plants (croton oil). They mimic Diacylglycerol (DAG) structurally. Chronic exposure leads to cancer because they:",
+            "options": [
+              "Permanently activate Protein Kinase C (PKC).",
+              "Inhibit DNA polymerase.",
+              "Block the ribosome.",
+              "Bind to DNA.",
+              "Destroy the cell membrane."
+            ],
+            "correct": 0,
+            "explanation": "Unlike DAG, which is rapidly metabolized, Phorbol esters are stable. They bind to **PKC** and cause **constitutive (permanent) activation**. This uncontrolled signaling drives cell proliferation and tumor promotion."
+          },
+          {
+            "question": "Succinyl-CoA Synthetase in the Krebs Cycle produces GTP (or ATP). This step uses the energy of:",
+            "options": [
+              "Electron transport.",
+              "Thioester bond cleavage.",
+              "ATP hydrolysis.",
+              "Proton gradient.",
+              "Phosphoanhydride bond cleavage."
+            ],
+            "correct": 1,
+            "explanation": "Succinyl-CoA contains a high-energy **Thioester** bond. The enzyme couples the hydrolysis of this thioester ($\Delta G \ll 0$) to the synthesis of a phosphoanhydride bond in GTP/ATP ($\Delta G \gg 0$). This is substrate-level phosphorylation."
+          },
+          {
+            "question": "Rotenone is a pesticide that inhibits Complex I of the electron transport chain. In a poisoned cell, you would expect:",
+            "options": [
+              "High ATP, Low NADH.",
+              "Low ATP, High NADH.",
+              "Low ATP, Low NADH.",
+              "High ATP, High NADH.",
+              "Normal ATP."
+            ],
+            "correct": 1,
+            "explanation": "Complex I transfers electrons from NADH to Ubiquinone. Blocking it causes **NADH** to accumulate (cannot be oxidized) and stops the proton gradient, leading to **Low ATP**."
+          },
+          {
+            "question": "Brown Adipose Tissue (BAT) generates heat (Non-shivering thermogenesis) in newborns. This is mediated by Thermogenin (UCP1), which acts by:",
+            "options": [
+              "Hydrolyzing ATP to heat.",
+              "Uncoupling the proton gradient from ATP synthesis, allowing protons to leak back into the matrix.",
+              "Increasing glycolysis.",
+              "Burning fat anaerobically.",
+              "Blocking electron transport."
+            ],
+            "correct": 1,
+            "explanation": "Thermogenin is an **Uncoupling Protein**. It creates a pore for protons to return to the matrix without passing through ATP synthase. The energy of the proton gradient is dissipated as **heat** instead of being captured as chemical energy (ATP)."
+          },
+          {
+            "question": "Tamoxifen is a drug used in Estrogen Receptor-positive breast cancer. It acts as an:",
+            "options": [
+              "Agonist in the breast.",
+              "Antagonist in the breast (Nuclear Receptor blocker).",
+              "A GPCR inhibitor.",
+              "A Tyrosine Kinase inhibitor.",
+              "An Aromatase inhibitor."
+            ],
+            "correct": 1,
+            "explanation": "Estrogen receptors are Nuclear Receptors (transcription factors). Tamoxifen competes with Estrogen for binding. In breast tissue, the Tamoxifen-Receptor complex recruits co-repressors (instead of co-activators), acting as an **Antagonist** to stop tumor growth."
+          },
+          {
+            "question": "Ethanol metabolism produces large amounts of NADH in the liver. A high NADH/NAD+ ratio inhibits Gluconeogenesis because:",
+            "options": [
+              "Pyruvate is converted to Lactate instead of Oxaloacetate.",
+              "ATP is depleted.",
+              "Fatty acid oxidation increases.",
+              "Glucose is degraded.",
+              "The Krebs cycle speeds up."
+            ],
+            "correct": 0,
+            "explanation": "Gluconeogenesis requires Pyruvate. However, high NADH drives the reversible Lactate Dehydrogenase reaction towards **Lactate** ($Pyruvate + NADH \rightarrow Lactate + NAD^+$). This depletes the pyruvate pool, causing fasting hypoglycemia in alcoholics."
+          },
+          {
+            "question": "A patient with Chronic Myeloid Leukemia (CML) has the Philadelphia Chromosome (BCR-ABL fusion). The ABL protein is a:",
+            "options": [
+              "G-protein",
+              "Tyrosine Kinase that is constitutively active.",
+              "Transcription factor.",
+              "Phosphatase.",
+              "Receptor."
+            ],
+            "correct": 1,
+            "explanation": "The fusion creates a **Tyrosine Kinase** (ABL) that is stuck in the 'ON' state. It does not require a ligand. It constantly signals for cell division. The drug **Imatinib (Gleevec)** specifically inhibits the ATP-binding pocket of this kinase."
+          },
+          {
+            "question": "A 24-year-old male complains of severe muscle cramps and dark urine (myoglobinuria) after intense exercise. He has normal blood glucose levels. A forearm ischemic exercise test shows no rise in blood lactate levels. A muscle biopsy reveals an excess of normally structured glycogen. Which enzyme is most likely deficient?",
+            "options": [
+              "Glucose-6-Phosphatase",
+              "Muscle Glycogen Phosphorylase (McArdle Disease)",
+              "Acid Maltase",
+              "Liver Glycogen Phosphorylase",
+              "Debranching Enzyme"
+            ],
+            "correct": 1,
+            "explanation": "This is classic **McArdle Disease (GSD Type V)**. The deficiency is in **Muscle Phosphorylase**. The patient cannot break down muscle glycogen to fuel contraction (hence cramps/myoglobinuria). The lack of Lactate rise indicates glycolysis is not receiving substrate from glycogen stores. Blood glucose is normal because the Liver Phosphorylase is intact."
+          },
+          {
+            "question": "A 3-month-old infant is brought to the clinic with hypoglycemia, hepatomegaly, and lactic acidosis. Blood tests reveal hyperlipidemia and hyperuricemia (gout). Administration of glucagon fails to increase blood glucose but further increases lactate levels. Which enzyme defect explains these findings?",
+            "options": [
+              "Galactose-1-Phosphate Uridyltransferase",
+              "Glucose-6-Phosphatase (Von Gierke Disease)",
+              "Branching Enzyme",
+              "Aldolase B",
+              "Pyruvate Kinase"
+            ],
+            "correct": 1,
+            "explanation": "This constellation (Fasting Hypoglycemia + Lactic Acidosis + Hyperuricemia + Hepatomegaly) is diagnostic for **Von Gierke Disease (GSD Type I)**. Deficiency of **Glucose-6-Phosphatase** traps G6P. Glucagon stimulates glycogenolysis, increasing G6P, but since it can't exit as glucose, it is shunted to Lactate (Acidosis) and the PPP (Uric acid)."
+          },
+          {
+            "question": "An alcoholic is found unresponsive. He is malnourished and has been drinking heavily for days without eating. His blood glucose is 45 mg/dL. He is given IV Thiamine and Dextrose. The mechanism of his hypoglycemia involves a high NADH/NAD+ ratio shifting metabolism. Which gluconeogenic intermediate is primarily depleted by this ratio?",
+            "options": [
+              "Acetyl-CoA",
+              "Pyruvate",
+              "Lactate",
+              "Glycerol",
+              "Alanine"
+            ],
+            "correct": 1,
+            "explanation": "Metabolism of Ethanol produces massive amounts of NADH. High NADH drives the reversible LDH reaction toward Lactate, thereby **depleting Pyruvate**. Without Pyruvate, Pyruvate Carboxylase cannot generate Oxaloacetate for gluconeogenesis. This effectively shuts down hepatic glucose production, causing hypoglycemia."
+          },
+          {
+            "question": "A 2-week-old newborn develops cataracts. He is breastfeeding well but has no vomiting, diarrhea, or liver dysfunction. Urine tests are positive for reducing substances but negative for glucose. Which enzyme is likely deficient?",
+            "options": [
+              "Galactose-1-Phosphate Uridyltransferase (GALT)",
+              "Galactokinase (GALK)",
+              "Aldolase B",
+              "Lactase",
+              "Fructokinase"
+            ],
+            "correct": 1,
+            "explanation": "Cataracts in a newborn with *no* systemic toxicity (no liver/kidney damage) suggests **Galactokinase deficiency**. Without GALK, Galactose accumulates and is converted to Galactitol (via Aldose Reductase) in the lens, causing osmotic cataracts. Classic Galactosemia (GALT deficiency) would present with severe systemic toxicity (liver failure, sepsis)."
+          },
+          {
+            "question": "A healthy 25-year-old male participates in a clinical study. He consumes a large dose of Fructose. His blood glucose does not change significantly, but his blood lactate rises rapidly. This occurs because Fructose metabolites enter glycolysis at the level of Triose Phosphates, bypassing the regulation of:",
+            "options": [
+              "Hexokinase",
+              "Phosphofructokinase-1 (PFK-1)",
+              "Pyruvate Kinase",
+              "Enolase",
+              "Pyruvate Dehydrogenase"
+            ],
+            "correct": 1,
+            "explanation": "Hepatic Fructose metabolism bypasses **PFK-1**, the main rate-limiting step. Fructose $\rightarrow$ F-1-P $\rightarrow$ DHAP + Glyceraldehyde. These intermediates flood the lower half of glycolysis, leading to rapid Acetyl-CoA and Lactate production, unregulated by the cell's energy needs (ATP/Citrate levels)."
+          },
+          {
+            "question": "A 30-year-old African American male plans to travel to a malaria-endemic zone. He is prescribed Primaquine. Three days later, he develops dark urine, fatigue, and jaundice. A peripheral blood smear shows 'Bite Cells' and Heinz bodies. What is the biochemical cause of his hemolysis?",
+            "options": [
+              "ATP depletion due to Pyruvate Kinase deficiency.",
+              "Inability to neutralize Reactive Oxygen Species due to G6PD deficiency.",
+              "Defective Spectrin in the RBC membrane.",
+              "Autoimmune destruction.",
+              "Hemoglobin polymerization."
+            ],
+            "correct": 1,
+            "explanation": "Primaquine is an oxidizing drug. In patients with **G6PD Deficiency**, the RBCs cannot generate enough NADPH to keep Glutathione reduced. Oxidative stress leads to cross-linking of Hemoglobin (Heinz Bodies). Splenic macrophages bite these out (Bite Cells), causing hemolysis."
+          },
+          {
+            "question": "A 6-month-old is introduced to fruit juice. He develops vomiting, tremors, and jaundice. Lab results show hypoglycemia and hypophosphatemia. The urine is negative for glucose. This is Hereditary Fructose Intolerance. The trapping of phosphate in Fructose-1-Phosphate leads to the inhibition of:",
+            "options": [
+              "Glycogen Synthesis and Glycolysis",
+              "Glycogenolysis and Gluconeogenesis",
+              "Fatty Acid Oxidation",
+              "Protein Synthesis",
+              "The Krebs Cycle"
+            ],
+            "correct": 1,
+            "explanation": "Aldolase B deficiency causes accumulation of Fructose-1-P. This sequesters intracellular inorganic phosphate (Pi). Low Pi inhibits Glycogen Phosphorylase (**Glycogenolysis**) and ATP synthesis. Low ATP inhibits **Gluconeogenesis**. The combination causes severe hypoglycemia."
+          },
+          {
+            "question": "A patient with hemolytic anemia is found to have 2,3-Bisphosphoglycerate (2,3-BPG) levels that are 3 times normal. The oxygen dissociation curve is shifted severely to the right. Which glycolytic enzyme defect could explain this?",
+            "options": [
+              "Hexokinase Deficiency",
+              "Pyruvate Kinase Deficiency",
+              "Triose Phosphate Isomerase Deficiency",
+              "Enolase Deficiency",
+              "Phosphoglycerate Kinase Deficiency"
+            ],
+            "correct": 1,
+            "explanation": "**Pyruvate Kinase Deficiency** causes a backup of glycolytic intermediates *before* the block. This leads to an accumulation of PEP, 2-PG, 3-PG, 1,3-BPG, and notably, **2,3-BPG**. High 2,3-BPG lowers Hemoglobin's affinity for Oxygen (Right shift). (Contrast with Hexokinase deficiency, where all intermediates, including 2,3-BPG, would be low)."
+          },
+          {
+            "question": "An infant presents with hypotonia, massive cardiomegaly, and early death. Histology shows glycogen accumulation within lysosomes. This is Pompe Disease (GSD Type II). The defective enzyme is:",
+            "options": [
+              "Alpha-1,6-Glucosidase",
+              "Acid Alpha-1,4-Glucosidase (Acid Maltase)",
+              "Muscle Phosphorylase",
+              "Liver Phosphorylase",
+              "Branching Enzyme"
+            ],
+            "correct": 1,
+            "explanation": "**Acid Maltase (Alpha-1,4-glucosidase)** is a lysosomal enzyme responsible for degrading the small amount of glycogen captured by autophagy. Deficiency leads to lysosomal engorgement with glycogen, particularly destroying Cardiac and Skeletal muscle."
+          },
+          {
+            "question": "A chronic alcoholic presents with Wernicke-Korsakoff syndrome (confusion, ataxia, ophthalmoplegia). This is due to Thiamine deficiency. Which enzyme activity in the Pentose Phosphate Pathway would be impaired, serving as a diagnostic marker (Transketolase activity assay)?",
+            "options": [
+              "Glucose-6-Phosphate Dehydrogenase",
+              "Transaldolase",
+              "Transketolase",
+              "Ribose-5-Phosphate Isomerase",
+              "6-Phosphogluconate Dehydrogenase"
+            ],
+            "correct": 2,
+            "explanation": "**Transketolase** requires **Thiamine Pyrophosphate (TPP)** as a cofactor. While PDH and Alpha-Ketoglutarate Dehydrogenase also use TPP, red blood cell Transketolase activity is the standard clinical test to assess Thiamine status."
+          },
+          {
+            "question": "A patient with Type 1 Diabetes injects insulin. Insulin promotes glycogen synthesis in the liver by activating Protein Phosphatase-1 (PP1). PP1 acts by:",
+            "options": [
+              "Phosphorylating Glycogen Synthase.",
+              "Dephosphorylating Glycogen Synthase (activating it) and Glycogen Phosphorylase (inhibiting it).",
+              "Degrading cAMP.",
+              "Phosphorylating PFK-2.",
+              "Dephosphorylating GLUT4."
+            ],
+            "correct": 1,
+            "explanation": "Insulin is an anabolic hormone. It activates **PP1**, which removes the phosphates placed by PKA/Glucagon. Dephosphorylation **activates Glycogen Synthase** (promoting storage) and **inactivates Glycogen Phosphorylase** (stopping breakdown)."
+          },
+          {
+            "question": "A toddler has failure to thrive and hepatomegaly. Liver biopsy shows abnormal glycogen with very long outer branches. This suggests a defect in the Branching Enzyme (Andersen Disease, Type IV). Why is unbranched glycogen detrimental?",
+            "options": [
+              "It is too soluble.",
+              "It precipitates in the liver and heart, acting as a foreign body causing cirrhosis/fibrosis.",
+              "It cannot be degraded by amylase.",
+              "It binds too much water.",
+              "It creates too much glucose."
+            ],
+            "correct": 1,
+            "explanation": "The **Branching Enzyme** is required to make glycogen soluble. Without branches, the glycogen forms long, straight chains (similar to starch/amylopectin) that are **insoluble**. These precipitate, triggering an immune response that leads to severe liver cirrhosis and death."
+          },
+          {
+            "question": "A researcher is studying cancer cell metabolism. The cells show high uptake of radioactive Glucose but minimal oxygen consumption. They produce large amounts of Lactate. This 'Warburg Effect' allows the cancer cells to:",
+            "options": [
+              "Generate more ATP per glucose than normal cells.",
+              "Divert glycolytic intermediates into biosynthetic pathways (PPP, Serine synthesis) for rapid growth.",
+              "Avoid acidosis.",
+              "Use fat as fuel.",
+              "Run the Krebs cycle faster."
+            ],
+            "correct": 1,
+            "explanation": "Aerobic Glycolysis (Warburg Effect) is inefficient for ATP but excellent for biomass. By running glycolysis rapidly but stopping at Lactate, intermediates like G6P and 3-PG accumulate and are shunted into the **Pentose Phosphate Pathway** (nucleotides) and amino acid synthesis, supporting rapid cell division."
+          },
+          {
+            "question": "A patient with a mild deficiency of Erythrocyte Pyruvate Kinase compensates by increasing 2,3-BPG levels. How does this compensation help the patient?",
+            "options": [
+              "It increases ATP production.",
+              "It prevents hemolysis.",
+              "It facilitates Oxygen unloading to tissues by shifting the dissociation curve right.",
+              "It increases the pH of the blood.",
+              "It regenerates NAD+."
+            ],
+            "correct": 2,
+            "explanation": "High **2,3-BPG** binds to Deoxy-Hb, stabilizing the T-state. This reduces oxygen affinity (Right Shift). In anemic patients, this adaptation allows the remaining RBCs to **release oxygen more efficiently** to the tissues, mitigating the hypoxia caused by the anemia."
+          },
+          {
+            "question": "A child has a defect in the Pyruvate Dehydrogenase Complex (PDH). He presents with lactic acidosis and neurological defects. The physician prescribes a Ketogenic Diet (high fat, low carb). Why is this beneficial?",
+            "options": [
+              "It forces the brain to use Glucose.",
+              "It provides fatty acids and ketone bodies (Acetyl-CoA) that can enter the TCA cycle, bypassing the blocked PDH step.",
+              "It increases Insulin.",
+              "It stimulates Glycolysis.",
+              "It provides Pyruvate."
+            ],
+            "correct": 1,
+            "explanation": "PDH converts Pyruvate to Acetyl-CoA. If blocked, Pyruvate builds up to Lactate (Acidosis), and the brain is starved of energy. A **Ketogenic Diet** provides fat/ketones. Ketones can be converted to **Acetyl-CoA** in the brain, bypassing the PDH block and feeding the TCA cycle for energy."
+          },
+          {
+            "question": "A patient with Essential Fructosuria is asymptomatic and detected incidentally by reducing substances in urine. This benign condition is due to a deficiency in Fructokinase. Why is this benign compared to Aldolase B deficiency?",
+            "options": [
+              "Fructose is toxic.",
+              "Fructose is simply excreted or metabolized by Hexokinase in non-liver tissues, without trapping phosphate or toxic intermediates.",
+              "Fructokinase is not an important enzyme.",
+              "The liver can make Fructokinase.",
+              "Aldolase B is needed for glycolysis."
+            ],
+            "correct": 1,
+            "explanation": "In **Fructokinase deficiency**, Fructose is not phosphorylated. It remains free Fructose. This is not toxic; it stays in the blood and is excreted (Fructosuria) or slowly phosphorylated by Hexokinase in muscle. In contrast, Aldolase B deficiency creates **Fructose-1-P**, a toxic phosphate trap."
+          },
+          {
+            "question": "A newborn has chronic granulomatous disease (CGD). His neutrophils can ingest bacteria but cannot kill them because the NADPH Oxidase system is defective. This enzyme requires NADPH to produce:",
+            "options": [
+              "ATP",
+              "Superoxide Radicals (Respiratory Burst)",
+              "Nitric Oxide",
+              "Hypochlorous Acid directly",
+              "Water"
+            ],
+            "correct": 1,
+            "explanation": "NADPH Oxidase takes electrons from NADPH and transfers them to molecular Oxygen ($O_2$) to create **Superoxide ($O_2^-$)**. This 'Respiratory Burst' is the precursor for other ROS (like Hydrogen Peroxide and Hypochlorite) used to kill phagocytosed bacteria."
+          },
+          {
+            "question": "Patients with Type 1 GSD (Von Gierke) are advised to consume uncooked cornstarch at night. The purpose of this treatment is to:",
+            "options": [
+              "Provide a slow-release source of glucose to maintain blood sugar during the overnight fast.",
+              "Inhibit glycogen synthesis.",
+              "Provide fructose.",
+              "Treat the gout.",
+              "Acidify the stomach."
+            ],
+            "correct": 0,
+            "explanation": "Since these patients cannot mobilize liver glycogen, they are at risk of severe hypoglycemia as soon as intestinal absorption of their last meal finishes (3-4 hours). **Uncooked cornstarch** is a complex, slowly digested carbohydrate that releases glucose into the gut over 6-8 hours, preventing overnight hypoglycemia."
+          },
+          {
+            "question": "In the process of ethanol metabolism, Acetyl-CoA accumulates. This excess Acetyl-CoA is converted into Ketone Bodies (Ketogenesis). Which organ is the primary site of Ketone Body synthesis?",
+            "options": [
+              "Brain",
+              "Muscle",
+              "Liver",
+              "Kidney",
+              "Heart"
+            ],
+            "correct": 2,
+            "explanation": "The **Liver** is the sole site of Ketone Body synthesis (mitochondrial matrix). However, the liver lacks the enzyme (Thiophorase) to *use* ketones. It makes them for export to peripheral tissues (Brain, Heart, Muscle)."
+          },
+          {
+            "question": "A patient taking sulfonamide antibiotics develops hemolytic anemia. Sulfonamides can displace bilirubin from albumin, but they are also oxidants. If the patient has G6PD deficiency, the hemolysis is due to the failure to regenerate:",
+            "options": [
+              "Oxidized Glutathione (GSSG)",
+              "Reduced Glutathione (GSH)",
+              "NADH",
+              "FADH2",
+              "Biotin"
+            ],
+            "correct": 1,
+            "explanation": "NADPH is used to reduce GSSG back to **GSH (Reduced Glutathione)** via Glutathione Reductase. GSH is the essential antioxidant. Without G6PD $\rightarrow$ No NADPH $\rightarrow$ No GSH $\rightarrow$ Oxidative damage."
+          },
+          {
+            "question": "During starvation, the kidney plays a role in maintaining blood glucose. After several days of fasting, the kidney contributes significantly to Gluconeogenesis using which substrate derived from muscle protein breakdown?",
+            "options": [
+              "Glutamine",
+              "Fatty Acids",
+              "Urea",
+              "Creatine",
+              "Ketones"
+            ],
+            "correct": 0,
+            "explanation": "In prolonged starvation, the kidney cortex becomes a major gluconeogenic organ (up to 40% of glucose). It utilizes **Glutamine** (from muscle proteolysis). Glutamine provides the carbon skeleton for glucose and the ammonia is used to buffer urine pH."
+          },
+          {
+            "question": "A patient with Cori Disease (Type III GSD) has hepatomegaly and hypoglycemia. Unlike Type I (Von Gierke), Type III patients usually have normal levels of:",
+            "options": [
+              "Glycogen",
+              "Lactate and Uric Acid",
+              "Cholesterol",
+              "Liver enzymes",
+              "Ketones"
+            ],
+            "correct": 1,
+            "explanation": "In Type III (Debranching deficiency), Gluconeogenesis is intact. Therefore, lactate can be cleared by the liver (Cori cycle functions). In Type I, both Glycogenolysis and Gluconeogenesis are blocked at the final step, trapping Lactate. Thus, Type III typically presents **without Lactic Acidosis or significant Hyperuricemia**."
+          },
+          {
+            "question": "A runner sprinting the 100m dash relies primarily on stored muscle phosphocreatine and:",
+            "options": [
+              "Aerobic oxidation of fatty acids.",
+              "Anaerobic Glycolysis (from Muscle Glycogen).",
+              "Liver Gluconeogenesis.",
+              "Protein catabolism.",
+              "Ketone bodies."
+            ],
+            "correct": 1,
+            "explanation": "High-intensity, short-duration exercise exceeds the oxygen supply. The muscle relies on **Anaerobic Glycolysis** breaking down its own glycogen stores to Lactate to generate rapid ATP."
+          },
+          {
+            "question": "A patient with diabetes has high intracellular glucose in tissues that do not depend on insulin (Lens, Nerve, Kidney). This excess glucose enters the Polyol Pathway, where Aldose Reductase converts Glucose to:",
+            "options": [
+              "Fructose",
+              "Sorbitol",
+              "Galactitol",
+              "Mannitol",
+              "Ribose"
+            ],
+            "correct": 1,
+            "explanation": "Aldose Reductase reduces Glucose to **Sorbitol**. Sorbitol is osmotically active and trapped (turns over slowly). Its accumulation draws water into the cells, causing osmotic damage (Cataracts, Neuropathy, Nephropathy)."
+          },
+          {
+            "question": "When Fructose-2,6-Bisphosphate levels are high in the liver, flux through the glycolytic pathway is:",
+            "options": [
+              "Inhibited",
+              "Stimulated",
+              "Unchanged",
+              "Reversed",
+              "Directed to PPP"
+            ],
+            "correct": 1,
+            "explanation": "High F-2,6-BP is the signal for 'Fed State'. It allosterically **stimulates PFK-1**, pushing metabolism toward **Glycolysis**."
+          },
+          {
+            "question": "A patient presents with Arsenic poisoning. Arsenic binds to Lipoic Acid. This would inhibit which complex, leading to an accumulation of Pyruvate and Lactate?",
+            "options": [
+              "Pyruvate Dehydrogenase Complex (PDH)",
+              "Succinate Dehydrogenase",
+              "Malate Dehydrogenase",
+              "Hexokinase",
+              "Pyruvate Carboxylase"
+            ],
+            "correct": 0,
+            "explanation": "Lipoic Acid is a specific cofactor for E2 subunits of alpha-keto acid dehydrogenases (**PDH** and Alpha-Ketoglutarate DH). Arsenic binds thiol groups on Lipoic Acid, inactivating PDH. Pyruvate cannot become Acetyl-CoA, so it is shunted to Lactate."
+          },
+          {
+            "question": "Why does a deficiency in Vitamin B1 (Thiamine) cause Lactic Acidosis?",
+            "options": [
+              "Thiamine is needed for Lactate Dehydrogenase.",
+              "Thiamine is a cofactor for Pyruvate Dehydrogenase; without it, Pyruvate accumulates and is converted to Lactate.",
+              "Thiamine inhibits glycolysis.",
+              "Thiamine is needed for the electron transport chain.",
+              "Thiamine prevents glucose uptake."
+            ],
+            "correct": 1,
+            "explanation": "**PDH** requires Thiamine (TPP). If PDH fails, aerobic oxidation of pyruvate stops. The backup of pyruvate forces it into the LDH reaction, producing **Lactate**."
+          },
+          {
+            "question": "In the liver, conversion of Lactate back to Pyruvate requires NAD+. If the alcoholic patient has a high NADH/NAD+ ratio, this reaction is:",
+            "options": [
+              "Favored",
+              "Inhibited",
+              "Unchanged",
+              "Reversed to form Acetyl-CoA",
+              "Coupled to ATP synthesis"
+            ],
+            "correct": 1,
+            "explanation": "The LDH reaction is determined by mass action. High NADH pushes the equilibrium toward Lactate ($Pyruvate + NADH \rightarrow Lactate$). Therefore, the conversion of Lactate back to Pyruvate (for gluconeogenesis) is **Inhibited**. This contributes to the lactic acidosis seen in alcoholics."
+          },
+          {
+            "question": "A breast cancer patient is found to have increased expression of GLUT1 and Hexokinase II. A PET scan uses a radioactive analog of glucose (FDG) to image the tumor. FDG is phosphorylated but cannot proceed further. It accumulates because:",
+            "options": [
+              "Tumors lack Phosphatases to remove the phosphate.",
+              "Tumors have no blood flow.",
+              "Tumors only use Fructose.",
+              "Tumors are dead.",
+              "FDG binds to DNA."
+            ],
+            "correct": 0,
+            "explanation": "Warburg Effect. Cancer cells take up massive amounts of glucose. FDG is phosphorylated to FDG-6-P. It cannot be metabolized by PFK-1 (missing hydroxyl). Because cancer cells trap the FDG-6-P (and lack **G-6-Phosphatase** to release it), the radioactivity concentrates in the tumor, allowing imaging."
+          },
+          {
+            "question": "A defect in the gene for the GLUT2 transporter (Fanconi-Bickel Syndrome) results in glycogen accumulation in the liver and kidney. Why?",
+            "options": [
+              "Glucose cannot enter the cell.",
+              "Glucose and Galactose cannot exit the cell after glycogenolysis/gluconeogenesis.",
+              "Insulin is not secreted.",
+              "Glycogen synthase is hyperactive.",
+              "Lysosomes are defective."
+            ],
+            "correct": 1,
+            "explanation": "**GLUT2** is the bidirectional transporter for the Liver and Pancreas. After glycogen is broken down to free glucose, it must exit via GLUT2 to raise blood sugar. If GLUT2 is defective, glucose is trapped inside, leading to hepatomegaly (glycogen buildup) and fasting hypoglycemia."
+          },
+          {
+            "question": "A 2-year-old boy presents with failure to thrive, severe developmental delay, and recurrent seizures. Laboratory analysis reveals profound lactic acidosis and elevated serum alanine. A muscle biopsy shows normal mitochondrial structure, but enzyme activity assays reveal a deficiency in the E1 subunit of the Pyruvate Dehydrogenase Complex (PDH). The physician prescribes a ketogenic diet. This diet is beneficial because it provides metabolites that can directly enter the Citric Acid Cycle as:",
+            "options": [
+              "Pyruvate",
+              "Citrate",
+              "Acetyl-CoA",
+              "Oxaloacetate",
+              "Malate"
+            ],
+            "correct": 2,
+            "explanation": "PDH deficiency blocks the conversion of Pyruvate to Acetyl-CoA, leading to a buildup of Pyruvate (shunted to Lactate/Alanine) and a lack of Acetyl-CoA to fuel the TCA cycle. Ketogenic diets (high fat, low carb) provide fatty acids and ketone bodies, which are metabolized directly into **Acetyl-CoA**, bypassing the defective PDH step and restoring energy production."
+          },
+          {
+            "question": "A 24-year-old female is brought to the Emergency Department after being rescued from a house fire. She is unconscious and has 'cherry-red' skin. Her oxygen saturation by pulse oximetry is 99%, but her arterial blood gas shows severe metabolic acidosis. She is treated with Hydroxocobalamin. The toxic agent causing her symptoms inhibits oxidative phosphorylation by binding to:",
+            "options": [
+              "The Iron-Sulfur clusters of Complex I.",
+              "The Heme a3-CuB binuclear center of Cytochrome c Oxidase (Complex IV).",
+              "The F1 subunit of ATP Synthase.",
+              "Ubiquinone.",
+              "The Adenine Nucleotide Translocase."
+            ],
+            "correct": 1,
+            "explanation": "This is **Cyanide poisoning** (common in house fires from burning plastics). Cyanide binds with high affinity to the Ferric ($Fe^{3+}$) iron in the Heme $a_3$ center of **Complex IV**, preventing electron transfer to oxygen. Treatment involves Hydroxocobalamin (binds cyanide) or Nitrites (induce Methemoglobin to sequester cyanide)."
+          },
+          {
+            "question": "A 45-year-old alcoholic male presents with high-output heart failure (Wet Beriberi). He has edema and dilated cardiomyopathy. His condition is caused by a deficiency in Thiamine (Vitamin B1). Which of the following mitochondrial enzymes is most likely impaired, contributing to his myocardial energy failure?",
+            "options": [
+              "Succinate Dehydrogenase",
+              "Malate Dehydrogenase",
+              "Alpha-Ketoglutarate Dehydrogenase",
+              "Isocitrate Dehydrogenase",
+              "Citrate Synthase"
+            ],
+            "correct": 2,
+            "explanation": "Thiamine Pyrophosphate (TPP) is a required cofactor for alpha-keto acid dehydrogenases. In the TCA cycle, **Alpha-Ketoglutarate Dehydrogenase** requires TPP. Its failure blocks the cycle, reducing ATP production significantly, which affects the high-energy demand of the heart."
+          },
+          {
+            "question": "A 30-year-old female attempting to lose weight ingests an unknown herbal supplement purchased online. She develops hyperthermia (105°F), tachycardia, and diaphoresis. She dies of cardiac arrest. Toxicology analysis reveals the presence of 2,4-Dinitrophenol (DNP). At the molecular level, DNP caused death by:",
+            "options": [
+              "Irreversibly inhibiting Complex IV.",
+              "Blocking the proton pore of ATP synthase.",
+              "Dissipating the proton gradient across the inner mitochondrial membrane as a protonophore.",
+              "Inhibiting the transport of Pyruvate into the mitochondria.",
+              "Binding to Oxygen."
+            ],
+            "correct": 2,
+            "explanation": "DNP is a chemical **uncoupler**. It is lipophilic and can carry protons across the inner mitochondrial membrane, bypassing ATP synthase.  This collapses the proton motive force. The energy of respiration is released as **heat** (hyperthermia) rather than stored as ATP, leading to fatal energy depletion and overheating."
+          },
+          {
+            "question": "A 55-year-old farmer presents with garlic-scented breath, vomiting, and prolonged QTc interval on ECG. He mentions accidental exposure to a pesticide containing Arsenic. Arsenic inhibits the Pyruvate Dehydrogenase Complex by binding to which cofactor?",
+            "options": [
+              "Thiamine Pyrophosphate",
+              "Lipoic Acid",
+              "Coenzyme A",
+              "FAD",
+              "NAD+"
+            ],
+            "correct": 1,
+            "explanation": "Trivalent Arsenic (Arsenite) binds to the sulfhydryl groups of **Lipoic Acid**, forming a stable chelate. This inactivates enzymes that use Lipoamide (PDH, Alpha-Ketoglutarate DH, Branched-chain Alpha-ketoacid DH), halting aerobic metabolism."
+          },
+          {
+            "question": "A 6-month-old infant is evaluated for developmental regression and seizures. MRI of the brain shows bilateral symmetric lesions in the basal ganglia. Genetic testing confirms Leigh Syndrome with a mutation in the ATP6 gene. This gene encodes a subunit of:",
+            "options": [
+              "Complex I (NADH Dehydrogenase)",
+              "Complex II (Succinate Dehydrogenase)",
+              "Complex III (Cytochrome c Reductase)",
+              "Complex IV (Cytochrome c Oxidase)",
+              "Complex V (ATP Synthase)"
+            ],
+            "correct": 4,
+            "explanation": "Leigh Syndrome (Subacute Necrotizing Encephalomyelopathy) is a severe mitochondrial disorder. While it can be caused by defects in PDH or other complexes, the ATP6 gene specifically encodes the $F_o$ subunit of **ATP Synthase (Complex V)**, preventing ATP synthesis."
+          },
+          {
+            "question": "A 35-year-old male with a history of palpitations is diagnosed with a Paraganglioma (a tumor of the carotid body). Genetic analysis reveals a loss-of-function mutation in a subunit of Succinate Dehydrogenase (Complex II). Metabolic profiling of the tumor would likely show accumulation of:",
+            "options": [
+              "Citrate",
+              "Isocitrate",
+              "Succinate",
+              "Fumarate",
+              "Malate"
+            ],
+            "correct": 2,
+            "explanation": "Succinate Dehydrogenase converts Succinate to Fumarate. A loss-of-function mutation causes a backup, leading to high levels of **Succinate**. Accumulated Succinate inhibits prolyl hydroxylases, stabilizing HIF-1alpha and promoting tumorigenesis (Pseudohypoxia)."
+          },
+          {
+            "question": "A patient with Type 2 Diabetes is taking Metformin. Lactic acidosis is a rare but serious side effect. This occurs because Metformin mildly inhibits Complex I of the ETC. This inhibition leads to:",
+            "options": [
+              "Increased ATP production.",
+              "Decreased NADH/NAD+ ratio.",
+              "Increased NADH/NAD+ ratio, which inhibits the conversion of Lactate to Pyruvate.",
+              "Activation of Pyruvate Carboxylase.",
+              "Increased gluconeogenesis."
+            ],
+            "correct": 2,
+            "explanation": "Inhibiting Complex I slows NADH oxidation, raising the **NADH/NAD+ ratio**. High NADH inhibits the conversion of Lactate back to Pyruvate (Gluconeogenesis precursor) in the liver. Consequently, Lactate accumulates in the blood."
+          },
+          {
+            "question": "A 60-year-old male with hyperlipidemia complains of severe muscle pain and weakness. He is taking Atorvastatin. His serum Creatine Kinase (CK) is elevated. The myotoxicity is partly attributed to the depletion of a mitochondrial electron carrier derived from the HMG-CoA reductase pathway. What is this carrier?",
+            "options": [
+              "Cytochrome c",
+              "Coenzyme Q (Ubiquinone)",
+              "NADH",
+              "FAD",
+              "Iron-Sulfur clusters"
+            ],
+            "correct": 1,
+            "explanation": "Statins inhibit HMG-CoA Reductase, which produces Mevalonate. Mevalonate is the precursor for both Cholesterol and the isoprenoid side chain of **Coenzyme Q (Ubiquinone)**. Statin use can deplete muscle CoQ10 levels, impairing ETC function."
+          },
+          {
+            "question": "A 1-year-old girl presents with hypotonia and lactic acidosis. Pyruvate Carboxylase deficiency is diagnosed. In this condition, the TCA cycle stops because of the inability to replenish:",
+            "options": [
+              "Acetyl-CoA",
+              "Citrate",
+              "Oxaloacetate",
+              "Alpha-Ketoglutarate",
+              "Succinyl-CoA"
+            ],
+            "correct": 2,
+            "explanation": "Pyruvate Carboxylase is the primary anaplerotic enzyme in the liver. It converts Pyruvate to **Oxaloacetate**. Without OAA, Acetyl-CoA cannot condense to form Citrate, stalling the TCA cycle and forcing Pyruvate toward Lactate."
+          },
+          {
+            "question": "A 28-year-old male presents with sudden painless loss of vision in one eye, followed by the other. He is diagnosed with Leber Hereditary Optic Neuropathy (LHON). This disease is caused by a point mutation in mitochondrial DNA affecting:",
+            "options": [
+              "Complex I (NADH Dehydrogenase)",
+              "Complex II",
+              "Complex III",
+              "ATP Synthase",
+              "Pyruvate Dehydrogenase"
+            ],
+            "correct": 0,
+            "explanation": "LHON is a classic mitochondrial disease (maternal inheritance). The most common mutations affect the ND1, ND4, or ND6 subunits of **Complex I**. This leads to defective NADH oxidation and insufficient ATP generation in the highly energetic optic nerve."
+          },
+          {
+            "question": "An autopsy of a patient who died from Carbon Monoxide (CO) poisoning reveals necrosis of the globus pallidus. CO exerts its cellular toxicity primarily by:",
+            "options": [
+              "Uncoupling mitochondria.",
+              "Inhibiting Complex II.",
+              "Competing with Oxygen for the binding site on Cytochrome c Oxidase (Complex IV).",
+              "Binding to Coenzyme Q.",
+              "Inhibiting Glycolysis."
+            ],
+            "correct": 2,
+            "explanation": "While CO binds Hemoglobin (hypoxia), it also diffuses into tissues and binds the Heme $a_3$ iron of **Complex IV** with high affinity, competitively inhibiting Oxygen binding and halting respiration."
+          },
+          {
+            "question": "A researcher treats isolated mitochondria with Rotenone. She observes that oxygen consumption stops when Pyruvate is the substrate. However, when she adds Succinate, oxygen consumption resumes. This is because:",
+            "options": [
+              "Rotenone inhibits Complex II.",
+              "Rotenone inhibits Complex I, but Succinate donates electrons to Complex II, bypassing the block.",
+              "Rotenone inhibits ATP Synthase.",
+              "Succinate is an uncoupler.",
+              "Succinate activates Complex I."
+            ],
+            "correct": 1,
+            "explanation": "Rotenone specifically blocks **Complex I**. Pyruvate generates NADH, which enters at Complex I (blocked). Succinate generates FADH2, which enters at **Complex II**. Since Complex II is downstream of the block, electron transport from Succinate to Oxygen can proceed."
+          },
+          {
+            "question": "A patient with Vitamin B2 (Riboflavin) deficiency presents with cheilosis and glossitis. In the TCA cycle, Riboflavin is an integral component of the cofactor FAD, which is covalently bound to:",
+            "options": [
+              "Citrate Synthase",
+              "Isocitrate Dehydrogenase",
+              "Succinate Dehydrogenase",
+              "Malate Dehydrogenase",
+              "Fumarase"
+            ],
+            "correct": 2,
+            "explanation": "**Succinate Dehydrogenase** (Complex II) contains a covalently bound **FAD** prosthetic group. It passes electrons from Succinate $\rightarrow$ FAD $\rightarrow$ Fe-S clusters $\rightarrow$ Ubiquinone."
+          },
+          {
+            "question": "A 5-year-old boy with mitochondrial myopathy (MERRF syndrome) has ragged red fibers on muscle biopsy. These fibers appear red because:",
+            "options": [
+              "They are full of blood.",
+              "They contain accumulated glycogen.",
+              "They contain subsarcolemmal aggregates of abnormal mitochondria.",
+              "They are necrotic.",
+              "They are stained with Congo Red."
+            ],
+            "correct": 2,
+            "explanation": "In mitochondrial diseases, cells attempt to compensate for low energy by proliferating their mitochondria. These abnormal mitochondria accumulate under the plasma membrane, staining red with Gomori Trichrome stain (**Ragged Red Fibers**)."
+          },
+          {
+            "question": "A patient with ischemia-reperfusion injury suffers tissue damage due to the generation of Reactive Oxygen Species (ROS). Which ETC complex is a major site of superoxide radical production, especially when electron flow is stalled?",
+            "options": [
+              "Complex I and Complex III",
+              "Complex II and Complex IV",
+              "Complex IV only",
+              "Complex V",
+              "Complex II only"
+            ],
+            "correct": 0,
+            "explanation": "When the ETC is highly reduced (stalled), electrons can leak prematurely to oxygen to form Superoxide ($O_2^{\\bullet-}$). The primary sites for this leakage are the FMN site of **Complex I** and the Q-cycle intermediate (semiquinone) of **Complex III**."
+          },
+          {
+            "question": "Antimycin A is added to a suspension of respiring mitochondria. Measurements show that Cytochromes b are reduced, while Cytochromes c and a/a3 are oxidized. Antimycin A inhibits:",
+            "options": [
+              "Complex I",
+              "Complex II",
+              "Complex III",
+              "Complex IV",
+              "ATP Synthase"
+            ],
+            "correct": 2,
+            "explanation": "The block must be between the reduced components (upstream) and oxidized components (downstream). Since Cytochrome b (in Complex III) is reduced and Cytochrome c (after Complex III) is oxidized, the block is within **Complex III**."
+          },
+          {
+            "question": "A newborn has a defect in the Pyruvate Dehydrogenase Phosphatase enzyme. This results in PDH being constitutively phosphorylated. The clinical phenotype would include:",
+            "options": [
+              "High Acetyl-CoA levels.",
+              "Lactic Acidosis due to inactive PDH.",
+              "Hypoglycemia.",
+              "Increased Krebs cycle activity.",
+              "Low Pyruvate levels."
+            ],
+            "correct": 1,
+            "explanation": "PDH Kinase phosphorylates and *inactivates* PDH. PDH Phosphatase removes the phosphate to *activate* it. If the Phosphatase is defective, PDH remains phosphorylated (**Inactive**). Pyruvate cannot become Acetyl-CoA and is shunted to Lactate, causing **Lactic Acidosis**."
+          },
+          {
+            "question": "A patient with Iron Deficiency Anemia complains of severe fatigue. In addition to low hemoglobin, fatigue is caused by the dysfunction of Iron-containing ETC complexes. Which complex contains Heme groups (Cytochromes)?",
+            "options": [
+              "Complex I",
+              "Complex II",
+              "Complex III and IV",
+              "Complex V",
+              "All complexes"
+            ],
+            "correct": 2,
+            "explanation": "Iron is essential for Iron-Sulfur clusters (I, II, III) and **Heme** groups. Hemes are found in Cytochromes within **Complex III** (Cytochromes b, c1) and **Complex IV** (Cytochromes a, a3)."
+          },
+          {
+            "question": "Oligomycin is used in a research setting. It stops Oxygen consumption in mitochondria. If DNP (an uncoupler) is subsequently added, Oxygen consumption resumes rapidly. This proves that:",
+            "options": [
+              "Oligomycin inhibits the ETC directly.",
+              "Oligomycin inhibits ATP Synthase, but the ETC is functional if uncoupled.",
+              "Oligomycin inhibits Oxygen binding.",
+              "DNP activates ATP Synthase.",
+              "Mitochondria are dead."
+            ],
+            "correct": 1,
+            "explanation": "Oligomycin blocks the $H^+$ channel of ATP Synthase. This causes the proton gradient to maximize, halting the ETC (Respiratory Control). Adding **DNP** dissipates the gradient. The ETC, freed from the back-pressure of the gradient, resumes pumping protons (consuming Oxygen) even though ATP synthesis remains blocked."
+          },
+          {
+            "question": "A 50-year-old male with chronic alcohol use disorder presents with confusion and ataxia. He is diagnosed with Wernicke Encephalopathy. Which metabolite will accumulate in his blood due to the impaired function of Alpha-Ketoglutarate Dehydrogenase?",
+            "options": [
+              "Citrate",
+              "Isocitrate",
+              "Alpha-Ketoglutarate",
+              "Succinate",
+              "Fumarate"
+            ],
+            "correct": 2,
+            "explanation": "Alpha-KGDH requires Thiamine. In deficiency, the enzyme fails, leading to the accumulation of its substrate, **Alpha-Ketoglutarate**, and Glutamate (via transamination)."
+          },
+          {
+            "question": "Brown Adipose Tissue is metabolically active in patients with Pheochromocytoma (catecholamine-secreting tumor). Norepinephrine stimulates thermogenesis in brown fat by:",
+            "options": [
+              "Opening Calcium channels.",
+              "Activating the Beta-3 adrenergic receptor, increasing cAMP, activating Lipase, freeing fatty acids which activate UCP1 (Thermogenin).",
+              "Inhibiting the ETC.",
+              "Blocking ATP synthase.",
+              "Increasing glycolysis."
+            ],
+            "correct": 1,
+            "explanation": "Norepinephrine binds $\\beta_3$ receptors $\\rightarrow$ cAMP $\\rightarrow$ PKA $\\rightarrow$ Lipolysis. The released Free Fatty Acids serve two roles: fuel for beta-oxidation and physiological **activators of UCP1**, opening the proton gate to generate heat."
+          },
+          {
+            "question": "A patient with severe hypoxia (cardiac arrest) has high intracellular Lactate. Upon successful resuscitation and reperfusion, the Lactate is converted back to Pyruvate. This reversal is chemically driven by:",
+            "options": [
+              "High ATP levels.",
+              "The restoration of Oxygen allows the ETC to oxidize NADH to NAD+, lowering the NADH/NAD+ ratio.",
+              "High pH.",
+              "Pyruvate Carboxylase.",
+              "CO2 release."
+            ],
+            "correct": 1,
+            "explanation": "The LDH reaction is reversible. During hypoxia, high NADH drives Pyruvate $\\rightarrow$ Lactate. Upon oxygenation, the ETC clears the NADH backlog, regenerating **NAD+**. The low NADH/NAD+ ratio drives the reaction in reverse: Lactate $\\rightarrow$ Pyruvate."
+          },
+          {
+            "question": "Bongkrekic Acid is a toxin produced in fermented coconut. It inhibits the Adenine Nucleotide Translocase (ANT). This results in:",
+            "options": [
+              "Fixing the ANT in the 'matrix-facing' conformation, preventing ATP exit and ADP entry.",
+              "Uncoupling the membrane.",
+              "Inhibiting Complex I.",
+              "Activating ATP synthase.",
+              "Blocking phosphate entry."
+            ],
+            "correct": 0,
+            "explanation": "Bongkrekic acid inhibits ANT, locking it in a specific conformation. Without ADP entering the matrix, ATP Synthase runs out of substrate. Respiration stops due to respiratory control. (Contrast with Atractyloside which locks it in the cytoplasmic conformation; result is the same—transport failure)."
+          },
+          {
+            "question": "A researcher discovers a new compound that increases ATP production but decreases Oxygen consumption. This compound likely:",
+            "options": [
+              "Is an uncoupler.",
+              "Is an ETC inhibitor.",
+              "Is thermodynamically impossible (violates laws of bioenergetics).",
+              "Improves the efficiency of ATP Synthase.",
+              "Bypasses Complex I."
+            ],
+            "correct": 2,
+            "explanation": "You cannot make *more* energy (ATP) while consuming *less* fuel/oxidant (Oxygen). P/O ratios have theoretical maximums. A compound that does this would violate the First Law of Thermodynamics."
+          },
+          {
+            "question": "In a patient with Malate Dehydrogenase deficiency (rare), the entry of electrons from cytosolic NADH (Glycolysis) into the mitochondria would be impaired because:",
+            "options": [
+              "Malate cannot be converted to Oxaloacetate in the matrix to complete the shuttle.",
+              "Malate cannot cross the membrane.",
+              "Aspartate cannot be formed.",
+              "Glutamate is depleted.",
+              "Citrate synthase is inhibited."
+            ],
+            "correct": 0,
+            "explanation": "The Malate-Aspartate shuttle relies on cytosolic Malate DH reducing OAA to Malate (consuming cytosolic NADH), and mitochondrial **Malate DH** oxidizing Malate back to OAA (generating matrix NADH). If the mitochondrial enzyme is defective, the shuttle stops, and cytosolic NADH cannot be oxidized aerobically."
+          },
+          {
+            "question": "Fluoroacetate poisoning inhibits Aconitase. This leads to the accumulation of Citrate. High Citrate levels will inhibit which glycolytic enzyme, shutting down glucose catabolism?",
+            "options": [
+              "Hexokinase",
+              "Phosphofructokinase-1 (PFK-1)",
+              "Pyruvate Kinase",
+              "Aldolase",
+              "Enolase"
+            ],
+            "correct": 1,
+            "explanation": "Citrate is a signal of high energy/biosynthetic precursor abundance. It escapes the mitochondria and allosterically inhibits **PFK-1**, the rate-limiting step of glycolysis. This coordinates the two pathways: if the TCA cycle is backed up (high Citrate), glycolysis stops feeding it."
+          },
+          {
+            "question": "A patient with Biotinidase deficiency cannot recycle Biotin. This leads to multiple carboxylase deficiencies. Which TCA cycle-related anaplerotic reaction is directly impaired?",
+            "options": [
+              "Pyruvate to Acetyl-CoA",
+              "Pyruvate to Oxaloacetate",
+              "Succinate to Fumarate",
+              "Malate to OAA",
+              "Citrate to Isocitrate"
+            ],
+            "correct": 1,
+            "explanation": "**Pyruvate Carboxylase** requires Biotin. Without it, Pyruvate cannot be converted to **Oxaloacetate**. This depletes TCA intermediates and causes hypoglycemia (gluconeogenesis failure) and lactic acidosis."
+          },
+          {
+            "question": "Hypoxia Inducible Factor (HIF-1alpha) allows cells to survive low oxygen. It does this by upregulating:",
+            "options": [
+              "Complex IV and TCA enzymes.",
+              "Pyruvate Dehydrogenase.",
+              "GLUT1, Glycolytic enzymes, and LDH Kinase (to inhibit PDH).",
+              "Fatty Acid oxidation.",
+              "Uncoupling proteins."
+            ],
+            "correct": 2,
+            "explanation": "In hypoxia, oxidative phosphorylation fails. HIF-1alpha switches the cell to anaerobic metabolism. It upregulates **Glucose import (GLUT1)** and **Glycolysis** for ATP. Crucially, it upregulates **PDK (PDH Kinase)** to inhibit PDH, preventing Pyruvate from entering the mitochondria, thereby reducing ROS production and shunting pyruvate to lactate."
+          },
+          {
+            "question": "Ischemic-Reperfusion injury can damage the mitochondrial permeability transition pore (MPTP). Opening of the MPTP leads to:",
+            "options": [
+              "Increased ATP synthesis.",
+              "Loss of proton gradient, mitochondrial swelling, rupture of the outer membrane, and release of Cytochrome c (Apoptosis).",
+              "Faster electron transport.",
+              "Increased calcium uptake.",
+              "Stabilization of the membrane."
+            ],
+            "correct": 1,
+            "explanation": "The **MPTP** is a non-specific pore. When it opens (due to Ca2+ overload and ROS during reperfusion), the inner membrane becomes permeable to everything. The proton gradient collapses (uncoupling), water rushes in (swelling), and the outer membrane bursts, releasing apoptotic factors like Cytochrome c."
+          },
+          {
+            "question": "A 2-year-old child presents with lethargy, vomiting, and seizures after a viral illness caused him to miss meals for 24 hours. Blood work reveals severe hypoglycemia, low ketones (hypoketotic), and high C8-C10 acylcarnitines. Which enzyme deficiency is most likely?",
+            "options": [
+              "Carnitine Palmitoyltransferase I (CPT-I)",
+              "Medium-Chain Acyl-CoA Dehydrogenase (MCAD)",
+              "Pyruvate Carboxylase",
+              "HMG-CoA Lyase",
+              "Acyl-CoA Synthetase"
+            ],
+            "correct": 1,
+            "explanation": "**MCAD Deficiency** is the most common disorder of fatty acid oxidation. Fasting requires fat breakdown. The inability to oxidize medium-chain fats leads to energy failure (hypoglycemia) and, crucially, a failure to produce ketones (**Hypoketotic Hypoglycemia**). The accumulation of medium-chain carnitines (C8-C10) is diagnostic."
+          },
+          {
+            "question": "A 10-year-old boy presents with muscle weakness and cardiomyopathy. Muscle biopsy shows accumulation of lipid droplets. Serum carnitine levels are extremely low. He responds well to oral carnitine supplementation. The defect is likely in:",
+            "options": [
+              "The Plasma Membrane Carnitine Transporter (Systemic Primary Carnitine Deficiency)",
+              "CPT-I",
+              "CPT-II",
+              "Muscle Phosphorylase",
+              "MCAD"
+            ],
+            "correct": 0,
+            "explanation": "Primary Carnitine Deficiency is caused by a defect in the transporter (OCTN2) that reabsorbs carnitine in the kidney and moves it into cells. This leads to systemic depletion. Without carnitine, LCFA cannot enter mitochondria for fuel, causing lipid storage myopathy and cardiomyopathy."
+          },
+          {
+            "question": "A patient with Type 1 Diabetes is brought to the ER in a coma. His breath smells fruity. Lab results: Blood Glucose 500 mg/dL, pH 7.1, Bicarbonate 10 mEq/L, and massive ketonuria. The accelerated ketogenesis is driven primarily by:",
+            "options": [
+              "High Insulin levels.",
+              "Low Glucagon levels.",
+              "Unchecked lipolysis increasing Acetyl-CoA, while OAA is depleted for gluconeogenesis.",
+              "Increased activity of Acetyl-CoA Carboxylase.",
+              "Inhibition of CPT-I."
+            ],
+            "correct": 2,
+            "explanation": "In **DKA**, low insulin/high glucagon drives massive lipolysis. The flood of fatty acids produces Acetyl-CoA. However, OAA is depleted (used for gluconeogenesis). Acetyl-CoA cannot enter the TCA cycle and is shunted to **Ketogenesis**. The fruity breath is Acetone (spontaneous decarboxylation of acetoacetate)."
+          },
+          {
+            "question": "An infant presents with craniofacial abnormalities, hepatomegaly, and seizures. Blood tests show very high levels of Very Long Chain Fatty Acids (VLCFA). Electron microscopy of liver cells reveals an absence of peroxisomes. This is characteristic of:",
+            "options": [
+              "Refsum Disease",
+              "Zellweger Syndrome",
+              "X-linked Adrenoleukodystrophy",
+              "Tay-Sachs Disease",
+              "Gaucher Disease"
+            ],
+            "correct": 1,
+            "explanation": "**Zellweger Syndrome** is a peroxisome biogenesis disorder. Without peroxisomes, **VLCFAs** cannot be oxidized. They accumulate in neuronal membranes, causing severe neurological phenotypes and early death."
+          },
+          {
+            "question": "A tourist in Jamaica consumes 'Ackee fruit'. Hours later, he develops severe vomiting, hypoglycemia, and coma. The toxin Hypoglycin A causes these symptoms by inhibiting:",
+            "options": [
+              "Short and Medium Chain Acyl-CoA Dehydrogenases",
+              "Pyruvate Dehydrogenase",
+              "Fatty Acid Synthase",
+              "Carnitine Transporter",
+              "Glycogen Phosphorylase"
+            ],
+            "correct": 0,
+            "explanation": "Hypoglycin A is metabolized to a toxin that inhibits **Acyl-CoA Dehydrogenases** (specifically Butyryl-CoA DH and MCAD). This mimics a genetic oxidation defect: severe hypoglycemia due to inability to burn fat and depletion of glucose reserves. This is **Jamaican Vomiting Sickness**."
+          },
+          {
+            "question": "A teenager presents with night blindness, ataxia, and polyneuropathy. He has high levels of Phytanic acid in his blood. He is diagnosed with Refsum Disease. He is advised to avoid dairy and beef. The biochemical defect involves:",
+            "options": [
+              "Beta-oxidation",
+              "Alpha-oxidation",
+              "Omega-oxidation",
+              "Peroxisomal biogenesis",
+              "Fatty Acid Synthesis"
+            ],
+            "correct": 1,
+            "explanation": "Refsum disease is a defect in **Alpha-oxidation** (Phytanoyl-CoA hydroxylase). The branched Phytanic acid accumulates, incorporating into myelin and causing neurological damage."
+          },
+          {
+            "question": "A chronic alcoholic has a fatty liver (Steatosis). The accumulation of triglycerides is driven metabolically by:",
+            "options": [
+              "High NADH/NAD+ ratio inhibiting beta-oxidation and stimulating fat synthesis.",
+              "Increased export of VLDL.",
+              "Decreased absorption of fat.",
+              "Increased protein synthesis.",
+              "Activation of CPT-I."
+            ],
+            "correct": 0,
+            "explanation": "Alcohol metabolism generates massive **NADH**. High NADH inhibits beta-oxidation (which requires NAD+) and stimulates Glycerol-3-P production (backbone for fats). The excess Acetyl-CoA and reducing equivalents drive **lipogenesis**, depositing fat in the liver."
+          },
+          {
+            "question": "A vegan patient presents with fatigue and megaloblastic anemia. Urine analysis shows high Methylmalonic Acid. This indicates a deficiency in:",
+            "options": [
+              "Vitamin B12 (Cobalamin)",
+              "Folic Acid",
+              "Biotin",
+              "Vitamin B6",
+              "Iron"
+            ],
+            "correct": 0,
+            "explanation": "Methylmalonyl-CoA Mutase requires **Vitamin B12**. In deficiency, Methylmalonyl-CoA (from odd-chain fats) cannot convert to Succinyl-CoA. It accumulates as **Methylmalonic Acid**. (Folate deficiency causes anemia but NOT high methylmalonic acid)."
+          },
+          {
+            "question": "A patient consumes raw egg whites daily for months and develops dermatitis and alopecia. Lab tests show metabolic acidosis and accumulation of Propionyl-CoA. The inhibited enzyme is:",
+            "options": [
+              "Propionyl-CoA Carboxylase",
+              "Methylmalonyl-CoA Mutase",
+              "Acetyl-CoA Carboxylase",
+              "Pyruvate Dehydrogenase",
+              "Citrate Synthase"
+            ],
+            "correct": 0,
+            "explanation": "Avidin in raw eggs binds **Biotin**. Biotin is required by **Propionyl-CoA Carboxylase**. Failure of this step blocks the metabolism of odd-chain fats and branch-chain amino acids, causing Propionic Acidemia."
+          },
+          {
+            "question": "An infant presents with severe metabolic acidosis. Urine smells like 'sweaty feet'. The diagnosis is Isovaleric Acidemia. This is a defect in the catabolism of which branched-chain amino acid (pathway overlaps with fatty acid oxidation)?",
+            "options": [
+              "Leucine",
+              "Valine",
+              "Isoleucine",
+              "Phenylalanine",
+              "Lysine"
+            ],
+            "correct": 0,
+            "explanation": "Isovaleric Acidemia is a defect in Isovaleryl-CoA Dehydrogenase (a Leucine catabolism enzyme). The accumulated Isovaleric acid smells like **sweaty feet**."
+          },
+          {
+            "question": "A patient with CPT-II deficiency (Myopathic form) presents with muscle pain and myoglobinuria after prolonged exercise. Unlike MCAD deficiency, CPT-II deficiency specifically affects the oxidation of:",
+            "options": [
+              "Long-Chain Fatty Acids",
+              "Medium-Chain Fatty Acids",
+              "Short-Chain Fatty Acids",
+              "Ketone Bodies",
+              "Glucose"
+            ],
+            "correct": 0,
+            "explanation": "Medium and Short chain fats can enter mitochondria directly without the carnitine shuttle. **Long-Chain Fatty Acids** require the shuttle. CPT-II regenerates Acyl-CoA in the matrix. Its deficiency prevents LCFA oxidation, causing muscle energy failure during endurance activity."
+          },
+          {
+            "question": "A 40-year-old female with obesity tries a strict no-fat diet. After months, she develops dry, scaly skin and poor wound healing. This is due to a deficiency in:",
+            "options": [
+              "Palmitate",
+              "Linoleate and Linolenate (Essential Fatty Acids)",
+              "Cholesterol",
+              "Stearate",
+              "Oleate"
+            ],
+            "correct": 1,
+            "explanation": "Essential Fatty Acid deficiency leads to dermatitis. **Linoleic acid** (Omega-6) is required for skin barrier function (Ceramides) and Arachidonic acid synthesis."
+          },
+          {
+            "question": "In X-linked Adrenoleukodystrophy (X-ALD), the defect is in the ABCD1 transporter. This prevents the entry of VLCFA into:",
+            "options": [
+              "Mitochondria",
+              "Peroxisomes",
+              "Lysosomes",
+              "ER",
+              "Nucleus"
+            ],
+            "correct": 1,
+            "explanation": "ABCD1 transports VLCFA-CoA into the **Peroxisome** for degradation. Failure leads to VLCFA buildup, causing demyelination (adrenoleukodystrophy)."
+          },
+          {
+            "question": "A patient with liver failure has a breath odor of 'raw liver' (Fetor hepaticus) but also cannot produce ketone bodies during fasting. Why?",
+            "options": [
+              "HMG-CoA Synthase is only expressed in functional hepatocytes.",
+              "The brain consumes them too fast.",
+              "Fatty acids are not mobilized.",
+              "Insulin is too high.",
+              "Kidneys excrete them."
+            ],
+            "correct": 0,
+            "explanation": "Ketogenesis is a specialized function of the **liver**. In severe liver failure, the hepatocytes cannot synthesize **HMG-CoA Synthase/Lyase**, so even if the patient starves, they cannot mount a ketotic response."
+          },
+          {
+            "question": "During the refeeding syndrome in a starved patient, a rapid increase in Insulin triggers massive influx of electrolytes into cells and stimulation of fat synthesis. Which enzyme is rapidly dephosphorylated and activated by Insulin to promote lipogenesis?",
+            "options": [
+              "Hormone Sensitive Lipase",
+              "Acetyl-CoA Carboxylase",
+              "Carnitine Acyltransferase I",
+              "MCAD",
+              "Pyruvate Carboxylase"
+            ],
+            "correct": 1,
+            "explanation": "Insulin activates a phosphatase that removes the phosphate from **Acetyl-CoA Carboxylase (ACC)**. This activates ACC, producing Malonyl-CoA, which inhibits beta-oxidation and drives Fat Synthesis (Lipogenesis)."
+          },
+          {
+            "question": "A premature infant is fed a formula lacking Carnitine. He develops weakness and cardiomyopathy. Why is Carnitine essential in the diet of neonates?",
+            "options": [
+              "They cannot synthesize enough Carnitine endogenously to meet the high demand for fat oxidation.",
+              "Carnitine is a vitamin.",
+              "Carnitine prevents glucose loss.",
+              "Carnitine is needed for protein synthesis.",
+              "Carnitine is a neurotransmitter."
+            ],
+            "correct": 0,
+            "explanation": "Carnitine is conditionally essential. Adults synthesize it (from Lysine/Methionine). Neonates have low biosynthetic capacity. Since breast milk/formula is high fat, they rely heavily on beta-oxidation and need exogenous Carnitine."
+          },
+          {
+            "question": "A patient taking Warfarin is advised to maintain stable Vitamin K intake. Vitamin K is a lipid-soluble vitamin absorbed with fats. In a patient with Steatorrhea (Fat malabsorption), what happens to Warfarin efficacy?",
+            "options": [
+              "It decreases (Clotting risk).",
+              "It increases (Bleeding risk).",
+              "No change.",
+              "Warfarin is not absorbed.",
+              "Vitamin K becomes toxic."
+            ],
+            "correct": 1,
+            "explanation": "Steatorrhea leads to malabsorption of Vitamin K (fat-soluble). Low Vitamin K means fewer clotting factors. **Warfarin** acts by inhibiting Vitamin K recycling. If baseline Vitamin K is low, Warfarin's effect is **potentiated**, significantly increasing the INR and bleeding risk."
+          },
+          {
+            "question": "Sudden Infant Death Syndrome (SIDS) has been linked in a small percentage of cases to undiagnosed:",
+            "options": [
+              "MCAD Deficiency",
+              "Lactose Intolerance",
+              "PKU",
+              "Glycogen Storage Disease",
+              "Tay-Sachs"
+            ],
+            "correct": 0,
+            "explanation": "An infant with undiagnosed **MCAD deficiency** who sleeps through the night (fasting stress) may develop profound hypoketotic hypoglycemia and die suddenly. This mimics SIDS."
+          },
+          {
+            "question": "A patient with uncontrolled diabetes has hypertriglyceridemia. This is partly because LPL (Lipoprotein Lipase) activity is low. LPL expression is dependent on:",
+            "options": [
+              "Glucagon",
+              "Insulin",
+              "Cortisol",
+              "Epinephrine",
+              "Thyroxine"
+            ],
+            "correct": 1,
+            "explanation": "**Insulin** stimulates the synthesis and secretion of **LPL** in adipose tissue. In diabetes (low insulin/resistance), LPL is low. Chylomicrons and VLDL are not cleared from the blood, leading to high triglycerides."
+          },
+          {
+            "question": "Orlistat is a weight-loss drug that inhibits Pancreatic Lipase. The result is:",
+            "options": [
+              "Increased beta-oxidation.",
+              "Inhibition of fat synthesis.",
+              "Decreased absorption of dietary fat in the intestine.",
+              "Increased thermogenesis.",
+              "Suppression of appetite."
+            ],
+            "correct": 2,
+            "explanation": "Pancreatic Lipase hydrolyzes dietary triglycerides. **Orlistat** inhibits this enzyme. Triglycerides cannot be absorbed intact; they pass through the GI tract (Steatorrhea), reducing caloric intake."
+          },
+          {
+            "question": "A patient with gallstones has pain after eating a fatty meal. The hormone responsible for contracting the gallbladder is Cholecystokinin (CCK). CCK is released in response to:",
+            "options": [
+              "Carbohydrates",
+              "Fatty acids and Amino acids in the duodenum.",
+              "Acid in the stomach.",
+              "Insulin.",
+              "Glucagon."
+            ],
+            "correct": 1,
+            "explanation": "**CCK** is secreted by I-cells in the duodenum when they sense **Fat** (and protein). CCK stimulates gallbladder contraction (bile release) and pancreatic enzyme secretion to digest the fat."
+          },
+          {
+            "question": "In a patient with Pyruvate Carboxylase deficiency, Acetyl-CoA accumulates. However, it cannot enter the TCA cycle due to lack of OAA. It is shunted to:",
+            "options": [
+              "Glucose synthesis.",
+              "Ketone Body synthesis.",
+              "Protein synthesis.",
+              "Lactate.",
+              "Glycogen."
+            ],
+            "correct": 1,
+            "explanation": "High Acetyl-CoA + Low OAA = **Ketogenesis**. The Acetyl-CoA is diverted to form Acetoacetate and Beta-hydroxybutyrate. (This is why PC deficiency presents with lactic acidosis AND ketosis, unlike PDH deficiency)."
+          },
+          {
+            "question": "Malonyl-CoA levels are high in the liver after a carbohydrate-rich meal. This prevents the simultaneous oxidation of fat by inhibiting CPT-I. This regulatory mechanism ensures:",
+            "options": [
+              "Futile cycling (Synthesis and Degradation occurring at the same time) is avoided.",
+              "Cholesterol is synthesized.",
+              "Ketones are made.",
+              "Glycogen is burned.",
+              "ATP is depleted."
+            ],
+            "correct": 0,
+            "explanation": "Reciprocal regulation. When making fat (High Malonyl-CoA), you don't want to burn it. Inhibiting CPT-I stops beta-oxidation. This prevents a **Futile Cycle**."
+          },
+          {
+            "question": "Sphingolipidoses (like Niemann-Pick, Gaucher) are defects in lipid degradation. These occur in the:",
+            "options": [
+              "Mitochondria",
+              "Lysosome",
+              "Peroxisome",
+              "ER",
+              "Golgi"
+            ],
+            "correct": 1,
+            "explanation": "Complex lipids (Sphingolipids, Gangliosides) are degraded by specific hydrolases in the **Lysosome**. Defects lead to lysosomal storage diseases."
+          },
+          {
+            "question": "A patient on a Fat-free diet is deficient in Arachidonic acid. This will impair the synthesis of:",
+            "options": [
+              "Cholesterol",
+              "Prostaglandins and Leukotrienes (Eicosanoids).",
+              "Sphingomyelin",
+              "Vitamin D",
+              "Bile salts"
+            ],
+            "correct": 1,
+            "explanation": "Arachidonic acid (20:4) is the precursor for **Eicosanoids** (Prostaglandins, Thromboxanes, Leukotrienes). It is synthesized from essential Linoleic acid."
+          },
+          {
+            "question": "Respiratory Distress Syndrome in premature infants is due to a lack of Dipalmitoylphosphatidylcholine (Surfactant). The synthesis of this lipid requires:",
+            "options": [
+              "Choline and CTP",
+              "Serine and ATP",
+              "Inositol and GTP",
+              "Ethanolamine and UTP",
+              "Carnitine"
+            ],
+            "correct": 0,
+            "explanation": "Phospholipid synthesis (Kennedy pathway) uses **CTP** to activate the headgroup (CDP-Choline) or the diacylglycerol. For PC, it involves **CDP-Choline**."
+          },
+          {
+            "question": "High Fructose Corn Syrup consumption is linked to Non-Alcoholic Fatty Liver Disease (NAFLD). Fructose promotes lipogenesis more than Glucose because:",
+            "options": [
+              "It bypasses PFK-1 regulation, flooding the liver with Acetyl-CoA.",
+              "It is more caloric.",
+              "It activates Lipoprotein Lipase.",
+              "It inhibits beta-oxidation directly.",
+              "It cannot be stored as glycogen."
+            ],
+            "correct": 0,
+            "explanation": "Fructose enters glycolysis at the Triose phosphate level (via Aldolase B), skipping the rate-limiting **PFK-1** step. This unregulated carbon flux provides massive Acetyl-CoA and Glycerol-3-P substrate for **Fatty Acid Synthesis**."
+          },
+          {
+            "question": "Niacin (Nicotinic acid) is used to treat hyperlipidemia. It works by inhibiting lipolysis in adipose tissue. Which enzyme is the target?",
+            "options": [
+              "Hormone Sensitive Lipase",
+              "Lipoprotein Lipase",
+              "Pancreatic Lipase",
+              "Hepatic Lipase",
+              "Acid Lipase"
+            ],
+            "correct": 0,
+            "explanation": "Niacin inhibits **Hormone Sensitive Lipase** in adipocytes (via Gi receptor). This reduces the release of Free Fatty Acids. The liver then has less substrate to make VLDL, lowering triglycerides and LDL."
+          },
+          {
+            "question": "A bodybuilder using anabolic steroids has low HDL. Steroids stimulate which enzyme that degrades HDL?",
+            "options": [
+              "Hepatic Lipase",
+              "Lipoprotein Lipase",
+              "LCAT",
+              "CETP",
+              "ACAT"
+            ],
+            "correct": 0,
+            "explanation": "Androgens increase the activity of **Hepatic Lipase**, which hydrolyzes phospholipids and triglycerides in HDL, leading to its faster clearance and **lower HDL** levels."
+          },
+          {
+            "question": "Fish oils (Omega-3) reduce triglycerides by:",
+            "options": [
+              "Activating PPAR-alpha, which increases beta-oxidation.",
+              "Inhibiting LPL.",
+              "Inhibiting CPT-I.",
+              "Increasing fat absorption.",
+              "Increasing VLDL synthesis."
+            ],
+            "correct": 0,
+            "explanation": "Omega-3s are ligands for **PPAR-alpha**, a nuclear receptor that upregulates genes for **Beta-oxidation** and downregulates SREBP-1c (synthesis). This shifts the liver from making fat to burning it."
+          },
+          {
+            "question": "A 3-day-old infant born at home presents with lethargy, poor feeding, and rapid breathing. Physical exam shows hypothermia and hypotonia. Lab results reveal severe hyperammonemia (1200 µM), respiratory alkalosis, and low BUN (Blood Urea Nitrogen). Plasma amino acid analysis shows elevated Citrulline. Orotic acid is normal. Which enzyme defect is most likely?",
+            "options": [
+              "Carbamoyl Phosphate Synthetase I (CPS I)",
+              "Ornithine Transcarbamylase (OTC)",
+              "Argininosuccinate Synthetase",
+              "Arginase",
+              "N-Acetylglutamate Synthase"
+            ],
+            "correct": 2,
+            "explanation": "Hyperammonemia indicates a Urea Cycle Defect. The key is **Elevated Citrulline** (Citrullinemia). This places the block *after* Citrulline synthesis (CPS I and OTC are intact). The enzyme that consumes Citrulline is **Argininosuccinate Synthetase**. (Note: In OTC deficiency, Citrulline is low and Orotic acid is high)."
+          },
+          {
+            "question": "A 4-month-old boy is evaluated for failure to thrive. His urine has a distinct odor of 'maple syrup' or burnt sugar. He has episodes of hypertonia and opisthotonos. Lab analysis shows elevated plasma levels of Leucine, Isoleucine, and Valine. To prevent neurological damage, the patient's diet must be restricted in these amino acids and supplemented with which cofactor?",
+            "options": [
+              "Biotin",
+              "Thiamine (Vitamin B1)",
+              "Vitamin B12",
+              "Folic Acid",
+              "Vitamin C"
+            ],
+            "correct": 1,
+            "explanation": "This is **Maple Syrup Urine Disease (MSUD)**, a defect in the Branched-Chain Alpha-Keto Acid Dehydrogenase complex. Like PDH and Alpha-Ketoglutarate DH, this complex requires 5 cofactors (Tender Loving Care For Nancy): **Thiamine**, Lipoate, CoA, FAD, NAD. High-dose **Thiamine** helps in responsive variants."
+          },
+          {
+            "question": "A 5-year-old girl presents with lens dislocation (ectopia lentis), tall stature, and intellectual disability. She recently suffered a thromboembolic event (stroke). Plasma Homocysteine is elevated. Supplementation with Pyridoxine (Vitamin B6) significantly lowers her Homocysteine levels. The defect is in:",
+            "options": [
+              "Methionine Synthase",
+              "Cystathionine Beta-Synthase (CBS)",
+              "Methylene-THF Reductase",
+              "Cystathionase",
+              "Sulfite Oxidase"
+            ],
+            "correct": 1,
+            "explanation": "This is classic **Homocystinuria**. The most common cause is a defect in **Cystathionine Beta-Synthase**, which converts Homocysteine to Cystathionine. It is a PLP (B6) dependent enzyme. About 50% of patients respond to high-dose **B6**."
+          },
+          {
+            "question": "A 30-year-old male presents with acute abdominal pain, anxiety, and tachycardia. He mentions he recently started a ketogenic diet and took barbiturates for sleep. His urine turns dark reddish-brown upon exposure to light. He is diagnosed with Acute Intermittent Porphyria. The administration of Barbiturates precipitated the attack by inducing:",
+            "options": [
+              "ALA Dehydratase",
+              "ALA Synthase",
+              "Heme Oxygenase",
+              "Ferrochelatase",
+              "Bilirubin UDP-Glucuronyltransferase"
+            ],
+            "correct": 1,
+            "explanation": "Barbiturates induce Cytochrome P450 synthesis in the liver. P450s require Heme. This consumes the free Heme pool. Low free Heme relieves the feedback inhibition on **ALA Synthase**. The upregulation of ALA Synthase floods the pathway with precursors (ALA/PBG) that cannot pass the defective block (PBG deaminase), triggering the attack."
+          },
+          {
+            "question": "A newborn screening test is positive for Phenylketonuria (PKU). The parents are counseled that the child must avoid Aspartame and follow a low-phenylalanine diet. However, despite dietary adherence, the child develops neurological symptoms. Further testing reveals a deficiency in Dihydropteridine Reductase. This variant of PKU leads to a deficiency in which neurotransmitters?",
+            "options": [
+              "Glutamate and GABA",
+              "Acetylcholine and Histamine",
+              "Serotonin and Catecholamines (Dopamine/Epi)",
+              "Glycine",
+              "Substance P"
+            ],
+            "correct": 2,
+            "explanation": "Malignant PKU. Phenylalanine Hydroxylase requires Tetrahydrobiopterin (BH4). Tyrosine Hydroxylase (Dopamine synthesis) and Tryptophan Hydroxylase (Serotonin synthesis) **also require BH4**. If Dihydropteridine Reductase is defective, BH4 cannot be regenerated. This leads to PKU plus a deficiency in **Serotonin and Catecholamines**, causing severe neurological deficits."
+          },
+          {
+            "question": "A 6-year-old boy presents with photosensitivity, hypertrichosis (excess hair), and reddish-brown urine. His teeth fluoresce red under UV light. He is diagnosed with Congenital Erythropoietic Porphyria (Gunther disease). The defect is in Uroporphyrinogen III Synthase. The symptoms are caused by the accumulation of:",
+            "options": [
+              "Bilirubin",
+              "Uroporphyrinogen I and its oxidation products",
+              "Lead",
+              "Iron",
+              "Succinyl-CoA"
+            ],
+            "correct": 1,
+            "explanation": "Normally, Uroporphyrinogen III Synthase closes the ring to form the Type III isomer. In its absence, the pathway spontaneously cyclizes to **Type I isomers (Uroporphyrinogen I)**. These are useless for heme and accumulate in skin/teeth. Upon light exposure, they generate ROS, causing severe blistering and scarring (cutaneous porphyria)."
+          },
+          {
+            "question": "A 40-year-old male with a history of kidney stones presents with severe flank pain. Urinalysis shows hexagonal crystals. He is diagnosed with Cystinuria. This disorder involves the defective reabsorption of Cystine and which other amino acids?",
+            "options": [
+              "Leucine, Isoleucine, Valine",
+              "Phenylalanine, Tyrosine, Tryptophan",
+              "Ornithine, Lysine, Arginine (COLA)",
+              "Glycine, Alanine, Serine",
+              "Glutamate, Aspartate"
+            ],
+            "correct": 2,
+            "explanation": "Cystinuria is a defect in the proximal tubule transporter for Dibasic amino acids: **C**ystine, **O**rnithine, **L**ysine, **A**rginine (COLA). Cystine is poorly soluble and precipitates as hexagonal stones."
+          },
+          {
+            "question": "A patient with liver cirrhosis has high blood ammonia levels (Hyperammonemia) and develops hepatic encephalopathy. He is treated with Lactulose. The mechanism of Lactulose involves:",
+            "options": [
+              "Inhibiting Glutaminase.",
+              "Acidifying the gut lumen to convert NH3 to NH4+ (ion trapping), promoting excretion.",
+              "Binding ammonia directly.",
+              "Increasing Urea Cycle enzyme activity.",
+              "Killing gut bacteria."
+            ],
+            "correct": 1,
+            "explanation": "Lactulose is metabolized by gut bacteria to acids. This lowers colonic pH. Ammonia ($NH_3$, diffusible) picks up a proton to become Ammonium ($NH_4^+$, non-diffusible). This **traps the nitrogen** in the gut, preventing reabsorption into the blood and lowering ammonia levels."
+          },
+          {
+            "question": "A premature infant is found to have Tyrosinemia Type I. He has liver failure and a cabbage-like odor. The toxic metabolite Succinylacetone is found in the urine. The drug Nitisinone is prescribed. Nitisinone works by inhibiting:",
+            "options": [
+              "Phenylalanine Hydroxylase",
+              "4-Hydroxyphenylpyruvate Dioxygenase (HPPD)",
+              "Fumarylacetoacetate Hydrolase",
+              "Tyrosinase",
+              "Tyrosine Aminotransferase"
+            ],
+            "correct": 1,
+            "explanation": "Tyrosinemia Type I is a defect in the last enzyme (Fumarylacetoacetate Hydrolase), causing toxic fumarylacetoacetate accumulation. **Nitisinone** inhibits an enzyme *upstream* (**HPPD**), preventing the formation of the toxic metabolites. (This creates a milder Tyrosinemia Type III-like state but saves the liver)."
+          },
+          {
+            "question": "A 25-year-old female presents with fatigue and pallor. A peripheral blood smear shows macrocytic anemia and hypersegmented neutrophils. Homocysteine is elevated, but Methylmalonic Acid is normal. This clinical picture is most consistent with a deficiency in:",
+            "options": [
+              "Vitamin B12",
+              "Folate (Vitamin B9)",
+              "Iron",
+              "Vitamin B6",
+              "Vitamin C"
+            ],
+            "correct": 1,
+            "explanation": "Both B12 and Folate deficiency cause Macrocytic Anemia and high Homocysteine. However, B12 is also needed for Methylmalonyl-CoA Mutase. **Folate deficiency** affects Methionine synthase (high Homocysteine) but *not* Methylmalonyl-CoA (normal MMA). B12 deficiency would show High MMA."
+          },
+          {
+            "question": "A patient with gout is treated with Allopurinol. This drug reduces uric acid production by inhibiting Xanthine Oxidase. As a result, which substrates accumulate (and are more soluble/easily excreted)?",
+            "options": [
+              "Urea and Ammonia",
+              "Hypoxanthine and Xanthine",
+              "Adenine and Guanine",
+              "Inosine and Guanosine",
+              "Orotic acid"
+            ],
+            "correct": 1,
+            "explanation": "Xanthine Oxidase converts Hypoxanthine $\\rightarrow$ Xanthine $\\rightarrow$ Uric Acid. Inhibition leads to the accumulation of **Hypoxanthine and Xanthine**. These are more water-soluble than uric acid and are excreted by the kidneys, relieving the gout."
+          },
+          {
+            "question": "A child presents with blue-black discoloration of the connective tissues (Ochronosis) and urine that turns black upon standing. He is diagnosed with Alkaptonuria. The defective enzyme acts in the catabolic pathway of:",
+            "options": [
+              "Tryptophan",
+              "Tyrosine/Phenylalanine",
+              "Methionine",
+              "Histidine",
+              "Lysine"
+            ],
+            "correct": 1,
+            "explanation": "Alkaptonuria is a defect in **Homogentisate Oxidase** (Tyrosine catabolism). Homogentisic acid accumulates. It oxidizes to a dark pigment (alkapton) that deposits in cartilage (ochronosis) and darkens urine."
+          },
+          {
+            "question": "A 2-year-old boy has X-linked Ornithine Transcarbamylase (OTC) deficiency. He presents with hyperammonemia. Urine analysis reveals high levels of Orotic Acid. Why is Orotic Acid elevated?",
+            "options": [
+              "The defect inhibits Pyrimidine synthesis.",
+              "Carbamoyl Phosphate accumulates in the mitochondria, leaks into the cytosol, and drives Pyrimidine synthesis.",
+              "Urea cycle is reversed.",
+              "Aspartate accumulates.",
+              "Ornithine is converted to Orotic Acid."
+            ],
+            "correct": 1,
+            "explanation": "In OTC deficiency, **Carbamoyl Phosphate (CP)** cannot combine with Ornithine. CP builds up in the mitochondria and spills into the cytosol. There, it enters the Pyrimidine Synthesis pathway (which also starts with CP), stimulating the production of **Orotic Acid** (orotic aciduria)."
+          },
+          {
+            "question": "A patient with carcinoid syndrome has a serotonin-secreting tumor. He presents with diarrhea, flushing, and symptoms of Pellagra (dermatitis, dementia). The Pellagra is due to:",
+            "options": [
+              "Malabsorption of Niacin.",
+              "Tumor consumption of Niacin.",
+              "Diversion of Tryptophan to Serotonin synthesis, leaving insufficient Tryptophan for Niacin synthesis.",
+              "Inhibition of NAD+ synthesis.",
+              "Dietary deficiency."
+            ],
+            "correct": 2,
+            "explanation": "Normally, only ~1% of Tryptophan goes to Serotonin. In carcinoid syndrome, up to 60% is diverted to Serotonin. This leaves insufficient **Tryptophan** for the synthesis of **Niacin** (Vitamin B3), resulting in Pellagra."
+          },
+          {
+            "question": "A neonate with seizures is found to have Non-Ketotic Hyperglycinemia. This is due to a defect in the Glycine Cleavage System. High levels of Glycine in the brain cause seizures because Glycine is:",
+            "options": [
+              "An excitatory neurotransmitter in the cortex.",
+              "An inhibitory neurotransmitter in the spinal cord and brainstem (and a co-agonist at NMDA receptors).",
+              "An inhibitor of Acetylcholine.",
+              "A precursor to GABA.",
+              "Toxic to mitochondria."
+            ],
+            "correct": 1,
+            "explanation": "Glycine is an inhibitory neurotransmitter, but it is also an obligatory co-agonist at excitatory **NMDA receptors**. Excess glycine overstimulates NMDA receptors, causing intractable seizures and brain damage."
+          },
+          {
+            "question": "Methionine Synthase requires Vitamin B12 to transfer a methyl group from N5-Methyl-THF to Homocysteine, forming Methionine. If B12 is deficient, Folate becomes trapped as N5-Methyl-THF. This is known as the:",
+            "options": [
+              "Folate Trap",
+              "Methyl Trap",
+              "Homocysteine Trap",
+              "Pterin Trap",
+              "Purine Trap"
+            ],
+            "correct": 0,
+            "explanation": "The conversion of Methylene-THF to Methyl-THF is irreversible. Methyl-THF has only one fate: Methionine Synthase. If B12 is missing, the folate gets stuck as Methyl-THF. This creates a functional **Folate Trap**—total body folate may be normal, but the usable forms needed for DNA synthesis are depleted."
+          },
+          {
+            "question": "A patient with septic shock produces massive amounts of Nitric Oxide (NO), causing vasodilation and hypotension. The enzyme responsible is iNOS (inducible NOS). iNOS differs from endothelial NOS (eNOS) because:",
+            "options": [
+              "It requires no Arginine.",
+              "It is Calcium-independent (always active once expressed).",
+              "It produces N2O instead of NO.",
+              "It is found in mitochondria.",
+              "It is activated by Acetylcholine."
+            ],
+            "correct": 1,
+            "explanation": "nNOS and eNOS are constitutive and regulated by rapid calcium transients (Calmodulin). **iNOS** is induced by cytokines (inflammation). Once synthesized, it binds Calmodulin tightly and is **Calcium-independent** (always ON), producing toxic amounts of NO until the enzyme is degraded."
+          },
+          {
+            "question": "Hydroxyurea is used to treat Sickle Cell Disease and some cancers. It inhibits Ribonucleotide Reductase by:",
+            "options": [
+              "Binding to the substrate site.",
+              "Quenching the tyrosyl free radical at the active site.",
+              "Oxidizing Thioredoxin.",
+              "Chelating Magnesium.",
+              "Mimicking ATP."
+            ],
+            "correct": 1,
+            "explanation": "Ribonucleotide Reductase uses a **Free Radical mechanism** involving a Tyrosyl radical stabilized by an Iron center. **Hydroxyurea** is a radical scavenger that quenches this essential radical, stopping dNTP synthesis and cell division."
+          },
+          {
+            "question": "A patient with severe burns has a negative nitrogen balance (catabolic state). To support protein synthesis and wound healing, the conditionally essential amino acid Arginine is often supplemented. Arginine is essential in this context because:",
+            "options": [
+              "The Urea Cycle is downregulated.",
+              "Endogenous synthesis is insufficient to meet the increased demand for protein synthesis, NO, and Creatine.",
+              "It stimulates insulin.",
+              "It is the only source of nitrogen.",
+              "It prevents infection."
+            ],
+            "correct": 1,
+            "explanation": "Arginine is non-essential in healthy adults (made in Urea cycle). However, in states of rapid growth or severe stress (trauma/burns), demand exceeds synthesis. It becomes **conditionally essential**."
+          },
+          {
+            "question": "During the synthesis of Catecholamines, the conversion of Norepinephrine to Epinephrine occurs in the Adrenal Medulla. This reaction requires:",
+            "options": [
+              "SAM (S-Adenosylmethionine)",
+              "Biotin",
+              "Vitamin C",
+              "Folate",
+              "NADH"
+            ],
+            "correct": 0,
+            "explanation": "This is a Methylation reaction (N-methyltransferase). The universal methyl donor **SAM** provides the methyl group to convert Norepinephrine to **Epinephrine**."
+          },
+          {
+            "question": "A patient with Parkinson's Disease is treated with L-DOPA. L-DOPA is co-administered with Carbidopa. Carbidopa functions by:",
+            "options": [
+              "Inhibiting MAO in the brain.",
+              "Inhibiting DOPA Decarboxylase in the periphery, allowing more L-DOPA to reach the brain.",
+              "Increasing dopamine absorption.",
+              "Inhibiting COMT.",
+              "Acting as a dopamine agonist."
+            ],
+            "correct": 1,
+            "explanation": "Dopamine cannot cross the Blood-Brain Barrier (BBB); L-DOPA can. However, L-DOPA is rapidly converted to dopamine in the body. **Carbidopa** inhibits peripheral **DOPA Decarboxylase** but does not cross the BBB. This preserves L-DOPA so it can enter the brain before conversion."
+          },
+          {
+            "question": "A child with Arginase Deficiency presents with spastic diplegia and mild hyperammonemia. Unlike other Urea Cycle defects, Arginine levels are:",
+            "options": [
+              "Low",
+              "Elevated",
+              "Normal",
+              "Absent",
+              "Converted to Citrulline"
+            ],
+            "correct": 1,
+            "explanation": "The block is at the last step: Arginine $\rightarrow$ Urea + Ornithine. Therefore, substrate **Arginine is elevated**. (In all other UCDs, Arginine is low and becomes essential)."
+          },
+          {
+            "question": "Ethanol consumption can trigger attacks in Porphyria Cutanea Tarda (PCT). Ethanol exacerbates the condition by:",
+            "options": [
+              "Inhibiting Heme synthesis.",
+              "Inducing Iron absorption and creating oxidative stress in the liver.",
+              "Inhibiting ALA synthase.",
+              "Increasing renal excretion of porphyrins.",
+              "Reducing Cytochrome P450."
+            ],
+            "correct": 1,
+            "explanation": "PCT is due to Uroporphyrinogen Decarboxylase deficiency. Triggers include **Iron overload** and Alcohol. Alcohol damages the liver and increases iron absorption. Iron catalyzes the oxidation of porphyrinogens to porphyrins, which damage the liver and skin."
+          },
+          {
+            "question": "Glucogenic amino acids enter the TCA cycle at various points. Which amino acid enters by being converted directly to Oxaloacetate?",
+            "options": [
+              "Alanine",
+              "Glutamate",
+              "Aspartate",
+              "Serine",
+              "Proline"
+            ],
+            "correct": 2,
+            "explanation": "Transamination of **Aspartate** (using AST) transfers the amino group to Alpha-KG, leaving **Oxaloacetate**. (Alanine $\rightarrow$ Pyruvate; Glutamate $\rightarrow$ Alpha-KG)."
+          },
+          {
+            "question": "A patient taking Isoniazid for Tuberculosis develops peripheral neuropathy. Isoniazid reacts with Pyridoxal Phosphate (B6), causing a deficiency. This impacts amino acid metabolism because B6 is a cofactor for:",
+            "options": [
+              "Carboxylases",
+              "Transaminases and Decarboxylases",
+              "Methyltransferases",
+              "Hydroxylases",
+              "Reductases"
+            ],
+            "correct": 1,
+            "explanation": "**PLP (B6)** is the cofactor for almost all reactions involving amino acid transformations, including **Transaminations** (ALT/AST), **Decarboxylations** (GABA/Histamine synthesis), and Elimination reactions."
+          },
+          {
+            "question": "In the liver, the enzyme Asparaginase is used to treat certain Leukemias (ALL). It works by:",
+            "options": [
+              "Inhibiting DNA synthesis.",
+              "Starving the tumor cells of Asparagine, which they cannot synthesize.",
+              "Generating toxic ammonia.",
+              "Inhibiting glutamine.",
+              "blocking glycolysis."
+            ],
+            "correct": 1,
+            "explanation": "Normal cells can make Asparagine (Asparagine Synthetase). Certain leukemic cells are auxotrophic (cannot make it) and rely on blood Asparagine. **Asparaginase** degrades blood Asparagine, starving and killing the cancer cells."
+          },
+          {
+            "question": "Adenosine Deaminase (ADA) deficiency leads to Severe Combined Immunodeficiency (SCID). The accumulation of dATP is toxic because it inhibits:",
+            "options": [
+              "Ribonucleotide Reductase",
+              "DNA Polymerase",
+              "RNA Polymerase",
+              "Adenylate Cyclase",
+              "Xanthine Oxidase"
+            ],
+            "correct": 0,
+            "explanation": "High dATP acts as an allosteric inhibitor of **Ribonucleotide Reductase**. This prevents the production of all other dNTPs (dCTP, dGTP, dTTP). Without dNTPs, DNA synthesis stops, preventing the proliferation of T and B lymphocytes."
+          },
+          {
+            "question": "Lesch-Nyhan Syndrome (HGPRT deficiency) results in hyperuricemia (Gout). The increase in uric acid is due to:",
+            "options": [
+              "Decreased excretion.",
+              "Reduced salvage of purines leading to increased PRPP and accelerated de novo purine synthesis.",
+              "Increased breakdown of pyrimidines.",
+              "Defect in Xanthine Oxidase.",
+              "Increased cell death."
+            ],
+            "correct": 1,
+            "explanation": "HGPRT salvages Guanine and Hypoxanthine. If defective, these bases degrade to Uric Acid. Furthermore, **PRPP** (normally used for salvage) builds up. High PRPP stimulates the rate-limiting step of **De Novo Purine Synthesis**, leading to massive overproduction of uric acid."
+          },
+          {
+            "question": "Hyperhomocysteinemia is a risk factor for cardiovascular disease. It causes damage by:",
+            "options": [
+              "Inhibiting clotting.",
+              "Causing endothelial damage, oxidative stress, and promoting thrombosis.",
+              "Lowering LDL cholesterol.",
+              "Dilating blood vessels.",
+              "Increasing nitric oxide."
+            ],
+            "correct": 1,
+            "explanation": "Homocysteine is structurally similar to Methionine but contains a reactive thiol. High levels induce **endothelial dysfunction**, promote LDL oxidation, and increase platelet aggregation, accelerating atherosclerosis."
+          },
+          {
+            "question": "A patient with liver failure has low BUN (Blood Urea Nitrogen) and elevated Ammonia. This confirms that:",
+            "options": [
+              "The kidneys are failing.",
+              "The Urea Cycle function is compromised.",
+              "Protein intake is too low.",
+              "There is a GI bleed.",
+              "Muscle breakdown is inhibited."
+            ],
+            "correct": 1,
+            "explanation": "The liver is the *only* site of the full Urea Cycle. In liver failure, conversion of Ammonia to Urea fails. Thus, **Ammonia rises** and **Urea (BUN) falls**."
+          },
+          {
+            "question": "A 55-year-old male presents with sudden, excruciating pain in his left big toe (Podagra). He admits to heavy alcohol consumption and a diet rich in red meat. Joint aspiration reveals needle-shaped, negatively birefringent crystals. The physician prescribes a drug that inhibits Xanthine Oxidase. Which metabolic alteration would you expect in this patient after starting treatment?",
+            "options": [
+              "Increased serum Uric Acid.",
+              "Decreased serum Hypoxanthine.",
+              "Increased urinary excretion of Xanthine and Hypoxanthine.",
+              "Increased formation of Allantoin.",
+              "Decreased PRPP levels."
+            ],
+            "correct": 2,
+            "explanation": "The patient has **Gout**. The drug is Allopurinol (or Febuxostat). Inhibition of Xanthine Oxidase blocks the conversion of Hypoxanthine and Xanthine to Uric Acid. Consequently, **Xanthine and Hypoxanthine accumulate**. Because they are more water-soluble than urate, they are easily **excreted in the urine**."
+          },
+          {
+            "question": "A 4-year-old boy with a history of self-mutilating behavior (biting lips and fingers) and developmental delay is brought to the clinic. His diaper often has orange 'sand' (crystals). Serum uric acid is markedly elevated. The underlying biochemical defect leads to an accumulation of which metabolite that stimulates de novo purine synthesis?",
+            "options": [
+              "IMP",
+              "GMP",
+              "PRPP (Phosphoribosyl pyrophosphate)",
+              "Hypoxanthine",
+              "Urea"
+            ],
+            "correct": 2,
+            "explanation": "This is **Lesch-Nyhan Syndrome** (HGPRT deficiency). Failure to salvage purines leads to wasting of Hypoxanthine/Guanine (High Uric Acid). More importantly, because PRPP is not consumed by the salvage pathway, **PRPP levels rise**. High PRPP acts as a feed-forward activator of the Glutamine-PRPP Amidotransferase (committed step), driving excessive de novo purine synthesis."
+          },
+          {
+            "question": "A 6-month-old infant presents with recurrent severe infections (bacterial, viral, fungal). Chest X-ray shows an absent thymus. Laboratory results show profound lymphopenia (low T and B cells). A diagnosis of Adenosine Deaminase (ADA) deficiency is suspected. The toxicity to lymphocytes is caused by the inhibition of which enzyme by accumulated dATP?",
+            "options": [
+              "DNA Polymerase",
+              "Ribonucleotide Reductase",
+              "Thymidylate Synthase",
+              "PRPP Synthetase",
+              "Xanthine Oxidase"
+            ],
+            "correct": 1,
+            "explanation": "In ADA deficiency (SCID), deoxyadenosine accumulates and is phosphorylated to dATP. dATP binds to the allosteric Activity Site of **Ribonucleotide Reductase**, turning it OFF. This prevents the synthesis of all other dNTPs (dCTP, dTTP, dGTP), halting DNA replication in dividing lymphocytes."
+          },
+          {
+            "question": "A 58-year-old female with Stage III colon cancer is treated with a regimen containing 5-Fluorouracil (5-FU) and Leucovorin. Leucovorin (Folinic Acid) is included in the regimen to:",
+            "options": [
+              "Rescue normal cells from folate deficiency.",
+              "Potentiate the binding of 5-FU to Thymidylate Synthase.",
+              "Reduce the renal toxicity of 5-FU.",
+              "Inhibit Dihydrofolate Reductase.",
+              "Prevent nausea."
+            ],
+            "correct": 1,
+            "explanation": "This is a key distinction. In Methotrexate therapy, Leucovorin 'rescues' healthy cells. In 5-FU therapy for colon cancer, Leucovorin **potentiates** the drug. 5-FU binds Thymidylate Synthase only in the presence of N5,N10-Methylene-THF. Adding Leucovorin increases the pool of THF cofactor, ensuring that 5-FU binds the enzyme tightly and inhibits it effectively."
+          },
+          {
+            "question": "A 9-month-old child presents with failure to thrive and severe megaloblastic anemia. Urine analysis reveals massive crystalluria composed of Orotic Acid. Blood ammonia levels are normal. Treatment with oral Uridine results in dramatic improvement. The normal blood ammonia distinguishes this condition from:",
+            "options": [
+              "Lesch-Nyhan Syndrome",
+              "Ornithine Transcarbamylase (OTC) Deficiency",
+              "Folate Deficiency",
+              "ADA Deficiency",
+              "Gout"
+            ],
+            "correct": 1,
+            "explanation": "Orotic Aciduria can occur in two conditions: 1) **UMP Synthase deficiency** (Hereditary Orotic Aciduria) - Pyrimidine synthesis defect, megaloblastic anemia, normal ammonia. 2) **OTC Deficiency** - Urea cycle defect, mitochondrial Carbamoyl Phosphate leaks out and forms orotic acid, **Hyperammonemia** present. The normal ammonia confirms the Pyrimidine synthesis defect."
+          },
+          {
+            "question": "A 35-year-old patient with leukemia begins chemotherapy. Three days later, he develops acute renal failure. Labs show Hyperkalemia, Hyperphosphatemia, and extreme Hyperuricemia. To prevent this Tumor Lysis Syndrome in future cycles, the physician prescribes Rasburicase. Rasburicase acts by:",
+            "options": [
+              "Inhibiting Xanthine Oxidase.",
+              "Converting Uric Acid into Allantoin (which is more soluble).",
+              "Inhibiting URAT1 transporter in the kidney.",
+              "Inhibiting DNA breakdown.",
+              "Expanding blood volume."
+            ],
+            "correct": 1,
+            "explanation": "Tumor Lysis Syndrome dumps massive nucleic acids, leading to uric acid precipitation in kidneys. **Rasburicase** is a recombinant Uricase enzyme (not naturally found in humans). It oxidizes Uric Acid to **Allantoin**, which is highly water-soluble and easily excreted, rapidly lowering urate levels."
+          },
+          {
+            "question": "A patient with Sickle Cell Disease takes Hydroxyurea to increase Fetal Hemoglobin. However, Hydroxyurea also causes macrocytosis (large RBCs). This is because Hydroxyurea inhibits DNA synthesis by blocking:",
+            "options": [
+              "The reduction of Ribonucleotides to Deoxyribonucleotides.",
+              "The methylation of dUMP.",
+              "The salvage of Purines.",
+              "The synthesis of Folate.",
+              "The phosphorylation of Thymidine."
+            ],
+            "correct": 0,
+            "explanation": "Hydroxyurea inhibits **Ribonucleotide Reductase**. This limits the supply of dNTPs for DNA synthesis. The delay in DNA replication relative to cell growth (protein synthesis continues) leads to cell enlargement (**Macrocytosis**), mimicking megaloblastic anemia."
+          },
+          {
+            "question": "A pregnant woman is advised to take Folic Acid supplements to prevent Neural Tube Defects. Folate is essential for the synthesis of Thymidylate (dTMP) and Purines. In the absence of folate, which precursor accumulates, leading to DNA strand breaks and uracil misincorporation?",
+            "options": [
+              "dUMP",
+              "dCMP",
+              "dATP",
+              "Orotate",
+              "Hypoxanthine"
+            ],
+            "correct": 0,
+            "explanation": "Folate deficiency inhibits Thymidylate Synthase. The substrate **dUMP** accumulates. The cell tries to incorporate dUMP (Uracil) into DNA instead of dTMP (Thymine). Repair enzymes remove the Uracil, but since dT is missing, the cycle repeats, leading to DNA fragmentation and apoptosis (megaloblastic changes)."
+          },
+          {
+            "question": "A renal transplant patient is prescribed Mycophenolate Mofetil. This drug specifically targets T-cell and B-cell proliferation by inhibiting IMP Dehydrogenase. Why are lymphocytes more sensitive to this inhibition than other cell types?",
+            "options": [
+              "Lymphocytes lack the enzyme Xanthine Oxidase.",
+              "Lymphocytes rely almost exclusively on the de novo pathway for purine synthesis.",
+              "Lymphocytes cannot uptake Mycophenolate.",
+              "Lymphocytes have a mutation in HGPRT.",
+              "Lymphocytes do not need GTP."
+            ],
+            "correct": 1,
+            "explanation": "Most somatic cells can sustain their guanine nucleotide pools via the Salvage Pathway (using Guanine/HGPRT). **Lymphocytes** are metabolically unique; they rely heavily on **De Novo synthesis**. Inhibiting IMPDH (De Novo GMP synthesis) selectively starves them of GTP required for proliferation."
+          },
+          {
+            "question": "A patient taking Azathioprine (a purine analog) for Crohn's disease is also prescribed Allopurinol for gout. Within a week, the patient develops severe pancytopenia (bone marrow suppression). What is the biochemical explanation?",
+            "options": [
+              "Allopurinol induces the metabolism of Azathioprine.",
+              "Allopurinol inhibits Xanthine Oxidase, which is required to degrade/detoxify Azathioprine (6-Mercaptopurine).",
+              "Both drugs inhibit DHFR.",
+              "Azathioprine causes Gout.",
+              "Allopurinol blocks the absorption of Azathioprine."
+            ],
+            "correct": 1,
+            "explanation": "Azathioprine is metabolized to 6-Mercaptopurine (active). 6-MP is inactivated/degraded by **Xanthine Oxidase**. If you inhibit Xanthine Oxidase with Allopurinol, **6-MP levels rise to toxic levels**, causing massive bone marrow suppression. The dose of Azathioprine must be reduced by 75% if co-administered."
+          },
+          {
+            "question": "A patient with Psoriasis is treated with Methotrexate. He presents with mucositis and bone marrow suppression. The physician administers 'Leucovorin Rescue'. Leucovorin bypasses the metabolic block because it is:",
+            "options": [
+              "A form of Dihydrofolate.",
+              "A pre-reduced form of Folate (N5-Formyl-THF) that does not require DHFR.",
+              "A Thymidylate analog.",
+              "An activator of DHFR.",
+              "A form of Vitamin B12."
+            ],
+            "correct": 1,
+            "explanation": "Methotrexate inhibits DHFR, depleting the THF pool. **Leucovorin** (Folinic Acid) is $N^5$-Formyl-THF. It is already reduced (Tetrahydro form). It enters the folate pool downstream of the DHFR block, restoring the supply of one-carbon units for nucleotide synthesis."
+          },
+          {
+            "question": "An alcoholic patient presents with Megaloblastic Anemia. Serum B12 is normal, but Folate is low. His elevated Homocysteine levels are due to the inability to convert Homocysteine to:",
+            "options": [
+              "Cysteine",
+              "Methionine",
+              "Adenosylmethionine",
+              "Cystathionine",
+              "Glutathione"
+            ],
+            "correct": 1,
+            "explanation": "Methionine Synthase uses $N^5$-Methyl-THF to methylate Homocysteine back to **Methionine**. In folate deficiency, this reaction slows, causing Homocysteine accumulation (hyperhomocysteinemia)."
+          },
+          {
+            "question": "A child presents with sandy urine (kidney stones). Analysis of the stone shows it is composed of 2,8-Dihydroxyadenine. This rare condition is caused by a deficiency in:",
+            "options": [
+              "Adenosine Deaminase (ADA)",
+              "Adenine Phosphoribosyltransferase (APRT)",
+              "Xanthine Oxidase",
+              "HGPRT",
+              "Uricase"
+            ],
+            "correct": 1,
+            "explanation": "Normally, **APRT** salvages Adenine to AMP. If APRT is defective, Adenine accumulates. It is oxidized by Xanthine Oxidase to **2,8-Dihydroxyadenine**. This compound is highly insoluble and precipitates in the kidney, causing stones and renal failure."
+          },
+          {
+            "question": "A 25-year-old male with Gout is found to have 'Superactivity' of PRPP Synthetase. This mutation renders the enzyme resistant to feedback inhibition by:",
+            "options": [
+              "ATP and GTP",
+              "ADP and GDP",
+              "UTP and CTP",
+              "Uric Acid",
+              "PRPP"
+            ],
+            "correct": 1,
+            "explanation": "PRPP Synthetase produces PRPP from Ribose-5-P + ATP. It is normally inhibited by **ADP and GDP** (signals that energy is low, or nucleotides are abundant). A mutation preventing this inhibition leads to constitutive PRPP production, driving de novo purine synthesis and resulting in excessive Uric Acid (Gout)."
+          },
+          {
+            "question": "A patient with bacterial pneumonia is treated with Trimethoprim-Sulfamethoxazole (Bactrim). Trimethoprim selectively inhibits which bacterial enzyme?",
+            "options": [
+              "Dihydropteroate Synthase",
+              "Dihydrofolate Reductase (DHFR)",
+              "Thymidylate Synthase",
+              "Ribonucleotide Reductase",
+              "DNA Gyrase"
+            ],
+            "correct": 1,
+            "explanation": "Sulfamethoxazole inhibits *Dihydropteroate Synthase* (folate synthesis). Trimethoprim inhibits bacterial **Dihydrofolate Reductase (DHFR)**. It binds bacterial DHFR ~50,000 times more tightly than human DHFR, providing selective toxicity."
+          },
+          {
+            "question": "A patient with Gout is advised to change his diet. He eats a lot of liver and sweetbreads (thymus/pancreas). These foods exacerbate gout because:",
+            "options": [
+              "They are high in cholesterol.",
+              "They are rich in cells with nuclei (high nucleic acid content), providing a high load of Purines.",
+              "They inhibit Xanthine Oxidase.",
+              "They contain high fructose.",
+              "They are acidic."
+            ],
+            "correct": 1,
+            "explanation": "Organ meats are cellularly dense. Digestion releases massive amounts of DNA/RNA. The **purines** (A/G) from these nucleic acids are degraded to **Uric Acid**, overwhelming the kidney's excretion capacity."
+          },
+          {
+            "question": "A child with Purine Nucleoside Phosphorylase (PNP) deficiency presents with recurrent infections. Unlike ADA deficiency, this condition primarily affects T-cells while sparing B-cells (initially). The toxic metabolite accumulating is:",
+            "options": [
+              "dATP",
+              "dGTP",
+              "Adenosine",
+              "Inosine",
+              "Uric Acid"
+            ],
+            "correct": 1,
+            "explanation": "PNP degrades Guanosine and Inosine. Deficiency leads to accumulation of dGTP (Deoxyguanosine Triphosphate). **dGTP** inhibits Ribonucleotide Reductase (specifically the reduction of CDP/UDP). This depletion of dCTP/dTTP impairs T-cell DNA synthesis preferentially."
+          },
+          {
+            "question": "Gemcitabine is a nucleoside analog used in pancreatic cancer. It acts as a suicide inhibitor of Ribonucleotide Reductase (RNR). It mimics which nucleotide?",
+            "options": [
+              "dATP",
+              "dCTP",
+              "dGTP",
+              "dTTP",
+              "dUTP"
+            ],
+            "correct": 1,
+            "explanation": "Gemcitabine is 2',2'-difluorodeoxycytidine (mimics **dC**). It is phosphorylated to the diphosphate form, binds RNR, and generates a stalled radical on the enzyme that cannot be resolved, irreversibly inactivating RNR."
+          },
+          {
+            "question": "A patient with refractory Gout (not responding to Allopurinol) is treated with Pegloticase. Pegloticase is a PEGylated form of:",
+            "options": [
+              "Xanthine Oxidase",
+              "HGPRT",
+              "Uricase (Urate Oxidase)",
+              "Adenosine Deaminase",
+              "Phosphodiesterase"
+            ],
+            "correct": 2,
+            "explanation": "Since humans lack **Uricase**, this drug provides the enzyme exogenously. It converts the insoluble Urate into the soluble **Allantoin**, dramatically lowering serum uric acid levels. PEGylation prevents the immune system from destroying the foreign enzyme."
+          },
+          {
+            "question": "Leflunomide is used for Rheumatoid Arthritis. It inhibits Dihydroorotate Dehydrogenase. This suppresses lymphocyte proliferation by blocking the synthesis of:",
+            "options": [
+              "Purines (AMP/GMP)",
+              "Pyrimidines (UMP/CTP/dTMP)",
+              "Folate",
+              "ATP",
+              "Histidine"
+            ],
+            "correct": 1,
+            "explanation": "Dihydroorotate Dehydrogenase is the mitochondrial step in **Pyrimidine** synthesis. Activated lymphocytes require massive expansion of the pyrimidine pool (for DNA/RNA). Leflunomide blocks this, exerting an immunosuppressive/anti-inflammatory effect."
+          },
+          {
+            "question": "A patient with Von Gierke Disease (G6Pase deficiency) has severe gout. The mechanism involves increased G6P entering the Pentose Phosphate Pathway, leading to:",
+            "options": [
+              "Decreased PRPP.",
+              "Increased Ribose-5-Phosphate and PRPP, driving excessive Uric Acid production.",
+              "Inhibition of Xanthine Oxidase.",
+              "Increased Lactate clearing Uric acid.",
+              "Decreased ATP."
+            ],
+            "correct": 1,
+            "explanation": "Trapped Glucose-6-Phosphate floods the PPP. This produces excessive **Ribose-5-P**, which is converted to **PRPP**. High PRPP pushes the Glutamine-PRPP Amidotransferase reaction (purine synthesis). The excess purines are degraded to **Uric Acid**. (Lactic acidosis also competes for urate excretion, worsening the gout)."
+          },
+          {
+            "question": "Before starting treatment with 6-Mercaptopurine (or Azathioprine), patients should be screened for a deficiency in which enzyme to avoid severe toxicity?",
+            "options": [
+              "Xanthine Oxidase",
+              "Thiopurine Methyltransferase (TPMT)",
+              "HGPRT",
+              "Adenosine Deaminase",
+              "Dihydropyrimidine Dehydrogenase (DPD)"
+            ],
+            "correct": 1,
+            "explanation": "6-MP is metabolized by two pathways: oxidation (Xanthine Oxidase) and methylation (**TPMT**). If a patient is a slow metabolizer (genetic **TPMT deficiency**), standard doses of 6-MP will accumulate, leading to fatal bone marrow suppression. Dosing must be drastically reduced."
+          },
+          {
+            "question": "A patient receiving 5-Fluorouracil (5-FU) develops severe neurotoxicity and pancytopenia after the first dose. This reaction suggests a deficiency in the catabolic enzyme:",
+            "options": [
+              "Thymidylate Synthase",
+              "Dihydropyrimidine Dehydrogenase (DPD)",
+              "Uridine Kinase",
+              "Ribonucleotide Reductase",
+              "Cytidine Deaminase"
+            ],
+            "correct": 1,
+            "explanation": "Most administered 5-FU (80%+) is actually detoxified/degraded by the liver enzyme **Dihydropyrimidine Dehydrogenase (DPD)**. If a patient has partial or complete DPD deficiency, the drug is not cleared, leading to massive overdose toxicity even at standard therapeutic doses."
+          },
+          {
+            "question": "Vitamin B12 deficiency leads to the 'Methyl Trap', where Folate is stuck as N5-Methyl-THF. This results in a functional deficiency of which other Folate form required for Purine synthesis?",
+            "options": [
+              "Dihydrofolate",
+              "N10-Formyl-THF",
+              "N5,N10-Methylene-THF",
+              "Folic Acid",
+              "Polyglutamated Folate"
+            ],
+            "correct": 1,
+            "explanation": "Purine synthesis requires **N10-Formyl-THF**. If all cellular folate is trapped as N5-Methyl-THF (because B12 is missing to accept the methyl group), the pool of N10-Formyl-THF is depleted, impairing DNA synthesis."
+          },
+          {
+            "question": "Ribavirin is a broad-spectrum antiviral (used for Hep C, RSV). One of its mechanisms is the inhibition of IMP Dehydrogenase. This depletes the viral supply of:",
+            "options": [
+              "ATP",
+              "GTP",
+              "CTP",
+              "UTP",
+              "dTMP"
+            ],
+            "correct": 1,
+            "explanation": "Ribavirin mimics Guanosine. It inhibits IMP Dehydrogenase, lowering the intracellular pool of **GTP**. Since GTP is required for protein synthesis, viral replication (capping), and signaling, this inhibits viral propagation."
+          },
+          {
+            "question": "Hereditary Xanthinuria is caused by a deficiency in Xanthine Oxidase. These patients form kidney stones composed of:",
+            "options": [
+              "Uric Acid",
+              "Calcium Oxalate",
+              "Xanthine",
+              "Cystine",
+              "Struvite"
+            ],
+            "correct": 2,
+            "explanation": "Without Xanthine Oxidase, purine breakdown stops at **Xanthine** (and Hypoxanthine). Xanthine is extremely insoluble in urine (even less than Uric acid). It precipitates, causing radiolucent **Xanthine stones**."
+          },
+          {
+            "question": "Adenosine is sometimes used as a drug to treat Supraventricular Tachycardia (SVT). It works by binding to Adenosine Receptors, but it has a very short half-life (<10 seconds) because it is rapidly:",
+            "options": [
+              "Excreted by the kidney.",
+              "Deaminated to Inosine by Adenosine Deaminase in RBCs and endothelial cells.",
+              "Converted to AMP.",
+              "Degraded by Xanthine Oxidase.",
+              "Bound to Albumin."
+            ],
+            "correct": 1,
+            "explanation": "Adenosine is rapidly taken up by cells and deaminated by **Adenosine Deaminase (ADA)** to Inosine. This rapid metabolism is why it must be given as a rapid IV bolus for cardiac arrhythmias."
+          },
+          {
+            "question": "Pemetrexed is an antifolate used in lung cancer. Unlike Methotrexate, which targets DHFR, Pemetrexed is a 'multitargeted' antifolate that inhibits DHFR, Thymidylate Synthase, and:",
+            "options": [
+              "Ribonucleotide Reductase",
+              "GAR Transformylase (Purine synthesis enzyme)",
+              "CPS II",
+              "Adenosine Deaminase",
+              "HGPRT"
+            ],
+            "correct": 1,
+            "explanation": "Pemetrexed is a potent inhibitor of Thymidylate Synthase, DHFR, and **GAR Transformylase**. By blocking both Pyrimidine (dTMP) and **Purine (GAR)** synthesis, it exerts a broader cytotoxic effect than Methotrexate."
+          },
+          {
+            "question": "A patient consuming high amounts of Fructose (HFCS) is at risk for Hyperuricemia (Gout). Fructose metabolism in the liver rapidly depletes ATP (via Fructokinase), leading to:",
+            "options": [
+              "Inhibition of Xanthine Oxidase.",
+              "Accumulation of AMP, which is degraded to Uric Acid.",
+              "Inhibition of PRPP Synthetase.",
+              "Decreased Lactate.",
+              "Increased renal excretion of urate."
+            ],
+            "correct": 1,
+            "explanation": "Rapid phosphorylation of Fructose to F-1-P consumes ATP/Phosphate. This 'Phosphate Trap' prevents ATP regeneration. The resulting high levels of **AMP** are degraded: AMP $\rightarrow$ Adenosine $\rightarrow$ Inosine $\rightarrow$ Hypoxanthine $\rightarrow$ **Uric Acid**."
+          },
+          {
+            "question": "In tumor cells, resistance to Methotrexate often develops. One common mechanism of resistance is:",
+            "options": [
+              "Downregulation of DHFR.",
+              "Amplification of the DHFR gene (overproduction of enzyme).",
+              "Mutation of Thymidylate Synthase.",
+              "Decreased Glutathione.",
+              "Inhibition of Folate absorption."
+            ],
+            "correct": 1,
+            "explanation": "Cancer cells evolve. A classic mechanism is **Gene Amplification**. The tumor cells produce hundreds of copies of the **DHFR gene**. The massive amount of enzyme produced overwhelms the drug; there is simply too much DHFR for the Methotrexate to inhibit completely."
+          },
+          {
+            "question": "A premature infant born at 28 weeks gestation develops severe tachypnea, grunting, and cyanosis shortly after birth. Chest X-ray shows a 'ground-glass' appearance. The diagnosis is Respiratory Distress Syndrome. The underlying biochemical defect is a deficiency in the synthesis of Dipalmitoylphosphatidylcholine (DPPC). The final step in the de novo synthesis of this lipid involves the transfer of phosphocholine from CDP-Choline to:",
+            "options": [
+              "Phosphatidate",
+              "1,2-Diacylglycerol (DAG)",
+              "Sphingosine",
+              "Ceramide",
+              "Glycerol-3-Phosphate"
+            ],
+            "correct": 1,
+            "explanation": "DPPC (Surfactant) is synthesized via the Kennedy pathway. The head group is activated to CDP-Choline. The phosphocholine moiety is then transferred to **1,2-Diacylglycerol** to form Phosphatidylcholine and CMP. The specific saturated tails (Palmitate) are crucial for surface tension reduction."
+          },
+          {
+            "question": "A 6-month-old infant of Ashkenazi Jewish descent presents with exaggerated startle response to noise, developmental regression, and cherry-red spots on the macula. A diagnosis of Tay-Sachs disease is suspected. Biochemical analysis would reveal the accumulation of which lipid in the brain?",
+            "options": [
+              "Sphingomyelin",
+              "Ceramide",
+              "Ganglioside GM2",
+              "Globoside",
+              "Sulfatide"
+            ],
+            "correct": 2,
+            "explanation": "Tay-Sachs is a defect in **Hexosaminidase A**, preventing the degradation of **Ganglioside GM2** (specifically removing the terminal N-acetylgalactosamine). GM2 accumulates in neuronal lysosomes, causing cell death. (Note: Niemann-Pick has cherry-red spots but accumulates Sphingomyelin + Hepatosplenomegaly)."
+          },
+          {
+            "question": "A 45-year-old male with a family history of early heart attacks presents with xanthomas on his Achilles tendons and a plasma cholesterol of 350 mg/dL. He is diagnosed with Heterozygous Familial Hypercholesterolemia. The molecular defect involves a mutation in the LDL Receptor gene that prevents:",
+            "options": [
+              "The binding of ApoA-I.",
+              "The binding of ApoB-100 or the internalization of the receptor-ligand complex.",
+              "The synthesis of Cholesterol.",
+              "The secretion of VLDL.",
+              "The absorption of fat."
+            ],
+            "correct": 1,
+            "explanation": "The LDL Receptor recognizes **ApoB-100** on LDL. Mutations in FH can affect receptor synthesis, transport to the surface, **binding** of LDL, or **internalization** (clustering in coated pits). The result is delayed clearance of LDL from the blood."
+          },
+          {
+            "question": "A 55-year-old female with hyperlipidemia is prescribed Atorvastatin. Two months later, her lipid profile shows a significant decrease in LDL. Mechanistically, the drop in intracellular cholesterol caused by the drug triggers:",
+            "options": [
+              "Phosphorylation of HMG-CoA Reductase.",
+              "Translocation of SREBP/SCAP from the ER to the Golgi, leading to upregulation of LDL Receptors.",
+              "Degradation of LDL Receptors.",
+              "Inhibition of PCSK9.",
+              "Activation of ACAT."
+            ],
+            "correct": 1,
+            "explanation": "Statins inhibit HMG-CoA Reductase, lowering the intracellular cholesterol pool. The cell senses this depletion via **SCAP/SREBP**. The complex moves to the Golgi, SREBP is processed, and the active transcription factor enters the nucleus to **upregulate the LDL Receptor gene**. More receptors pull more LDL from the blood."
+          },
+          {
+            "question": "A 40-year-old female presents with right upper quadrant pain after fatty meals. Ultrasound confirms Gallstones (Cholelithiasis). Analysis of the stones shows they are composed mostly of Cholesterol. Which metabolic imbalance predisposes to this condition?",
+            "options": [
+              "Excess bile salts relative to cholesterol.",
+              "Excess Phosphatidylcholine.",
+              "Supersaturation of bile with cholesterol relative to the solubilizing agents (bile salts and phospholipids).",
+              "Deficiency of HMG-CoA Reductase.",
+              "High HDL levels."
+            ],
+            "correct": 2,
+            "explanation": "Cholesterol is insoluble in water. In bile, it is kept in solution by mixed micelles of **Bile Salts** and **Phosphatidylcholine**. If the ratio of Cholesterol increases (hypersecretion) or Bile Salts/PC decreases (hyposecretion), cholesterol precipitates, forming stones."
+          },
+          {
+            "question": "A 12-year-old boy presents with steatorrhea, ataxia, and retinitis pigmentosa. Blood smear shows Acanthocytes (spiny RBCs). Lipid panel reveals extremely low triglycerides and absent LDL, VLDL, and Chylomicrons. This condition, Abetalipoproteinemia, is caused by a defect in:",
+            "options": [
+              "ApoB gene",
+              "Microsomal Triglyceride Transfer Protein (MTP)",
+              "LPL",
+              "LDL Receptor",
+              "ApoE"
+            ],
+            "correct": 1,
+            "explanation": "ApoB-containing lipoproteins (Chylomicrons, VLDL, LDL) cannot be assembled without **MTP**. MTP loads the lipid onto the nascent ApoB. Without it, these lipoproteins are degraded intracellularly. Fat soluble vitamins (A, E, K) are not absorbed, causing neurological/eye issues."
+          },
+          {
+            "question": "A 30-year-old male with dysbetalipoproteinemia (Type III Hyperlipoproteinemia) has elevated Chylomicron Remnants and IDL. He has palmar xanthomas. Genetic testing reveals he is homozygous for the ApoE2 allele. This isoform is defective because:",
+            "options": [
+              "It cannot activate LPL.",
+              "It binds poorly to the Hepatic Remnant Receptors (LRP and LDLR), delaying remnant clearance.",
+              "It makes VLDL unstable.",
+              "It cannot bind lipids.",
+              "It promotes rapid degradation of HDL."
+            ],
+            "correct": 1,
+            "explanation": "ApoE is crucial for the uptake of remnants by the liver. The **ApoE2** isoform has a low affinity for the receptors compared to E3 or E4. While most E2 homozygotes are fine, a 'second hit' (like obesity/diabetes) precipitates the accumulation of remnants."
+          },
+          {
+            "question": "A patient with Niemann-Pick Disease Type A presents with hepatosplenomegaly and neurodegeneration. Biopsy shows 'foam cells' filled with lipid. The enzymatic defect involves the hydrolysis of:",
+            "options": [
+              "Gangliosides",
+              "Glucocerebrosides",
+              "Sphingomyelin (Ceramide-Phosphocholine)",
+              "Triacylglycerols",
+              "Cholesterol Esters"
+            ],
+            "correct": 2,
+            "explanation": "Niemann-Pick A/B is a **Sphingomyelinase** deficiency. Sphingomyelin accumulates in lysosomes. Type A is severe/neuropathic; Type B is visceral. (Type C is a cholesterol transport defect)."
+          },
+          {
+            "question": "A patient taking a PCSK9 inhibitor (e.g., Alirocumab) sees a dramatic drop in LDL cholesterol. PCSK9 inhibitors work by:",
+            "options": [
+              "Inhibiting cholesterol synthesis.",
+              "Blocking cholesterol absorption.",
+              "Preventing the lysosomal degradation of the LDL Receptor, allowing it to recycle to the surface.",
+              "Activating LPL.",
+              "Increasing bile acid excretion."
+            ],
+            "correct": 2,
+            "explanation": "Normally, secreted PCSK9 binds to the LDL Receptor and directs it to the lysosome for degradation. **Inhibiting PCSK9** prevents this degradation, allowing the receptor to recycle back to the surface multiple times, clearing far more LDL from the plasma."
+          },
+          {
+            "question": "A newborn presents with ambiguous genitalia and salt wasting (hyponatremia, hyperkalemia). Diagnosis is Congenital Adrenal Hyperplasia (CAH). The most common defect is 21-Hydroxylase deficiency. This blocks Cortisol and Aldosterone synthesis, shunting precursors into:",
+            "options": [
+              "Cholesterol",
+              "Androgens (Testosterone)",
+              "Estrogens",
+              "Vitamin D",
+              "Bile acids"
+            ],
+            "correct": 1,
+            "explanation": "The block at 21-hydroxylase prevents flow down the mineralocorticoid and glucocorticoid pathways. The accumulated precursors (17-OH Progesterone) are shunted into the **Androgen** pathway (which doesn't require 21-OH), causing virilization in females."
+          },
+          {
+            "question": "A patient with Smith-Lemli-Opitz Syndrome has microcephaly, syndactyly, and intellectual disability. The biochemical defect is in 7-Dehydrocholesterol Reductase, the last step of cholesterol synthesis. This results in:",
+            "options": [
+              "High Cholesterol.",
+              "Low Cholesterol and accumulation of 7-Dehydrocholesterol.",
+              "Accumulation of Mevalonate.",
+              "Defect in fatty acid oxidation.",
+              "High bile acids."
+            ],
+            "correct": 1,
+            "explanation": "This enzyme converts the double bond in 7-DHC to make Cholesterol. The defect leads to **low cholesterol** (impairing Hedgehog signaling in development) and toxic accumulation of **7-DHC**."
+          },
+          {
+            "question": "A patient with liver failure has coagulopathy. In addition to protein synthesis defects, there is altered lipid metabolism. The liver synthesizes LCAT (Lecithin-Cholesterol Acyltransferase), which circulates on HDL. The function of LCAT is to:",
+            "options": [
+              "Transfer cholesterol esters between lipoproteins.",
+              "Esterify free cholesterol on the surface of nascent HDL, trapping it in the core and maturing the particle.",
+              "Hydrolyze triglycerides.",
+              "Bind to the LDL receptor.",
+              "Synthesize bile acids."
+            ],
+            "correct": 1,
+            "explanation": "Nascent HDL picks up free cholesterol. **LCAT** takes a fatty acid from PC (Lecithin) and attaches it to Cholesterol. The resulting hydrophobic Cholesteryl Ester sinks into the core of the HDL, maintaining the gradient for cholesterol efflux from cells and converting discoidal HDL to spherical HDL."
+          },
+          {
+            "question": "A child with 'Gaucher Disease' presents with bone pain, hepatosplenomegaly, and pancytopenia. Macrophages look like 'crumpled tissue paper'. The accumulated lipid is Glucocerebroside. The treatment involves enzyme replacement with:",
+            "options": [
+              "Beta-Glucosidase (Glucocerebrosidase)",
+              "Alpha-Galactosidase",
+              "Hexosaminidase A",
+              "Sphingomyelinase",
+              "Arylsulfatase A"
+            ],
+            "correct": 0,
+            "explanation": "Gaucher is the most common lysosomal storage disease. It is a defect in **Glucocerebrosidase**. Enzyme replacement therapy (Imiglucerase) is effective for the non-neuropathic form."
+          },
+          {
+            "question": "A patient taking Cholestyramine complains of fatty stools (Steatorrhea) and night blindness. This adverse effect occurs because:",
+            "options": [
+              "The drug is toxic to the gut lining.",
+              "Sequestering bile acids reduces the formation of mixed micelles, impairing the absorption of fats and fat-soluble vitamins (A, D, E, K).",
+              "The drug inhibits pancreatic lipase.",
+              "The drug binds Vitamin A directly.",
+              "Cholesterol is required for vision."
+            ],
+            "correct": 1,
+            "explanation": "Bile acids are essential detergents. By binding them, Cholestyramine can deplete the bile acid pool below the critical micelle concentration. This impairs the emulsification and absorption of dietary lipids and **Fat-Soluble Vitamins** (like Vitamin A, leading to night blindness)."
+          },
+          {
+            "question": "A 50-year-old male with metabolic syndrome has high Triglycerides and low HDL. He has increased activity of CETP (Cholesteryl Ester Transfer Protein). CETP exchanges:",
+            "options": [
+              "Cholesterol esters from HDL for Triglycerides from VLDL.",
+              "Free cholesterol for Phospholipids.",
+              "ApoE for ApoC-II.",
+              "Fatty acids for Glucose.",
+              "LDL for HDL."
+            ],
+            "correct": 0,
+            "explanation": "**CETP** shuttles lipids between lipoproteins. It moves **Cholesteryl Esters from HDL** to VLDL/LDL (bad) and moves **Triglycerides from VLDL** to HDL (bad). The TG-rich HDL is then hydrolyzed by Hepatic Lipase and cleared, lowering HDL levels. This explains the inverse relationship between TGs and HDL."
+          },
+          {
+            "question": "Zellweger Syndrome is a peroxisomal biogenesis disorder. Which lipid synthesis pathway is primarily disrupted, leading to neurological deficits?",
+            "options": [
+              "Cholesterol synthesis",
+              "Plasmalogen synthesis (ether lipids)",
+              "Fatty acid synthesis",
+              "Sphingomyelin synthesis",
+              "Cardiolipin synthesis"
+            ],
+            "correct": 1,
+            "explanation": "The first steps of **Plasmalogen** synthesis occur obligately in the **Peroxisome** (DHAP acyltransferase). Plasmalogens are crucial for myelin sheath structure. Their absence contributes significantly to the severe phenotype."
+          },
+          {
+            "question": "A patient with Vitamin B12 deficiency develops peripheral neuropathy. This is partly linked to the accumulation of Methylmalonic acid, which disrupts lipid synthesis. Specifically, methylmalonyl-CoA acts as a competitive inhibitor of:",
+            "options": [
+              "HMG-CoA Reductase",
+              "Malonyl-CoA in fatty acid synthesis (leading to branched, unstable fatty acids incorporated into myelin).",
+              "CPT-I",
+              "Sphingomyelinase",
+              "Desmolase"
+            ],
+            "correct": 1,
+            "explanation": "Methylmalonyl-CoA accumulates and substitutes for Malonyl-CoA in **Fatty Acid Synthesis**. This incorporates methyl branches into fatty acid chains. These abnormal fatty acids destabilize neural membranes (myelin), causing neuropathy."
+          },
+          {
+            "question": "A young female with Systemic Lupus Erythematosus (SLE) tests positive for 'Lupus Anticoagulant'. This antibody targets phospholipids bound to proteins (like Beta-2 Glycoprotein I). Specifically, it often targets the anionic phospholipid:",
+            "options": [
+              "Phosphatidylcholine",
+              "Cardiolipin (Diphosphatidylglycerol)",
+              "Sphingomyelin",
+              "Cholesterol",
+              "Phosphatidylethanolamine"
+            ],
+            "correct": 1,
+            "explanation": "Anti-Phospholipid Syndrome involves antibodies against **Cardiolipin** (found in mitochondria but used in the VDRL/syphilis test antigen). Ironically, in vitro it prolongs clotting time (PTT), but in vivo it causes a hypercoagulable state (thrombosis)."
+          },
+          {
+            "question": "In the adrenal cortex, ACTH stimulates steroid synthesis by increasing the expression and activity of StAR (Steroidogenic Acute Regulatory protein). StAR functions to:",
+            "options": [
+              "Synthesize cholesterol.",
+              "Transport cholesterol from the outer to the inner mitochondrial membrane.",
+              "Cleave the side chain.",
+              "Hydroxylate the steroid ring.",
+              "Release Cortisol."
+            ],
+            "correct": 1,
+            "explanation": "The enzymes for steroid synthesis are in the inner mitochondrial membrane (P450scc). Cholesterol is in the outer membrane. **StAR** is the transport protein that moves cholesterol across the intermembrane space. This is the true rate-limiting step in acute steroid hormone production."
+          },
+          {
+            "question": "A patient with severe burns has a negative nitrogen balance. Cortisol levels are high. Cortisol is a glucocorticoid synthesized in the:",
+            "options": [
+              "Zona Glomerulosa",
+              "Zona Fasciculata",
+              "Zona Reticularis",
+              "Adrenal Medulla",
+              "Leydig Cells"
+            ],
+            "correct": 1,
+            "explanation": "Adrenal Cortex zones: G-F-R (Salt, Sugar, Sex). Glomerulosa = Aldosterone (Salt). **Fasciculata = Cortisol (Sugar)**. Reticularis = Androgens (Sex). Medulla = Catecholamines."
+          },
+          {
+            "question": "Metachromatic Leukodystrophy is caused by the accumulation of Sulfatides. The deficiency is in Arylsulfatase A. Sulfatides are synthesized from:",
+            "options": [
+              "Ceramide",
+              "Galactocerebroside (Galactosylceramide)",
+              "Gangliosides",
+              "Sphingomyelin",
+              "Glucocerebroside"
+            ],
+            "correct": 1,
+            "explanation": "Synthesis: Ceramide $\\rightarrow$ Galactocerebroside $\\rightarrow$ **Sulfatide** (via sulfotransferase using PAPS). Degradation is the reverse. Block in Arylsulfatase A leads to Sulfatide buildup and demyelination."
+          },
+          {
+            "question": "A patient with obstructive jaundice (blocked bile duct) has pale, clay-colored stools and dark urine. The dark urine is due to:",
+            "options": [
+              "Unconjugated Bilirubin",
+              "Conjugated Bilirubin (water soluble)",
+              "Urobilinogen",
+              "Bile salts",
+              "Cholesterol"
+            ],
+            "correct": 1,
+            "explanation": "Blockage causes backup. The liver conjugates bilirubin (glucuronide), making it water-soluble. It regurgitates into the blood and is filtered by the kidney (**Dark Urine**). Stools are pale because bilirubin doesn't reach the gut to be converted to Stercobilin (brown)."
+          },
+          {
+            "question": "A researcher is studying atherosclerosis. Macrophages in the arterial wall take up Oxidized LDL via Scavenger Receptors (SR-A). Unlike the LDL Receptor, the Scavenger Receptor:",
+            "options": [
+              "Is downregulated by high intracellular cholesterol.",
+              "Is NOT downregulated by intracellular cholesterol, leading to unregulated uptake and Foam Cell formation.",
+              "Binds only HDL.",
+              "Requires ATP.",
+              "Is located in the nucleus."
+            ],
+            "correct": 1,
+            "explanation": "The LDL receptor is tightly regulated (feedback inhibition) to prevent overload. The **Scavenger Receptor** is NOT regulated by cholesterol. It keeps eating Oxidized LDL until the macrophage becomes a lipid-laden **Foam Cell**, the hallmark of the fatty streak."
+          },
+          {
+            "question": "A child with mental retardation and coarse features has I-Cell Disease. While typically a protein targeting defect (M6P), it affects lipid metabolism because:",
+            "options": [
+              "Lysosomal enzymes (including lipases/glycosidases) are secreted instead of targeted to the lysosome.",
+              "Cholesterol cannot be synthesized.",
+              "Fatty acids cannot be oxidized.",
+              "Mitochondria are defective.",
+              "Golgi is absent."
+            ],
+            "correct": 0,
+            "explanation": "The defect is in GlcNAc-phosphotransferase (Golgi). No M6P tag is added. All lysosomal enzymes (proteases, *lipases*, *glycosidases*) are secreted into the blood. The lysosomes are empty of enzymes but full of undigested junk ('Inclusion bodies'), causing mucolipidosis."
+          },
+          {
+            "question": "In Fabry Disease (X-linked), patients present with angiokeratomas, hypohidrosis, and renal failure. The accumulated lipid is Globotriaosylceramide (Gb3). The defective enzyme is:",
+            "options": [
+              "Alpha-Galactosidase A",
+              "Beta-Galactosidase",
+              "Glucocerebrosidase",
+              "Sphingomyelinase",
+              "Hexosaminidase A"
+            ],
+            "correct": 0,
+            "explanation": "Fabry is an **Alpha-Galactosidase A** deficiency. It prevents the cleavage of the terminal galactose from the globoside Gb3. Accumulation damages blood vessel endothelium (angiokeratomas, stroke, renal failure)."
+          },
+          {
+            "question": "A patient with Vitamin D deficiency develops Rickets (children) or Osteomalacia (adults). The active form of Vitamin D (Calcitriol) functions primarily as:",
+            "options": [
+              "A cofactor for enzymes.",
+              "An antioxidant.",
+              "A nuclear receptor ligand that regulates gene transcription (e.g., Calbindin) to increase Calcium absorption.",
+              "A structural component of bone.",
+              "A regulator of blood clotting."
+            ],
+            "correct": 2,
+            "explanation": "Vitamin D is a steroid hormone precursor. **Calcitriol (1,25-OH D3)** binds the VDR (Nuclear Receptor), heterodimerizes with RXR, binds DNA, and upregulates genes for Calcium transport in the gut and kidney."
+          },
+          {
+            "question": "Eicosanoids are local hormones. Leukotrienes are involved in asthma (bronchoconstriction). They are synthesized from Arachidonic acid by the enzyme:",
+            "options": [
+              "Cyclooxygenase (COX)",
+              "Lipoxygenase (LOX)",
+              "Epoxygenase",
+              "Phospholipase C",
+              "Thromboxane Synthase"
+            ],
+            "correct": 1,
+            "explanation": "The Arachidonic acid pathway bifurcates. COX produces Prostaglandins/Thromboxanes. **Lipoxygenase (5-LOX)** produces **Leukotrienes**. (Asthma drugs like Montelukast block Leukotriene receptors; Zileuton blocks LOX)."
+          },
+          {
+            "question": "A 65-year-old male takes Niacin to raise his HDL. Niacin can cause flushing, which is mediated by the release of:",
+            "options": [
+              "Prostaglandins (PGD2) from the skin.",
+              "Histamine.",
+              "Serotonin.",
+              "Bradykinin.",
+              "Nitric Oxide."
+            ],
+            "correct": 0,
+            "explanation": "Niacin flushing is a cutaneous vasodilation mediated by **Prostaglandins (PGD2/PGE2)**. Taking Aspirin (a COX inhibitor) 30 minutes before Niacin can prevent this side effect."
+          },
+          {
+            "question": "Which enzyme deficiency causes Congenital Adrenal Hyperplasia with Hypertension (due to accumulation of Deoxycorticosterone, a mineralocorticoid)?",
+            "options": [
+              "21-Hydroxylase (Hypotensive)",
+              "11-Beta-Hydroxylase",
+              "17-Alpha-Hydroxylase",
+              "Desmolase",
+              "Aromatase"
+            ],
+            "correct": 1,
+            "explanation": "**11-Beta-Hydroxylase deficiency** blocks the final step to Cortisol. Precursors back up. 11-Deoxycorticosterone (DOC) accumulates. DOC has strong mineralocorticoid activity (salt retention), causing **Hypertension**. (21-OH deficiency causes salt wasting/hypotension)."
+          },
+          {
+            "question": "Fingolimod is a drug for Multiple Sclerosis. It structurally mimics Sphingosine. It is phosphorylated in vivo and acts as an antagonist of:",
+            "options": [
+              "Sphingosine-1-Phosphate (S1P) Receptors",
+              "Ceramide Synthase",
+              "Acetylcholine Receptors",
+              "LDL Receptors",
+              "Glucocorticoid Receptors"
+            ],
+            "correct": 0,
+            "explanation": "S1P is a potent lipid signaling molecule involved in lymphocyte trafficking. Fingolimod-P binds **S1P receptors** on lymphocytes, causing receptor internalization. This traps lymphocytes in lymph nodes, preventing them from attacking the CNS in MS."
+          },
+          {
+            "question": "A 4-year-old child presents with gray pseudomembranes on the tonsils and throat, fever, and difficulty breathing. A throat swab confirms Corynebacterium diphtheriae. The toxin produced by this bacterium inhibits protein synthesis by:",
+            "options": [
+              "Cleaving the 28S rRNA.",
+              "ADP-ribosylating Elongation Factor 2 (eEF2).",
+              "Binding to the 30S ribosomal subunit.",
+              "Blocking the Peptidyl Transferase center.",
+              "Inhibiting Aminoacyl-tRNA Synthetase."
+            ],
+            "correct": 1,
+            "explanation": "Diphtheria Toxin (and Pseudomonas Exotoxin A) catalyzes the transfer of ADP-ribose from NAD+ to a specific modified histidine residue (Diphthamide) on **eEF2**. This covalent modification inactivates eEF2, completely blocking **Translocation** and halting protein synthesis, killing the cell."
+          },
+          {
+            "question": "A 22-year-old male is treated with Doxycycline for Lyme disease. Tetracyclines function as antibiotics by:",
+            "options": [
+              "Binding to the 50S subunit and blocking the exit tunnel.",
+              "Binding to the 30S subunit and blocking the binding of aminoacyl-tRNA to the A-site.",
+              "Causing misreading of the mRNA.",
+              "Inhibiting DNA gyrase.",
+              "Blocking translocation."
+            ],
+            "correct": 1,
+            "explanation": "**Tetracyclines** bind reversibly to the **30S** ribosomal subunit. They sterically block the **A-site**, preventing the incoming Aminoacyl-tRNA-EF-Tu complex from binding. This stops elongation."
+          },
+          {
+            "question": "A patient with pneumonia is treated with a Macrolide antibiotic (Azithromycin). Macrolides, like Erythromycin, inhibit bacterial growth by:",
+            "options": [
+              "Binding to the 50S subunit and blocking the polypeptide exit tunnel (preventing translocation).",
+              "Inhibiting the initiation complex.",
+              "Causing premature termination.",
+              "Binding to the 30S subunit.",
+              "Inhibiting tRNA charging."
+            ],
+            "correct": 0,
+            "explanation": "**Macrolides** (and Clindamycin) bind to the **50S** subunit near the peptidyl transferase center. They block the **exit tunnel** through which the growing peptide chain leaves the ribosome. This sterically hinders the growth of the chain and prevents Translocation."
+          },
+          {
+            "question": "A bioterrorism attack involves Ricin, a toxin derived from castor beans. Ricin is lethal because it acts as a:",
+            "options": [
+              "Protease that cleaves Elongation Factors.",
+              "N-glycosidase that depurinates a specific Adenine in the 28S rRNA.",
+              "Kinase that phosphorylates eIF2.",
+              "Competitive inhibitor of tRNA.",
+              "Blocker of the nuclear pore."
+            ],
+            "correct": 1,
+            "explanation": "Ricin is a Ribosome Inactivating Protein (RIP). The catalytic A-chain is an **N-glycosidase**. It cleaves a single Adenine base from the sarcin-ricin loop of the **28S rRNA** (part of the 60S subunit). This modification permanently inactivates the ribosome's ability to bind elongation factors, stopping protein synthesis catalytically."
+          },
+          {
+            "question": "A patient taking Chloramphenicol (rarely used now due to aplastic anemia) develops toxicity. Chloramphenicol targets the 50S subunit and inhibits:",
+            "options": [
+              "Translocation",
+              "Peptidyl Transferase activity (Peptide bond formation).",
+              "mRNA binding.",
+              "tRNA binding.",
+              "Termination."
+            ],
+            "correct": 1,
+            "explanation": "**Chloramphenicol** binds to the 50S subunit and directly inhibits the **Peptidyl Transferase** reaction. (Note: It can also inhibit mitochondrial protein synthesis in humans, leading to bone marrow toxicity)."
+          },
+          {
+            "question": "Aminoglycosides (e.g., Gentamicin) are unique among protein synthesis inhibitors because they are bactericidal. Their mechanism involves:",
+            "options": [
+              "Binding irreversibly to the 30S subunit, causing misreading of the genetic code and production of toxic aberrant proteins.",
+              "Blocking the A-site.",
+              "Inhibiting peptide bond formation.",
+              "Preventing ribosome assembly.",
+              "Inhibiting DNA replication."
+            ],
+            "correct": 0,
+            "explanation": "**Aminoglycosides** bind to the **16S rRNA** of the 30S subunit. They distort the decoding center, causing the ribosome to accept incorrect tRNAs (**Misreading**). The accumulation of misfolded, toxic proteins kills the bacterium (Bactericidal), whereas most other synthesis inhibitors are merely bacteriostatic."
+          },
+          {
+            "question": "In a patient with Iron Deficiency Anemia, the synthesis of Ferritin (iron storage protein) is downregulated. This translational regulation is mediated by:",
+            "options": [
+              "Phosphorylation of eIF2.",
+              "Iron Regulatory Proteins (IRPs) binding to the Iron Response Element (IRE) in the 5' UTR of Ferritin mRNA.",
+              "Degradation of Ferritin mRNA.",
+              "Alternative splicing.",
+              "Riboswitch."
+            ],
+            "correct": 1,
+            "explanation": "When Iron is low, **IRPs** bind to the **IRE stem-loop** structure in the 5' UTR of Ferritin mRNA. This steric blockade prevents the 40S ribosomal subunit from scanning to the start codon, blocking translation. When Iron is high, Iron binds IRP, IRP releases the RNA, and Ferritin translation proceeds."
+          },
+          {
+            "question": "Linezolid (an Oxazolidinone) is used for VRE and MRSA. It inhibits protein synthesis by:",
+            "options": [
+              "Binding to the 50S subunit and preventing the formation of the 70S Initiation Complex.",
+              "Inhibiting translocation.",
+              "Causing misreading.",
+              "Inhibiting tRNA synthetases.",
+              "Blocking the A-site."
+            ],
+            "correct": 0,
+            "explanation": "**Linezolid** binds to the 23S rRNA of the 50S subunit. It prevents the 50S subunit from associating with the 30S-mRNA-fMet-tRNA complex, thereby blocking the formation of the functional **70S Initiation Complex**."
+          },
+          {
+            "question": "A child consumes death cap mushrooms (Amanita phalloides). Alpha-Amanitin inhibits RNA Polymerase II. While this is transcription, the immediate downstream effect causing death is the lack of:",
+            "options": [
+              "rRNA",
+              "tRNA",
+              "mRNA (and thus protein synthesis).",
+              "DNA",
+              "ATP"
+            ],
+            "correct": 2,
+            "explanation": "Alpha-Amanitin is a potent inhibitor of **RNA Polymerase II** (which makes mRNA). Without mRNA turnover, essential proteins with short half-lives are not replenished, leading to massive liver necrosis and death."
+          },
+          {
+            "question": "Interferons exert antiviral effects by inducing the expression of Protein Kinase R (PKR). When PKR detects double-stranded RNA (viral), it phosphorylates eIF2. This results in:",
+            "options": [
+              "Increased viral replication.",
+              "Global inhibition of translation initiation in the host cell (Apoptosis/Antiviral state).",
+              "Specific degradation of viral RNA.",
+              "Increased MHC expression.",
+              "Activation of macrophages."
+            ],
+            "correct": 1,
+            "explanation": "Phosphorylated **eIF2** binds tightly to its Guanine Nucleotide Exchange Factor (eIF2B) and inhibits it (sequesters it). Since eIF2B is limiting, this prevents the recycling of eIF2-GDP to eIF2-GTP. Without active eIF2, translation initiation stops globally, preventing the virus from using the host machinery."
+          },
+          {
+            "question": "In a patient with I-cell disease, lysosomal enzymes are secreted into the blood instead of targeted to the lysosome. This is a defect in post-translational modification. The specific signal missing is:",
+            "options": [
+              "KDEL sequence.",
+              "Ubiquitin tag.",
+              "Mannose-6-Phosphate on N-linked oligosaccharides.",
+              "Signal Peptide.",
+              "GPI anchor."
+            ],
+            "correct": 2,
+            "explanation": "Lysosomal enzymes are marked in the Golgi by the addition of a phosphate to a mannose residue (**Mannose-6-Phosphate**). This tag is recognized by the M6P receptor for sorting to the lysosome. The defect is in the enzyme *GlcNAc-phosphotransferase*."
+          },
+          {
+            "question": "A researcher is studying a mutation in the tRNA-Leu gene. The mutation changes the anticodon sequence. This leads to the incorporation of Leucine at a codon that normally codes for Serine. This type of mutation results in:",
+            "options": [
+              "Frameshift",
+              "Nonsense mutation",
+              "Missense suppression or error.",
+              "Silent mutation",
+              "Splice site mutation"
+            ],
+            "correct": 2,
+            "explanation": "If a tRNA has an altered anticodon but is still charged with its original amino acid (Leucine), it will insert Leucine at the wrong codon (Serine codon). This is a translational **Missense** error. (Specifically, suppressor tRNAs use this mechanism to read through stop codons)."
+          },
+          {
+            "question": "Mupirocin is a topical antibiotic used for Impetigo (Staph/Strep). It selectively inhibits:",
+            "options": [
+              "Bacterial Isoleucyl-tRNA Synthetase.",
+              "Bacterial Peptidyl Transferase.",
+              "Bacterial DNA Polymerase.",
+              "Bacterial Cell Wall synthesis.",
+              "Bacterial Membrane integrity."
+            ],
+            "correct": 0,
+            "explanation": "**Mupirocin** is a structural analog of Isoleucyl-AMP. It competitively inhibits the bacterial **Isoleucyl-tRNA Synthetase**, preventing the charging of tRNA-Ile. Without Ile-tRNA, protein synthesis halts."
+          },
+          {
+            "question": "Shiga Toxin (from Shigella dysenteriae) and Shiga-like Toxin (from E. coli O157:H7) cause Hemolytic Uremic Syndrome. Their mechanism of action is identical to:",
+            "options": [
+              "Cholera Toxin",
+              "Diphtheria Toxin",
+              "Ricin (removing an Adenine from 28S rRNA).",
+              "Pertussis Toxin",
+              "Tetanus Toxin"
+            ],
+            "correct": 2,
+            "explanation": "Shiga toxin is also an N-glycosidase that cleaves the specific Adenine from the **28S rRNA** of the 60S subunit (identical mechanism to **Ricin**). It inactivates ribosomes, killing intestinal and renal endothelial cells."
+          },
+          {
+            "question": "A patient with Cystic Fibrosis has a nonsense mutation (premature Stop codon) in the CFTR gene (G542X). The drug Ataluren is being trialed to treat this. Ataluren works by:",
+            "options": [
+              "Correcting the folding of the protein.",
+              "Promoting 'Read-through' of the premature stop codon.",
+              "Increasing transcription of the gene.",
+              "Stabilizing the mRNA.",
+              "Activating a chloride channel."
+            ],
+            "correct": 1,
+            "explanation": "Ataluren (and some aminoglycosides) promotes **Read-through**. It induces the ribosome to insert a near-cognate aminoacyl-tRNA at the nonsense codon instead of a Release Factor, allowing translation to continue to the full length (though with one incorrect amino acid)."
+          },
+          {
+            "question": "A 5-day-old premature infant develops abdominal distension, bloody stools, and instability. He is diagnosed with Necrotizing Enterocolitis. He is treated with Clindamycin and Gentamicin. Several days later, he develops signs of hearing loss. The mechanism of toxicity involves the antibiotic binding to:",
+            "options": [
+              "The 50S ribosomal subunit.",
+              "The 30S ribosomal subunit, causing misreading of mRNA.",
+              "DNA Gyrase.",
+              "RNA Polymerase.",
+              "The cell wall."
+            ],
+            "correct": 1,
+            "explanation": "Gentamicin is an Aminoglycoside. These drugs bind irreversibly to the **16S rRNA of the 30S subunit**. This distorts the A-site, causing **misreading** of the genetic code and the production of toxic proteins. They are known for Ototoxicity (hearing loss) and Nephrotoxicity."
+          },
+          {
+            "question": "A 12-year-old girl is brought to the clinic because her teeth have a yellowish-gray discoloration. She has a history of taking antibiotics for acne. The drug responsible inhibits protein synthesis by:",
+            "options": [
+              "Blocking the translocation of the ribosome.",
+              "Blocking the A-site and preventing aminoacyl-tRNA binding.",
+              "Inhibiting peptidyl transferase.",
+              "Causing premature termination.",
+              "Inhibiting DNA replication."
+            ],
+            "correct": 1,
+            "explanation": "This is **Tetracycline** staining. Tetracyclines bind reversibly to the 30S subunit and sterically **block the A-site**, preventing the entry of the aminoacyl-tRNA. They chelate calcium and deposit in developing teeth and bones."
+          },
+          {
+            "question": "A newborn presents with Gray Baby Syndrome (hypotension, ashen gray skin color) after receiving Chloramphenicol for meningitis. The toxicity is due to the baby's inability to glucuronidate the drug, leading to high levels that inhibit:",
+            "options": [
+              "Eukaryotic 80S ribosomes.",
+              "Mitochondrial 55S ribosomes (similar to bacterial 50S).",
+              "DNA Polymerase.",
+              "RNA Polymerase II.",
+              "Fatty acid oxidation."
+            ],
+            "correct": 1,
+            "explanation": "Chloramphenicol inhibits bacterial 50S subunits. However, at high concentrations, it cross-reacts with **human mitochondrial ribosomes** (which are evolutionarily related to bacteria). This suppresses mitochondrial protein synthesis, leading to metabolic acidosis and cardiovascular collapse (Gray Baby)."
+          },
+          {
+            "question": "A 6-year-old child presents with bloody diarrhea and acute renal failure (Hemolytic Uremic Syndrome) after eating an undercooked hamburger. The causative agent is E. coli O157:H7. The toxin produced (Shiga-like toxin) has an identical mechanism of action to:",
+            "options": [
+              "Diphtheria Toxin",
+              "Cholera Toxin",
+              "Ricin (cleaving an Adenine from 28S rRNA).",
+              "Pertussis Toxin",
+              "Botulinum Toxin"
+            ],
+            "correct": 2,
+            "explanation": "Shiga toxin and Shiga-like toxin are N-glycosidases. They cleave a specific Adenine base from the **28S rRNA** of the eukaryotic 60S subunit. This permanently inactivates the ribosome, halting protein synthesis and killing the cell (identical to **Ricin**)."
+          },
+          {
+            "question": "A patient with Cystic Fibrosis has the Delta-F508 mutation. This deletion of Phenylalanine prevents the CFTR protein from folding correctly. Consequently, the protein is retained in the ER and degraded by:",
+            "options": [
+              "Lysosomes",
+              "The Ubiquitin-Proteasome System (ERAD).",
+              "Autophagy.",
+              "Caspases.",
+              "Secretory vesicles."
+            ],
+            "correct": 1,
+            "explanation": "Misfolded proteins in the ER are recognized by the quality control machinery. They are retro-translocated into the cytosol, ubiquitinated, and degraded by the **Proteasome**. This process is called ER-Associated Degradation (ERAD)."
+          },
+          {
+            "question": "A 30-year-old female is treated with Linezolid for a Vancomycin-Resistant Enterococcus (VRE) infection. She is also taking an SSRI for depression. She develops confusion, hyperthermia, and myoclonus (Serotonin Syndrome). Linezolid precipitates this because it inhibits:",
+            "options": [
+              "Monoamine Oxidase (MAO).",
+              "Serotonin Reuptake.",
+              "Cytochrome P450.",
+              "Dopamine receptors.",
+              "GABA receptors."
+            ],
+            "correct": 0,
+            "explanation": "Linezolid is a protein synthesis inhibitor (binds 50S, blocks initiation). However, structurally it acts as a weak, non-selective inhibitor of **Monoamine Oxidase (MAO)**. Combined with SSRIs, it prevents serotonin breakdown, leading to Serotonin Syndrome."
+          },
+          {
+            "question": "A patient with hyperextensible skin and hypermobile joints is diagnosed with Ehlers-Danlos Syndrome. The defect often involves the processing of Collagen. During translation, Collagen relies heavily on the abundance of which tRNA due to its repetitive sequence?",
+            "options": [
+              "tRNA-Glycine",
+              "tRNA-Tryptophan",
+              "tRNA-Methionine",
+              "tRNA-Cysteine",
+              "tRNA-Histidine"
+            ],
+            "correct": 0,
+            "explanation": "Collagen's primary structure is a repeating triplet of **Gly-X-Y**. Glycine appears at every third position. Therefore, the cell requires a high supply of **Glycyl-tRNA** to sustain collagen translation."
+          },
+          {
+            "question": "A 40-year-old male ingests 'Death Cap' mushrooms (Amanita phalloides) in a suicide attempt. He develops liver failure. The toxin Alpha-Amanitin binds with high affinity to:",
+            "options": [
+              "RNA Polymerase II (inhibiting mRNA synthesis).",
+              "The Ribosome.",
+              "DNA Polymerase.",
+              "Mitochondrial ATPase.",
+              "The Spliceosome."
+            ],
+            "correct": 0,
+            "explanation": "**Alpha-Amanitin** is a potent inhibitor of eukaryotic **RNA Polymerase II**. By blocking mRNA synthesis, the cell cannot replenish proteins. The liver, having high protein turnover, undergoes massive necrosis."
+          },
+          {
+            "question": "A child presents with kinky, brittle hair, growth retardation, and seizures (Menkes Disease). This is due to a defect in copper transport (ATP7A). Copper is a required cofactor for Lysyl Oxidase, an enzyme that acts:",
+            "options": [
+              "During translation in the ribosome.",
+              "In the nucleus.",
+              "Extracellularly, to cross-link collagen and elastin fibrils.",
+              "In the mitochondria.",
+              "In the lysosome."
+            ],
+            "correct": 2,
+            "explanation": "Lysyl Oxidase performs a **post-translational modification** on secreted collagen/elastin. It oxidizes Lysine residues to aldehydes (allysine), allowing spontaneous covalent cross-linking. Without Copper, this cross-linking fails, leading to weak connective tissue."
+          },
+          {
+            "question": "A patient with a MRSA infection is treated with Clindamycin. However, the bacteria are resistant due to the presence of a methylase enzyme (erm gene). This enzyme modifies the target of Clindamycin, which is:",
+            "options": [
+              "The 23S rRNA of the 50S subunit.",
+              "The 16S rRNA of the 30S subunit.",
+              "Elongation Factor G.",
+              "DNA Gyrase.",
+              "Cell wall transpeptidase."
+            ],
+            "correct": 0,
+            "explanation": "Macrolides, Lincosamides (Clindamycin), and Streptogramins (MLS antibiotics) all bind the **23S rRNA** of the 50S subunit. Bacterial resistance involves **methylating** a specific Adenine residue in the 23S rRNA, preventing the drug from binding."
+          },
+          {
+            "question": "A patient with Type 1 Diabetes relies on injected insulin. Insulin is synthesized as Preproinsulin. The conversion of Proinsulin to active Insulin involves:",
+            "options": [
+              "Phosphorylation.",
+              "Proteolytic cleavage of the C-peptide.",
+              "Glycosylation.",
+              "Acetylation.",
+              "Addition of a lipid anchor."
+            ],
+            "correct": 1,
+            "explanation": "Preproinsulin loses its signal peptide to become Proinsulin in the ER. Proinsulin is packaged in Golgi vesicles. Proteases (Prohormone convertases) cleave out the **C-peptide**, leaving the A and B chains linked by disulfide bonds—the active **Insulin**."
+          },
+          {
+            "question": "A researcher uses Cycloheximide in an experiment. This drug is used to distinguish between:",
+            "options": [
+              "DNA and RNA synthesis.",
+              "Cytosolic (80S) and Mitochondrial (55S) protein synthesis.",
+              "Gram-positive and Gram-negative bacteria.",
+              "Transcription and Replication.",
+              "Glycolysis and Gluconeogenesis."
+            ],
+            "correct": 1,
+            "explanation": "**Cycloheximide** inhibits eukaryotic 80S ribosomes (cytosolic translation) but **does not** inhibit prokaryotic or mitochondrial ribosomes. It is a standard tool to determine if a protein is encoded by the nuclear genome or the mitochondrial genome."
+          },
+          {
+            "question": "A patient with Huntington's Disease has a mutation involving CAG trinucleotide expansion. During translation, this results in a protein with an expanded tract of:",
+            "options": [
+              "Glycine",
+              "Glutamine (Poly-Q)",
+              "Alanine",
+              "Proline",
+              "Leucine"
+            ],
+            "correct": 1,
+            "explanation": "CAG codes for **Glutamine**. Huntington's is a **Poly-Glutamine (Poly-Q)** disorder. The expanded glutamine tract causes the protein (Huntingtin) to misfold and aggregate, leading to neuronal toxicity."
+          },
+          {
+            "question": "Wolcott-Rallison Syndrome is a rare form of infantile diabetes caused by a defect in PERK (PKR-like ER Kinase). PERK is crucial for the Unfolded Protein Response because it phosphorylates:",
+            "options": [
+              "eIF4E",
+              "eIF2, shutting down global translation to reduce ER load.",
+              "Elongation Factor 2.",
+              "The Insulin Receptor.",
+              "Ribosomes."
+            ],
+            "correct": 1,
+            "explanation": "When unfolded proteins accumulate in the ER (stress), **PERK** phosphorylates **eIF2**. This prevents initiation, pausing protein synthesis. This gives the ER time to clear the backlog. Without PERK, the ER is overwhelmed (especially in insulin-secreting beta-cells), leading to cell death and diabetes."
+          },
+          {
+            "question": "In a patient with Fragile X Syndrome, the FMR1 gene is silenced by CGG expansion and methylation. The normal FMRP protein functions as:",
+            "options": [
+              "A transcription factor.",
+              "An RNA-binding protein that represses the translation of specific neuronal mRNAs.",
+              "A ribosomal subunit.",
+              "A DNA polymerase.",
+              "A glycolytic enzyme."
+            ],
+            "correct": 1,
+            "explanation": "FMRP is a translational regulator. It binds to specific mRNAs in neurons and **suppresses their translation**. Loss of FMRP leads to unregulated, excessive protein synthesis at synapses, causing the intellectual disability and synaptic defects seen in Fragile X."
+          },
+          {
+            "question": "A 32-year-old male is brought to the ER after being found unconscious. He has been fasting for a religious ritual for 3 days and got lost hiking. His blood glucose is 55 mg/dL. Urine ketones are strongly positive. Which enzyme activity in the brain is upregulated to allow his neurons to survive this hypoglycemia?",
+            "options": [
+              "Pyruvate Carboxylase",
+              "3-Ketoacyl-CoA Transferase (Thiophorase)",
+              "Glucokinase",
+              "Glycogen Phosphorylase",
+              "Fatty Acid Synthase"
+            ],
+            "correct": 1,
+            "explanation": "During starvation, the brain shifts to using Ketone Bodies. The rate-limiting enzyme for ketone utilization is **Thiophorase** (which is absent in the liver but induced in the brain during starvation)."
+          },
+          {
+            "question": "A 45-year-old alcoholic presents with confusion and ataxia. He is hypoglycemic. The administration of Thiamine is required before Glucose to prevent damage to which brain region?",
+            "options": [
+              "Mamillary Bodies",
+              "Frontal Lobe",
+              "Cerebellum",
+              "Basal Ganglia",
+              "Occipital Lobe"
+            ],
+            "correct": 0,
+            "explanation": "Wernicke's Encephalopathy affects the **Mamillary Bodies** (and thalamus). It is caused by acute Thiamine deficiency precipitated by a glucose load in a depleted patient (PDH requires Thiamine)."
+          },
+          {
+            "question": "A 7-year-old boy with Type 1 Diabetes plays in a soccer tournament. He forgets to lower his insulin pump basal rate. During the second half, he passes out. His hypoglycemia is caused by:",
+            "options": [
+              "Increased gluconeogenesis.",
+              "Exercise-induced translocation of GLUT4 working synergistically with high insulin to clear blood glucose.",
+              "Insulin resistance.",
+              "Glucagon excess.",
+              "Fatty acid inhibition."
+            ],
+            "correct": 1,
+            "explanation": "Exercise recruits **GLUT4** (via AMPK/Calcium) independently of insulin. If exogenous insulin is also high, the combined effect causes rapid, massive glucose uptake into muscle, leading to severe **hypoglycemia**."
+          },
+          {
+            "question": "A patient with Von Gierke Disease (GSD I) has hyperuricemia (Gout). This occurs because trapped Glucose-6-Phosphate is shunted into:",
+            "options": [
+              "Glycolysis, producing lactate which competes with urate excretion.",
+              "The Pentose Phosphate Pathway, increasing Ribose-5-P and PRPP, driving purine synthesis.",
+              "Both A and B.",
+              "Glycogen synthesis.",
+              "Fatty acid synthesis."
+            ],
+            "correct": 2,
+            "explanation": "Hyperuricemia in GSD I is multifactorial: 1) Increased **PPP flux** leads to high Purine synthesis/degradation. 2) **Lactic Acidosis** reduces the renal clearance of Uric Acid."
+          },
+          {
+            "question": "A newborn presents with severe lactic acidosis and defects in the corpus callosum. Pyruvate Dehydrogenase (PDH) deficiency is diagnosed. A ketogenic diet helps because:",
+            "options": [
+              "It stimulates PDH.",
+              "It provides Acetyl-CoA equivalents that can enter the TCA cycle independent of PDH.",
+              "It lowers lactate.",
+              "It inhibits glycolysis.",
+              "It provides glucose."
+            ],
+            "correct": 1,
+            "explanation": "PDH converts Pyruvate to Acetyl-CoA. A defect blocks aerobic glucose oxidation. **Ketogenic diets** provide fat/ketones, which convert to Acetyl-CoA directly, bypassing the block and fueling the TCA cycle."
+          },
+          {
+            "question": "A 22-year-old female with Anorexia Nervosa has a BMI of 14. She has severe muscle wasting. In this state of chronic starvation, the kidney plays a major role in maintaining blood glucose by performing gluconeogenesis using which substrate?",
+            "options": [
+              "Alanine",
+              "Lactate",
+              "Glutamine",
+              "Fatty Acids",
+              "Urea"
+            ],
+            "correct": 2,
+            "explanation": "In prolonged starvation, the kidney uses **Glutamine** (from muscle breakdown) for gluconeogenesis. The ammonia produced helps buffer the metabolic acidosis (from ketones)."
+          },
+          {
+            "question": "A patient with MCAD deficiency cannot oxidize medium-chain fatty acids. During fasting, they develop:",
+            "options": [
+              "Ketotic Hypoglycemia",
+              "Hypoketotic Hypoglycemia",
+              "Hyperglycemia",
+              "Lactic Acidosis only",
+              "Hyperlipidemia"
+            ],
+            "correct": 1,
+            "explanation": "Without beta-oxidation, the liver cannot generate the ATP/NADH needed for gluconeogenesis (causing Hypoglycemia) AND cannot generate Acetyl-CoA for Ketogenesis (causing **Hypoketosis**). This combination is the hallmark."
+          },
+          {
+            "question": "A 50-year-old male with metabolic syndrome has high triglycerides. This is largely due to the liver's overproduction of VLDL, driven by high flux of Free Fatty Acids from adipose tissue. The enzyme in adipose tissue responsible for this flux, which is normally suppressed by insulin, is:",
+            "options": [
+              "Lipoprotein Lipase",
+              "Hormone Sensitive Lipase (HSL)",
+              "ATGL",
+              "Fatty Acid Synthase",
+              "Acyl-CoA Synthetase"
+            ],
+            "correct": 1,
+            "explanation": "Insulin resistance in adipocytes prevents the suppression of **Hormone Sensitive Lipase**. This leads to unchecked lipolysis, flooding the liver with FFAs, which are repackaged into VLDL."
+          },
+          {
+            "question": "A patient with Hereditary Fructose Intolerance eats candy. He develops hypoglycemia. The mechanism involves Fructose-1-Phosphate accumulation causing:",
+            "options": [
+              "Sequestration of inorganic phosphate (Pi), inhibiting Glycogen Phosphorylase.",
+              "Inhibition of Insulin release.",
+              "Inhibition of Hexokinase.",
+              "Activation of Glycogen Synthase.",
+              "Defect in GLUT2."
+            ],
+            "correct": 0,
+            "explanation": "The 'Phosphate Trap'. F-1-P ties up phosphate. **Glycogen Phosphorylase** requires inorganic phosphate to break down glycogen. Phosphate depletion stops glycogenolysis."
+          },
+          {
+            "question": "A bodybuilder using anabolic steroids has hepatic cholestasis. Steroids can inhibit the Bile Salt Export Pump (BSEP). Accumulation of bile salts in the hepatocyte is toxic because they:",
+            "options": [
+              "Are detergents that disrupt mitochondrial membranes and cause apoptosis.",
+              "Inhibit protein synthesis.",
+              "Bind DNA.",
+              "Activate lysosomes.",
+              "Consume ATP."
+            ],
+            "correct": 0,
+            "explanation": "Bile salts are **detergents**. Intracellular accumulation dissolves membranes (mitochondria), triggering cell death and liver damage."
+          },
+          {
+            "question": "A patient taking Metformin for diabetes has diarrhea. Metformin also carries a risk of Lactic Acidosis because it inhibits:",
+            "options": [
+              "Complex I of the ETC, slowing the clearance of NADH and thus the conversion of Lactate to Pyruvate.",
+              "Pyruvate Dehydrogenase.",
+              "Lactate Dehydrogenase.",
+              "Renal excretion of lactate.",
+              "Glycolysis."
+            ],
+            "correct": 0,
+            "explanation": "Metformin inhibits **Complex I**. This slows oxidative phosphorylation and increases the NADH/NAD+ ratio. This ratio impairs the use of Lactate for gluconeogenesis (Cori cycle), causing lactate to build up."
+          },
+          {
+            "question": "In a patient with Pyruvate Kinase Deficiency, the RBCs are starved of ATP. This leads to hemolysis because:",
+            "options": [
+              "The Na+/K+ ATPase fails, causing cellular swelling and lysis.",
+              "Spectrin degrades.",
+              "Hemoglobin precipitates.",
+              "G6PD is inhibited.",
+              "Lactate accumulates."
+            ],
+            "correct": 0,
+            "explanation": "RBCs rely solely on glycolysis for ATP. PK deficiency reduces ATP. Without ATP, the **Na+/K+ pump** fails. Sodium and water enter the cell, causing swelling and rigid lysis (hemolysis)."
+          },
+          {
+            "question": "A patient with Cushing's Syndrome (high cortisol) has centripetal obesity and thin limbs. The thin limbs are due to:",
+            "options": [
+              "Cortisol-induced protein catabolism (proteolysis) in skeletal muscle to provide amino acids for gluconeogenesis.",
+              "Inhibition of muscle growth.",
+              "Fat redistribution.",
+              "Poor nutrition.",
+              "Dehydration."
+            ],
+            "correct": 0,
+            "explanation": "Cortisol is catabolic in the periphery. It breaks down **muscle protein** to supply Alanine/Glutamine to the liver for glucose production (wasting)."
+          },
+          {
+            "question": "A patient with severe trauma is in a hypermetabolic state. Nitrogen balance is negative. Arginine becomes an essential amino acid in this state because:",
+            "options": [
+              "The Urea Cycle is inhibited.",
+              "Endogenous synthesis cannot keep up with the demands for protein synthesis and wound healing.",
+              "Arginine is degraded.",
+              "The kidney fails.",
+              "Dietary intake is zero."
+            ],
+            "correct": 1,
+            "explanation": "Arginine is **conditionally essential**. In trauma/sepsis, the demand for Arginine (for protein, Nitric Oxide, immune function) exceeds the body's biosynthetic capacity."
+          },
+          {
+            "question": "A patient with glucose-6-phosphate dehydrogenase (G6PD) deficiency develops jaundice after eating fava beans. The oxidative stress causes hemolysis because G6PD is required to produce:",
+            "options": [
+              "ATP",
+              "NADPH (to regenerate reduced Glutathione).",
+              "NADH",
+              "Pyruvate",
+              "Glucose"
+            ],
+            "correct": 1,
+            "explanation": "**NADPH** is essential for **Glutathione Reductase**. Reduced Glutathione (GSH) neutralizes ROS. Fava beans contain oxidants (vicine) that overwhelm the depleted GSH pool in G6PD-deficient cells."
+          },
+          {
+            "question": "A patient with Type 2 Diabetes has high fasting blood glucose. This is primarily due to:",
+            "options": [
+              "Decreased muscle glucose uptake.",
+              "Unsuppressed Hepatic Gluconeogenesis (due to hepatic insulin resistance).",
+              "Increased absorption.",
+              "Decreased brain usage.",
+              "Lipolysis."
+            ],
+            "correct": 1,
+            "explanation": "Fasting hyperglycemia is driven by the liver. Insulin normally suppresses gluconeogenesis (via FoxO1). In resistance, the liver keeps pumping out glucose (**Unsuppressed Gluconeogenesis**) despite high blood sugar."
+          },
+          {
+            "question": "A patient taking Sulfonylureas for diabetes presents with hypoglycemia. C-peptide levels are:",
+            "options": [
+              "Low",
+              "High (elevated endogenous insulin secretion).",
+              "Absent",
+              "Normal",
+              "Variable"
+            ],
+            "correct": 1,
+            "explanation": "Sulfonylureas stimulate the beta-cell to release stored insulin. Since Insulin and C-peptide are co-secreted, **C-peptide will be high**. (Distinguishes from exogenous insulin overdose where C-peptide is low)."
+          },
+          {
+            "question": "A newborn with Galactosemia presents with jaundice and vomiting. The toxic metabolite Galactose-1-Phosphate accumulates. This condition requires the lifelong avoidance of:",
+            "options": [
+              "Sucrose",
+              "Lactose (Glucose + Galactose)",
+              "Fructose",
+              "Maltose",
+              "Starch"
+            ],
+            "correct": 1,
+            "explanation": "Galactose comes primarily from **Lactose** (milk sugar). Strict avoidance of dairy products is the treatment."
+          },
+          {
+            "question": "A patient with chronic kidney disease has secondary hyperparathyroidism. The kidney's ability to activate Vitamin D is impaired. Which enzyme is defective?",
+            "options": [
+              "25-Hydroxylase",
+              "1-alpha-Hydroxylase",
+              "24-Hydroxylase",
+              "Renin",
+              "ACE"
+            ],
+            "correct": 1,
+            "explanation": "The kidney contains **1-alpha-Hydroxylase**, which converts 25-OH-D3 to the active **1,25-OH-D3 (Calcitriol)**. Loss of renal mass reduces this activity, leading to hypocalcemia and bone disease."
+          },
+          {
+            "question": "A patient with Hemochromatosis has 'Bronze Diabetes'. Iron deposition in the pancreas destroys beta-cells. This leads to:",
+            "options": [
+              "Insulin Resistance",
+              "Insulin Deficiency (Type 1-like diabetes).",
+              "Glucagon deficiency.",
+              "Amyloidosis.",
+              "Autoimmunity."
+            ],
+            "correct": 1,
+            "explanation": "Iron overload causes oxidative damage and failure of the beta-cells, leading to absolute **Insulin Deficiency**."
+          },
+          {
+            "question": "A patient with Vitamin B12 deficiency has elevated Methylmalonic Acid (MMA). High MMA inhibits fatty acid synthesis and can substitute for Malonyl-CoA, leading to:",
+            "options": [
+              "Synthesis of branched-chain fatty acids that disrupt myelin membranes (Neuropathy).",
+              "Increased fat storage.",
+              "Ketosis.",
+              "Hypoglycemia.",
+              "Atherosclerosis."
+            ],
+            "correct": 0,
+            "explanation": "Incorporation of Methylmalonyl-CoA instead of Malonyl-CoA creates **branched fatty acids**. These pack poorly in membranes, causing demyelination and the neurological symptoms of B12 deficiency."
+          },
+          {
+            "question": "Orlistat is prescribed for obesity. It inhibits Pancreatic Lipase. A side effect is the malabsorption of:",
+            "options": [
+              "Amino acids",
+              "Glucose",
+              "Fat-soluble vitamins (A, D, E, K).",
+              "B12",
+              "Water"
+            ],
+            "correct": 2,
+            "explanation": "By blocking fat digestion, Orlistat prevents the formation of micelles required to absorb **Fat-Soluble Vitamins**."
+          },
+          {
+            "question": "A patient with Carcinoid Syndrome has Pellagra. The tumor diverts Tryptophan to Serotonin, causing a deficiency in:",
+            "options": [
+              "Thiamine",
+              "Niacin (Vitamin B3)",
+              "Riboflavin",
+              "B6",
+              "Folate"
+            ],
+            "correct": 1,
+            "explanation": "Tryptophan is the precursor for both Serotonin and **Niacin**. Excess serotonin synthesis steals the substrate, causing Niacin deficiency (Pellagra)."
+          },
+          {
+            "question": "A patient with sepsis has Hyperglycemia ('Stress Diabetes'). This is mediated by high levels of Epinephrine and Cortisol, which:",
+            "options": [
+              "Increase Insulin sensitivity.",
+              "Promote Glycogenolysis and Gluconeogenesis while inducing Insulin Resistance.",
+              "Inhibit the liver.",
+              "Stimulate GLUT4.",
+              "Increase fat storage."
+            ],
+            "correct": 1,
+            "explanation": "Stress hormones (Epi, Cortisol) are counter-regulatory. They mobilize fuel (Glucose) for the 'fight' by stimulating liver output and preventing muscle glucose uptake (**Insulin Resistance**)."
+          },
+          {
+            "question": "A patient with Glycogen Storage Disease Type III (Cori Disease) has a defect in the Debranching Enzyme. Unlike Type I, these patients have:",
+            "options": [
+              "Normal Lactate and Uric Acid levels (because gluconeogenesis is intact).",
+              "Severe lactic acidosis.",
+              "No hepatomegaly.",
+              "Normal glycogen structure.",
+              "Hyperglycemia."
+            ],
+            "correct": 0,
+            "explanation": "In Type III, gluconeogenesis works. The liver can convert lactate to glucose. Thus, **Lactic Acidosis** is typically absent (distinguishing it from Type I)."
+          },
+          {
+            "question": "Alcohol metabolism generates Acetyl-CoA. In a heavy drinker, this Acetyl-CoA is primarily:",
+            "options": [
+              "Oxidized in the TCA cycle.",
+              "Converted to Fatty Acids (leading to Steatosis) and Ketones.",
+              "Used for glucose.",
+              "Excreted.",
+              "Converted to protein."
+            ],
+            "correct": 1,
+            "explanation": "The TCA cycle is inhibited by high NADH (from alcohol). The excess Acetyl-CoA is shunted to **Fatty Acid Synthesis** (Fatty Liver) and **Ketogenesis**."
+          },
+          {
+            "question": "In a patient with Diabetic Ketoacidosis, the enzyme that is most active in the adipose tissue driving the pathology is:",
+            "options": [
+              "Lipoprotein Lipase",
+              "Hormone Sensitive Lipase (HSL)",
+              "Fatty Acid Synthase",
+              "Glycerol Kinase",
+              "Acyl-CoA Dehydrogenase"
+            ],
+            "correct": 1,
+            "explanation": "The lack of insulin removes the 'brake' on **HSL**. HSL becomes hyperactive, releasing massive amounts of fatty acids, which the liver converts to ketones."
+          },
+          {
+            "question": "A patient with Phenylketonuria (PKU) must supplement Tyrosine. Tyrosine is essential for the synthesis of:",
+            "options": [
+              "Serotonin",
+              "Dopamine, Epinephrine, and Melanin.",
+              "Histamine",
+              "GABA",
+              "NAD+"
+            ],
+            "correct": 1,
+            "explanation": "Tyrosine is the precursor for **Catecholamines** and **Melanin**. PKU blocks Phe $\rightarrow$ Tyr conversion, making Tyrosine essential."
+          },
+          {
+            "question": "A patient with Acute Intermittent Porphyria is advised to consume a high-carbohydrate diet during attacks. Glucose acts to:",
+            "options": [
+              "Repress the synthesis of ALA Synthase (Heme synthesis rate-limiting step).",
+              "Activate Heme oxygenase.",
+              "Bind Porphyrins.",
+              "Increase excretion.",
+              "Inhibit P450s."
+            ],
+            "correct": 0,
+            "explanation": "Glucose inhibits the transcription of **ALA Synthase**. By slowing the first step, it reduces the accumulation of toxic intermediates (ALA/PBG) causing the attack."
+          },
+          {
+            "question": "A patient with Cystinuria has recurrent kidney stones. The defect is in the transporter for:",
+            "options": [
+              "Neutral amino acids.",
+              "Dibasic amino acids (Cystine, Ornithine, Lysine, Arginine).",
+              "Acidic amino acids.",
+              "Glucose.",
+              "Uric acid."
+            ],
+            "correct": 1,
+            "explanation": "Cystinuria affects the **COLA** transporter. Cystine is insoluble and precipitates as stones."
+          },
+          {
+            "question": "A 22-year-old male is brought to the ER after being found unconscious at a party. He smells of alcohol. Blood glucose is 40 mg/dL. He has not eaten for 24 hours. The administration of Glucagon fails to raise his blood glucose. Why?",
+            "options": [
+              "Glucagon receptors are downregulated by alcohol.",
+              "Hepatic glycogen stores are depleted, and alcohol metabolism inhibits gluconeogenesis via high NADH.",
+              "He has Type 1 Diabetes.",
+              "Alcohol stimulates insulin secretion.",
+              "Alcohol inhibits glycogen phosphorylase."
+            ],
+            "correct": 1,
+            "explanation": "After 24 hours fasting, liver glycogen is gone. Maintenance of glucose depends on Gluconeogenesis. Alcohol metabolism produces high **NADH**, which blocks gluconeogenesis (Pyruvate $\rightarrow$ Lactate). Glucagon cannot work if there is no glycogen and gluconeogenesis is chemically blocked."
+          },
+          {
+            "question": "A 55-year-old obese female with Type 2 Diabetes presents with Hyperosmolar Hyperglycemic State (HHS). Her glucose is 800 mg/dL, but she has no ketones in her urine. The absence of ketoacidosis is best explained by:",
+            "options": [
+              "Total lack of insulin.",
+              "Presence of sufficient insulin to suppress lipolysis (Hormone Sensitive Lipase) but insufficient to drive glucose uptake.",
+              "Defective Carnitine Shuttle.",
+              "Excessive renal excretion of ketones.",
+              "Liver failure."
+            ],
+            "correct": 1,
+            "explanation": "Lipolysis is very sensitive to insulin inhibition. Even the **low residual insulin** in Type 2 DM is enough to block massive fatty acid release and ketogenesis. However, it is not enough to overcome insulin resistance for glucose uptake, leading to severe hyperglycemia without ketosis."
+          },
+          {
+            "question": "A 30-year-old ultra-marathon runner collapses at the 50km mark. He is confused and sweaty. Blood glucose is 45 mg/dL. He has depleted his glycogen stores ('hit the wall'). At this point, his muscles are entirely dependent on:",
+            "options": [
+              "Anaerobic glycolysis.",
+              "Creatine Phosphate.",
+              "Fatty Acid oxidation.",
+              "Amino acid degradation.",
+              "Blood lactate."
+            ],
+            "correct": 2,
+            "explanation": "When glycogen is gone, the body must switch to **Fatty Acid oxidation**. However, fat oxidation is slower (lower ATP/sec) than carbohydrate oxidation. It cannot support the same intensity of exercise, forcing the runner to slow down or collapse if glucose drops too low for brain function."
+          },
+          {
+            "question": "A 7-year-old boy presents with polyuria, polydipsia, and weight loss. His breath has a fruity odor. He is diagnosed with Type 1 Diabetes. The weight loss is primarily due to:",
+            "options": [
+              "Dehydration.",
+              "Loss of glucose in the urine (Glycosuria) and breakdown of muscle protein/fat due to lack of insulin's anabolic signal.",
+              "Decreased appetite.",
+              "Malabsorption.",
+              "Increased metabolic rate."
+            ],
+            "correct": 1,
+            "explanation": "Insulin is the primary anabolic hormone. Without it, the body enters a catabolic state: Protein and Fat are broken down. Additionally, the massive loss of glucose in urine represents a significant loss of **calories**, leading to rapid weight loss."
+          },
+          {
+            "question": "A morbidly obese patient undergoes gastric bypass surgery. Post-surgery, she experiences remission of her Type 2 Diabetes within days, long before significant weight loss. This is thought to be mediated by an increase in which gut hormone?",
+            "options": [
+              "Ghrelin",
+              "Leptin",
+              "GLP-1 (Glucagon-like Peptide 1)",
+              "Cortisol",
+              "Resistin"
+            ],
+            "correct": 2,
+            "explanation": "Bypass surgery alters gut nutrient flow, massively stimulating L-cells to secrete **GLP-1**. GLP-1 potentiates insulin secretion and improves sensitivity (Incretin effect), rapidly correcting hyperglycemia."
+          },
+          {
+            "question": "A 40-year-old male attempts a 'starvation diet'. After 3 days, his nitrogen balance is negative (losing protein). After 3 weeks, his nitrogen loss decreases significantly (protein sparing). This adaptation is due to the brain's switch to utilizing:",
+            "options": [
+              "Fatty Acids",
+              "Ketone Bodies",
+              "Lactate",
+              "Glucose derived from Glycerol",
+              "Branched-chain amino acids"
+            ],
+            "correct": 1,
+            "explanation": "The brain initially demands glucose (from muscle protein). As **Ketones** rise, the brain uses them for fuel. This reduces the demand for gluconeogenesis, thereby **sparing muscle protein** and reducing nitrogen excretion (survival mechanism)."
+          },
+          {
+            "question": "A patient with Von Gierke Disease (G6Pase deficiency) presents with lactic acidosis. The acidosis is caused by:",
+            "options": [
+              "Excessive fatty acid oxidation.",
+              "The liver's inability to convert Lactate to Glucose (Cori Cycle failure) and the shunting of trapped G6P into glycolysis.",
+              "Renal failure.",
+              "Ketosis.",
+              "Respiratory failure."
+            ],
+            "correct": 1,
+            "explanation": "Normally the liver consumes lactate. In Von Gierke, G6P cannot leave as glucose. It backs up and is forced down Glycolysis to Pyruvate $\rightarrow$ **Lactate**. The liver becomes a producer of lactate rather than a consumer."
+          },
+          {
+            "question": "A chronic alcoholic has a fatty liver (Steatosis). The biochemical mechanism involves:",
+            "options": [
+              "Increased export of VLDL.",
+              "Inhibition of fatty acid synthesis.",
+              "High NADH inhibiting Beta-oxidation and promoting re-esterification of fatty acids into Triglycerides.",
+              "Decreased uptake of fatty acids.",
+              "Defective Lipoprotein Lipase."
+            ],
+            "correct": 2,
+            "explanation": "High **NADH** from alcohol metabolism signals 'high energy'. It shuts down fat burning (Beta-oxidation) and promotes the conversion of Acetyl-CoA and Glycerol-3-P into **Triglycerides**, which accumulate in hepatocytes."
+          },
+          {
+            "question": "A patient with McArdle Disease (Muscle Phosphorylase deficiency) cannot perform high-intensity exercise but can perform gentle exercise ('Second Wind' phenomenon). The 'Second Wind' is due to the delivery of:",
+            "options": [
+              "Muscle Glycogen",
+              "Liver Glycogen",
+              "Blood Glucose and Fatty Acids (once vasodilation occurs)",
+              "Creatine Phosphate",
+              "Amino Acids"
+            ],
+            "correct": 2,
+            "explanation": "The patient cannot use muscle glycogen (blocked). Initial exercise causes pain. After ~10 mins, vasodilation increases blood flow, delivering **Blood Glucose and Fatty Acids** which the muscle *can* use, relieving symptoms."
+          },
+          {
+            "question": "A patient with Hereditary Fructose Intolerance (Aldolase B deficiency) develops hypoglycemia after eating fruit. The accumulation of Fructose-1-Phosphate causes:",
+            "options": [
+              "Inhibition of Insulin.",
+              "Sequestration of inorganic Phosphate (Pi), preventing Glycogenolysis and ATP synthesis.",
+              "Activation of Glycolysis.",
+              "Excessive Gluconeogenesis.",
+              "Fatty liver."
+            ],
+            "correct": 1,
+            "explanation": "**Phosphate Trapping**. F-1-P holds onto phosphate. Low free phosphate inhibits Glycogen Phosphorylase (which needs Pi to split glycogen). ATP levels also fall. This shuts down hepatic glucose production."
+          },
+          {
+            "question": "A 12-year-old girl with Type 1 Diabetes is admitted with DKA. She has hyperkalemia (Serum K+ 5.5). However, total body potassium is depleted. The shift of K+ out of cells is caused by:",
+            "options": [
+              "Insulin excess.",
+              "Lack of Insulin (which normally drives K+ in) and Acidosis (H+/K+ exchange).",
+              "Renal failure.",
+              "High sodium.",
+              "Cell lysis."
+            ],
+            "correct": 1,
+            "explanation": "Insulin drives $K^+$ into cells. **Lack of insulin** allows $K^+$ to leak out. Additionally, Acidosis causes $H^+$ to enter cells in exchange for **$K^+$ leaving**. This raises serum $K^+$ despite total body depletion via urine."
+          },
+          {
+            "question": "A patient with Leptin Deficiency (rare genetic mutation) presents with:",
+            "options": [
+              "Anorexia and weight loss.",
+              "Severe early-onset obesity and hyperphagia (insatiable hunger).",
+              "Hyperthyroidism.",
+              "High metabolic rate.",
+              "Type 1 Diabetes."
+            ],
+            "correct": 1,
+            "explanation": "Without **Leptin**, the brain perceives a state of constant starvation. This drives intense hunger (**Hyperphagia**) and low energy expenditure, leading to morbid obesity."
+          },
+          {
+            "question": "A bodybuilder takes Anabolic Steroids. He develops low HDL. Steroids increase the activity of which enzyme that degrades HDL?",
+            "options": [
+              "Lipoprotein Lipase",
+              "Hormone Sensitive Lipase",
+              "Hepatic Lipase",
+              "LCAT",
+              "CETP"
+            ],
+            "correct": 2,
+            "explanation": "Androgens upregulate **Hepatic Lipase**. This enzyme hydrolyzes lipids in HDL, leading to smaller particles that are rapidly cleared by the kidney/liver, thus lowering circulating **HDL** levels."
+          },
+          {
+            "question": "A patient with septic shock has hyperglycemia ('Stress Diabetes'). This is mediated by the release of Cortisol and Epinephrine, which:",
+            "options": [
+              "Increase Insulin sensitivity.",
+              "Promote hepatic Gluconeogenesis and Glycogenolysis while inducing peripheral Insulin Resistance.",
+              "Inhibit the liver.",
+              "Stimulate GLUT4.",
+              "Increase fat storage."
+            ],
+            "correct": 1,
+            "explanation": "Stress hormones mobilize fuel for the immune system/brain. They stimulate the liver to make glucose and prevent muscle/fat from using it (**Insulin Resistance**), resulting in hyperglycemia."
+          },
+          {
+            "question": "A patient with Glucose-6-Phosphate Dehydrogenase (G6PD) deficiency develops hemolysis after taking Primaquine. The hemolysis is due to a failure to produce:",
+            "options": [
+              "ATP",
+              "NADH",
+              "NADPH (essential for Glutathione antioxidant defense)",
+              "Ribose",
+              "Lactate"
+            ],
+            "correct": 2,
+            "explanation": "RBCs rely on the PPP for **NADPH**. NADPH is required to keep Glutathione reduced. Without reduced Glutathione, oxidative stress (from drugs) destroys the RBC membrane."
+          },
+          {
+            "question": "In a patient with Pyruvate Carboxylase deficiency, Acetyl-CoA accumulates but cannot enter the TCA cycle. It is diverted to form:",
+            "options": [
+              "Glucose",
+              "Ketone Bodies (causing Ketosis)",
+              "Protein",
+              "Lactate",
+              "Glycogen"
+            ],
+            "correct": 1,
+            "explanation": "Low Oxaloacetate (due to PC deficiency) prevents Acetyl-CoA entry into the TCA cycle. The backed-up Acetyl-CoA is the substrate for **Ketogenesis**. The patient presents with Lactic Acidosis (from pyruvate backup) and Ketosis."
+          },
+          {
+            "question": "A vegan patient has Methylmalonic Acidemia due to Vitamin B12 deficiency. The accumulation of Methylmalonyl-CoA interferes with:",
+            "options": [
+              "Glycolysis",
+              "Fatty Acid Synthesis (substituting for Malonyl-CoA, creating branched fatty acids).",
+              "TCA cycle.",
+              "Urea cycle.",
+              "Protein synthesis."
+            ],
+            "correct": 1,
+            "explanation": "Methylmalonyl-CoA mimics Malonyl-CoA. Fatty Acid Synthase incorporates it, adding methyl branches to fatty acid chains. These abnormal fatty acids disrupt membrane structure (myelin), contributing to neuropathy."
+          },
+          {
+            "question": "A patient with metabolic syndrome has high triglycerides. This is due to the liver overproducing VLDL. The driver for this is the high flux of:",
+            "options": [
+              "Glucose from the gut.",
+              "Free Fatty Acids from adipose tissue (due to insulin resistance not suppressing lipolysis).",
+              "Chylomicrons.",
+              "Amino acids.",
+              "Ketones."
+            ],
+            "correct": 1,
+            "explanation": "Insulin resistance in fat cells means **Hormone Sensitive Lipase** is not suppressed. Massive amounts of **Free Fatty Acids** are released, travel to the liver, and are repackaged into VLDL TGs."
+          },
+          {
+            "question": "Metformin carries a risk of Lactic Acidosis in patients with renal failure. The mechanism is:",
+            "options": [
+              "Stimulation of LDH.",
+              "Inhibition of Complex I (ETC), impairing the oxidation of NADH and the conversion of Lactate to Pyruvate.",
+              "Inhibition of renal excretion.",
+              "Increased muscle breakdown.",
+              "Inhibition of PDH."
+            ],
+            "correct": 1,
+            "explanation": "Metformin inhibits mitochondrial **Complex I**. This slows gluconeogenesis from Lactate (Cori Cycle) because converting Lactate to Pyruvate requires NAD+, but the high NADH levels (from blocked ETC) oppose this."
+          },
+          {
+            "question": "A newborn with Galactosemia (GALT deficiency) presents with jaundice and E. coli sepsis. The liver damage is caused by the accumulation of:",
+            "options": [
+              "Galactose",
+              "Galactose-1-Phosphate",
+              "Glucose-1-Phosphate",
+              "Fructose",
+              "Glycogen"
+            ],
+            "correct": 1,
+            "explanation": "**Galactose-1-Phosphate** is toxic. It accumulates in the liver, depleting phosphate and ATP, leading to hepatocyte necrosis and liver failure."
+          },
+          {
+            "question": "A patient with Prader-Willi Syndrome has insatiable hunger (Hyperphagia) and obesity. This is associated with high levels of:",
+            "options": [
+              "Leptin",
+              "Ghrelin",
+              "Insulin",
+              "PYY",
+              "Serotonin"
+            ],
+            "correct": 1,
+            "explanation": "Prader-Willi patients often have markedly elevated **Ghrelin** levels, driving an intense, physiological drive to eat."
+          },
+          {
+            "question": "During the 'Refeeding Syndrome', administration of glucose to a starved patient stimulates Insulin. This causes a rapid cellular uptake of Phosphate for ATP synthesis, leading to:",
+            "options": [
+              "Hyperphosphatemia",
+              "Hypophosphatemia (and potential respiratory/cardiac failure).",
+              "Hyperkalemia",
+              "Hyponatremia",
+              "Acidosis"
+            ],
+            "correct": 1,
+            "explanation": "The sudden shift to anabolism pulls serum **Phosphate** into cells to make ATP and 2,3-BPG. This acute **Hypophosphatemia** can cause diaphragm failure (cannot breathe) and heart failure."
+          },
+          {
+            "question": "A patient taking statins has elevated blood glucose (mild). Statins inhibit cholesterol synthesis. How might this affect glucose metabolism?",
+            "options": [
+              "Statins increase insulin secretion.",
+              "Statins may impair pancreatic beta-cell function or insulin signaling.",
+              "Statins increase gluconeogenesis.",
+              "Statins block GLUT4.",
+              "Statins increase glucagon."
+            ],
+            "correct": 1,
+            "explanation": "While the benefit outweighs the risk, statins are associated with a small increase in diabetes risk. Mechanisms may include altered islet cholesterol affecting insulin release or muscle insulin resistance."
+          },
+          {
+            "question": "In a patient with MCAD deficiency, fasting leads to hypoglycemia because:",
+            "options": [
+              "The liver cannot synthesize glycogen.",
+              "Fatty acid oxidation is blocked, so there is no ATP/NADH to drive Gluconeogenesis.",
+              "Insulin is too high.",
+              "Muscle consumes all the glucose.",
+              "The kidney fails."
+            ],
+            "correct": 1,
+            "explanation": "Gluconeogenesis is energy-dependent. Without **Fatty Acid Oxidation** providing ATP, the liver cannot sustain glucose production during fasting."
+          },
+          {
+            "question": "A patient with hyperthyroidism complains of heat intolerance and weight loss despite increased appetite. Thyroid hormone increases basal metabolic rate by:",
+            "options": [
+              "Inhibiting the ETC.",
+              "Increasing the expression of Na+/K+ ATPase and Uncoupling Proteins (leakiness).",
+              "Blocking ATP synthase.",
+              "Stimulating fat storage.",
+              "Reducing heart rate."
+            ],
+            "correct": 1,
+            "explanation": "Thyroid hormone is a general metabolic stimulant. It upregulates futile cycles, the **Na+/K+ pump** (consuming ATP), and uncoupling proteins, wasting energy as heat."
+          },
+          {
+            "question": "An alcoholic with liver cirrhosis has muscle wasting. This is because:",
+            "options": [
+              "The liver consumes muscle protein.",
+              "The failing liver cannot synthesize glucose effectively, so the body breaks down muscle to provide Amino Acids for renal gluconeogenesis and energy.",
+              "Alcohol inhibits protein synthesis.",
+              "Testosterone is low.",
+              "Ammonia destroys muscle."
+            ],
+            "correct": 1,
+            "explanation": "In cirrhosis, hepatic gluconeogenesis and glycogen storage are impaired. The body enters a 'starvation' mode rapidly, catabolizing **muscle protein** to maintain blood glucose."
+          },
+          {
+            "question": "A patient with Pyruvate Kinase deficiency has hemolytic anemia. The RBCs are rigid because:",
+            "options": [
+              "Lactate accumulates.",
+              "ATP depletion leads to failure of the Na+/K+ pump and loss of cell volume control.",
+              "Hemoglobin is defective.",
+              "Spectrin is mutated.",
+              "Iron is low."
+            ],
+            "correct": 1,
+            "explanation": "RBCs depend 100% on glycolysis for ATP. PK deficiency leads to low **ATP**. The ion pumps fail, ion balance is lost, the cell dehydrates (echinocyte) and is destroyed by the spleen."
+          },
+          {
+            "question": "Salicylate (Aspirin) overdose causes hyperthermia and metabolic acidosis. The hyperthermia is due to:",
+            "options": [
+              "Central nervous system stimulation.",
+              "Uncoupling of oxidative phosphorylation (protonophore effect).",
+              "Inhibition of prostaglandins.",
+              "Muscle rigidity.",
+              "Vasoconstriction."
+            ],
+            "correct": 1,
+            "explanation": "High doses of Salicylates act as **Uncouplers** of the mitochondrial membrane. Energy is dissipated as heat (**Hyperthermia**), and ATP production becomes inefficient."
+          },
+          {
+            "question": "In a patient with Cushing's syndrome, the excess cortisol causes 'Steroid Diabetes' by antagonizing insulin. Cortisol works genomically to upregulate:",
+            "options": [
+              "GLUT4",
+              "Pyruvate Kinase",
+              "PEPCK and Glucose-6-Phosphatase (Gluconeogenesis).",
+              "Glycogen Synthase",
+              "Acetyl-CoA Carboxylase"
+            ],
+            "correct": 2,
+            "explanation": "Cortisol is a long-term stress hormone. It induces the transcription of key gluconeogenic enzymes (**PEPCK, G6Pase**), promoting hepatic glucose output despite high insulin."
+          },
+          {
+            "question": "A patient with Type 1 Diabetes injects insulin and goes for a run. He becomes hypoglycemic. Normally, exercise lowers insulin levels. In this case, hypoglycemia occurs because:",
+            "options": [
+              "Exogenous insulin cannot be down-regulated by the body during exercise.",
+              "Muscle stops using glucose.",
+              "Liver produces too much glucose.",
+              "Adrenaline is blocked.",
+              "Glucagon is absent."
+            ],
+            "correct": 0,
+            "explanation": "Physiologically, insulin drops during exercise to allow liver glucose release. In a treated diabetic, the injected insulin continues to act. The combination of **Insulin + Exercise-induced uptake** clears glucose too fast, causing hypoglycemia."
+          },
+          {
+            "question": "A 22-year-old female with Type 1 Diabetes presents with nausea, vomiting, and deep, rapid breathing (Kussmaul respirations). Labs: pH 7.2, HCO3 10 mEq/L, pCO2 25 mmHg. Glucose 450 mg/dL. Urinalysis is positive for ketones. The Anion Gap in this patient is likely:",
+            "options": [
+              "Normal",
+              "Decreased",
+              "Elevated due to accumulation of Beta-hydroxybutyrate and Acetoacetate.",
+              "Elevated due to Lactate.",
+              "Elevated due to Chloride."
+            ],
+            "correct": 2,
+            "explanation": "This is **Diabetic Ketoacidosis (DKA)**. The metabolic acidosis is caused by the overproduction of ketoacids (unmeasured anions). This increases the **Anion Gap** ($Na - (Cl + HCO3)$). Normal gap acidosis is usually due to bicarbonate loss (diarrhea).",
+            "image_trigger": ""
+          },
+          {
+            "question": "A 60-year-old male with small cell lung cancer presents with confusion and seizures. Labs: Sodium 115 mEq/L (Hyponatremia), Urine Osmolality > Serum Osmolality. He has no edema. This is Syndrome of Inappropriate ADH (SIADH). The hyponatremia is caused by:",
+            "options": [
+              "Excessive sodium loss in urine.",
+              "Excessive water reabsorption leading to dilution of serum sodium.",
+              "Excessive water drinking.",
+              "Kidney failure.",
+              "High aldosterone."
+            ],
+            "correct": 1,
+            "explanation": "In SIADH, the tumor secretes ectopic ADH. ADH keeps collecting duct aquaporins open constantly. The kidney retains **free water**, which dilutes the serum sodium (**Dilutional Hyponatremia**). Total body sodium is normal."
+          },
+          {
+            "question": "A 30-year-old hiker gets lost without water for 24 hours. He is dehydrated. His urine will likely show:",
+            "options": [
+              "Low Specific Gravity, Low Osmolality.",
+              "High Specific Gravity, High Osmolality, Dark color.",
+              "Presence of Glucose.",
+              "Presence of Protein.",
+              "High pH."
+            ],
+            "correct": 1,
+            "explanation": "In dehydration, ADH is high. The kidney maximally conserves water. Urine volume is low, and solute concentration is high, leading to **High Specific Gravity (>1.030)** and **High Osmolality**."
+          },
+          {
+            "question": "A 45-year-old male presents with severe colicky flank pain radiating to the groin and hematuria. A CT scan confirms a kidney stone. The patient has a history of chronic diarrhea (Crohn's disease). The stone composition is likely:",
+            "options": [
+              "Calcium Phosphate",
+              "Calcium Oxalate",
+              "Magnesium Ammonium Phosphate (Struvite)",
+              "Cystine",
+              "Uric Acid"
+            ],
+            "correct": 1,
+            "explanation": "Chronic diarrhea causes fat malabsorption. Fat binds calcium in the gut, leaving **Oxalate** free to be absorbed (Enteric Hyperoxaluria). High urine oxalate binds urinary calcium, forming **Calcium Oxalate** stones."
+          },
+          {
+            "question": "A 55-year-old woman with Sjogren's syndrome presents with weakness. Labs: pH 7.25, HCO3 16 mEq/L, Normal Anion Gap. Urine pH is 6.5 (inappropriately high). This suggests Renal Tubular Acidosis (RTA) Type 1. The defect is in:",
+            "options": [
+              "Proximal tubule Bicarbonate reabsorption.",
+              "Distal tubule H+ secretion (Alpha-intercalated cells).",
+              "Aldosterone synthesis.",
+              "Glomerular filtration.",
+              "Ammonia production."
+            ],
+            "correct": 1,
+            "explanation": "**Type 1 (Distal) RTA** is a failure of the distal tubule to secrete $H^+$. Consequently, acid accumulates in the blood (Acidosis), but the urine cannot be acidified (pH > 5.5)."
+          },
+          {
+            "question": "A patient with heart failure takes Furosemide (Loop diuretic). He develops muscle cramps. Labs show Hypokalemia and Metabolic Alkalosis. The alkalosis is maintained by 'Contraction Alkalosis' and:",
+            "options": [
+              "Increased H+ secretion triggered by Aldosterone (which is elevated due to volume depletion).",
+              "Decreased Bicarbonate reabsorption.",
+              "Loss of H+ in the urine.",
+              "Increased respiratory rate.",
+              "Decreased Renin."
+            ],
+            "correct": 0,
+            "explanation": "Diuretics cause volume depletion. This activates Renin-Angiotensin-**Aldosterone**. Aldosterone restores volume by saving Na+, but at the cost of dumping $K^+$ and $H^+$. The loss of $H^+$ generates new bicarbonate, maintaining **Metabolic Alkalosis**."
+          },
+          {
+            "question": "A 5-year-old boy presents with puffiness around the eyes (periorbital edema) and frothy urine. Urinalysis shows 4+ Protein, Oval Fat Bodies, and no blood. Serum Albumin is low. The most likely diagnosis is:",
+            "options": [
+              "Acute Glomerulonephritis",
+              "Nephrotic Syndrome (e.g., Minimal Change Disease).",
+              "Kidney Stone.",
+              "Cystitis.",
+              "Tubular Necrosis."
+            ],
+            "correct": 1,
+            "explanation": "The triad of **Massive Proteinuria**, Hypoalbuminemia, and Edema is **Nephrotic Syndrome**. Frothy urine indicates protein. Oval fat bodies indicate lipiduria (liver ramps up lipid synthesis to replace lost osmotic pressure)."
+          },
+          {
+            "question": "A patient with antifreeze (Ethylene Glycol) poisoning presents with coma and renal failure. Urinalysis shows 'Envelope-shaped' crystals. These crystals are composed of:",
+            "options": [
+              "Uric Acid",
+              "Calcium Oxalate",
+              "Cystine",
+              "Struvite",
+              "Bilirubin"
+            ],
+            "correct": 1,
+            "explanation": "Ethylene Glycol is metabolized to Oxalic Acid. This binds calcium to form **Calcium Oxalate** crystals, which precipitate in tubules causing acute kidney injury. The envelope shape is pathognomonic."
+          },
+          {
+            "question": "A 50-year-old male with resistant hypertension is found to have high Aldosterone and low Renin. This indicates Primary Hyperaldosteronism (Conn's Syndrome). His electrolyte profile will likely show:",
+            "options": [
+              "Hypernatremia and Hyperkalemia",
+              "Hyponatremia and Hypokalemia",
+              "Normal/High Sodium and Hypokalemia",
+              "Low Bicarbonate",
+              "High Magnesium"
+            ],
+            "correct": 2,
+            "explanation": "High Aldosterone drives Na+ reabsorption and K+ excretion. Due to 'Aldosterone Escape' (volume expansion $\rightarrow$ ANP release), edema/hypernatremia is mild, but **Hypokalemia** is prominent."
+          },
+          {
+            "question": "A patient with head trauma develops severe polyuria (10 L/day) and intense thirst (polydipsia). Urine osmolality is very low (<200 mOsm/kg) despite high serum sodium. Administration of Desmopressin (dDAVP) rapidly concentrates the urine. The diagnosis is:",
+            "options": [
+              "Nephrogenic Diabetes Insipidus",
+              "Central Diabetes Insipidus",
+              "Psychogenic Polydipsia",
+              "Diabetes Mellitus",
+              "SIADH"
+            ],
+            "correct": 1,
+            "explanation": "Polyuria + High Na = Diabetes Insipidus (water loss). The response to Desmopressin (ADH analog) proves the kidneys *can* respond, but the signal was missing. Therefore, it is **Central DI** (lack of ADH secretion)."
+          },
+          {
+            "question": "A 65-year-old diabetic male has Hyperkalemia and non-gap Metabolic Acidosis. Renin and Aldosterone levels are both low. This is Type 4 RTA (Hyporeninemic Hypoaldosteronism). The hyperkalemia is caused by:",
+            "options": [
+              "Increased cell lysis.",
+              "Decreased renal excretion of Potassium due to lack of Aldosterone effect.",
+              "Increased intake.",
+              "Shift of K+ out of cells.",
+              "Diuretic use."
+            ],
+            "correct": 1,
+            "explanation": "Aldosterone is required to secrete Potassium in the distal nephron. Lack of Aldosterone (or resistance) leads to **Hyperkalemia** and Acidosis (since K+ secretion is coupled to H+ secretion)."
+          },
+          {
+            "question": "A patient with multiple myeloma develops renal failure. This 'Myeloma Kidney' is caused by the precipitation of which protein with Tamm-Horsfall protein in the tubules?",
+            "options": [
+              "Albumin",
+              "Bence Jones Proteins (Light Chains)",
+              "Hemoglobin",
+              "Myoglobin",
+              "Fibrinogen"
+            ],
+            "correct": 1,
+            "explanation": "Filtered free **Light Chains (Bence Jones)** are toxic to tubules and form obstructive casts with Tamm-Horsfall protein, causing obstruction and inflammation."
+          },
+          {
+            "question": "A young female with frequent UTIs presents with a Staghorn Calculus (large stone filling the renal pelvis). The urine pH is 8.5 (alkaline). The stone is likely Struvite (Magnesium Ammonium Phosphate). The causative organism produces which enzyme?",
+            "options": [
+              "Urease",
+              "Nitrate Reductase",
+              "Catalase",
+              "Coagulase",
+              "Oxidase"
+            ],
+            "correct": 0,
+            "explanation": "Urease-splitting bacteria (*Proteus, Klebsiella*) hydrolyze Urea into Ammonia. Ammonia raises urine pH ($>8$). Alkaline urine causes Magnesium and Phosphate to precipitate as **Struvite** stones."
+          },
+          {
+            "question": "A patient with Rhabdomyolysis (muscle breakdown) has dark 'tea-colored' urine. Urinalysis dipstick is positive for Blood, but microscopy shows no Red Blood Cells. The pigment causing the positive heme reaction is:",
+            "options": [
+              "Bilirubin",
+              "Myoglobin",
+              "Urobilin",
+              "Hemoglobin",
+              "Porphyrin"
+            ],
+            "correct": 1,
+            "explanation": "Muscle breakdown releases **Myoglobin**. Myoglobin contains a heme group that reacts with the dipstick reagent (False positive for blood). However, myoglobin is a molecule, not a cell, so no RBCs are seen under the microscope."
+          },
+          {
+            "question": "A climber at high altitude develops respiratory alkalosis (Hyperventilation). To compensate and normalize pH, the kidney will:",
+            "options": [
+              "Excrete more H+.",
+              "Excrete Bicarbonate (HCO3-).",
+              "Reabsorb more Bicarbonate.",
+              "Synthesize Ammonia.",
+              "Retain CO2."
+            ],
+            "correct": 1,
+            "explanation": "High altitude $\rightarrow$ Hyperventilation $\rightarrow$ Low CO2 (Resp Alkalosis). The renal compensation is to lower the blood Bicarbonate to match the low CO2. The kidney **excretes Bicarbonate** (decreasing reabsorption)."
+          },
+          {
+            "question": "A patient with chronic kidney disease (CKD) has secondary hyperparathyroidism. This occurs because the failing kidney retains Phosphate and cannot produce:",
+            "options": [
+              "Renin",
+              "Erythropoietin",
+              "1,25-Dihydroxyvitamin D (Calcitriol)",
+              "Aldosterone",
+              "Urea"
+            ],
+            "correct": 2,
+            "explanation": "The failing kidney loses 1-alpha-hydroxylase activity. Low **Calcitriol** leads to low Calcium absorption. Low Ca and High Phosphate (retention) stimulate the parathyroid glands to release PTH."
+          },
+          {
+            "question": "A patient takes Acetazolamide (Carbonic Anhydrase Inhibitor) for altitude sickness. This drug causes a metabolic acidosis by:",
+            "options": [
+              "Blocking H+ secretion in the distal tubule.",
+              "Blocking Bicarbonate reabsorption in the proximal tubule.",
+              "Inducing diarrhea.",
+              "Producing lactic acid.",
+              "Inhibiting ventilation."
+            ],
+            "correct": 1,
+            "explanation": "Carbonic Anhydrase is essential for the reclamation of filtered Bicarbonate in the PCT. Inhibiting it causes **Bicarbonate wasting** in the urine, leading to Normal Gap Metabolic Acidosis (Type 2 RTA)."
+          },
+          {
+            "question": "A patient with vomiting has metabolic alkalosis. Urine Chloride is low (<10 mEq/L). This 'Saline-Responsive' alkalosis can be corrected by giving IV Normal Saline because:",
+            "options": [
+              "It provides H+ ions.",
+              "It restores volume, shutting off Aldosterone, allowing the kidney to excrete the excess Bicarbonate.",
+              "It dilutes the blood.",
+              "It stops the vomiting.",
+              "It acidifies the urine directly."
+            ],
+            "correct": 1,
+            "explanation": "In volume depletion (vomiting), Aldosterone is high to save Na+, but this forces the kidney to save Bicarbonate too (maintenance of alkalosis). Restoring volume (**Saline**) turns off Aldosterone, allowing the kidney to dump the excess Bicarbonate."
+          },
+          {
+            "question": "A patient with liver cirrhosis has low BUN but high Ammonia. This reflects:",
+            "options": [
+              "Renal failure.",
+              "Failure of the hepatic Urea Cycle.",
+              "Muscle wasting.",
+              "High protein diet.",
+              "GI bleeding."
+            ],
+            "correct": 1,
+            "explanation": "The liver converts toxic Ammonia to Urea. In liver failure, this conversion stops. **Ammonia rises** (toxic) and **Urea falls**."
+          },
+          {
+            "question": "A patient with uncontrolled diabetes has Glucose 400 mg/dL. Urinalysis shows Glucosuria. This osmotic diuresis leads to the loss of:",
+            "options": [
+              "Water only.",
+              "Water and Electrolytes (Na+, K+).",
+              "Protein.",
+              "Red blood cells.",
+              "Bicarbonate only."
+            ],
+            "correct": 1,
+            "explanation": "Glucose in the tubule exerts osmotic pressure, keeping water in the lumen. The high flow rate washes out electrolytes (**Sodium, Potassium**) leading to profound dehydration and electrolyte depletion."
+          },
+          {
+            "question": "Fanconi Syndrome is a generalized defect of the Proximal Tubule. Patients present with:",
+            "options": [
+              "Only proteinuria.",
+              "Glucosuria, Aminoaciduria, Phosphaturia, and Bicarbonate wasting (Type 2 RTA).",
+              "Hypertension.",
+              "Hyperkalemia.",
+              "Kidney stones."
+            ],
+            "correct": 1,
+            "explanation": "The PCT reabsorbs Glucose, AA, Phosphate, and Bicarbonate. Fanconi syndrome is a global failure of these transporters, leading to the loss of **all** these solutes in the urine."
+          },
+          {
+            "question": "A patient with Aspirin (Salicylate) overdose presents with Tinnitus and mixed acid-base disorder. Early on, they have Respiratory Alkalosis. Later, they develop Metabolic Acidosis due to:",
+            "options": [
+              "Renal failure.",
+              "Accumulation of Salicylic acid, Lactic acid, and Ketoacids (uncoupling effect).",
+              "Diarrhea.",
+              "Vomiting.",
+              "Hypoxia."
+            ],
+            "correct": 1,
+            "explanation": "Salicylates uncouple oxidative phosphorylation, leading to anaerobic metabolism (**Lactic acid**) and lipid metabolism (**Ketoacids**). This creates a High Anion Gap Metabolic Acidosis."
+          },
+          {
+            "question": "A patient with obstructive jaundice has dark urine. The dipstick is positive for Bilirubin but Urobilinogen is normal/low. This pattern confirms:",
+            "options": [
+              "Hemolysis",
+              "Biliary obstruction (Cholestasis).",
+              "Gilbert's syndrome.",
+              "Hepatitis.",
+              "Normal finding."
+            ],
+            "correct": 1,
+            "explanation": "Biliary obstruction prevents bilirubin from entering the gut. Conjugated bilirubin backs up into blood and spills into urine (**Bilirubinuria**). Because no bilirubin enters the gut, no **Urobilinogen** is made."
+          },
+          {
+            "question": "Liddle's Syndrome mimics Hyperaldosteronism (Hypertension, Hypokalemia) but Aldosterone levels are low. The defect is:",
+            "options": [
+              "Tumor secreting renin.",
+              "Activating mutation of the ENaC channel (constitutively open).",
+              "Defect in 11-beta-HSD.",
+              "Excess cortisol.",
+              "Vasculitis."
+            ],
+            "correct": 1,
+            "explanation": "Genetic mutation prevents the degradation of **ENaC**. The channels remain on the surface, avidly reabsorbing Sodium (Hypertension) and wasting Potassium, independent of Aldosterone regulation."
+          },
+          {
+            "question": "A patient taking Lithium for Bipolar disorder develops Polyuria. Lithium causes Nephrogenic Diabetes Insipidus by:",
+            "options": [
+              "Destroying the pituitary.",
+              "Interfering with the signaling of ADH (V2 receptor/Aquaporin) in the collecting duct.",
+              "Acting as an osmotic diuretic.",
+              "Damaging the glomerulus.",
+              "Inhibiting renin."
+            ],
+            "correct": 1,
+            "explanation": "Lithium enters principal cells via ENaC and disrupts the cAMP signaling pathway of ADH. The cell becomes resistant to ADH (**Nephrogenic DI**), unable to concentrate urine."
+          },
+          {
+            "question": "A child with 'Blue Diaper Syndrome' has hypercalcemia and nephrocalcinosis. This is due to a defect in Tryptophan absorption. The blue color comes from:",
+            "options": [
+              "Oxidation of urinary Indican (derived from bacterial metabolism of unabsorbed Tryptophan).",
+              "Bilirubin.",
+              "Blood.",
+              "Copper.",
+              "Drugs."
+            ],
+            "correct": 0,
+            "explanation": "Unabsorbed Tryptophan is converted by gut bacteria to Indole $\rightarrow$ Indican. Indican is excreted in urine and oxidizes to Indigo Blue."
+          },
+          {
+            "question": "A patient with chronic diarrhea has a Non-Gap Metabolic Acidosis. The mechanism is:",
+            "options": [
+              "Loss of H+ in stool.",
+              "Direct loss of Bicarbonate-rich fluids in the stool.",
+              "Production of lactic acid.",
+              "Renal failure.",
+              "Ketosis."
+            ],
+            "correct": 1,
+            "explanation": "Stool water (below the pylorus) is rich in **Bicarbonate**. Diarrhea causes direct loss of base, leaving Chloride behind (Hyperchloremic/Normal Gap Acidosis)."
+          },
+          {
+            "question": "A pregnant woman has Glucosuria but normal blood glucose. This 'Renal Glycosuria' is due to:",
+            "options": [
+              "Diabetes.",
+              "Increased GFR and reduced threshold for glucose reabsorption (physiological in pregnancy).",
+              "Kidney failure.",
+              "UTI.",
+              "High carbohydrate diet."
+            ],
+            "correct": 1,
+            "explanation": "Pregnancy increases GFR by 50%, increasing the filtered load of glucose. The reabsorptive capacity ($T_m$) may not keep up, or the threshold may lower, leading to benign glycosuria."
+          },
+          {
+            "question": "Acute Tubular Necrosis (ATN) causes renal failure. Urinalysis typically shows:",
+            "options": [
+              "Normal findings.",
+              "Muddy Brown (Granular) Casts.",
+              "RBC Casts.",
+              "WBC Casts.",
+              "Fatty Casts."
+            ],
+            "correct": 1,
+            "explanation": "Dead tubular epithelial cells slough off into the lumen, forming **Muddy Brown Casts**. (RBC casts = Glomerulonephritis; WBC casts = Pyelonephritis)."
+          },
+          {
+            "question": "A patient with Vitamin D resistant rickets (X-linked Hypophosphatemia) has a defect in PHEX. This leads to high levels of FGF23. FGF23 acts on the kidney to:",
+            "options": [
+              "Increase Phosphate reabsorption.",
+              "Inhibit Phosphate reabsorption (causing wasting) and inhibit 1-alpha-hydroxylase.",
+              "Increase Calcium.",
+              "Decrease GFR.",
+              "Stimulate PTH."
+            ],
+            "correct": 1,
+            "explanation": "**FGF23** is a 'phosphatonin'. It tells the kidney to dump Phosphate (inhibits NaPi transporter) and stop making active Vitamin D. Excess FGF23 causes profound hypophosphatemia and rickets."
           }
+          
+
         ]
       }
     }
