@@ -112,7 +112,7 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-gray-700 mt-12 pt-8 text-center">
           <p className="text-gray-400 text-sm">
-            &copy; 2025 Dexter for Med. All rights reserved. | Designed for Medical Students by a Medical Student
+            &copy; 2026 Dexter for Med. All rights reserved. | Designed for Medical Students by a Medical Student
           </p>
         </div>
       </div>
